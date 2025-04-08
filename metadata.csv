@@ -49,15 +49,15 @@
 3929,130,40,Euarthropoda,,
 4103,159,144,Euarthropoda,,
 4111,102,74,Non-animals,,
-4173,155,81,Euarthropoda,,
-4220,48,47,Euarthropoda,,
-4230,302,125,Euarthropoda,,
-4284,27,4062,Vertebrates,,
-4285,155,81,Euarthropoda,,
-4291,246,63,Vertebrates,,
-4305,65,36,Euarthropoda,,
-4308,68,27,Euarthropoda,,
-4309,68,16,Vertebrates,,
+4173,155,81,Euarthropoda,Subfamily,Duplicate of 4285
+4220,48,47,Euarthropoda,Family,Inocelliidae 
+4230,302,125,Euarthropoda,Family,Filistatidae 
+4284,27,4062,Vertebrates,Order,Anura
+4285,155,81,Euarthropoda,Subfamily,Pselaphinae 
+4291,246,63,Vertebrates,Superfamily,Lacertoidea
+4305,65,36,Euarthropoda,Order,Lepidoptera
+4308,68,27,Euarthropoda,Family,Nymphidae
+4309,68,16,Vertebrates,Family,Spheniscidae
 4310,46,48,Invertebrates,Family,Lobophylliidae 
 4467,48,47,Euarthropoda,Family,Inocelliidae 
 4649,127,82,Euarthropoda,Superfamily,Empidoidea
