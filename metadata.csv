@@ -1,85 +1,91 @@
-﻿project,nChar,nTaxa,taxon,rank,note
-104,207,29,Vertebrates,Order,Bats
-157,408,69,Vertebrates,Infraclass,Placentalia
-175,71,165,Invertebrates,Family,Cylindroleberidid 
-450,50,82,Non-animals,Tribe,Stipeae 
-493,290,35,Vertebrates,Superclass,Ornithodira
-563,77,45,Invertebrates,Class,Fabriciidae 
-635,20,19,Non-animals,Genus,Podalyria 
-675,52,16,Vertebrates,Infraclass,Placentalia
-684,303,52,Vertebrates,Order,Primates
-691,446,103,Vertebrates,Class,Mammalia
-692,408,71,Vertebrates,Class,Mammalia
-706,114,9,Vertebrates,Superclass,Tetrapoda
-748,138,60,Vertebrates,Class,Acanthodia
-950,9,12,Invertebrates,Class,Hexacorallia
-1113,42,38,Invertebrates,Order,Phyllodocida 
-1210,36,86,Invertebrates,Phylum,Echinodermata 
-1271,33,25,Invertebrates,Family,Amaltheidae 
-2131,55,32,Invertebrates,Phylum,Euarthropoda
-2463,5,20,Non-animals,,cf 950
-2553,145,37,Vertebrates,Subclass,Holocephali
-2800,225,54,Invertebrates,Superphylum,Brachiozoa
-3199,168,88,Euarthropoda,Order,Euphausiacea
-3200,113,138,Euarthropoda,Subtribe,Philonthina 
-3244,34,26,Euarthropoda,Order,Archaeognatha 
-3345,77,44,Euarthropoda,Subtribe,Atlides Section
-3351,143,34,Vertebrates,Family,Alopoglossidae 
-3392,132,47,Invertebrates,Family,Turbinidae
-3405,324,100,Euarthropoda,Family,Gnaphosidae 
-3408,30,19,Vertebrates,Tribe,Galericini
-3445,34,30,Euarthropoda,Order,Archaeognatha 
-3448,81,135,Euarthropoda,Suborder,Heteroptera 
-3603,14,70,Non-animals,Genus,Deparia
-3646,202,69,Euarthropoda,Subfamily,Aleocharinae 
-3655,14,40,Non-animals,Subclass,marattialean 
-3670,120,62,Non-animals,Phylum,Division Marchantiophyta
-3705,193,27,Vertebrates,Genus,Sphaenorhynchus 
-3707,131,151,Invertebrates,Superfamily,Chaetonotidae 
-3708,254,69,Vertebrates,Order,Crocodilia 
-3710,65,115,Euarthropoda,Infraorder,Nepomorpha
-3711,132,79,Euarthropoda,Subtribe,Staphylininae
-3755,201,46,Vertebrates,Tribe,Dendropsophini
-3757,61,59,Euarthropoda,Family,Lithobiidae 
-3763,105,205,Non-animals,Family,Arecaceae
-3804,117,54,Invertebrates,Subphylum,Tunicata 
-3832,27,10,Euarthropoda,Family,Canthyloscledidae
-3833,69,48,Euarthropoda,Family,Histeridae 
-3927,154,64,Invertebrates,Superphylum,Panarthropoda
-3929,130,40,Euarthropoda,Family,Chalcididae 
-4103,159,144,Euarthropoda,Infraorder,Dipsocoromorpha 
-4111,102,74,Non-animals,Genus,Ficus 
-4173,155,81,Euarthropoda,Subfamily,Duplicate of 4285
-4220,48,47,Euarthropoda,Family,Inocelliidae 
-4230,302,125,Euarthropoda,Family,Filistatidae 
-4284,27,4062,Vertebrates,Order,Anura
-4285,155,81,Euarthropoda,Subfamily,Pselaphinae 
-4291,246,63,Vertebrates,Superfamily,Lacertoidea
-4305,65,36,Euarthropoda,Order,Lepidoptera
-4308,68,27,Euarthropoda,Family,Nymphidae
-4309,68,16,Vertebrates,Family,Spheniscidae
-4310,46,48,Invertebrates,Family,Lobophylliidae 
-4467,48,47,Euarthropoda,Family,Inocelliidae 
-4649,127,82,Euarthropoda,Superfamily,Empidoidea
-4747,15,25,Euarthropoda,Subgenus,Acanthopyge
-4761,370,58,Vertebrates,Superclass,Tetrapoda
-4789,12,13,Invertebrates,Subfamily,Agelacrinitinae
-4790,32,17,Invertebrates,Subclass,Graptolithina (Pterobranchia)
-4817,267,101,Invertebrates,Class,Chelicerata
-4867,138,60,Vertebrates,Class,Acanthodii 
-4910,160,26,Vertebrates,Class,Sarcopterygii
-5099,15,53,Non-animals,Family,Menispermaceae 
-5186,41,43,Invertebrates,Order,Clypeasteroida
-5201,71,86,Non-animals,Order,Cornales
-5228,146,59,Invertebrates,Genus,Cyclocardia 
-5230,40,71,Invertebrates,Order,Clypeasteroida
-5255,9,13,Invertebrates,Family,Delthyridoidea 
-5268,46,30,Invertebrates,Order,Cyclostomata 
-5327,135,55,Invertebrates,Order,Diplobathrida  (Crinoidea)
-07200,297,39,Vertebrates,Class,Aves
-07201,2954,125,Vertebrates,Class,Aves
-07202,111,360,Vertebrates,Order,Primates
-07203,196,50,Vertebrates,Class,Mammalia
-07204,748,225,Vertebrates,Class,Mammalia
-07205,748,206,Vertebrates,Class,Mammalia
-07206,538,117,Vertebrates,Class,Mammalia
+﻿project,nChar,nTaxa,taxon,rank,note,annotator
+104,207,29,Vertebrates,Order,Bats,BYang
+157,408,69,Vertebrates,Infraclass,Placentalia,BYang
+175,71,165,Invertebrates,Family,Cylindroleberidid ,BYang
+450,50,82,Non-animals,Tribe,Stipeae ,BYang
+493,290,35,Vertebrates,Superclass,Ornithodira,BYang
+563,77,45,Invertebrates,Class,Fabriciidae ,BYang
+635,20,19,Non-animals,Genus,Podalyria ,BYang
+675,52,16,Vertebrates,Infraclass,Placentalia,BYang
+684,303,52,Vertebrates,Order,Primates,BYang
+691,446,103,Vertebrates,Class,Mammalia,BYang
+692,408,71,Vertebrates,Class,Mammalia,BYang
+706,114,9,Vertebrates,Superclass,Tetrapoda,BYang
+748,138,60,Vertebrates,Class,Acanthodia,BYang
+950,9,12,Invertebrates,Class,Hexacorallia,BYang
+1113,42,38,Invertebrates,Order,Phyllodocida ,BYang
+1210,36,86,Invertebrates,Phylum,Echinodermata ,BYang
+1271,33,25,Invertebrates,Family,Amaltheidae ,BYang
+2131,55,32,Invertebrates,Phylum,Euarthropoda,BYang
+2463,5,20,Non-animals,,cf 950,BYang
+2553,145,37,Vertebrates,Subclass,Holocephali,BYang
+2800,225,54,Invertebrates,Superphylum,Brachiozoa,BYang
+3199,168,88,Euarthropoda,Order,Euphausiacea,BYang
+3200,113,138,Euarthropoda,Subtribe,Philonthina ,BYang
+3244,34,26,Euarthropoda,Order,Archaeognatha ,BYang
+3345,77,44,Euarthropoda,Subtribe,Atlides Section,BYang
+3351,143,34,Vertebrates,Family,Alopoglossidae ,BYang
+3392,132,47,Invertebrates,Family,Turbinidae,BYang
+3405,324,100,Euarthropoda,Family,Gnaphosidae ,BYang
+3408,30,19,Vertebrates,Tribe,Galericini,BYang
+3445,34,30,Euarthropoda,Order,Archaeognatha ,BYang
+3448,81,135,Euarthropoda,Suborder,Heteroptera ,BYang
+3603,14,70,Non-animals,Genus,Deparia,BYang
+3646,202,69,Euarthropoda,Subfamily,Aleocharinae ,BYang
+3655,14,40,Non-animals,Subclass,marattialean ,BYang
+3670,120,62,Non-animals,Phylum,Division Marchantiophyta,BYang
+3705,193,27,Vertebrates,Genus,Sphaenorhynchus ,BYang
+3707,131,151,Invertebrates,Superfamily,Chaetonotidae ,BYang
+3708,254,69,Vertebrates,Order,Crocodilia ,BYang
+3710,65,115,Euarthropoda,Infraorder,Nepomorpha,BYang
+3711,132,79,Euarthropoda,Subtribe,Staphylininae,BYang
+3755,201,46,Vertebrates,Tribe,Dendropsophini,BYang
+3757,61,59,Euarthropoda,Family,Lithobiidae ,BYang
+3763,105,205,Non-animals,Family,Arecaceae,BYang
+3804,117,54,Invertebrates,Subphylum,Tunicata ,BYang
+3832,27,10,Euarthropoda,Family,Canthyloscledidae,BYang
+3833,69,48,Euarthropoda,Family,Histeridae ,BYang
+3927,154,64,Invertebrates,Superphylum,Panarthropoda,BYang
+3929,130,40,Euarthropoda,Family,Chalcididae ,BYang
+4103,159,144,Euarthropoda,Infraorder,Dipsocoromorpha ,BYang
+4111,102,74,Non-animals,Genus,Ficus ,BYang
+4173,155,81,Euarthropoda,Subfamily,Duplicate of 4285,BYang
+4220,48,47,Euarthropoda,Family,Inocelliidae ,BYang
+4230,302,125,Euarthropoda,Family,Filistatidae ,BYang
+4284,27,4062,Vertebrates,Order,Anura,BYang
+4285,155,81,Euarthropoda,Subfamily,Pselaphinae ,BYang
+4291,246,63,Vertebrates,Superfamily,Lacertoidea,BYang
+4305,65,36,Euarthropoda,Order,Lepidoptera,BYang
+4308,68,27,Euarthropoda,Family,Nymphidae,BYang
+4309,68,16,Vertebrates,Family,Spheniscidae,BYang
+4310,46,48,Invertebrates,Family,Lobophylliidae ,BYang
+4467,48,47,Euarthropoda,Family,Inocelliidae ,BYang
+4649,127,82,Euarthropoda,Superfamily,Empidoidea,BYang
+4747,15,25,Euarthropoda,Subgenus,Acanthopyge,BYang
+4761,370,58,Vertebrates,Superclass,Tetrapoda,BYang
+4789,12,13,Invertebrates,Subfamily,Agelacrinitinae,BYang
+4790,32,17,Invertebrates,Subclass,Graptolithina (Pterobranchia),BYang
+4817,267,101,Invertebrates,Class,Chelicerata,BYang
+4867,138,60,Vertebrates,Class,Acanthodii ,BYang
+4910,160,26,Vertebrates,Class,Sarcopterygii,BYang
+5099,15,53,Non-animals,Family,Menispermaceae ,BYang
+5186,41,43,Invertebrates,Order,Clypeasteroida,BYang
+5201,71,86,Non-animals,Order,Cornales,BYang
+5228,146,59,Invertebrates,Genus,Cyclocardia ,BYang
+5230,40,71,Invertebrates,Order,Clypeasteroida,BYang
+5255,9,13,Invertebrates,Family,Delthyridoidea ,BYang
+5268,46,30,Invertebrates,Order,Cyclostomata ,BYang
+5327,135,55,Invertebrates,Order,Diplobathrida  (Crinoidea),BYang
+07200,297,39,Vertebrates,Class,Aves,MRSmith
+07201,2954,125,Vertebrates,Class,Aves,MRSmith
+07202,111,360,Vertebrates,Order,Primates,MRSmith
+07203,196,50,Vertebrates,Class,Mammalia,MRSmith
+07204,748,225,Vertebrates,Class,Mammalia,MRSmith
+07205,748,206,Vertebrates,Class,Mammalia,MRSmith
+07206,538,117,Vertebrates,Class,Mammalia,MRSmith
+2348,93,39,Vertebrates,Superorder,Ginglymodi (Fish),DCusco
+4596,35,98,Euarthropoda,Family,"Issidae (Hemiptera, Auchenorrhyncha, Fulgoroidea)",DCusco
+5518,77,61,Euarthropoda,Suborder, Stephanoidea + Evanioidea,DCusco
+5529,30,50,Euarthropoda,Subfamily,"Salticinae (Araneae, Salticidae, Euophryini)",DCusco
+5815,32,53,Euarthropoda,Order,Phacopida (Trilobita),DCusco
+6072,18,12,Non-animals,Section ," Bromatorrhiza (Allium, Amaryllidaceae)",DCusco

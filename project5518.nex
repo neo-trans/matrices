@@ -1,0 +1,553 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-1-7 12.32.08 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=61;
+	TAXLABELS
+		'Karatavites medius'
+		'Burmorussus mirabilis'
+		'Orussus abietinus'
+		'Ticostephanus longus'
+		'Ticostephanus kachinensis'
+		'Ticostephanus hui'
+		'Hypselogastrion simplex'
+		'Kotujisca kholbotensis'
+		'Kotujellites crucis'
+		'Gasteruption assectator'
+		'Pseudofoenus unguiculatus'
+		'Baissa anomala'
+		'Humiryssus cancellatus'
+		'Electrobaissa omega'
+		'Manlaya ultima'
+		'Paleoaulacus minutus'
+		'Vectevania vetula'
+		'Aulacus eocenicus'
+		'Aulacus striatus'
+		'Electrofoenia jehani'
+		'Electrofoenops diminuta'
+		'Exilaulacus loculatus'
+		'Pristaulacus calidus'
+		'Brachygaster dominicanus'
+		'Semaeomyia hispaniola'
+		'Hyptia mexicana'
+		'Lebanevania azari'
+		'Mesevania swinhoei'
+		'Eoevania magnifica'
+		'Praevania sculpturata'
+		'Evania appendigaster'
+		'Keratodellitha basilisci'
+		'Othniodellitha mantichora'
+		'Xenodellitha preta'
+		'Anomopterella coalita'
+		'Synaphopterella patula'
+		'Andrenelia pinnata'
+		'Praeaulacus tenellus'
+		'Aulacogastrinus insculptus'
+		'Gulgonga beattiei'
+		'Habraulacus zhaoi'
+		'Paleosyncrasis hongi'
+		'Sinaulacogastrinus eucallus'
+		'Aptenoperissus burmanicus'
+		'Myanmarina jeannineae'
+		'Ohlhoffia robusta'
+		'Myanmephialtites bashkuevi'
+		'Archaeostephanus corae'
+		'Kronostephanus zigrasi'
+		'Electrostepanus janzeni'
+		'Denaeostephanus sulcatus'
+		'Lagenostephanus lii'
+		'Protostephanus ashmeadi'
+		'Schlettererius cinctipes'
+		'Acephialtitia colossa'
+		'Crephanogaster rara'
+		'Tuphephialtites zherikhini'
+		'Stephanogaster magna'
+		'Karataus pedalis'
+		'Karataviola micrura'
+		'Micrephialtites minor'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=77;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Head shape'
+		[2] 'Dorsal and median coronal teeth'
+		[3] 'Number of ventral coronal teeth'
+		[4] 'Compound eye length'
+		[5] 'Prominent facial horn'
+		[6] 'Antennal insertion relative to eye'
+		[7] 'Number of antennomeres in male'
+		[8] 'Number of antennomeres in female'
+		[9] 'Structure of antenna'
+		[10] 'Length of scapus'
+		[11] 'Scapus width relative to pedicellus'
+		[12] '1st flagellomere length relative to 2nd flagellomere'
+		[13] 'Apical flagellomere length relative to penultimate flagellomere'
+		[14] 'Mandibles'
+		[15] 'Number of maxillary palpomeres'
+		[16] 'Fore wing vein C'
+		[17] 'Fore wing vein 1r-rs'
+		[18] 'Fore wing vein 2A'
+		[19] 'Fore wing subbasal loop of vein 2A'
+		[20] 'Fore wing vein a1-a2'
+		[21] 'Fore wing vein 2r-m'
+		[22] 'Fore wing vein 3r-m'
+		[23] 'Fore wing crossvein 2m-cu'
+		[24] 'Fore wing vein 2r-rs'
+		[25] 'Position of crossvein 2r-rs of fore wing'
+		[26] 'Fore wing vein 1-Rs'
+		[27] 'Fore wing vein 1 m-cu'
+		[28] 'Shape of vein M+Cu'
+		[29] 'Fore wing vein 1Rs +M'
+		[30] 'Fore wing vein 2Rs +M'
+		[31] 'Relative lengths of veins 1Rs+M and 2Rs+M in fore wing'
+		[32] 'Fore wing marginal cell 3r'
+		[33] 'Fore wing distalmost abscissa of vein Rs'
+		[34] 'Relative position of veins 2r-m and 2m-cu'
+		[35] 'Fore wing veins 1-Rs and 1-M'
+		[36] 'Fore wing cells 1M and 2M'
+		[37] 'First submarginal cell 1+2r'
+		[38] 'Fore wing vein 1A'
+		[39] 'Fore wing vein 2-1A basally'
+		[40] 'Number of cross veins in hind wing'
+		[41] 'Hind wing cell r'
+		[42] 'Vein C of hind wing'
+		[43] 'Vein SC of hind wing'
+		[44] 'Veins R and RS of hind wing'
+		[45] 'Crossvein r-m of hind wing'
+		[46] 'Hind wing, m-cu cross vein'
+		[47] 'Vein cu-a of hind wing'
+		[48] 'Hind wing jugal lobe (posterobasal wing area)'
+		[49] 'Groove on hind coxa'
+		[50] 'Hind coxa'
+		[51] 'Hind coxa-2'
+		[52] 'Metacoxa in lateral view'
+		[53] 'Hind trochantellus'
+		[54] 'Hind femur'
+		[55] 'Hind femur-2'
+		[56] 'Hind tibia'
+		[57] 'Hind tibia-2'
+		[58] 'Pronotum'
+		[59] 'Propleuron'
+		[60] 'Medial mesoscutal sulcus'
+		[61] 'Notauli'
+		[62] 'Mesoscutum'
+		[63] 'Propodeum'
+		[64] 'Propodeum shape'
+		[65] 'Shape of mesosoma'
+		[66] 'Wasp-waist'
+		[67] 'Metasoma in dorsal view'
+		[68] 'Metasomal shape 1'
+		[69] 'Metasomal shape 2'
+		[70] 'Shape and length of first metasomal segment'
+		[71] 'Hind face of propodeum between metasomal and hind coxal bases'
+		[72] 'First metasomal segment'
+		[73] 'First metasomal sternite'
+		[74] 'Second metasomal tergite sculpture'
+		[75] 'Ovipositor'
+		[76] 'Ovipositor sheath shape'
+		[77] 'Functional spiracles in female'
+	;
+	STATELABELS
+		1
+			'head capsule not extended'
+			'head capsule extended ventrally, flattened posteriorly'
+			,
+		2
+			'absent'
+			'present'
+			'state not defined by author in publication'
+			,
+		3
+			'none'
+			'one'
+			'two'
+			,
+		4
+			'long, almost extending to mandible'
+			'shorter, terminating some distance from mandible base'
+			,
+		5
+			'present'
+			'absent'
+			,
+		6
+			'about level with base of eyes or slightly below'
+			'at least half-way up eyes'
+			,
+		7
+			'less than 13'
+			'13'
+			'more than 13'
+			,
+		8
+			'less than 13'
+			'13'
+			'14'
+			'more than 14'
+			,
+		9
+			'simple'
+			'more or less elbowed'
+			,
+		10
+			'scapus short, less than twice as long as pedicellus'
+			'scapus moderately long, more than twice as long as pedicellus'
+			,
+		11
+			'scapus much wider than pedicellus'
+			'scapus at most as wide as pedicellus'
+			'state not defined by author in publication'
+			,
+		12
+			'1st flagellomere longer than 2nd'
+			'1st flagellomere the same length as 2nd'
+			'1st flagellomere shorter than 2nd'
+			,
+		13
+			'apical flagellomere more than twice as long as penultimate flagellomere'
+			'apical flagellomere than 1 to 2 times as long as penultimate flagellomere'
+			'apical flagellomere short than penultimate flagellomere'
+			,
+		14
+			'mandibles short, scarcely overlapping when closed'
+			'mandibles overlapping when closed'
+			,
+		15
+			'less than four'
+			'four'
+			'more than four'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'present'
+			'absent'
+			,
+		18
+			'present'
+			'absent'
+			,
+		19
+			'present'
+			'absent'
+			,
+		20
+			'present'
+			'absent'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'present'
+			'absent'
+			,
+		23
+			'present'
+			'absent'
+			,
+		24
+			'2r-rs longer than pterostigma width'
+			'2r-rs at most as long as pterostigma width'
+			,
+		25
+			'2r-rs arises no further than middle of pterostigma'
+			'2r-rs arises distal to middle of pterostigma'
+			,
+		26
+			'1-Rs shorter than 1-M'
+			'1-Rs approx. as long as 1-M'
+			'1-Rs longer than 1-M'
+			,
+		27
+			'present'
+			'absent'
+			,
+		28
+			'curved or angular'
+			'nearly straight'
+			,
+		29
+			'present'
+			'absent, at least basal to 1m-cu'
+			,
+		30
+			'present'
+			'absent'
+			,
+		31
+			'1Rs+M longer than 2Rs+M'
+			'1Rs+M approx. equal to 2Rs+M'
+			'1Rs+M shorter than 2Rs+M'
+			,
+		32
+			'polygonal'
+			'triangular'
+			,
+		33
+			'Rs meeting anterior wing margin well before wing apex'
+			'Rs reaching to near wing apex'
+			,
+		34
+			'2r-m basal of 2m-cu'
+			'2m-cu basal of 2r-m'
+			,
+		35
+			'1-Rs and 1-M nearly parallel, no significant angle between them'
+			'1-Rs and 1-M strongly angled at the junction of Rs+M'
+			,
+		36
+			'1M wider than 2M'
+			'1M nearly as wide as 2M'
+			'1M distinctly narrower than 2M'
+			'state not defined by author in publication'
+			'New State'
+			,
+		37
+			'shorter than either marginal cell 3r or basal cell (or both)'
+			'longer than both'
+			'state not defined by author in publication'
+			,
+		38
+			'complete, extending beyond cu-a'
+			'incomplete, only reaching cu-a or completely absent'
+			,
+		39
+			'curved'
+			'straight'
+			,
+		40
+			'two or more'
+			'one'
+			'none'
+			,
+		41
+			'enclosed'
+			'open or absent'
+			,
+		42
+			'present'
+			'absent'
+			,
+		43
+			'present'
+			'absent'
+			,
+		44
+			'R and Rs at least partly tubular'
+			'Rs completely nebulous or absent'
+			,
+		45
+			'tubular'
+			'nebulous to absent'
+			,
+		46
+			'present'
+			'partially present'
+			'absent'
+			,
+		47
+			'present'
+			'absent'
+			,
+		48
+			'delimited by a fold and tucking under the wing at rest'
+			'absent'
+			,
+		49
+			'present'
+			'absent'
+			,
+		50
+			'without dorsal teeth'
+			'with dorsal teeth'
+			,
+		51
+			'robust'
+			'slender'
+			,
+		52
+			'widest at base, the two basal articulations with metapleuron widely separated from each other and arranged vertically'
+			'usually strongly narrowed at base, the two basal articulations usually very close to one another and arranged obliquely'
+			,
+		53
+			'present'
+			'absent'
+			,
+		54
+			'smooth'
+			'with dentition'
+			,
+		55
+			'swollen'
+			'slender'
+			,
+		56
+			'only slightly wider distally than basally'
+			'slightly wider in the middle'
+			'much wider distally than basally'
+			,
+		57
+			'somewhat longer than femur'
+			'as long as femur'
+			'somewhat shorter than femur'
+			,
+		58
+			'short'
+			'elongate extended as thin neck'
+			,
+		59
+			'short or elongate jointly with pronotum'
+			'elongate alone, extended as thin neck'
+			,
+		60
+			'present'
+			'absent'
+			,
+		61
+			'if present, not continuous posteriorly'
+			'present, merge posteriorly before reaching the transscutal articulation'
+			,
+		62
+			'not raised'
+			'raised anteriorly, above posterior pronotal border'
+			,
+		63
+			'propodeum with metasomal attachment not elevated pyramidically'
+			'propodeum with metasomal attachment elevated pyramidically and close to metanotum'
+			,
+		64
+			'propodeum straight in lateral view'
+			'convex between metanotum and metasomal articulation'
+			,
+		65
+			'elongate'
+			'short'
+			,
+		66
+			'body in dorsal view with no constriction near its middle between abdominal segments 1 and 2'
+			'body in dorsal view with little constriction near its middle between abdominal segments 1 and 2'
+			'body in dorsal view with strong and usually conspicuous dorsal and lateral constriction between abdominal segments 1 and 2, thus delimiting the mesosoma and metasoma'
+			,
+		67
+			'sclerotized'
+			'partially membraneous'
+			,
+		68
+			'distinctly elongate， length significantly more than half the body length'
+			'moderately elongate, the length is about half the body length'
+			'short, length significantly shorter than half the body length'
+			,
+		69
+			'cylindric to ovoidal in lateral view'
+			'pyriform in lateral view'
+			'gaster subcircular in lateral view'
+			,
+		70
+			'nearly as long as or longer than remaining metasomal segments, wider or narrower tubular/clavate'
+			'narrowed basally, cone-shaped/wide triangle'
+			'very wide, rectangular or trapezoid'
+			,
+		71
+			'membraneous'
+			'sclerotized laterally or entirely'
+			,
+		72
+			'distinctly longer than second metasomal segment'
+			'about as long as second metasomal segment'
+			'distinctly shorter than second metasomal segment'
+			'state not defined by author in publication'
+			,
+		73
+			'movably joined to first tergite'
+			'immovable'
+			,
+		74
+			'smooth'
+			'not smooth'
+			,
+		75
+			'long, extending beyond metasomal apex'
+			'short, not extending beyond metasomal apex, still visible externally'
+			'short, concealed by metasoma'
+			,
+		76
+			'laterally flattened'
+			'cylindrical, not laterally flattened'
+			,
+		77
+			'functional spiracles absent from metasomal segments 1-6'
+			'functional spiracles present on metasomal segments 1-7'
+			,
+	;
+	MATRIX
+	'Karatavites medius'               000111??01?001?000000000100101-11013100200100000-01-1010000100--0001021100111
+	'Burmorussus mirabilis'            021110230120010000000000100101-00003-0-210000000-01-1010001100--0001021000111
+	'Orussus abietinus'                021010000110011010000110000001-01-12011200100010-00-1000000000--1001021001110
+	'Ticostephanus longus'             021011?100000??011111110111111-10-0-10-11000121010011012101110100210100110010
+	'Ticostephanus kachinensis'        021111?100000??011111110111111-10-0-10-11000121010011012001111100210100010010
+	'Ticostephanus hui'                0211112?000001?011111110111111-10-0-10-110001210100110120011?1100210100110--0
+	'Hypselogastrion simplex'          000011??00?0202011110000110100001002100110111210101?001?101110101210110010??0
+	'Kotujisca kholbotensis'           000011?2001100201?110110010101-01-12101?????????10010012?01110101210110010000
+	'Kotujellites crucis'              0000111?00110020101?01?110??01-01-1?1??1111112-?101100122011?01012101100?0??0
+	'Gasteruption assectator'          0000111200112020111111100-0100201---11011011111010010012001110101210110110100
+	'Pseudofoenus unguiculatus'        0000111200110020101111101-0100201--210111110111010010012201110101210110110100
+	'Baissa anomala'                   000010??0??????0111100011201011110020??1111112?11??1?0?0??0111?0020?011?0???0
+	'Humiryssus cancellatus'           000?10???0?????011110101100101-00-0120?1????????1??1?????00111?00202011100010
+	'Electrobaissa omega'              0001101?001120201111010012010000100200011101121110110010200111100201011100??0
+	'Manlaya ultima'                   000?101200112??01?1?01011001000010020???????????1??10????001111?120101?10?0?0
+	'Paleoaulacus minutus'             0001111?012001201?1?00010201000010-210-??0?0????10110010001?0110121101?0????0
+	'Vectevania vetula'                000?1??????????0111100010-010000?0-21001101012111??1?????0100?101201011010??0
+	'Aulacus eocenicus'                00011?1?01200??01?1?000112010000110200?11101121110010010001?-110121101?0??010
+	'Aulacus striatus'                 00011012012021201011000102010000100200111101121110010010001101101211011010010
+	'Electrofoenia jehani'             0001100?00100??01111010002010000110201-11101121110110010201??110121001?01???0
+	'Electrofoenops diminuta'          000110?2001001?01110010002010020110220011100121110110010001??110120101001???0
+	'Exilaulacus loculatus'            00011??210100??01111010012010020110210011101121110010010001??110121101?01?0?0
+	'Pristaulacus calidus'             000110120010011010110000020100001-0200111101121110110010001001100211011010010
+	'Brachygaster dominicanus'         100011??11?00??01111111--21111-------0-110111210100110102001-010121220?0????0
+	'Semaeomyia hispaniola'            100110??11?10??01011111---1011-------0-?????????10010010200110101212201010??0
+	'Hyptia mexicana'                  100110?1112101?01111111---1-11---------1111112101011?010200110101212201010110
+	'Lebanevania azari'                100?112?10210??011111110000001-0?00-00-111111?101011?01??001001112?2201010-10
+	'Mesevania swinhoei'               100?10?310210??011111110010101-0100-000-11111?101011?01??001001012?2201010110
+	'Eoevania magnifica'               100?10?110210??011110110001001-00-0-00-111111?101011?011?001001012?2201010-10
+	'Praevania sculpturata'            100?11?????????0111111100??001-0?-?-00-111111?101011?0???00100?112?2201010110
+	'Evania appendigaster'             1001111111210??011110110001101-00-0-00-1101112101011?011200100101212201010110
+	'Keratodellitha basilisci'         0001002311?0001011110000010101-010010010010002011001?011211011110210201010110
+	'Othniodellitha mantichora'        000100?311?0001011100010010101-01-1-0010010002011001?010211011110211201010010
+	'Xenodellitha preta'               0001002?11?0001011100000010101-010000000010002011011?0102110111102112010101?0
+	'Anomopterella coalita'            00011???01?00??011110100120101-01101201?????????1001?0100??001100201011010100
+	'Synaphopterella patula'           000110?300?10??0011101001-0101-010-02000111012?11011?011???00?100201011??0110
+	'Andrenelia pinnata'               000111?100?10??01111111002100--01--2-0-111111?101011?010???11??01200201??0010
+	'Praeaulacus tenellus'             000?1?230?20???011110000000101-0?01200100???0?001001101000000???1201121010010
+	'Aulacogastrinus insculptus'       000?1?230120???01?110000120101-110?000111111021?100110100000??101200121210010
+	'Gulgonga beattiei'                ?00?1???01?0???011110011100101-01-1-000????00??????1???????00???12000?1???010
+	'Habraulacus zhaoi'                000?112?01?00??011110000010101-1100100-001?0020?1001?0100000??101210001?1???0
+	'Paleosyncrasis hongi'             000111?30??0?1?011110000120101-0100200-001??020110?1?0?0?000??101212?0101?000
+	'Sinaulacogastrinus eucallus'      ?00?1??30??0???011110?00010101-1100200-01???0?0????1?????0000?1?12101110110?0
+	'Aptenoperissus burmanicus'        0001102?112000?011111110020001-01-0200-11101021?10001000200?000010010210?0101
+	'Myanmarina jeannineae'            00011002011101101111111---1111-------0-1111012111010000?001100000201011010011
+	'Ohlhoffia robusta'                021110230110211011110000010101-1010200-01010020010000010111000000201101110111
+	'Myanmephialtites bashkuevi'       0?1?1?23011001?011110?00010101-??102?0-0101002001000001000000000020?101010??1
+	'Archaeostephanus corae'           011110?????????111111111120101-??-12001?????????10001100111??000021??01?01??-
+	'Kronostephanus zigrasi'           021110?311200?1111111111000101-10-0-01-1??????0?1100010001???00002?0??????010
+	'Electrostepanus janzeni'          0111102301?0011111111111100101-10-1-0011110012111000110001?100000210101011010
+	'Denaeostephanus sulcatus'         011110??00?0212111111111100101-10-1200111100121110000100011100001210101010??-
+	'Lagenostephanus lii'              011110?301?001?111111111100101-10-1-01-11111121110000102011100000211101110010
+	'Protostephanus ashmeadi'          0?1?1??????????111111110100101-10-1-0011111112111??0010??1????00?2??????????-
+	'Schlettererius cinctipes'         011110230020011111111110100101-11-1-001111011201110001000110100002?1100100010
+	'Acephialtitia colossa'            000011?301?000?00?110010000101-1101200001010021?00000010000?10000101121100011
+	'Crephanogaster rara'              0001102?01102??000000000100101-0101200000??00???000000100?????000201121010??1
+	'Tuphephialtites zherikhini'       0001102301?0???010100000120101-100020010011?020?00000002100100000101121000??1
+	'Stephanogaster magna'             000110?301?00??000110000010101-1101200101010020?0000001??00??0001201121200011
+	'Karataus pedalis'                 000?1?2?????0??010100000110101-11002000000100201?00000?0?000000012011213?1??1
+	'Karataviola micrura'              0001102301?00??010110000100101-1100200100000020??0000010??????0012?1021300??1
+	'Micrephialtites minor'            000?1???01?0???010100000010001-010020000?000020?00000010?00???001201021010??1
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-2 4-6 9-11 14 16-25 27-30 32-35 37-39 41-45 47-56 58-65 67 69 71 73-74 76-77, ord: 3 7-8 12-13 15 26 31 36 40 46 57 66 68 70 72 75;
+ENDBLOCK;

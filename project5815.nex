@@ -1,0 +1,357 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2025-11-30 15.23.35 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=53;
+	TAXLABELS
+		'Acernaspis quadrilineata'
+		'Acernaspis woodburnensis'
+		'Acernaspis sufferta'
+		'Acernaspis sororia'
+		'Acernaspis konoverensis'
+		'Acernaspis boltoni'
+		'Acernaspis rectifrons'
+		'Acernaspis incerta'
+		'Acernaspis pulcher'
+		'Acernaspis besciensis'
+		'Acernaspis superciliexcelsis'
+		'Acernaspis mimica'
+		'Acernaspis orestes'
+		'Acernaspis elliptifrons'
+		'Acernaspis xynon'
+		'Acernaspis rubicundula'
+		'Acernaspis skidmorei'
+		'Acernaspis dispersa'
+		'Acernaspis salmoensis'
+		'Acernaspis cf. stokesii'
+		'Ananaspis sp. nov.'
+		'Ananaspis macdonaldi'
+		'Ananaspis nuda'
+		'Ananaspis amelangorum'
+		'Ananaspis fecunda'
+		'Ananaspis aspera'
+		'Ananaspis decora'
+		'Kainops guttulus'
+		'Kainops ekphymus'
+		'Kainops cf. ekphymus'
+		'Kainops microps'
+		'Kainops veles'
+		'Kainops invius'
+		'Kainops raymondi'
+		'Paciphacops serratus'
+		'Paciphacops crosslei'
+		'Paciphacops latigenalis'
+		'Paciphacops eldredgei'
+		'Paciphacops sp. nov.'
+		'Paciphacops hudsonicus'
+		'Paciphacops logani'
+		'Paciphacops campbelli'
+		'Paciphacops birdsongensis'
+		'Phacops claviger'
+		'Viaphacops'
+		'Phacops rana'
+		'Phacops iowensis'
+		'Paciphacops sp.'
+		'Paciphacops crawfordae'
+		'Paciphacops waisfeldae'
+		'Paciphacops argentinus'
+		'Podowrinella'
+		'Hypothetical ancestor'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=32;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Size of glabella'
+		[2] 'Length of occipital ring (Character A)'
+		[3] 'Width of occipital ring'
+		[4] 'Intercalating ring (Character B)'
+		[5] 'Shape of L1'
+		[6] 'Length of L2 relative to L3 (Character C)'
+		[7] 'Granulation on glabella'
+		[8] 'Glabellar tuberculation (Character K)'
+		[9] 'Occipital median node (Character J)'
+		[10] 'Raised rims along S2 and S3'
+		[11] 'Length of postocular area (Character F)'
+		[12] 'Lateral border furrow (Character H)'
+		[13] 'Inflation of palpebral area'
+		[14] 'Axial furrow along L1'
+		[15] 'Palpebral furrow (Character G)'
+		[16] 'Genal angle (Character J)'
+		[17] 'Border ridge'
+		[18] 'Auxiliary muscle impressions'
+		[19] 'Sculpture on palpebral area'
+		[20] 'Sculpture on cephalic border'
+		[21] 'Anterior incisions on occipital ring'
+		[22] 'Posterior incisions'
+		[23] 'Sclera in eyes'
+		[24] 'Vinular furrow media'
+		[25] 'Vincular notches'
+		[26] 'Width of pygidial axis'
+		[27] 'Pseudoarticulating half ring in anterior furrow'
+		[28] 'Intering furrows posterior'
+		[29] 'Length of anterior five axial rings'
+		[30] 'Number of congruent segments'
+		[31] 'Depth of pleural furrows'
+		[32] 'Interpleural furrows'
+	;
+	STATELABELS
+		1
+			'<51.0%'
+			'51.0-55.9%'
+			'56.0-60.9%'
+			'61.0-65.9%'
+			,
+		2
+			'short (≤ 20%)'
+			'long (>20%)'
+			,
+		3
+			'<32.0%'
+			'32.0-33.9%'
+			'34.0-35.9%'
+			'36.0-37.9%'
+			'>38.0%'
+			,
+		4
+			'small, subtriangular, transversely strongly vaulted'
+			'other'
+			'small, circumscribed hy furrows, set anterior to L2'
+			,
+		5
+			'small'
+			'medium'
+			'large, distinct adaxial edge'
+			'large, indistinct adaxial edge'
+			,
+		6
+			'40-49%'
+			'50-59%'
+			'60-69%'
+			'70-79%'
+			'80-89%'
+			'90-99%'
+			'100-109%'
+			,
+		7
+			'granulation present on all convex surfaces'
+			'present on tubercles, reduced between'
+			'absent between tubercles'
+			,
+		8
+			'tubercles absent'
+			'low, weak, very sparse tubercles'
+			'weak, sparse'
+			'medium density'
+			'distinct to coarse, dense, granulated tubercles'
+			'coarser or mosaic, non-granulated tubercles'
+			'very large, steep-sided tubercles'
+			,
+		9
+			'node absent'
+			'weak to distinct node'
+			'longer than diameter (spine)'
+			,
+		10
+			'rims absent'
+			'weak'
+			'distinct'
+			,
+		11
+			'less than half the length of posterior border'
+			'half to equal'
+			'longer than'
+			,
+		12
+			'absence or hint of furrow'
+			'narrow, weak'
+			'narrow, deep'
+			'wide, distinct'
+			'wide, shallow to effaced'
+			,
+		13
+			'palpebral area lower than palpebral lobe'
+			'about level'
+			'markedly higher'
+			,
+		14
+			'faint to absent'
+			'weak, thin'
+			'distinct'
+			,
+		15
+			'faint to absent'
+			'weak, thin'
+			'distinct'
+			'deep'
+			,
+		16
+			'drawn out, with acute tip or large spine'
+			'drawn out, with small spine'
+			'rounded angular, with distinct node'
+			'rounded, with or without hint of node'
+			,
+		17
+			'absent'
+			'weak ridge anteriorly'
+			'strong'
+			,
+		18
+			'clearly visible'
+			'absent or faintly present anteriorly only'
+			,
+		19
+			'even surface'
+			'pitted'
+			'perforated appearance'
+			'smooth between tubercles'
+			,
+		20
+			'evenly granulated surface'
+			'granulation-free spots or depressions'
+			'pits or perforations'
+			,
+		21
+			'absent'
+			'weak to distinct'
+			'deep, halfway across occipital ring'
+			,
+		22
+			'absent'
+			'weak'
+			'distinct'
+			'strong'
+			,
+		23
+			'thin sclera'
+			'slightly thickened, dorsally only'
+			'considerably thickened dorsally, only weakly ventrally'
+			'entire surface thickened'
+			,
+		24
+			'anteriorly pointed'
+			'bevelled margin'
+			'wide, shallow furrow'
+			'distinct, deep furrow'
+			'wide, very deep furrow'
+			,
+		25
+			'absent'
+			'weak'
+			'distinct'
+			'very strong, near separate pits'
+			,
+		26
+			'27.0-29.9%'
+			'30.0-32.9%'
+			'33.0-35.9%'
+			'36.0-38.9%'
+			'39.0-41.9%'
+			'42.0-44.9%'
+			,
+		27
+			'absent'
+			'widened furrow or hint of ring'
+			'distinct ring'
+			'strong ring, near level with axial ring in front, ornamented'
+			,
+		28
+			'furrows continuous'
+			'shallower medially'
+			'weak to absent medially'
+			,
+		29
+			'62.0-65.9%'
+			'66.0-69.9%'
+			'70.0-73.9%'
+			'>74.0%'
+			,
+		30
+			'three congruent segments'
+			'four'
+			'five or more'
+			,
+		31
+			'weak, thin pleural furrows'
+			'deep, thin'
+			'deep, steep-sided to medium wide'
+			'deep, wide'
+			,
+		32
+			'barely visible'
+			'weak'
+			'distinct'
+			'deep'
+			,
+	;
+	MATRIX
+	'Acernaspis quadrilineata'          00112500010000030001110231201000
+	'Acernaspis woodburnensis'          100104?0010002130????10?30??0?00
+	'Acernaspis sufferta'               000115000?00021300??2302302?1101
+	'Acernaspis sororia'                1021?500010002120001230232202100
+	'Acernaspis konoverensis'           000115?00?0002120???1?0231203000
+	'Acernaspis boltoni'                010113000100022100??230332223111
+	'Acernaspis rectifrons'             011114?00100022100?12?02322?3100
+	'Acernaspis incerta'                ?0?115?0?01002110???1?0231102001
+	'Acernaspis pulcher'                1021?5?00?1002210???130??3?0111?
+	'Acernaspis besciensis'             101104?00?0002?30???1???330?211?
+	'Acernaspis superciliexcelsis'      101??4000000?213000?130333022111
+	'Acernaspis mimica'                 10000400??00121300???303330?211?
+	'Acernaspis orestes'                ?0?00400000012130001230333022111
+	'Acernaspis elliptifrons'           1?1115?01?10021?0???2?02320?1100
+	'Acernaspis xynon'                  000105?00?0002110???2?0232?11101
+	'Acernaspis rubicundula'            10110101020002130001230232110000
+	'Acernaspis skidmorei'              ??0?1?????200213??????0232012?00
+	'Acernaspis dispersa'               ?0?115000?000213000?2?0330011100
+	'Acernaspis salmoensis'             ?0?105?0000?0213?10?1??2320??101
+	'Acernaspis cf. stokesii'           2011121210021?130?00200?322?3100
+	'Ananaspis sp. nov.'                3031241201221?2200111211??323111
+	'Ananaspis macdonaldi'              303113131201122200112?133421321?
+	'Ananaspis nuda'                    20011412?0121222011?2?13?0211211
+	'Ananaspis amelangorum'             20111213101212220110211333223012
+	'Ananaspis fecunda'                 101112141012122?011?2?0111111223
+	'Ananaspis aspera'                  2011131310222222?11?2????1111223
+	'Ananaspis decora'                  101112131012122201?12??211111123
+	'Kainops guttulus'                  202123131013222311102012222212?2
+	'Kainops ekphymus'                  ?0?1211400222223111?2?121?200223
+	'Kainops cf. ekphymus'              30312124?022222311????0??2200223
+	'Kainops microps'                   303120131022222311112?1211201222
+	'Kainops veles'                     303120131022222311?22?1212211222
+	'Kainops invius'                    30312413111222231?1?2?1211222222
+	'Kainops raymondi'                  202113131012222311?1101313222221
+	'Paciphacops serratus'              302125?32?222222????2??312221233
+	'Paciphacops crosslei'              30211514?0122223?1??22?3122??2?3
+	'Paciphacops latigenalis'           ???1251510222223?12?22331?221233
+	'Paciphacops eldredgei'             304124140012121311??2?333?321222
+	'Paciphacops sp. nov.'              304123140013222311222133?5323222
+	'Paciphacops hudsonicus'            303124141012222301312?3334223222
+	'Paciphacops logani'                202124141013021111??2223?3??2123
+	'Paciphacops campbelli'             30412414101322330131223435223223
+	'Paciphacops birdsongensis'         2031251410132233013?2?3??422??23
+	'Phacops claviger'                  10011314200?122011??123432322233
+	'Viaphacops'                        ?012102510??0?1021?2123433?2?2?3
+	'Phacops rana'                      21113?250014121321220?333??01230
+	'Phacops iowensis'                  3032?02500?41222212202332?10??31
+	'Paciphacops sp.'                   3041251410130223?12?2?3?????????
+	'Paciphacops crawfordae'            ?00125?3102322221?1??12?32?22002
+	'Paciphacops waisfeldae'            201124131013222301?12?3332??3222
+	'Paciphacops argentinus'            202124141013222301312?3332??3222
+	'Podowrinella'                      200103?0000202230?0?1?0002210100
+	'Hypothetical ancestor'             200103000002023300011?0002210200
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-32;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845381037; FileSettings '1' '1' '33' '1'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '202' '1' all; EditorPosition '86' '-1196' '954' '1091'; TreeWindowPosition '83' '502' '727' '974'; ListWindow Characters open Gadget '12' '50' '10' '644' '321' 000; ListWindow Taxa closed Gadget '12' '50' '25' '355' '347' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '415' ; ListWindow TypeSets closed Gadget '12' '50' '10' '134' '302' ; ListWindow WtSets closed Gadget '12' '50' '10' '134' '234' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '134' '185' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '134' '234' ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Gadget '12' '21' '44' '1055' '390' '220'; WindowOrder List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '832' '401' '115' '165'; TreeToolsPosition '576' '6' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '12' (normal) Geneva '10' (normal) Gadget '12' (normal) Gadget '12' (normal) Gadget '12' (bold ) Gadget '12' (normal) Gadget '12' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '21027' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARSET Unordered = 4-5 16 19 24; CHARSET Morphology = 1-32; TAXSET Ingroup = 1-51; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Acernaspis_quadrilineata, 2 Acernaspis_woodburnensis, 3 Acernaspis_sufferta, 4 Acernaspis_sororia, 5 Acernaspis_konoverensis, 6 Acernaspis_boltoni, 7 Acernaspis_rectifrons, 8 Acernaspis_incerta, 9 Acernaspis_pulcher, 10 Acernaspis_besciensis, 11 Acernaspis_superciliexcelsis, 12 Acernaspis_mimica, 13 Acernaspis_orestes, 14 Acernaspis_elliptifrons, 15 Acernaspis_xynon, 16 Acernaspis_rubicundula, 17 Acernaspis_skidmorei, 18 Acernaspis_dispersa, 19 Acernaspis_salmoensis, 20 Acernaspis_cf._stokesii, 21 Ananaspis_sp._nov., 22 Ananaspis_macdonaldi, 23 Ananaspis_nuda, 24 Ananaspis_amelangorum, 25 Ananaspis_fecunda, 26 Ananaspis_aspera, 27 Ananaspis_decora, 28 Kainops_guttulus, 29 Kainops_ekphymus, 30 Kainops_cf._ekphymus, 31 Kainops_microps, 32 Kainops_veles, 33 Kainops_invius, 34 Kainops_raymondi, 35 Paciphacops_serratus, 36 Paciphacops_crosslei, 37 Paciphacops_latigenalis, 38 Paciphacops_eldredgei, 39 Paciphacops_sp._nov., 40 Paciphacops_hudsonicus, 41 Paciphacops_logani, 42 Paciphacops_campbelli, 43 Paciphacops_birdsongensis, 44 Phacops_claviger, 45 Viaphacops, 46 Phacops_rana, 47 Phacops_iowensis, 48 Paciphacops_sp., 49 Paciphacops_crawfordae, 50 Paciphacops_waisfeldae, 51 Paciphacops_argentinus, 52 Podowrinella, 53 Hypothetical_Ancestor ; TREE Fig._3b = [&R] (53,(52,((16,(2,((1,5),((3,18),(15,((7,6),(4,(8,((14,9),(17,(19,(10,(11,(13,12)))))))))))))),(20,((22,21),(24,(((23,(26,(27,25))),(34,(28,(33,(32,(31,29)))))),((41,((36,(35,37)),((39,38),(40,(42,43))))),(44,(45,(46,47))))))))))); TREE Fig._3b_sans_outgroup = [&R] ((16,(2,((1,5),((3,18),(15,((7,6),(4,(8,((14,9),(17,(19,(10,(11,(13,12)))))))))))))),(20,((22,21),(24,(((23,(26,(27,25))),(34,(28,(33,(32,(31,29)))))),((41,((36,(35,37)),((39,38),(40,(42,43))))),(44,(45,(46,47))))))))); TREE Fib._3b_w._ancestors = [&R] ((16,(2,((1,5),((3,18),(15,((6)7,(4,(8,((14,9),(17,(19,(10,(11,(12)13))))))))))))),(20,((22,21),(24,(((23,(26,(27,25))),(34,(28,(33,(32,(31,29)))))),((41,((36,(35,37)),((39,38),(40,(42,43))))),(44,(45,(46,47))))))))); TREE * Ingroup_Parsimony_Strat_Rooted = [&R] (15,(((3,18),((1,5),(2,16))),(((7,6),(4,((8,(14,9)),(17,(19,((13,12),(11,10))))))),(20,(24,(((23,(26,(27,25))),(34,(28,(33,(32,(31,(30,29))))))),((22,21),((44,(45,(46,47))),((49,(35,37)),(36,((41,48),((39,38),((51,50),(40,(42,43))))))))))))))); 
+ENDBLOCK;

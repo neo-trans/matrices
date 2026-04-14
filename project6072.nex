@@ -1,0 +1,150 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2025-11-30 14.03.06 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		'Allium wallichii'
+		'Allium wallichii var. platyphyllum'
+		'Allium macranthum'
+		'Allium fasciculatum'
+		'Allium hookeri'
+		'Allium hookeri var. muliense'
+		'Allium omeiense'
+		'Allium guanxianense'
+		'Allium chienchuanense'
+		'Allium xiangchengense'
+		'Allium xui'
+		'Allium kingdonii'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=18;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Root thickness'
+		[2] 'Bulb growth form'
+		[3] 'Bulb tunica'
+		[4] 'Leaf shape'
+		[5] 'Leaf base'
+		[6] 'Scape shape'
+		[7] 'Scape position'
+		[8] 'Spathe number'
+		[9] 'Flower arrangement'
+		[10] 'Floral display'
+		[11] 'Flower shape'
+		[12] 'Tepal colour'
+		[13] 'Ratio of filament length and tepal length'
+		[14] 'Pedicel status in fruit'
+		[15] 'Ovary shape'
+		[16] 'Ovule number per chamber'
+		[17] 'Fruit exine at maturity'
+		[18] 'Chromosome base numbers'
+	;
+	STATELABELS
+		1
+			'Nearly tuberous'
+			'Thickening'
+			'Slender'
+			,
+		2
+			'Solitary'
+			'Clustered'
+			'Solitary or clustered'
+			,
+		3
+			'Membranous'
+			'Fibrous'
+			'Laciniate or fibrous'
+			,
+		4
+			'Linear-lanceolate'
+			'Broadly linear'
+			'Banded'
+			'Linear to broadly linear'
+			,
+		5
+			'Reflexed'
+			'No–reflexed'
+			,
+		6
+			'Terete'
+			'Ellipsoid and 2 winged'
+			'Prismatic and 3 to 6 winged'
+			,
+		7
+			'Lateral'
+			'Terminal'
+			,
+		8
+			'1'
+			'1 to 2'
+			'2 to 3'
+			,
+		9
+			'Dense'
+			'Loose'
+			'Dense or loose'
+			,
+		10
+			'Centripetal'
+			'Centrifugal'
+			'Disorder'
+			,
+		11
+			'Campanulate and drooping'
+			'Not campanulate and erect'
+			,
+		12
+			'White'
+			'Pale yellowish-green'
+			'Yellow'
+			'Purple'
+			'White, pink, fuchsia or black'
+			,
+		13
+			'<0.5'
+			'0.5-1'
+			'>1'
+			,
+		14
+			'Persistent'
+			'Caducous'
+			,
+		15
+			'Subglobular'
+			'Ovoid'
+			'Obovate'
+			,
+		16
+			'1'
+			'2'
+			,
+		17
+			'Dehiscent'
+			'Fleshy or indehiscent'
+			,
+		18
+			'x=7'
+			'x=8'
+			'x=10'
+			'x=11'
+			,
+	;
+	MATRIX
+	'Allium wallichii'                        022302012014101100
+	'Allium wallichii var. platyphyllum'      022102010014101100
+	'Allium macranthum'                       200011121103202100
+	'Allium fasciculatum'                     021010010210101102
+	'Allium hookeri'                          110010010110111013
+	'Allium hookeri var. muliense'            220011100112110013
+	'Allium omeiense'                         121110002110011013
+	'Allium guanxianense'                     101110101110111013
+	'Allium chienchuanense'                   201210000111211113
+	'Allium xiangchengense'                   100211000110112013
+	'Allium xui'                              100011000111110013
+	'Allium kingdonii'                        22?0?0011?03000?01
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-18;
+ENDBLOCK;

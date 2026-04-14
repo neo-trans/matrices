@@ -1,0 +1,275 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2025-11-30 18.45.54 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=50;
+	TAXLABELS
+		'Pystira ephippigera'
+		'Zenodorus aff. ponapensis'
+		'Thiania bhamoensis'
+		'Thiania tenuis'
+		'Thiania viscaensis'
+		'Charippus asper'
+		'Charippus bukittimah'
+		'Charippus kubah'
+		'Charippus yinae'
+		'Charippus sp. KYU064'
+		'Charippus denjii'
+		'Charippus callainus'
+		'Charippus yunnanensis'
+		'Charippus wanlessi'
+		'Charippus minotaurus'
+		'Amoenema robusta'
+		'Amoenema erhai'
+		'Amoenema liuae'
+		'Laufeia zhangae'
+		'Laufeia aenea'
+		'Laufeia concava'
+		'Chalcovietnamicus daiqini'
+		'Chalcovietnamicus terbakar'
+		'Chalcovietnamicus logunovi'
+		'Chalcovietnamicus marusiki'
+		'Chalcovietnamicus weihangi'
+		'Chalcovietnamicus vietnamensis'
+		'Chalcovietnamicus lii'
+		'Lokina tamasi'
+		'Lokina fuxi'
+		'Lokina wuyi'
+		'Lokina nyuewa'
+		'Lokina tengchongensis'
+		'Lokina blombergi'
+		'Orcevia meinei'
+		'Orcevia deelemanae'
+		'Orcevia cf. eucola'
+		'Orcevia timburtoni'
+		'Orcevia jinping'
+		'Orcevia zu'
+		'Orcevia feitongae'
+		'Orcevia shuyuani'
+		'Orcevia calcicola'
+		'Orcevia nietzschei'
+		'Orcevia bokoblin'
+		'Orcevia yahaha'
+		'Orcevia zabkai'
+		'Orcevia sokoli'
+		'Orcevia wuliang'
+		'Orcevia sica'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Dense pits on cephalon'
+		[2] 'Centro-parted setal bands (CPSB) on cephalon'
+		[3] 'Inner cheliceral depression (iCD) in male with clear boundary'
+		[4] 'Retromarginal cheliceral tooth is bicuspid'
+		[5] 'Anterior cheliceral projection in male'
+		[6] 'Embolic disc deeply hidden behind palpal bulb'
+		[7] 'Lamina of embolic disc (LED)'
+		[8] 'Additional projection (AP) of embolic complex'
+		[9] 'Retrolateral sperm duct loop (RSDL) extending to prolateral side of palpal bulb'
+		[10] 'Type of embolic complex'
+		[11] 'Shape of embolus'
+		[12] 'Prolateral extension of distal haematodocha'
+		[13] 'Distal haematodocha is relatively reduced'
+		[14] 'Tegulum covers almost whole ventral surface of palpal bulb'
+		[15] 'Lobe-like protrusion of tegulum (LPT)'
+		[16] 'Membrane between tegulum and radix is narrow and slit-like'
+		[17] 'Retrolateral extension of membrane between tegulum and radix'
+		[18] 'U-shaped concave area between tegulum and radix holds basal part of embolus'
+		[19] 'Rough prolateral lobe of tip of RTA'
+		[20] 'Retro-ventral tibial apophysis (rVTA)'
+		[21] 'Pro-ventral hump (pH) of male palpal tibia'
+		[22] 'Ventro-basal femoral bump (VFB) of male palp'
+		[23] 'Epigynal ridge'
+		[24] 'Additional epigynal fovea'
+		[25] 'Accessory glands (AG) are present and long tubular shaped'
+		[26] 'Spermathecae are globular'
+		[27] 'Secondary spermathecae'
+		[28] 'Folded inner tubes of spermathecae'
+		[29] 'Sclerotized inner pouch near genital furrow'
+		[30] 'Habitat'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'no'
+			'yes'
+			,
+		4
+			'no'
+			'yes'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'no'
+			'yes'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'no'
+			'yes'
+			,
+		10
+			'Type I'
+			'Type II'
+			'Type III'
+			,
+		11
+			'whip-like'
+			'short sheet'
+			'short tubular'
+			'hooked'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'no (obviously larger than tegulum while expanding)'
+			'yes (smaller than tegulum while expanding)'
+			,
+		14
+			'no'
+			'yes'
+			,
+		15
+			'absent or not obvious'
+			'clearly present and tilt to prolateral side'
+			,
+		16
+			'no'
+			'yes'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'no'
+			'yes'
+			,
+		26
+			'no'
+			'yes'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'leaves'
+			'tree trunk'
+			'rocks'
+			'surface litter'
+			,
+	;
+	MATRIX
+	'Pystira ephippigera'                 000000100000000000000010000000
+	'Zenodorus aff. ponapensis'           000000100000000000000010000000
+	'Thiania bhamoensis'                  000000100000000000000010010000
+	'Thiania tenuis'                      000000100000000000000010010000
+	'Thiania viscaensis'                  000000100000000000000010010000
+	'Charippus asper'                     110110100000000000000010000001
+	'Charippus bukittimah'                110110100000000000000010000001
+	'Charippus kubah'                     110110100000000000000010000001
+	'Charippus yinae'                     110100100000000000000010000001
+	'Charippus sp. KYU064'                110100100000000000000010000001
+	'Charippus denjii'                    110110100000000000000010000001
+	'Charippus callainus'                 110110100000000000000010000001
+	'Charippus yunnanensis'               110110100000000000000010000001
+	'Charippus wanlessi'                  110110100000000000000010010001
+	'Charippus minotaurus'                100110100000000000000010000001
+	'Amoenema robusta'                    100100001101010100000000000001
+	'Amoenema erhai'                      100100001101010000000000000011
+	'Amoenema liuae'                      100100001101010000000000000012
+	'Laufeia zhangae'                     100100010110000100010110010001
+	'Laufeia aenea'                       100100010110000000010110010001
+	'Laufeia concava'                     100100010100000000010110010003
+	'Chalcovietnamicus daiqini'           100101000220100100000010000000
+	'Chalcovietnamicus terbakar'          100101000210100100000010000000
+	'Chalcovietnamicus logunovi'          100101000220100100000010000000
+	'Chalcovietnamicus marusiki'          100101000220100100000010000000
+	'Chalcovietnamicus weihangi'          100101000230100100000010000001
+	'Chalcovietnamicus vietnamensis'      100101000220100100000010000001
+	'Chalcovietnamicus lii'               100101000220100100000010000001
+	'Lokina tamasi'                       101100000230100101010010000010
+	'Lokina fuxi'                         101100000230100101010010000011
+	'Lokina wuyi'                         101100000220100101010010000011
+	'Lokina nyuewa'                       101100000200100101010010000011
+	'Lokina tengchongensis'               101100000210100101010110000011
+	'Lokina blombergi'                    101100000220100101010010000011
+	'Orcevia meinei'                      100100000100001010101100110010
+	'Orcevia deelemanae'                  100100000100001010101100110010
+	'Orcevia cf. eucola'                  100100000100001010101100110011
+	'Orcevia timburtoni'                  100100000100001010101100110011
+	'Orcevia jinping'                     100100000100001010010110010102
+	'Orcevia zu'                          100100000100001010010110010101
+	'Orcevia feitongae'                   100100000100001010010110010101
+	'Orcevia shuyuani'                    100100000100001010010110010101
+	'Orcevia calcicola'                   100100000100001010010110010102
+	'Orcevia nietzschei'                  100100000100001010010110010101
+	'Orcevia bokoblin'                    100100000100001010010110010101
+	'Orcevia yahaha'                      100100000130001010010110010101
+	'Orcevia zabkai'                      100100000100001010010110010101
+	'Orcevia sokoli'                      100100000110001010010110010101
+	'Orcevia wuliang'                     100100000100001010101100110102
+	'Orcevia sica'                        100100000100001010010110010102
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-30;
+ENDBLOCK;
