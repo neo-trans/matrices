@@ -1,0 +1,432 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.38.39 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=25;
+	TAXLABELS
+		'zodiolestes'
+		'Rhodanictis depereti'
+		'Taxodon sansaniensis'
+		'Ferinestrix rapax'
+		'arctonyx'
+		'Meles magnum'
+		'Meles teihardi'
+		'Meles chiai'
+		'Meles leucurus'
+		'Meles minor'
+		'Meles thorali'
+		'arctomeles'
+		'Melodon incertum'
+		'Melodon majori'
+		'Adroverictis ginsburgi'
+		'Iranictis polaki'
+		'Promeles palaeattica'
+		'Polgardia pannonica'
+		'Archaeomeles neglecta'
+		'Taxidea taxus'
+		'Pliotaxidea garberi'
+		'Chamitataxus avitus'
+		'Parataxidea crassa Zdansky'
+		'Parataxidea sinensis Zdansky'
+		'Meles meles'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=56;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'P4 parastyle'
+		[2] 'Position of middle point of inner lobe of the P4'
+		[3] 'P4 protoconule'
+		[4] 'P4 protocone'
+		[5] 'P4 hypocone'
+		[6] 'Labial incision between the M1 paracone and metacone'
+		[7] 'Labial incision between the M1 metacone and metaconule'
+		[8] 'Labial incision posterior to the M1 metaconule'
+		[9] 'M1 metastyle'
+		[10] 'M1 protoconule'
+		[11] 'M1 metaconule'
+		[12] 'Position of antero-lingual corner of the inner cingulum of the M1'
+		[13] 'Accessory cusps of the M1 related to the metaconule'
+		[14] 'Ridge between distal cusp of the M1 protocone and metaconule'
+		[15] 'Ridge between distal cusp of the M1 protocone and hypocone'
+		[16] 'Position of anterior margin of the m1 hypoconid'
+		[17] 'm1 paraconid'
+		[18] 'm1 talonid length'
+		[19] 'm1 talonid width'
+		[20] 'm1 hypoconulid size'
+		[21] 'm1 entoconid'
+		[22] 'm1 small cuspuletes distal to hypoconulid and entoconid'
+		[23] 'p4 posterior accessory cuspid'
+		[24] 'Robustness of anterior premolars'
+		[25] 'Height of p2-p4'
+		[26] 'P1/p1'
+		[27] 'Canine cross section'
+		[28] 'Lower incisor procumbent'
+		[29] 'Incisor row arched'
+		[30] 'Anterior concavity in dorsal profile between the nasal and frontal bones'
+		[31] 'Rostrum width'
+		[32] 'Infraorbital foramen'
+		[33] 'Anterior border of the orbit'
+		[34] 'Bony choana length'
+		[35] 'Bony choana inflection'
+		[36] 'Postorbital process of the frontal'
+		[37] 'Postorbital constraint'
+		[38] 'External auditory meatus'
+		[39] 'Zygomatic arch'
+		[40] 'Mastoid width'
+		[41] 'Symphysis'
+		[42] 'Horizontal ramus depth'
+		[43] 'Mandibular condyle'
+		[44] 'Coronoid process orientation'
+		[45] 'P4 lingual platform'
+		[46] 'M1 protocone'
+		[47] 'm1 hypoconulid'
+		[48] 'Sagittal crest in adult specimens'
+		[49] 'Ventral expansion of the mandibular ramus'
+		[50] 'Relative size between the maximum length of M1 and P4'
+		[51] 'Relative size of the I3 compared to I1 and I2'
+		[52] 'Position of the anterior area of the auditory bulla'
+		[53] 'Auditory bulla inflation'
+		[54] 'Mastoid process'
+		[55] 'Disposition of the m2 trigonid cuspids'
+		[56] 'm2 trigonid valley'
+	;
+	STATELABELS
+		1
+			'Absent'
+			'Weak'
+			'Strong'
+			,
+		2
+			'Anterior to or approximately at the same position of the anterior tip of parastyle'
+			'Between the parastyle and the apex of paracone'
+			'At or posterior to the apex of paracone'
+			,
+		3
+			'Absent'
+			'Present'
+			,
+		4
+			'Reduced and crestiform'
+			'Conical'
+			'Conical and subdivided'
+			,
+		5
+			'Absent'
+			'Weak'
+			'Strong'
+			,
+		6
+			'Absent or weak'
+			'Distinct'
+			,
+		7
+			'Absent or weak'
+			'Distinct'
+			,
+		8
+			'Absent or weak'
+			'Distinct'
+			,
+		9
+			'Absent'
+			'Present'
+			,
+		10
+			'Not distinct'
+			'Distinct'
+			,
+		11
+			'Absent'
+			'Present'
+			,
+		12
+			'Anterior to anterior tip of paracone'
+			'At or distal to the anterior tip of paracone but before the apex of paracone'
+			'At or distal to the apex of paracone but before the notch between paracone and metacone'
+			'Approximately at the same position or posterior to notch between paracone and metacone'
+			,
+		13
+			'Absent'
+			'Present at the margin distal to metaconule'
+			'Present at the lingual and occasionally also distal margin to metaconule'
+			,
+		14
+			'Absent'
+			'Present'
+			,
+		15
+			'Absent'
+			'Present'
+			,
+		16
+			'Anterior to apex of metaconid'
+			'Around at the apex of metaconid'
+			'Posterior to apex of metaconid'
+			,
+		17
+			'Distinct'
+			'Reduced in size'
+			,
+		18
+			'Less than 50% total m1 length'
+			'Around or over 50% total m1 length'
+			,
+		19
+			'Narrower or similar to trigonid width'
+			'Wider than trigonid width'
+			,
+		20
+			'Absent'
+			'Distinctly smaller than hypoconid'
+			'Slightly smaller than or equal to hypoconid'
+			,
+		21
+			'Absent, occupied by a entocristid'
+			'Indistinctly subdivided'
+			'Distinctly subdivided'
+			,
+		22
+			'Absent or weak'
+			'Clearly present'
+			,
+		23
+			'Absent'
+			'Present and placed in the main axis of the premolar'
+			'Present, very high, and placed buccally'
+			,
+		24
+			'Robust'
+			'Narrow'
+			,
+		25
+			'p2-p4 of similar height, being intermediate in height between the m1 paraconid and protoconid'
+			'p2 to p4 of increasing height, with p4 being the tallest, even taller than the m1 protoconid'
+			'Low p2-p4, with p4 lower than m1 paraconid'
+			'High p2-p4, being  with the p3 being  the tallest, even taller than the m1 protoconid'
+			,
+		26
+			'Often absent'
+			'Present'
+			,
+		27
+			'Rounded'
+			'With strong angle'
+			,
+		28
+			'Absent'
+			'Present'
+			,
+		29
+			'Absent'
+			'Present'
+			,
+		30
+			'Absent'
+			'Present, but not too deep'
+			'Present and very deep concavity (= very high frontal bone compared to the nasal ones)'
+			,
+		31
+			'Narrow'
+			'Robust'
+			,
+		32
+			'Small'
+			'Moderate'
+			'Very large'
+			,
+		33
+			'P4'
+			'M1'
+			,
+		34
+			'Shorter than M1 width'
+			'Similar to M1 width'
+			'Longer than M1 width'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'Weak'
+			'Strong'
+			,
+		37
+			'Weak'
+			'Strong'
+			,
+		38
+			'Short'
+			'Long'
+			,
+		39
+			'Weakly arched'
+			'Strongly arched'
+			,
+		40
+			'Much narrower than zygomatic arch'
+			'Close to zygomatic arch'
+			,
+		41
+			'Moderately inclined'
+			'Distinctly inclined'
+			'Distinctly vertical'
+			,
+		42
+			'Uniform'
+			'Deepened backwards'
+			,
+		43
+			'In line with the crown of the p1-m2'
+			'Higher than the crown of p1-m2, but not higher than the tip of the canine'
+			'Much higher than the toothrow including the tip of the canine'
+			,
+		44
+			'Straight'
+			'Posteriorly inclined'
+			,
+		45
+			'Absent'
+			'Developed until the paracone area'
+			'Very developed along the whole lingual area'
+			,
+		46
+			'Single protocone'
+			'Double protocone connected by a ridge'
+			'Double protocone separated by a valley'
+			'Triple to double protocone linked by notch'
+			,
+		47
+			'Single and lingually placed'
+			'Double, one smaller in a linguobasal position and the main one placed or nearly placed at the middle point of the talonid'
+			,
+		48
+			'Single'
+			'Double (=parasagittal crest)  with moderate separation'
+			,
+		49
+			'Absent'
+			'Moderately developed'
+			'Extremely developed'
+			,
+		50
+			'P4 larger than M1'
+			'P4 equal or subequal to the M1'
+			'P4 much smaller than M1'
+			,
+		51
+			'I3 enlarged'
+			,
+		52
+			'Anterior area of the bulla separated from the glenoid fossa of the skull'
+			'Anterior area of the bulla in contact with the glenoid fossa of the skull'
+			,
+		53
+			'Uninflated'
+			'Inflated; in lateral view the ventral part of the bulla does not surpass the P2-M1 row'
+			'Very inflated; in lateral view the ventral part of the bulla surpasses the P4 paracone level'
+			,
+		54
+			'Not enlarged'
+			'Mediolaterally  enlarged with straight ridge in caudal view'
+			'Mediolaterally very enlarged with convex ridge in caudal view'
+			,
+		55
+			'Protoconid and metaconid peripherical with a central valley between them'
+			'Protoconid and metaconid in contact without  a central valley between them'
+			,
+		56
+			'Present'
+			'Absent'
+			,
+	;
+	MATRIX
+	'zodiolestes'                       20000100100200020000001101100010000000000001000010011010
+	'Rhodanictis depereti'              11010101011101020000001101000?????0??0??11?01??000?01000
+	'Taxodon sansaniensis'              2001110001120102000(1 2)20110100??????????????01110?0???????
+	'Ferinestrix rapax'                 01002110011300110002200021000?100???????001?110?010???11
+	'arctonyx'                          02102101111310101112210111111202121001011121130022010100
+	'Meles magnum'                      110221010112101101122101???0?????????????0??230??2??????
+	'Meles teihardi'                    1101211(0 1)0111?111011221000000001102011?000010210?120???00
+	'Meles chiai'                       1011210001100110011221010000001102001?000000210??2??1000
+	'Meles leucurus'                    1101111(0 1)01121111011221001110001212011?000010230??200??00
+	'Meles minor'                       110001000112011101122100?000???21???????000?210??2??????
+	'Meles thorali'                     110021110110111101122100000000110201100000002100120010??
+	'arctomeles'                        010020000113001201122100001000110??00?(0 1)?0000230?????????
+	'Melodon incertum'                  11011110001101010111100100000010010110?000102?0001001001
+	'Melodon majori'                    110111100112000??????????00?0010010000?0????21?0??0010??
+	'Adroverictis ginsburgi'            ?????1010110010??????????????????????????????1??????????
+	'Iranictis polaki'                  000?111001100102000110000000???????1????000?111011????11
+	'Promeles palaeattica'              1001000001110102011111110000001001011010000?010000001010
+	'Polgardia pannonica'               ???????????????2001110110????????????????0????0?????????
+	'Archaeomeles neglecta'             1101100?0011010101111001?010100?020000?1100?1100010010??
+	'Taxidea taxus'                     20012011011020020001102010100110010110112000221011012211
+	'Pliotaxidea garberi'               20012111011020?200011120101?01100??110110000221111012211
+	'Chamitataxus avitus'               210100100??0??????????????1?0110010010??????2??1?10122??
+	'Parataxidea crassa Zdansky'        110101000110010?011???20000001100101????200011??120?????
+	'Parataxidea sinensis Zdansky'      100111000?10010201112120300001100101011?2000210?12012211
+	'Meles meles'                       1010111101101112011221000(0 1)011011120011102010210012001000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-56;
+ENDBLOCK;
+BEGIN mrbayes;
+
+	calibrate 
+Zodiolestes	 = unif(19.2,23.0) 
+Ferinestrix_rapax=unif(3.2,3.8)
+Arctonyx=unif(0,1)
+Meles_magnum=unif(2,2.5)
+Meles_teihardi=unif(1.8,2.5)
+Meles_chiai=unif(2,3.7)
+Meles_leucurus=unif(0,0.6)
+Meles_minor=unif(2,2.5)
+Meles_thorali=unif(1.8,3)
+Meles_meles =unif(0,1)
+Arctomeles=unif(4,6)
+Melodon_incertum=unif(5.3,7.5)
+Melodon_majori=unif(5.3,7.5)
+Promeles_palaeattica=unif(7.4,8)
+Parataxidea_crassa_Zdansky =unif(5.3,7.5)
+Parataxidea_sinensis_Zdansky =unif(5.3,7.5)
+Adroverictis_ginsburgi =unif(7.4,8)
+Iranictis_polaki=unif(8,8.9)
+Taxodon_sansaniensis=unif(13.1,14.2)
+Polgardia_pannonica=unif(5.3,7.4)
+Archaeomeles_neglecta=unif(7.4,8)
+Rhodanictis_depereti =unif(11.2,13.1)
+Taxidea_taxus = fixed(0)         
+Pliotaxidea_garberi = unif(5.8,6.5)
+Chamitataxus_avitus  =  unif(5.8,6.5)
+
+;
+
+ constraint node1 partial = Taxidea_taxus  Meles_leucurus Meles_meles Arctonyx : Zodiolestes;
+constraint node2 partial = Meles_leucurus Meles_meles Arctonyx : Zodiolestes Taxidea_taxus;
+constraint node3 partial = Meles_leucurus Meles_meles Arctonyx : Zodiolestes Taxidea_taxus ;
+constraint node4 partial = Meles_leucurus Meles_meles : Zodiolestes Taxidea_taxus Arctonyx;
+
+
+	constraint root = 2-25;
+    prset topologypr = constraints(root, node1,node2,node3,node4);
+	prset nodeagepr = calibrated;
+	prset brlenspr = clock:fossilization;
+	prset clockratepr = lognorm(-7,0.6);
+	prset clockvarpr = tk02;
+    prset tk02varpr = exp(1);
+	prset fossilizationpr = beta(1,1);
+	prset samplestrat = diversity ;
+	prset sampleprob = 0.25;
+	prset speciationpr = exp(10);
+	prset extinctionpr = beta(1,1);
+	prset fossilizationpr = beta(1,1);[sai/sai+miu]
+	prset treeagepr = offsetexp(16,23);
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen= 10000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes temp=0.1;
+	mcmc;
+	sump;
+	sumt Contype = Allcompat;
+ENDBLOCK;

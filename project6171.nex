@@ -1,0 +1,344 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.39.18 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=15;
+	TAXLABELS
+		'Bodianus'
+		'Pseudolabrus'
+		'Labrus'
+		'Leptoscarus'
+		'Calotomus'
+		'Cryptotomus'
+		'Nicholsina'
+		'Sparisoma'
+		'Aporoscarus'
+		'Morsoscarus'
+		'Cetoscarus'
+		'Bolbometopon'
+		'Hipposcarus'
+		'Chlorurus'
+		'Scarus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=53;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Lateral Flanges in supraoccipital crest'
+		[2] 'Subtemporal fossae'
+		[3] 'Facet of the neurocranial-pharyngeal articulation'
+		[4] 'Shape of the neurocranial-pharyngel articulation'
+		[5] 'Maxillary fossa'
+		[6] 'Caniniform teeth on the premaxilla'
+		[7] 'Presence of lateral caniniforms on premaxilla'
+		[8] 'Number of tooth rows in the premaxilla'
+		[9] 'Osclussion of premaxilla and dentary'
+		[10] 'Presence of ridge extending from the ventral surface of the premaxillary process to the medial surface of the maxillary arm'
+		[11] 'Insertion of the A1t on the maxilla'
+		[12] 'Medial suture of dentary'
+		[13] 'Form of the articular fossa of the dentary'
+		[14] 'Coronoid process of the dentary'
+		[15] 'Posterior ascending process of the articular'
+		[16] 'Medial bony flange of the articular descending process'
+		[17] 'Number of Brachiostegal rays'
+		[18] 'Ventral proces of the Urohyal'
+		[19] 'Number of gill rakers'
+		[20] 'Teeth in row 3 of Upper pharyngeal'
+		[21] 'Theeth on upper pharyngeal plate forming tooth rows'
+		[22] 'Tooth shaope and position in row 1 of the upper pharyngeal plate'
+		[23] 'Furth epibranchial greatly expanded laterally forming a large flat wing which curves posterolaterally'
+		[24] 'Pharyngeal valve'
+		[25] 'Lateral projections on the ventral ledge of the keel on the lower pharyngeal bone'
+		[26] 'Elongate posteroventral flange along the dorsal margin of the supracleithrum on the posttemporal.'
+		[27] 'Number of pectoral rays'
+		[28] 'Horns protuding at the pesterior margin of the medial symphysis od the basipterygia'
+		[29] 'Anterior margin of the basipterygia'
+		[30] 'First neural spine'
+		[31] 'Number of precaudal vertebrae'
+		[32] 'Posterolateral expansion of the haemal postzygopohyses on the first 1 to 2 vertebrae'
+		[33] 'Supraneural (predorsal) bone anterior to the first neural spine'
+		[34] 'Location of the base of the first pterygiophore'
+		[35] 'Foreshortened parhypural'
+		[36] 'Number of principal caudal rays'
+		[37] 'Insertion of A1'
+		[38] 'A1beta'
+		[39] 'Insertion of the A2 on the articular'
+		[40] 'Egg shape'
+		[41] 'Size and position of the nostrils'
+		[42] 'Rows of cheek scales'
+		[43] 'Branchiostegal membranes'
+		[44] 'Oral teeth'
+		[45] 'Teeth tight arrangement'
+		[46] 'Tooth contact in premaxilla with a tight arrangement'
+		[47] 'Orientation of the distal facet of the teeth in the dentary'
+		[48] 'Proximal facet'
+		[49] 'Oclusal part of each tooth enters the internal cavity of predecessor'
+		[50] 'Opening of the internal cavity of the teeth'
+		[51] 'Orientation of the dorsal and ventral surfaces of the teeth respect to each other.'
+		[52] 'Exposed face of the teeth'
+		[53] 'Lateral depression for tooth contact'
+	;
+	STATELABELS
+		1
+			'Absent'
+			'Present'
+			'Well developed, resulting in an extended trifid supraoccipital crest posteriorly'
+			,
+		2
+			'Absent'
+			'Large anterior and small posterior present'
+			'Anterior pair present and posterior pair vestigial'
+			,
+		3
+			'Short and convex'
+			'Large, elongated (length greater than 2.5 times width) anteroposteriorly orientes grooves'
+			,
+		4
+			'Short and convex'
+			'Straight edges and bluntly rounded anterior margin'
+			'Tapering ro a oint anteriorly'
+			,
+		5
+			'Absent'
+			'Present (indistinct)'
+			'Present (distinct)'
+			,
+		6
+			'Present'
+			'Absent'
+			,
+		7
+			'Absent'
+			'Present'
+			,
+		8
+			'Three to six'
+			'12 to 22'
+			,
+		9
+			'Teeth oclude'
+			'Dentary protuding'
+			'Premaxilla protuding'
+			,
+		10
+			'Absent'
+			'Present'
+			,
+		11
+			'Anteriorly on the ventral face of the premaxillary process'
+			'At the base of the maxilary head'
+			'At the end of the ridge extending from the ventral surface of the premaxillary process to the medial surface of the maxillary arm'
+			,
+		12
+			'Absent'
+			'Extend to the anterior edge of dentary'
+			'Do not extend to the anterior edge of dentary'
+			,
+		13
+			'Broad flat tapering groove'
+			'Deep rounded fossa'
+			,
+		14
+			'Narrow and pointy'
+			'Deep and rounded'
+			,
+		15
+			'Present'
+			'Lost'
+			,
+		16
+			'Present'
+			'Reduced to an articular medial spine'
+			,
+		17
+			'Different of five (no indicated in the original description in page 20 of Bellwood (1994)'
+			'Five'
+			,
+		18
+			'Pointed posteriorly'
+			'Broad spatulated'
+			'Broad narrowly spatulated'
+			,
+		19
+			'12-23'
+			'More than 35'
+			,
+		20
+			'Teeth no organized in rows'
+			'Proportionally large or meddium sise'
+			'Very reduced'
+			'Absent'
+			,
+		21
+			'Absent (moprhotype 1). No indicated by Bellwood (1994)'
+			'Absent (moprhotype 2). No indicated by Bellwood (1994)'
+			'Present'
+			,
+		22
+			'Rounded'
+			'Elongated ovoid'
+			'Elondates, curved, and produced meddially, interdigitating with teeth on the other plate.'
+			,
+		23
+			'Absent'
+			'Present'
+			,
+		24
+			'Absent'
+			'Present'
+			,
+		25
+			'Absent'
+			'Small'
+			'laterally expanded flat margins'
+			,
+		26
+			'Absent'
+			'Present'
+			,
+		27
+			'More than 14'
+			'13'
+			'14'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'Pointed'
+			'Bear short lateral flanges'
+			'broadly rounded'
+			,
+		30
+			'Autogenous'
+			'Fused with the centrum'
+			,
+		31
+			'No indicated in the original publication'
+			'9'
+			'10 to 12'
+			,
+		32
+			'Absent'
+			'Present'
+			,
+		33
+			'Present'
+			'Absent'
+			,
+		34
+			'Between the neural spine of vertebra 2 and 3'
+			'Between the neural spine of vertebra 1 and 2'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'7+7 or 7+8'
+			'7+6'
+			,
+		37
+			'On the premaxillary process of the maxilla'
+			'On the middle of the medial face of the maxillary arm'
+			,
+		38
+			'Absent'
+			'Present'
+			,
+		39
+			'Present'
+			'Lost, articulation restricted to the dentary'
+			,
+		40
+			'Spherial'
+			'Spindle-shaped (one third as long as wide)'
+			,
+		41
+			'Same size and widely spaced'
+			'In close proximity and posterior nostril two times the area of the anterior one'
+			,
+		42
+			'Numerous'
+			'One row'
+			'Two to four rows of large cheek scales'
+			,
+		43
+			'Free'
+			'Broadly attached to the isthmus  with free fold membrane'
+			'Broadly attached to the isthmus  without free fold membrane'
+			,
+		44
+			'No coalescent'
+			'Incompletely coalesced into four plates'
+			'Completely coalesced into four plates'
+			,
+		45
+			'Absent'
+			'Paving'
+			'Interlocking'
+			'Variable between no tightly organized to partial paving or interlocking'
+			,
+		46
+			'No tight arrangement or separated'
+			'Direct'
+			'Separated by a thin tissue'
+			,
+		47
+			'No coalescent dentition'
+			'Sitting nearly vertically'
+			'At an obstude angle'
+			,
+		48
+			'Present and rasing from the dentary'
+			'Present and parallel respect to the frontal plane of the plate'
+			'Present and at an obtuse angle respect to the frontal plane of the plate'
+			'Absent'
+			,
+		49
+			'Absent'
+			'Present'
+			,
+		50
+			'Proximally oriented'
+			'Posteroproximally oriented'
+			,
+		51
+			'Parallel to each other'
+			'Converge toward to opening of the internal cavity'
+			'Dorsal Surface missing'
+			,
+		52
+			'Exposed complitelly and grades vertically into the ventral facet'
+			'Partially exposed and at an acute angle respect to the ventral facet'
+			'Exposed completely and at an acute angle respect to the ventral facet'
+			,
+		53
+			'Absent'
+			'Variable in size and labially oriented'
+			'Large and proximally oriented'
+			'Reduced and proximally oriented'
+			,
+	;
+	MATRIX
+	'Bodianus'          0000000000000000000000000001000000000000?000000100000
+	'Pseudolabrus'      000000000001000?00?0100000000010000000000000000100000
+	'Labrus'            000000000000000010001000000??0?00?0?00000000000100000
+	'Leptoscarus'       111120101001000012012111111011110111000?0221001100000
+	'Calotomus'         21112(0 1)10100100001201211111101111011100000121001100000
+	'Cryptotomus'       111110101001000011012?11111011110111000?0111001100000
+	'Nicholsina'        111110101001000011012111111011110111000?0111001100000
+	'Sparisoma'         (0 1)1112(0 1)10100100001201211111101111011100000121301100001
+	'Aporoscarus'       1??????????????????????????0???????????????2112201022
+	'Morsoscarus'       1??????1???????????????????0???????????????2122201022
+	'Cetoscarus'        11112101212201011202211111202121011110001202122201022
+	'Bolbometopon'      11112101212201011202211111202121011110001202122201122
+	'Hipposcarus'       12122111201111111213221121201121111110110202212310213
+	'Chlorurus'         12122111201111111213221121211121011111110202212310213
+	'Scarus'            12120111201111111213221121211121111111110202212310213
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1 3-53, ord: 2;
+ENDBLOCK;

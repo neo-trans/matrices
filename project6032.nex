@@ -1,0 +1,609 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.43.58 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=62;
+	TAXLABELS
+		'Phosphatherium'
+		'Prorastomus sirenoides'
+		'Pezosiren portelli'
+		'Sobrarbesiren cardieli'
+		'Ashokia antiqua'
+		'Protosiren fraasi'
+		'Protosiren smithae'
+		'Libysiren sickenbergi'
+		'Anomotherium langewieschei'
+		'Miosiren kocki'
+		'Potamosiren madgalenensis'
+		'Ribodon limbatus'
+		'Trichechus manatus latirostris'
+		'Trichechus senegalensis'
+		'Trichechus inunguis'
+		'Eotheriodes aegyptiacus'
+		'Eotheroides clavigerum'
+		'Eotheroides sandersi'
+		'Eotheroides lambondrano'
+		'Prototherium veronense'
+		'Prototherium ausetanum'
+		'Prototherium intermedium s.l.'
+		'Eosiren libyca'
+		'Eosiren imenti'
+		'Halitherium taulannense'
+		'Kaupitherium gruelli'
+		'Kaupitherium bronni'
+		'Lentiarenium cristolii'
+		'Priscosiren atlantica'
+		'Metaxytherium krahuletzi'
+		'Metaxytherium medium'
+		'Metaxytherium serresii'
+		'Metaxytherium subapenninum'
+		'Metaxytherium floridanum'
+		'Metaxytherium crataegense'
+		'Metaxytherium arctodites'
+		'Dusisiren reinharti'
+		'Dusisiren jordani'
+		'Dusisiren dewana'
+		'Hydrodamalis cuestae'
+		'Hydrodamalis gigas'
+		'Metaxytherium albifontanum'
+		'Caribosiren turneri'
+		'Crenatosiren olseni'
+		'Nanosiren sanchezi'
+		'Nanosiren garciae'
+		'Dugong dugon'
+		'Callistosiren boriquensis'
+		'Bharatisiren indica'
+		'Bharatisiren kachchhensis'
+		'Domningia sodhae'
+		'Kutchisiren cylindrica'
+		'Kharisiren cristata'
+		'Dioplotherium manigaulti'
+		'Dioplotherium allisoni'
+		'Culebratherium alemani'
+		'MPEG63V d cf D allisoni'
+		'ECOCHM2491 diop sp'
+		'Xenosiren yucateca'
+		'Corystosiren varguezi'
+		'Rytiodus heali'
+		'Rytiodus capgrandi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=83;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Rostrum'
+		[2] 'Nasal process of Premaxilla'
+		[3] 'Nasal process of Premaxilla - 2'
+		[4] 'External nares'
+		[5] 'Premaxilla'
+		[6] 'Premaxillary symphysis'
+		[7] 'Zygomatic orbital bridge of maxilla'
+		[8] 'Infraorbital foramen'
+		[9] 'Zygomatic orbital bridge of Maxilla'
+		[10] 'Palate'
+		[11] 'Infraorbital canal'
+		[12] 'Paranasal air sinuses'
+		[13] 'Zygomatic orbital bridge of maxilla - 2'
+		[14] 'Anterior palate palatal gutter fwd of IO foramen'
+		[15] 'Nasals'
+		[16] 'Supraorbital process of frontal'
+		[17] 'Nasal incisure at posterior end of mesorostral fossa'
+		[18] 'Frontal roof'
+		[19] 'Supraorbital process of frontal - 2'
+		[20] 'Frontal roof - 2'
+		[21] 'Sagittal crest'
+		[22] 'Supraoccipital'
+		[23] 'Exoccipitals'
+		[24] 'Supracondylar fossa of exoccipital'
+		[25] 'Dorsolateral border of exoccipital'
+		[26] 'Hypoglossal foramen'
+		[27] 'Postympanic process of squamosal'
+		[28] 'Sigmoid ridge of squamosal'
+		[29] 'Cranial portion of squamosal'
+		[30] 'Processus retroversus of squamosal'
+		[31] 'Outline of zygomatic process of squamosal'
+		[32] 'External auditory meatus of squamosal'
+		[33] 'Zygomatic process of squamosal'
+		[34] 'Ventral extremity of jugal'
+		[35] 'Preorbital process of jugal'
+		[36] 'Pre-orbital process of jugal'
+		[37] 'Zygomatic process of jugal'
+		[38] 'Ventral rim of orbit'
+		[39] 'Lacrimal'
+		[40] 'Lacrimal - 2'
+		[41] 'Posterior border of palatine'
+		[42] 'Anterior border of palatine'
+		[43] 'Alisphenoid canal'
+		[44] 'Pterygoid fossa'
+		[45] 'Foramenovale'
+		[46] 'Sphenopalatine region'
+		[47] 'Periotic'
+		[48] 'Mastoid portion of periotic'
+		[49] 'Mandibular symphysis'
+		[50] 'Ventral border of horizontal mandibular ramus'
+		[51] 'Accessory mental foramina'
+		[52] 'Posterior border of mandible'
+		[53] 'Anterior border of coronoid process'
+		[54] 'Mandibular dental capsule'
+		[55] 'Horizontal ramus of mandible'
+		[56] 'Ventral border of horizontal ramus of mandible'
+		[57] 'First upper incisor'
+		[58] 'First upper incisor - 2'
+		[59] 'Depth of I1 alveolus'
+		[60] 'Cross section of I1 crown'
+		[61] 'First upper incisor - 3'
+		[62] 'Second and third upper incisors first through third lower incisors'
+		[63] 'Canines'
+		[64] 'Premolars 1 4'
+		[65] 'Permanent premolar 5'
+		[66] 'Molar 3'
+		[67] 'Supernumerary molars'
+		[68] 'Cheek teeth'
+		[69] 'Postcanine dental formula'
+		[70] 'Permanent premolars'
+		[71] 'Cervical vertebrae'
+		[72] 'Tips of thoracic lumbar and sacral neural spines'
+		[73] 'Lumbar vertebrae'
+		[74] 'Sacrum'
+		[75] 'Anterior caudal vertebrae'
+		[76] 'Posterior caudal vertebrae'
+		[77] 'Bicipital groove of humerus'
+		[78] 'Pubis'
+		[79] 'Femur'
+		[80] 'Third trochanter of femur'
+		[81] 'Tibia'
+		[82] 'Humerus'
+		[83] 'Deltoid process of humerus'
+	;
+	STATELABELS
+		1
+			'Premaxillae do not form an elongated rostrum'
+			'rostrum elongated but small relative to cranium length of pmx symphysis smaller or equal to 27 percent x AB'
+			'rostrum enlarged length of pmx symphysis larger than 27 percent x AB'
+			,
+		2
+			'thin and tapering at posterior end overlapping frontal and or nasal'
+			'tapering but thickened at posterior end with long overlap of frontal and or nasal'
+			'Broadened and bulbous at posterior end, having more or less vertical transverse butt joint surface in contact with frontal and or nasal'
+			,
+		3
+			'Long distance from rear of symphysis to posterior end of premaxilla greater than half length of symphysis'
+			'Very short'
+			,
+		4
+			'not retracted'
+			'retracted and enlarged reaching to or beyond the level of the anterior margin of orbit'
+			,
+		5
+			'short does not contact frontal'
+			'long contacts frontal'
+			'long contact with frontal nearly lost premaxilla abuts mainly against nasal instead'
+			,
+		6
+			'not laterally compressed to form a middorsal ridge'
+			'laterally compressed bearing a middorsal ridge anteriorly with its posterior end upraised to form a boss in lateral view'
+			'laterally compressed but without a boss, posterior end being dorsally flattened instead'
+			,
+		7
+			'nearly level with palate'
+			'elevated above palate with its ventral surface lying greater than 10 mm above the alveolar margin'
+			,
+		8
+			'small diameter about 15 x 10 mm or less'
+			'large diameters greater than 15 x 10 mm, but less than 30 mm'
+			'very large both diameters greater than 30 mm'
+			,
+		9
+			'long anteroposteriorly vertical thickness lesser than 40 percent x minimum length'
+			'shortened thickness greater than or equal to 40 percent x length'
+			'shortened and transformed into a transverse vertical wall'
+			,
+		10
+			'thin or  incomplete at level of penultimate cheek tooth'
+			'greater than 1 cm thick at level of penultimate tooth'
+			,
+		11
+			'not obstructed'
+			'partly obstructed by a transverse bony ridge'
+			,
+		12
+			'present in any facial bones'
+			'absent'
+			,
+		13
+			'anterior edge thin and sharp posterior edge thick and more or less rounded'
+			'both edges thin and sharp'
+			'both edges thick and rounded'
+			,
+		14
+			'very narrow relative to posterior palate including teeth and especially to rostral masticating surface'
+			'almost as wide as posterior palate and rostral masticating surface'
+			,
+		15
+			'meet in midline'
+			'separated in midline by frontals and or an incisure or separated and fused with frontals'
+			,
+		16
+			'well developed, dorsoventrally thin overall lesser than 2 cm thick with prominent dorsoventrally flattened posterolateral corner'
+			'dorsoventrally thickened, with posterolateral corner only moderately or weakly developed'
+			'reduced rounded lacking posterolateral corner'
+			'dorsoventrally thickened lesser than 2cm with dorsal surface inclined strongly ventrolaterad and with posterolateral corner strongly developed and more or less recurved'
+			,
+		17
+			'absent or small does not extend posterior to supraorbital process'
+			'deep and narrow extends posterior to supraorbital process'
+			'comparably deep but broad with the anterior margin displaying a median convexity'
+			,
+		18
+			'convex more or less flat or moderately concave between temporal crest if present'
+			'deeply concave or depressed overall with or without a small median convexity between temporal crests but not sloping ventrad anteriorly'
+			'deeply concave or depressed and sloping steadily ventrad to anterior margin'
+			,
+		19
+			'not divided'
+			'divided by one or more distinct deep dorsoventral grooves indenting its lateral margin'
+			,
+		20
+			'bear no knoblike bosses'
+			'bears bilateral pair of knoblike bosses more or less cylindrical in shape and directed anterad or at least a distinct longitudinal ridge or swelling medial and parallel to and distinct from, each temporal crest'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'wider in dorsal half than at ventral extremities of lateral borders'
+			'wider ventrally than dorsally or equally wide throughout'
+			,
+		23
+			'meet in a suture dorsal to foramen magnum'
+			'do not meet in a suture'
+			,
+		24
+			'absent'
+			'distinct but shallow directly dorsal to condyle'
+			'deep and extending across entire width of occipital condyle'
+			'reduced and located dorsomedial to condyle or lost'
+			,
+		25
+			'thin and sharp less than 5mm thick'
+			'Thicker rounded and more or less smooth ca 5mm 15 mm thick'
+			'thickened with smoothly rounded posterior edge and in adults a flat lateral surface ca 10 mm 25 mm wide which may overhang a deep supracondylar fossa if one is present but not otherwise forming a posteriorly overhanging flange'
+			'ca 25 mm wide but with sharp overhanging flange'
+			'overhanging the posterior face of exoccipital as a thick rugose flange ca 25mm 35 mm wide in adults'
+			'greatly thickened forming broad  rugose overhanging flange greater than 35 mm wide'
+			,
+		26
+			'surrounded by bone'
+			'open forming a notch or absent'
+			,
+		27
+			'distinctly projects anteroventrally supporting a facet for insertion of sternomastoid m. from the ventral squamosal border that intersects the paroccipital processes'
+			'less salient ends nearly in line with the ventral squamosal border'
+			'elongated directly downwards'
+			,
+		28
+			'absent no ridge on surface of squamosal extends above bottom of mastoid foramen'
+			'present and prominent'
+			'weak or absent'
+			,
+		29
+			'does not extend to temporal crest'
+			'extends to temporal crest'
+			,
+		30
+			'absent'
+			'present, moderately inflected'
+			'present, not inflected'
+			'present strongly inflected'
+			,
+		31
+			'gradually tapered and pointed anteriorly with triangular anterior cross-section'
+			'regularly or irregularly rounded anteriorly with non triangular sometimes inflated cross section'
+			,
+		32
+			'narrow and slit like anteroposterior breadth less than dorsoventral'
+			'about as wide anterodorsal posteroventral as high posterodorsal-anteroventral'
+			'very broad and shallow wider anteroposteriorly than high'
+			,
+		33
+			'medial side not swollen appears relatively flat or concave and inclined inward dorsally'
+			'medial side markedly swollen inclined inward ventrally or forming a vertical wall'
+			,
+		34
+			'lies posterior to orbit'
+			'lies approximately under posterior edge of orbit but forward of jugal postorbital process'
+			'lies ventral to orbit'
+			,
+		35
+			'does not contact premaxilla'
+			'contacts premaxilla'
+			,
+		36
+			'relatively flat and thin posteromedial-anterolateral'
+			'breadth of portion lateral to maxillojugal suture is greater than anteromedial posterolateral thickness'
+			'thick and robust breadth thickness'
+			,
+		37
+			'as long as or longer than diameter or orbit'
+			'shorter than diameter of orbit'
+			,
+		38
+			'does not distinctively overhang lateral surface of jugal where such a surface is present below the orbit'
+			'does distinctly overhang'
+			,
+		39
+			'with foramen nasolacrimal canal'
+			'without foramen but still large'
+			'vestigial or absent'
+			,
+		40
+			'does not contact premaxilla'
+			'contacts lateral surface of nasal process of premaxilla'
+			'inserted between frontal and posterior end of nasal process of premaxilla'
+			,
+		41
+			'not incised merely shallow concave'
+			'incised or deeply indented'
+			'very deeply incised to as far forward as level of M1'
+			,
+		42
+			'extend to or anteriorly beyond the posterior edge of the zygomatic orbital bridge'
+			'does not extend so far forward'
+			,
+		43
+			'present'
+			'absent'
+			,
+		44
+			'absent'
+			'present extending above level of roof of internal nares'
+			'reduced confined to below or above roof of internal nares'
+			,
+		45
+			'enclosed by bone'
+			'opened to form a notch or incisure'
+			,
+		46
+			'long with pterygoid processes not enlarged'
+			'short with pterygoid process enlarged thickened and downwardly projecting'
+			,
+		47
+			'fused to alisphenoid'
+			'not fused with any other skull bone, set in close fitting socket in squamosal but contacting alisphenoid'
+			'not in contact with alisphenoid'
+			,
+		48
+			'not exposed on outside of skull'
+			'exposed only via fenestra in dorsal occiput'
+			,
+		49
+			'dorsoventrally compressed with transverse incisor rows'
+			'laterally compressed long with parallel incisor rows and a narrow masticating surface scarcely wider than the two rows of functional or nonfunctional tooth alveoli it bears'
+			'wider with rows of alveoli separated by a concavity broader than one alveolus'
+			'broad more or less rectangular without functional alveoli'
+			'broad with exception of abruptly narrowed anterior part'
+			,
+		50
+			'straight or only slightly concave'
+			'moderately concave sharply downturned anteriorly'
+			'moderately and evenly concave'
+			'strongly concave'
+			,
+		51
+			'present in addition to and usually posterior to the large principal foramen'
+			'absent'
+			,
+		52
+			'descends ventrally or posteroventrally from condyle without marked interruption or abrupt change in direction'
+			'bears a step like process processus angularis superior below condyle'
+			'has no distinct processus angularis superior but does have broadly convex outline beginning well below condyle'
+			,
+		53
+			'approximately vertical'
+			'extends slightly anterior to base of process'
+			'extends very far anterior to base'
+			,
+		54
+			'completely enclosed by bone of mandible'
+			'exposed posteroventrally'
+			'absent'
+			,
+		55
+			'slender minimum dorsoventral height lesser than 25 percent x length of mandible'
+			'broad dorsoventrally height  25 percent x length of mandible'
+			,
+		56
+			'tangent to angle'
+			'not tangent to angle'
+			,
+		57
+			'enamel crown distinct from root'
+			'enamel extends entire length of tusk'
+			,
+		58
+			'present'
+			'vestigial or absent'
+			,
+		59
+			'much less than half of the premaxillary symphysis'
+			'about half the length of the symphysis'
+			'much greater than half the length of the symphysis'
+			,
+		60
+			'suboval or subelliptical'
+			'lens shaped, with sharp anterior and posterior edges'
+			'lozenge shaped'
+			'broad and extremely flattened mediolaterally'
+			,
+		61
+			'with enamel on all sides forming complete enamel crown'
+			'with enamel mainly on medial side'
+			,
+		62
+			'present at least in part'
+			'all absent'
+			,
+		63
+			'double rooted'
+			'single rooted'
+			'absent'
+			,
+		64
+			'all present'
+			'some absent anterior ones'
+			'all absent no permanent premolars'
+			,
+		65
+			'present'
+			'absent'
+			,
+		66
+			'with crown longer than or equal to that of M2'
+			'smaller than M2'
+			'with reduced circular crown'
+			'no molar identifiable as M3 all molars subequal'
+			,
+		67
+			'absent'
+			'present and replenished indefinitely by horizontal replacement'
+			,
+		68
+			'present in adult'
+			'present in juvenile only'
+			'absent'
+			,
+		69
+			'P4 M3'
+			'P5  M3 or inferred to be secondarily reduced by loss of premolars'
+			,
+		70
+			'some double or triple rooted'
+			'all single rooted'
+			'all absent'
+			,
+		71
+			'seven in number'
+			'six in number'
+			,
+		72
+			'Do not bear pronounced transverse flanges'
+			'Do bear pronounce transverse flanges'
+			,
+		73
+			'four in number'
+			'three in number'
+			,
+		74
+			'Includes more than one vertebra'
+			'Includes only one vertebra'
+			'No vertebra is identifiable as a sacral by having a distinct attachment to the innominate bone'
+			,
+		75
+			'Transverse process small pierced dorsoventrally by a foramen'
+			'Transverse process elongate not pierced by a foramen'
+			,
+		76
+			'Taper continuously in breadth posterad'
+			'Show transverse narrowing in peduncle region then broadening indicative of the presence of flukes then tapering to tip of tail'
+			,
+		77
+			'Large tubercles well separated'
+			'Small tubercles largely united'
+			'Vestigial or absent tubercles completely united'
+			,
+		78
+			'Arclike symphysis present'
+			'Pronglike symphysis present but very short'
+			'Pronglike or indistinct symphysis absent'
+			,
+		79
+			'Present'
+			'Reduced or absent'
+			,
+		80
+			'Present'
+			'Absent'
+			,
+		81
+			'Present'
+			'Absent'
+			,
+		82
+			'Slender'
+			'Robust'
+			,
+		83
+			'Low blunt rugosity'
+			'Prominent sharply recurved and pointed'
+			'Reduced or lost'
+			,
+	;
+	MATRIX
+	'Phosphatherium'                      00000010000??10000000?0000??00?0?00000?00000000000000?0000000000100000?????????????
+	'Prorastomus sirenoides'              100111100?01000000000000001100000000?0000001000110000000?000?000000010?????????????
+	'Pezosiren portelli'                  1001111?0??1??0000000000000000010????????00?0?1?1101?000001000100000100100000000011
+	'Sobrarbesiren cardieli'              20?111100001000000001?0?1?01110000000000?00111?1?????????0010010000011?0?0??0000?1?
+	'Ashokia antiqua'                     ?0011?1?00010000000010020011000200000011??000111???????????????0??001??????????????
+	'Protosiren fraasi'                   100111000001??0000001??100110010000000??000011112111110000000010000011?????????????
+	'Protosiren smithae'                  10011100000100100000101110120010000000??000011?121111101?020?01000001100?1??0101000
+	'Libysiren sickenbergi'               10?1210100010100000010001011011000000012??001111210?1100?00??0100?0011?0???????????
+	'Anomotherium langewieschei'          ??????????????0000001?021?0110?20?????????1111113112?100?????1211?0011?????????????
+	'Miosiren kocki'                      100111010101000100001102102110020200002000111111????????10200121120011001??????????
+	'Potamosiren madgalenensis'           ??????1?00??????????????????????????????????????320??100?????122100012?????????????
+	'Ribodon limbatus'                    ??????1?010?0???????????????????????????????????320?110??????122131012?????????????
+	'Trichechus manatus latirostris'      10011111010101100000110011011012100000201111111132022101?10??1221310121012102211112
+	'Trichechus senegalensis'             10011111010101100000110011011012100000201111111132022101?10??1221310121012102211112
+	'Trichechus inunguis'                 10011111010101100000110131011012100000201111111132022100?10??1221310121012102211112
+	'Eotheriodes aegyptiacus'             ?001110?0001?00000001001100111000?0???000?111?11110???0??????010100011?????????????
+	'Eotheroides clavigerum'              200111010?0100000000100?10?1110101000010?01111?11102110?0000001010001100?11?02???00
+	'Eotheroides sandersi'                200111?10?0100000000100?10021101010000110011?111110??????000?010100011?0011?0211100
+	'Eotheroides lambondrano'             100111000?01000000001???????110?01000011?0?1?1???????????000?010100011?????????????
+	'Prototherium veronense'              1001111?00???000000010001??11101000000?01?1?11???201000000010010100011?????????????
+	'Prototherium ausetanum'              1001110??0??00?0?00011011?0?110?00?0000?001111????????????????10100011?????????????
+	'Prototherium intermedium s.l.'       2001110?00???000000010011???110?000000???011?????1021100001??010100011?????????????
+	'Eosiren libyca'                      20011?0?00???000000010021??111?10000001??01?1?1??1011100000??010100011?????????????
+	'Eosiren imenti'                      2001101100???00000001002???111?10000001??01?1?1??1011100000??010100011?????????????
+	'Halitherium taulannense'             200111?100010000000010021001110100000001101111111102110000100010100011?????????????
+	'Kaupitherium gruelli'                2001111100010000000010021001110101000001101111111102110100100121100011001?11?211101
+	'Kaupitherium bronni'                 ?00111010001000000001002100111010100000010111111110211010010012110001100111??21??0?
+	'Lentiarenium cristolii'              ?0?1??0?0001??1000001002?00111010?????????1111?133021111?????121100011?0????0??????
+	'Priscosiren atlantica'               20011101000100100000100200011101020000111011111133121111?000?122100012?0111????????
+	'Metaxytherium krahuletzi'            20011111000100110000110220011101010000111011111143121111000001221000120011??0211111
+	'Metaxytherium medium'                2001111100010011000011122001110102000011101111114312111100000122100012?????????????
+	'Metaxytherium serresii'              20011111000100110000111320011101020000111111111143121111001001221000120011??0211111
+	'Metaxytherium subapenninum'          200111120001001100001113200111010210001111111111431211110020012210001200111?0????11
+	'Metaxytherium floridanum'            20011111000100110000111220011101020000111011111143121111000001221000120011110211111
+	'Metaxytherium crataegense'           20011111000100110000111220011101020000111011111143121111000001221000120011??0211111
+	'Metaxytherium arctodites'            20011101000110110000111220011101020000112011111143121111000001221000120011110211111
+	'Dusisiren reinharti'                 ?001?11?00011??100001111100111010?????????11111132?21????10??122100012?0????0????11
+	'Dusisiren jordani'                   20011111000010110000111340011201021000201011111132121101?10??1221000120011??0211111
+	'Dusisiren dewana'                    2001111100011011000011104002120102?000??101111?1321?1101?10??1221?0012?0????02???1?
+	'Hydrodamalis cuestae'                20011112100121110000111340021201021000201011111132121101?10??1221?0112?????????????
+	'Hydrodamalis gigas'                  20011112100101120000111350021201021000201011111132120201?10??1221?02120011110211111
+	'Metaxytherium albifontanum'          20011111000100110000111220011101010000111011111143?21111000001221000120011110211111
+	'Caribosiren turneri'                 200111010001001000001?????0111010?000?1110111111?????????10??122100012?????????????
+	'Crenatosiren olseni'                 2001110100010011100010021001110101000111?0111111431211110010012210001200111?0?11101
+	'Nanosiren sanchezi'                  2011?10?1001001?11?111121101130101?001???0????21???????100000122100012?????????????
+	'Nanosiren garciae'                   2??1?10?1001001?11?111121101130101?001???01211214312111??00??1221?0012?0????0????01
+	'Dugong dugon'                        20011102110100112111111210011301021101121011111143121111102011221000120011110111111
+	'Callistosiren boriquensis'           210111010001001012001002100111010201001210111111????????10221122100012?1111????????
+	'Bharatisiren indica'                 210112010001001210001102000111010201011020111111???111???0?0?022100012?????????????
+	'Bharatisiren kachchhensis'           2101120100110013120011020?011?0102010112201111?1????????10200122100012?????????????
+	'Domningia sodhae'                    2201110100010013120010021?01111102010111201211?143121?11?0?2?122100012?????????????
+	'Kutchisiren cylindrica'              21011101000100111200110??0?111?10201?11020121111430??11?10?21122100012?????????????
+	'Kharisiren cristata'                 ?1?11102??11?01?10011?????????????01??10?????????????????022??221?0012?????????????
+	'Dioplotherium manigaulti'            22011101001100131201100220??1???0201111120121111????????10220122100012?????????????
+	'Dioplotherium allisoni'              220112020??100131110100?2001110102011111101211?14302111110221122100012?????????????
+	'Culebratherium alemani'              22111202000100131210100230011101020101111011?1?143021?0110221122100012?????????????
+	'MPEG63V d cf D allisoni'             220112010011001011101002100111010201011??01211114302111110221122100012?????????????
+	'ECOCHM2491 diop sp'                  2201120?00010013111010121001110112011111??121111????????10221122100012?????????????
+	'Xenosiren yucateca'                  ?2?1????2111??1312011????????11?02?111??????????????????10?3112?100012?????????????
+	'Corystosiren varguezi'               2?1111?????1?01321011?011?011?0?0201001??????111????????10231122100012?????????????
+	'Rytiodus heali'                      22012102000100111200101?10??110?020101122011?111?31?111?10231122100012?????????????
+	'Rytiodus capgrandi'                  ?1111??10??1??1112101?0?1??1110?020?01?????????1????????10231122100012?????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-83;
+ENDBLOCK;

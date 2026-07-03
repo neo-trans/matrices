@@ -1,0 +1,585 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.46.06 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=20;
+	TAXLABELS
+		'Procervulus praelucidus'
+		'Euprox furcatus'
+		'Lagomeryx parvulus'
+		'Lagomeryx ruetimeryeri'
+		'Lagomeryx sp. (xinjiang)'
+		'Heterocemas simpsoni'
+		'Ligeromeryx praestans'
+		'Ligeromeryx colberti'
+		'‘Lagomeryx’ triacuminatus'
+		'‘Lagomeryx’ tsaidamensis'
+		'Stephanocemas thomsoni'
+		'Stephanocemas palmaltus'
+		'Stephanocemas rucha'
+		'Paradicrocerus elegantulus'
+		'Paradicrocerus flerovi'
+		'Dicrocerus elegans'
+		'Acteocemas infans'
+		'‘Lagomeryx’ manai'
+		'‘Lagomeryx’ complicidens'
+		'Loxomeryx guangheensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=64;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Antlers-branches morphology'
+		[2] 'Antlers-irregular accessory branches/points/knobs'
+		[3] 'Antlers-burr'
+		[4] 'Antlers-cross-sections of branches'
+		[5] 'Antlers-number of main ramifurcation'
+		[6] 'Antlers-Palmate portion at antler base'
+		[7] 'Antlers-shaft'
+		[8] 'Antlers-Angle between anterior tine and posterior tine'
+		[9] 'Antlers-length/diameter of Pedicle'
+		[10] 'Antlers-Pedicle direction (the angle between the pedicle and the frontal in lateral view)'
+		[11] 'Antlers-Pedicle direction (anterior/dorsal view)'
+		[12] 'Antlers-Pedicle shape (lateral view)'
+		[13] 'Antlers-Pedicle cross-section in the middle'
+		[14] 'Antlers-Distal part of pedicle below antler'
+		[15] 'Antlers-Antler slope lying on pedicle'
+		[16] 'Antlers-Antler relative to pedicle in size'
+		[17] 'Antlers-grooves and ridges on the antler surface'
+		[18] 'Antlers- orientaion of anterior branches in relation to the pedicle'
+		[19] 'Antlers-pedicle crest on frontal'
+		[20] 'Teeth-P1/p1'
+		[21] 'Teeth-P2-lingual cones'
+		[22] 'Teeth-P2-central fold'
+		[23] 'Teeth-P2-orientation of central fold'
+		[24] 'Teeth-P2-anterolingual crista and anterior style /anterolabial crista'
+		[25] 'Teeth-P2-posterolingual crista and posterior style/posterolabial crista'
+		[26] 'Teeth-P2-length compared to P3'
+		[27] 'Teeth-P2-length compared to P4'
+		[28] 'Teeth-P3-central fold'
+		[29] 'Teeth-P3-orientation of central fold'
+		[30] 'Teeth-P3-posterolingual crista and posterior style/posterolabial crista'
+		[31] 'Teeth-P4-lingual cones'
+		[32] 'Teeth-P4-central fold'
+		[33] 'Teeth-P4-orientation of central fold'
+		[34] 'Teeth-P4-anterolingual crista and anterior style /anterolabial crista'
+		[35] 'Teeth-P4-posterolingual crista and posterior style/posterolabial crista'
+		[36] 'Teeth-upper premolars- length compared to upper molars'
+		[37] 'Teeth-M1 - ''protocone fold''(internal postprotocrista)'
+		[38] 'Teeth-M1 - metaconule fold'
+		[39] 'Teeth-M2 - Metaconule fold'
+		[40] 'Teeth-M3 - Metaconule fold'
+		[41] 'Teeth-M3 - wide of posterior lobe compared to anterior lobe'
+		[42] 'Teeth-Upper molars - Entostyles'
+		[43] 'Teeth-p2 - Transverse cristid'
+		[44] 'Teeth-p2 - Orientation of posterior elements'
+		[45] 'Teeth-p2 - Length compared to p4'
+		[46] 'Teeth-p3 - Anterior stylid'
+		[47] 'Teeth-p3 - Orientation of anterior elements'
+		[48] 'Teeth-p3 - Orientation of posterior elements'
+		[49] 'Teeth-p3 - Mesolingual conid'
+		[50] 'Teeth-p4 - Anterior stylid'
+		[51] 'Teeth-p4 - Orientation of anterior elements'
+		[52] 'Teeth-p4 - Orientation of transverse cristid'
+		[53] 'Teeth-p4 - Mesolingual cristid(s)'
+		[54] 'Teeth-p4 - Orientation of posterior elements'
+		[55] 'Teeth-p4 - Posterolabial conid'
+		[56] 'Teeth-p4 - Labial incision'
+		[57] 'Teeth-Lower premolars - Ratio: length premolars TO length molars'
+		[58] 'Teeth-m3 - ''Third lobe'''
+		[59] 'Teeth-m3 - Orientation of ''third lobe'''
+		[60] 'Teeth-Lower molars - Relative strength of labial conids of m1 compared to m2'
+		[61] 'Teeth-Lower molars - Orientation of metastylid'
+		[62] 'Teeth-Lower molars - Orientation of lingual conid complexes in relation to mandible axis'
+		[63] 'Teeth-Lower molars - Ectostylids'
+		[64] 'Teeth-Lower molars - Anterior cingulid'
+	;
+	STATELABELS
+		1
+			'forked'
+			'multibranched'
+			'multipointed'
+			'forked+multipointed'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'absent'
+			'burr-like sturcture(knobs/points) around antler base'
+			'present'
+			,
+		4
+			'round or oval'
+			'sometimes flat'
+			,
+		5
+			'2'
+			'3'
+			'>3'
+			,
+		6
+			'absent'
+			'small'
+			'middle'
+			'large'
+			,
+		7
+			'thin antler base, short shaft'
+			'broad antler base, no shaft'
+			,
+		8
+			'<90°'
+			'>90°'
+			,
+		9
+			'long and slender'
+			'short ang thick'
+			,
+		10
+			'upright[90°-80°)'
+			'slightly posterior[80°-60°)'
+			'posterior[60-30°)'
+			'extremely posterior[30-0°)'
+			,
+		11
+			'straight or slightly inward'
+			'outward'
+			,
+		12
+			'straight'
+			'curved at distal part'
+			,
+		13
+			'circular or slightly oval/ellipse 0.85-1.15'
+			'compressed mediolaterally <0.85'
+			,
+		14
+			'mediolaterally compressed <0.85'
+			'slightly or not compressed 0.8-1.15'
+			,
+		15
+			'perpendicular to the pedicle'
+			'anterior/medial bending relative to the pedicle'
+			,
+		16
+			'very small'
+			'small'
+			'equal'
+			'large'
+			,
+		17
+			'absent'
+			'weak'
+			'developed'
+			,
+		18
+			'medial to the pedicle'
+			'anterior to the pedicle'
+			'lateral to the pedicle'
+			'medial because of the rotate pedicle'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'sometimes present'
+			'absent'
+			,
+		21
+			'one cone'
+			'two cones, connected'
+			'two cones, completely separate'
+			,
+		22
+			'absent'
+			'present'
+			'present, more than one'
+			,
+		23
+			'anteriad'
+			'posteriad'
+			'straight'
+			,
+		24
+			'fused'
+			'separate'
+			,
+		25
+			'fused'
+			'separate'
+			,
+		26
+			'<P3'
+			'>/= P3'
+			,
+		27
+			'<100%'
+			'100&-119&'
+			'>= 120%'
+			,
+		28
+			'absent'
+			'present'
+			'present, more than one'
+			,
+		29
+			'anteriad'
+			'posteriad'
+			'straight'
+			,
+		30
+			'fused'
+			'separate'
+			,
+		31
+			'one cone'
+			'two cones, connected'
+			'two cones, completely separate'
+			,
+		32
+			'absent'
+			'present'
+			'present, more than one'
+			,
+		33
+			'anteriad'
+			'posteriad'
+			'straight'
+			,
+		34
+			'fused'
+			'separate'
+			,
+		35
+			'fused'
+			'separate'
+			,
+		36
+			'<70%'
+			'70%-80%'
+			'>80%'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'about similar size'
+			'distinctively smallar'
+			,
+		42
+			'absent or weakly present on one molar'
+			'clearly present on one or more molars'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'transverse'
+			'diagonal'
+			,
+		45
+			'>/= 95 %'
+			'80 % - 94 %'
+			'< 80 %'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'diagonal'
+			'transverse'
+			,
+		48
+			'transverse'
+			'diagonal'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'diagonal'
+			'transverse'
+			,
+		52
+			'straight'
+			'bent or zig-zag'
+			'diagonal'
+			,
+		53
+			'absent'
+			'present'
+			,
+		54
+			'transverse'
+			'diagonal'
+			,
+		55
+			'connected with other elements'
+			'separate'
+			,
+		56
+			'absent or weak'
+			'present & deep'
+			,
+		57
+			'50 % - 65 %'
+			'> 65 %'
+			,
+		58
+			'large, consisting of hypoconulid only'
+			'consisting of hypoconulid & entoconulid, central cavity'
+			'hypo/entoconulid crescent-shaped (open anterolingual)'
+			,
+		59
+			'lingual wall parallel to lingual wall of metaconid & entoconid'
+			'lingual wall inclined compared to lingual wall of meta- & entoconid'
+			,
+		60
+			'stronger in m1'
+			'equal'
+			'stronger in m2'
+			,
+		61
+			'in line with tooth walls'
+			'bent linguad'
+			,
+		62
+			'acute angle'
+			'in line/parallel'
+			,
+		63
+			'present on 2 or more molars'
+			'variably present on 1 or more molars, never big, absent in some specimens'
+			'always absent'
+			,
+		64
+			'absent or very weak, tooth slightly elongated might have prominent anterior stylid'
+			'present at least on one molar'
+			,
+	;
+	MATRIX
+	'Procervulus praelucidus'         00000000000000011101011101211001100?11110110(1 2)1000101110112010010
+	'Euprox furcatus'                 00200000030001022311???????12001201111111110(1 2)11011111000(0 1)2110101
+	'Lagomeryx parvulus'              200021110???00000-00011000112001200?0000(0 1)011100010011100?2110101
+	'Lagomeryx ruetimeryeri'          20002111011000000-?00121101121??????110011???????000100??20?1?01
+	'Lagomeryx sp. (xinjiang)'        200021110??1??000-?1????????????????????????????????????????????
+	'Heterocemas simpsoni'            010100?00211001110??????????????????????????????????????????????
+	'Ligeromeryx praestans'           11001011001100111001??????????????????????102?001?11110112011101
+	'Ligeromeryx colberti'            11001011001101111?00????????????????????????????????????????????
+	'‘Lagomeryx’ triacuminatus'       11011011021100011-0?????????????????????????????????????????????
+	'‘Lagomeryx’ tsaidamensis'        1?002?110???0???????????????????????????????????????????????????
+	'Stephanocemas thomsoni'          1101231112101013120????????????????????0??102?0011020000?1?2000(0 1)
+	'Stephanocemas palmaltus'         11012311?????0??1???????????????????????????????????????????????
+	'Stephanocemas rucha'             11012211?????0??1????????????????????????????????1121000?01???01
+	'Paradicrocerus elegantulus'      311(0 1)0210111010022101???????????????????????????1?1020111?11???01
+	'Paradicrocerus flerovi'          ??10021011101?0221??????????????????????????????????????????????
+	'Dicrocerus elegans'              01100010120010132201(0 1)220112211012012100001(0 1)011011101010112110001
+	'Acteocemas infans'               001000101?1010?211??????????????????????????????????????????????
+	'‘Lagomeryx’ manai'               1?002211021010110??1??????????10-11?1?0?11???????????????0???101
+	'‘Lagomeryx’ complicidens'        110022110?00101100??????????????????????????????????????????????
+	'Loxomeryx guangheensis'          3110021002001111100??????????????????????????????0021000???20101
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-64;
+ENDBLOCK;
+BEGIN MESQUITE;
+
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1753459473666;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 5893841265046652655;
+			tell It;
+				setDefaultOrder  12 38 1 0 2 15 4 5 8 10 11 28 29 13 14 16 26 7 9 6;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 6524923796195005414;
+			tell It;
+				setDefaultOrder  114 124 63 85 127 129 130 132 7 9 10 11 12 19 13 8 20 125 24 70 25 26 27 21 23 28 29 32 33 35 37 38 39 40 41 43 44 45 47 49 50 54 59 61 62 78 79 80 81 93 94 96 99 101 103 104 105 106 107 108 109 111 119 121;
+				attachments ;
+			endTell;
+			mqVersion 381;
+			checksumv 0 3 1647500404 null  getNumChars 64 numChars 64 getNumTaxa 20 numTaxa 20   short true   bits 15   states 15   sumSquaresStatesOnly 2978.0 sumSquares 2978.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 122;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1440 773;
+			setLocation -8 0;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #6524923796195005414 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 146;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1318 701;
+					setLocation -8 0;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames on;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						getTable;
+						tell It;
+							rowNamesWidth 436;
+						endTell;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1318 701;
+						setLocation -8 0;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						setActive;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1- 64;
+ENDBLOCK;

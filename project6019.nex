@@ -1,0 +1,711 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.43.10 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=34;
+	TAXLABELS
+		'Cheirolepis canadensis'
+		'Limnomis delaneyi'
+		'Mimipiscis toombsi'
+		'Moythomasia lineata'
+		'Aeduella blainvillei'
+		'Amblypterus latus'
+		'Amelangia ornata'
+		'Bourbonnella fourrieri'
+		'Bourbonnella guilloti'
+		'Bourbonnella hirsuta'
+		'Bourbonnella jocelynae'
+		'Cf. bourbonnella sp. KUVP 85296'
+		'Bourbonnella sp. POL-F 1994/1, ROK/6)'
+		'Briveichthys chantepieorum'
+		'Canobius ramsayi'
+		'Decazella vetteri'
+		'Elonichthys fritschi'
+		'Elonichthys germari'
+		'Igornella montcellensis'
+		'Igornichthys bohemicus'
+		'Neslovicella elongata'
+		'Neslovicella rzehaki'
+		'‘Otovice taxon’'
+		'Paramblypterus decorus'
+		'Paramblypterus duvernoy'
+		'Paramblypyerus rohani'
+		'Paramblypterus vratislaviensis'
+		'Platysella descusi'
+		'Platysella lallyi'
+		'Platysella poplinae'
+		'Progyrolepis heyleri'
+		'Puertollanichthys ritchiei'
+		'Spinarichthys dispersus'
+		'Westollia crassa'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=112;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Body proportions'
+		[2] 'Skull/Body proportions'
+		[3] 'Skull proportions'
+		[4] 'Orbit proportions'
+		[5] 'Gape directed slightly upward'
+		[6] 'Caudal fin proportions'
+		[7] 'Ossification of the palate bones and coronoid'
+		[8] 'Posterior ascending process of the parasphenoid'
+		[9] 'Presence of the premaxilla'
+		[10] 'Premaxilla proportions'
+		[11] 'Premaxilla contacts the anterior inferior infraorbital'
+		[12] 'Premaxilla contribution to the orbit'
+		[13] 'Presence of the rostral'
+		[14] 'Number of postrostral(s)'
+		[15] 'Postrostral shape'
+		[16] 'Postrostral ornamenation'
+		[17] 'Postrostral anterior margin shape'
+		[18] 'Small posterior process of the postrostral'
+		[19] 'Nasal bones (Nasal, Preorbital) ornamentation'
+		[20] 'Nasal (Nasal, Preorbital) bones with a notch'
+		[21] 'Nasal bones ornamentation distinct from the other skull bones'
+		[22] 'Skull roof ornamentation'
+		[23] 'Pineal foramen'
+		[24] 'Parietal proportions'
+		[25] 'Parietal ventral margin shape'
+		[26] 'Interparietal suture shape'
+		[27] 'Parietal and Postparietal proportions'
+		[28] 'Postparietal proportions'
+		[29] 'Postparietal ventral margin shape'
+		[30] 'Pit lines number in the postparietal'
+		[31] 'Course of the supraorbital canal'
+		[32] 'Dermosphenotic/Intertemporo-dermosphenotic reaching the nasal bones (Nasal, Preorbital)'
+		[33] 'Dermosphenotic/Intertemporo-dermosphenotic posteroventral process'
+		[34] 'Dermosphenotic and Dermopterotic (Supratemporal) proportions'
+		[35] 'Supratemporal ventral process'
+		[36] 'Supratemporal posterior process'
+		[37] 'Contact of the supratemporal with the postparietal'
+		[38] 'Accessory extrascapular number'
+		[39] 'Extrascapular number'
+		[40] 'Number of sclerotic ring elements'
+		[41] 'Number of ventral infraorbital(s) (including the lacrymal)'
+		[42] 'Ventral infraorbital posterior and jugal proportions'
+		[43] 'Jugal shape'
+		[44] 'Shape of the antero-dorsal margin of the L-shaped jugal'
+		[45] 'Number of infraorbital posterior'
+		[46] 'Number of suborbital(s) (including the spiracular)'
+		[47] 'Preoperculum inclination'
+		[48] 'Preoperculum extension'
+		[49] 'Preoperculum reaching the supratemporal'
+		[50] 'Maxilla proportions'
+		[51] 'Maxilla ornamentation'
+		[52] 'Maxillary plate shape'
+		[53] 'Maxillary plate contribution to the maxilla length'
+		[54] 'Maxillary plate proportions'
+		[55] 'Maxillary plate ventral margin shape'
+		[56] 'Postero-dorsal extension of the maxillary plate'
+		[57] 'Dentalosplenial deeper than the anterior part of the maxilla (anterior to the maxillary plate)'
+		[58] 'Dentalosplenial proportions'
+		[59] 'Marginal tooth (Dentary and maxilla tooth) morphology'
+		[60] 'Number of marginal tooth row'
+		[61] 'Marginal tooth homodonty'
+		[62] 'Number of dermohyal(s)'
+		[63] 'Epipreoperculum present'
+		[64] 'Gap between the skull roof bones and the opercular series bones'
+		[65] 'Operculum contacts extrascapular'
+		[66] 'Opercular series bones ornamentation'
+		[67] 'Operculum shape'
+		[68] 'Bending angle of the operculum'
+		[69] 'Dorsal margin of the operculum shorter than the ventral margin'
+		[70] 'Operculum proportions'
+		[71] 'Operculum depth proportions with the suboperculum'
+		[72] 'Operculum length proportions with the suboperculum'
+		[73] 'Operculum dorsal margin shape'
+		[74] 'Suture/Contact between the operculum and the suboperculum'
+		[75] 'Suboperculum shape'
+		[76] 'Suboperculum proportions'
+		[77] 'Number of branchiostegal ray(s)'
+		[78] 'Branchiostegal ray shape'
+		[79] 'First branchiostegal ray size'
+		[80] 'Last branchiostegal ray size'
+		[81] 'Medial gular and lateral gular proportions'
+		[82] 'Lateral gular shape'
+		[83] 'Medial gular shape'
+		[84] 'Posttemporal (Suprascapulare) shape'
+		[85] 'Presence of a presupracleithrum'
+		[86] 'Supracleithrum proportions'
+		[87] 'Supracleithrum lateral margin ornamentation'
+		[88] 'Cleithrum shape'
+		[89] 'Number of postcleithrum'
+		[90] 'Lepidotrichia sutures'
+		[91] 'Origin of the pectoral fin'
+		[92] 'Segmentation of the pectoral fin lepidotrichia'
+		[93] 'Number of scale rows from the supracleithrum to the pelvic fin base'
+		[94] 'Pelvic fin base on a field of minute scales'
+		[95] 'Number of scale rows from the supracleithrum to the anal fin base'
+		[96] 'Anterior extremity of the anal fin base position'
+		[97] 'Anal fin base on a field of minute scales'
+		[98] 'Dorsal fin located in three or less scales rows before or after the anal fin'
+		[99] 'Number of scale rows from the supracleithrum to the dorsal fin base'
+		[100] 'Dorsal fin base on a field of minute scales'
+		[101] 'Fin (excepting the caudal fin) with the largest leading edge'
+		[102] 'Fin (excepting the caudal fin) with the largest base'
+		[103] 'Number of scale rows from the supracleithrum to the caudal fin base (at the ventral lobe)'
+		[104] 'Caudal inversion'
+		[105] 'Number of scale rows from the supracleithrum to the caudal fin scale inversion'
+		[106] 'Caudal fin lobes proportions'
+		[107] 'Number of ridges scales before the dorsal fin'
+		[108] 'Beginning of the dorsal fin ridge scales'
+		[109] 'Presence of large scutes before the anal fin'
+		[110] 'Presence of large scutes between the anal fin and the caudal fin'
+		[111] 'Scales lateral face ornamentation'
+		[112] 'Ornamentation of the posterior margin of the anterior flank scales'
+	;
+	STATELABELS
+		1
+			'Elongated body (Length/Depth ratio >3)'
+			'Deep body (Length/Depth ratio <3)'
+			,
+		2
+			'Large skull (Body/Skull length ratio < 5)'
+			'Small skull (Body/Skull length ratio > 5)'
+			,
+		3
+			'Long (Length/Depth ratio >0.9)'
+			'Depth (Length/Depth ratio >0.9)'
+			,
+		4
+			'Small orbits (Skull/Orbit length ratio > 3.5)'
+			'Large orbits (Skull/Orbit length ratio < 3.5)'
+			,
+		5
+			'No'
+			'Yes'
+			,
+		6
+			'Short caudal fin (Body/Caudal fin length ratio >3.5)'
+			'Large caudal fin (Body/Caudal fin length ratio <3.5)'
+			,
+		7
+			'Palatal bones and coronoid ossified'
+			'Palatal bones and coronoid with little or no ossification'
+			,
+		8
+			'Absent'
+			'Present with an angle <80°'
+			'Present with an angle >80°'
+			,
+		9
+			'Yes'
+			'No'
+			,
+		10
+			'Dorso-ventrally elongated (Length/Depth <1)'
+			'Antero-posteriorly elongated (Length/Depth >1)'
+			,
+		11
+			'Yes'
+			'No'
+			,
+		12
+			'No'
+			'Yes'
+			,
+		13
+			'Yes'
+			'No'
+			,
+		14
+			'4'
+			'2'
+			'1'
+			'0'
+			,
+		15
+			'Rectangular'
+			'Pentagonal'
+			'Hexagonal'
+			,
+		16
+			'Long ridges'
+			'Tubercles and short ridges'
+			,
+		17
+			'Straight'
+			'V-shaped'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'Ridges'
+			'Tubercles'
+			,
+		20
+			'Yes'
+			'No'
+			,
+		21
+			'No'
+			'Yes'
+			,
+		22
+			'Ridges'
+			'Knobs'
+			'Flat tubercles'
+			,
+		23
+			'Present'
+			'Absent'
+			,
+		24
+			'Elongated (Length/Depth ratio between 1,5 and 2,5)'
+			'Short (Length/Depth ratio <1,5)'
+			'Very elongated (Length/Depth ratio >2,5)'
+			,
+		25
+			'Straight'
+			'V-shaped or with a notch'
+			,
+		26
+			'Straight'
+			'Lobed or sinusoidal'
+			,
+		27
+			'Parietal slightly smaller or larger than the Postparietal (Parietal/Postparietal length ratio <1,2)'
+			'Parietal larger than the (Postparietal (Parietal/Postparietal length ratio >1,2)'
+			,
+		28
+			'Rectangular-shaped elongated antero-posteriorly (Length/Depth ratio >1,2)'
+			'Square-shaped (Length/Depth ratio between 0,8 and 1,2)'
+			'Rectangular-shaped elongated dorso-ventrally (Length/Depth ratio <0,8)'
+			,
+		29
+			'Straight'
+			'Concave'
+			'V-shaped or oblique'
+			,
+		30
+			'3'
+			'2'
+			,
+		31
+			'From the parietal to the postparietal'
+			'From the parietal to the supratemporal'
+			'Stopping in the parietal'
+			,
+		32
+			'Yes'
+			'No'
+			,
+		33
+			'Present'
+			'Absent'
+			,
+		34
+			'Dermosphenotic/Intertemporo-dermosphenotic larger than the Supratemporal (Dermosphenotic/Supratemporal length ratio >1)'
+			'Dermosphenotic/Intertemporo-dermosphenotic smaller than the Supratemporal (Dermosphenotic/Supratemporal length ratio <1)'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'Absent'
+			'Present'
+			,
+		37
+			'All the medial margin of the supratemporal is in contact with the postparietal'
+			'The two posterior thirds of the medial margin of the supratemporal is in contact with the postparietal'
+			'The posterior half of the medial margin of the supratemporal is in contact with the postparietal'
+			,
+		38
+			'0'
+			'2'
+			'4'
+			,
+		39
+			'2'
+			'3'
+			'4'
+			'>4'
+			,
+		40
+			'4'
+			'5'
+			'Absent or poorly/not ossified'
+			,
+		41
+			'1'
+			'3-5'
+			,
+		42
+			'Ventral infraorbital posterior smaller than the jugal (Ventral infraorbital posterior/Jugal length ratio <1)'
+			'Ventral infraorbital posterior larger than the jugal (Ventral infraorbital posterior/Jugal length ratio >1)'
+			,
+		43
+			'L-shaped'
+			'Rectangular antero-posteriorly elongated'
+			,
+		44
+			'Concave'
+			'Oblique'
+			,
+		45
+			'0'
+			'1'
+			'2'
+			'3'
+			'5'
+			,
+		46
+			'0'
+			'1'
+			'2'
+			'3'
+			'4-6'
+			'8-9'
+			'>9'
+			,
+		47
+			'Preoperculum inclined ventro-anteriorly (angle with body axis <50°)'
+			'Preoperculum erected (angle with body axis between 50° and 110°)'
+			,
+		48
+			'Preoperculum reaching at least the level of the third of the anterior margin of the operculum'
+			'Preoperculum reaching less than the level of the third of the anterior margin of the operculum'
+			,
+		49
+			'No'
+			'Yes'
+			,
+		50
+			'Deep maxilla (Length/Depth ratio <2,8)'
+			'Gracile maxilla (Length/Depth ratio >2,8)'
+			,
+		51
+			'Ridges'
+			'Flat tubercles'
+			'No'
+			,
+		52
+			'Crescent-shaped'
+			'Rectangular-shaped'
+			'Oval-shaped'
+			'Triangular-shaped'
+			,
+		53
+			'Medium-sized maxillary plate (Maxilla/Maxillary plate length ratio between 2,3 and 1,5)'
+			'Large maxillary plate (Maxilla/Maxillary plate length ratio <1,5)'
+			'Small maxillary plate (Maxilla/Maxillary plate length ratio >2,3)'
+			,
+		54
+			'Low maxillary plate (Length/Depth ratio >1,8)'
+			'Medium-sized maxillary plate (Length/Depth ratio between 1,8 and 1,3)'
+			'Deep maxillary plate (Length/Depth ratio <1,3)'
+			,
+		55
+			'Inclined postero-ventrally'
+			'Straigth or slightly convex'
+			,
+		56
+			'Absent'
+			'Present'
+			,
+		57
+			'Yes (Dentalosplenial/Maxilla depth ratio >1,5)'
+			'No (Dentalosplenial/Maxilla depth ratio <1,5)'
+			,
+		58
+			'Elongated (Length/Depth ratio >3,5)'
+			'Deep (Length/Depth ratio <3,5)'
+			,
+		59
+			'Conical'
+			'Tubular'
+			,
+		60
+			'1'
+			'2'
+			,
+		61
+			'No, heterodonty in the same tooth row'
+			'Yes'
+			'Homodonty in the same tooth row, but heterodonty between different tooth rows'
+			,
+		62
+			'1'
+			'0'
+			'3'
+			'>3'
+			,
+		63
+			'No'
+			'Yes'
+			,
+		64
+			'Yes'
+			'No'
+			,
+		65
+			'No'
+			'Yes'
+			,
+		66
+			'Ridges'
+			'Flat tubercles'
+			'Spiky tubercles'
+			,
+		67
+			'Quadrangular-shaped'
+			'Triangular-shaped'
+			,
+		68
+			'No (Bending angle of 180°)'
+			'Yes (Bending angle <180°)'
+			,
+		69
+			'Yes (Dorsal/Ventral margin length ratio <0.9)'
+			'No, the dorsal margin is larger (Dorsal/Ventral margin length ratio >1.1)'
+			'No, the dorsal margin and the ventral margin have the same size (Dorsal/Ventral margin length ratio between O.9 and 1.1)'
+			,
+		70
+			'Deep operculum (total Depth/Length of the ventral margin ratio >1,5)'
+			'Long operculum (total Depth/Length of the ventral margin ratio <1,5)'
+			,
+		71
+			'Operculum and suboperculum at roughly the same depth (Operculum/Suboperculum depth ratio between 0,8 and 1,5)'
+			'Operculum deeper than the suboperculum (Operculum/Suboperculum depth ratio >1,5)'
+			'Suboperculum deeper than the operculum (Operculum/Suboperculum depth ratio <0,8)'
+			,
+		72
+			'Ventral margin of the operculum of roughly the same size as the ventral margin of the suboperculum (Operculum ventral margin/Suboperculum ventral margin length ratio between 0,8 and 1,5)'
+			'Ventral margin of the suboperculum larger than the ventral margin of the operculum (Operculum ventral margin/Suboperculum ventral margin length ratio <0,8)'
+			'Ventral margin of the operculum larger than the ventral margin of the suboperculum (Operculum ventral margin/Suboperculum ventral margin length ratio >1,5)'
+			,
+		73
+			'Rounded'
+			'Straight'
+			,
+		74
+			'Horizontal'
+			'U-shaped, with the suboperculum dorsal margin concave'
+			'Oblique, oriented antero-ventrally'
+			,
+		75
+			'Rectangular-shaped, elongated antero-posteriorly'
+			'Parallellogram-shaped, with margins (dorsal/ventral and/or anterior/posterior) conspicuously oblique'
+			'Rectangular-shaped, elongated dorso-ventrally (the dorsal margin can be slightly oblique)'
+			'Trapezoidal, with a conspicuous sloping margin'
+			,
+		76
+			'Anterior margin deeper (Posterior margin/Anterior margin depth ratio <0.9)'
+			'Anterior and posterior margin at roughly the same size (Posterior margin/Anterior margin depth ratio between 0.9 and 1.1)'
+			'Posterior margin deeper (Posterior margin/Anterior margin depth ratio between 1.1 and 1.8)'
+			'Posterior margin significantly deeper (Posterior margin/Anterior margin depth ratio >1.8)'
+			,
+		77
+			'10-13'
+			'>13'
+			'9-7'
+			'6-4'
+			'3'
+			'2'
+			'1'
+			,
+		78
+			'Rectangular-shaped'
+			'Ovoid-shaped'
+			,
+		79
+			'Same size as the second branchiostegal ray (First branchiostegal ray/Second branchiostegal ray width ratio <1,8)'
+			'Wider than the second branchiostegal ray (First branchiostegal ray/Second branchiostegal ray width ratio >1,8)'
+			,
+		80
+			'Smaller than the lateral gular (Last branchiostegal ray/Lateral gular length ratio <1)'
+			'Larger than the lateral gular (Last branchiostegal ray/Lateral gular length ratio >1)'
+			,
+		81
+			'Medial gular smaller than the lateral gular (Medial gular/Lateral gular length ratio <1)'
+			'Medial gular larger than the lateral gular (Medial gular/Lateral gular length ratio >1)'
+			,
+		82
+			'Ovoid-shaped'
+			'Rectangular-shaped (at least the posterior part)'
+			,
+		83
+			'Ovoid-shaped'
+			'Rhombic, elongated antero-posteriorly'
+			'Lance-shaped'
+			,
+		84
+			'Semi-circular'
+			'Rectangular'
+			,
+		85
+			'Yes'
+			'No'
+			,
+		86
+			'Short dorso-ventrally and elongated antero-posteriorly (Depth/Length ratio <3,5)'
+			'Elongated dorso-ventrally and short antero-posteriorly (Depth/Length ratio >3,5)'
+			,
+		87
+			'Smooth'
+			'Spine-like denticulations'
+			,
+		88
+			'Khepesh-shaped, with lateral branch and ventral branch reduced'
+			'Ovoid-shaped, with large lateral branch and ventral branch'
+			,
+		89
+			'1'
+			'0'
+			'2'
+			,
+		90
+			'Straight'
+			'Sigmoidal'
+			,
+		91
+			'Directly at the cleithrum'
+			'On a scaly lobe'
+			,
+		92
+			'Yes'
+			'Only the posterior lepidotrichia, at least the first anterior lepidotrichia are unsegmented'
+			'No, all the lepidotrichia are unsegmented'
+			,
+		93
+			'>17'
+			'13-17'
+			'9-12'
+			'5-8'
+			,
+		94
+			'No'
+			'Yes'
+			,
+		95
+			'>28'
+			'24-28'
+			'19-23'
+			'<19'
+			,
+		96
+			'Before/at the level of the anterior extremity of the dorsal fin base'
+			'Between the level of the anterior extremity of the dorsal fin base and the level of the posterior extremity of the dorsal fin base'
+			'After/at the level of the posterior extremity of the dorsal fin base'
+			,
+		97
+			'No'
+			'Yes'
+			,
+		98
+			'No'
+			'Yes'
+			,
+		99
+			'>34'
+			'30-34'
+			'25-29'
+			'<25'
+			,
+		100
+			'No'
+			'Yes'
+			,
+		101
+			'Pectoral fin'
+			'Pelvic fin'
+			'Dorsal fin'
+			'Anal fin'
+			,
+		102
+			'Pelvic fin'
+			'Dorsal fin'
+			'Anal fin'
+			,
+		103
+			'>50'
+			'41-50'
+			'36-40'
+			'<36'
+			,
+		104
+			'Sharp'
+			'Gradual'
+			,
+		105
+			'>65'
+			'45-65'
+			'40-44'
+			'<40'
+			,
+		106
+			'Slightly heterocercal (Dorsal lobe/Ventral lobe length ratio <1.7)'
+			'Strongly heterocercal, with a larger dorsal lobe (Dorsal lobe/Ventral lobe length ratio >1.7)'
+			,
+		107
+			'>7'
+			'5-7'
+			'2-4'
+			,
+		108
+			'At the skull'
+			'After the skull, with at least a scale row between the skull and the ridge scales'
+			,
+		109
+			'Yes (1 to 3)'
+			'No'
+			,
+		110
+			'Yes'
+			'No'
+			,
+		111
+			'Ridges'
+			'Smooth'
+			'Spines'
+			,
+		112
+			'No/little denticulations'
+			'Strong denticulation'
+			,
+	;
+	MATRIX
+	'Cheirolepis canadensis'                     0000000000000000000000101000000000000000000000000000100000000000001010110000000000001100000000000000000100210110
+	'Limnomis delaneyi'                          000000??011003----00000000110?000000000?0000000001000000000000000000101001000000000000001001??210130112121000010
+	'Mimipiscis toombsi'                         01010000000103----0000000000000000000000000000000000010000000000000001000000000000000000000010000000110000000010
+	'Moythomasia lineata'                        00010000000103----0000001010000000000020000000000100010000000000000000001000000000010000000001011110110001000010
+	'Aeduella blainvillei'                       0(0 1)01111-1---12(1 2)1100112100010011000000032100046110113001110101?011101(0 1)000023(2 3)60001010110111103121113121(2 3)13(0 1)210000
+	'Amblypterus latus'                          000100010101120100001212001(0 1)0000111022010000140000?00200001110000100000002102100?0?11???10002?201021(0 2 3)12020210?00
+	'Amelangia ornata'                           0?011?1-1---12????01121????0211000000??21000351101?30210101011011201011000116000111?110?111021????21??????21??0?
+	'Bourbonnella fourrieri'                     110?11???????????????2?????????????????201????100013021110101?0??101??0??02?500??????????1?021121121312020210000
+	'Bourbonnella guilloti'                      0101111-1---12????011210001001100000001201001?100013021110101?011101010200226?0?????110?111021121121212020110000
+	'Bourbonnella hirsuta'                       0101111-1---1221100112100010011000000022000014110013021110101201110100120022500000?01111111020121121(2 3)12020110001
+	'Bourbonnella jocelynae'                     0?0?0????????????????21?0012011?00001??2??????010012111000????010100202010216?0????0110?1?1020310130??????(1 2)10?00
+	'Cf. bourbonnella sp. KUVP 85296'            ??0?1?1-1---1221100112100010011000000??2??????100013021?10101????1????????22600?????110111?02?2???3????1??????00
+	'Bourbonnella sp. POL-F 1994/1, ROK/6)'      01?11?1-??????11100112110001011000000??2??00?????013??1?10101?0?110100000232?0?????0????11?03?211131(2 3)1303?????00
+	'Briveichthys chantepieorum'                 01000?01??????????1010120010012011101??0??00??00010001100001200000001011012100?00001100?1001??????????????21??11
+	'Canobius ramsayi'                           0000011-0100121000000010101200001010000?001011101003010000001?0110000120021230000000100?1000303000302231(2 3)0210000
+	'Decazella vetteri'                          0001111-1---12111101121(0 2)00100110000000220100341000130(1 2)1(0 1)10101?01110(0 1)0(0 1)10001150001010110111003122113121303021?100
+	'Elonichthys fritschi'                       010000010010122110???11200100100000000200001030011000000000121110010111100221010000100001000(1 2 3)?(0 1 2 3)1?(0 1)(0 1 2 3)102(0 1 2 3)010??0111
+	'Elonichthys germari'                        0100000100?0122110???11?10100100000000200001030011000000000121110010101110211010000100001000(1 2)?(1 2)1?(0 1)2?021?1?210111
+	'Igornella montcellensis'                    ????0?1-?????????????2120011011?100000????????0001?00100???????????????????????????0????1?????????????????????00
+	'Igornichthys bohemicus'                     00010?1-??????????11121200112110100000?10?????0001?0010000001?0??100000002222?0????1100?1?02202?0???????????0020
+	'Neslovicella elongata'                      0101101-1---12????01121100000110000000220110??110013021010101?011101000002325001?0?01101111020220(0 1)20(1 2)1(2 3)02021?001
+	'Neslovicella rzehaki'                       0001111-1---1221100112110000011000000002010014110013021010101?01110100000232500000101101111030221131213031210001
+	'‘Otovice taxon’'                            0101111-1---?????????2100101111000001002?????????013021110101?01?10100000233????????1???11?031220131(2 3)13030211?01
+	'Paramblypterus decorus'                     010000??0101122110001210111100001101111000001600000002001011130110001010001020000001110100002?211021312120210010
+	'Paramblypterus duvernoy'                    010001010101121110001210111100001100201?000014000010020000111(0 2)0111000110021021000000100?000020210021212121210011
+	'Paramblypyerus rohani'                      0000000101011211110012101111000011012110000015000010020000111001110001000211200000000011200021(1 2)11121312120210001
+	'Paramblypterus vratislaviensis'             0101000101001211100?121210110000111020010000140000?0020000111000010020000211210????0100?100020211021322120210000
+	'Platysella descusi'                         101?111-1---?????????210001001100??????2?????????1??????01101?0??10110?0?222500?????1??1?0102?11?12??1213?????00
+	'Platysella lallyi'                          1110101-1---??????0112100010211000???022??????1??113021001101?011101000000226001?0??1001?1?0??221021?13131210100
+	'Platysella poplinae'                        101?10?-1---??????01121??????11??????0?2??????1??1130210??1???0??10100??0022????????1????1??2?12?12???30(2 3)0????00
+	'Progyrolepis heyleri'                       010000010?0012????10101201100--11000100?0000120011000100000120000000101011210000000?1000100120111?????1?10210111
+	'Puertollanichthys ritchiei'                 0000101-1---12211001121200100111010000220????????013021110101?01010101000233510??0001??11100303100302120(2 3)1211100
+	'Spinarichthys dispersus'                    ??0?0?????????????????????????????????????????100013221000101?01?101010202324100010?101111?0??????????????????01
+	'Westollia crassa'                           0101111-1---1211100112110011011000000022000025100013011010101001110100000232500010201101110021111121212020210100
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-112;
+ENDBLOCK;

@@ -1,0 +1,351 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.44.50 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=20;
+	TAXLABELS
+		'Baluchicardia bulla'
+		'Baluchicardia wilcoxensis'
+		'Venericardia alticostata'
+		'Venericardia apodensata'
+		'Venericardia aposmithii'
+		'Venericardia bashiplata'
+		'Venericardia carsonensis'
+		'Venericardia claiboplata'
+		'Venericardia cookei'
+		'Venericardia densata'
+		'Venericardia diversidentata'
+		'Venericardia hadra'
+		'Venericardia hatcheplata'
+		'Venericardia horatiana'
+		'Venericardia mediaplata'
+		'Venericardia natchitoches'
+		'Venericardia nodifera'
+		'Venericardia pilsbryi'
+		'Venericardia rotunda'
+		'Venericardia smithii'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Size'
+		[2] 'Shape viewed from outside'
+		[3] 'Outline of commissure'
+		[4] 'Beak strongly prosogyrous'
+		[5] 'Truncated posterior (squared off end)'
+		[6] 'Very short front'
+		[7] 'Posterior indentation'
+		[8] 'Flat anterior flare'
+		[9] 'Inflation of umbones'
+		[10] 'Lunule depth'
+		[11] 'Penetrating lunule'
+		[12] '3a tooth orientation'
+		[13] '3b tooth orientation'
+		[14] '5b tooth orientation'
+		[15] '2 tooth orientation'
+		[16] '4 tooth orientation'
+		[17] 'Elevation of 3a tooth'
+		[18] 'Elevation of 5b tooth'
+		[19] 'Elevation of 2 tooth'
+		[20] 'Elevation of 4 tooth'
+		[21] 'Highest tooth on L valve'
+		[22] 'Striations on posterior side of 3a tooth'
+		[23] 'Paracostal cord'
+		[24] 'Stronger fourth rib on posterior'
+		[25] 'Stronger seventh rib'
+		[26] 'Smooth exterior'
+		[27] 'Sharp, narrow ornament on ribs'
+		[28] 'Radial ornament fades ventrally'
+		[29] 'Radial ornament fades anteriorly'
+		[30] 'Radial ornament fades posteriorly'
+		[31] 'Dominant ornament on dorsal anterior region of shell'
+		[32] 'Dominant ornament on dorsal posterior region of shell'
+		[33] 'Dominant ornament on ventral anterior region of shell'
+		[34] 'Dominant ornament on ventral posterior'
+		[35] 'Nodes'
+		[36] 'Umbone nodes'
+		[37] 'Anterior umbone nodes'
+		[38] 'Posterior umbone nodes'
+		[39] 'Node size'
+		[40] 'Tripartite ribbing'
+		[41] 'Lateral ornament on posterior edge'
+		[42] 'Cross section of ribs across middle of largest specimen'
+		[43] 'Cross section of ribs on umbone'
+		[44] 'Intercostal space across middle of largest specimen'
+		[45] 'Intercostal shape across middle of largest specimen'
+		[46] 'Intercostal shape on umbone'
+		[47] 'Adductor muscle scar depth'
+		[48] 'Pallial line intersection with anterior adductor muscle scar'
+		[49] 'Pallial line shape'
+		[50] 'Hinge size'
+		[51] 'Two morphs with differing inflation'
+	;
+	STATELABELS
+		1
+			'tiny (width <1 cm)'
+			'small (width 1-3 cm)'
+			'medium (width 3–6 cm)'
+			'large (width >6 cm)'
+			'Authors did not define State 4 in publication'
+			,
+		2
+			'subcircular'
+			'trigonal'
+			'quadrate'
+			,
+		3
+			'subcircular'
+			'trigonal'
+			'quadrate'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'slight'
+			'developed'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'low'
+			'intermediate'
+			'high'
+			,
+		10
+			'shallow'
+			'deep'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'indeterminate tooth'
+			'50°-60°'
+			'80°-90°'
+			'100°-120°'
+			,
+		13
+			'0°-10°'
+			'20°-30°'
+			'30°-40°'
+			'40°-50°'
+			,
+		14
+			'10°-20°'
+			'20°-30°'
+			'30°-40°'
+			'Authors did not define State 3 in publication'
+			,
+		15
+			'0°-10°'
+			'35°-50°'
+			'70°~80°'
+			'80°-90°'
+			,
+		16
+			'0°-10°'
+			'20°-30°'
+			'30°-40°'
+			'40°-50°'
+			,
+		17
+			'absent'
+			'level with edge of shell'
+			'higher than edge of shell'
+			,
+		18
+			'level with edge of shell'
+			'higher than edge of shell'
+			,
+		19
+			'constant elevation'
+			'highest elevation at dorsal end of tooth'
+			'highest elevation at ventral end of tooth'
+			,
+		20
+			'constant elevation'
+			'highest elevation at dorsal end of tooth'
+			'highest elevation at ventral end of tooth'
+			,
+		21
+			'2 tooth'
+			'4 tooth'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'radial'
+			'concentric'
+			,
+		32
+			'radial'
+			'concentric'
+			,
+		33
+			'radial'
+			'concentric'
+			,
+		34
+			'radial'
+			'concentric'
+			,
+		35
+			'absent'
+			'partial shell coverage'
+			'total shell coverage'
+			,
+		36
+			'absent on umbone'
+			'umbone partially covered'
+			'entire umbone covered'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'nodes absent'
+			'small nodes'
+			'large nodes'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'flat'
+			'square'
+			'“U”-shape'
+			'“V”-shape'
+			,
+		43
+			'flat'
+			'square'
+			'"U" shape'
+			'"V"-shape'
+			,
+		44
+			'narrow groove between costa'
+			'wide gap between costa'
+			,
+		45
+			'"U"-shape'
+			'"V"-shape'
+			'flat'
+			,
+		46
+			'“U”-shape'
+			'“V”-shape'
+			'flat'
+			,
+		47
+			'shallow'
+			'deep'
+			,
+		48
+			'intersection at middle of muscle scar'
+			'intersection at posterior edge of muscle scar'
+			,
+		49
+			'smooth, uniform curve'
+			'bends in corner'
+			,
+		50
+			'narrow'
+			'wide'
+			'Authors did not define State 2 in publication'
+			,
+		51
+			'observed'
+			'not observed'
+			,
+	;
+	MATRIX
+	'Baluchicardia bulla'              420001102101111121100111001000000022112103310010100
+	'Baluchicardia wilcoxensis'        102001102102113121121111101001000022112113310010100
+	'Venericardia alticostata'         422110101112111121120111100000100022112113311110100
+	'Venericardia apodensata'          310100111111211011110101100100101112111011212210121
+	'Venericardia aposmithii'          312100111112323221111101100101101112111012101011110
+	'Venericardia bashiplata'          310100111112311111100101100101000012111012101011021
+	'Venericardia carsonensis'         100100001112112101211110001000000022112103310000010
+	'Venericardia claiboplata'         312100111111111121100101100000100012111011110010100
+	'Venericardia cookei'              410100100012312121101100100100100012111012100010000
+	'Venericardia densata'             410100111111321111101101100101100112111011100010021
+	'Venericardia diversidentata'      100100101112121121111111100000100022111113310010000
+	'Venericardia hadra'               422110001112111010001011100100100022112113210010000
+	'Venericardia hatcheplata'         412100011112223121111100000101101111111012101011121
+	'Venericardia horatiana'           311100011111233121111100010111111111101010202211110
+	'Venericardia mediaplata'          410100101112321121021101100000100000000011100010000
+	'Venericardia natchitoches'        100100101110020101001010000000100022111103310010000
+	'Venericardia nodifera'            402110101113111221101111100000000022112113310010100
+	'Venericardia pilsbryi'            310100210112322121111101100101100011111012200110100
+	'Venericardia rotunda'             100100101112111321100111100000100022112113310010000
+	'Venericardia smithii'             410100101111221121001101100000000022112012310010000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-51;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1597637956391; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 5898469162269912861; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4739619349666219534; mqVersion 360; checksumv 0 3 3179830024 null getNumChars 51 numChars 51 getNumTaxa 20 numTaxa 20 short true bits 15 states 15 sumSquaresStatesOnly 6621.0 sumSquares 6621.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 175; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1186 641; setLocation 8 23; setFont Gadget; setFontSize 14; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4739619349666219534 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 211; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1011 569; setLocation 8 23; setFont Gadget; setFontSize 14; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 51; 
+ENDBLOCK;

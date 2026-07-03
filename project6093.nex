@@ -1,0 +1,3644 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.45.46 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=177;
+	TAXLABELS
+		'Seymouria baylorensis'
+		'Acerosodontosaurus piveteaui'
+		'Acleistorhinus pteroticus'
+		'Aerosaurus wellesi'
+		'araeoscelis'
+		'Archaeovenator hamiltonensis'
+		'Askeptosaurus italicus'
+		'Augustasaurus hagdorni'
+		'Australothyris smithi'
+		'Avicranium renestoi'
+		'Azendohsaurus madagaskarensis'
+		'Barasaurus besairiei'
+		'Belebey vegrandis'
+		'Besanosaurus leptorhynchus'
+		'Bolosaurus major'
+		'Bolosaurus striatus'
+		'Boreopricea funerea'
+		'Bradysaurus baini'
+		'Brouffia orientalis'
+		'Candelaria barbouri'
+		'Captorhinus aguti'
+		'Captorhinus kierani'
+		'Captorhinus laticeps'
+		'Cartorhynchus lenticarpus'
+		'Casea broilii'
+		'Champsosaurus lindoei'
+		'Chaohusaurus brevifemoralis'
+		'Clarazia schinzi'
+		'Claudiosaurus germaini'
+		'Clevosaurus brasiliensis'
+		'Clevosaurus cambrica'
+		'Clevosaurus hudsoni'
+		'Coelostegus prothales'
+		'Coelurosauravus elivensis'
+		'Coletta seca'
+		'Colobomycter pholeter'
+		'Cotylorhynchus romeri'
+		'Cyamodus orientalis'
+		'Czatjowiella harae'
+		'Delorhynchus cifellii'
+		'Deltavjatia rossicus'
+		'Diadectes absitus'
+		'Dimetrodon limbatus'
+		'Diphydontosaurus avonis'
+		'Dolabrosaurus aquatilis'
+		'Drepanosaurus unguicaudatus'
+		'Edaphosaurus boanerges'
+		'Edaphosaurus pogonias'
+		'Emeroleter levis'
+		'Endennasaurus acutirostris'
+		'Ennatosaurus tecton'
+		'Eomurruna yurrgensis'
+		'Eorhynchochelys sinensis'
+		'Eothyris parkeyi'
+		'Eretmorhipis carrolldongi'
+		'Erythrosuchus africanus'
+		'Euconcordia cunninghami'
+		'Eudibamus cursoris'
+		'Eunotosaurus africanus'
+		'Euparkeria capensis'
+		'Euromycter rutenus'
+		'Feeserpeton oklahomensis'
+		'Gephyrosaurus bridensis'
+		'Gordodon kraineri'
+		'Haptodus garnettensis'
+		'Heleosaurus scholtzi'
+		'Honghesaurus longicaudalis'
+		'Hovasaurus boulei'
+		'Huehuecuetzpalli mixtecus'
+		'Hupehsuchus nanchangensis'
+		'Hyperodapedon gordoni'
+		'Hypsognathus fenneri'
+		'Hypuronector limnaios'
+		'Ianthasaurus hardestii'
+		'Ianthodon schultzei'
+		'Icarosaurus siefkeri'
+		'Kapes majmesculae'
+		'Keichousaurus hui'
+		'Klastomycter conodentatus'
+		'Kuehneosaurus latissimus'
+		'Labidosaurikos meachami'
+		'Labidosaurus hamatus'
+		'Langobardisaurus pandolfii'
+		'Largocephalosaurus qianensis'
+		'Lariosaurus xingyiensis'
+		'Leptopleuron lacertinum'
+		'Limnoscelis paludis'
+		'Lupeosaurus kayi'
+		'Macrocnemus bassanii'
+		'Macroleter poezicus'
+		'Marmoretta oxoniensis'
+		'Martensius bromackerensis'
+		'Megachirella wachtleri'
+		'Megalancosaurus preonensis'
+		'Mesenosaurus romeri'
+		'Mesosaurus tenuidens'
+		'Mesosuchus browni'
+		'Microsphenodon bonapartei'
+		'Milleretta rubidgei'
+		'Milleropsis pricei'
+		'Moradisaurus grandis'
+		'Mycterosaurus longiceps'
+		'Nothosaurus marchicus'
+		'Nyctiphruretus acudens'
+		'Odontochelys semitestacea'
+		'Oedaleops campi'
+		'Ophiacodon retroversus'
+		'Ophiacodon uniformis'
+		'Orobates pabsti'
+		'Orovenator mayorum'
+		'Owenetta kitchingorum'
+		'Ozimek volans'
+		'Pachypleurosaurus edwardsi'
+		'Palaeohatteria longicaudata'
+		'Paleothyris acadiana'
+		'Paliguana whitei'
+		'Pamelaria dolichotrachela'
+		'Pappochelys rosinae'
+		'Paraplacodus broilii'
+		'Parvinatator wapitiensis'
+		'Pentaedrusaurus ordosianus'
+		'Petrolacosaurus kansensis'
+		'Pistosaurus longaevus'
+		'Placodus gigas'
+		'Planocephalosaurus robinsonae'
+		'Procolophon trigoniceps'
+		'Proganochelys quenstedti'
+		'Prolacerta broomi'
+		'Proterosuchus fergusi'
+		'Protocaptorhinus pricei'
+		'Protorosaurus speneri'
+		'Protorothyris archeri'
+		'Provelosaurus americanus'
+		'Psephochelys polyosteoderma'
+		'Rhynchosaurus articeps'
+		'Sauropareion anoplus'
+		'Scutosaurus karpinskii'
+		'Secodontosaurus obtusidens'
+		'Serpianosaurus mirigiolensis'
+		'Simosaurus gaillardoti'
+		'Sinosaurosphargis yunguiensis'
+		'Sophineta cracoviensis'
+		'Sphenacodon ferox'
+		'Tanystropheus hydroides'
+		'Taytalura alcoberi'
+		'Tetraceratops insignis'
+		'Teyujagua paradoxa'
+		'Thadeosaurus colcanapi'
+		'Thalattosaurus alexandrae'
+		'Tichvinskia vjatkensis'
+		'Trilophosaurus buettneri'
+		'Tseajaia campi'
+		'Utatsusaurus hataii'
+		'Varanodon agilis'
+		'Varanops brevirostris'
+		'Varanosaurus acutirostris'
+		'Weigeltisaurus jaekeli'
+		'Youngina capensis'
+		'Sphenodon punctatus'
+		'Anolis carolinensis'
+		'Pogona vitticeps'
+		'Uta stansburiana'
+		'Varanus komodoensis'
+		'Dakosaurus andieniensis'
+		'Deinosuchus riograndensis'
+		'Junggarsuchus sloani'
+		'Postosuchus kirkpatricki'
+		'Revueltosaurus callenderi'
+		'Simosuchus clarki'
+		'Typothorax coccinarum'
+		'Alligator mississipiensis'
+		'Alligator sinensis'
+		'Crocodylus porosus'
+		'Gavialis gangeticus'
+		'Eileanchelys waldmani'
+		'Chelonia mydas'
+		'Mauremys reevesii'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=628;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Snout Shape'
+		[2] 'Snout'
+		[3] 'Premaxilla anterolateral exposure to external nares'
+		[4] 'Lateral process of the premaxilla'
+		[5] 'Posterior border of lateral process of the premaxilla contacts'
+		[6] 'Premaxilla contribution to posterior nares'
+		[7] 'Premaxilla forms'
+		[8] 'Premaxilla ventral margin'
+		[9] 'Premaxilla contribution to palate'
+		[10] 'Premaxilla palatal process'
+		[11] 'Premaxilla-prefrontal contact'
+		[12] 'Septomaxilla is'
+		[13] 'Medial flange of the septomaxilla is'
+		[14] 'Septomaxilla contacts nasal dorsally'
+		[15] 'Maxilla ventral margin is'
+		[16] 'Fossa on the premaxillary process of the maxilla is'
+		[17] 'Suture between premaxilla and maxilla'
+		[18] 'Maxilla narial contact'
+		[19] 'Prenarial ascenting process of the maxilla is'
+		[20] 'Maxilla ends'
+		[21] 'Anterodorsal process of maxilla is'
+		[22] 'Anterodorsal process of the maxilla shape is'
+		[23] 'Apex of the anaterodorsal process of the maxilla is located'
+		[24] 'Maxillary depression is'
+		[25] 'Lateral swelling of maxilla (i.e., supracanine buttress) is'
+		[26] 'Maxilla-prefrontal contact'
+		[27] 'Ascending process of the maxilla divdes lacrimal'
+		[28] 'Palatal process of the maxilla is'
+		[29] 'Dentigerous surface of the maxilla'
+		[30] 'Parallel row of lateral, supralabial maxilla foramina is'
+		[31] 'Maxillary anterior narial foramen is'
+		[32] 'Subnarial foramen is'
+		[33] 'Narial shelf'
+		[34] 'External nares are'
+		[35] 'Anteroposterior length of the external nares is'
+		[36] 'Height of external nares is'
+		[37] 'External nares is largely exposed'
+		[38] 'External nares are located'
+		[39] 'External nares are - 1'
+		[40] 'Nasals are'
+		[41] 'Contribution of nasal to external nares'
+		[42] 'Posteroventral narial process on nasal is'
+		[43] 'Nasals are - 1'
+		[44] 'Anterior margins of nasals are'
+		[45] 'Nasals are - 2'
+		[46] 'Orientation of the nasal-prefrontal contact is'
+		[47] 'Nasal is'
+		[48] 'Nasal-frontal suture'
+		[49] 'Ventral margin of postorbital region of skull is'
+		[50] 'Posterior extension of orbit is'
+		[51] 'Dermal sculpturing is'
+		[52] 'Dermal sculpturing presents as'
+		[53] 'Circum orbital tubercles are'
+		[54] 'Ventral expansion of orbit is'
+		[55] 'Intertemporal is'
+		[56] 'Posterolateral corner of the skull table is predominantly formed by the'
+		[57] 'Prefrontal medial flange is'
+		[58] 'Prefrontals'
+		[59] 'Posterior spur on the obital buttress of prefrontal is'
+		[60] 'Prefrontal'
+		[61] 'Prefrontal orbital margin is'
+		[62] 'Prefrontal antorbital recess on lateral surface is'
+		[63] 'Sharp angle between the dorsal and lateral surface of prefrontal'
+		[64] 'Palpebral is'
+		[65] 'Frontal'
+		[66] 'Frontals are'
+		[67] 'Frontal is'
+		[68] 'Frontal lappet is'
+		[69] 'Frontal length is'
+		[70] 'Frontal shape is'
+		[71] 'Supraorbital margin is'
+		[72] 'Frontal posterolateral process is'
+		[73] 'Frontal midline posterior process is'
+		[74] 'Cristae cranii'
+		[75] 'Postfrontal is'
+		[76] 'Postfrontal'
+		[77] 'Postfrontal - 1'
+		[78] 'Postfrontal posterior border is'
+		[79] 'Postorbital posterior process extends'
+		[80] 'Postorbital posterior process shape is'
+		[81] 'Postorbital'
+		[82] 'Postorbital shape is'
+		[83] 'Lateral tuberosity on postorbital is'
+		[84] 'Postorbital and frontal are'
+		[85] 'Postorbital medial process contacts the postfrontal'
+		[86] 'Postorbital and parietal are'
+		[87] 'Postorbital and squamosal are'
+		[88] 'Parietal foramen is'
+		[89] 'Parietal foramen is - 1'
+		[90] 'Parietal foramen (location)'
+		[91] 'Parietal foramen (shape)'
+		[92] 'Raised border around the parietal foramen'
+		[93] 'Parietal-frontal suture'
+		[94] 'Parietals are'
+		[95] 'Parietal skull table is'
+		[96] 'Anterior extent of parietal'
+		[97] 'Parietal anterior process is'
+		[98] 'Parietal posterolateral process is oriented'
+		[99] 'Parietal posterolateral process is'
+		[100] 'Posterolateral corner of parietal is'
+		[101] 'Parietal posterolateral process is - 1'
+		[102] 'Posteromedial process of the parietal is'
+		[103] 'Skull roof'
+		[104] 'Skull table occipital margin is'
+		[105] 'Occipital margin is'
+		[106] 'Parietal occipital flange is'
+		[107] 'Parietal-postparietal suture is'
+		[108] 'Postparietal is'
+		[109] 'Postparietal is - 1'
+		[110] 'Postparietals are'
+		[111] 'Dorsal exposure of postparietals is'
+		[112] 'Postparietal spur is'
+		[113] 'Postparietal-posttemporal fenestra contact is'
+		[114] 'Transverse width of paried of fused parietals are'
+		[115] 'Postparietal-supratemporal contact'
+		[116] 'Supratemporal is'
+		[117] 'Anterior elongation of the supratemporal'
+		[118] 'Supratemporal exposure on the temporal region is'
+		[119] 'Supratemporal'
+		[120] 'Postorbital cheek region is'
+		[121] 'Upper temporal fenestra is (size)'
+		[122] 'Upper termporal fenestra is (shape)'
+		[123] 'Upper temporal fenestra orientation'
+		[124] 'Frontal is - 1'
+		[125] 'Embayments on the skull lateral margins are'
+		[126] 'Lateral temporal fenestra is'
+		[127] 'Lateral temporal fenestra is - 1'
+		[128] 'Lower temporal bar thickness'
+		[129] 'Lower temporal fenestra height'
+		[130] 'Lower temporal fenestra shape is'
+		[131] 'Preorbital region relative to postorbital region of the skull'
+		[132] 'Postorbital region of the skull is'
+		[133] 'Postorbital region is'
+		[134] 'Antorbital fenestra is'
+		[135] 'Antorbital fossa is'
+		[136] 'Antorbital fossa is - 1'
+		[137] 'Lacrimal'
+		[138] 'Size of lacrimal contact with external nares is'
+		[139] 'Lacrimal - 1'
+		[140] 'Lacrimal-nasal contact is'
+		[141] 'Lacrimal-jugal contact'
+		[142] 'Lacrimal duct opens'
+		[143] 'Jugal anterior process'
+		[144] 'Jugal anterior process is'
+		[145] 'Dorsal ramus of jugal (forming postorbital bar) is'
+		[146] 'Dorsal ramus of jugal'
+		[147] 'Jugal posterior process extends posteriorly'
+		[148] 'Tuberous ornamentation on jugal'
+		[149] 'Anteroposterorly oriented lateral shelf (i.e., angulo oris crest) of jugal is'
+		[150] 'Longitudinal ridge on the lateral surface of the jugal body is'
+		[151] 'Alary process of the jugal is'
+		[152] 'Jugal-squamosal contact is'
+		[153] 'Quadrate is'
+		[154] 'Quadrate excavation along posterior edge'
+		[155] 'Dorsal margin of quadrate is'
+		[156] 'Quadrate'
+		[157] 'Quadrate anterior process is'
+		[158] 'Lateral flange of the quadrate is'
+		[159] 'Pterygoid ramus of the quadrate is'
+		[160] 'Otic notch is'
+		[161] 'Otic notch'
+		[162] 'Otic notch is exposed'
+		[163] 'Squamosal lateral exposure'
+		[164] 'Bifid anterior margin of the squamosal to receive the postorbital'
+		[165] 'Squamosal-parietal contact is'
+		[166] 'Dorsal process of the squamosal is'
+		[167] 'Anterodorsal process of the squamosal is'
+		[168] 'Ventral process of the squamosal is'
+		[169] 'Squamosal'
+		[170] 'Small, elongate fenestra present at the junction between the jugal posterior process and squamosal is'
+		[171] 'Posterior process of the squamosal is'
+		[172] 'Horns ornamenting the squamosal are'
+		[173] 'Quadratojugal is'
+		[174] 'Quadratojugal'
+		[175] 'Quadratojugal anterior border'
+		[176] 'Quadratojugal dorsal process'
+		[177] 'Quadratojugal ventral margin is'
+		[178] 'Quadratojugal - 1'
+		[179] 'Maxilla and quadratojugal are'
+		[180] 'Quadratojugal contacts jugal'
+		[181] 'Quadratojugal-quadrate foramen is'
+		[182] 'Quadrate condyle articular surface'
+		[183] 'Pre-palatal foramen is'
+		[184] 'Vomers are'
+		[185] 'Anterior vomerine suture is'
+		[186] 'Alar flange of vomer is'
+		[187] 'Vomer-maxilla contact is'
+		[188] 'Vomer-pterygoid contact is'
+		[189] 'Vomer-prefrontal contact is'
+		[190] 'Ectopterygoids are'
+		[191] 'Ectopterygoid is'
+		[192] 'Ectopterygoid laterally contacts'
+		[193] 'Ectopterygoid relationship to the reanscerse flange of the pterygoid'
+		[194] 'Ectopterygoid is - 1'
+		[195] 'Shape of ectopterygoid-pterygoid suture'
+		[196] 'Ectopterygoids end posteriorly'
+		[197] 'Pterygoid'
+		[198] 'Choana shape is'
+		[199] 'Choana are'
+		[200] 'Premaxilla-choanae contact is'
+		[201] 'Incision of the anterior border of palatine to accommodate choana is'
+		[202] 'Central palatine foramen is'
+		[203] 'Ascending process of the palatine is'
+		[204] 'Choana lateral border is composed of'
+		[205] 'Choana medial border is composed of'
+		[206] 'Pterygoid anterior extent'
+		[207] 'Median contact of pterygoids is'
+		[208] 'Pterygoid-maxilla contact is'
+		[209] 'Palatal process of the pterygoid'
+		[210] 'Orientation of the basipterygoid process'
+		[211] 'Basipterygoid joint is'
+		[212] 'Suborbital fenestra'
+		[213] 'Suborbital fenestra anterior shape is'
+		[214] 'Suborbital foramen/fenestra is bordered laterally by'
+		[215] 'Interpterygoid vacuity is'
+		[216] 'Interpterygoid vacuity extends anteriorly to'
+		[217] 'Interpterygoid vacuity anterior border'
+		[218] 'Arcuate flange of pterygoid is'
+		[219] 'Transverse flange of the pterygoid is oriented'
+		[220] 'Transverse flange of pterygoid, lateral margin'
+		[221] 'Transverse flange of the pterygoid is'
+		[222] 'Transverse flange of the pterygoid'
+		[223] 'Cranio-quadrate space is'
+		[224] 'Stapes is'
+		[225] 'Stapedial foramen'
+		[226] 'Stapes dorsal process'
+		[227] 'Dorsal process of stapes contacts'
+		[228] 'Medial end of stapes is'
+		[229] 'Basisphenoid wings are'
+		[230] 'Basisphenoid processes ventral ridges (i.e., crista ventrolateralis)'
+		[231] 'Length of basicranial articulation'
+		[232] 'Parabasisphenoid is'
+		[233] 'Position of the basicranial articulation is'
+		[234] 'Paired basisphenoid pockets for insertion of cervical muscles'
+		[235] 'Parasphenoid body expands'
+		[236] 'Posteromedial process on the basisphenoid'
+		[237] 'Cultiform process is'
+		[238] 'Cultriform process ends anteriorly'
+		[239] 'Parasphenoid and basisphenoid are'
+		[240] 'Basi/Parasphenoid ratio'
+		[241] 'Basisphenoid tubera are'
+		[242] 'Basisphenoid crests are'
+		[243] 'Entry foramen for the itnernal carotid artery is'
+		[244] 'Lateral depression in basisphenoid is'
+		[245] 'Cranial nerve 6'
+		[246] 'Laterosphenoid ossification'
+		[247] 'Craniomandibular joint'
+		[248] 'Dorsoventral extent of craniomandibular joint'
+		[249] 'Ossified surpaoccipital is'
+		[250] 'Supraoccipital is'
+		[251] 'Anterolateral process of the supraoccipital is'
+		[252] 'Supraoccipital'
+		[253] 'Supraoccipital contact with foramen magnum'
+		[254] 'Lateral margins of supraoccipital'
+		[255] 'Supraoccipital is - 1'
+		[256] 'Occipital shelf of the squamosal'
+		[257] 'Squamosal - 1'
+		[258] 'Posttemporal fenestra is'
+		[259] 'Opisthotic-parietal contact is'
+		[260] 'Paroccipital process shape distally'
+		[261] 'Paroccipital process of the opisthotic is'
+		[262] 'Paroccipital process is oriented'
+		[263] 'Paroccipital process is'
+		[264] 'Paroccipital process contacts tabular'
+		[265] 'Paroccipital process contacts squamosal'
+		[266] 'Paroccipital prcess contacts supratemporal'
+		[267] 'Paroccipital process contacts quadrate'
+		[268] 'Paroccipital process of opisthotic is'
+		[269] 'Tabular is'
+		[270] 'Tabular extends ventrally'
+		[271] 'Tabular is positioned'
+		[272] 'Occipital condyle shape is'
+		[273] 'Basioccipital tubera'
+		[274] 'Ventral exposure of the basioccipital'
+		[275] 'Pterygoid-basioccipital contact is'
+		[276] 'Exoccipitals'
+		[277] 'Exoccipitals are'
+		[278] 'Lateral flange of the exoccipital is'
+		[279] 'Exoccipital is'
+		[280] 'Epitperygoid is'
+		[281] 'Epipterygoid dorsal wing is'
+		[282] 'Medial wall of inner ear (made of prootic)'
+		[283] 'Prootic does'
+		[284] 'Anteroventrally oriented crest (crista prootica) on prootic is'
+		[285] 'Alar crest of the prootic is'
+		[286] 'Prootic anterior interior process is'
+		[287] 'Prootic'
+		[288] 'Processus trochlearis oticum is'
+		[289] 'Thickness of the braincase floor'
+		[290] 'Pleurosphenoid is'
+		[291] 'Ventral cranial fissure (otic fissure) is'
+		[292] 'Sphenethmoid ossification'
+		[293] 'Anterodorsal curvature of anterior portion of mandible in lateral view'
+		[294] 'Mandibular fenestra'
+		[295] 'Mandibular ramus is'
+		[296] 'Dentary length comprises'
+		[297] 'Anterior portion of dentaries'
+		[298] 'Lateral extent of dentary'
+		[299] 'Posterior extent of dentary on lateral side'
+		[300] 'Posteroventral process of the dentary is'
+		[301] 'Splenial'
+		[302] 'Splenial - 1'
+		[303] 'Anterior end of the splenial'
+		[304] 'Splenial is visible laterally'
+		[305] 'Splenial contacts posterior coronoid'
+		[306] 'Splenial overlaps angular'
+		[307] 'Postsplenial is'
+		[308] 'Symphysis of the lower jaw is'
+		[309] 'Symphysis of the lower jaw is - 1'
+		[310] 'Symphysis of the lower jaw is - 2'
+		[311] 'Ventral keel on anterior portion of the lower jaw (mentiontian process)'
+		[312] 'Angular'
+		[313] 'Ventral surface of angular is'
+		[314] 'Angular boss'
+		[315] 'Coronoid eminence is'
+		[316] 'Coronoid eminence presents as a'
+		[317] 'Coronoid eminence is composed of'
+		[318] 'Anterior coronoid is'
+		[319] 'Posterior coronoid is'
+		[320] 'Position of coronoid eminence is positioned'
+		[321] 'Foramen between dentary and surangular is'
+		[322] 'Foramen on the anterolateral surface of surangular is'
+		[323] 'Foramen on posterolateral surface of surangular is'
+		[324] 'Surangular'
+		[325] 'Surangular anterodorsal process is'
+		[326] 'Surangular - 1'
+		[327] 'Surangular - 2'
+		[328] 'Articular is'
+		[329] 'Anterior foramen itnermandibularis (foramen intermandibularis oralis)'
+		[330] 'Posterior foramen intermandibularis is'
+		[331] 'Posterior foramen intermandibularis is located'
+		[332] 'Posterior foramen intermandibularis is - 1'
+		[333] 'Splenial participates in the posterior foramen intermandibularis'
+		[334] 'Prearticular participates in the posterior foramen intermandibularis'
+		[335] 'Prearticular extends anteriorly'
+		[336] 'Prearticular is'
+		[337] 'Meckelian fossa is oriented'
+		[338] 'Meckelian fossa is'
+		[339] 'Retroarticular process is'
+		[340] 'Retroarticular process is - 1'
+		[341] 'Retroarticular process is - 2'
+		[342] 'Retroarticular process is composed of'
+		[343] 'Retroarticular process posterior tip is'
+		[344] 'Marginal dentition is'
+		[345] 'Tooth implantation of dentary and maxillary teeth is'
+		[346] 'Tooth attachment is'
+		[347] 'Marginal teeth'
+		[348] 'Serrated teeth'
+		[349] 'Carinae on marginal dentition is'
+		[350] 'Plicidentine is'
+		[351] 'Striated bone enclosing tooth bases of maxillary and dentary teeth are'
+		[352] 'Maxillary teeth are'
+		[353] 'Premaxillary dentition is'
+		[354] 'Incisiform dentition is'
+		[355] 'Lateral shoulder on lingual surface of lateral dentition is'
+		[356] 'Premaxillary teeth are'
+		[357] 'First premaxillary tooth is'
+		[358] 'Teeth on palatal ramus of the premaxilla is'
+		[359] 'Anterior teeth are'
+		[360] 'Diastema between premaxillary and maxillary teeth'
+		[361] 'Maxillary tooth row'
+		[362] 'Maxillary tooth row - 1'
+		[363] 'Caniniform maxillary tooth is'
+		[364] 'Maxillary caniniform region is'
+		[365] 'Number of caniniform regions in maxilla'
+		[366] 'Multiple tooth rows in maxilla and dentary are'
+		[367] 'Maxillary tooth count is'
+		[368] 'Maxillary teeth, lateral compression'
+		[369] 'Canine root is'
+		[370] 'Number of maxillary precanines is'
+		[371] 'Marginal dentition shows'
+		[372] 'Labiolingually expanded dentition is'
+		[373] 'Button-like, flattened maxillary teeth are'
+		[374] 'Tooth crowns are'
+		[375] 'Upper postcanines number'
+		[376] 'Posteromedially oriented flange on posterior maxillary dentition is'
+		[377] 'Enlarged dentary tooth near the symphysis is'
+		[378] 'Anterior dentary teeth are'
+		[379] 'Coronoid dentition, on either anterior or posterior coronoid, is'
+		[380] 'Vomerine teeth are'
+		[381] 'Palatine teeth are'
+		[382] 'Palatine dentition size'
+		[383] 'Ectopterygoid teeth are'
+		[384] 'Teeth on anterior process (i.e., palatine ramus) of pterygoid'
+		[385] 'Palatal dental fields are'
+		[386] 'Teeth on transverse process of pterygoid'
+		[387] 'Teeth on transverse process of pterygoid are'
+		[388] 'Pterygoid teeth extend posteiorly on quadrate ramus'
+		[389] 'Basisphenoid teeth are'
+		[390] 'Teeth on main body of basisphenoid are'
+		[391] 'Vertebrae are'
+		[392] 'Vertebral articulations are'
+		[393] 'Atlantal neural spine is'
+		[394] 'Axial intercentrum is'
+		[395] 'Axial neural spine dorsal margin is inclined'
+		[396] 'Dorsoventral height of axial neural spine is'
+		[397] 'Axial centrum is oriented'
+		[398] 'Atlantal and axial intercentral are'
+		[399] 'Axial intercentrum is - 1'
+		[400] 'Anteroventral edge of axial intercentrum is'
+		[401] 'Atlantal ribs are'
+		[402] 'Intercentra in cervical vertebrae are'
+		[403] 'Cervical vertebrae exhibit posteroventrally projecting crest'
+		[404] 'Anterior cervical vertebrae, transverse width of the base of neural arch relative to centrum is'
+		[405] 'Outline of cervical neural spine in lateral view is'
+		[406] 'Anterior cervical vertebrae neural spine is'
+		[407] 'Cervical vertebrae neural spine is inclined'
+		[408] 'Anterior cervical vertebrae, shape of neural spine viewed dorsally'
+		[409] 'Anterior-mid cervical vertebrae, diapophysis or dorsal edge of synapophysis is positioned'
+		[410] 'Posrzygapophyses dorsal surface of cervical vertebrae'
+		[411] 'Hyposphene articulation in posterior cervical vertebrae is'
+		[412] 'Cervical ribs are'
+		[413] 'Cervical ribs'
+		[414] 'Cervical ribs - 1'
+		[415] 'Cervical centrum is'
+		[416] 'Intercentra in anterior dorsal vertebrae are'
+		[417] 'Dorsal vertebrae count is'
+		[418] 'Supraneural ossification positioned dorsally to the 1st dorsal vertebrae'
+		[419] 'Neural arches of posterior dorsal vertebrae are'
+		[420] 'Zygapophyseal buttress of dorsal vertebrae is'
+		[421] 'Spine tables at the apex of the neural spine are'
+		[422] 'Neural spines of dorsal vertebrae are distinctly braoded to form neurals are'
+		[423] 'Alternating shape of neural spines of dorsal vertebrae is'
+		[424] 'Dorsal vertebrae shape of neural spine'
+		[425] 'Mammillary process on dorsal vertebrae is'
+		[426] 'Lateral tubercles on neural spines of dorsal vertebrae are'
+		[427] 'Dorsal vertebrae outline of neural spine is'
+		[428] 'Dorsal vertebrae neural spine height is'
+		[429] 'Dorsal vertebrae neural spine height is - 1'
+		[430] 'Paired excavations at the base of the neural spine of dorsal vertebrae are'
+		[431] 'Surface of anterior dorsal vertebrae ventrolateral to base of neural spine is'
+		[432] 'Transverse processes of dorsal vertebrae are'
+		[433] 'Postzygapophyses are'
+		[434] 'Length of dorsal centrum'
+		[435] 'Subcentral foramen in the lateral surface of the dorsal centra is'
+		[436] 'Zygosphene-zygantrum articulation is'
+		[437] 'Anterior centrodiapophyseal lamina in dorsal vertebrae is'
+		[438] 'Inclination of psoterior dorsal (lumbar) vertebral neural spines is'
+		[439] 'The majority of dorsal vertebral ribs are'
+		[440] 'Rib heads of trunk vertebrae are mostly'
+		[441] 'Number of costal facets in posterior dorsal vertebrae'
+		[442] 'Curvature of dorsal ribs'
+		[443] 'Patagial ossifications are'
+		[444] 'Ribs'
+		[445] 'Distal ends of ribs are'
+		[446] 'Ribs are'
+		[447] 'Trunk proportions'
+		[448] 'Posterior dorsal ribs are'
+		[449] 'Ratio of the length of the centra of mid-cervical to mid-dorsal is'
+		[450] 'Sacral vertebrae number'
+		[451] 'Anteroposterior length of the 1st primordial sacral rib is'
+		[452] 'Second sacral rib'
+		[453] 'Sacral rib distal overlap is'
+		[454] 'Sacral ribs of the 1st sacral vertebrae are'
+		[455] 'Sacral ribs are oriented'
+		[456] 'Sacral (and caudal) ribs of transverse processes are'
+		[457] 'Second sacral rib is'
+		[458] 'Posterior process of 2nd sacral vertebra, if present, is'
+		[459] 'Number of caudal vertebrae'
+		[460] 'Transverse processes or ribs are'
+		[461] 'Transverse processes of anterior caudal vertebrae distal margins'
+		[462] 'Autotomic septa in caudal vertebrae is'
+		[463] 'Height of proximal caudal neural spines are'
+		[464] 'Neural spines of anterior caudal vertebrae are'
+		[465] 'Caudal vertebrae neural spines are'
+		[466] 'Caudal peak is'
+		[467] 'Caudal hemal arches are'
+		[468] 'Hemal arches'
+		[469] 'Hemal arches are'
+		[470] 'Hemal arches are - 1'
+		[471] 'Hemal arches are - 2'
+		[472] 'Hemal arches of anterior caudal vertebrae are'
+		[473] 'Distal tip of tail is modified into claw-like element'
+		[474] 'Glenoid fossa'
+		[475] 'Glenoid fossa is located'
+		[476] 'Supraglenoid buttress is'
+		[477] 'Supraglenoid foramen is'
+		[478] 'Location of supraglenoid foramen is'
+		[479] 'Scapula dorsal margin is'
+		[480] 'Anterior margin of scapula is'
+		[481] 'Scapula dorsomedial flaring is'
+		[482] 'Lateral surface of scapula, dorsal to glenoid fossa'
+		[483] 'Acromoin process of the scapula'
+		[484] 'Acromion process is located'
+		[485] 'Number of coracoid ossifications'
+		[486] 'Coracoid foramen is enclosed by'
+		[487] 'Triceps process on posterior coracoid is'
+		[488] 'Biceps process on posterior coracoid'
+		[489] 'Anterior margin of the scapulocoacoid is'
+		[490] 'Coracoid notch is'
+		[491] 'Cleithrum'
+		[492] 'Clavicles are'
+		[493] 'Clavicles'
+		[494] 'Hooked clavicular posteroventral process is'
+		[495] 'Interclavicle is'
+		[496] 'Interclavicle anterior process'
+		[497] 'Interclavicle with distinct anterior notch'
+		[498] 'Posterior process on interclavicle is'
+		[499] 'Interclavicle posterior process is'
+		[500] 'Interclavicle attachment for clavicle is'
+		[501] 'Clavicle is applied to the'
+		[502] 'Mineralized sternum is'
+		[503] 'Humerus possesses'
+		[504] 'Humeral torsion'
+		[505] 'Humeral head'
+		[506] 'Humeral anterior flange is'
+		[507] 'Deltopectoral crest is'
+		[508] 'Humeral proximal process is'
+		[509] 'Markedly raised dorsal eminence of the proximal portion of humerus'
+		[510] 'Ectepicondylar foramen'
+		[511] 'Ectepicondylar groove'
+		[512] 'Ectepicondyle is'
+		[513] 'Morphology of the ectepicondylar region is'
+		[514] 'Morphology of the entepicondylar region is'
+		[515] 'Proximal margin of the entepicondylar crest is'
+		[516] 'Entepicondyle'
+		[517] 'Entepicondylar foramen is'
+		[518] 'Humerus supinator process is'
+		[519] 'Humeral distal articulations include'
+		[520] 'Radius/humerus ratio'
+		[521] 'Radius/ulna ratio'
+		[522] 'Radius shape is'
+		[523] 'Distal end of radius is'
+		[524] 'Radius'
+		[525] 'Olecranon process is'
+		[526] 'Lateral tuber (i.e., radius tuber) on the proximal portion of the ulna'
+		[527] 'Ulna shape is'
+		[528] 'Distal end of ulna is'
+		[529] 'Manual perforating foramen is'
+		[530] 'Ulnare and itnermedium are'
+		[531] 'Radiale width is'
+		[532] 'Pisiform is'
+		[533] 'Medial centrale of manus is'
+		[534] 'Distal carpal five is'
+		[535] 'Number of phlanges in digit 1 of manus'
+		[536] 'Number of phalanges in digit 2 of manus'
+		[537] 'Number of phalanges in digit 3 of manus'
+		[538] 'Number of phalanges in digit 4 of manus'
+		[539] 'Number of phalanges in digit 5 of manus'
+		[540] 'Manual digit 2, ungual morphology is'
+		[541] 'Metacarpal 3'
+		[542] 'Metacarpal 5 is'
+		[543] 'Carpal ungual shape is'
+		[544] 'Dorsolateral shelf on iliac blade is'
+		[545] 'Ilium posterior process'
+		[546] 'Long axis of ilium is'
+		[547] 'Dorsal margin of ilium'
+		[548] 'Anteroposterior length of iliac blade is'
+		[549] 'Post-acetabular portion of iliac blade is'
+		[550] 'Medial surface of ilium is'
+		[551] 'Pubic tubercle is oriented'
+		[552] 'Anteroposterior length of pubis is'
+		[553] 'Pubic pectineal process'
+		[554] 'Distal end of the pubis is'
+		[555] 'Pubic obturator foramen is'
+		[556] 'Posterior shape of ischium is'
+		[557] 'Posterior margin of ischium is'
+		[558] 'Acetabulum is composed of'
+		[559] 'Acetabulum is'
+		[560] 'Lateral surface of acetabulum is'
+		[561] 'Supra-acetabular crest is'
+		[562] 'Supra-acetabular buttress is'
+		[563] 'Thyroid fenestra is'
+		[564] 'Epipubic process is'
+		[565] 'Internal trochanter is'
+		[566] 'Internal trochanter'
+		[567] 'Intertrochanteric fossa of the femur'
+		[568] 'Greater trochanter of femur is'
+		[569] 'Oblique ventral ridge of femur (adductor crest, fourth trochanter)'
+		[570] 'Medial femoral condyle is'
+		[571] 'Femoral shaft is'
+		[572] 'Femur distal condyles are'
+		[573] 'Femoral proximal articulation is'
+		[574] 'Femoral proximal articulation is - 1'
+		[575] 'Femur shaft in anterior view is'
+		[576] 'Femur anterior condyle is'
+		[577] 'Dorsal surface of posterior condyle is'
+		[578] 'Femur-humerus length ratio is'
+		[579] 'Fibula is'
+		[580] 'Proximal surface of the lateral condyle of the tibia is'
+		[581] 'Cnemial crest of the tibia'
+		[582] 'Tibio-astragalar joint of the tibia is'
+		[583] 'Posterior side of the distal portion of the tibia is'
+		[584] 'Calcaneum length is'
+		[585] 'Calcaneal tuber is'
+		[586] 'Distal tarsal facet of the calcaneum is'
+		[587] 'Discrete astragalus'
+		[588] 'Proximal neck region of astragalus is'
+		[589] 'Tibial facet of the astragalus is'
+		[590] 'Astragalus and calcaneum are'
+		[591] 'Perforating artery of the pes between astragalus and calcaneum is'
+		[592] 'Perforating artery of the pes between astragalus and calcaneum is present'
+		[593] 'Morphology of perforating foramen'
+		[594] 'Pedal centralia'
+		[595] 'Tibia and centrale are'
+		[596] 'Total number of tarsal ossifications'
+		[597] 'First distal tarsal is'
+		[598] 'Fourth distal tarsal, articulation with the astragalus is'
+		[599] 'Fifth distal tarsal is'
+		[600] 'Number of tarsal elements and digits'
+		[601] 'Overlapping metapodials are'
+		[602] 'Number of phalanges in pes digit 1'
+		[603] 'Number of phalanges in pes digit 2'
+		[604] 'Number of phalanges in pes digit 3'
+		[605] 'Number of phalanges in pes digit 4'
+		[606] 'Number of phalanges in pes digit 5'
+		[607] 'Metatarsal one is'
+		[608] 'Metatarsal two is'
+		[609] 'Metatarsal three is'
+		[610] 'Hooked fifth metatarsal is'
+		[611] 'Metatarsal five is'
+		[612] 'Metatarsal five plantar tubercle is'
+		[613] 'Fifth pedal digit is'
+		[614] 'Proximal phalanx of digit five is'
+		[615] 'Non-terminal phalanges are majorly'
+		[616] 'Pes penultimate phalanges are'
+		[617] 'Pes unguals are'
+		[618] 'Hindlimb/trunk ratio'
+		[619] 'Dorsal osteoderms'
+		[620] 'Dorsal osteoderms are'
+		[621] 'Limb osteoderms'
+		[622] 'Gastralia'
+		[623] 'Gastralia include'
+		[624] 'Plastron is'
+		[625] 'Distal ends of gastralia are'
+		[626] 'Osteoderms ventral to gastralia'
+		[627] 'Number of ventral dermal ossifications, exclusive of shoulder girdle'
+		[628] 'Peripherals are'
+	;
+	STATELABELS
+		1
+			'constricted/tapering'
+			'unconstricted/ expanded laterally'
+			,
+		2
+			'does not extend anteriorly past the marginal tooth row'
+			'extends anteriorly far beyond the maxillary tooth row'
+			,
+		3
+			'low, forming less than 1/2 the height of the premaxilla'
+			'tall, reaching the full extent of the dorsal process of the premaxilla'
+			,
+		4
+			'present'
+			'absent'
+			,
+		5
+			'maxilla only'
+			'maxilla and nasal'
+			,
+		6
+			'does not contribute'
+			'contributes'
+			,
+		7
+			'less than 1/2 of the total length of the preorbital snout'
+			'1/2 or more of the total length of the preorbital snout'
+			,
+		8
+			'downturned anteroventrally (i.e., hooked)'
+			'straight'
+			'upturned'
+			,
+		9
+			'negligible'
+			'flattened palatal process present'
+			,
+		10
+			'even with (or nearly so) with the lateral surface of the premaxilla'
+			'extends posteriorly past the lateral surface of the premaxilla'
+			'premaxilla contributes to palate, but palatal process absent'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'horizontal'
+			'bowed ventrally'
+			'slightly concave'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'simple, either vertically of diagonally oriented'
+			'notch present on maxilla'
+			,
+		18
+			'contacts narial'
+			'does not contact narial'
+			,
+		19
+			'present'
+			'absent'
+			,
+		20
+			'at or posterior to the posterior end of orbit'
+			'anterior to posterior end of orbit'
+			,
+		21
+			'absent or low'
+			'present but does not reach nasal'
+			'present and reaches nasal'
+			,
+		22
+			'gently rounded'
+			'narrows dorsally'
+			'broad dorsally'
+			,
+		23
+			'centrally between the external nares and the orbit'
+			'anteriorly, contacting external nares'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'present'
+			'absent'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present but does not meet at midline'
+			'present and meets at midline'
+			,
+		29
+			'ungrooved'
+			'possesses 1 or 2 anteroposteriorly running grooves'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present as lateral fossa'
+			,
+		34
+			'relatively small, rounded'
+			'anteroposteriorly elongated'
+			'dorsoventrally elongated'
+			,
+		35
+			'short, less than 25% of the preorbital length'
+			'moderate, 25-50% of the preorbital length'
+			'long, more than 50$ of the preorbital length'
+			,
+		36
+			'less than 75% of the orbital height'
+			'75% or more of the orbital height'
+			,
+		37
+			'laterally'
+			'dorsally'
+			,
+		38
+			'anteriorly on the snout'
+			'on the central or potserior portion of the snout'
+			,
+		39
+			'separated'
+			'confluent'
+			,
+		40
+			'present'
+			'absent'
+			,
+		41
+			'confined dorsally'
+			'blade-like anteroventral portion of narial margin'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'paired'
+			'fused'
+			,
+		44
+			'variable or multipronged'
+			'appressed, forming an anteriorly pointed middle structure'
+			'appressed, forming anteriorly flat surface'
+			'separated anteriorly by premaxilla'
+			'situated more posteriorly along the midline than the distal margins of the nasals'
+			,
+		45
+			'in contact along the midline'
+			'separated along the midline'
+			,
+		46
+			'parasagittal'
+			'anterolateral'
+			'contact tenuous or absent'
+			,
+		47
+			'shorter than frontal'
+			'longer than frontal'
+			,
+		48
+			'largely variable'
+			'oblique, forming an acute angle with the long axis of the skull'
+			'tenuous or absent'
+			,
+		49
+			'horizontal'
+			'convex'
+			'emarginated'
+			'expanded ventrally'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'tuberosites'
+			'shallow pits'
+			'tuberosites and pits'
+			'honeycomb pattern of ridges and pits'
+			'coarse rugosites on the skull roof'
+			,
+		53
+			'absent'
+			'present'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'present'
+			'absent'
+			,
+		56
+			'tabular'
+			'supratemporal'
+			'squamosal'
+			,
+		57
+			'not prominent or absent entirely'
+			'wide'
+			,
+		58
+			'not in contact with one another'
+			'conact along the midline'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'occupies only the anterodorsal corner of orbit'
+			'possesses a long ventral process that may extend to and contact the palate'
+			,
+		61
+			'smooth or lightly grooved'
+			'with rugose lateral sculpturing'
+			,
+		62
+			'present'
+			'absent'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'does not participate in orbital margin'
+			'participates in orbital margin'
+			,
+		66
+			'paired'
+			'fused'
+			,
+		67
+			'longer than parietal'
+			'shorter or equal to parietal'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'closer to twice the width of both frontals'
+			'similar in proportion as the width of both frontals'
+			,
+		70
+			'maintained anteroposteriorly'
+			'gradually expands posteriorly'
+			'hourglass-like'
+			'expands abruptly posteriorly'
+			'tapers posteriorly'
+			,
+		71
+			'weakly developed'
+			'expanded laterally, and visible in ventral view'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'absent'
+			'poorly defined'
+			'well defined and protruding ventrally'
+			,
+		75
+			'present'
+			'absent'
+			,
+		76
+			'does not contribute to upper temporal fenestra'
+			'contributes to upper temporal fenestra'
+			,
+		77
+			'does not contact supratemporal'
+			'contacts supratemporal'
+			,
+		78
+			'relatively straight'
+			'incised by the postorbital'
+			,
+		79
+			'about halfway to the back of the skull'
+			'to the posterior end of the skull'
+			'less than halfway to the back of the skull'
+			,
+		80
+			'does not taper'
+			'tapers laterally'
+			,
+		81
+			'does not participate in lower temporal fenestra'
+			'participates in supratemporal bar, does doesn''t reach posterior aspect of lower temporal fenestra'
+			'reaches the posterior aspect of lower temporal fenestra'
+			,
+		82
+			'smoothly rounded between skull table and temporal portions'
+			'forming a right angle between skull table and temporal portions'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'separate'
+			'in contact'
+			,
+		85
+			'posteroventrally, relative to postfrontal'
+			'dorsally, relative to postfrontal'
+			,
+		86
+			'separate'
+			'in contact'
+			,
+		87
+			'in contact'
+			'not in contact'
+			,
+		88
+			'present'
+			'absent'
+			,
+		89
+			'equal to or less than 20% of orbital length'
+			'greater than 20% of orbital length'
+			,
+		90
+			'located centrally between parietal, or further back posteriorly'
+			'closer to the frontal-parietal suture'
+			'located at the frontal-parietal boundary'
+			,
+		91
+			'rounded to anteroposteriorly ovate'
+			'mediolaterally elongated'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'interdigitating'
+			'smooth'
+			,
+		94
+			'separate'
+			'fused'
+			,
+		95
+			'broad, no constriction'
+			'mildly constricted'
+			'narrow'
+			'highly constricted'
+			,
+		96
+			'does not reach the posterior margin of the orbit'
+			'reaches the posterior margin of the orbit'
+			,
+		97
+			'absent'
+			'present, extending anteriorly over orbit'
+			,
+		98
+			'roughly transversely'
+			'strongly angled posterolaterally'
+			,
+		99
+			'slender and tapering'
+			'anteroposterly flattened'
+			,
+		100
+			'not bifid'
+			'bifid'
+			,
+		101
+			'smooth'
+			'marked by dorsolaterally oriented row of pointed projections'
+			,
+		102
+			'absent'
+			'present'
+			,
+		103
+			'lacks pronounced posterior emargination'
+			'distinctly emarginated'
+			,
+		104
+			'embayed bilaterally'
+			'straight'
+			'embayed medially'
+			,
+		105
+			'strongly sloped anteriorly'
+			'weakly sloped anteriorly or not sloped anteriorly at all'
+			,
+		106
+			'absent'
+			'formed by a ventral bend in the posterior portion of the parietal, creating a distinct occipital flange'
+			,
+		107
+			'interdigitating'
+			'smooth'
+			,
+		108
+			'present'
+			'absent'
+			,
+		109
+			'paired'
+			'fused'
+			,
+		110
+			'fully in contact'
+			'separated slightly ventrally by the supraoccipital'
+			,
+		111
+			'absent'
+			'present'
+			,
+		112
+			'absent'
+			'present'
+			,
+		113
+			'absent'
+			'present'
+			,
+		114
+			'= or > than transverse width of a single parietal at its widest point'
+			'< than the transverse width of one parietal'
+			,
+		115
+			'absent or tenuous'
+			'well-developed'
+			,
+		116
+			'large, ~equal width and length'
+			'small, width < 1/2 length'
+			'absent'
+			,
+		117
+			'absent'
+			'present'
+			,
+		118
+			'absent or minimal'
+			'present'
+			,
+		119
+			'contacts postorbital'
+			'does not contact postorbital'
+			,
+		120
+			'relatively straight'
+			'expanded laterally relative to snout'
+			,
+		121
+			'absent'
+			'present, smaller than orbit'
+			'present, subequal in size to orbit'
+			'present, much larger than orbit'
+			,
+		122
+			'oval to subcircular, not elongated caudally'
+			'elongated caudally'
+			,
+		123
+			'dorsolaterally'
+			'dorsally'
+			,
+		124
+			'widely separated from upper temporal fenestra'
+			'narrowly approaches or enters the anteromedial margin of the upper termporal fenestra'
+			,
+		125
+			'absent'
+			'present'
+			,
+		126
+			'absent'
+			'present'
+			,
+		127
+			'closed ventrally'
+			'partially exposed ventrally'
+			'completely exposed ventrally'
+			,
+		128
+			'tall, at least 30% of postorbital skull height'
+			'short, less than 20% of postorbital skull height'
+			,
+		129
+			'~1/2 of skull height'
+			'~3/4 of skull height'
+			,
+		130
+			'oval in outline'
+			'triangular in outline'
+			'present as thin slit'
+			,
+		131
+			'subequal'
+			'preorbital region is longer'
+			'postorbital region is longer'
+			,
+		132
+			'short, <15% of total skull length'
+			'long >15% of total skull length'
+			,
+		133
+			'approximately even in height with the orbital region'
+			'taller than orbital region'
+			,
+		134
+			'absent'
+			'present'
+			,
+		135
+			'absent'
+			'present'
+			,
+		136
+			'restricted to the lacrimal'
+			'restricted to the lacrimal and dorsal process of the maxilla'
+			'present on the lacrimal, dorsal process of maxilla, and ventral border of the antorbital fenestra'
+			,
+		137
+			'extends to and participates in the narial margin'
+			'extends anteriorly to participate partially in the snout, but does not participate in narial margin'
+			'restricted to orbital margin'
+			'absent'
+			,
+		138
+			'large'
+			'small'
+			,
+		139
+			'pariticpates in orbital margin'
+			'excluded from orbital margin'
+			,
+		140
+			'present'
+			'absent'
+			,
+		141
+			'wide'
+			'small'
+			'absent'
+			,
+		142
+			'posteriorly'
+			'laterally'
+			,
+		143
+			'extends anteriorly at least to the anterior orbital rim'
+			'does not extend to anterior orbital rim'
+			,
+		144
+			'slender and tapering'
+			'broad and expanded anteriorly'
+			,
+		145
+			'broad, only weakly excavated by temporal fenestra or not excavated at all'
+			'narrow'
+			,
+		146
+			'does not contribute dorsally to lower temporal fenestra'
+			'contributes to the dorsal border of the lower temporal fenestra'
+			,
+		147
+			'to the middle of the cheek or lower temporal fenestra'
+			'past the middle of cheek or lower temporal fenestra'
+			,
+		148
+			'absent'
+			'present'
+			,
+		149
+			'absent'
+			'present'
+			,
+		150
+			'absent'
+			'present'
+			,
+		151
+			'absent'
+			'present'
+			,
+		152
+			'present'
+			'absent'
+			,
+		153
+			'covered laterally'
+			'exposed laterally'
+			,
+		154
+			'absent'
+			'present, forming concave region'
+			'present, with conch'
+			,
+		155
+			'continuous with shaft'
+			'expanded and hooked'
+			,
+		156
+			'does not pivot on squamosal'
+			'pivots on squamosal'
+			,
+		157
+			'long, extending anteriorly at least 50% of the length of quadrate process of the pterygoid'
+			'short, extending less than 50% the length of the quadrate process of the pterygoid'
+			,
+		158
+			'absent, no lateral expansion'
+			'present'
+			,
+		159
+			'in line with condylar surface of the quadrate'
+			'elevated dorsally relative to quadrate'
+			,
+		160
+			'present'
+			'absent'
+			,
+		161
+			'does not greatly impact the morphology of the quadratojugal'
+			'embays the quadratojugal'
+			,
+		162
+			'laterally'
+			'medially'
+			,
+		163
+			'ventral process long, descending at or past the ventral margin of orbit'
+			'ventral process short, terminating ventrally prior to reaching ventral orbital margin'
+			'ventral process is absent or restricted to region above dorsal limit of orbit'
+			,
+		164
+			'absent'
+			'present'
+			,
+		165
+			'absent'
+			'present'
+			,
+		166
+			'absent'
+			'present'
+			,
+		167
+			'absent'
+			'present'
+			,
+		168
+			'absent'
+			'present'
+			,
+		169
+			'spur is dorsal to squamosal'
+			'spur is ventral to squamosal'
+			'does not contact jugal posterior spur at all'
+			,
+		170
+			'absent'
+			'present'
+			,
+		171
+			'absent'
+			'present'
+			,
+		172
+			'absent'
+			'present'
+			,
+		173
+			'dorsoventrally elongate'
+			'greatly reduced'
+			'absent'
+			,
+		174
+			'does not contribute to lower temporal fenestra'
+			'contributes to lower temporal fenestra'
+			,
+		175
+			'tapered or rounded'
+			'parallel dorsal and ventral borders (i.e., square-tipped)'
+			,
+		176
+			'absent'
+			'present'
+			,
+		177
+			'smooth'
+			'possesses multiple bosses or horns'
+			,
+		178
+			'extends anteriorly to reach orbit'
+			'does not reach orbit'
+			,
+		179
+			'in contact'
+			'not in contact'
+			,
+		180
+			'posteroventrally'
+			'anteroventrally'
+			,
+		181
+			'absent'
+			'present'
+			,
+		182
+			'anteroposteriorly long'
+			'anteroposteriorly short'
+			,
+		183
+			'absent'
+			'present'
+			,
+		184
+			'paired'
+			'fused'
+			,
+		185
+			'bifurcated into medial and lateral projections'
+			'not bifurcated'
+			,
+		186
+			'absent'
+			'present'
+			,
+		187
+			'absent'
+			'present'
+			,
+		188
+			'present'
+			'absent'
+			,
+		189
+			'absent'
+			'present'
+			,
+		190
+			'absent'
+			'present'
+			,
+		191
+			'in contact with the palatine, or nearly so'
+			'separated from the palatine'
+			,
+		192
+			'maxilla and jugal'
+			'jugal only'
+			'maxilla only'
+			'nothing'
+			,
+		193
+			'does not contribute to flange'
+			'contributes to flange'
+			,
+		194
+			'not strongly kinked, so that the posterior border faces only one direction'
+			'strongly kinked, so that the psoterior border faces both the lateral and psoterior directions'
+			,
+		195
+			'transversely broad'
+			'posteroventrally elongated and does not reach the lateral corner of transverse flange'
+			'posteroventrally elongaed and reaches the corner of the transverse flange'
+			,
+		196
+			'no further than the transverse flange of the pterygoid'
+			'past the level of the transverse flange'
+			,
+		197
+			'does not contibute to the anteior border of the ectopterygoid'
+			'contributes to the anterior border of the ectopterygoid'
+			,
+		198
+			'largely straight (parallel to maxilla)'
+			'curved posteromedially'
+			,
+		199
+			'separate'
+			'confluent'
+			,
+		200
+			'present'
+			'absent'
+			,
+		201
+			'moderate'
+			'deep'
+			'absent or shallow'
+			,
+		202
+			'absent'
+			'present, passing through the dorsoventral plane'
+			,
+		203
+			'absent'
+			'present'
+			,
+		204
+			'maxilla'
+			'maxilla and palatine'
+			'maxilla and premaxilla'
+			,
+		205
+			'vomer and palatine'
+			'vomer and premaxilla'
+			,
+		206
+			'reaches level of choana'
+			'does not reach level of choana'
+			,
+		207
+			'extensive, more than 50% of their anteroposterior length'
+			'only present anteriorly, less than 50% of their anteroposterior length'
+			'absent'
+			,
+		208
+			'absent'
+			'present'
+			,
+		209
+			'extends anterior to the anterior limit of the palatine'
+			'forms oblique suture with palatine, but process ends before reaching anteiror limit of palatine'
+			'forms transverse suture with palatine'
+			,
+		210
+			'anterolateral'
+			'lateral'
+			'anterior'
+			,
+		211
+			'open'
+			'fused'
+			,
+		212
+			'absent'
+			'small, as foramen'
+			'large, as fenestra'
+			,
+		213
+			'rounded'
+			'tapered'
+			,
+		214
+			'jugal and palatine'
+			'palatine and ectopterygoid'
+			'maxilla, and sometimes also marginally by jugal'
+			'jugal, maxilla, and ectopterygoid'
+			'palatine and pterygoid'
+			'maxilla and ectopterygoid'
+			,
+		215
+			'absent'
+			'short, less than 15% of skull length'
+			'long, at least 15% of skull length'
+			,
+		216
+			'posterior margin of palatines'
+			'anterior margin of palatines'
+			,
+		217
+			'tapers sharply'
+			'ends in a smooth, crescentic border'
+			,
+		218
+			'absent'
+			'present'
+			,
+		219
+			'transversely or psoterolaterally'
+			'anterolaterally'
+			,
+		220
+			'posterolateral margin forms sharp edge with anteromedial margin'
+			'posterolateral margin merges smoothly into anteromedial margin forming a smoothly covex lateral outline'
+			,
+		221
+			'large, as a noticable lateral projection that approaches the cheek'
+			'small, does not approach the cheek'
+			,
+		222
+			'extends ventrally below the level of the ventral margin of the maxilla'
+			'does not extend past the ventral margin of the maxilla'
+			,
+		223
+			'small'
+			'large'
+			,
+		224
+			'robust'
+			'moderate'
+			'slender and rod-like'
+			,
+		225
+			'present'
+			'absent'
+			,
+		226
+			'present'
+			'absent'
+			,
+		227
+			'paroccipital process'
+			'tabular'
+			,
+		228
+			'present as confluent footplate'
+			'a blunt two-headed knob'
+			,
+		229
+			'present'
+			'absent'
+			,
+		230
+			'high and thin and converge anteriorly'
+			'poorly developed and widely separated'
+			,
+		231
+			'restricted to anterolateral margin of the basisphenoid'
+			'extends over much of the length of the main body of basisphenoid'
+			,
+		232
+			'visible ventrally'
+			'hidden ventrally by pterygoids'
+			,
+		233
+			'level with the pterygoid flange'
+			'anterior to the rim of the pterygoid flange'
+			'posterior to the rim of the pterygoid flange'
+			,
+		234
+			'present'
+			'absent'
+			,
+		235
+			'gradually'
+			'abruptly'
+			,
+		236
+			'absent'
+			'present'
+			,
+		237
+			'as long or longer than the main body of the basisphenoid'
+			'shorter than the main body of the basisphenoid'
+			,
+		238
+			'in a point'
+			'bluntly'
+			,
+		239
+			'separate'
+			'fused'
+			,
+		240
+			'waist is no more than 60% of the maximum length'
+			'waist exceeds 80% of length'
+			,
+		241
+			'absent'
+			'present'
+			,
+		242
+			'absent, such that there is no ventral floor for the vidian canal'
+			'present as prominent ventrolateral extension framing the ventromedial floor of the vidian canal'
+			,
+		243
+			'on the ventral surface of the basisphenoid, medial to the basipterygoid process'
+			'within the lateral wall of the braincase dorsal to ther pterygoid process'
+			,
+		244
+			'absent'
+			'present'
+			,
+		245
+			'within the dorsum sella of the parabasisphenoid'
+			'tracks across the dorsal surface of the dorsum sella'
+			,
+		246
+			'absent'
+			'present'
+			,
+		247
+			'posterior to occiput'
+			'even with occiput'
+			'anterior to occiput'
+			,
+		248
+			'at the level of alveolar margin'
+			'projects far ventral to the level of the alveolar margin'
+			,
+		249
+			'absent'
+			'present'
+			,
+		250
+			'broad and plate-like'
+			'narrow'
+			'reduced to a sagittal pillar'
+			,
+		251
+			'present'
+			'absent'
+			,
+		252
+			'without anterior crista'
+			'with anterior crista'
+			,
+		253
+			'present'
+			'absent'
+			,
+		254
+			'do not dorsally border posttermporal fenestra'
+			'dorsally border postertemporal fenestra'
+			,
+		255
+			'not well developed in dorsal view'
+			'well exposed in dorsal view'
+			,
+		256
+			'contributes to occipital surface with a well-developed flange'
+			'forms only a thin ridge that does not largely contribute to occipital surface'
+			'absent, does not contribute to occipital surface'
+			,
+		257
+			'does not participate in posttemporal fenestra'
+			'does participate in posttemporal fenestra'
+			,
+		258
+			'absent'
+			'small, as foramen'
+			'large, as fenestra'
+			'as slit'
+			,
+		259
+			'absent'
+			'present'
+			,
+		260
+			'tabular'
+			'tapering'
+			'neither tapering or expanded'
+			'greatly expanded'
+			'gently expanded'
+			,
+		261
+			'well differentiated from the supraoccipital, forming distinct lateral arms'
+			'fused with supraoccipital dorsally'
+			,
+		262
+			'laterally, forming 90 degree angle with parasagittal plane'
+			'ventrolaterally'
+			'dorsolaterally'
+			,
+		263
+			'not in contact with cheek'
+			'in contact with cheek but not tightly sutured'
+			'tightly sutured to cheek'
+			,
+		264
+			'present'
+			'absent'
+			,
+		265
+			'present'
+			'absent'
+			,
+		266
+			'present'
+			'absent'
+			,
+		267
+			'present'
+			'absent'
+			,
+		268
+			'not visible in lateral view'
+			'visible in lateral view'
+			,
+		269
+			'large, extending >1/2 way down skull'
+			'mid-sized, extending <1/2 way down skull'
+			'small, restricted to dorsal margin of skull'
+			'absent'
+			,
+		270
+			'at or past the level of the ventral margin of the surpatemporal'
+			'no further than the ventral margin of the supratemporal'
+			,
+		271
+			'dorsally as part of the skull table'
+			'within the occiput'
+			,
+		272
+			'concave'
+			'convex'
+			'transversely broad'
+			,
+		273
+			'absent'
+			'present'
+			,
+		274
+			'contributes extensively to the ventral surface'
+			'restricted to condylar region'
+			,
+		275
+			'absent'
+			'present'
+			,
+		276
+			'participate in condyle'
+			'do not participate'
+			,
+		277
+			'in contact on occipital condyle mid-dorsally'
+			'not in contact'
+			,
+		278
+			'absent'
+			'present'
+			,
+		279
+			'unfused to other braincase elements'
+			'fused to opisthotic'
+			'fused to basioccipital'
+			,
+		280
+			'present'
+			'absent'
+			,
+		281
+			'prominent'
+			'small or absent'
+			,
+		282
+			'small, largely unossified'
+			'ossified with acoustic nerve foramina'
+			,
+		283
+			'not contact the parietal'
+			'contact the parietal'
+			,
+		284
+			'absent'
+			'present'
+			,
+		285
+			'absent'
+			'present as a thin boney flange projecting anteiorly on the prootics'
+			,
+		286
+			'absent'
+			'present'
+			,
+		287
+			'does not contact quadrate'
+			'contacts the quadrate'
+			,
+		288
+			'absent'
+			'present'
+			,
+		289
+			'thin, not thicker than the brain cavity'
+			'thicker than the brain cavity'
+			,
+		290
+			'absent'
+			'present'
+			,
+		291
+			'present'
+			'absent'
+			,
+		292
+			'present'
+			'absent'
+			,
+		293
+			'absent'
+			'present, upturned'
+			'present, downturned'
+			,
+		294
+			'absent'
+			'present'
+			,
+		295
+			'relatively straight in ventral view'
+			'sigmoidal in ventral view'
+			,
+		296
+			'<70% of total length of jaw'
+			'70% or more of the total jaw length'
+			,
+		297
+			'do not diverge'
+			'diverge'
+			,
+		298
+			'terminates at or near the coronoid process'
+			'overlaps the coronoid process'
+			'extends well past the coronoid process'
+			,
+		299
+			'located on the dorsum of mandible'
+			'is ventral to the surangular'
+			,
+		300
+			'absent'
+			'present'
+			,
+		301
+			'present'
+			'absent'
+			,
+		302
+			'contributes to the symphysis'
+			'does not contribute to the symphysis'
+			,
+		303
+			'tapers anteriorly'
+			'is broad'
+			,
+		304
+			'absent'
+			'present'
+			,
+		305
+			'present'
+			'absent'
+			,
+		306
+			'ventrally'
+			'forming complex suture'
+			'dorsally'
+			,
+		307
+			'present'
+			'absent'
+			,
+		308
+			'dorsoventrally short, mandible tapers anteriorly'
+			'dorsoventrally thick, symphysis is almost as deep as mandible at midlength of the tooth row'
+			,
+		309
+			'confluent'
+			'split by the Mechelian canal'
+			,
+		310
+			'short, less than 1/3 the length of the jaw'
+			'long, 1/3 or more of the length of the jaw'
+			,
+		311
+			'absent'
+			'present'
+			,
+		312
+			'extends ~1/2 way up the lateral side of jaw'
+			'makes up more than 1/2 of the lateral side of jaw'
+			'not well exposed laterally'
+			,
+		313
+			'smooth'
+			'keeled, forming reflected lamina'
+			,
+		314
+			'absent'
+			'present'
+			,
+		315
+			'present'
+			'absent'
+			,
+		316
+			'gradually inclined eminence'
+			'sharly inclined process'
+			,
+		317
+			'multiple elements'
+			'coronoid only'
+			,
+		318
+			'absent'
+			'present'
+			,
+		319
+			'long, more than 1/2 the length of the dentary'
+			'short, no more than 1/2 the length of dentary'
+			'absent'
+			,
+		320
+			'posteriorly, within the posterior third of jaw'
+			'anteriorly, with the posteior 2/5 of jaw'
+			,
+		321
+			'absent'
+			'present'
+			,
+		322
+			'absent'
+			'present'
+			,
+		323
+			'absent'
+			'present'
+			,
+		324
+			'extends anteriorly past the height of the coronoid eminence'
+			'does not extend anteriorly past the height of the coronoid eminence'
+			,
+		325
+			'present'
+			'absent'
+			,
+		326
+			'does not possess an accessory lateral shelf anteiror to the articular region'
+			'possesses an accessory lateral shelf anterior to the articular region'
+			,
+		327
+			'does not contribute to articular facet'
+			'contributes to articular facet'
+			,
+		328
+			'not fused to prearticular'
+			'fused to prearticular'
+			,
+		329
+			'absent'
+			'present'
+			,
+		330
+			'absent'
+			'present'
+			,
+		331
+			'anterior to the coronoid process'
+			'at or posterior to the coronoid process'
+			,
+		332
+			'long, 25% or more of total jaw length'
+			'short, less than 25% of the total jaw length'
+			,
+		333
+			'present'
+			'absent'
+			,
+		334
+			'present'
+			'absent'
+			,
+		335
+			'beyond the coronoid eminence'
+			'no farther than the coronoid eminence'
+			,
+		336
+			'straight'
+			'twisted posteriorly'
+			,
+		337
+			'mediodorsally, with a narrow prearticular'
+			'dorsally, with a wide prearticular'
+			,
+		338
+			'long, >20% of overal jaw length'
+			'short, 20% or less of overall jaw length'
+			,
+		339
+			'absent or small'
+			'extends well past articular surface'
+			,
+		340
+			'medially directed'
+			'posteriorly directed'
+			,
+		341
+			'horizontal'
+			'downturned'
+			'upturned'
+			,
+		342
+			'articular only'
+			'multiple elements'
+			,
+		343
+			'rounded'
+			'slender and ends with a pointed apex'
+			,
+		344
+			'present'
+			'absent'
+			,
+		345
+			'thecodont'
+			'subthecodont'
+			'pleurodont'
+			'acrodont'
+			,
+		346
+			'ligamentous'
+			'fused'
+			,
+		347
+			'taper gradually'
+			'slightly bulbous'
+			'expanded at the apex'
+			,
+		348
+			'absent'
+			'present'
+			,
+		349
+			'absent'
+			'present'
+			,
+		350
+			'absent'
+			'present'
+			,
+		351
+			'absent'
+			'present'
+			,
+		352
+			'straight'
+			'recurved'
+			,
+		353
+			'present as multiple teeth'
+			'present as a single tooth'
+			'absent'
+			,
+		354
+			'absent'
+			'present'
+			,
+		355
+			'absent'
+			'present'
+			,
+		356
+			'isodont'
+			'presented by larger teeth anteriorly'
+			,
+		357
+			'equal or smaller than the 1st maxillary tooth in basal cross section'
+			'larger than the 1st maxillary tooth in basal cross section'
+			,
+		358
+			'absent'
+			'present'
+			,
+		359
+			'upright'
+			'procumbent'
+			,
+		360
+			'absent'
+			'present'
+			,
+		361
+			'ends at the same level posteriorly as the dentary tooth row'
+			'terminates posterior to the dentary tooth row'
+			,
+		362
+			'is restricted to the level in front of the posterior margin of the orbit'
+			'extends behind the posterior margin of the orbit'
+			,
+		363
+			'present'
+			'absent'
+			,
+		364
+			'present'
+			'absent'
+			,
+		365
+			'one'
+			'two'
+			,
+		366
+			'absent'
+			'present'
+			,
+		367
+			'30 or more'
+			'29-11'
+			'10 or fewer'
+			,
+		368
+			'absent'
+			'present'
+			,
+		369
+			'not swollen'
+			'expanded into and constructing choana'
+			,
+		370
+			'4 or fewer'
+			'greater than 4'
+			,
+		371
+			'no abrupt change in size from anterior to posterior teeth'
+			'clear shift from small anterior juvenile teeth anteriorly to large posterior adult teeth'
+			,
+		372
+			'absent'
+			'present'
+			,
+		373
+			'absent'
+			'present'
+			,
+		374
+			'unicuspid'
+			'multicuspid'
+			,
+		375
+			'13 or more'
+			'12 or fewer'
+			,
+		376
+			'absent'
+			'present'
+			,
+		377
+			'absent'
+			'present'
+			,
+		378
+			'vertical'
+			'procumbent'
+			,
+		379
+			'present'
+			'absent'
+			,
+		380
+			'absent'
+			'present'
+			,
+		381
+			'absent'
+			'present'
+			,
+		382
+			'smaller than maxillary dentition'
+			'lateral palatine tooth row is similar in size to maxillary dentition'
+			'enlarged compared to maxillary dentition'
+			,
+		383
+			'absent'
+			'present'
+			,
+		384
+			'present'
+			'absent'
+			,
+		385
+			'separated into palatine and pterygoid ramus fields'
+			'confluent into a single field of palatal dentition'
+			,
+		386
+			'present'
+			'absent'
+			,
+		387
+			'present as row of large teeth'
+			'present as shagreen of denticles'
+			,
+		388
+			'absent'
+			'present'
+			,
+		389
+			'absent'
+			'present on cultriform process'
+			,
+		390
+			'present'
+			'absent'
+			,
+		391
+			'notochordal'
+			'non-notochordal in adults'
+			,
+		392
+			'amphicoelous'
+			'amphiplatian'
+			'procoelous'
+			,
+		393
+			'nearly as tall as axial spine'
+			'reduced to a small spinous process'
+			,
+		394
+			'not fused to axial centrum'
+			'fused to axial centrum'
+			,
+		395
+			'anteroventrally'
+			'anterodorsally'
+			,
+		396
+			'low, subequal to height of centrum'
+			'tall, at least 1.5 times the height of centrum'
+			,
+		397
+			'in horizontal plane'
+			'with posterodorsal inclination'
+			'with posteroventral inclination'
+			,
+		398
+			'in contact'
+			'not in contact'
+			,
+		399
+			'fused with the atlantal pleurocentrum'
+			'unfused'
+			,
+		400
+			'rounded'
+			'with strong anterior process'
+			,
+		401
+			'ossified'
+			'unossified'
+			,
+		402
+			'present'
+			'absent'
+			,
+		403
+			'absent'
+			'present'
+			,
+		404
+			'less than transverse width of centrum'
+			'greater than or equal to transverse width of centrum'
+			,
+		405
+			'sub-rectangular'
+			'sub-triangular'
+			,
+		406
+			'restricted to posterior hald of neural arch'
+			'elongated'
+			,
+		407
+			'posterodorsally'
+			'anterodorsally'
+			'more or less horizontal'
+			,
+		408
+			'transversely narrow'
+			'elliptical or circular'
+			,
+		409
+			'posteriorly relative to paraophysis or ventral edge of synapophysis'
+			'directly dorsal to parapophysis or ventral edge of synapophysis'
+			,
+		410
+			'smooth and rounded'
+			'marked by dorsoventrally tall projections (i.e., epipophyses)'
+			,
+		411
+			'absent'
+			'present'
+			,
+		412
+			'present as distinct ossifications'
+			'absent as distinct ossifications'
+			,
+		413
+			'do not have a distinct anterior process'
+			'have a distinct anterior process'
+			,
+		414
+			'taper to a slinder point distally'
+			'do not taper distally'
+			'are elongate and splint-like'
+			,
+		415
+			'rounded ventrally'
+			'keeled ventrally'
+			,
+		416
+			'present'
+			'absent'
+			,
+		417
+			'greater than ten'
+			'ten or fewer'
+			,
+		418
+			'absent'
+			'present'
+			,
+		419
+			'swollen'
+			'narrow'
+			,
+		420
+			'swollen'
+			'narrow'
+			,
+		421
+			'absent'
+			'present'
+			,
+		422
+			'absent'
+			'present'
+			,
+		423
+			'present'
+			'absent'
+			,
+		424
+			'roughly similar in length throughout dorsoventral height'
+			'3rd dorsal spine is anteroposteriorly expanded into hatchet shape, contacting other dorsal neural spines'
+			,
+		425
+			'absent'
+			'present'
+			,
+		426
+			'absent'
+			'present'
+			,
+		427
+			'sub-rectangular'
+			'sub-triangular'
+			,
+		428
+			'greater than the anteroposterior length of the neural spine'
+			'less than the anteroposterior length of the neural spine'
+			,
+		429
+			'short, no more than 1.5 times the height of the centrum'
+			'intermediate, 2-3 times the height of the centrum'
+			'more than 3 times the height of the centrum'
+			,
+		430
+			'absent'
+			'present'
+			,
+		431
+			'smooth'
+			'marked by deep concavity'
+			,
+		432
+			'short, no more than the total transverse width of neural arch'
+			'long, exceeding the transverse width of the neural arch'
+			,
+		433
+			'widely spaced'
+			'in contact along the midline'
+			,
+		434
+			'does not greatly exceed the height'
+			'is more than double the centrum height'
+			,
+		435
+			'absent'
+			'present'
+			,
+		436
+			'absent'
+			'present'
+			,
+		437
+			'absent'
+			'present'
+			,
+		438
+			'~vertical'
+			'posterodorsally inclined'
+			,
+		439
+			'not clearly articulating with the neural arch only'
+			'only articulating with the neural arch'
+			,
+		440
+			'single-headed'
+			'double-headed'
+			'triple-headed'
+			,
+		441
+			'one'
+			'two separate costal facets'
+			'partial confluence of diapophysis and parapophysis results in enlarged and posterodorsally oriented facet'
+			,
+		442
+			'curved ventromedially to frame trunk'
+			'splayed laterally, forming patagium'
+			,
+		443
+			'present as elongate bone spars postitioned lateral to dorsal ribs'
+			'absent'
+			,
+		444
+			'do not abut or imbricate one another'
+			'abut or imbricate'
+			,
+		445
+			'slender and tapering'
+			'blunt'
+			,
+		446
+			'rounded or oval in cross section'
+			'T-shaped in cross section'
+			,
+		447
+			'trunk length less than 1/2 trunk width'
+			'trunk length is half or more of trunk width'
+			,
+		448
+			'fused to costal facets'
+			'unfused to costal facets'
+			,
+		449
+			'= or < than 1'
+			'>1'
+			,
+		450
+			'2 or less'
+			'3 or more'
+			,
+		451
+			'longer than that of the 2nd primordial rib'
+			'similar in length to that of the 2nd primordial rib'
+			,
+		452
+			'primarily braces the first rib, and contact with the ilium is minimal'
+			'attaches directly to the ilium'
+			,
+		453
+			'present'
+			'absent'
+			,
+		454
+			'flattened or subtly concave'
+			'deeply concave anterodorsally with tall posteriorly positioned margin'
+			,
+		455
+			'ventrally'
+			'laterally'
+			,
+		456
+			'sutured'
+			'fused'
+			,
+		457
+			'confluent'
+			'bifurcate'
+			,
+		458
+			'terminally blunted'
+			'sharp distally'
+			,
+		459
+			'20 or more'
+			'less than 20'
+			,
+		460
+			'present on only a few anterior caudal vertebrae'
+			'present on at least 13 caudal vertebrae'
+			,
+		461
+			'bent posteriorly'
+			'straight'
+			'curved anteriorly'
+			,
+		462
+			'absent'
+			'present'
+			,
+		463
+			'moderately tall'
+			'low'
+			'tall'
+			,
+		464
+			'vertical'
+			'posteriorly inclined'
+			,
+		465
+			'unexpanded dorsally'
+			'expanded anteroposteirorly, forming T-shape'
+			,
+		466
+			'absent'
+			'present'
+			,
+		467
+			'wedged between centra'
+			'attached to anterior centrum'
+			,
+		468
+			'taper'
+			'more or less consistent in width'
+			'broadens distally'
+			,
+		469
+			'similar in length or shorter than caudal neural arches'
+			'substantially longer than caudal neural spines'
+			,
+		470
+			'not fused to centra'
+			'fused to centra'
+			,
+		471
+			'roughly straight'
+			'convex anteriorly'
+			,
+		472
+			'solid'
+			'fenestrated'
+			,
+		473
+			'absent'
+			'present'
+			,
+		474
+			'anteroposteriorly elongated'
+			'anteroposterior length is nearly equidistant to the dorsoventral height'
+			'longer dorsoventrally'
+			,
+		475
+			'at or near the base of the scapular blade'
+			'ventral to the base of the scapular blade'
+			,
+		476
+			'present'
+			'absent'
+			,
+		477
+			'present'
+			'absent'
+			,
+		478
+			'posterior to supraglenoid buttress'
+			'on or at the apex of the supraglenoid buttress'
+			,
+		479
+			'broad'
+			'narrow and thin'
+			'narrow and cylindrical'
+			'constricted'
+			,
+		480
+			'straight or partially concave'
+			'markedly concave'
+			,
+		481
+			'present'
+			'absent'
+			,
+		482
+			'bears a prominent tubercle'
+			'smooth, no tubercle'
+			,
+		483
+			'absent'
+			'present'
+			,
+		484
+			'in the same plane as the ventral edge of the scapula'
+			'distinctly riased above the ventral edge of the scapula'
+			,
+		485
+			'two'
+			'one'
+			,
+		486
+			'only the coracoid'
+			'both the coracoid and the scapula'
+			,
+		487
+			'absent'
+			'present'
+			,
+		488
+			'small or absent'
+			'present'
+			,
+		489
+			'uninterrupted'
+			'distinctly notched'
+			,
+		490
+			'absent'
+			'present'
+			,
+		491
+			'present'
+			'absent'
+			,
+		492
+			'broad ventromedially'
+			'narrow ventromedially'
+			,
+		493
+			'make contact with one another anteriorly along the midline'
+			'do not make contact with one another along the midline'
+			,
+		494
+			'absent'
+			'present'
+			,
+		495
+			'paddle-shaped anteriorly'
+			'rhomboidal anteriorly'
+			'T-shaped with lateral wings present'
+			,
+		496
+			'absent'
+			'present'
+			,
+		497
+			'absent'
+			'present'
+			,
+		498
+			'elongate'
+			'short'
+			'rudimentary or absent'
+			,
+		499
+			'tapered posteriorly'
+			'expanded posteriorly'
+			,
+		500
+			'located ventrally'
+			'located on an anteriorly directed groove'
+			'tightly sutured into plastron'
+			,
+		501
+			'anterior (lateral) surface of the scapula'
+			'medial surface of the scapula'
+			,
+		502
+			'absent'
+			'present'
+			,
+		503
+			'robust heads with a short shaft'
+			'robust heads without a distinct shaft'
+			'slender heads and shaft'
+			,
+		504
+			'proximal and distal ends of humerus are set off at 45 degree angles from one another'
+			'not more than 20 degrees'
+			,
+		505
+			'does not have a distinct neck'
+			'has a distinct neck'
+			,
+		506
+			'absent'
+			'present'
+			,
+		507
+			'present'
+			'absent'
+			,
+		508
+			'absent'
+			'present'
+			,
+		509
+			'absent'
+			'present'
+			,
+		510
+			'absent'
+			'present'
+			,
+		511
+			'present'
+			'absent'
+			,
+		512
+			'present as prominent preaxial groove'
+			'absent, no crest'
+			,
+		513
+			'squared-off preaxially'
+			'not squared-off preaxially'
+			,
+		514
+			'smooth between the shaft and postaxial condyle'
+			'marked by a prominent entepicondylar crest'
+			,
+		515
+			'curved'
+			'prominently angled'
+			,
+		516
+			'terminates proximal to the distal margin of the ulnar condyle (i.e., trochlea)'
+			'extends distally relative to the ulnar condyle'
+			,
+		517
+			'present'
+			'absent'
+			,
+		518
+			'strongly angled relative to shaft'
+			'parallel to shaft'
+			'absent'
+			,
+		519
+			'distinct trochlea and capitellum'
+			'low double condyles'
+			,
+		520
+			'less than 0.8'
+			'0.8 or greater'
+			,
+		521
+			'radius is shorter than ulna'
+			'radius is longer than ulna'
+			'radius and ulna are subequal'
+			,
+		522
+			'more or less straight'
+			'sigmoidal'
+			,
+		523
+			'convex'
+			'with a shallow longitudinal groove'
+			,
+		524
+			'does not bear a proximal tab'
+			'bears a promiment tab for articulation with the ulna'
+			,
+		525
+			'large'
+			'small'
+			,
+		526
+			'absent'
+			'present'
+			,
+		527
+			'similar to that of the radius with an elongate shaft'
+			'flattened in a pre-axial/postaxial plane, forming enormous crescent'
+			,
+		528
+			'rounded or convex'
+			'squared off where the distal surface is nearly flat'
+			,
+		529
+			'present'
+			'absent'
+			,
+		530
+			'proximodistally elongated'
+			'short, nearly equivalent in proximodistal and pre/postaxial length'
+			,
+		531
+			'longer than proximodistal length'
+			'subequal or smaller than length'
+			,
+		532
+			'smaller than distal carpal 4'
+			'equal to or bigger than distal carpal 4'
+			,
+		533
+			'present'
+			'absent'
+			,
+		534
+			'present'
+			'absent'
+			,
+		535
+			'2'
+			'one'
+			'3'
+			'4'
+			,
+		536
+			'3'
+			'2'
+			'4'
+			'5 or more'
+			,
+		537
+			'4'
+			'3'
+			'two'
+			'5 or more'
+			,
+		538
+			'5'
+			'4'
+			'3'
+			'2'
+			,
+		539
+			'3'
+			'2'
+			'4'
+			'1'
+			,
+		540
+			'similar to that of other carpal digits'
+			'substantially taller and more massive than other manual unguals'
+			,
+		541
+			'shorter than metacarpal 4'
+			'subequal or longer than metacarpal 4'
+			,
+		542
+			'less than 1/2 length of metacarpal 4'
+			'1/2 or more the length of metacarpal 4'
+			,
+		543
+			'blunt anteriorly'
+			'taper anteriorly'
+			,
+		544
+			'present'
+			'absent'
+			,
+		545
+			'falls short of the posterior margin of the ischium'
+			'nearly reaches or extends past the posterior margin of the ischium'
+			'greatly reduced or absent'
+			,
+		546
+			'narrow and posterodorsally oriented'
+			'expanded anteriorly and dorsally, creating a horizontal dorsal margin'
+			'dorsally expanded and anterodorsally oriented'
+			'unexpanded and oriented vertically'
+			,
+		547
+			'lacks anterior process'
+			'has anterior process'
+			,
+		548
+			'less than that of the dorsoventral height'
+			'greater than that of the dorsoventral height'
+			,
+		549
+			'planar or lightly sculptured'
+			'marked by a posterodorsally running ridge extending from the posterior margin of the supraacetabular margin'
+			,
+		550
+			'weakly concave or flat'
+			'marked by an anteroventrally oriented ridge that contacts the pubic articulation'
+			,
+		551
+			'anteroventrally'
+			'strongly turned ventrally'
+			'reduced or absent'
+			,
+		552
+			'between 1.0-1.5 times longer than acetabulum'
+			'more than 1.5 times longer than the acetabulum'
+			,
+		553
+			'absent'
+			'present'
+			,
+		554
+			'unexpanded'
+			'expanded relatively to the shaft'
+			,
+		555
+			'present'
+			'absent'
+			,
+		556
+			'slender, tapering posteriorly'
+			'expanded dorsally'
+			,
+		557
+			'flattened'
+			'marked with a posterior process (spina ischii) on the posterodorsal margin of the bone'
+			,
+		558
+			'ilium, ischium, and pubis nearly equally'
+			'nearly 80-85% ilium'
+			,
+		559
+			'sub-oval'
+			'circular'
+			,
+		560
+			'marked by posterodorsal invasion of unfinished bone'
+			'smooth without posterodorsal invasion'
+			,
+		561
+			'absent'
+			'present'
+			,
+		562
+			'small'
+			'large'
+			,
+		563
+			'absent'
+			'present'
+			,
+		564
+			'absent'
+			'present'
+			,
+		565
+			'present'
+			'absent'
+			,
+		566
+			'does not reach the femoral head'
+			'is continuous with the proximal articular surface'
+			,
+		567
+			'prominent'
+			'reduced'
+			,
+		568
+			'absent'
+			'present'
+			,
+		569
+			'present'
+			'absent'
+			,
+		570
+			'larger and extends further distally than the lateral femoral condyle'
+			'smaller and of subequal extent distally than the lateral femoral concyle'
+			,
+		571
+			'short and broad'
+			'long and slender'
+			,
+		572
+			'distinctly expanded past the circumfrence of the shaft'
+			'limited expansion beyond the circumference of the shaft'
+			,
+		573
+			'anteroposteriorly long'
+			'round'
+			,
+		574
+			'well ossified and convex'
+			'concave surface with central groove'
+			,
+		575
+			'sigmoidal'
+			'linear'
+			,
+		576
+			'similar in thickness to posterior condyle'
+			'compressed (~60% or less the thickness of posterior condyle)'
+			,
+		577
+			'convex'
+			'concave'
+			,
+		578
+			'greater than or equal to 1.2'
+			'less than 1.2'
+			,
+		579
+			'bowed away from the tibia'
+			'straight'
+			,
+		580
+			'convex or flat'
+			'depressed'
+			,
+		581
+			'prominent and distinct'
+			'low'
+			,
+		582
+			'flat'
+			'tibial ridge into astragalar groove'
+			,
+		583
+			'smooth and featureless'
+			'has a dorsoventrally oriented groove and gap'
+			,
+		584
+			'subequal with width'
+			'conspicuously greater than width'
+			'conspicuously smaller than width'
+			,
+		585
+			'absent'
+			'present laterally'
+			,
+		586
+			'aligned with proximodistal axis of calcaneium'
+			'offset from proximodistal axis'
+			,
+		587
+			'absent'
+			'present'
+			,
+		588
+			'long and distinct'
+			'confluent with the rest of the astragalus'
+			,
+		589
+			'concave or flat'
+			'divided into posteriomedial and anterolateral basins'
+			,
+		590
+			'separate'
+			'fused'
+			'hinge present'
+			,
+		591
+			'present'
+			'absent'
+			,
+		592
+			'between astragalus and calcaeneum'
+			'on astragalus only'
+			,
+		593
+			'subrounded'
+			'elongate and slit-like'
+			,
+		594
+			'include both the lateral and medial centralia'
+			'medial centralia present'
+			'entirely lost'
+			,
+		595
+			'separate'
+			'in contact'
+			,
+		596
+			'five'
+			'four'
+			'less than four, may be entirely absent'
+			,
+		597
+			'present'
+			'absent'
+			,
+		598
+			'poorly defined'
+			'well defined'
+			,
+		599
+			'present'
+			'absent'
+			,
+		600
+			'5'
+			'more than 5'
+			,
+		601
+			'absent'
+			'present'
+			,
+		602
+			'2'
+			'one'
+			'4'
+			,
+		603
+			'3'
+			'2'
+			'5'
+			,
+		604
+			'4'
+			'3'
+			'two'
+			,
+		605
+			'5'
+			'4'
+			'3'
+			'2'
+			,
+		606
+			'4'
+			'3'
+			'two'
+			'5'
+			,
+		607
+			'less than 1/2 the length of metatarsal four'
+			'at least 1/2 the length of metatarsal four or longer'
+			,
+		608
+			'shorter than metarsal four'
+			'subequal to metarsal four'
+			,
+		609
+			'shorter than metatarsal four'
+			'similar in length or longer than metatarsal four'
+			,
+		610
+			'absent'
+			'present'
+			,
+		611
+			'long and slender, with length well exceeding the width of the proximal base'
+			'short and broad, with much wider proximal base'
+			,
+		612
+			'absent'
+			'present'
+			,
+		613
+			'longer than the first digit'
+			'not longer than the first digit'
+			,
+		614
+			'shorter than the proximal phalanx of digit four'
+			'subequal or longer than the proximal phalanx of digit four'
+			'very elongate, longer than all other proximal phalanges'
+			,
+		615
+			'longer than they are wide'
+			'as long or shorter as they are wide'
+			,
+		616
+			'shorter than the antepenultimate phalanges'
+			'longer than antepenultimate phalanges'
+			,
+		617
+			'shorter than penultimate phalanges'
+			'equal to or larger than penultimate phalanges'
+			,
+		618
+			'hindlimb is much shorter than trunk'
+			'hindlimb is at least 90% of trunk length or longer'
+			,
+		619
+			'absent'
+			'present'
+			,
+		620
+			'not sutured'
+			'sutured'
+			,
+		621
+			'absent'
+			'present'
+			,
+		622
+			'present'
+			'absent'
+			,
+		623
+			'both lateral and medial elements'
+			'paired elements, lacking lateral and medial portions'
+			,
+		624
+			'absent'
+			'present'
+			,
+		625
+			'smooth and tapered'
+			'multiforked and strongly ornamented with parallel ridges and grooves'
+			,
+		626
+			'absent'
+			'present'
+			,
+		627
+			'>10'
+			'10 or less'
+			,
+		628
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Seymouria baylorensis'              001000010-00000000110000100000000010000000000010001300000000010000000000000-0020-0000000000000010010000110000010-00001100---00----0100--00000-000-0000000000000000000-0-10000-0001100000100001000000000000-000000100--0--0000000001-01000101000000-0-0000------0-000-210111110000000100-------00--001001000000110-01100000000100000010000101100000010100--000-0000000000-00000100000000000111101-1-0010000000010000010010000--00000000100011010100000001101000-100011-000-00-0010001100000000000110-00000000000000100000000000-1-101000-00001000110---000000010-001100010000000001000000-00000000-0--000000-------0----000000010000000100-0-00000000
+	'Acerosodontosaurus piveteaui'       --------------0----1----1-0----------------------0--00---00000001--0--0---0--00110000-0-------------------------------------0111-0------1-0-1000100000-1--00------0---0-2--0----------------01--------------------------------------------------------?---------------------------------------------00------0------------0011---000--------------------0--0-0001--0-----1011-00---0000-0--------------00-----------------------00-0100100000000010101001201000-1-0----------------------------------------------------21-0---1010-10021-1100-000-10100------0--1-0010-00100--1-11-1----0-11-----------------------------------------------0-00-00000
+	'Acleistorhinus pteroticus'          00-000010-000-000010221011000010-0000000000000000011001100000100100100010-0-1000000000001100-001001000011-101000-00001010---0100000100--1-011-10100000000000-00000100-112-00010101011100--00010-1020000--0---0100000--2001000-000---10100-001--000----2011-10-110-12021-10113--20101100-------00--0--0010-000--0-0---00000------000---------------000100--00000000000000-101-01000000000---11000000110----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Aerosaurus wellesi'                 00100001--0---0000101100100--10000000000000-0---000-0011-000010010-0-0011-0--0-02000-001-00010010-0-01--0----------10-0-0---0101111100--00001-10100100-100-0---1--100-112-00010-0100-------------------------------------------0----11---110--110000000010100--1---4-2---------10--1112---000000000-00000-0000000110100000----1-000-00-00111100010010000110000010000--0011000011-000000000----------10-0-----------------------00-101010000001101000---100100001---10-110-0-----0000100000000100-1--10--------1--000000000000-0---0-0--001000-000-0000000000111000010----0-00-010000---0-010-0---100--01001000000100010010000000000000001-0-00-00000
+	'araeoscelis'                        00000001--0---00001100001000-0000000000000030---000-0011000-01001-----0---00000110000-0-------------0---1----------1001-100000----1100--00001-100-0000-00000---1--0-000-10000-000110-1-----------------------------------------00000------0-----------11-------1------20110-2-1---0------------0----00-1-1000--0------0-00000--1000010---------0--0-0100--00000000-0--001000001-0000000001-------------0------0-100-0100-0-0001000--000010110-00-10-00-0-01000-1100---1-0-000011000--0------------0-0010-00-101000000020000001111-001101--00-000---------------010000--10000000-00000000101000-00010-1010010-0---1000-001000-00000000000010-00-000-0
+	'Archaeovenator hamiltonensis'       00100001--000-000011000010000100011000000000000000--0011000-01-010000001--0-0011-00001000000100110110001-0100000-00100000---01011011000-00001-10100000-10-00---1--0000112-0001000110-1-00000010-00000-0010-00--00000--210-100-0-----10002100---000---0-01011--0--0----------1-1-0-0----0-------000010001010000001010-00000000010000010--00----00000-0-001100--0000000-000011-01-0-0000-0001-10000000----1-000-00-00-000-00-000-000--001000000----00--0-0-01000-1001----10--0001100001000-0--1-00110---1-0-----10000-0-2-00-00-----------------------------------000-----000------000---0--10-00---0----10010-000010001000--000000000-0010-0-0--0-0-0
+	'Askeptosaurus italicus'             001100110-0---0000112110100001000101010000031200000-001100000100100000000-000-0120011100010000200101011010-1-------1101110110111101100--1-00101010000001110-0--1--1010112-002---------011000011110200000-0-00--0-00203100-100-01-1-11-0021000010110--00111-10-12--020------03---100---0----1--00--010000---10100--10000000---0--0010110000-----00001010011000001000010001011-0100-0000-000100-00-1-001100-000---010-000-00-0100100010000000000000000-0002010000100-----0--0--020000--0-002011-00110-1000001110210010002000000001100012102000100011--0100(0 1)1001111100100000001010100001110-11000--0100---0001000000--10010-0001010010001001-0-00000000
+	'Augustasaurus hagdorni'             00110011--1---000010---0010-0-000000110100-------00-001200000100101000011-01-021-00010000100-03000000001---1-------2---131110-----11-0--3-----10---00000---01------0111---00---------100--1001021---000120-001001-00--0--0111-0-----1-1021------1----00-1-----0-------------3---00--------00--00-011-0110---0--0-----00-00------------------------11-110--00--0-0-0010-1-100001-00000000---00-00-1-001-----------10----0---01111-----01-00000-00-00-0-1-----------------------------------------------------------------------------------0----0-1--------------------------------------------------------------------------------------------------
+	'Australothyris smithi'              00--------0---0--0-10-0-10000110-------00-0-0---00--0011-00------0----0-0-0-1000-000-000--00-00--000000-10100010000001000---010---0100-----01010100000010---100010-00-1-2-000100000001-010-0010-0-00000--0--010-100---1001100-000000-1002-0-----00----2011-0000-020200---0-121120000100--------0-----0000-0000-0-----00000------0---1-------------010000--0000000000---0-011-00-0-0000-0---110000000-0--------------0------0-----------------------------0-000-------------------------------------------------0-0----------------------------------------------------------------------------------------------------------------------------------
+	'Avicranium renestoi'                0-----0-0----------1---01---0--------------------00-0011---------00010000-0100011000000-----000-0010000110---------10010100001---01100--------1010-000010000-011--01-1112-002-------------------------------------0------------11000---0-------------0-0111000001202001-01-03--10-010----------0---1--000-----------------------------------------110-11----------------------------------------------------------11-0-----1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Azendohsaurus madagaskarensis'      0-001111100---00111121001000010101100010000-0---300-0012-0000100100014000-01-001200000000200102-0000000111-1-------2---010010111001100--1-102-1011000001111-1--1--0111012-00111-011--0-01000-1111010000000100020100202210-000-0111--100000-----10----1111111000-02-4001-0-003--11001001-------00--1120-0--000-----1---00001-----001-0000-------0--0-2110011100000-0010101011-0110-0000-0-1-111001000011010002000010001001100121100110010000000001010001120100001100110010-0-00010001100002011-00011010001011-02100110000000000011110120001000000010-010000001111101100100000011110000000101000000-1010021010020002-1001010000010110101001-0-00000000
+	'Barasaurus besairiei'               001000010-01--0000110210100000100120000000020100210-001100100100100000010-0-100000001000-110-0010010000011-00011010001000---00--001100--00011-1000-000000000001010100-1-2-001110011-0000100001111100100000-001101000--200110010------1002100101000---020121000100202001-10113--01100100-------00--0----------------------------------------------------0--0000000-000000-011-0100-0000-0---00-01-1-001-000010000100--------0000000--000000000--0-----000-01000-101011---0-0000--00-0100000001-00110-00---010102000110020000000011-00110020001-00001101000000011--0000-00-000-----00000001-10000--10-00000010-0000100010000000-1010000100010-0--0-0-0
+	'Belebey vegrandis'                  001000010-0---0000110000100000000000000000030000000-001200010100100000000-0--00000000100100010010010000110100-00-1-----00---0101021100--0000111001-00000000000-1--0010112-0001000000-1-0-001010211100000-1---1001000--0--100110-----1100210---1000----1--------0--0--------01-1-000------------0--0-000001000--01-1010000001101000011000-0----00000100000-10000001101011-011-0200-0000-001100-01-1-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Besanosaurus leptorhynchus'         00010011120---0000112110110001000100010000010110-00-001100000100001010000-0100001000-0000200-0310100000210-1-------1010111100----01000--11001-1010-0000000000001--1000-0--001100011-0-00100000-------00010-000000100--1100--110111--1110210-0011000--000111-000-0204021-10103--1-101100-------00--0100010-000-00---0--02001-----000-10------------0-01000-000000000000001011-0100-0000-000-00--1-1-001-0------------000----000--00--001000000----0--00-0-01000010---------0--00101--10000----------------------------------------------------------------------------------------------------------------------------------------------------0000000
+	'Bolosaurus major'                   --------------0----100--1--00------------------0000-0011000-010010000000020-00000000010010001001001000--10100-00-0-100100---0101-2-100----00---0-1-000000000-011---010----0001000---1------1010201100----1---1001000--000100110000-01100210---100000-01011100-00--03-01---00--110000-000100000000000000-01--000-1-10-00--0010010000--000------00000--00001100-00--1-----0011-0200-0000-0011-0-01-1-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Bolosaurus striatus'                00100001--0---00001100001000000-00000000000301--000-0011000-01001000000---0--0--000001-01000-00--010000110-1-----------00---0101021100--0000111001-0000000000001--0--0112-0001-00---11------01-011100----------0-00-------0110------11002-----1000----21111000000103-01001-010120000100-------00--0-00--0---00011-10100-0001-010-----000-0-----0000-0000--10000001101-10-011-0100-0000-0011------1-0-100-----------------------1---000--00000000000000--2-------------------------------------------0-------------------------------------------------------------0---------------------------------------------------------------------------------
+	'Boreopricea funerea'                0---1101------2--1112200100-010---000000--0-0110-00-00120000010010-0000---00000100000101----11-1----0-02---1-------10-10101001--0011-0--1-00201010-00--01100-0-1--10111-2--01111011---------01--------------------------------------------------------00-------------------------------------------1200001110--0-----00-00------------------------010-00--000001--0-----1011-010--0000-000-00-01-1-00110---------10-010011----010-11001-0000000000000001201000011---------0--0110---------011-0--1------------------0-2-000000-11100110120-01-00------------------------------------------10--0---0----21010-01--1-----0------0-110--0000-0-0--0-0-0
+	'Bradysaurus baini'                  001000010-0---00001112101000001002000000000300103012101100000100001010000-0-1000-00011000100-00100-0000110-01010101001110---01----2110--01000-010-0000000-00001011000---2-000-001000111-110001000010010010011-00-0-1010--110111-----11002100--1000---02-12-000000203001-00103--11100010--11-0-001101------------------0--1-----------------------------0--2000000--00000-011-0110-0001-0--0100000000-1------------0-000----000--000000100000--------0001-01000-10----------------010-0000-0---101---------------------1000000101110101--00-00-0------------0--1122110-2-000000110-0000-11000-0----0-----0011-10002-1111010011110000011101-1-00000000
+	'Brouffia orientalis'                0010000-0-00--000011000010000-000000000000000000-01-0012000-01-0100000010-0-0000-000-100000000010011000--01000-0-00100100---------1100--00001-100-00000-0------1--001-----000--0011----0-0000---------0------010000---210-000-0-----1-00210--01000------111-----------------2-1-0-0-----------00--0--0-100000--0---0-00000000--0000010------------0---0011001-010000--0-0001-000-00000000--110-0001010-----------00--00----0001000--00100000000--00000-1-010000100111---0---0-010--------------0-10------00--01000000000000000111-0-02-020001000----0-000--0111---0--0--00-------000---00010-----10---0---10-0------1----0-------------0000-00-00000
+	'Candelaria barbouri'                00100001--01--0000112210100--0100110000000020-0-200-001111100100100000010-00100121001010-1001-0000-00-0-1----------001001000010-00-100--1-001-1000-000-00--0------000-002-0001100110--------0----------------------10---------------------------------20-------------------------------------------1-0-0---0---0------0000------------------------0-0110--00000100-0--00-0000-1--0000000------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Captorhinus aguti'                  000000000-000-0000110000100000000000000000000100001300120000010010000000010-0000-0001100010000000001000210100100101100110---00----0100--000000000-00001000001001--001---10000-1001100000100000-------000200000100001002100000000000010002101001000000010110100001201000----03--1000110200000-00000001000010000000-1010000000001100011000010100000000010011000000000110000001-11000000010111010-000101(0 1)0010001000100110010000000000000000001000000000000020100001000010100-0001010000100000000100110-00000000111000000000000000111111020000000000000000000000011100010-0000000-0000000000001000000-00000100100000010001000000001000000000000-00000000
+	'Captorhinus kierani'                000000000-000-00001100001000000000000000000000000013001200000100100000000-0-0001-00001000100000000110001101001001011001-0---00----1100--000000000-0000100000-001--001--0-0000-10011-0-00100000-------000-0--00100001002100000000000010002101001000---010110100001201000----03--1000--02-------00--00000001000010001110000000000100011000110100000001010011000-0000011000-000001000000000--1010-000100100--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Captorhinus laticeps'               000000000-000-0000110000100000000000000000000100001300120000010010000000010-0000-0000100010000000001000210100100101100110---00----2100--000000000-00001000001001--001--010000-1001110000100000-------000200000100001002100000000000010002101001000000010110100001201000----03--100011000000000000000000001000000001010000000001100010000110100000000010011000000000110000000001000000000111010-0001001001000-000100110010000000000000000001000000000000020100001000010100-000101000010000000010011--0-000--01-100000000000-------------000-0000-000000-----0--1100010-0-00-00-----0-------10-----00-0--10010-000010001000-----10000-0000100-00000000
+	'Cartorhynchus lenticarpus'          010-0011--0---0000112-1-100-0-0000000100000-0-1--00-0012000-0100100000000-01000100000000100010-1010000--10---------100--2000012--01100--1-001-0010-000000100-0-1--2001102-001111011--------------------------------------------------------------------011--0--------------03------------------0----000000000-011010100000000---00001000------10000-0000--100-00-00-------11-1100-0000-0001--------------------------------000--00--0010-0--0--------0---010000-0-------------1-----------0----0110----00-11--21010-0-1101-000111-00121020001000111---------------------------------1-10-100-1---10--------------------------------------00-00000000
+	'Casea broilii'                      01-00001------0100101210100-00--11100000100-0----0110011-0000100100-1-0---0-0-011100---01-10-00--01-0-00-0-00100-00---00----0101102100--00002-10100000-10000-001--00--1-2-00-1--01-------------------------------------------------------------------0-11--00-0-02021000011010110--0-02------------000-0010000010-10-00000000--000001000-0----00000-000011000--0011-0-000011-020--0000-0010------------0----------0-000100-0001-00--001000000-0--00--00--0100001010100100-000-00000010000000--0011----1--0------------00000000011100010--0-0100----------------112000-0000000101000000000010-0----0---010010-0000100010000000-000000000-000-0--0---0
+	'Champsosaurus lindoei'              101011011001--00011---0011000100001010100011021--014101201001100111004010001-0011000-001----11200100001210-1-------2---13110010--01100--1-010000100000011-001001--1011112-00010-011001001000011010100001200001001002130--011-00-----1000210---10000000211110000112-2011-1-003--11-01110--010-0100001---------------------------------------------------01-0001000000000--011-0100-0000-0---00-01-1-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Chaohusaurus brevifemoralis'        001000110-0---000011221010000-000100010000010011-00-001100010100000001011-0100011000000000001011010000021----------101111001012--01000--1-101-0010-0000-000000-1---000-02-001--------1001000-0-------000201001001-00---00011110------------------------0111-0-0------------03----------01-----00----000-0-000-00-010-002001----0---000-0----------11010011000000000000001011-0100-1000-0010100-1-1-0-----000-----10-000--0-000-100--001000000000-0---000-010000101--10100-00-0010100000002011-00110-1-000-11002102-1001101100011110-12102000100011----1(0 1)1230111------------------0001-101100-1----0-1-000011001------0-001112-1010000000000-00000000
+	'Clarazia schinzi'                   000-0-11120---0--011221010--0---0000110000031200000-0012000-0100101002010-0-1001110--0-0010010010100011-1----------110000---0111100100--------0010000001110-1--1--200-102-002--------001111101011020000110-100001002121000111-0-----1-002------0-------0-------2------------------0------------0----00-000110--1---0-0000000001110011000----------1-0-0031000000000000010011-0200-0010-000-10-01-010---0---------10-0000---0000100--001000000--0-0---0-0-01000010------0--0--001000-00000201--0011--1-0000-1-0210001-0-----------------0210010001----1000000011-1001---1-00------0010-00-010-----10-1--20011-01--------000000010000-0100100-00-00000
+	'Claudiosaurus germaini'             001000010-0---0-001121-011000---0---0000-103000--00-001200010100100000010-01000110000000100010210000000210---------100101000012--01100--1-102-1010-0000100001001--0110112-001100011-1000100001001020000000-000000002020--010010-----1-002-0100100-0--000111000111202000----0-1-1-00110--------00--01000100000100101010000001101000000000011110001001010011000000000000000011-0000-0000-000111000101001001010011010010101000000100000001000010000000-0011201000010011-0110--1200100001000-001--001----000001-102100000020000001010100120020001000010100000000111110-10---1001001-00000100111000000000000000100000010001001000001000000000010-00000000
+	'Clevosaurus brasiliensis'           101011010-0---00001122101100010002000000000-0-0-100-001100010100100002011201000110000000000010210100001210-1-------1001020110111102100--3-----101110000012000011--2001112-102-------11-0-00001121121000010-00110100212200000100-----1100210010100100-02011100012-2-2000----03--1100010001-0001000001000102101-----11001200010---1000000100----100010011031000000100110000011-0200-1000-00011110001-00100-0000-----0--000-0--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Clevosaurus cambrica'               001011010-0---100110221011000-000210000000030001100-001200010100100001000-01000110001000010010200100000210-1-------100102100011--02100--3-----1--0---0--12000011--0001112-102-------1100100001021120000020100000000212100000110-----1-00210-001001-0-010111000121202001-01003--110011100100-01000001000102111-----110011000100110001100100----00001120103100000010011000-111-0200-1000-10011110001-001000--00000--01-000-00--------1-01000-100000--10-----------------------------------------------------------------2000000-----0--2-11--0--0-----------------------------------------------------------------------------------------------------
+	'Clevosaurus hudsoni'                001011010-0---10011(0 1)2200110001000200000000030001100-001200010100100001010-01000110001000000010210100000210-1-------1001021000111002100--3-----101110000012000011--0001112-1020------11001000010(1 2)1121000020-00000000202100000110211--1-00210-001001-0-010111000121202001-01003--110011100100101000001000102111-----110011000100111001100100----000011211031000000100110000(0 1)11-0200-1000-100-1110001-00100---------0010000000000100001001000000000000100012010000100011011110-01-10-00100000011-10100-10010-11--2--0--0020000001111100020-00000000-----------0--111010001000001111101001001010000-0--00-000011-11--2---1101-----100101------0-00000000
+	'Coelostegus prothales'              00---00---0001---0-1000---0-------000000000-0--0-01-0012-00-0--010000001--0-00-----0--00000000010011000--0100-00-10100-00---00------00--0000---00-0000-10--0-0-1--001----000---------------------------------------------------00--0--------------------1111----------------2-1------------------------------------------0-----------------------------01100--01--0----------0----000-0---1-------------------------000100-000--00--001000000000-00-0001-010000100-11---0---0--10-------------001-0-------0--------00-----------------------------------------1------------------------0----0---------------------------------------------0-00-00000
+	'Coelurosauravus elivensis'          ----------0---0----12200110-010--------0--0300--300-1012000101101000-101121---210001-11010001001111011101----------2---00---010100-1010-2-0120101010000000-0-0-1--001-01000110000110-1-----0010210200---10--0010000202210011010-----110021001010000--011-------------------------00------------0--01---------------------------------------------------021000000--0------011-0-00-0000-0----100001-001001-000010110-000-0000-00100--001000000000-10-00-1-100000101--------0010-1-00010000--11---11--------0----------020000001-0--01010001-00-0-110100000020---1-1110-11------1---0-00-0--1---0--10-0--1--10-0000100010-------1--000--0-000-00000000
+	'Coletta seca'                       00100001--000-0000112001100001100000000000030000-10-001-00-00100100000000-0-000--00001-0-100100-0---0---1---------------0---00-----100--1-001-10---000---0-0---010-01----000--000--0-1-0-00001021010000-0--0-110100101210-11--1-----11002-00---000---0-0---------------------------------------0--------0---0--------0---0-----------------------------0--00--000-0---00-011-010--0000-0---1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Colobomycter pholeter'              001000010-00--000010221011100-1011100000000300000011001100010100100100010-0-00002000110-----0001000000021-000-1--10---000---010110-100--1-002010100000-100001-----001-112-0001010100-100110001020000000000-001001000--200-001-0-----11002-----1000---0-0--------------------------0----------------0000100000101-0---00000000--0000000-0----00----010000-100110000011000100000100000001001-110000011-0----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Cotylorhynchus romeri'              01000001--00--010011111000000100112100001003001-00110011-00001-0100110010-0-000021000100111000000000010010100010101001000---0101102100--010010101000000100000001--000-012-00010-01001100--0001020000000000-100000000--2001000000-00001001100--1000---0111000011102031020111-101100000100-----000--0-2000010000110111100--000000100000-0001111000100-0-001110001001111-001111-0110-0000-0011110000000100010000-100001000-10000000000010100000100000000001101000-1011110-10-0-00000000100000001-00110-1-1000--0010000--000000001010-100-0-000000000011000112100111010000010000000000000000001000010-000000101000000100010000112210000001111-0-00000000
+	'Cyamodus orientalis'                00100011--0---00001100-0110-0-000010110001030101200-001200010100101001000-01-----00001-0120011101100001210-1-------2---0310000----2110--3-----110-0000-10-00-001--1-11--2-000---011-0---------------------------------0--0----0--------1-------------0-0111-00021202012-0-003--------0---------0---1100000100010---1-10000011000---010-0-------0--010000--000000100000001011-020--1010-000--1201-1-0-1-0---------10--------000-1-----0--------------------1---1--1011-110-0--0---000-0000---------------------------------------------------------------------------------------------101-1--00---------0011-0---2-----01---1-101000--0-00111--0---0
+	'Czatjowiella harae'                 001000010-0---000011220011000100000000000-0-0110-00-001200010100100000010200000110000101---010211100000-1000001001010-101000012-101100--1-10211010-000011100-1-1--1100112-101101011--00000100---1-2-000110-00-20-00202210-110-1-----10002100--10010-0-1011110012--0200------3--11000110--001-1000-01----0---01------100--0--------1---------------11--101100000100000000-011-0110-0000-000-110-001-0-110----------01010-11-0121---11001000000--001-00-02--1000-11-----------------------------------------------------2000-0-0011-0-02-------------------------1-01--0------------------------------------------------------------------------------
+	'Delorhynchus cifellii'              00--0001---001000-1022101110011011100000000-0000001210110000010010010001020-000020000100000000010010000-1-000-----0001000---01--000100--1-0-1-10100000010000-------00---2--------11--100-000010-10100000-0--0--0--0-----0-000----------02-0-001-------10--------------------2-1---0-----------00--0-000001000--1-----00100000--10001100-----------0-0000110001-1--0----00011-0100-0000-001-1101000011000---------00--------00010--0000--0011000000000-0---1000-10----------------------------------------01--01000000000000001010-010-0-------------------------------------------------------------------------------------------------------------
+	'Deltavjatia rossicus'               101000010-0---00001112101000011002000000000300003012101100010100001010010-0-0000-0000100110000010010000210001010111001000---00----2110--00001-000-0000000-00001011000---00000-00101011101100-1021000010010-1110011110110111111100--011002100101000-0-0211210-0000203001-001021010000012--1-000001-1-0000010000110211000001011011000010000111000011010000--20000001000000-011-0210-0001-000111000000001-0-00100-00-0-0000---000--0--00000-0000--------0-0-010000101011--10-001----0------0-0--------------0--002000-0-00000---0-1--0-0-0000-0-00---0---001210--1-22------------------0--1-00------10-0-0-0011010002-----0-00-11---01---10101001-0-0-0
+	'Diadectes absitus'                  000000010-00-00000110000100000000100000000030000300-001100000100000010000-0-0000-0000100110000010010000110000000000001100---10----1100--000010000-0000000000101010000---10000-10001011000000010000000000-0-000000000---000001000000001000100100000---0111001000101000010101010120001100--000000000000001010000100-11000000000-10000000---100000000-----011-00-0001001010-011-0100-0101-0011-0-00----0100-0----0-0001000--0-000000000001000000-00-00--0-1-010000100--------0-----00001000-000--00110--00--000--------0-0000000--10-11000-00001000-10-000000-0010-----------0------------0-000-0----0-0-----10-0--0------------------------00-0--0-0-0
+	'Dimetrodon limbatus'                000000010-00111000112200000000000000000001030110100-00110000000010010400000-011120000100000100010011000-10101000010100000---0100011100--1-000-011000000000001001--000-0110001000011-11001000010200000000200201001000--2001000010000010002101001000-0-011101101010102112011101011100--02010000000000010010100001111111001100001100000100000-----1000-110011011100000110010000001-1000001011101010100001001001211000010001000000000000001000001101100001-110100001010010000-0-00210000000000000100010-00110000--1000000000000000011100000--0000000---------------0011100011001010000000000001000000-0-00------------------------------------0-0--0-0-0
+	'Diphydontosaurus avonis'            001000010-0---1000112210110001000110000000030101-00-001200010100110000010201-00100000000000010210000000210-1-------2---010000111001100--3-----0010000000120000-1--0-110120101101011-100010000112112000002010011010021221011000------1100210---10011---10-------2---------------1100110-01------0--0-000-0---1-----101-0--00-------------0-------0------03100000000000000-011-0100-1000-00-111100-1-0-1---------------------------------------------------------------------------------------------------------------------------------------0------------------------------------------------------------------------------------------------------
+	'Dolabrosaurus aquatilis'            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0------------------------1--1110-----11------0---1-01000-0-1111-010-01-02010111110-------------------------------------------------------------------0--1----------------------------------------21011-0----0----0------10100---0--------0---0
+	'Drepanosaurus unguicaudatus'        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------10----------1-0-1---------01110011000010-000000000-01000---0111-110-0-0020101111101-11--10110-1-00001----------02-0000---11-0---000-01001-001----12311-11-22-0--00-001--1---1----0--1------0------1111-10001000-00-0012110100--101000-0--0-0-0
+	'Edaphosaurus boanerges'             000000010-00-11000110000100000000000000000000000200-001200000100100100100001000110001110000000110001000211-01010010100112000010-002100--0000001010-0000000001001--001-01-0001100011-11001000010000000000-00001001000--100100000000001100110---100000-021101001110102102011101011-00110201000000000102000010000110111101100000101000010000101001000001000111000000-1000001011-0100-0000-00101101010100100-0012----00-001----00100000000100100200110000111-01000-101--------0-00200000000000000100110--0000000--------00000000010111010100-0000000---------------10100000100010-0000000000001000010-0-0-----10-0--0------------------------00-0--0-0-0
+	'Edaphosaurus pogonias'              000000010-00110000110000100000000000000000030100100-001-00000100100114100-0-000110000110000000100000000210101000000100-10---010--02110--00001-101000000-00001011--0------000----0-1-11001000010000000000200001101000--200-000000000011001101---000---0001010010101021020-0-01111100--02--0000000000000-0-1000011---1--1100000--1000110------------0-0000-1000-000--01000-011-0100-0000-0---11110-01001--------------000------0--00---01001002----00--1---0100--10-----------0-210--------000--00110---0000-0--------0-00000001-11100010------------------------101000-01-0-10-0-000-0000001000----0-------10000-0-------------------------0-0--0-0-0
+	'Emeroleter levis'                   000000010-0---0-00102210100001--11100000-00001000011001100010100000000010-0-0000-10011001100-001001000121--0--000-0001000---10----2100--1-001010000000000000000010000---2-000-100(0 1)00-1-01-00010-0000000---0---0-00010-101-000-------1-002---11100000-020111---02--0200-0-1-12-120000110--00000000001000101000--0-21--0000001101100101000-------0000000-0-1000-0100000-00-111-01---0000-00-1110100001---------------------------100000010-0-----0-------0-01000010---------0-------------0------011--------0-----------2000-001-1-10----120-0--0--1----000-00111------------------------0--10--0--0-------01--1----0-01-0-000-100000-0100010-00000000
+	'Endennasaurus acutirostris'         00110011--000-0-001----011------0000110000031-0--0--00--000-010011-002010--------00---------------------1--------------0-------------0--3----------00----------------------------------0-0-----------00----------00-----------------1-00--0-00100--------------------------------00-------------------0-0---00-0-----10--0-------------------------1---1-----------------------------------------------0---------10-010-00-0000100--001000000-0--00--0-02010000100-----00-0--000000010000-0---------100000-110200001002-00-0-001110012-01000100011--01000100011110010000000001010000---0--1--00--00---000010-01--10101101000001-10100000000-00000000
+	'Ennatosaurus tecton'                01000001--00-10101101110100000001121000010--0---00110011-0000110100000000-0-000111001-0010100001000-0-0210100000-00---000---0100102100--000000111000000100000001--000-112-000100010011-0---0-1--0-000---------0---00-----010000-----0--0----00-000---02110-0000-0-02100----1211--00------000-0000000000001000011-011-00100000--100001000-1011000000-0000--10001001111-00-011-0200-0001-0000-10-0001011-0---------10--00-00-00-1100--001000000000-00-000--010000101-----0-----0010--------00---0011--------00--1-------000000000111010000-0000000---------------1-10000----------00--0000-01000010-00000----------------------------------00-0--0---0
+	'Eomurruna yurrgensis'               000000011101--0100112001100001100010000000030101210-001110100100100000010-1--021-000-100-10010011010010011-1-------0010000--00---01100--1-0010100--000010000100001000-002--0111100001-10100001021020000000-00110100102211110101-----11002100--100000-021121000000203001-11013--010001000-000000000011000000001-00--01000000100110111000--111-01---1-01-0310000000-0000000011-0200-0000-0-011100001-0-100-0--0--0-00-0001-0-000-000-0001000000-00-00-000-2010000101011-110----------------00-0-00110-00000001102000-100000000-0011101010-0000-00000000------0--1101000-0000000--100000000001000000-000001001000000------------------------00-00000000
+	'Eorhynchochelys sinensis'           00100001--0---0000112210100-01000---000000030----00-001-000001001--000000-0-0001-000-10---------0---0------------------00---01---0-1-0--2-0---10100000-1---0------1---1-2--0----0-1----------1-------------------00-----------------1-00-10-00101------------------------------110----0-----------1--0000-0-0000--00--0000----------0------------------021000-002--------011-0-00-0000-0------00---010---------------------00---00---110-0-----0-------1-0101111-0011-1-0-001-0100--10000-----201-111------1-0--------0000-0-0011100110000001000-----------0--110001-00--00-0-----00---0-110--0-0100--0---11-0--0---------------------00110-0------0
+	'Eothyris parkeyi'                   01-00001--00--0000100000000-010010100000100-000010--001100000110100100010-0-000121000100100000010000000110000110000001000---0100102100--000020101000000000000001--000-00000000000100-----------------------------00-----0100000-----1-000-0----000---01010010010010210201111210------0--------00---00001020000-1-----0000000---1000010------------000-00--000--100000-001100101--000001010-----00000------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Eretmorhipis carrolldongi'          100100110-0---0000112-00100-0-000000110000030200-00-0011000001-0100000010-010001100000001100-01-01000-0--0---------10-1010-00-----11-0--1-00---010-00-0----0---1---11111--00----------001-00-0-----------------0--------0011--0-----1--0------1-0-------------------------------------------------0--00-0------------00--0-----------------------------1-----------------------------------00--1-1-0-1------------0-000----000-100--001000000-00-0---0002010100100-----0--0--001001000000-----------------------------1101-0001111011211100010001100113-011011-123000----0--0--1-------0-100-0--0-0---000011001--2-10111022-111110000100001000-00000
+	'Erythrosuchus africanus'            00101100101---1001111100000100010110000000030110000-011200000100100003000-00-01121111101----10100100000210-0101001-2---121110101101111111-000-01101011011100-111--0110112-0011010110110-----01-1-------------------------000-1--------0011--------11-10111101001031400-----03--11--000---001-1--00--21-0-0110100021--000001--00---1-0000------00000100000001-00100000-001011-011--0000-0001-----------11-0--0----00-----1--01--00011001000001010100000022010000100-----0--01-001001110000-0-1-010111100--0------------0000000011110111-0200-1000---------------10011001--000011110000000011001-00----0-21011001------1101-001--1110--100--10-0-00000
+	'Euconcordia cunninghami'            100000010-000-0000110000100000000000000000000000001300120000010010000000010-0001-0000000000000000011000010100-00-0-100100---00----0100--000000000-00000000001001--000---10000-10011-0100100000-------00000000010000---2-0110100000001000210-00100000-0-01101000012--0------03---000----00000-00000000000010001000-1010000000000100001000110100000001000011000001000000001101-01000000010011110-0001010----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Eudibamus cursoris'                 0--0-001--0---0--0------1---0---0---0000000-0-00-00-0012000101001000000-0-0--00000000100-00010010010000--0-------------00---01--02-10-------1--001-000-00--0---1---01011--00-1-00------------------------------0-0--------001-------1100210---100-------11100000--0-00------1-1-------0-----------0--00-0---0-0-1-10100-00011--0-----00--------0---1-0-0--100-0001-00-0---11-0200-0000-0--1----1-1-0-----------------001-------000--00-0-0--0--0-----00--010000100--------000----0------0-----------1----001-0210001002000-000--1-0-1--1-0-0100--0--00------01-1-0010-0--0100--10000---0--10000--010--000011-000010001001000000000000001010-0--0-0-0
+	'Eunotosaurus africanus'             011000000-01--0000102210110000000210000001010010-00-001100000100101010000-0-10011000000010000001001000011--00010010001000---012-002100--2-012-1010-00001110000-1--000-012-0011-1011---00--00011-00100000-----0-0000212--100001-0000-11000100--1100---11011----1---1--------1-----00----00-0---10-00120000---0100--10-00-00001011---01000------10000100000-00---000000000-111-0100-0000-001111000-000-100----------00000100-0--0010010010000100001100000120111111001110010-0010-1-0------000-0-10111-10---0-1--2000110000000001011-0-0-0---0-0000------00000001-1100000----0----1-00----01110000-----------------------------------------------------
+	'Euparkeria capensis'                001011011001--00011121100002010100000000000-0110000-001200000110100001000200-00120001101-----011010000011000101000-2---010100101101101111-0000011010000111000111--1011112-00110101101-001010011010200000100000001002020--000010-----1100200-101000111120111000121202001-0-013--1100010000001110000011100011101000210-002001--01-001-100000-----00001000000010001000000001011-0110-0000-00011100001-0011010010--00000000-00000-1000010010000000-0-0-00-02-01000-1001100100----------------1011-10111010001011--2-0011002000000011110112-----0100----------------110111010000001111000001011100-0---11--020111001---02111012000110110-00001----0000000
+	'Euromycter rutenus'                 01000001--00010100100010100-010011200000100-00--101100110000010010-1-0010-0-0000--0001-011000001000001001010100010-000000---01011-2100--00001010100000--0000-0-1--0-0-0---00010001001------0----------0------01---0---2-01-0--00000001001100001000---0101010000101021-201010--11000--0---------0--0--0000-0000-0-----00000------0000--------------010000-1100--00110--001111-01---0001-0-------0100010-010000000100-0001-0-0---------------------------------------------------------------------------------01-0--0--------------------00000000000100000100001-------------------------------------------------------------------------------------
+	'Feeserpeton oklahomensis'           0-----00--0---000-101200100001-----00000000-0000001-001100010100100000010-0-000010001100100000011010000-10001010100001000---01010-2100--0000----10---0-10000-0----100--12-0001-10---1-00-00001020000000000-00110100-----0-10---0-00011-0-100001000-0-0201-100-1---0-001-0--13--1000---201000000000000-010100010101101000000000-0-00000000-----0000010000110001-0--0-----0-0000100-00001011011000001101----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Gephyrosaurus bridensis'            00000001120---0000112200110001000110000000030001000-001200010100110000000201-00100000000010011200100000210-1-------2---010000111001110--2-01201010100000120000-1--1111112-101--0011-1100100001101110000000-0011010021221001001------110021--0010011-0000--------------------3---100----01------0--0120-102111-----101002000--010010100010101-000001-00102100000000000000-011-0000-0000-00111100001-0010010000000-0000000000000-0--110010000-000001100001-01000-1-------1----21110--------0001-0010---0000001102000-1002000000101-10-0---------0----------------11010000010000-11--1000-0-111--0---1---0---10011------1-----------101--0------0-0---0
+	'Gordodon kraineri'                  00000001--00-10000110000100-000000000000000001---00-00120000010010-1001---0-002110001-1------01-010-0---1----------100100---0101101100--1-000-01100000-00000-0-1--001-0110001000011---------0----------------------------------------------------------1--------------------------------------------10-001000011-111-00110000--0000010-0------0---0--000--100-0011-010010011-010--0000-01-------------00--002---000-001100-00010000-001001002--0-0---101-01000-1-------------------------------------------0------------------------------------------------------------------------------------------------------------------------------0----0---0
+	'Haptodus garnettensis'              100000011000111000110000000000000100000000000000100-001200000000100100000-0-000110000100000100010101000110---------100100---0101101100--010000011000000000000001--001-01--001----11-1000100001020000000020-000000000--100100000000001100010-0010000--02110-00111010210-----0---1-0011000------00-00000100100001111111001000001100000100000----00000-010011001-00000111001001-011-1000000110110-000000100100101100001000-00000000000-001000001-00-0001--0201000-10------------0---0001000-0001-00110-00110010--100000000000000001110-0100---0000-000-00000-0001110000000-----0-----000000-010000-010-0--1001000000100010-0-000-100000--001-0-0--0-0-0
+	'Heleosaurus scholtzi'               00100001--0---000011220010000100011000000-0-00-0000-0011000101101000--010-0000112010-10010001001001100---01000-0-00100000---0101111100--2-01--10101-00--0--0-0-1--000-11--001-000-10--00-00-01--00-0000----------00---2-0-000-------10000-0----000-----01---0--1--0---------111---0-------------0----00---00---------0--00-----------------------------0--0---0100000-00-001-0-1-10000-0---110-0-000-0-----------00--------0-0--00---0-0---------------0--100-01------------------------------------------0------00-0-2-000001--1-0-11-120-01-00-10-0------------00--------------------0--1------0----------------------------------------1000-0--00
+	'Honghesaurus longicaudalis'         00010011--0---0000112200110--100010-110000030000-00-001200010100101001010-00-001-000-100000000111110000----1-------2---010-10----011-0--3--01-1010-000011--0-0-----1111-2--02---------------------------------------------------------------------------11100-12-----------03------------------------00-0----------0------------000---------------11--10--000-0000000--0-011-010--0000-00---------------------------00-1---0----00--0010000--------------0100001011110-00-002001000000000-----30110-------1-----------21001000-11000121010001000----110021301111-00-00---------1-0001-101111-10--10---000011001--2-21-10000002001000-000000-0--000-0
+	'Hovasaurus boulei'                  -------------------1---------------------------0-00-0011--------101002010-010001100000001000101110110001101000101-010010100001---0------------101000000100001001--0111112-00---------10--------------------------00-----0000110101--11000101001000----10100000120202000----0-1110001100-------00--0----------------------------------------------------0------0---0------0--------000--0-------0---00100-00000-0100-000--0-000100001001010001000000-00002010000100-----00-01-0200002000000011--0110-1000000--02-00110100000001010010010011001000010-00000000111110010000100001-1000000-0--1--00---00--0000100000010-01-0000000100000010001--00000-00
+	'Huehuecuetzpalli mixtecus'          00100011--01--0000112200110--1000110000000030000-00-001200010100110003000-0000011001010002001110010000011----------100101001012-001110--2----00010-000-11-01---1--2011112-002--------------------------------------------------------------------------0------12------------------------------------00---------------00200011--0000000-----------------0210000-000000-000011-01---0000-000-------------010-00---100-000--0-000-000-10010000-0-00-0--000--010000100-----10-010111000010000-0-------0-10000011--2--011002--0-001-1--0-0--10000--00------0000001011-00100-------------0---0--1---0--0---1-10010--1---021110000000101101000001100--0---0
+	'Hupehsuchus nanchangensis'          00--1011------0000----10110-00000000010000030-1--00-0012000-01-00-101-1---010001-000000-------0--0100-011----------10010100-0-----100---2-01----1-000-000-0010-1--0110--2-000-100-1--10---1-011110200-01-0----10---202210011110-----110021--001-00---02-1-----1------------------00-----------00--0100010------------00--0------------------------110-11-------------0---------------------000-1-1-00111-000--10-10-000----0000000---01000002-00-00-0001201000-10---------00-020001100000-011-00-10-10000-11--------001101100011-000121120001000110-11320100110-----------0--------0---0-101-----100--000011-01--11100110220221110001000001-00000-00
+	'Hyperodapedon gordoni'              001-11100-1---1011111110110-11000000101000020100000-001200001100100004010200-00120000101----01200000000110-1-------2---120110101102100--2-0100011010000101000011--0111112-001101011-11001010011210100001201101101002012100101002----11102100--11000--011121-0001120200-----03--1100-01001000010000011000110000110211-000000110111011000011110010001101000-0000002-0--0---111-1000-0000-000100-01-1-0-111-10000-1110--------000110011001000000000000000100010000100111010--0000010--0100002001-00111-10000011--2--01-0000000000011100110100001000-------000-0--110110001000000110100000-0101-0000000010000011-01--111001010000-00000---10100-00000000
+	'Hypsognathus fenneri'               01100101--01--00001122-1100-00000000000000000200310-001100000100101002000-1------------0-100000-0010000110-1-------000-00---00-----000--1-0000010-0000010000-0-0-1--0---2-000-1110101-------0--------------------01-----1-----------11002000--1100---02-121000000202001-10113--11000-1------------0100010------0-----00-0001-----------------------10--0--000-0001011-00-011-020---101-0---00-01-1-0-1--------------------------00--0010000-00-0-0--0000--1000-1--------------------------------------------------------00-00-------------------------------------------------------------------------------------------------------------0-0--0-0-0
+	'Hypuronector limnaios'              ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------20-1-200---0-01110000001-0------10-----------------011000--0--0---------------0000--00------------00---------------0---1----0-1100---0--00------0-0--0100000----------0--0201010110002111-10110---000-1---------0-2000-00----------0----1-0-------------1111-2000-2000----1--0-----0--1------1----------------------------------------0-0--0-0-0
+	'Ianthasaurus hardestii'             0--0000---0---0000110000100-0000-000000000010010100-001100000110100100110-0-00012000110000011001010101001-10-----------00---0101101100--00001010100000-000-0---1--001-11--001000011---------0----------------------------------------------------------0-------------------0-------------------------0--0---001---1-100--0000--0---0---0-0----0-000-0-0011100-00--0------001-010-100000011-----0-000--00---------00-0001000000000000001001002-1-10000101-01000-1------------------------------00----0----------------------------------------------------------10100000000010-00000-------------------------------------------------------0-0--0---0
+	'Ianthodon schultzei'                001000010-0---1000110000100-00000000000000000001100-001100000000100100010-0-0001200001-0000100010101000-1-101000-00100100---0101101100--00000-01100000000--0---1--001-11--00-0--011---00100001020---000010-0000000-0---00000000-----1-002------00----0-0--------------------------------------------100000000-0-1-10-00100000-1000011000-0----00000-0000--000-01000110010000001-1000001011000--1-00001-------------------------0-0--00100001-0---0---001-01000-1-------------------------0000100110-0-----0-----------0000000001110-01--------------------------------------------------------------------------------------------------------------
+	'Icarosaurus siefkeri'               ------01--0---0----1--0---0-0---01-0101000040000-00-001200010100100000010-0--0---0-00----2001011001000021----------2---01000012-000100--1-102-1010-0000-1-0----1--2-11102-102----------0---0---------------------00-----------------1100-1--0-1-0------01-----02------------------0-----------------0000-0110--0-----0-200011--1---010-----------------0-1000000--0-----1011-010--0000-000-110-0---010-010000--01-0-0-0010----0-00--001000010-01----0-11-1100001001100110---10------------0-1-1011--100---------------21-0-1010110011-1120-0100-------------111-10-1-00--0-1------1---10-111-00--0----------------------------------------0-0--0-0-0
+	'Kapes majmesculae'                  01000001--01--2000112201100001101010000000030100210-001110100100101002010-0-0000-000-100-100100--010000110---------001000---00-----100--1-001-100-0000010000101010100---2-000-010-101--0-000010-1010000-20---110100---201110-0---------02------------0-1------00------------------------------0----1000001110--0---0-00000011--10000100--------0--110100-10000000101--000011-0200-010--00-11100001-0------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Keichousaurus hui'                  00010011121---000110010001000-000110110000031102-00-001200000100110002010-010001100010000100112100-0000010-1-------100101011012-100110--3-----1000-0000100001001--2011112-001111010-00011000--------000020-201001--0--0--0-1110-----1--121-----------01011110-1--002001-0-003--10111101--------0---1-001021000-0-----00200011--1001110---------0--1101101100-00100000010--0000100000001001-00-01-1-0-1-0-0---0-0-10-0-0----0---100-10010000----0--0100---0100001011110100-00100100-----00-0---------110--11-00200101102100-000111-0112101000101011---120-10011112300000100000011000-1-10-111-00--10---000011-01--2-210101000101010000000000-00-0-000
+	'Klastomycter conodentatus'          00-000010-0---0000102210110001100110000000030001-011001-0001010010010001020-0000-00001-010000001001000---0-------------00----1------00--1-0110100-00001---------------------01010-----0010000--------00--00000--0-0------1100----------------------------------------------------------01----------0---------------------------------------------------011000--1000--000-011-0100-00000-0--110-00001------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Kuehneosaurus latissimus'           000001010-0---0000112100100-0-000110101000040100-00-001200010110100000010-00000120000100020010110010000210-1-------2---01000012-101100--1-10211110000001120-10-1--2011102-102--------1-----0-1111---000-10--002011-212210-10110-----1100210-001000---010111000021201-21-0-003--1-0---02-------00--0100000000---------0021001--100100100---------00112-10--000--000000-000011-0000-0000-0001-0-01---001-----------------1--?000--00--0010-0-----1------1--110000100011--10-010-----------0-----------------------------2------------------------------------0---------------------------0--1------0---------------------------------------10-0--0-0-0
+	'Labidosaurikos meachami'            000000000-000100001100001000000000000000000000000013001200000100100000000-0-0000-0000100010000000010000110000110101100110---00----1100--00000-000-00001000001001--001---10000-1001110000100000-------000---1--1000010020000000000000100021010010000--000111000001201000----03---000--1---0000000000-001102000000011010-00000101100000000-101000000000110110000000-011001-011-1100-0000-01-100--1-01001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Labidosaurus hamatus'               000100000-000-00001100001000000000000000000000000013001200000100100000000-0-0000-0000100010000000011000210100110101100110---00----1100--00000-000-00001000001001--001---10000-1001100000100000-------00010-100100001002100000000000010002101001000---000110-00001201000----03--1-000002-------00--0-10-10110001000111000000010010001000011010000000-0100-1000000000110010011-0100-0000-0111010-000100100-0001------------------00000000000100-00-000-00-2010000100--------000------------0000100010-00000010011000000000000000-11101020-00000000010000000000011100000-0000010-010000000000100-010-000-00001000000100010000000010100000000-0-00-00000
+	'Langobardisaurus pandolfii'         00-01101------00011121001-0-0-0-0100000000------000-0012-------01-----0---01-0012000--0-------------0---1---------------10-00111001100--------10100000-11-0----1--10101-2-002--------------------------------------------------------------------------0-------------------------------------------120-00000----------000001---00---00------------1-0110------002-------0011-020----01-0---------------2---------10-01201--012--001100-0-0--0-------00-1-0100-0110-1--1-110-0----0------0------------------1--2--00-0-2-00000-----0-1--1-0-0--0-------000000001---1----------------0---01-1-------1----0001--0---11211001000--10100002000----0000000
+	'Largocephalosaurus qianensis'       10110011--0----0000121-0110-0-000000110000000100-00-001100010100101000010-110001-000-0001100001101000012-0-1-------1001110-10-----01-0--3-----001--000-00--00-----01011-2-002----------------1--10200----------0----------1---------1-----------------0-111----10---0------03---------0-------0-------0-0---0--0--1--0--00-------------0-------0--0100001-00---1000----------0-----000--0-----01-1-0-100---------1--000--000000100010010-00--0-100-1001--0111011010110100-0-100-0--0-000------------110--0---0200101-021001000011-0-12-000001000111-00000100111----------00-0-----0001101111-1---10------011-01--------------------------010-0000-00
+	'Lariosaurus xingyiensis'            00110011--0---0000102200010-0-00010-110000030(1 2)00-00-001200010100111000000-00-001100001000000013001100011-0-1-------2---031110-----21-0--3-------------------0------01111--002---------00-0-0-10-1020000-20--01000--0--0--011110--------1-1------------0-11110-1------------13--1--101-0--------0------110--001-0--11-0--00------------------------10-110--00---10000001--1000010-00000100--00-01-1-0-------------10-000----0-0-100-100100001000--0--00-1-010000101111-100-0100-100------02011-30110-1-0--111-0-102-1102100100001100002100000100011---00???30111---------------------00-01110--0--00---------------------------------------0-00000000
+	'Leptopleuron lacertinum'            010011011101--000111220010000110020000000-030100310-001100000100100002010-1---00-000-100-100100-10100-011--1-------000000---00-----000--1-0000000-0000010000000011100---2-000-111-100110100001000----00020-0111010-1011011--101111-01100210011100000-021121000000202001-10113--11100001--0000000000110-0010000-01-1--0000001101100011--0-1010010--1-0010-1000000010000000011-0200-0101-011110-00-1-001-010010110-00-0001---000-0000000100000000000-001-1-0100001-1--------010--100--------00001011--00---01--02000-100000000-0-1110001--00-01-0------------0---123000-0---000---0-000-00--1---0---------0010-1---1000-000000121000000200--0-00000000
+	'Limnoscelis paludis'                000000000-00001000110000100000000000000000030001000-001100000100000000010-0-0000-1000100001000000010000110001000000001010---10----1100--000000010-0000000000101000000---10000-0001111100000001020000000000-100100100--210100000-----11002001001000000010101000000200001011101101000--02--0000000000000100000001-11110000001--11-0001100001000000000-010011000101000110000011-0100-0000-0101110001000010000000001-0010001000000000000000000100000000000--10100001000010--0-0-0--0---------0000000110-00---000--10-0000000000000-11101000000000000111-0-00000011101001010000000100000000000010000--1000-0------01--------00000001000000010000-0--0-0-0
+	'Lupeosaurus kayi'                   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------00----------0-000-000---1---0-000000002-0010000-----------------00-----0000--------000010011----100--0----------0000000001110-01-------------------------1010100011001000000000000001000010---------------------------------------------------
+	'Macrocnemus bassanii'               000000010-01--2001112200110000000110000000020-1--00-001200010100100000010200-0011000010-----1001010000021--1-----------0100001-1101100--------1010-000011100-0-1--2011102-1011-1011-100010--011000100000-00-0--0-102-2--0-000-------11002-0-001000-0-010111-00021202021-0-003--11000100011-101-0000100000001010112101000000110100100100000----0001010100--0000-1000000001011-0000-0000-000111000---001--10000010--0-01--1--012--00--001000010--0-1---001-010000110110---100100100-------01011-00110-1000-0111-20100100---------------------------1----00000000111011--1000001001--1----------------0--000011-20001120110------------------0-00000000
+	'Macroleter poezicus'                000100010-0---0000112210100-01101110000000030100001100110001010010000001000-000001101100100000010000000210-010-0111001000---1101001110--1-001-101-0000000000000010000-00--00010001001-00-11001020000010120-000000210--1101000-02----1-0020001-1000---0101110000-020-021-0010211-0000000-------00--0--0000-0001-0-----00000------0-----------------0001001-001-01000--000-000001000000000---110000001-1----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Marmoretta oxoniensis'              00-000010-----000-1100-01-000100-----------------00-0012-001010011-0020-0201-0012000000------13100--000-10---------2---01000012-00111---------1010-00001110010-1--1111112-0011-0010-11-------1-0----------0----0-0-2-----010-10-----1100210---10001--0-0-----------------------1--0-----------0---01000101000--00-10-0020001101001001000------00--0100002100000000000-000011-0100-0000-0001-10-001-0-1----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Martensius bromackerensis'          01100001--00--0-001-0210100-0-0011100000-00300001011001100000110100100010-0-0------0-1-0-010-001001-000-1--00-----0000000----1-11-0100--00000-10-------100-----1--0-1-01--0001000------0-0--010--0-00---0---------------------------------------------0010-00----1--10-----0--1---------------------0000010001-1---0-00000000--10001000-----------0-0000--000-1101001-000111-01---0000-00--110-00000------------000----1---0001000--001000000-00-----0-1-010000101011--10-00000100001000000---001---000--000--100000000000---1-111000--000000-00-11100000000011-1011--0--0110-----00---0--10------001-0100100000010001000000000000000111100-00000000
+	'Megachirella wachtleri'             ---------------------------------------------0---00-0012000101--1-0002000-0---01100---01-----12000000002-0-1-------2---020-0-1-----10---------10100000-1120--0-1----11112--01--------1-------------------------0-0------------0-----1100-1----1001---00--------2-----------03--1--0------------0---1000--1100-00--10-0--0001101-------------------1-2-10210000-0--0----------0-0--0000-0------------------------0---0----0-000---0--001-00-0-00-0--0-010-01000010----------------------------------------011----------20000001-1110-0-0000-0--00110-01-------1----------------------------------------------------------------------------0-00-00000
+	'Megalancosaurus preonensis'         00000011--0---0-0011210-1-0-0---0110010001-3020--00-0012--------1-0003000------1-00---0-----100-0010000-1--1-------2---1100101-1001100--2-001-001--00--1--0----1--1-1-112-00--------------------------------------------------------------------------01111--01-----0-------3----------------------100--0---0------------?------------------------0-0000--0000-000000-0-1011-0100-0000-000------------1----------11-1-10-0-1--1101-10-11000010---0--0000-010000011-11-110-0--020101211111211--11110-1-000011--------0-2-00-0------001--020000-00001-00012200111122000-200001---1--0----0--1------10----11110-000110-0--01-0121111-----011-0-01-0-0-0
+	'Mesenosaurus romeri'                001000010-0---0000112200010001000110000000030000000-001100010110100000010-0-0001211011001000(0 1)0010011000-10100000000100100---0101-01100--1-0121101001000000001011--001-011000000001101-00000001000010000010-000-0000---2000100-00000011002-1-0010000--0101-10---1--0--0-0-1-01-110100000-------00--0-0001010001000010100000000011000010--0-----0000-----01100-10100000000-00000110000001000111000000010--------------0001-0-010--001-001000000-00-0--000--010000100111---0-00--0100------------00110-------------------20000--0-11-0-01-000000000-11-0000---00011-0010------------------0?-10--0--10----00011-0010----1001000000000000001100-0--0---0
+	'Mesosaurus tenuidens'               10-0101112000100010100101000000000001100000-0110000-001200000100100000010-0-000010000100000000010010000210000-00000100100---0101001000--1-0010100000000100001001--001-112-00010000101100-01000-------00100-100000100--1000000-0-----1100200-001000---010110001010202000----02111000--02-------0---0-0001000000-1--1--100001-00-000001000-------0--00000011000-000000000000---0100-0000-0001110-001-001-0--------010-0001---0---10010001000000001000000002010000100----010-0-0001001000000-001-0-110-10000000-01000000020000001-11-0-11-0100010000---0100010011110000000-00000---000000-0--100-0---00--000011000102-001100000031000000100000-00000000
+	'Mesosuchus browni'                  000011000-10000001111000110101010110101000010100000-001100010110001010000200000110000100010001210100001211-1-------1001121100111102110--1-0110101010000011000011--0100112-0011-1011-11001010011010100001001000000102020--00010010---1100210000100010-000111000010202002-00003--1110--02--1-1-1000001000000010--1--1---0200000--10000000-----------1-21-00-000000000010010011-1100-0000-000-1100001-0-110--0------10-000-0000--0000-1001000000----00--0-0001000-100111--110-0100100010000--0---00111-1----011-020101100---0---011-10012---0-01-0------------0---11010--1000000-01-00000101110-10-0-0-1-021010-000010101101000--000100-0001-0-00000000
+	'Microsphenodon bonapartei'          001000010-0---0--0-12210110001-------0-000---00--00-00110001011010000201-2010001000010001000101-0100000-10-1-------100002011011-10-100--3-----1011-0000012000011--1-11112-102-------1--0-00001--1021000000000-00-0020-200000001-----0100210-00100100-0-0111000120202001-11003--1100010201-0001000001000102111-----11001-000100111000100100----0001100-1031000000-00-----1011-0110-1000-00011110001-001001-000---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Milleretta rubidgei'                000000010-00000000112110100001000010000000030001001000110001010010000001020-000120000100000010000011000-10100100100100000---010--01100--1-00101000000000000010-011000-01--00000001101-00100001000100000000-000100001022101000-0001-011002100001000000020111-000-02010011110021110-0010001000000000010000000000000-100000001--01-001-000001-10-000001001011000100000000000011-0100-0000-0001110000010101010010010100--------0-0-0001-00-000100--0-00--0-0-0101--1-0011--00-----------------0---00100-1000000110-000000020000000111-0-02-00000-000----0----------100000--0-000--10-00-0000-010000----------------------------------------------0-----0
+	'Milleropsis pricei'                 001000010-000000001122001000001001100000000------01000110001010010000001020-0001100000-01000-0000010000110100000010100100---002-101100--1-00101010-000010000-0-0100010-12-001101011-1100100001000110000010-100100001022101100-0101001100210000100010-0-0111100-10201021-10002111--0--02010000000000100000-0000000-100000001--01-011-100011-100000000000011000100000000001011-0100-0000-000111000001010----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Moradisaurus grandis'               0--000000--0--0000110000100-0000-000000000------00--00--0-000-----------------0--00---0-----------------1---------------0---00----11-0--00000-000-00001000001001--00----10000-1001110-00100000-------000---00010000---2100000000000010000101001000---0-0111100001201000----0---1000---201-----00--0-0011010000000110-0000000001000011000-10100000001000011000-00-00--0--0011-1101-0000-001100--0-01001------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0000001000000-00000100100000010101100000--10000000100-----------
+	'Mycterosaurus longiceps'            00000001--0---00001021001-0-000-0100000000030-1-000-001--00-0100100000010-1-0001200001001000100101000-0100101000-0-----00---0101101100--1-0-1-10100000-00000-0-1--00--101000000001000----------------------------00-----0------000101-00----001000-----010100--101001------0---1--0--0--------------------00-----------000000---000010-----------------0-00--10010-10-0-1000001-00000000------------10------------0-000-00-000-00---001-00001-0--00--0---------1-------1-----0010-001000-00---00110-----00-----------------------------------------------------10-----0---------000----0--1---0-1-0-------10-0010----1-----------0------------------
+	'Nothosaurus marchicus'              001100110-0---0000112200110000000000110000030200-00-001200010100111000000-00-001-00011000000013001000002-0-1-------2---131-10-----21-0--3-----1---00000----00------011-0--00---------100101001021020000120-101001--0--0----1-10--------1-------------00-1---0-1-------------3--1--1------------0---1---------------------------------------------------0--00000-00001010-101-01000000000---00-01-1-0--10-----------------------------0-----------------0-01000-1-------------0-----------------------------100--------2100-0-0011-00121010-01-0---------------------------0---------1-101-10-00---0--------------------------------------------0---0
+	'Nyctiphruretus acudens'             000000000-0---00001-2200100000101110000000030100210-001100010100100002000-0-000000001100-000000-0010000110-01010010001000---0----0-100--1-002-1010-000000000000010100-0-2-0011-1011-11-0-100010210200-0000-0--10-0----21010000------110001--101000----2011100-0-0-----------211---------------0------00-01000-00-----0-0000-----010---------------110-00--00000000000-00--11-0100-0000-0---110000000-1-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------00011-0000100010010000000000000001-----------
+	'Odontochelys semitestacea'          0---0-----0-------------1--------11-00000-030-01-00-0011000-0100000000010-1---0---01-101-----00-00000100-----------100100----0----21-0---------------------0--------1-----00---------1-----0-0----------------0--00---2-0-00--------1-002-0--------------------------------------00-----------00--0---0-0------------0---------------------------------0--0-00--0--00-0---11-010--0000-0---1---001-0-1-0------------------------10---01000-1---------0-0--111111-0-----0--0--0----1--000--0---20110-110--01-00---2-2-00-0000------00---000001-0011--00000100011-------------------1100-0-110--0--100--0-001--11--2010-1010001-10110---1-100-00111010
+	'Oedaleops campi'                    01000001--0---0-00110000-00-00001110000010030000-011001100000110100100010-0-00012100010--01000010001000-10-00000-00101000---0100100100--00001-1010-000-00--0------000-10-00000-001-------------------------------------------------------------------0--------------1---------1----------------0---00---0-00---------0---------------------------------0--000--00-000-0000001010-000001001------------------------------------------00--00000-0--0---------------------------------------000--00110----10--0---000000020000000001110010-----0000---------------100000-0000100-00000-00000010-0------------------------------------------------------
+	'Ophiacodon retroversus'             --------------------------------------------------------------------------------------0----------------------------------------------------------------------------------1-----------------------------------------------------000-0--------------------100001---1-210---------11----0--------------11-10100-------0-00-00000---000-100-----------0----0110---01--0----------0----0000--10------------0010012100-0000001000----0000100100000110--00010-----------000----0-0-00-----------000--00010-0-1000-1--1000-00-000000000-110-00---000000000110000000001100000010010000000000-0000-01000001-0---00001000000000010000000000000000101------0---0
+	'Ophiacodon uniformis'               000000010-0---000011--001--000000000000000000-10100-0011000-00-0100100010-0-001120001100-00100010101000000101010000100000---0100101100----------0010000000001001--000-01100000000010-1001001010-00-000002-0201001000--000000000000001000010-001000-0-00010100010120010-011101-11-000000--0000000000011010100010010101001000001100000000001011000000-000011000-0100011001100000000100000001100-00000001-----------------------------------------------------------------------------------000--00010-0-1000-10-10000000----------------------1000001100000000011-00000-001000000000000000-010-00---000-----------------------------------------------
+	'Orobates pabsti'                    00100001--00000000110000100--0000010000000030100301-001100000100000000000-0-0000-00011000000000100100001-0001000-01000010---10----1100--000000100-0000-0000000-000000----0000-100010---0---0010-00000----0----20--00--2100000----------02-0-00-000-----11--------------------01---0----0--------------000100001-1111-00-00100---0000100--110001000010--01100--0001-11--0-100001--0000-1011-11000-1-001000000000000010001-000000-000000-0-0--00-00----0-0-0100-0100--------0-0--100------0--0--00110-------00----------00000001-1110111-00000100011010-000000000000010-000000000-000-0000--10--0--00----00000001--0-----00000-00000100010100-0--0---0
+	'Orovenator mayorum'                 001000011200000?001112101000010001100000000-0000000-00120001011010000001120-00---0-00--000001011100100-------------100-0100001-1--1100--0100101010-0000--00--0--------------------11--00000001010010000010110000000202-001000-000--011000-0-00100000-0----------------------------0-------------0--100010-00000010101000-001101100000---1111100000-----011000000000000000011-0000-0000-00011101010001100----------01-00--00-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Owenetta kitchingorum'              000000010-01--00001121101000001001100000000-0102200-00111110010010000001020-100000001000-100-0010010000211000011010001000---00--000100--1-0020101--000000000001010100-0-2-00111001100000100001001120100010-0011010-101210111001------1002100101000---020110000001202000----13--11000000-------00--0100000100010001101000000010110001100001110100101-0110110000010000000000000000000000000011100001-001-----------0--000--0-----000--001000000-0------0-1-0100001-1011-----000---00-------------------0----0---200--10-20-0000--11-0-11---0-0--0------------0--1-----------0------------0--1----------------------------------------------00-0--0---0
+	'Ozimek volans'                      ----------0--------1--------0-------------------000-00-2--010100-000000-----0----------------001-10000--1--------------010-0010110--0---------10100000011100---1--2111102-0001010010--------0----------------------20----00001-------------------------0-------2------------------------------0-------------0------------------------------------------0--0-0--0--0----------0----0000-0--------------1200100-----0101201100121-001100100001001001000001101000011101101110---0001--------0111-00110-100-001110-----10-2010000001110011-100001000------------11110011100100-001111-101-101111-11--0101-0---------------1-1--------10---0-010-00000000
+	'Pachypleurosaurus edwardsi'         000100010-0---0001110000110000000110110001031100-00-001200000100111000010-01-001000001000000-0110110000010-1-------2---01010012-001100--1-011-101000000111001--1--1111102-0011-1011--10010000103-0-0000010-201001--0--0--0--110-----1--1--------------201---0-1------------0-----11-----------00---1000001000--------000001-----000000-0-------0--11011011000000000000101011-0100-0000-001-00-01-1-0---0---------10-01-1---00001000000100000000000-1001000100001011110000-012001000200000-01--30110-1-0-0111002012--102100100001100002101000100000---1111(0 1)10111123000-0--0000--100101-101001000--10-1-000011001--2-21--00-1(0 1)(0 1)10000000000000-00000000
+	'Palaeohatteria longicaudata'        00000001--00-100001100000000000000000000000-0000100-001100000110100000000-0-001120001000000(0 1)-00-100100001--0-------100000---0100001100--00000(0 1)01100000-00000---1--000-11-0001010011----0---00--------------------00-------00-0-0---01-00--0-001000---0-110----0------------0--1---0-----------00--0-000-0-000-----1010011000011-000-100---------000-00001100--01000110001000001--0000010111110-0-0000100----------0-000--0-000-000--001000000----00--001-01000-101--------0-0001000010000-00--00110--------0-01000-0000-00---0----0-0----0-0--0------0000000011-0100--0-10000----000------1-------0----10010000001000-0000000010100000001-0-00000000
+	'Paleothyris acadiana'               --------------00001-00001000--000---0000000-00-0-0--0012-0-----01000000-0-0-0000-000-100-000000100110-00-0100000-00100100---00-----000--0000---00-0000-00000-0-1--001----0000-00011--------00---------0--------0000---2-0-000--000-01-002101001000---0-011110000------------211---0----0-------00-0--0-10100-------0-00000100---000010--------------0--01100---0--0-------0(0 1)-000--0000000---10-000001000-0100000-00-000-00-0--1-00--00-000100-00-00-000--01000010-----------0-----001000-0000100110-------------------2-00000001110-01--00-0100--111000000001-1-0001-00--0-0------000000-010000-010----1001000000100010000-0010000000001000-00-00000
+	'Paliguana whitei'                   00-----------------1-----10----------------------00-001--00-010011000-00020000011000110-------11011-00--10---------1--102000011110--0---2-0----0100000011100---1--2----12--0110-011-1--0---0-1-----------------------------------------------------------------------------------------------------1--------0--------0----0----------------------------0110------------------0-----000-----1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Pamelaria dolichotrachela'          001011010-0---00-1102200-10-0---0000101000040110-00-001200010100100000000-00-00110000101-----0110100000211-1-------2---010000111101100--1-010-101000000111001011--1111112-1011-1011-11-0-00001110010000010-00020000212210000010211--1000100-00100010-011111000021202021-01103--1110--0---101010000010000000001000210-000000110110--0100-------10000-0-000-00000000000-0--011-010--0000-00011100001-0011010001010--0001201-10121-00110010000000000000000120100001100101-1110--02100------00010-0001--101-001------0----0000000001110011-000001-0011--010-00-00-1110110-1000000111100000001110-10-0-0-0-021010-000010101101000--000100--000-0-0--0---0
+	'Pappochelys rosinae'                00000001--0---00001121101100000-0110000000030000-00-001200010100100000010201-00110000001----10110010000211-1-------2---01000012-002110--2-011-101000000101000011--0010112-101-------1111000-01100010000000-00--0-10203---010010-----1-000------------000121000011202021-0-003--1-00-100-------0---011---0------0---0-----------------------------------011000000000000110011-0100-0000-000-11000-000---0----------0-000000-000--10--001000010-0--1---0002010111100--------000--100---0-0--011-2011111-0--0011021000-0020000000011100120000001000--------------1110110-10100-11110-0100001010000-000-1----01--11--------0--1122-01110--01000-00101000
+	'Paraplacodus broilii'               -001-011--0---0000112210110-01000000110000-------00-0012000001000--0--0-0-01-0001000000-------------0---1--------------02---012-001100--3-----1010-000-11000-0-1--10--112-002--------------1----------1--------------------------------1---------------0--------------------------------------------10-00000----------0-00010--1000110------------1-0100--10000000-11-111011-0200-0010-001--12--------10------------00-----0----00--0010-00----1-----0-1-010000101------0-0--000101200000-----------1-----11----------0000000--111001--000-0100-01---------0--1123000----0010--100--00-01-10-00--10---------------------------------------0-00000000
+	'Parvinatator wapitiensis'           ---100----0---0000112--0-00-0-00--001--00--------0--0011--0001000---------01000000000---------------------------------0-1-------001--0--1-001-101-0000-00-0-------000-1-2--0---------------------------------------------------------------------------0-------------------0--------------------------------0------0---200-----------------------------0--00---0--0------011-0----0000-0------------------------------------------------------------------------------------------------------------------------------------------------10001000001111233--0110-------------------------------------------------------------------------------------
+	'Pentaedrusaurus ordosianus'         01000001--0---200011-2--100-0010-000000000-3000-210-001100-001001-0002010-0-0-00-000-100-1001-0-00100-0-1----------001000---00-----1-0--1-000-000-0000-10--0---0-0100---2-000-010-10--1--00--1-------000---------------------0---------0-------------0-1-------------------------------------------100000-000--0--10-000000110-1-001100------------101-0-1000--001---0000011-0200-0101-001---------------------------------00-----------------------------------------------------------------------------------------00000001-11100120000-01-00------000000111---------------------0000-010----0-0-------1000000-0-01------------------------------
+	'Petrolacosaurus kansensis'          001000010-00--0000110000100000000000000000000000000-001100000100100000010-000001100001000000-0110011010010-000000001001010000101001100--000010101000000100001001---00-112-000100011-1000000001000010000020-00010000202210-10000000001100210-00-0000--0101111000012020011010021110001100-------0---0-0000000001000-00-000000000100000100-00----00000-010011000-00000000000000000000000000001110000010110010100000000-100-0000-0100000000010100-0--000-0012010000110---1-0--0-00010000100000000100110--0---0001-1000000020000000011100010-0000000000100000000000100001010010010-0000000000-010-00---0001010010-0000100010010000010000000001-0-00000000
+	'Pistosaurus longaevus'              001100110-0---0000112200110-0-000000110000031200-00-001200010100100000000-01-0---00-0-000100-13-0--00-0-1--------------131010-----11-0--3-----10---0000-00-0---1---1-1----001----------------10-10-0000020-0--00-----------1010-----1--02------------000-------------------0------------------------------------------0--0------------------------110-10--00--0100000000-111-0100-0000-0----0-01-1-00110---------1010001000010010011001000000001001100100010000101111-110-01200100------0-----30110-1-0--11----------021001000111000121-10001000---------------100010----0-000-100001110101000000-00100----------------------------------00-00000000
+	'Placodus gigas'                     10010011120---0000112210110000--0200010000100110100-001200010100001010010-01-000-0000000100000210100000210-1-------2---021100-----2100--3-----000--0000100001011--1011--2-000-000110010110110102102-001120-1-10020-0--00-0--100-----1101-10---1110---0111111000-1212000----03--100-0100-------00---120000100---0---1-1010001---1000--0------------110110--100000010000110011-0200-0010-001101201-1-00100---------101000100100101000000100000100100-0001-001000-101---------1002000------0-------1-0-110-0111102101011001001000-110001210000010001-1-1100010011112300--0000010------000-0-110-00--100--------------------------------------1000000000
+	'Planocephalosaurus robinsonae'      000000010-0---000011220011-0010000000000000-0100100-001200010100110002010-01-0010000000000001121000000021--1-------2---010000111001110--3-----101110000012000--1--1111112-102--------100100001101020000001100110100212200000101-----1100200-00110----000-------2------------3----00-----------00--1100010200---------01--0010--10001-00-----------1-0-003100-000000000001011-0110-1000--00-1110001-00100----------0100000000000---1100100000000000-00000201000-100---01111---11----------00-1-01100--0000011-02000-1002000000101110001-------------------------110010-00-0001-11--10--101-10--0-0-001-0----------------------------------------0---0
+	'Procolophon trigoniceps'            0100000111000-(1 2)001112201100000100000000000030000210-001100010100100000010-0-0-000000-100-100-00-0010000011-1-------001010---0(0 1)--001100--1-0010000--000010000101011100-0-2-00011110101110100001021010000020-0111010010220111010121--01100210010100000-021121000000202001-10113--11001100--1000000000110000100000000111000000110110001100011110000101-0100-1000000010110001011-0200-0101-00111100001-001-0-0010010100-000100-0000000--001000000-0--0---000-010001101010-100-110001000010000-0---10110-000--011-02000110000000000010111010020001000-11-0-0000-0011121000-20-0000-110-0000001010010001001-010010-00002010110000001100000--1-0-0-00000000
+	'Proganochelys quenstedti'           001000010-01--0000102210110000000200000000030000000-10110001010000001100021-0000-001-101----00000010000110-1-------101100---00----2110--1-0110100--0000011100011--101---2-001--1011-1100011000-------00120110011100204210011110111--1100210-0010000-0020111100021212002-01013--1-001110--1101-1011110000011101001111100000001011000001100111001000010101-------------0--------------------1110-001-0011010000000110100010000001110---11000---------------0111111000100110-1100110011100000011-201111110-001100-002-200001000110111011100-000100011--00012310011110110011-0010001-101000011101000000010000011021--2---1101012320011101010100-10111011
+	'Prolacerta broomi'                  00101101--000-0001112200100000010100000000030010-00-001100010110100000010200000110001100000-10110100000210-1-------1001010100111101100--1-1021101010000111000111--1111112-1011-1011-1100100001111010000010100020010202210000010-----1100010100100010-01011100012-202021-0-003--110000000110101000001200000110100021010000000-01-01-01000-0----000011001011000001000000001011-0100-0000-0011110000000000010000010--000121-1-012--001100100000000000-0000120100001101111-1100-00000001100000010-000110100000111020101100200000000111001-1120-01-00110-01000000001110111010000101111-00011011100000011----21011-2000101011010000010010000000-0-0--0---0
+	'Proterosuchus fergusi'              001011001100--0001112100100101010110000000030010000-01120001000-100000000-00-00120000100000000100100000210-0101000-2---020110101111101101-0010001010000111001011--0111112-10110101111100100001021020000010-00020010211210000000-----1100110-001000---10011101012031200----003--1-000100--00-1100000111-00011---0-----000001-----0010000-----------1-2110000-1001000000011111-0010-0000-000-1100001-0-0------------0-000--0-012--00--0010-0000--------001-010000100011-01100--0010000100001001-00011000000011--2000110000-0-000-111001-1000001000-11-1-------0-111011101100000111100000-0111000-00-1000021010-21-020101101000-100010000001----0000000
+	'Protocaptorhinus pricei'            0(0 1)000000--0---0000110000000-000000000000000000000013001200000100100000000-0-000000000100010000000011000110-00100100100100---00----0100--000000000-0000-00000-001--001---10000-000110-0---------------------------00-----00001-0000001-00210-001000---010110100001200000----03--1000--00-------0---0-00010-000--0---0-00000000--00000000-----------0-0000-1000--0000110000001-0100000000001-----0-010--00-000-----00-100-00-00010-0--000000100-00-0--------------------------------------------------------------------0000000011110102--------------------------------------------------------------------------------------------------------------
+	'Protorosaurus speneri'              00100001--0---0000112200100--10-0100000000030010-00-001200010100100000000-00-0011-00010------12-000000021--1-------2---02-0-01--0011-0--1-101100100000-11100---1--1-1-112--01--------------------------------------------------------------------------01-------------------------------------------000000-----------0-000------0000100-----------1-2010--0--0-000000-000011-01---0000-000-------------0---------10-012--1-0121100--001000000-0--1---0002010000110--------0--0010001000000000100010-1010-0------------0000000001110011-1-000--00011-01-000-01-1-----------0--------0---0-11001----00--021010-000010--11010000000010000010-0-00000000
+	'Protorothyris archeri'              00-000010-000-00001112001000000000000000000-0000-01300120001010010000001020-0000-000-1000000100100110100-0100-----0100100---00----1100--0000-0000-00000000-01-01--001----0000--00----1001000010200000000---00-10000---200-000-000--010002101001000-0-010-------0---------------1010--020------000-0-1011000000000010000100000010000-1000------0000100100110001000000-0000000001000000000101110-00000100-------------0001-0-000--00--00100000-000--0-0001-010000100-11---0----------------0000100110-001-00001010-00000--0-0000111-0002---0-0-000------------------0---0100-00-0-00000000--1-00----0---------------------------------------0-00-00000
+	'Provelosaurus americanus'           10100001--000-0000111210100-00-002000000000-01--30121011000-0100000011000-0-0000-00011000000-0010010000110001010-10001000---00----2110--01000-010-0000-000-0------000---2-000-001010--------------------------------------------------------------------------0---0--------02-0---------------------000101--0-110211-00001---01-------00---100-0110100000-200-000--00-00-011-010--0001-0--1-----------00-00-0----1010001000000-000000000000-000-00000000-01000-101-11---0----0--00-------10-1-10110-00000011-02000-10010000000111100-20-00-0000---------------112200002-00-00-110000000-0-00------00----------------------------------0-1-10---0---0
+	'Psephochelys polyosteoderma'        00000011--0---0000112000110-000001000100000-1101200-001200010100101002000-00-001000001000100-1210100001210---------2---131100-----2100--3--02-110-00000100000001--10111-2-000-1-011-0---------------------------------00------0-----1--1-------------0-011100002-20--------03--1-------------------1-01001100010--11-1000001-1110001100-----------102110--100000210------0---020--0110-00---1201-1-0---------------------------------0-0-0-----1----------10001--1111-100-0020---0------0----------------------------0-----------------------------------------------------------------01-10------00--00001100---2-21--01111121000000000011100000100
+	'Rhynchosaurus articeps'             000011100-1---1011111200110-11000000101000020000000-001200000100101014000-10000120010101-----0100000000210-1-------1001021100111102100--2-011001100010010-001011--1100112-001101011-01-0101001111120000120-000110001022000001-0-----11000100--1000---000121100011202002-01103--11001-00--001000000011010111000100210100000001011000100-01111001000010000-1000000200--0---011-1100-0000-000100001-1-00110-0-10-----00000--000--1-001100100000000000-0001-00100001001110110-0000010000100002011-00-11-10000011102000110000000000011100111120001-00110-11000000001100100-1000000111-000---0--1-------1---000011-0000111011010000-0000000-001-0-00000000
+	'Sauropareion anoplus'               0--00-01110---00001-2211100-0110000000000-030000200-001100110100100000010-0-0-00-000-100-100-00-00100-0-11100000-10001000---0-----0100--1-002010100000000-0000-010000-0-2-0011-10-1-11-0-00001001120000010-00110100102210110001-----11002100--1000---020121-001------------13----0------------0---01000001000--0-2-0-00000010--10101100-------------0110310000000-000-000011-0200-0000-001-1100001-0-1--100---------0001-0-000--00--001000000--0-0---0-0-01000010------1-----------------------0110-0-0--00---2000----20000000-11100020020001000-------00000111--------------------0---0-0100-0--000--0-0010-10001000-0000000-1--000--00-00-0--0---0
+	'Scutosaurus karpinskii'             100100010-0---00001112101000001002000000000300003012101100000100000010000-0-0000000001001100-0010010000210-01010111001010---00----0110--00000-010-0000000-00001011000-----000-0010001110110001001010010010-1110011-101101110111-----11002100111000---020121000000203001-0010---11000010-------00--01000-0---001-0211-00-01011011-------0-1110000110-0000-12000-00--00000-011-0100-0001-0001110-001-00100----------0-000--0-000--00010010000000-0-0--000--01000-101--------1--0-100------01001-10110-000000------------1-0---------------00-00-00-----------0--1112010-2-000100110-0000011000-00---0-0-0-----------------------------------101--0---0
+	'Secodontosaurus obtusidens'         001000000-00--1000110000100000000000000000000011100-001100000000100000000-0-011110000100100100010001000010-01000000100100---0101101100--1-000-011000000000001001--001-01000010-0011--100100001000010000020-00-00-200--1001000000000011002100--1000---010101001110100102011101011-00--12-------00--0010-101000-000110100110000110000010-000----01001-10101100010100000-01000000111100000001100-001000-1--10002110-------------------------------------------------------------------------00001-0-10---1100------------------------------------------------------------------------------------------------------------------------------------------
+	'Serpianosaurus mirigiolensis'       00110011120---0000112100110-0-000000110000030200-00-0012000101001(0 1)0000010-01-001200000000000-001010000001--1-------2---010-1012-001100--3-----1010-0000111-0---1--1111112-1011-1011---0010-00--------00120-000000-----0--01111---------1---------------0111---1-------------------------------------000001100--0--10-000001----1000-10---------0001101100-000-00000000100011-0100-0000-001-00--1-1-001-0---------10-000100-010-100--001000001-0--00-001000100001011110100-0--001000200000-0---30110-11----1-00200101-021001000111-0002101000100011----0001001111---0-----00-0--100001-101-1------100---00011-01--2-21-1010000000100-0000000-00000000
+	'Simosaurus gaillardoti'             00010011120---000110220011000-000010110000031200-00-001200000100110000000-1100012000-0000100012000000012-0-1-------2---031-00-----2110--3-----00---00001---00------011--2-001---011--100100001021020000020-001000--0--0--0-1110-----1--111-----------0011-----0---0---------------1-----------00---100010100010002111002001--01-000-101000-----000110100--00--00000000100111-0100-0000-001100-01-1-0--10---------10-0001--00101100100010000000-000-10010-010000101---0110-0--0---0------0-01--301-0-11---111002001011021000000011000121000001-00---------------1211000---0010--10-0000101110-0----0-------1100----------------------------0-00000000
+	'Sinosaurosphargis yunguiensis'      1001001---0----000112210110-0---0100110000010000-00-001200010100101010010-01----------000100010101000012-----------2---110100-----11-0--3-----00--000-000--00------11-1-2-00---------1-0--00-10210200--------1101100--2000110-------110001----1000--00---------------------------00-----------00--01-01-0---00-------0---0-----------------------------0--0000-000-00-00-111-0100-0000-0----0-01-1-0-1-------------------------1-00100-000000001-0--0010-11110110------------------------------------------------------------------------0-0--00111--1-----0011---------------------------------------------------------------------------1-10000-00
+	'Sophineta cracoviensis'             00100001--0---000011221011000100021100000-030000-00-001200010100100000010201-0012000000000001000010000021----------2---02000012--00110--3-----1010-000011200---1--0111112-1011-0011--1-------1-------------------00-------11------------2--------------0-------------------13----------------------1000-0---0------0100--------------------------------02100000000000000-011-0100-000-000----00--00---00----------010000000---1---110010000100000010000-2------1-------------0110-------------------------------------2--0---10-1-0-0--------------------------1-00000------------------------------------------------------------------------------
+	'Sphenacodon ferox'                  000000010-001-1000112200-00-00000000000001000-00100-001100000100100100000-0-0-1120001100000--00-0101000-1-10-------100000---0100101100--10000-01100000-00000---1--001-01100010-0011----0-00001---0-00000---0---0----------00-0-----------------------0-01------------------0----------------------------------------------000--------------------------01-00--0100011000-000001--0000010----10-0-00--1-----------------------------------------------------------------------------------000--00100-0-1100----------0-00000000-11100010---0-000000--0--------------------------------------------------10010-000010001000-----100000----------------
+	'Tanystropheus hydroides'            00-010010-0---00011122001100000001--11101---0-00000-001200010100100011000-00--00-00111000100-03-0000000210-1-------2---010100111001100--1---1-101010000011100011--1011102-0011-101111100100001020010000000-2001001010-2100010-0-----10002100001000---1011110-00202-2-21-0-103--11000001--0-1010000010001010101000-110010001--010----000--------0001101100000000100001001000000110000001011110-01-1-0010000100010--0-012-11-012----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Taytalura alcoberi'                 00-00001--0---000010210011000---01000000000-0100-00-001200010100100004010-11-001000010-00000-021000000021----------2---020100111002110--3-----1011100000120000-1--1011112--011000110-1-----1-11010100---0-10-1101--2020--000000--------0-------------001-------------------1------------------0----11001021101000-10-0020001-01011101000------000011001011000000000000000111-0100-0000-0011-1000-1-0------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Tetraceratops insignis'             100000010-00011000101200100000000110000000------10---0----000000----------0------00------------------------------------------10---01-0--01001-10-0-00-0------0-----------0-0---------1001000-1010000000020-201000--0--100000-00-----1000210-001000---0--1--------------00-1-------------------0---0-10000100---------00110000--0000000------------0-0000--000--00--11001010000211000001011-01000000001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Teyujagua paradoxa'                 00-01000--0---0001112200110--100011-101000010010000-001200000100100010000-00000110001100010000200100001200-1-------1001020100111101110--1-011-10101000-11100---1--1011112-002---------------0----------------------------------------------------------11110--12---4001-----3------------------------1000-000--1---0-00000------------------------1---100001100100000-0--011-011--0000-0--------------------------0-000----012----------------------------------------------------------------------------------------2000000---------------------------------------------0-------------------------------------------------------------------------
+	'Thadeosaurus colcanapi'             -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------00-----------------1000-10---1000--------------------------------0------------------------------------------------------------------------------------------------------------00-----001-----10-00-000-0000001000-1001000000000-01000012010000100110-110-0-2001000010000-01---0--0-10--00-------00--100000001010110011021001000010100000000111110010---10000-1110000110111000000100010000100000010101101000000000000101010-00000000
+	'Thalattosaurus alexandrae'          00001010--0---0000111210110--0000100110000031000000-0011000-0100100010010-0-1-012000000000001001010001101----------111010---0111101100--------10100000-1110----1--200-102-002---------------01-----------------------------------------------------------------2------------------------------------00-0-00001000210-00200011010000000--00-------0-----00-0000002-0--0---011-0-0--0010-001111----------0------------------------------------------1----1--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Tichvinskia vjatkensis'             00100001110---20001-0011100001101000000000040000210-001100100100100000010-0---00-000-1-0-100101-1000010011-1-------00100----00--00-100--00001-101--000001-000010--200-0-2-0011-10-0011-0100001021010000010-21110100102210-11001-----11002100101000000021121000020202000----13--11000100--000000000012000010001110011100000001011011110001111001000100110--00000001000000-011-0200-0100-00111100001-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Trilophosaurus buettneri'           001011011-00--00011122001100010-0000000000030101300-001200000100100014000-01-001-0001-01----00300110000-10-1-------2---1210000----1110--1-012-110-0000011210-011--2-10--2-00--------11-------11210200---------2--002------10110-----1100---0--10001-100111100001120200--0--03--11000101--0-01--0-00100100---0010-2110000001--01-000--00000----10--100010011000002-0------011-0100-0101-00-1-0-01-1-00112---------0000000-000121000110010000000000100001-2------11001-0110-0-00000002-01001011-10110-1000001---21001-0020000100-111101111-0001000-01-010000000010100100---001001110100010111001000--0-001-0100200010100101000000-010000010------0---0
+	'Tseajaia campi'                     00-0000-0-00--000-110000100000000000000000000200000-001100000100000000000-0-0000-0000100100000010010000010001010010000100---00----11-0--00000-110-0000000000101000001---10000-000010110--00001000000000010-100101000--200-00011-----0-0021000000000000101010010101001010111011100001100--0000000000000-00--00000121100000000-110000----000-00000000-0-0011000-0000001001-001-010010000-000010-00-010010000000010-00-0000000-----000000000000000100000010001000-1000110010-0-00-----------0000000110-1000000000---01000000000000---01000000000000110-0--00000110000010000000001010100--000001-0---------1000-------0-----0-00----0-00--101-000--0-0-0
+	'Utatsusaurus hataii'                00110011--0---0000112100100-0----100110000000110-00-001100000100100013000-010-001000000001001021010000121----------10010210001--001100--1-001-1010-000-10000---1--20000-2-001100011--------------------------------------------------------------------0-------------------0-----------------------1000-0-00-------0-00200-------00010------------0-00001100100000000-000011-001--0000-000------------00----------0--------000--00---010-00-0--0-0-------01000010---------0------1--------0---001---1-----1-10-------00101100011100012-110001000111111-33110110---------------------1-1011-0-1----0--------------------------------------00-00000000
+	'Varanodon agilis'                   00000001--0---0001100100100-000000000000000-0110000-001-00000-10100001010-0--001100010000----0011000001-00-0---0-------00---01010121010-00000-10100100-00-00-0-1--001-112-0001000100------------------------------------------------------------------00101-0-1---0210-----0-------------------------0--0---------------00--------------------------2-10--00--0100000-00-100-01--1000010---------------010--10100-0-000-00-------0--001000001----0---0----------------------------------------------------------------0000000--11101---00000--00000001000000011-------------------------------------------------------------------------------------
+	'Varanops brevirostris'              00-00001--00-100-0102100-00-0100----0000000-0--0-00-0011000-0--01000000---0--010-000010000---00--00100--001010-0-1010-000---010--12100--0-0000101001000-0000--------0---2-000---0---------------------------------------------------------------------00101-0--1--02-0-011-01111---0000--100-0-0--0-00--0-000-0--0-0100100---11-000--00----------------0-100--010-0---00110--01--1000000101-----------0010011010-0-------------0-0110010000000100000000----------00110010---0-010--------0000100110-00-0-0------------000000000111000100-000-0-001-10-000--00-11000100-1----0001000-0000001000000-0----0001000000---0--------------------------0---0
+	'Varanosaurus acutirostris'          000000010-00-10000110000000-00000100000000000010100-001100000010100000010-0-0001210011000000-0010101000000100000000100100---0100101100--01000-011010000000001001--000-01110000000010-100-00-010200100000---20-00-000--1001000000001011002100001000---00010-0001-0102100----01011-000000-------00-0001101010101000010-001000001100001000001111000000-000011000100000010011000000001000000111--000000001-010000000-0011001000---000000000000100000-0000---0-------000010-00----0010-001000-------------------------------------------------------------------------------------------------------01---------------------------------------------------
+	'Weigeltisaurus jaekeli'             00010011--0---0000112200110-0---0000000000030000-00-00120001010010100000--01-0---000---0-000-00-01101-1-1-100--0-1-----00---010110-1-0--2-----1010-000-1---0---1--001--1--011-----------------------------------------------------------------------------------------------------------------------0-------0------------------------------------------0210000010000--0-1011-0100-0000-00----------------------------------0----00--0010-0----------------00000-0---------0--0---00010000-----------------------------2-0---------------00-00-00------000020011------------------------0--10-0----1--------------------0-00000---00-0-01010-00000000
+	'Youngina capensis'                  000000010-0---000011220011000---0000000000000010000-0012000001001000000102010001200000000000-0111000000-101001000011001010010101001100--1-011-001000000110001011--011-112-00010001111100100001101020000010-000101002022101000-0101-11100010-001000100000111000011202001111002111100--02--0010000000100-001000-000-10-00000010011-----100-------0000-000011000001000000001011-0110-0000-00011101000000100---------00100010000--1000110010000000000000000-201000-1000110110----01100011000-00---00110--0000010--200---000000-0000111000--110001000110-00000000001110000-1000000011--0----0--100100000---------------------------------------100--0-0-0
+	'Sphenodon punctatus'                0010-0010-00001000112210110001000010000000030101100-001200010110101000000201-00110001000010010300101000210-1-------2---021100101102100--3----1101010000010000011--0111111010100-01101100100001101120000000-00000100212210000000211-011002100001001100000111100021200001-0-103--1100-10-0110---00000100010211------10001200011010100110--00----100011010031000000100110000011-0100-0000-010101101-1-00100100000--100-0001000000100011001000000000-010000120100001001010110-0021210000000000011-011-0-1000001110200001002000000101110002010000000011010000000011110010000010001011-01000-0111000000-001-0-0011011--2---1101000001011010001000-00000000
+	'Anolis carolinensis'                00-000010-00000000112100100001000100000000031100-014001200010110110003000200-00100010000020011300100000-10-1-------2---02101012--01100--3----01011-0000012011001--2011102-002--------1-010010110112001001011012010021221001000021---11002100001000100020111000020214001-1-003--1100----01101--0000-1000102-0------10000-000110100001-0010-----0000110-1021000000000000000011-0100-0001-000100-00-1-001--1-00----1---00000000001-0011001000010000-1-0000--01000010000101-0-000-0100-110000--11-01110-1-000011002--0010020000000-1110----10000000011---100000011111010000110011011101000-011100000011-1-0-001101---2--0-1010000010010-0001010-00100010
+	'Pogona vitticeps'                   001100010-0000000010211011000100021000000003000--00-00120001010011000300021---01000---00020011100100001210-1-------2---02001012-002100--3-----1000-0000012011001--2110102-002--------1001001011------000-0-00-20100213210000001211--11002100001000-0-020111100020214001-1--03--1100----011----000001000001000--0--10-000000110110011100-----------1120103100000000000000-011-0110-1000-001100-01-1-001-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------0---0
+	'Uta stansburiana'                   001000010-00000000112110110001000210000000030000-00-001200010100110003000200-00110011-0-----11100100000210-1-------2---01001012--02000--2-01101011-0000012011001--2011102-002--------100100101101020010010100120100203210011011211-011002100001000100020111100120214001-1-013--1100----0110-0-0000-100000111------10-00-000110111001-001-------000110-1021000000000000000011-0100-0000-000100-01-1-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Varanus komodoensis'                001100110-00000000111100110001000121100000130200-00-00120001010010000300021---01100---00010011200101001210-1-------110112110012-101100--2-01100110-0000112011011--2100102-002--------100101101001020000110-00120100211210010010211--1100210000100--0-010111100010203001-10003--110011-10111-110000011010001-01000010100200011011001010010-----000011000021010101000000000011-0110-0000-000100-01-1-001----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Dakosaurus andieniensis'            00-00101--0---0001112100100--10001101010-00101-1000-00120000-1-011-01110--1---002001--01-----12---0-00021--1-------2---121110101011101121-000-00-00000-11100---1---010--2--001010110--------0-----------------0-----------1----------------------------111111002-----------03--11-0----------------100-000------------00001----------0-----------------000011001000---001011-0-1--0000-000----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	'Deinosuchus riograndensis'          10-01-010-01--000111220010020-00010-10-00001001-100-00120000010-110003000-1---001101-001-----110001-0002---1-------2---01011-10---10000-1-000-01101000-11100---1----10112-00010-0111-10------1---010---------------2-----0---0------1---------1------100111-10120-0-0---0--03--11--11-1--------0-0-111010101000002110000001--0------000--1-1----001120100000100000000001-011-0100-0000-010100-01-1-0-112----------00000-0000-----0-1-0-0-----1--00000001-010-0-10-----------------------------------10---01-----------2-00100--11100121-------0-----------------------0---------------101010-0---------21----0----------------------------10---0---0
+	'Junggarsuchus sloani'               00-011010-01--10011121000002010100000010000-0111100-001200000101-0101-00021---011001-101-----13-0000000210-1-------2---121101100101101121-0010001000000111000-11--00101-2-00011101111100101-010010-0000110-10-20---201--0----0------1--0-1----1-001--121111--0021-0400--0-003--1100---1--10100-000011101010101100211-000000000000010000000-----0001110100001000100000000100--0110000001010100-01-1-0-1-2-0000---010-----------110---001000000--------0-1-01000-1--------------------------011--001--1----01-----------2000-0------0----120----01------------1---------------------------------------------------------------------------------------
+	'Postosuchus kirkpatricki'           00101101--0---1001112100100201010100000000010211000-0112000011-1000013000-01-02001001101-----0300100000210-1-------2---021100101011101121-001-01101001001100-111--1010102-00011101111100101001-110-0000-------00---------0-0--------1--0------1---10110011100012-30400--0-103--1---0001--1-1--0-00-1111001110100--100000001--0--000--0000-------00110000000100010000-000100000110000000010-0--01-1-0--10-0-------100000100-0101100110010000001101000000-201000-100----110-0--00100-------0011-1001--1011001-----------20000000111100110100100100111-1-00-3-01111-011001-010--1111000001010110000-0-11-121011101--2-21-1010000111110-1-0---10-0100000
+	'Revueltosaurus callenderi'          00001100--0---00011121001002010-0000000000030011101-001200000100100000000-00-00100001101-----0200100000210-1-------2---021110100111101121-000-0-101001-01110---1--1000112-100111011-1-------01---------------------2-----0-00-------10-0-000--10001111-01----------400--0--03--111----1--101--000001110000010100--1--00000000--1-010000-0---------01000000111000000--0001011-0210-0000-000-00-01-1--011010000-----00000-0000101-0011101000000100-00000012010000100-----10-0--001000-----00001-0101101011101------0----20000001111100111-00101100--------------11101100100000011110000010111000000-0110121-1100---------01-----10110-------100000-1-0
+	'Simosuchus clarki'                  101011011101--2001111100100201000000000000030111101400120001010111001300021---000001-101----11200010000210-1-------2---0201101010101010-1-000-0010110001110000-1--1010--2-100111011--1001010011010100-0------00002120-0--010000-----1-102100--11001-1120111110021304002-0-003--110011-10110---000001110000100110-2110000000000-101-0000-00------000110000010000000-000001011-0110-0001-000-00-01-1-0-1101-000---0-000000-000101-0011001000000101000000-1-010001100--------1-00---0--------001-00010-1010011-----------2100000--11100-21--0101100-01---000--0111---------------------00001010000-----1--------0----------10----------------101--0---0
+	'Typothorax coccinarum'              01-00002------000-1121001-0--10-0100000000--0---101-0012-------01-----0-------00200---0-------------0---1---------------10--01010111111-1-001-01100000-111-0---1--011-112-10011101111---------------------------------------------------------1------1---------------------------------------------111-000-1----------0000000--1001010-----------------0001000000--00-0-1011-021--0001-000---------------------------------------------------------------01---1-----------0-------------0-----------------------------2000000--11-0-1--121-01-0--------------------------1---------00--00110--1---0----0101--01--2-----0100---1-110---0--01010-00100
+	'Alligator mississipiensis'          000011011201--0001112200110201000100100000010110101100120000010111000100021---011101-101----11100010000210-1-------2---0101111010111000-1-0100011010000111000011--1010112-000111011111001010011010100----00---002-1205---000000211-01111-1-0--1-0-101110111010021302001-0-003--110011-11-1010010000111010001010002110000001--01-010-100--1110---0011211000000000000000001011-0100-0000-011100-01-1-001-210000--0010-0000000010110011001000000000-00-001110100001001110100-0100010001000000011-01011-101--01------01--0200000001111001211001001000-----00000011111011000-01-00111-000001010100000001010121010-01--202101010000-1111101-001-1000000000
+	'Alligator sinensis'                 100011011201--0001112200110201000000100000010110101100120000010-110001000211--0-1111-101----01200--0000010-1-----------010111101011100--1-0000011010000111000001--1010112-0001110111-10------11010100----1----002-12150--000000--------1-1-0--1-0----1001110-0021302002-0-003--11001--11-1----10000111010001010000110000001--01-01--100-11-10---001121100010000000000000100--0100000001011100-01-1-0-112--000----100000000001011001110100000000-0100001110100001001110110-0--00100------00011-010111101--01-----------21000000111100121------------------------11010000-01-00111-00000101010000000----------------------------------------1000000000
+	'Crocodylus porosus'                 100011011201--1001102200010201000100101000010110101100120000010111000300021---001101-101----01200010000200-1-------2---010101101011100--1-000-0110100001110000-1---0101-2-0001110111-1001010-11010100----0----002--205---000000--------1---0---------10011101002-302001-0-003--111-11-11-----------11101000101000-110000001--01-01--100-01110---00112110000000000000000110000010000000-011100-01-1-0-1121-000--001000000-000101-001100100000000001000011-01----100----1-0-0--0010-------00011-010111101--01-----------21000000111100121--01---00---------------110110-0-01-00111-0000010101000000-----------------------------------------10-------0
+	'Gavialis gangeticus'                10-001011201--00011022001002010000001010--010110101100120000010111001100021---011111--01----1120001000001--1-------2---120111101011100--1-000-0110100001110000-1--1010112-0001--011--1001010011011100----0----002-1215---00000------1--1---0--1-0-10-11011101002-3-2001-0-003--110011-11-1----100001-11100-100-0--11010-001-----0----00---------011121100000000000000000-011-0100-0000-011100-01-1-0-1-2--------010-000000-000-00011001000000-0--10-00111010000100111-100-0110----------0-0---010---10----1-----------2-00-00--11100121000-01-000---100000001111--------------------00101-1001000-1-------1--0---------0-0-0--11111-1-0---1000000000
+	'Eileanchelys waldmani'              00-1-00-120----000112-0011000-000---0010000-0101-00-0012000-0100101113000-1---0--00--1-1----00000---0------------------00---00----21-0--3-----1-0-0000-111-0-011--10----2--00-11011---01101------------------------------------------------0---------0--121100-2-20200---------11-00112-------10---1-0------------------00-----------------------------1-----------------------------------0---------11----------1000000-001--1-10---1----------------------1------------------------------------------------------2--0110-0----1-0--1--10-0--00----------------------0100--------0----0--10--0-------------------------------------------0-0011--11
+	'Chelonia mydas'                     00-1-0011201---00011-1001100000002100011--------200-00120101010010111001021---00-00--101----00010010000010-1-------2---00---00----2100--3-----100-00001111100011--101---2--00-1101100101101010-------001-00101002110--0--0-1110211-011102100111000-0-020121100111201002-0-003--110101101-110-0110001000102111-----11-0020000101100101110------0000010001-----------------------------------00--1-1-001-------------------------110---11000--0----10000---111111-------------------------0-------------------00200002-0011000-0-1100011101000-00000-1--00---0111---------------------00-0111010000-----------------------------------------0--0111011
+	'Mauremys reevesii'                  00-1-00112-1--000010-10011000--002010011--------200-0012010-0100001010000-1---20-001-111----0030001000001--1-------2---00---00----2100--3-----110-00001111001--1--100---2-000-110110-101101010----------------00211---0--0-1110-----1110-100--100----0201-11--1------------03----01-----------11--01---------------------------------------------------1-----------------------------------00--1-1-001-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------1---1
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-7 9-20 22-27 29-34 36-73 75-94 96-115 117-120 122-126 128-135 138-153 155-162 164-172 174-206 208-211 213-214 216-223 225-246 248-255 257 259-268 270-297 299-352 354-428 430-494 496-497 499 501-517 519-593 595-628, unord: 8 21 28 35 74 95 116 121 127 136-137 154 163 173 207 212 215 224 247 256 258 269 298 353 429 495 498 500 518 594;
+ENDBLOCK;

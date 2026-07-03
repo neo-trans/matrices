@@ -1,0 +1,635 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.45.25 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=41;
+	TAXLABELS
+		'chelidae'
+		'pelomedusidae'
+		'Araripemys barretoi'
+		'euraxemydidae'
+		'bothremydidae'
+		'Portezueloemys patagonica'
+		'Brasilemys josai'
+		'Hamadachelys escuilliei'
+		'Bauruemys elegans'
+		'Pricemys caiera'
+		'Peiropemys mezzalirai'
+		'Lapparentemys vilavilensis'
+		'Podocnemis erythrocephala'
+		'Podocnemis expansa'
+		'Podocnemis lewyana'
+		'Podocnemis sextuberculata'
+		'Podocnemis unifilis'
+		'Podocnemis vogli'
+		'Turkanemys pattersoni'
+		'Erymnochelys madagascariensis'
+		'Peltocephalus dumerilianus'
+		'Neochelys arenarum'
+		'Papoulemys laurenti'
+		'Caninemys tridentata'
+		'Dacquemys paleomorpha'
+		'Mogharemys blackenhorni'
+		'Brontochelys gaffneyi'
+		'Lemurchelys diasphax'
+		'Shweboemys pilgrimi'
+		'Stereogenys cromeri'
+		'Latenemys plowdeni'
+		'Cordichelys antiqua'
+		'Bairdemys hartsteini'
+		'Bairdemys venezuelensis'
+		'Bairdemys sanchezi'
+		'Bairdemys winklerae'
+		'Bairdemys thalassica'
+		'Yuraramirim montealtensis'
+		'ucmp42008'
+		'Elkanemys pritchardi'
+		'Elkanemys caelestis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=95;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'NA, nasals'
+		[2] 'PF, preorbital skull broad'
+		[3] 'FR, orbital position'
+		[4] 'FR, interorbital groove'
+		[5] 'FR, prefrontal/frontal'
+		[6] 'PAR, quadratojugal-parietal contact'
+		[7] 'PAR, parietal-pterygoid contact in septum orbitotemporale'
+		[8] 'PAR, caudodorsal emargination'
+		[9] 'PAR, interparietal scale'
+		[10] 'JU, jugal-pterygoid contact'
+		[11] 'JU, jugal-quadrate contact'
+		[12] 'JU, jugal-parietal contact'
+		[13] 'JU, ventrolateral emargination'
+		[14] 'SQ, ventral vertical flange'
+		[15] 'SQ, caudal projection'
+		[16] 'PO, size'
+		[17] 'PM, premaxillae reach apertura narium interna'
+		[18] 'PM, pinched snout'
+		[19] 'PM, cranial pit on ventral surface'
+		[20] 'PM, foramen prepalatinum relative to triturating ridge'
+		[21] 'MX, lingual ridge'
+		[22] 'MX, triturating surfaces'
+		[23] 'MX, triturating surfaces shape'
+		[24] 'MX, medial expansion of triturating surface'
+		[25] 'MX, secondary palate long'
+		[26] 'MX, triturating surface convexity'
+		[27] 'MX, labial ridge'
+		[28] 'MX, accessory ridges'
+		[29] 'MX, meet broadly on midline'
+		[30] 'VO, vomer'
+		[31] 'PAL, medial edges of palatal cleft'
+		[32] 'PAL, palatine extent in triturating surface'
+		[33] 'PAL, dorsal process of palatine contacts parietal in septum orbitotemporale'
+		[34] 'PAL, dorsal process reaches frontal'
+		[35] 'PAL, fossa orbitalis caudal pocket'
+		[36] 'PAL, palatine-basisphenoid contact separates pterygoids'
+		[37] 'PAL, foramen palatinum posterius'
+		[38] 'PAL, dorsally arched palate'
+		[39] 'QU, condylus mandibularis position'
+		[40] 'QU, antrum postoticum'
+		[41] 'QU, fossa precolumellaris'
+		[42] 'QU, eustachian tube separated from fenestra postotica'
+		[43] 'QU, incisura columellae auris'
+		[44] 'QU, quadrate-basioccipital contact'
+		[45] 'QU, medial process reaches braincase'
+		[46] 'PT, cavum pterygoidei'
+		[47] 'PT, rostral opening of cavum pterygoidei'
+		[48] 'PT, pterygoid flange around cavum pterygoidei'
+		[49] 'PT, processus trochlearis pterygoidei'
+		[50] 'SO, roof exposure'
+		[51] 'SO, horizontal plate along ventral edge of crista supraoccipitalis'
+		[52] 'EX, occipital condyle'
+		[53] 'EX, foramen jugulare posterius'
+		[54] 'EX, foramen nervi hypoglossi'
+		[55] 'EX, exoccipital-quadrate contact'
+		[56] 'BO, basioccipital very short'
+		[57] 'BO, basiocipital tubera width'
+		[58] 'BO, horizontal occipital shelf'
+		[59] 'PR, ventral exposure'
+		[60] 'PR, pterygoid covers prootic'
+		[61] 'PR, foramen posterius canalis carotici interni'
+		[62] 'OP, processus interfenestralis'
+		[63] 'OP, fenestra postotica'
+		[64] 'BS, ventral outline'
+		[65] 'BS, foramen nervi abducentis'
+		[66] 'BS, basisphenoid-quadrate contact'
+		[67] 'DEN, symphyseal contact'
+		[68] 'DEN, lingual ridge'
+		[69] 'COR, wide lateral exposure'
+		[70] 'COR, participates on triturating surface'
+		[71] 'ART, processus retroarticularis'
+		[72] 'ART, chorda tympani enclosed in processus retroarticularis'
+		[73] 'SP, splenial'
+		[74] 'CVE, cervical centra saddle shaped'
+		[75] 'CVE, second cervical biconvex'
+		[76] 'CVE, cervical zygapophyses'
+		[77] 'CAR, cervical scale'
+		[78] 'CAR, nuchal bone width'
+		[79] 'CAR, proportions'
+		[80] 'CAR, intumescence from axillary buttress to the rib area on costal 1'
+		[81] 'CAR, second vertebral scute shape'
+		[82] 'CAR, neural series extent'
+		[83] 'CAR, neural number'
+		[84] 'CAR, keeled neurals'
+		[85] 'CAR, four-sided neural'
+		[86] 'CAR, costal two anterior edge thickened near buttress'
+		[87] 'CAR, axillary buttress'
+		[88] 'PLA, axillary musk duct (1)'
+		[89] 'PLA, axillary musk duct (2)'
+		[90] 'PLA, mesoplastra'
+		[91] 'PLA, pectoral scales contact mesoplastra'
+		[92] 'PLA, pectoral scales contact entoplastron'
+		[93] 'PLA, pectoral scales contact epiplastra'
+		[94] 'PLA, cranial lobe length'
+		[95] 'PLA, caudal lobe lateral outline'
+	;
+	STATELABELS
+		1
+			'present'
+			'absent'
+			,
+		2
+			'narrow, as in Podocnemis'
+			'very broad, as in Bothremys'
+			,
+		3
+			'facing laterally, rostrolaterally'
+			'facing dorsolaterally'
+			'facing dorsally'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'flat or slight convex'
+			'strongly convex dorsally'
+			,
+		6
+			'no contact'
+			'short contact'
+			'long contact'
+			,
+		7
+			'no contact'
+			'present and wider'
+			'present and narrower'
+			,
+		8
+			'moderate to absent'
+			'extreme, as in Pelusios'
+			'shallow, ventrolateral emargination extensive'
+			'emargination absent due to expanded parietal/supraoccipital'
+			,
+		9
+			'absent'
+			'equilateral triangle'
+			'elongate triangle'
+			'parallel sided'
+			'broad posteriorly'
+			,
+		10
+			'yes'
+			'no'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'slight'
+			'reaches ventral level of orbit'
+			'reaches above ventral level of orbit'
+			'reaches above quadrate'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'lacks projection'
+			'forms distinct process, projecting caudally'
+			,
+		16
+			'equal to orbit'
+			'smaller than orbit'
+			,
+		17
+			'no'
+			'yes'
+			,
+		18
+			'pinched snout absent'
+			'concave outline near premaxilla-maxilla contact, snout not elongated'
+			'concave outline caudal to premaxilla-maxilla contact, snout elongated'
+			,
+		19
+			'no'
+			'yes'
+			,
+		20
+			'on'
+			'flat'
+			'surface'
+			'under'
+			'triturating'
+			,
+		21
+			'absent or slight'
+			'present'
+			,
+		22
+			'narrow'
+			'wider'
+			'widest'
+			,
+		23
+			'lingual and labial ridges parallel sided'
+			'triangular, wide caudally'
+			,
+		24
+			'absent'
+			'present, forming median maxillary ridge'
+			'secondary palate with midline cleft'
+			,
+		25
+			'no'
+			'yes'
+			,
+		26
+			'absent or shallow'
+			'deep'
+			,
+		27
+			'high and narrow'
+			'low and thick'
+			,
+		28
+			'absent'
+			'one or two'
+			,
+		29
+			'no'
+			'yes'
+			,
+		30
+			'present'
+			'absent'
+			,
+		31
+			'absent'
+			'parallel'
+			'curved'
+			,
+		32
+			'narrow or absent'
+			'moderate, but much less than maxilla extent'
+			'large, equal or slightly less than maxilla extent'
+			,
+		33
+			'no'
+			'yes'
+			,
+		34
+			'no'
+			'yes'
+			,
+		35
+			'absent'
+			'present in septum orbitotemporale'
+			,
+		36
+			'no'
+			'yes'
+			,
+		37
+			'present, only in palatine'
+			'present, on palatine and pterygoid'
+			'absent'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'rostral to bo-bs suture'
+			'caudal to or on bo-bs suture'
+			,
+		40
+			'large'
+			'smaller'
+			'smallest and slitlike'
+			,
+		41
+			'very small to absent'
+			'present but shallow'
+			'deep and well defined'
+			,
+		42
+			'no'
+			'yes'
+			,
+		43
+			'no caudal bony restrictions'
+			'eustachian tube separated from stapes by bone or narrow fissure'
+			'eustachian tube and stapes enclosed or nearly enclosed by bone'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'partial'
+			'complete'
+			,
+		47
+			'absent'
+			'small opening'
+			'moderate opening'
+			'large opening with foramen cavernosum in roof'
+			,
+		48
+			'absent or very small'
+			'partial'
+			'complete'
+			,
+		49
+			'absent'
+			'oblique'
+			'right angle'
+			,
+		50
+			'absent or slight'
+			'present, small'
+			'present, very large'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'basioccipitals plus exoccipitals'
+			'exoccipitals only'
+			,
+		53
+			'closed completely'
+			'State'
+			,
+		54
+			'separated'
+			'combined and recessed'
+			,
+		55
+			'no contact'
+			'exoccipital contacts quadrate'
+			,
+		56
+			'no'
+			'yes'
+			,
+		57
+			'closer to median'
+			'farther from median'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'completely exposed'
+			'at least partially covered'
+			,
+		60
+			'no'
+			'at least in part'
+			,
+		61
+			'in prootic'
+			'in basisphenoid within cavum pterygoidei'
+			'variably in pterygoid, quadrate, basisphenoid'
+			'pterygoid and basisphenoid'
+			,
+		62
+			'exposed'
+			'covered'
+			,
+		63
+			'open'
+			'at least partially closed'
+			,
+		64
+			'pentagonal'
+			'triangular'
+			,
+		65
+			'small'
+			'moderate to large'
+			,
+		66
+			'present'
+			'absent'
+			,
+		67
+			'fused'
+			'sutured'
+			,
+		68
+			'high'
+			'low'
+			,
+		69
+			'no'
+			'yes'
+			,
+		70
+			'no or slightly'
+			'yes, lingual-caudal portion formed by coronoid'
+			'yes, caudal portion formed by coronoid'
+			,
+		71
+			'long and caudal'
+			'short or absent'
+			'long and caudoventral'
+			,
+		72
+			'no'
+			'yes'
+			,
+		73
+			'present'
+			'absent'
+			,
+		74
+			'absent, procoelous'
+			'completely heterocoelic as in Podocnemis'
+			'wide as in Erymnochelys'
+			,
+		75
+			'no'
+			'yes'
+			,
+		76
+			'none fused'
+			'some fused'
+			,
+		77
+			'present'
+			'absent'
+			,
+		78
+			'width 2 or more times length'
+			'width greater than length but less than 2 times'
+			'width equals length'
+			'width less than length'
+			'nuchal retracted, not contacting peripheral bones (Araripemys condition)'
+			,
+		79
+			'cranial width/greatest width < 0.40'
+			'0.70 < cranial width/greatest width >= 0.40'
+			'cranial width/greatest width > 0.70'
+			,
+		80
+			'no'
+			'yes'
+			,
+		81
+			'quadrangular'
+			'hexagonal'
+			'trapezoidal'
+			,
+		82
+			'to suprapygal'
+			'to costals 8'
+			'to costals 7'
+			'to costals 6'
+			'neurals discontinuous or absent'
+			,
+		83
+			'8 or more'
+			'7'
+			'6'
+			'5 or fewer'
+			,
+		84
+			'none'
+			'some'
+			,
+		85
+			'first neural'
+			'second neural'
+			'third neural'
+			'neurals absent or discontinuous'
+			'four-sided neural absent, neurals'
+			,
+		86
+			'no'
+			'yes'
+			,
+		87
+			'reaches peripheral 3'
+			'reaches peripheral 2'
+			,
+		88
+			'in buttress'
+			'absent in buttress'
+			,
+		89
+			'not in bridge'
+			'one opening in bridge'
+			'three in bridge'
+			'four in bridge'
+			,
+		90
+			'small and lateral'
+			'absent'
+			,
+		91
+			'yes'
+			'no'
+			,
+		92
+			'no'
+			'yes'
+			,
+		93
+			'no'
+			'yes'
+			,
+		94
+			'long to medium, width over length < = 2.0'
+			'short, width over length > 2.1'
+			,
+		95
+			'almost straight lined'
+			'concave'
+			'convex'
+			,
+	;
+	MATRIX
+	'chelidae'                           0(0 1)(0 1)00002010030?00000(0 1)000000010000000(0 1)0(0 1)020201000110010000000000000(0 1)0001000000(0 1 2)(1 2)(0 1)(0 1)(0 2 4)(0 1 2 3)0(0 2 3)0(0 1)????110(1 2)
+	'pelomedusidae'                      1010000111001000100?10000000010(0 1)0000100020201000100110000100000000(0 1)0001010101(1 2)10(0 1)(1 2)(0 1 2 3)0000???000(0 1)2
+	'Araripemys barretoi'                1010000101001000100000000000010000000000200010001000(0 1)0000000000(0 1)0010(0 1)?1010111420(0 2)000300??1?0000
+	'euraxemydidae'                      101001000100100000001000000000000000(0 1)00010001000110000100010311100100?111011111?0000000??000000
+	'bothremydidae'                      1(0 1)(0 1 2)00(0 1)000(0 1)(0 1)000(0 1)00(0 1)(0 1)1(0 1)(0 1 2)(0 1)00000000(0 1)00(0 1)01(0 1)(0 1)(0 1)(0 2)0111000(1 2)00(0 1)00101010211(0 1)0101(0 1)?0(0 1)101(0 1)1(0 1 2)10(0 1)(0 2 3)(1 2 3)0(0 1 4)00??00(0 1)0(0 1)(0 2)
+	'Portezueloemys patagonica'          ?01?0??0?????00?????????00???000???0100??0?111112??????00?11111??1??????????1???22204????0110??
+	'Brasilemys josai'                   ??100000???0?000?????0?000000?000?0010001001111110??001000100110?1000021?0?0121?01204??????????
+	'Hamadachelys escuilliei'            1010010021001000?0??1010000000000?00100120211111200000?00111111001000?2?1??????????????????????
+	'Bauruemys elegans'                  102001001100100000011010000000010000(0 1)00120211212210000100111111001?00?2010?01210022011???011100
+	'Pricemys caiera'                    ??1????03?0?2?0????????00000??010??0??0110211212211010101111111011?????????????????????????????
+	'Peiropemys mezzalirai'              101002001100200000010010000000010?000001202112122111101011111110?1?????????????????????????????
+	'Lapparentemys vilavilensis'         101002001100200000011010000000010?001001102112122?1010101?11111001000020?1?0111002100?0??00??00
+	'Podocnemis erythrocephala'          101102001101100110011101000101010000(0 1)00120211222211010001111111011010?201110120021100?102011102
+	'Podocnemis expansa'                 10110220210110010001010100011101000000011021122221101000111111101101012011101110211001111011102
+	'Podocnemis lewyana'                 101102202?0110?1000101?100010101000000?120211212211010001111111?110???2011101?101110011?3011100
+	'Podocnemis sextuberculata'          10110220210110011001010100010101000000011021122221101000111111101101012011101110111101112011102
+	'Podocnemis unifilis'                10110200210110000001010100011101000000012021121221101000111111101101012011101100111101112011102
+	'Podocnemis vogli'                   101102001?01100100011101000100010000000120211212211010001111111011010?2011101110111001013011100
+	'Turkanemys pattersoni'              100002?01?000000100?110100010101??000001102112?220?010?011?111?0?10101211210110113200?????11102
+	'Erymnochelys madagascariensis'      100002002?1000001001110100010101000000012021123220001000101111100101012112101110132001100011102
+	'Peltocephalus dumerilianus'         100002004?10000011111101000101010000100110211232200(0 1)1000101111100101012111101110232001000011110
+	'Neochelys arenarum'                 100(0 1)021011000000100111010000010100001001102112322010100010111110?101??21????11???(2 3)(1 2)00?0??0(0 1)11?2
+	'Papoulemys laurenti'                100002?01?000000?0??110100000?01??001001102112?22011100010111110?1?????????????????????????????
+	'Caninemys tridentata'               101002?02?00000000011101000100010000?112002112?22?10100011111110?1?????????????????????????????
+	'Dacquemys paleomorpha'              100002?31?000000001?1101000111010?002?01102112?2221010001111111001?1?????????????????????0?????
+	'Mogharemys blackenhorni'            ??000?1??1?????0????121100?1??0101002101002112322??0111010111110?1?????????????????????????????
+	'Brontochelys gaffneyi'              11000?1??1??????????0212001001220?10?1?????112322???11?0101111?101?????????????????????????????
+	'Lemurchelys diasphax'               11000????1?????0111002120010011201102112?021123220??100010111111?1?????????????????????????????
+	'Shweboemys pilgrimi'                11000?1??0???0?0111002121010011211?121?????112?22???11011?11???1?????????????????????????0?????
+	'Stereogenys cromeri'                1100021030??0?00?1??021210100112111121120021123220101101101111110100?221?????????????????0?????
+	'Latenemys plowdeni'                 ?0000?1??1???000????0212000001220110?101?121123220?011101011111101?????????????????????????????
+	'Cordichelys antiqua'                ?000021030001000101?021200000122011??101002112322010111010111111?1??????????112003200????011110
+	'Bairdemys hartsteini'               100012103100?110100?0212010001220?1001020121123220?0111010111111?1???????1?????????????????????
+	'Bairdemys venezuelensis'            1000121031001110100?02120100012201100112012112322010111010111111?100122??????111?43031???011110
+	'Bairdemys sanchezi'                 10001210?100111010??021200000?220?10?102012112??2010101010111111?1?012?????????????????????????
+	'Bairdemys winklerae'                100002?0?10?1110121?02120?000?22???0?10?012112??2?????101011?1?1???????????????????????????????
+	'Bairdemys thalassica'               ?????????1????1?????02??????????????011???????????????1????????1???????????????????????????????
+	'Yuraramirim montealtensis'          ?01?0100?1?02??0????????????????000010002?2112??2?????????11?1?001?????????????????????????????
+	'ucmp42008'                          100002?3??100??0?00????10001??010?00?????02112?222?0?0?0??11?11??1?????????????????0???????????
+	'Elkanemys pritchardi'               ????????????????????????????????????????????????????????????????????????????????12101?1??00???2
+	'Elkanemys caelestis'                101001?3100?2?10?0???0??????0????????????????????1??????????????????????????1(1 3)??12(1 2)01?1??001002
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-95;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1759880733068; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 2007123193512024717; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5069964030614296789; mqVersion 381; checksumv 0 3 3863821097 null getNumChars 95 numChars 95 getNumTaxa 41 numTaxa 41 short true bits 31 states 31 sumSquaresStatesOnly 16159.0 sumSquares 16159.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState true false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 95; 
+ENDBLOCK;
+BEGIN TREES;
+ Title Imported_trees; ID 0199c110bdcb1; LINK Taxa = Taxa; TRANSLATE [0] 1 Chelidae, [1] 2 Pelomedusidae, [2] 3 Araripemys_barretoi, [3] 4 Euraxemydidae, [4] 5 Bothremydidae, [5] 6 Portezueloemys_patagonica, [6] 7 Brasilemys_josai, [7] 8 Hamadachelys_escuilliei, [8] 9 Bauruemys_elegans, [9] 10 Pricemys_caiera, [10] 11 Peiropemys_mezzalirai, [11] 12 Lapparentemys_vilavilensis, [12] 13 Podocnemis_erythrocephala, [13] 14 Podocnemis_expansa, [14] 15 Podocnemis_lewyana, [15] 16 Podocnemis_sextuberculata, [16] 17 Podocnemis_unifilis, [17] 18 Podocnemis_vogli, [18] 19 Turkanemys_pattersoni, [19] 20 Erymnochelys_madagascariensis, [20] 21 Peltocephalus_dumerilianus, [21] 22 Neochelys_arenarum, [22] 23 Papoulemys_laurenti, [23] 24 Caninemys_tridentata, [24] 25 Dacquemys_paleomorpha, [25] 26 Mogharemys_blackenhorni, [26] 27 Brontochelys_gaffneyi, [27] 28 Lemurchelys_diasphax, [28] 29 Shweboemys_pilgrimi, [29] 30 Stereogenys_cromeri, [30] 31 Latenemys_plowdeni, [31] 32 Cordichelys_antiqua, [32] 33 Bairdemys_hartsteini, [33] 34 Bairdemys_venezuelensis, [34] 35 Bairdemys_sanchezi, [35] 36 Bairdemys_winklerae, [36] 37 Bairdemys_thalassica, [37] 38 Yuraramirim_montealtensis, [38] 39 UCMP42008, [39] 40 Elkanemys_pritchardi, [40] 41 Elkanemys_caelestis; TREE Imported_tree_1 = (1,(2,3,(4,(5,(7,(8,6,(9,((11,38,(10,12)),(((15,13,17,(14,16)),18),(24,((25,39),(((20,19),(22,23)),(21,(26,((((29,30),28),27),(32,(31,(36,(35,(33,(34,37))))))))))))))))))))); 
+ENDBLOCK;

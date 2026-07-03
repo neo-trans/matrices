@@ -1,0 +1,475 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-3 20.39.00 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=36;
+	TAXLABELS
+		'Pampatherium typum'
+		'Peltephilus pumilus'
+		'Chlamydophractus dimartinoi'
+		'Chlamyphorus truncatus'
+		'Calyptophractus retusus'
+		'Vetelia ghandii'
+		'Vetelia perforata'
+		'Tolypeutes matacus'
+		'Tolypeutes tricinctus'
+		'Pedrolypeutes praecursor'
+		'Cabassous tatouay'
+		'Priodontes maximus'
+		'Chaetophractus villosus'
+		'Chaetophractus vellerosus'
+		'Euphractus sexcinctus'
+		'Zaedyus pichii'
+		'Macrochorobates scalabrinii'
+		'Macroeuphractus retusus'
+		'Proeuphractus limpidus'
+		'Paleuphractus argentinus'
+		'Chorobates recens'
+		'Chorobates villosissimus'
+		'Prozaedyus proximus'
+		'Prozaedyus scillatoyanei'
+		'Chasicotatus ameghinoi'
+		'Chasicotatus peiranoi'
+		'Eutatus seguini'
+		'Dasypus novemcinctus'
+		'Dasypus bellus'
+		'Dasypus pilosus'
+		'Propraopus sulcatus'
+		'Anadasypus hondanus'
+		'Anadasypus aequatorianus'
+		'Plesiodasypus colombianus'
+		'ecuador'
+		'Stegotherium tauberi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=73;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Premaxillary teeth'
+		[2] 'MF 2 modified as a caniniform'
+		[3] 'U-shaped upper and lower dental series'
+		[4] 'Alveolar contour of molariforms'
+		[5] 'Dental series composed of more than 15 molariforms'
+		[6] 'Length of the upper series of molariforms in relation to  maxillary length'
+		[7] 'Length of the upper series of molariforms in relation to maximum cranial length'
+		[8] 'The upper dental series extends posteriorly to the anterior zygomatic root'
+		[9] 'mf1 or mf1 and mf2 occlude directly into the premaxilla'
+		[10] 'Orientation of the major axis of molariforms in relation to the major axis of the dental series'
+		[11] 'Cranium profile in lateral view'
+		[12] 'Length of the rostral region in relation to maximum cranial length'
+		[13] 'Zygomatic process of the squamosal overlapping on jugal bone'
+		[14] 'Position of the infraorbitary foramen'
+		[15] 'Choanae contour in occlusal view'
+		[16] 'Extended palatine surface'
+		[17] 'Medial suture of palate forming a distal crest'
+		[18] 'Frontal bones anteriorly projected between nasal bones'
+		[19] 'Large frontal protuberances on the cranium at the orbital level'
+		[20] 'Well developed sagittal crest'
+		[21] 'Ossified auditory bulla'
+		[22] 'Dorsoventral length of the coronoid process of the mandible'
+		[23] 'Relative distance among coronoid, condylar and angular processes of the mandible'
+		[24] 'Anterior ventral margin of the mandible with a marked downward curvature'
+		[25] 'Anterior dental diastema'
+		[26] 'Maximum dorsoventral diameter of the mandible'
+		[27] 'Auricular notch of cephalic shield'
+		[28] 'Ornamentation pattern of cephalic shield osteoderms'
+		[29] 'Cephalic osteoderms modified as horns'
+		[30] 'Free rows of nuchal osteoderms'
+		[31] 'General morphology of the dorsal carapace'
+		[32] 'Number of mobile bands'
+		[33] 'Highly vascularized and extremely thin osteoderms of the dorsal carapace'
+		[34] 'Carapace lateral borders'
+		[35] 'Rump plate'
+		[36] 'Development of an ornamentation pattern in the exposed surface of the carapace osteoderms'
+		[37] 'Ornamentation pattern of osteoderms less developed in the bony surface than in the horny scale that covers it'
+		[38] 'Completely rough exposed surface of the osteoderms'
+		[39] 'Completely dotted exposed surface of osteoderms'
+		[40] 'Exposed surface of dorsal carapace osteoderms full of small tubercles'
+		[41] 'Osteoderms bearing glandular cavities in the pelvic shield'
+		[42] 'Adjacent osteoderms sharing horny scales'
+		[43] 'Barely visible sulci delimiting peripheral figures of dorsal carapace osteoderms'
+		[44] 'Size of the piliferous foramina of the posterior margin of carapace osteoderms'
+		[45] 'Dorsal development of piliferous formaina of the posterior margin of carapace osteoderms'
+		[46] 'Number of piliferous foramina of the posterior margin of carapace osteoderms'
+		[47] 'Arrangement of the row of piliferous foramina of the posterior margin of carapace osteoderms'
+		[48] 'Additional minor foramina intercalated between piliferous foramina of the posterior margin of carapace osteoderms'
+		[49] 'Large central piliferous foramina of the posterior margin of carapace osteoderms'
+		[50] 'Foramina in the osteoderms lateral margins'
+		[51] 'Contour of fixed osteoderms'
+		[52] 'Peripheral figures of fixed osteoderms restricted to the proximal half of the osteoderm'
+		[53] 'Morphology of the central figure of fixed osteoderms'
+		[54] 'Additional peripheral figure proximal to the central figure'
+		[55] 'Central figures of fixed osteoderms laterally deviated to the external margin'
+		[56] 'Contour of mobile osteoderms'
+		[57] 'Morphology of the lateral figures of mobile osteoderms'
+		[58] 'Contour of the articular portion of mobile osteoderms'
+		[59] 'Mobile osteoderms with articular portion wider than ornamented portion'
+		[60] 'Elevated and keeled central figures of mobile osteoderms'
+		[61] 'Development of central figure of mobile osteoderms'
+		[62] 'Longitudinal elevation in the central area of the central figure of mobile osteoderms'
+		[63] 'Large sized foramina at the lateral margins of mobile osteoderms'
+		[64] 'Caudal armour'
+		[65] 'Morphology of the caudal armour'
+		[66] 'Shovel-shaped tail end'
+		[67] 'Large glandular foramina restricted to mobile osteoderms'
+		[68] 'Large piliferous foramina restricted to the posterior margin of mobile osteoderms'
+		[69] 'Denticulated lateral margins on the articular portion of mobile osteoderms'
+		[70] 'Fixed osteoderms with conspicuous dorsal foramina limited to the most anterior area'
+		[71] 'Piliferous foramina randomly distributed over the dorsal surface of fixed and mobile osteoderms, not aligned with the sutures between horny scales'
+		[72] 'Presence of notably large piliferous foramina in the main sulcus of fixed osteoderms'
+		[73] 'Scapular and pelvic shield of similar size'
+	;
+	STATELABELS
+		1
+			'Present'
+			'Absent'
+			,
+		2
+			'Present'
+			'Absent'
+			,
+		3
+			'Present'
+			'Absent'
+			,
+		4
+			'Crescent shaped'
+			'subcircular to circular'
+			'Ovated'
+			'bilobulated'
+			,
+		5
+			'Present'
+			'Absent'
+			,
+		6
+			'80% or more'
+			'60% or less'
+			,
+		7
+			'Less than 30%'
+			'More than 30%'
+			,
+		8
+			'Present'
+			'Absent'
+			,
+		9
+			'Present'
+			'Absent'
+			,
+		10
+			'Major axis of all molariforms coincide with major axis of dental series'
+			'Major axis of all molariforms is oblique in relation to the major axis of the dental series'
+			'Only anterior molariforms (MF1-3) oblique in relation to the major axis of the dental series'
+			,
+		11
+			'sigmoidal'
+			'straight'
+			'slightly concave'
+			,
+		12
+			'approximately 50%'
+			'Less than 50%'
+			'more than 70% of the maximum cranial length'
+			,
+		13
+			'Present'
+			'Absent'
+			,
+		14
+			'At the beginning of the anterior zygomatic process'
+			'Close to the anterior zygomatic process'
+			'Distant to the anterior zygomatic process'
+			,
+		15
+			'V-shaped'
+			'straight'
+			,
+		16
+			'Present'
+			'Absent'
+			,
+		17
+			'Present'
+			'Absent'
+			,
+		18
+			'Present'
+			'Absent'
+			,
+		19
+			'Present'
+			'Absent'
+			,
+		20
+			'Present'
+			'Absent'
+			,
+		21
+			'Present'
+			'Absent'
+			,
+		22
+			'Greater than condylar process'
+			'Minor than condylar process'
+			,
+		23
+			'approximately equidistant'
+			'Coronoid and condylar processes closer to each other'
+			'Condylar and angular processes closer to each other'
+			,
+		24
+			'Present'
+			'Absent'
+			,
+		25
+			'Present'
+			'Absent'
+			,
+		26
+			'Anterior region'
+			'Posterior region'
+			'Central region'
+			,
+		27
+			'Present'
+			'Absent'
+			,
+		28
+			'Present, similar to that of carapace osteoderms'
+			'Present, composed of small tubercles'
+			'Absent'
+			,
+		29
+			'Present'
+			'Absent'
+			,
+		30
+			'Present'
+			'Absent'
+			,
+		31
+			'composed of mobile bands and a pelvic shield'
+			'composed of a differentiated scapular and pelvic shield  and mobile bands'
+			'proximal fixed osteoderms present but not composing a scapular shield, pelvic shield, and mobile bands'
+			,
+		32
+			'Always three or less'
+			'Always more than three'
+			,
+		33
+			'Present'
+			'Absent'
+			,
+		34
+			'mostly rounded'
+			'mostly aserrated'
+			,
+		35
+			'Present'
+			'Absent'
+			,
+		36
+			'Present'
+			'Absent'
+			,
+		37
+			'Present'
+			'Absent'
+			,
+		38
+			'Present'
+			'Absent'
+			,
+		39
+			'Present'
+			'Absent'
+			,
+		40
+			'Present'
+			'Absent'
+			,
+		41
+			'Present'
+			'Absent'
+			,
+		42
+			'Present'
+			'Absent'
+			,
+		43
+			'Present'
+			'Absent'
+			,
+		44
+			'Small sized'
+			'Big sized'
+			,
+		45
+			'Present'
+			'Absent'
+			,
+		46
+			'More than 10'
+			'Less than 10'
+			,
+		47
+			'In straight rows'
+			'Randomly distributed'
+			,
+		48
+			'Present'
+			'Absent'
+			,
+		49
+			'Present'
+			'Absent'
+			,
+		50
+			'Present in both lateral margins'
+			'Present in the external lateral margin'
+			'Absent'
+			,
+		51
+			'Approximately quadrangular'
+			'Approximately rectangular'
+			'isodiametric hexagonal'
+			'Hexagonal non isodiametric'
+			,
+		52
+			'Present'
+			'Absent'
+			,
+		53
+			'elongated and narrow'
+			'elongated and wide'
+			'lageniform to subcircular'
+			,
+		54
+			'Present'
+			'Absent'
+			,
+		55
+			'Present'
+			'Absent'
+			,
+		56
+			'Approximately quadrangular'
+			'Approximately rectangular'
+			,
+		57
+			'Divided into peripheral figures'
+			'Without division and straight'
+			'without division and wedged to the lateral margins'
+			,
+		58
+			'Wider than longer'
+			'Longer than wider'
+			,
+		59
+			'Present'
+			'Absent'
+			,
+		60
+			'Present, straight'
+			'Present, laterally deviated'
+			'Absent'
+			,
+		61
+			'Reaching the posterior margin'
+			'Not reaching the posterior margin'
+			,
+		62
+			'Present'
+			'Absent'
+			'Sometimes Present'
+			,
+		63
+			'Present'
+			'Absent'
+			,
+		64
+			'Present'
+			'Absent'
+			,
+		65
+			'Composed of caudal rings'
+			'Caudal rings limited to the proximal half'
+			'Composed of articulated osteoderms'
+			,
+		66
+			'Present'
+			'Absent'
+			,
+		67
+			'Present'
+			'Absent'
+			,
+		68
+			'Present'
+			'Absent'
+			,
+		69
+			'Present'
+			'Absent'
+			,
+		70
+			'Present'
+			'Absent'
+			,
+		71
+			'Present'
+			'Absent'
+			,
+		72
+			'Present'
+			'Absent'
+			,
+		73
+			'Present'
+			'Absent'
+			,
+	;
+	MATRIX
+	'Pampatherium typum'               01131010100110011111102111?211111010?11111101101121----1-01---10211111111
+	'Peltephilus pumilus'              01001010120110011?1100?110?20?011011-0111-101101120----0-01---1??1111111?
+	'Chlamydophractus dimartinoi'      ??12100??1?1???????????101?2????1000?10111101101123001111012011???111111?
+	'Chlamyphorus truncatus'           1112100011011001010101010112101100000101111011011230011110120110201111111
+	'Calyptophractus retusus'          1112100011011001010101010112101100000101111011011230011110120110211111111
+	'Vetelia ghandii'                  01121000100110010111?10112?210111010?10111101101123011111012111??1111111?
+	'Vetelia perforata'                ??121???10???????????10112???01?1010?10111101001123011111012111???111111?
+	'Tolypeutes matacus'               1112100010011001011110010111101010101110111011011230011100121110211111111
+	'Tolypeutes tricinctus'            1112100010011001011110010111101010101110111011011230011100121110211111111
+	'Pedrolypeutes praecursor'         ????????????????????????????????10101110?1101101123001110012011???111111?
+	'Cabassous tatouay'                1112100010011201011111010112101110100101111011011230111110121111-11111111
+	'Priodontes maximus'               1112000010011211011111010112101110100101111011011230111110121110211111111
+	'Chaetophractus villosus'          0112101000010001001100110100101111101111011011011111001100120110111111111
+	'Chaetophractus vellerosus'        0112101000010001001100110100101111101111011011011111011100120110111111111
+	'Euphractus sexcinctus'            0112101000110001001100110102101111101111010011011011011110120110111111111
+	'Zaedyus pichii'                   (0 1)112101000010001001100110112101111101111111011010111011100120110111111111
+	'Macrochorobates scalabrinii'      01021010021100010010001111?210111110?111011011011111010110100110??1111111
+	'Macroeuphractus retusus'          00021010?211000100100011110210111110?11101101101111101011012011??11111111
+	'Proeuphractus limpidus'           01121010?00100010011001?01???0111110?11101101101101101111012010??1111111?
+	'Paleuphractus argentinus'         011210100011000100110011010210111110?11101001111111101111012011??11111111
+	'Chorobates recens'                011210100011000100110011010210111110?111011011011111010110110110?11111111
+	'Chorobates villosissimus'         ????????????????????????????10111110?1?1011011011111010110110110??1111111
+	'Prozaedyus proximus'              111210101000000110110011011210011110?111011011011111011100120110?11111111
+	'Prozaedyus scillatoyanei'         11121010??00?00110110???0????0??1110?111?1101101111101110012011???1111111
+	'Chasicotatus ameghinoi'           ???2?0???0???????????????1???0211110?11101110100121101110012011???1111111
+	'Chasicotatus peiranoi'            ?????????????????????????????0??1110?11101110100121101110012011???111111?
+	'Eutatus seguini'                  111210101001000100111010011210211110?111011101011211011100120110?11111111
+	'Dasypus novemcinctus'             1111110110001110111110210112111110101111101011011221211121020110011111110
+	'Dasypus bellus'                   111111011000111011111021011211111010?111101011011221211121020110011111110
+	'Dasypus pilosus'                  1111110110021100111110210112111110101111101011011221211121020110011111010
+	'Propraopus sulcatus'              111111011000110011111021011211111010?111101011011221211121020110011111101
+	'Anadasypus hondanus'              1?11?101??00?101???1????0????1111010?1111010110112212111210202100?1111111
+	'Anadasypus aequatorianus'         ?????1????????????????????????1?1010?111?0101101122121112102021???111111?
+	'Plesiodasypus colombianus'        11?(1 2)1101?000?1011?1?????0?????1?1010?111?0101101121101112012001???111111?
+	'ecuador'                          ????????????????????????????????1010?111?0101101121101112102021???000011?
+	'Stegotherium tauberi'             111(1 2)1101102010011111102101???1011010?01111101101121-0-11-012011???1111111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-73;
+ENDBLOCK;
