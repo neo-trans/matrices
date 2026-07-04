@@ -1,0 +1,1204 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.47.42 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=49;
+	TAXLABELS
+		'pleurodira'
+		'Chelydra serpentina'
+		'Kinosternon odoratus'
+		'Caretta caretta'
+		'Apalone spinifera'
+		'Platysternon megacephalum'
+		'Cuora amboinensis'
+		'Heosemys annandalei'
+		'Rhinoclemmys annulata'
+		'Batagur baska'
+		'Sacalia bealei'
+		'Orlitia borneensis'
+		'Callagur borneoensis'
+		'Siebenrockiella crassicollis'
+		'Cyclemys dentata'
+		'Cuora flavomarginata'
+		'Heosemys grandis'
+		'Geoclemys hamiltonii'
+		'Kachuga kachuga'
+		'Cuora mouhotii'
+		'Notochelys platynota'
+		'Rhinoclemmys pulcherrima'
+		'Mauremys caspica'
+		'Mauremys leprosa'
+		'Mauremys reevesii'
+		'Mauremys sinensis'
+		'Geoemyda spengleri'
+		'Malayemys subtrijuga'
+		'Pangshura tentoria'
+		'Hardella thurjii'
+		'Melanochelys trijuga'
+		'Graptemys barbouri'
+		'Emydoidea blandingii'
+		'Chrysemys picta'
+		'Emys orbicularis'
+		'Trachemys scripta'
+		'Gopherus agassizii'
+		'Chersine hermanni'
+		'Gopherus polyphemus'
+		'Echmatemys skull'
+		'echmatemyscomb'
+		'Echmatemys arethusa'
+		'Echmatemys callopyge'
+		'Echmatemys haydeni'
+		'Echmatemys jeanesi'
+		'Echmatemys lativertebralis'
+		'Echmatemys naomi'
+		'Echmatemys stevensoniana'
+		'Echmatemys wyomingensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=171;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Shape of the fissura ethmoidalis'
+		[2] 'Medial inflection of the inferior descending processes of the frontal'
+		[3] 'Frontal participation to the orbital rim'
+		[4] 'Medial length of the frontals'
+		[5] 'Prefrontal pits'
+		[6] 'Contact between jugal and pterygoid'
+		[7] 'Contact between jugal and palatine'
+		[8] 'Contact of the epipterygoid with the jugal'
+		[9] 'Contact of the inferior process of the parietal with the medial process of the jugal'
+		[10] 'Contact of the inferior process of the parietal with the maxilla'
+		[11] 'Extent of quadratojugal'
+		[12] 'Contribution of jugal to the rim of upper temporal emargination'
+		[13] 'Contact between the quadratojugal and the articular facet of the quadrate'
+		[14] 'Contact between the parietal and the quadrate, partially covering the prootic'
+		[15] 'Shape of the prootic'
+		[16] 'Contact between quadratojugal and maxilla'
+		[17] 'Medial contact of the maxillae along the anterior margin of the jaw'
+		[18] 'Height of the symphysis of the maxilla/premaxilla compared to the height of the fossa nasalis'
+		[19] 'Size of the foramen orbito-nasale'
+		[20] 'Contact between maxilla and vomer'
+		[21] 'Size of the foramen palatinum posterius'
+		[22] 'Position of the pterygoid relative to foramen palatinum posterius'
+		[23] 'Epipterygoid participation in the trigeminal foramen'
+		[24] 'Degree of upper temporal emargination'
+		[25] 'Shape of the labial ridge at the contact of the premaxillae'
+		[26] 'Premaxillary-maxillary pointed cusp'
+		[27] 'Presence of a circular or elliptical premaxillary pit on the ventral part of the premaxillae'
+		[28] 'Participation of palatine in the triturating surface of the upper jaw'
+		[29] 'Participation of the vomer in the triturating surface of the upper jaw'
+		[30] 'Median Maxillary Ridge'
+		[31] 'Lingual ridge'
+		[32] 'Commisural ridge along premaxilla-maxilla suture'
+		[33] 'Median ridge or sulcus of the triturating surface of the upper jaw'
+		[34] 'Lingual border of upper triturating surface joining in premaxillae and forming a well-developed ridge'
+		[35] 'Extent of the Median maxillary ridge'
+		[36] 'Tooth-like tubercles on the labial ridge'
+		[37] 'Tooth-like tubercles on the median maxillary ridge'
+		[38] 'Posterior maxillary process'
+		[39] 'Vomerine foramen'
+		[40] 'Length of the vomer'
+		[41] 'Ridge of the vomer'
+		[42] 'Vomer ridge flag'
+		[43] 'Vomer shape'
+		[44] 'Development of the foramen praepalatinum as a canal (canalis praepalatinum) that is concealed by a bony secondary palate in ventral view'
+		[45] 'Foramen carotico-pharyngeale'
+		[46] 'Contact between pterygoid and basioccipital'
+		[47] 'Contact of the pterygoid with the articular facet of the quadrate'
+		[48] 'Processus pteryoideus externus'
+		[49] 'Closure and depth of the incisura columella auris'
+		[50] 'Processus interfenestralis'
+		[51] 'Basisphenoid shape'
+		[52] 'Degree of expansion of the opisthotic in posterior view'
+		[53] 'Position of the foramen jugulare posterius'
+		[54] 'Extent of the squamosals'
+		[55] 'Horizontal keels in crista supraoccipitalis'
+		[56] 'Shape of crista supraoccipitalis'
+		[57] 'Length of crista supraoccipitalis'
+		[58] 'Angular contribution to the sulcus cartilaginis Meckelii'
+		[59] 'Contact between surangular and dentary'
+		[60] 'Height of the processus coronoideus'
+		[61] 'Foramen dentofaciale majus'
+		[62] 'Foramen nervi auriculotemporalis'
+		[63] 'Foramen nervi auriculotemporalis shape'
+		[64] 'Foramen alveolare inferius & Foramen intermandibularis medius'
+		[65] 'Foramen alveolare inferius'
+		[66] 'Foramen intermandibularis caudalis'
+		[67] 'Prearticular bone'
+		[68] 'Foramen intermandibularis oralis'
+		[69] 'Angle of the dentary symphysis'
+		[70] 'Posterior extension of the lower triturating surface behind the symphysis of the dentary'
+		[71] 'Presence of dentary hook'
+		[72] 'Shape of dentary hook'
+		[73] 'Presence of dentary serration'
+		[74] 'Dentary serration'
+		[75] 'Carapace strongly tricarinate in adult'
+		[76] 'Carapace of adult tectiform in cross-section with a strong posterior projection on the third vertebral scute'
+		[77] 'Postero-lateral side of nuchal'
+		[78] 'General shape of the nuchal'
+		[79] 'Overlapping of the first pleural on the nuchal plate'
+		[80] 'Posterior margin of first vertebral scute significantly narrower than its anterior margin'
+		[81] 'Anterior half of the first vertebral scute much narrower than posterior half, especially in adults'
+		[82] 'Nuchal Notch'
+		[83] 'Anterior Protrusion of the Nuchal'
+		[84] 'Number of neural plates'
+		[85] 'Shape of the first neural'
+		[86] 'Shape and orientation of the second neural'
+		[87] 'Shape and orientation of the third neural'
+		[88] 'Shape of the fourth neural'
+		[89] 'Shape of the fifth neural'
+		[90] 'Number of suprapygals'
+		[91] 'Shape of the suprapygal bones'
+		[92] 'Medial contact of the seventh and/or eighth costal bones'
+		[93] 'Shape of costal rib'
+		[94] 'Position of costal rib head'
+		[95] 'Pygal shape'
+		[96] 'Pygal notch'
+		[97] 'Coincidence between the costo-peripheral suture and the pleuro-marginal sulcus'
+		[98] 'Significant serration of the posterior peripherals'
+		[99] 'Protrusions on the anterior peripherals, on the limit with the sulci between the marginal'
+		[100] 'Cervical scute'
+		[101] 'Shape of the cervical scute'
+		[102] 'Length of the cervical scute'
+		[103] 'Number of vertebral scutes'
+		[104] 'Width of the vertebrals in respect with the pleurals'
+		[105] 'Position of the anterior sulcus of the fourth vertebral scute'
+		[106] 'Position of the posterior sulcus of the fourth vertebral scute'
+		[107] 'Contact of the second marginals with the lateral margin of the nuchal'
+		[108] 'Contact of the second marginal scute with the first vertebral scute'
+		[109] 'Contact of the sixth marginal scute with the third pleural scute'
+		[110] 'Significant contact of the tenth marginal scute with the fifth vertebral scute'
+		[111] 'Overlapping of fifth vertebral on suprapygal'
+		[112] 'Twelfth marginal scute'
+		[113] 'Carapacial hinge'
+		[114] 'shape of the posterior shell border'
+		[115] 'Sutured contact between plastron and carapace'
+		[116] 'Presence and development of anterior buttresses'
+		[117] 'Presence and development of posterior buttresses'
+		[118] 'Shape of the anterior lobe'
+		[119] 'Well-developed gular protrusion, caused by constriction in the gularo-humeral sulcus'
+		[120] 'Extensive overhanging lip of the epiplastra'
+		[121] 'Shape of the dorsal lip of the epiplastra'
+		[122] 'Contact between the gulars and the entoplastron'
+		[123] 'Angle formed by gularo-humeral sulci'
+		[124] 'Median length of humerals, compared to the median length of gulars'
+		[125] 'Shape of the humero-pectoral sulcus medially'
+		[126] 'Shape of the lateral parts of the humero-pectoral sulcus'
+		[127] 'Position of the humero-pectoral sulcus relative to the entoplastron'
+		[128] 'Medial length of pectorals'
+		[129] 'Medially-directed pivoting process for plastral hinge developed on fifth peripheral bone'
+		[130] 'Plastral hinge'
+		[131] 'Contact between inguinal and femoral scutes'
+		[132] 'Presence of axillary glands'
+		[133] 'Presence of inguinal glands'
+		[134] 'Presence of anterior musk duct foramina'
+		[135] 'Presence of posterior musk duct foramina'
+		[136] 'Shape of the femoro-anal sulcus'
+		[137] 'Medial length of the anals'
+		[138] 'Anal notch of the plastron'
+		[139] 'Anal notch shape 1'
+		[140] 'Anal Notch Shape 2'
+		[141] 'Anal scutes fused'
+		[142] 'Plastral scutes with vibrant, radiating color pattern'
+		[143] 'Position of biconvex cervical vertebra'
+		[144] 'Shape of cervical vertebra 2'
+		[145] 'Dorsal process on cervical vertebra 3'
+		[146] 'Postzygapophyses sloping anteriorly in cervical vert 5'
+		[147] 'Ventral keel on cervical vertebra 7'
+		[148] 'Dorsal process on cervical vertebra 8'
+		[149] 'Ventral keel on cervical vertebra 8'
+		[150] 'Shape of coracoid blade'
+		[151] 'Latissimus dorsi scar'
+		[152] 'Major trochanter of the humerus, in relation with the humeral head:'
+		[153] 'Ventral Ischial tubercle in pelvis'
+		[154] 'Angle between the femoral head and the diaphysis of the femur'
+		[155] 'Trochanters of the femur'
+		[156] 'Contact between radius and distal carpals'
+		[157] 'medial and lateral centrale'
+		[158] 'calcaneus and astragalus'
+		[159] 'Number of manual claws'
+		[160] 'Webbing between digits'
+		[161] 'Digit 1 Ph Number Manus'
+		[162] 'Digit 2 Ph Number Manus'
+		[163] 'Digit 4 Ph Number Manus'
+		[164] 'Digit 5 Ph Number Manus'
+		[165] 'fifth phalanx in the pes'
+		[166] 'Dermar armor on limbs'
+		[167] 'Type of dermal armor'
+		[168] 'Development of a suprascapula'
+		[169] 'Development of an episcapula'
+		[170] 'Sexual size dimorphism'
+		[171] 'Position of geniculate ganglion of facial nerve'
+	;
+	STATELABELS
+		1
+			'narrow or closed, keyhole-shaped'
+			'very wide'
+			,
+		2
+			'absent or very small'
+			'present, well-developed, medial contact present or almost present'
+			,
+		3
+			'present'
+			'absent'
+			,
+		4
+			'prefrontals equal or longer than frontals'
+			'frontals longer than prefrontals'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'present, medial process of jugal well-developed and touching the pterygoid'
+			'absent, medial process reduced'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'clearly absent'
+			'present, or almost present, epipterygoid forms a long lateral process that approaches the jugal'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'quadratojugal well developed, firmly attached to jugal'
+			'quadratojugal present, contact lost with jugal'
+			'quadratojugal so heavily reduced that it appears to be absent in many skeletal specimens'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present, quadratojugal sends a process ventrally along the rim of the cavum tympani and touches the lateral edge of the articular facet'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'short and wide'
+			'long and narrow, elongated'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'shorter than the height of fossa nasalis'
+			'shorter than the height of fossa nasalis, but with the development of a dorsal projection'
+			'high, taller than the height of fossa nasalis'
+			,
+		19
+			'small, less than 1/6 of orbit length'
+			'large, more than 1/6 of orbit length'
+			,
+		20
+			'present'
+			'absent, vomer separated from the maxilla by the premaxilla'
+			,
+		21
+			'large'
+			'small'
+			,
+		22
+			'pterygoid situated posterior to the f.p.p'
+			'pterygoid situated posterior to the f.p.p., but sends a process anterior and lateral to the f.p.p'
+			'pterygoid situated posterior to the f.p.p.'
+			'pterygoid situated posterior to the f.p.p., but sends a process anterior and lateral to the f.p.p.'
+			,
+		23
+			'absent'
+			'present, epipterygoid clearly separates the parietal and pterygoid in lateral view'
+			,
+		24
+			'pa/po=pa/fro'
+			'pa/fro=1.5 of pa/po'
+			'pa/fro=3 of pa/po'
+			,
+		25
+			'notched'
+			'straight'
+			'projects ventrally or central premaxillary cusp present'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'present'
+			'absent'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'both structures absent'
+			'median ridge present'
+			'median sulcus present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'restricted to maxilla'
+			'extends to the premaxilla'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'vomer short, not dividing the palatines'
+			'vomer dividing part of the palatines, not reaching or touching the anterior part the pterygoids'
+			'vomer diving part of the pterygoids, not reaching the basisphenoid'
+			'vomer dividing palat ines and pterygoids, reaching the basisphenoid'
+			,
+		41
+			'ventral ridge is present only on the anterior two-thirds of the vomer'
+			'ventral ridge is present also on the posterior third of the vomer'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'flat anterior portion of vomer, and roughly parallel sides, no ridge'
+			'fan-shaped anterior part of the vomer, usually the ridge extends to this point'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'large'
+			'reduced'
+			'absent'
+			,
+		46
+			'present'
+			'absent'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'situated clearly posterior to F. P. P'
+			'situated at the same level with the F. P. P'
+			'situated clearly anterior to F. P. P'
+			'situated clearly posterior to F. P. P.'
+			'situated at the same level with the F. P. P.'
+			'situated clearly anterior to F. P. P.'
+			,
+		49
+			'absent, incisura is open'
+			'present, incisura closed'
+			,
+		50
+			'visible in ventral view'
+			'not visible in ventral view'
+			,
+		51
+			'not V-shaped'
+			'V-shaped (postero-lateral processes present)'
+			,
+		52
+			'not expanded, fenestra postotica open'
+			'expanded, contacts basioccipital not the pterygoid'
+			'expanded, contacts pterygoid'
+			,
+		53
+			'in the exoccipital'
+			'in exoccipital/opisthotic suture'
+			,
+		54
+			'extending beyond condylus occipitalis'
+			'not extending'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'bended ventrally'
+			'straight'
+			'elevated dorsally'
+			,
+		57
+			'extending more than twice the length of the neck of condylus occipitalis (measured from the proximal limit the neck)'
+			'Extending less than twice the length'
+			,
+		58
+			'present, the angular contributes to the sulcus and is as long or longer than the prearticular'
+			'absent, the angular is shorter than the prearticular'
+			,
+		59
+			'simple contact'
+			'strongly interdigitated suture'
+			,
+		60
+			'as high as dentary'
+			'higher than the dentary'
+			'rising significantly above the dentary'
+			,
+		61
+			'small'
+			'large and situated within a large lateral fossa'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'large'
+			'small'
+			,
+		64
+			'separated'
+			'fused'
+			,
+		65
+			'coronoid involved'
+			'coronoid excluded'
+			,
+		66
+			'absent or very small'
+			'present'
+			,
+		67
+			'not extending beyond the coronoid in lingual view'
+			'extending beyond the coronoid'
+			,
+		68
+			'present'
+			'absent'
+			,
+		69
+			'<=60o'
+			'>60o'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'smooth'
+			'medial tooth present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'present in labial'
+			'present in both'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'straight'
+			'constricted transversely'
+			,
+		78
+			'markedly wider than long'
+			'slightly wider than long or as long as wide'
+			'markedly longer than wide'
+			,
+		79
+			'first pleural overlaps postero-lateral parts of the nuchal'
+			'first pleural touches, but it does not overlap the nuchal'
+			'first pleural is not in contact with the nuchal'
+			,
+		80
+			'absent'
+			'present'
+			,
+		81
+			'absent'
+			'present'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'nine'
+			'eight'
+			'seven or less'
+			,
+		85
+			'hexagonal, short sides positioned posteriorly'
+			'rectangular'
+			,
+		86
+			'hexagonal, short sides positioned anteriorly'
+			'hexagonal, short sides positioned posteriorly'
+			'rectangular'
+			'octagonal'
+			,
+		87
+			'hexagonal, short sides positioned anteriorly'
+			'hexagonal, short sides positioned posteriorly'
+			'rectangular'
+			'octagonal'
+			,
+		88
+			'rectangular'
+			'hexagonal, short sides positioned anteriorly'
+			'octagonal'
+			'hexagonal, short sides positioned posteriorly'
+			,
+		89
+			'hexagonal'
+			'rectangular'
+			'octagonal'
+			,
+		90
+			'two'
+			'one'
+			,
+		91
+			'two, the contact between the suprapygals is straight and perpendicular to the axial plane'
+			'two, first suprapygal embrasses the lenticular second one'
+			'one, suprapygals fused, constituting one trapeze'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'wide and flat'
+			'narrow and thin'
+			,
+		94
+			'deep in the costal'
+			'far from neural/costal suture'
+			'on or very near the neural/costal suture'
+			,
+		95
+			'quadrangular'
+			'hexagonal with small latero-anterior borders'
+			,
+		96
+			'absent'
+			'present'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'absent or poorly developed'
+			'well developed'
+			,
+		100
+			'present'
+			'absent'
+			,
+		101
+			'longer than wide'
+			'wider than long'
+			,
+		102
+			'short, equal or less to the 25% of the nuchal length'
+			'long, longer than the 25% of the nuchal length'
+			,
+		103
+			'five'
+			'six or more'
+			,
+		104
+			'wide vertebrals, wider than the pleurals'
+			'wide vertebrals, almost equal to the pleurals'
+			'narrow vertebrals, narrower than the pleurals'
+			,
+		105
+			'sulcus lies on the fifth neural'
+			'sulcus lies on fourth neural, or on the suture between the fourth and fifth neural'
+			'sulcus lies on the sixth neural, or on the suture between the fifth and sixth neural'
+			,
+		106
+			'sulcus lies on the eighth neural, or on the homologue of the eighth neural, if the seventh is reduced'
+			'sulcus lies on the seventh neural, or on the suture between the seventh and eight neural'
+			'eighth neural absent, sulcus overlies costals that meet at the midline'
+			'lies on the ninth neural (or 1st suprapygal out of 3)'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'absent'
+			'present'
+			,
+		109
+			'absent'
+			'present'
+			,
+		110
+			'absent'
+			'present'
+			,
+		111
+			'the posterior sulcus of the fifth vertebral overlaps the anterior part of the pygal'
+			'the posterior sulcus of the fifth vertebral coincides with the suprapygal-pygal suture'
+			'the posterior sulcus of the fifth vertebral crosses the suprapygal transversely'
+			,
+		112
+			'divided'
+			'fused'
+			,
+		113
+			'absent'
+			'present'
+			,
+		114
+			'curved inwards'
+			'posterior border posteriorly flared'
+			,
+		115
+			'present, plastron and carapace are tightly connected by an osseous bridge'
+			'absent, plastron is attached to carapace by connective tissue'
+			,
+		116
+			'anterior buttresses absent'
+			'anterior buttresses present but small, and not in contact with the first costal bones'
+			'anterior buttresses long and thin and just barely in contact with the costal bones, if at all'
+			'anterior buttresses well developed and in clear contact with the first costal bones'
+			'anterior buttresses very large and in direct contact with the first dorsal rib'
+			,
+		117
+			'posterior buttresses absent'
+			'posterior buttresses present but small, and not in contact with the costal bones'
+			'posterior buttresses long and thin and just barely in contact with the costal bones, if at all'
+			'posterior buttresses well developed and in clear contact with costal bones V and VI'
+			'posterior buttresses well developed but only in clear contact with costal bone V'
+			,
+		118
+			'subrounded to straight'
+			'medially notched'
+			'trilobed'
+			,
+		119
+			'absent'
+			'present'
+			,
+		120
+			'absent'
+			'present'
+			,
+		121
+			'concave'
+			'relatively flat'
+			'clearly convex'
+			,
+		122
+			'not in contact'
+			'in contact with the anterior margin'
+			'covering the anterior area'
+			,
+		123
+			'more than 90o'
+			'between 90-60o'
+			'less than 60o'
+			,
+		124
+			'humerals equal or smaller than the gulars'
+			'humerals longer than the gulars'
+			,
+		125
+			'not perpendicular to the axial plane, rounded or forming a wide angle'
+			'perpendicular to the axial plane'
+			'wavy, i.e. medially convex anteriorly, laterally concave posteriorly'
+			,
+		126
+			'perpendicular to the axial plane, relatively straight throughout its width'
+			'perpendicular to the axial plane, with concave posteriorly lateral parts'
+			'perpendicular to the axial plane, with convex anteriorly lateral parts'
+			,
+		127
+			'posterior to the entoplastron'
+			'coinciding medially with the posterior suture of the entoplastron'
+			'crossing the entoplastron'
+			,
+		128
+			'long'
+			'short'
+			,
+		129
+			'absent'
+			'present'
+			,
+		130
+			'absent'
+			'present, between hyoplastra and hypoplastra'
+			'present, between hypoplastra and xiphiplastra'
+			,
+		131
+			'absent'
+			'present'
+			,
+		132
+			'present'
+			'absent'
+			,
+		133
+			'present'
+			'absent'
+			,
+		134
+			'present'
+			'absent'
+			,
+		135
+			'present'
+			'absent'
+			,
+		136
+			'forms an acute angle with the axial plane'
+			'straight or slightly rounded, developed mainly perpendicular with the axial plane'
+			'omega shaped'
+			,
+		137
+			'shorter than the median length of femoral'
+			'equal or longer than the medial length of femoral'
+			,
+		138
+			'present'
+			'absent'
+			,
+		139
+			'deep'
+			'reduced'
+			,
+		140
+			'angular'
+			'rounded'
+			,
+		141
+			'absent'
+			'present'
+			,
+		142
+			'absent'
+			'present'
+			,
+		143
+			'fourth'
+			'third'
+			,
+		144
+			'longer than tall'
+			'short & tall'
+			,
+		145
+			'present'
+			'absent'
+			,
+		146
+			'present'
+			'absent'
+			,
+		147
+			'anteriorly placed'
+			'rounded symmetric'
+			'low'
+			,
+		148
+			'prominent'
+			'not prominent'
+			,
+		149
+			'all along the centrum'
+			'isolated in the middle'
+			,
+		150
+			'long and narrow'
+			'short and very wide'
+			,
+		151
+			'absent or reduced'
+			'present'
+			,
+		152
+			'short not extending beyond the humeral head'
+			'long, extending beyond the humeral head'
+			,
+		153
+			'not triagonal'
+			'triagonal in ventral view'
+			,
+		154
+			'relatively large'
+			'femoral head developed almost perpendicular to the diaphysis'
+			,
+		155
+			'not fused'
+			'fused'
+			,
+		156
+			'absent'
+			'present'
+			,
+		157
+			'not fused'
+			'fused'
+			,
+		158
+			'not fused'
+			'fused'
+			,
+		159
+			'five'
+			'four'
+			'three'
+			'two'
+			,
+		160
+			'present, well developed'
+			'absent, or at least strongly reduced'
+			,
+		161
+			'three'
+			'two'
+			'one'
+			'zero'
+			,
+		162
+			'three'
+			'two'
+			'one'
+			'zero'
+			,
+		163
+			'three'
+			'two'
+			'one'
+			'zero'
+			,
+		164
+			'three'
+			'two'
+			'one'
+			'zero'
+			,
+		165
+			'present, visible externally'
+			'not visible externally, vestigial present internally'
+			'completely absent'
+			,
+		166
+			'absent'
+			'present'
+			,
+		167
+			'thigh spurs'
+			'thigh plate'
+			'caudal buckler'
+			,
+		168
+			'absent'
+			'present'
+			,
+		169
+			'absent'
+			'present'
+			,
+		170
+			'absent'
+			'present, female much larger than male'
+			,
+		171
+			'in canalis cavernosus'
+			'in facial canal of the prootic'
+			,
+	;
+	MATRIX
+	'pleurodira'                        -000001000(0 1)(0 1)00?-001010-01000001001-0-000----2000(0 1)00000000(0 1)00010--?1?00100-00022000021001012(0 1)0(1 2)00000(0 1)--0(0 1 2)(0 2)-0(0 1)00010(0 1)1(0 1 3 4)(0 1 3 4)000-0--0-(0 1)000-00(0 1)(0 1)1000(0 1)00???????0????????00?????0-000(0 1)
+	'Chelydra serpentina'               00(0 1)00000000010010010001000-1000000-0-00000-000001000000000000100010010100-00000000000-(0 2)????000?-010010000-00000101100000--010--000-001111---00001110100000000000000000-0000
+	'Kinosternon odoratus'              00100010000010?1001010111001000?00-0-00100-0100000000000000000-0001000100-0010010002011111210100000000010200000100011000--010--000-00110100000001101-0000?010000000000-000?
+	'Caretta caretta'                   00110110000010?10200--102001000000-0-00100?0000-0?00000000000????????0????00???00????00????1?????1?0??0?0-?010?1??100??0??????-?00-0011??-??00???????0????????30?????0-0000
+	'Apalone spinifera'                 00000000000100100010111110?0000001-0-00100-0100-1100000100020????????0????00-0---00211110--101------------------0-100--0--------00-0011-------?01121-0????????20?????0-0010
+	'Platysternon megacephalum'         001000?00000000102?010102000000000-0-00100-020001100100000020??00?1?00100-0000100101111310000100000010011-00000001000000-2011010000000?1101000101121100000000?0?000000-???0
+	'Cuora amboinensis'                 00(0 1)1000000100010000100012000000000-0-00100-020000100010(0 1)01010?????1?00???0001000000201110121020000000001020(0 1)002000111000-21010201100000011--000001???0?????0??00?????0-000?
+	'Heosemys annandalei'               001?00?000200??00?11100????0000?0?????0????1?00?0????????1000????????1????00???0001??11????002???0?0100100?0(0 1)0?000034100-0010-2000000000100000???????0????????00?????0-00??
+	'Rhinoclemmys annulata'             00(0 1)?000000100??01?0(0 1)000????0000?0?????0????0?00?0????????1000????????0????00???00????11????0?????0?0??0?00?000????011100-200102000000??1100000???????0????????01?????0-000?
+	'Batagur baska'                     000000100000001000101000010(0 1)01001011000100-110000000000100010100110101110-0000000002100100(0 1)1020000?010000000111001043000-20110000000000100010000010010??000?1010100100-0000
+	'Sacalia bealei'                    0001000000100010000010010010001001-0-00100-020000100010101010??10?1?00????0001100001(0 1)(1 3)(0 2)10000020000000101000(0 1)002000034000-20010200000000010000000111110????????00?????0-000?
+	'Orlitia borneensis'                001100000000001000100001(0 1)00001000100000100-020000000000011020??1011?1010??00???10????00????0?????0?0??0?00?0(0 1)0?0??033??0??????0?0000000??00?00???????0????????00?????0-000?
+	'Callagur borneoensis'              000100100000000000101001010001001100000100-120000000010001010??11?1?110-1000???00????00????0?????0?00?0101?0(0 1)0?001043000-?010-0000000000000000???????0????????00?????0-000?
+	'Siebenrockiella crassicollis'      00(0 1)0000000000000000010011000000000-0-00100-010000010010001020111101?10100-000001000110010000020001?001020000(0 1)00000033000-2101010000000000000000??????0????????00000000-0000
+	'Cyclemys dentata'                  000?000000100??00?00000????000000?????0????0?00?0????????0010????????0????00???01??11??1???002???1?0??0?00?00000??111??0??????2?0000011??00101???????0????????00?????0-0000
+	'Cuora flavomarginata'              000?010000200??00?0(0 1)000????0000?0?????0????0?00?0????????1000????????0????00???00????11????1?????0?0??0?01?00000??111??0??????(1 2)?1100011??1-?10???????0????????01?????0-0000
+	'Heosemys grandis'                  001?00(0 1)000200??00?00000????0000?0?????0????0?00?0????????(0 1)0?0????????0????00???0(0 1)????11????0?????1?0??0?00?0(0 1)000??034??0??????(1 2)?0000000??00?01???????0????????01?????0-000?
+	'Geoclemys hamiltonii'              0111001000010000000010010011100?00-0-00100-0200001000101010101??1?1?11100-1010000001100100000200110001020010(0 1)02000033000-210101000100001000100???????0????????00?????0-0000
+	'Kachuga kachuga'                   001?001000000??00?10100????0010?1?????0????1?00?0????????1020????????1????00???00????00????0?????0?0??0?10?011?0??043??0??????0?0000000??00?00???????0????????00?????0-00??
+	'Cuora mouhotii'                    000?010000100??00?00111????0000?0?????0????0?00?0????????1000????????0????10???00????11????0?????1?0??0?00?000?0??111??0??????(1 2)?1100000??(0 1)(0 1)?00???????0????????01?????0-000?
+	'Notochelys platynota'              011?001000100??00?00000????0000?0?????0????0?00?(0 1)????????10?0????????0????00???00????00????002???1?0??1?01?000?0??103??0??????1?0100001??1-?00???????0????????00?????0-000?
+	'Rhinoclemmys pulcherrima'          00(0 1)?000000100??00?01000????0000?0?????0????0?(0 1)0?0????????10?0????????0????001000000101110??002??00000?02000000?00?014000-2102-20000001?0100000???????0????????00?????0-000?
+	'Mauremys caspica'                  0000000000100?10000(0 1)00000110000000-0-00100-0200000000100110101110?1010100-000020000110010000020000000100001(0 1)(0 1)02000034000-21010200000000000000000000110??0?01??00000000-000?
+	'Mauremys leprosa'                  0001000000000010000000010110000000-0-00100?01000000001010?????????????????000120000(0 1)100100000201000001010011(0 1)02000033000-2102-200000000(1 2)100100????????????????????????????1
+	'Mauremys reevesii'                 0011001100000000000010011011100000-0-00100-010000100010101020??11?0?010-0-1001000001100100000200000000000000(0 1)00000033000-2102-200000000010010000011000?????1??00?????0-000?
+	'Mauremys sinensis'                 00010010000000100?101000???0010000-0-00100-1(1 2)100000??102010?0????????0????00000000011001000002000000?0020010(0 1)02000033000-1110-2000000000100000???????0????????00?????0-000?
+	'Geoemyda spengleri'                000?0(0 1)0000000??01?00101????0000?0?????0????0?00?0????????10?0????????0????10???00????11????0?????1?0??0?00?000?0??034??0????????0000000??00?00???????0????????01?????0-000?
+	'Malayemys subtrijuga'              0011000011001001000010020011000000-0-10100-020100100000(1 2)01020????????1????100000000110(1 3)000000200000011010000(0 1)02000033000-2000-0000000001000100???????0????????00?????0-0000
+	'Pangshura tentoria'                000?001000000??00?10100????0010?0?????0????1?00?0????????1020????????1????0100000001100110000200000000021000112000043??0??????0?0000000??00?00???????0????????00?????0-00??
+	'Hardella thurjii'                  000?001000000??00?10100????0110?1?????0????1?00?0????????0?01????????1????00???00????00????002???0?0??0?01?010?0??043??0??????0?0000000??00?00???????0????????00?????0-001?
+	'Melanochelys trijuga'              000?0(0 1)0000100??00?00000????0000?0?????0????0?(0 1)0?0????????1000????????0????1001000001131110000200000000020000(0 1)02000034000-2102-2000000001100000???????0????????00?????0-000?
+	'Graptemys barbouri'                0001001110000011001010010011(0 1)00000-0-00100-0?10?0?0??00200020???????00100-01???00????00????0?????1?0??0?00?000?0??034??0??????0?0001111??00?00???????0????????00?????0-001?
+	'Emydoidea blandingii'              000100000000000000?000000000000000-0-00100-00100000001020000010???1?00100-00002000011(0 3)0100000100000000000001002000111000-2100-101100111211--00?00????0?????01?00000000-1100
+	'Chrysemys picta'                   0000001100000000001000001(0 1)0001000000-00100-0110000000000001100-1010000100-000200000110010000010000000100000(0 1)000000034000-21010000001111011--000000001000?1000100000000-00(0 1)?
+	'Emys orbicularis'                  0001000000000000000000000010000000-0-00100-01(0 1)000000010200100????????0????000000000110010000010000000001001(0 1)000000111000-2102-(1 2)00100111211--00???????0?????0??00?????0-1000
+	'Trachemys scripta'                 0001001100000?0000101000010101000000-00100-011000000000(1 2)00010111?10?00100-000100011110010000010000?010010000000000034000-210100000011110100?0000000??000000?0000000000-00(0 1)?
+	'Gopherus agassizii'                11(0 1)011000000000001?0110210100100110001111110100(0 1)1(0 1)00?101010110-10111100-100000200001132210101201(0 1)0001001000010210002221111210?010011111100000000001111??0?11??01111(1 2)20-000?
+	'Chersine hermanni'                 1100010???00001000011??2211001000001010211102(0 1)0(0 1)1(0 1)01110211100(0 1)10111100101000(0 1)111000213221120121010100102000001100002200122200-11000111101000000100101101001011012112(1 2)0-00??
+	'Gopherus polyphemus'               110011000000000000?0110210100100110001011110(1 2)(0 1)001000000011011??00111100-100000200001132210001201100010010000102100022(1 2)1101110-000011111200000001002111100?11??01(1 2)11220-0000
+	'Echmatemys skull'                  0001000000?0?00?000000010000000000-0-0011010100000021?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????1
+	'echmatemyscomb'                    0001000000?0?00?000000010000000000-0-0011010100000021?????????????????????000(0 1)(0 1 2)00001(0 1)(0 3)(0 1 2)(1 2 3)(0 1)000020000000(0 1)02000(0 1)002001033(0 1 2)00-2(1 2)(0 1)(0 2)-(0 1 2)000(0 1)0000(0 1)(0 1)00(0 1)0?????????????????????????????1
+	'Echmatemys arethusa'               ??????????????????????????????????????????????????????????????????????????000100000100010000??000000000200000020010??200-2202-2000?0000????????????????????????????????????
+	'Echmatemys callopyge'              ??????????????????????????????????????????????????????????????????????????000000000110010000??00000000020000002001033000-2202-200000000010010??????????????????????????????
+	'Echmatemys haydeni'                ??????????????????????????????????????????????????????????????????????????00002000011(0 3)(0 2)2(0 1)000??00000000020000002001033000-2102-200010000100000??????????????????????????????
+	'Echmatemys jeanesi'                ??????????????????????????????????????????????????????????????????????????000100000110010000????000000020000002001033000-2110-(1 2)00000000000000??????????????????????????????
+	'Echmatemys lativertebralis'        ??????????????????????????????????????????????????????????????????????????0001(0 2)0000110010000??00000001020001002001033000-2102-000000000110000??????????????????????????????
+	'Echmatemys naomi'                  ??????????????????????????????????????????????????????????????????????????000020000110010000??00000000020001002001033200-2102-200010000100010??????????????????????????????
+	'Echmatemys stevensoniana'          ??????????????????????????????????????????????????????????????????????????0001200001100100000200000000020001002001033100-2102-200010000010110??????????????????????????????
+	'Echmatemys wyomingensis'           ??????????????????????????????????????????????????????????????????????????0000(0 2)0000110010000??00000000020000002001033000-2102-200010000100000??????????????????????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-10 12-17 19-23 25-32 34-39 41-44 46-51 53-59 61-77 80-83 85-92 94-103 106-110 112-115 118-126 128-164 166-171, ord: 11 18 24 33 40 45 52 60 78-79 84 93 104-105 111 116-117 127 165;
+ENDBLOCK;
+BEGIN MESQUITE;
+
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1767626292220;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 7533660748407118094;
+			tell It;
+				setDefaultOrder  0 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21 22 13 48 23 24 25 26 27 28 29 30 31 33 34 37 65 78 87 75 39 40 41 42 43 44 45 46 47;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 3157918184595433309;
+			mqVersion 381;
+			checksumv 0 3 1654732227 null  getNumChars 171 numChars 171 getNumTaxa 49 numTaxa 49   short true   bits 31   states 31   sumSquaresStatesOnly 22266.0 sumSquares 22266.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 248;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1142 1005;
+			setLocation 28 25;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #3157918184595433309 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 269;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 40;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 894 913;
+					setLocation 28 25;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames off;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 894 933;
+						setLocation 28 25;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1- 171;
+ENDBLOCK;

@@ -1,0 +1,663 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.48.54 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=30;
+	TAXLABELS
+		'Greererpeton burkemorani'
+		'Dendrerpeton helogenes'
+		'Eryops megacephalus'
+		'Acheloma cumminsi'
+		'Phonerpeton pricei'
+		'Anconastes vesperus'
+		'Ecolsonia cutlerensis'
+		'Cacops morrisi'
+		'Cacops aspidephorus'
+		'Cacops woehri'
+		'USNM pal 406323'
+		'Parioxys ferricolus'
+		'Anakamacops petrolicus'
+		'Kamacops acervalis'
+		'Dissorophus multicinctus'
+		'Diploseira angustus'
+		'Broiliellus brevis'
+		'Broiliellus reiszi'
+		'Broiliellus texensis'
+		'Broiliellus arroyoensis'
+		'Broiliellus olsoni'
+		'Scapanops neglectus'
+		'Conjunctio multidens'
+		'Aspidosaurus binasser'
+		'Platyhystrix rugosa'
+		'Brevidorsum profundum'
+		'Reiszerpeton renascentis'
+		'Doleserpeton annectens'
+		'Eoscopus lockardi'
+		'Micromelerpeton credneri'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=110;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Temporal region (lateral expansion) - M1'
+		[2] 'Preorbital-postorbital length - M1'
+		[3] 'Suborbital bar height - M1'
+		[4] 'Squamosal embayment-orbit - M1'
+		[5] 'Skull (prenarial length) - M1'
+		[6] 'Skull table-cheek - M1'
+		[7] 'Posterior skull (lateral profile) - M1'
+		[8] 'Snout (lateral profile) - M1'
+		[9] 'Snout (dorsal profile) - M1'
+		[10] 'Naris (dorsal subdivision) - M1'
+		[11] 'Nasal (lateral margin) - M1'
+		[12] 'Internarial fenestra - M1'
+		[13] 'Septomaxilla - M1'
+		[14] 'Marginal teeth (caniniform) - M1'
+		[15] 'Marginal dentition (bicuspidity) - M1'
+		[16] 'Marginal dentition (pedicelly) - M1'
+		[17] 'Maxillary teeth (count) - M1'
+		[18] 'Maxilla (posterior extent) - M1'
+		[19] 'Maxilla-quadratojugal - M1'
+		[20] 'Lacrimal-naris - M1'
+		[21] 'Lacrimal-orbit - M1'
+		[22] 'LEP - M1'
+		[23] 'LEP (shape) - M1'
+		[24] 'LEE - M1'
+		[25] 'Maxilla-orbit - M1'
+		[26] 'Nasals (anterior extent) - M1'
+		[27] 'Narial flange - M1'
+		[28] 'Prefrontal (preorbital region) - M1'
+		[29] 'Prefrontal (ventral process) - M1'
+		[30] 'Prefrontal-jugal - M1'
+		[31] 'Prefrontal (ridge) - M1'
+		[32] 'Prefrontal-postfrontal - M1'
+		[33] 'Frontals (anterior extent) - M1'
+		[34] 'Frontals (midline length) - M1'
+		[35] 'Interorbital width - M1'
+		[36] 'Postorbital - M1'
+		[37] 'Postorbital-supratemporal - M1'
+		[38] 'Parietals (anterior constriction) - M1'
+		[39] 'Jugal (anterior extent) - M1'
+		[40] 'Jugal-maxilla - M1'
+		[41] 'Jugal (eminence) - M1'
+		[42] 'Intertemporal - M1'
+		[43] 'Squamosal-supratemporal - M1'
+		[44] 'Squamosal embayment (exposure) - M1'
+		[45] 'Squamosal embayment (constriction) - M1'
+		[46] 'Supratympanic flange - M1'
+		[47] 'Semilunar flange - M1'
+		[48] 'Semilunar curvature - M1'
+		[49] 'Supratympanic shelf - M1'
+		[50] 'Tabular (dorsal exposure) - M1'
+		[51] 'Tabular (ventral process) - M1'
+		[52] 'Tabular-squamosal - M1'
+		[53] 'Tabular-exoccipital - M1'
+		[54] 'Postparietal (proportions) - M1'
+		[55] 'Postparietal-exoccipital - M1'
+		[56] 'Quadrate (dorsal process) - M1'
+		[57] 'Ornamentation (tubercules) - M1'
+		[58] 'Ornamentation (distribution) - M1'
+		[59] 'Ornamentation (dorsal eminences) - M1'
+		[60] 'Occiput (dorsal rim) - M1'
+		[61] 'Occiput (posterior margin) - M1'
+		[62] 'Stapes (morphology) - M1'
+		[63] 'Stapes (stapedial foramen) - M1'
+		[64] 'Opisthotic-prootic - M1'
+		[65] 'Sphenethmoid - M1'
+		[66] 'Parasphenoid (dentition) - M1'
+		[67] 'Parasphenoid (denticle field) - M1'
+		[68] 'Parasphenoid (basal plate) - M1'
+		[69] 'Parasphenoid (muscle pockets) - M1'
+		[70] 'Parasphenoid (carotid arteries) - M1'
+		[71] 'Parasphenoid (cultriform process) - M1'
+		[72] 'Basicranial articulation - M1'
+		[73] 'Choana - M1'
+		[74] 'Vomer (median depression) - M1'
+		[75] 'Vomer (posterolateral ramus) - M1'
+		[76] 'Vomer (dentulous ridge) - M1'
+		[77] 'Vomer (median septum) - M1'
+		[78] 'Vomer (denticle field) - M1'
+		[79] 'Vomer (fangs) - M1'
+		[80] 'Palatine, ectopterygoid - M1'
+		[81] 'Interpterygoid vacuity - M1'
+		[82] 'Pterygoid-vomer - M1'
+		[83] 'Pterygoid (transverse flange) - M1'
+		[84] 'Interpterygoid vacuity-choana - M1'
+		[85] 'Jaw articulation - M1'
+		[86] 'Prearticular - M1'
+		[87] 'Inframeckelian foramen - M1'
+		[88] 'Angular (ventral edge) - M1'
+		[89] 'Osteoderms (distribution) - M1'
+		[90] 'Osteoderms (width) - M1'
+		[91] 'Osteoderm (series) - M1'
+		[92] 'Internal osteoderms - M1'
+		[93] 'External osteoderms - M1'
+		[94] 'Ventral flanges - M1'
+		[95] 'Cleithrum (head) - M1'
+		[96] 'Scapula - M1'
+		[97] 'Humerus (supinator process) - M1'
+		[98] 'Humerus (deltopectoral depression) - M1'
+		[99] 'Femur (adductor crest) - M1'
+		[100] 'Interclavicle - M1'
+		[101] 'Clavicle ornamentation - M1'
+		[102] 'Ilium (dorsal process) - M1'
+		[103] 'Atlas (neural arch) - M1'
+		[104] 'Trunk intercentra - M1'
+		[105] 'Trunk pleurocentra - M1'
+		[106] 'Trunk ribs - M1'
+		[107] 'Anterior trunk ribs - M1'
+		[108] 'Presacral count - M1'
+		[109] 'Ribs (uncinate processes) - M1'
+		[110] 'Sacral rib (count) - M1'
+	;
+	STATELABELS
+		1
+			'lateral margins of skull mostly continuous without prominent inflections'
+			'temporal region prominently expanded relative to snout region, resulting in a laterally concave inflection along the lateral margin in the suborbital region'
+			,
+		2
+			'preorbital length greater than postorbital length by greater than 10%'
+			'preorbital and postorbital lengths approximately equal'
+			'postorbital length greater than preorbital length by greater than 10%'
+			,
+		3
+			'greater than 10% of the total midline skull length'
+			'less than 10% of the total midline skull length'
+			,
+		4
+			'greater than 25% of the total midline skull length'
+			'between 10 and 25% of the total midline skull length'
+			'less than 10% of the total midline skull length'
+			,
+		5
+			'equal to 10% or greater of midline length of skull'
+			'less than 10% of midline length of skull'
+			,
+		6
+			'gradual and much less than 90° to produce low, flat skull roof with orbits facing dorsally'
+			'angle between skull table and cheek sharply defined with cheek oriented nearly vertical to skull table to produce box-like skull roof with orbits facing laterally'
+			,
+		7
+			'dorsal margin of the posterior skull roof is confluent with that of the anterior skull, forming a continuous surface'
+			'dorsal margin is discontinuous, with a distinct inflection point at about the level of the mid-orbit and a steep sloping of the skull from this point anteroventrally'
+			,
+		8
+			'dorsal surface either flat and set at a sloping angle or convexly curved'
+			'skull roof with prominent inflection anterior to the orbit, producing a horizontal snout'
+			,
+		9
+			'anterior region of skull (around naris) with lateral margin straight in dorsal view'
+			'laterally convex'
+			,
+		10
+			'dorsomedial margin is smoothly curved without partial subdivision by a projection of the nasal'
+			'nasal projects ventrolaterally to partially subdivide naris'
+			,
+		11
+			'nasal lateral margin is anteroposteriorly straight such that nasal does not widen anteriorly'
+			'lateral margin is straight but angled anteroventrally such that nasal widens anteriorly'
+			'lateral margin is prominently stepped anterior to the prefrontal such that nasal widens anteriorly'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'at posterior rim of naris'
+			'at mid-level of naris, pointing inside'
+			,
+		14
+			'uniform in size'
+			'caniniform teeth on premaxilla and maxilla'
+			,
+		15
+			'the crowns of marginal and palatal teeth are primitively monocuspid'
+			'the crowns are bicuspid, with the cusps oriented lingually-labially'
+			,
+		16
+			'the crowns of marginal and palatal teeth are conical and continuous with the base'
+			'the crowns are separated from the base by a poorly or uncalcified zone (pedicely)'
+			,
+		17
+			'less than or equal to 30 positions'
+			'31 to 40 positions'
+			'41 to 50 positions'
+			'51 to 60 positions'
+			'more than 60 positions'
+			,
+		18
+			'maxilla and its dentition extending posterior to the level of the posterior margin of the orbit'
+			'maxilla extends posterior to the level of the posterior margin of the orbit but dentition terminates at or anterior to the level'
+			'maxilla terminates at the level of such margin or anterior to it'
+			,
+		19
+			'contact present in form of abutting suture, does not divide jugal and maxilla'
+			'contact present in form of overlapping suture, partially divides jugal and maxilla'
+			'contact absent'
+			,
+		20
+			'lacrimal excluded from naris'
+			'lacrimal restricted to the posterior border of external naris'
+			'arial process with length less than 50% of the length of the external naris'
+			'subnarial process with length equal to or greater than 50% of the length of the external naris'
+			,
+		21
+			'lacrimal contacts orbital margin'
+			'lacrimal excluded from orbit'
+			,
+		22
+			'no lateral exposure'
+			'lateral exposure present'
+			,
+		23
+			'elongate exposure along dorsal edge of maxilla'
+			'enlarged LEP with lateral depression and extends deeply into dorsal border of maxilla'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'maxilla excluded from orbit'
+			'maxilla enters orbit'
+			,
+		26
+			'nasals contact premaxillae in a transverse suture at level of anterior margins of external nares'
+			'nasals extend beyond anterior margins of external nares'
+			,
+		27
+			'ventral (inner) side of prefrontal, lacrimal, and nasal smooth'
+			'inner side of these bones forming complicated bar-like structure (narial flange), permitting contact with antorbital bar'
+			,
+		28
+			'prefrontal extends anteriorly to a level far short of posterior margin of a non-constricted external naris and lateral expansion of the nasal forms almost entire dorsal margin of the naris'
+			'prefrontal borders posterior third of dorsal margin of posterior subdivision of external naris and posterior half of nasal greatly expanded laterally to contribute about 60 to 70% to dorsal border of external naris'
+			'prefrontal borders entire or nearly the entire dorsal margin of posterior subdivision of external naris, reducing contribution of nasal to dorsal border of external naris to 40% or less and the lateral expansion of its posterior half to a width equal to or slightly less than anterior half'
+			,
+		29
+			'prefrontal forming simple suture with lacrimal laterally'
+			'prefrontal underplating lacrimal widely by means of ventral prefrontal process, often abbreviated ?VPP?'
+			,
+		30
+			'contact present'
+			'contact absent'
+			,
+		31
+			'prefrontal smooth without prominent expansion along orbital rim'
+			'prefrontal expanded to form distinct ornamented swelling'
+			'prefrontal swelling extends anteriorly towards the naris to form a distinct ridge, offsetting the lateral and dorsal surfaces of the snout'
+			,
+		32
+			'contact present'
+			'contact absent'
+			,
+		33
+			'well beyond level of anterior margins of orbits'
+			'at approximately level of anterior margins of orbits'
+			,
+		34
+			'exceeded by midline length of parietals'
+			'exceeds or equals midline length of parietals'
+			,
+		35
+			'interorbital region narrower than orbit when viewed dorsally'
+			'interorbital region equal in width to orbit'
+			'interorbital region wider than orbit'
+			,
+		36
+			'narrowing posteriorly, resulting in a more triangular dorsal contour'
+			'not narrowing, ending bluntly and resulting in a more rectangular dorsal contour'
+			,
+		37
+			'contact present'
+			'contact absent'
+			,
+		38
+			'parietal tapers gradually with a straight oblique contact with the postfrontal'
+			'parietal tapers slightly more abruptly with a curved contact with the postfrontal'
+			'parietal tapers abruptly by a posteromedial expansion of the postfrontal, producing step-like contact'
+			,
+		39
+			'irrespective of its lost contact to the lacrimal, the jugal may be either anteriorly long'
+			'it may lack the anterior process and end bluntly'
+			,
+		40
+			'jugal in abutting contact with maxilla'
+			'jugal with ventral process that overhangs the maxilla'
+			,
+		41
+			'jugal ornamented like other roofing elements'
+			'jugal with developed eminence'
+			,
+		42
+			'present'
+			'absent'
+			,
+		43
+			'dorsal exposure of suture between squamosal and supratemporal more than half as long as supratemporal itself'
+			'foreshortened squamoso-supratemporal suture less than half the length of supratemporal'
+			,
+		44
+			'embayment well-exposed laterally'
+			'embayment with reduced lateral exposure of the ventral flange'
+			,
+		45
+			'embayment relatively open, with ventral flank of unornamented flange descending at relatively steep angle'
+			'embayment dorsoventrally constricted, with ventral flank nearly horizontal'
+			,
+		46
+			'squamosal continuously ornamented around margin of squamosal embayment'
+			'squamosal having dorsally exposed and ornamented area (supratympanic flange) stepping abruptly into steeply aligned, poorly ornamented portion'
+			,
+		47
+			'supratemporal without ventral projection into squamosal embayment'
+			'supratemporal forming marked ventral flange participating in medial bordering of squamosal embayment'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'developed ornamentation produces slight overhang'
+			'flat expansion of roofing elements, with smooth ventral surface, extending laterally over the flange'
+			,
+		50
+			'tabular narrower than postparietal but reaching almost same surface area as latter'
+			'tabular distinctly smaller than postparietal, less than 50% of the area of the latter'
+			,
+		51
+			'absent'
+			'short process well-separated from the quadrate'
+			'well-developed ventral process that closely approaches or that contacts the quadrate'
+			,
+		52
+			'contact absent'
+			'contact present'
+			,
+		53
+			'contact absent'
+			'contact present'
+			,
+		54
+			'postparietal of relatively equant proportions, only slightly wider than long'
+			'prominently foreshortened with width markedly greater than length'
+			,
+		55
+			'contact present'
+			'contact absent'
+			,
+		56
+			'quadrate having smooth posterodorsal side in plesiomorphic state'
+			'quadrate with prominent dorsoposterior out-growth: the quadrate process'
+			,
+		57
+			'raised cranial regions of tubercular ornamentation absent'
+			'present'
+			,
+		58
+			'evenly developed throughout'
+			'varies greatly in intensity'
+			,
+		59
+			'skull table without major raised areas other than ornamenting ridges'
+			'skull table with elevated eminences on the frontal, parietal, postfrontal, and postparietal'
+			,
+		60
+			'ornamentation not developed into clear ridge'
+			'ornament forming marked transverse ridge (?nuchal ridge?)'
+			,
+		61
+			'straight or concave'
+			'biconcave'
+			,
+		62
+			'stapes with pronounced dorsodistal curvature'
+			'stapes without dorsodistal curvature'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'distinct and not co-ossified'
+			'co-ossified'
+			,
+		65
+			'ossified'
+			'unossified'
+			,
+		66
+			'basal plate of parasphenoid bearing shagreen of small teeth (denticles) anteromedially'
+			'plate entirely smooth'
+			,
+		67
+			'parasphenoid denticle field well established, with triangular outline and with apex reaching onto base of cultriform process'
+			'denticle field greatly expanded anteriorly to cover most of the cultriform process'
+			,
+		68
+			'basal plate approximately square, as long as wide'
+			'basal plate wider than long, but greatest width less than twice the length'
+			'basal plate at least twice as wide as long'
+			,
+		69
+			'the posterior and posterolateral parts of the parasphenoid plate lacks a distinct depression'
+			'they contain shallow depressions'
+			'they contain deep pockets for such attachments'
+			,
+		70
+			'widely separated, on basal plate of parasphenoid'
+			'closely spaced, on basal plate near base of cultriform process'
+			'closely spaced, on process'
+			,
+		71
+			'moderately wide and flat on ventral side'
+			'throughout thin and round in cross-section'
+			,
+		72
+			'open'
+			'sutured or fused'
+			,
+		73
+			'narrow, forming elongated oval with parallel lateral and medial margins'
+			'expanded anteromedially'
+			,
+		74
+			'ventral surface of vomers flat'
+			'single unpaired depression (intervomerine fossa) in anterior portion of vomers without opening'
+			'fossa with intervomerine fontanelle'
+			,
+		75
+			'vomer posterolaterally truncated without process extending along medial margin of the palatine'
+			'vomer extending posteriorly along medial margin of the palatine'
+			,
+		76
+			'toothed, raised ridge running anteroposteriorly and lying mesial to the choana'
+			'no ridge present'
+			,
+		77
+			'absent'
+			'present'
+			,
+		78
+			'vomer covered with more or less dense shagreen of teeth in addition to fang pair'
+			'shagreen confined to juvenile stages and /or absent throughout ontogeny'
+			,
+		79
+			'vomer lacking fangs in its medial portion, outside lateral tooth arcade, but having smaller accessory teeth in that region'
+			'vomer with additional fang pairs posterior to mid-vomerine depression'
+			,
+		80
+			'palatine and ectopterygoid much wider than maxilla'
+			'palatine and ectopterygoid reduced to narrow struts not wider than adjoining maxilla'
+			,
+		81
+			'interpterygoid vacuity roundish or oval in outline'
+			'interpterygoid vacuity greatly expanded laterally at mid-level'
+			,
+		82
+			'suture between pterygoid (palatine ramus) and vomer present'
+			'pterygoid contacting only posterior-most portion of palatine and lacking suture with vomer'
+			,
+		83
+			'palatine ramus of pterygoid merging continuously into basipterygoid ramus'
+			'palatine ramus broadening abruptly to form well-developed transverse flange'
+			,
+		84
+			'anterior margin of interpterygoid vacuity well anterior to the posterior margin of the choana'
+			'margins approximately in line with each other'
+			'interpterygoid vacuity well posterior to the posterior margin of the choana'
+			,
+		85
+			'posteriormost margin of quadrate at level posterior to the occipital margin of the skull at the midline'
+			'in line with the occipital margin'
+			'anterior to the occipital margin'
+			,
+		86
+			'absence of a medial inflection of the prearticular along the medial rim of the adductor fossa'
+			'inflection present'
+			,
+		87
+			'bordered only by prearticular and angular'
+			'bordered by prearticular, angular, and postsplenial'
+			,
+		88
+			'dermal sculpturing similar to remainder of angular'
+			'dermal sculpturing enlarged to form a keel-like projection at the posterior corner'
+			,
+		89
+			'absent'
+			'present in single row along vertebral column'
+			'present, forming dorsal covering over trunk'
+			,
+		90
+			'less than twice as wide as it is long'
+			'at least twice as wide as it is long'
+			,
+		91
+			'single series throughout'
+			'double series associated with at least anterior vertebrae'
+			,
+		92
+			'sutured or fused to vertebrae'
+			'unfused'
+			,
+		93
+			'absence of ventral flange'
+			'presence of ventral flange'
+			,
+		94
+			'absence of ventral flange'
+			'presence of ventral flange'
+			,
+		95
+			'head of cleithrum aligned along anterior rim of scapula'
+			'cleithrum with posterodorsally enlarged head, wrapping around scapula dorsally'
+			,
+		96
+			'scapula forming low or moderately high element, depending on degree of ossification, about two times longer than wide'
+			'scapula dorsally much extended, being three to four times longer than wide'
+			,
+		97
+			'present in adults'
+			'absent throughout ontogeny'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'crest deflected at the proximal termination'
+			'crest transversely expanded at proximal termination with bifurcation or depression'
+			'crest terminates in distinct, ventrally convex protuberance'
+			,
+		100
+			'quadrangular to pentagonal, subequal in width and length'
+			'rhomboidal, longer than it is wide'
+			'longer than it is wide and with a prominently offset posterior stylus'
+			,
+		101
+			'ornamented with pitting or grooves similar to the skull'
+			'clavicle smooth'
+			,
+		102
+			'process high and slender, distally not wider than shaft'
+			'short and stout, not higher than base is wide, with broadened dorsal end'
+			,
+		103
+			'notochordal canal dorsally open, with two separated prongs'
+			'notochordal canal dorsally closed with prongs sutured or fused'
+			,
+		104
+			'wedge-shaped'
+			'dorsally enlarged, forming a nearly to fully enclosed ring'
+			,
+		105
+			'confined to the dorsal portion of the vertebral centrum'
+			'reaching ventrally down the flanks'
+			'forming short closed rings'
+			'forming elongate cylinders'
+			,
+		106
+			'moderately long (> length of three vertebrae)'
+			'short (< length of three vertebrae)'
+			,
+		107
+			'anterior trunk ribs with widened distal ends'
+			'ribs are simple rods without distal expansion'
+			,
+		108
+			'26 or more presacral vertebrae'
+			'23 to 25 presacral vertebrae'
+			'22 or fewer presacral vertebrae'
+			,
+		109
+			'absent on trunk ribs'
+			'straight, spike-like processes present'
+			,
+		110
+			'1'
+			'2'
+			,
+	;
+	MATRIX
+	'Greererpeton burkemorani'      000-10000011?000200000-000?-0100012(0 1)0210000------10-00000000111000000-100001?100000200100-----?010110000000010
+	'Dendrerpeton helogenes'        0111001000100000{1 2}001?0-00(0 1)0011000020000000000000-010000100001???000000001000?000000101100-----0000?100?001110?
+	'Eryops megacephalus'           0001001010(1 2)101001111-0-0000000200020000001000000-00100000000011101-000010011?000001200000-----01001001(0 1)0001110
+	'Acheloma cumminsi'             10020100110011000012010101111101012(0 1)0(1 2)1001111100102100010000111100000111(0 1)1101000001201?00-----10001?0100001100
+	'Phonerpeton pricei'            (0 1)(0 1)(0 1)1(0 1)1(0 1)01(0 1)0(0 1)110000130(0 1)01011111010(0 1)21(0 1)(0 1 2)10010001111101000100001??011-0011101111000001101100-----??00??0??0001?1?
+	'Anconastes vesperus'           011111001(0 1)211100001200-01011110?00?0011001?0111?????0?0?000001100001{0 1}0?00???1??000??0?10200?-0??????0??00??0?0
+	'Ecolsonia cutlerensis'         0111110001(1 2)1110000(0 1)3010000?1?1111(0 1)110(0 1)1001(0 1)011100021?101000101???00110101{1 2}11?000001{0 1}0?10200?-000000001?1001?1?
+	'Cacops morrisi'                001111110020100000111110000011210111121001100110002101111101011101-012110201?000011101?01010??111??21??0001?1?
+	'Cacops aspidephorus'           00011111002?1000{0 1}011111100001121010112100110011000200101110101?10000??110{1 2}?1100001110??010101?111002111000120?
+	'Cacops woehri'                 00111110002010001011111000?011210?010210010001110021?1??01011????1-012110{1 2}01??000111??????????????????????????
+	'USNM pal 406323'               00?{1 2}11?0002?1000{3 4}{0 1}111????0?01?{1 2}1012002?00110011?0011?0000001011?01-00?1101?1?00001110???10100?1110??1???????1?
+	'Parioxys ferricolus'           00?111??000110001??1(0 1)11000?0?121012??{0 2}1?01???1???01??1?001010??101-0{1 2}?110101?00001120??0??????11100?0111001?01
+	'Anakamacops petrolicus'        0????01?00?1?000?11111100000?1210?2???1001?0011?0?21010110010??101-0{0 1}?11?1?1??000?1201001010???????????0??????
+	'Kamacops acervalis'            ?????0??0??11000{0 1}?????????????????2????????0?1????2?0?1110???1?1?1-0{0 1}01101?0?00?01?2??????????????????????????
+	'Dissorophus multicinctus'      010111100001?000{0 1}0110110001011(1 2)1112(0 1)(0 1)(0 1 2)1?11100111002100010000010001-020110???0?001?1?2001111111111100010000111?
+	'Diploseira angustus'           ?????1????????00?11????????????????10??0?110011100110?0?0?10?0?0?1-020?1??????????1???001011(0 1)1???1??11?0001?10
+	'Broiliellus brevis'            011111100021?00?10{0 1}10???0??0112100210(0 2)1111100111?011?0??0?10?1???1-0201101010000111100?11?????111??????0001?0?
+	'Broiliellus reiszi'            010111000021?000{1 2}{0 1}{0 1}1011(0 1)00101121??21021?11100101011101010010010001-2??1?0?0110001112000110100???1???1??00?1???
+	'Broiliellus texensis'          02?111??00(0 2)1?00???{0 1}101???0101121102101?1111001???11??0?100101???11-0??11??0??0??1???00??110?-???1???1?????????
+	'Broiliellus arroyoensis'       0???????00?1?00?{1 2}??????????01?2????????????????????????10?1?????0????111???????????????01101-1???????????????0
+	'Broiliellus olsoni'            0????1100021?00?{1 2}??1011??0?0?1211?1101?0111001110???????0?1?????0?????????????????????????????????????????????
+	'Scapanops neglectus'           02?21???00(0 2)0?0??4?{0 1}1010000?0?12101100211011001???10??(0 1)??00000???????????????????????2???1000-01?10??1????01?1?
+	'Conjunctio multidens'          00?1111?0020100?{3 4}{0 1}?101?0?0?0?1211?1110100110011?0010???0000111??0???????????????????1???1000-1???????1?00?????
+	'Aspidosaurus binasser'         ?0??1???00200000{1 2}??1110?0000?1110???0?1???1??1????1?0?0?00000??1?1-0{0 1}1?10??1?00????2????1000-??????????00???1?
+	'Platyhystrix rugosa'           ?01?11????01?000{3 4}???0???000?11?100?000100110011?0001000?00001??001-11010??01?0?0?1??????1000-0?????????0?01?0?
+	'Brevidorsum profundum'         0????100??0??00?{2 3}01????????0?111???102?0?1100?11?111?1??0???????????????????????????0?????????????????????????
+	'Reiszerpeton renascentis'      0????10000111000{0 1}11101(0 1)000?001?11?{1 2}10110010001100??0????0?0??????????1??0101??00011{0 1}???0??????????????????????
+	'Doleserpeton annectens'        0111100000100011{3 4}0010100000011010100011001?00010-11001010000111(0 1)000200001101?001110100000-----?0102110?0211200
+	'Eoscopus lockardi'             01111???00000000{3 4}01100-01000110111000(1 2)1?01100110111??1?10000011?100??0000101?010111000100-----?0102010?0100100
+	'Micromelerpeton credneri'      011010??00(1 2)00000{0 1}001?1000000110100200(1 2)1001000000-000?0?00000(0 1)11?101000000201?000010(1 2)00000-----?00??000?00110??
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1 3 5-10 12-17 19 21-27 29-30 32-34 36-37 39-50 52-67 71-83 86-99 101-104 106-107 109-110, ord: 2 4 11 18 20 28 31 35 38 51 68-70 84-85 100 105 108;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1745181341227; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7054853070090736320; tell It; setDefaultOrder 86 153 136 2 57 22 28 22 87 29 50 49 46 53 147 100 157 91 111 121 86 117 71 121 102 126 123 131 134 133; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1037743918260806520; tell It; setDefaultOrder 0 1 2 3 5 6 121 106 15 10 8 10 11 12 150 151 13 14 16 17 114 22 118 119 23 20 23 24 25 26 27 28 29 30 31 33 34 35 103 128 124 130 36 37 39 39 40 42 44 45 46 47 48 49 50 51 52 53 90 54 55 56 57 112 58 59 60 61 63 64 97 65 66 67 68 69 70 71 72 73 76 77 78 85 80 81 125 126 82 97 102 103 129 98 90 92 83 111 129 130 131 85 103 87 88 89 142 143 105 110; attachments ; endTell; mqVersion 381; checksumv 0 3 1384418329 null getNumChars 110 numChars 110 getNumTaxa 30 numTaxa 30 short true bits 2305843009213693983 states 31 sumSquaresStatesOnly 10828.0 sumSquares -1.890791267555229E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 991; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #7054853070090736320 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #7054853070090736320; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1037743918260806520 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 184; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #1037743918260806520 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; rowNamesWidth 276; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 110; 
+ENDBLOCK;

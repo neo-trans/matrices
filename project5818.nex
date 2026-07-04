@@ -1,0 +1,1312 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.45.26 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=28;
+	TAXLABELS
+		'Vulcanodon'
+		'Tazoudasaurus'
+		'Barapasaurus'
+		'Omeisaurus'
+		'Shunosaurus'
+		'Patagosaurus'
+		'Spinophorosaurus'
+		'Mamenchisaurus'
+		'Losillasaurus'
+		'Cetiosaurus'
+		'Suuwassea'
+		'Apatosaurus'
+		'Tornieria'
+		'Brachiosaurus'
+		'Camarasaurus'
+		'Dicraeosaurus'
+		'Diplodocus'
+		'Haplocanthosaurus'
+		'Amargasaurus'
+		'Euhelopus'
+		'Jobaria'
+		'Malawisaurus'
+		'Limaysaurus'
+		'Neuquensaurus'
+		'Opisthocoelicaudia'
+		'Rapetosaurus'
+		'Saltasaurus'
+		'Plateosaurus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=235;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] '(W001) Posterolateral processes of premaxilla and lateral processes of maxilla, shape'
+		[2] '(W002) Premaxillary anterior margin, shape'
+		[3] '(W003) Maxillary border of external naris, length'
+		[4] '(W004)  fenestra'
+		[5] '(W005) Subnarial foramen and anterior maxillary foramen'
+		[6] '(W006) Antorbital fenestra, maximum diameter'
+		[7] '(W007) Antorbital fossa'
+		[8] '(W008) External nares, position'
+		[9] '(W009) External nares, maximum diameter'
+		[10] '(W010) Orbital ventral margin, anteroposterior length'
+		[11] '(W011) Lacrimal, anterior process'
+		[12] '(W012) Jugal–ectopterygoid contact'
+		[13] '(W013) Jugal, contribution to antorbital fenestra'
+		[14] '(W014) Prefrontal, posterior process size'
+		[15] '(W015) Prefrontal, posterior process shape'
+		[16] '(W016) Postorbital, ventral process shape'
+		[17] '(W018) Frontal contribution to supratemporal fossa'
+		[18] '(W019) Frontals, midline contact (symphysis)'
+		[19] '(W020) Frontal, anteroposterior length'
+		[20] '(W021) Parietal occipital process, dorsoventral height'
+		[21] '(W022) Parietal, contribution to post-temporal fenestra'
+		[22] '(W023)  foramen'
+		[23] '(W024) Parietal, distance separating supratemporal fenestrae'
+		[24] '(W026) Supratemporal fenestra, long axis orientation'
+		[25] '(W027) Supratemporal fenestra, maximum diameter'
+		[26] '(W028) Supratemporal region, anteroposterior length'
+		[27] '(W029) Supratemporal fossa, lateral exposure'
+		[28] '(W030) fenestra, anterior extension'
+		[29] '(W031) Squamosal–quadratojugal contact'
+		[30] '(W032) Quadratojugal, anterior process length'
+		[31] '(W033) Quadrate fossa'
+		[32] '(W034) Quadrate fossa, depth'
+		[33] '(W035) Quadrate fossa, orientation'
+		[34] '(W036)  contact, shape'
+		[35] '(W037) Pterygoid, transverse flange (i.e. ectopterygoid process) position'
+		[36] '(W039) Pterygoid, palatine ramus shape'
+		[37] '(W040) Palatine, lateral ramus shape'
+		[38] '(W041) Epipterygoid'
+		[39] '(W042) Vomer, anterior articulation'
+		[40] '(W043) Supraoccipital, height'
+		[41] '(W044) Paroccipital process, ventral nonarticular process'
+		[42] '(W045) Crista prootica, size'
+		[43] '(W046) Basipterygoid processes, length'
+		[44] '(W047) Basipterygoid processes, angle of divergence'
+		[45] '(W048) Basal tubera, anteroposterior depth'
+		[46] '(W049)  Basal tubera, breadth'
+		[47] '(W050) Basioccipital depression between foramen magnum and basal tubera'
+		[48] '(W051) Basisphenoid/basipterygoid recess'
+		[49] '(W053) Basipterygoid processes, orientation'
+		[50] 'Lateral base of occipital condyle'
+		[51] '(W054) Occipital region of skull, shape'
+		[52] '(W055) Dentary, depth of anterior end of ramus'
+		[53] '(W056) Dentary, anteroventral margin shape'
+		[54] '(W058) External mandibular fenestra'
+		[55] '(W059) Surangular depth'
+		[56] '(W060) Surangular ridge separating adductor and articular fossae'
+		[57] '(W061) Adductor fossa, medial wall depth'
+		[58] '(W062) Splenial posterior process, position'
+		[59] '(W063) Splenial posterodorsal process'
+		[60] '(W064) Coronoid, size'
+		[61] '(W065) Tooth rows, shape of anterior portions'
+		[62] '(W066) Tooth rows, length'
+		[63] '(W067) Crown-to-crown occlusion'
+		[64] '(W068) Occlusal pattern'
+		[65] '(W069) Tooth crowns, orientation'
+		[66] '(W070) Tooth crowns, cross-sectional shape at midcrown'
+		[67] '(W071) Enamel surface texture'
+		[68] '(W072) Marginal tooth denticles'
+		[69] '(W073) Dentary teeth, number'
+		[70] '(W075) Teeth, orientation'
+		[71] '(W077) Presacral bone texture'
+		[72] '(W078) Presacral pneumatopores (pleurocoels)'
+		[73] '(W079) Atlantal intercentrum, occipital facet shape'
+		[74] '(W080) Cervical vertebrae, number'
+		[75] '(W081) Cervical neural arch lamination'
+		[76] 'Cervical vertebrae, median keel on ventral side'
+		[77] '(W082) Cervical centra, articular face morphology'
+		[78] 'Cervical diapophyses'
+		[79] 'Cervical prezygapophyses'
+		[80] 'Cervical epipophyses'
+		[81] '(W083) Oblique lamina dividing pleurocoels'
+		[82] '(W084) Anterior cervical centra, height:width ratio'
+		[83] '(W085) Anterior cervical neural spines, shape'
+		[84] '(W086) Mid-cervical centra, anteroposterior length/height of posterior face'
+		[85] '(W087) Mid-cervical neural arches, height'
+		[86] '(W088) Middle and posterior cervical neural arches, centroprezygapophyseal lamina (cprl), shape'
+		[87] '(W089) Posterior cervical and anterior dorsal neural spines, shape'
+		[88] '(W090) Posterior cervical and anterior dorsal bifid neural spines, median tubercle'
+		[89] '(W091) Dorsal vertebrae, number'
+		[90] '(W092) Dorsal neural spines, breadth'
+		[91] '(W093) Dorsal neural spines, length'
+		[92] '(W094) Anterior dorsal centra, articular face shape'
+		[93] '(W095) Middle and posterior dorsal neural arches, centropostzygapophyseal lamina (cpol), shape'
+		[94] '(W096) Middle and posterior dorsal neural arches, anterior centroparapophyseal lamina (acpl)'
+		[95] '(W097) Middle and posterior dorsal neural arches, prezygoparapophyseal lamina (prpl)'
+		[96] '(W098) Middle and posterior dorsal neural arches, posterior centroparapophyseal lamina (pcpl)'
+		[97] '(W099) Middle and posterior dorsal neural arches, spinodiapophyseal lamina (spdl)'
+		[98] '(W100) Middle and posterior dorsal neural arches spinopostzygapophyseal lamina (spol) shape'
+		[99] '(W101) Middle and posterior dorsal neural arches, spinodiapophyseal lamina (spdl) and spinopostzygapophyseal lamina (spol) contact'
+		[100] '(W102) Middle and posterior dorsal neural spines, shape'
+		[101] '(W103) Middle and posterior dorsal neural arches, ‘infradiapophyseal’ pneumatopore between acdl and pcdl'
+		[102] '(W104) Middle and posterior dorsal neural spines, orientation'
+		[103] '(W105) Posterior dorsal centra, articular face shape'
+		[104] '(W106) Posterior dorsal neural arches, hyposphene–hypantrum articulations'
+		[105] '(W107) Posterior dorsal neural spines, shape'
+		[106] '(W108) Sacral vertebrae, number'
+		[107] '(W109) Sacrum, sacricostal yoke'
+		[108] '(W110) Sacral vertebrae contributing to acetabulum'
+		[109] '(W111) Sacral neural spines, length'
+		[110] '(W112) Sacral ribs, dorsoventral length'
+		[111] '(W113) Caudal bone texture'
+		[112] '(W115) Caudal transverse processes'
+		[113] '(W116) First caudal centrum, articular face shape'
+		[114] '(W118) Anterior caudal centra (excluding the first), articular face shape'
+		[115] '(W119) Anterior caudal centra, pneumatopores (pleurocoels)'
+		[116] '(W120) Anterior caudal centra, length'
+		[117] 'Caudal neural spines, strongly rugose sculpturing'
+		[118] '(W121) Anterior caudal neural arches, spinoprezygapophyseal lamina (sprl)'
+		[119] '(W122) Anterior caudal neural arches, spinoprezygapophyseal lamina (sprl)-spinopostzygapophyseal lamina (spol) contact'
+		[120] '(W123) Anterior caudal neural arches, prespinal lamina (prsl)'
+		[121] '(W124) Anterior caudal neural arches, postspinal lamina (posl)'
+		[122] '(W125) Anterior caudal neural arches, postspinal fossa'
+		[123] '(W126) Anterior caudal neural spines, transverse breadth'
+		[124] '(W127) Anterior caudal transverse processes, proximal depth'
+		[125] '(W128) Anterior caudal transverse processes, shape'
+		[126] '(W129) Anterior caudal transverse processes, diapophyseal laminae (acdl, pcdl, prdl, podl)'
+		[127] '(W130) Anterior caudal transverse processes, anterior centrodiapophyseal lamina shape'
+		[128] '(W131) Anterior and middle caudal centra shape'
+		[129] '(W132) Anterior and middle caudal centra ventral longitudinal hollow'
+		[130] '(W134) Middle and posterior caudal centra anterior articular face shape'
+		[131] '(W135) Posterior caudal centra shape'
+		[132] 'Posterior caudal spines orientation'
+		[133] '(W136) Distalmost caudal centra articular face shape'
+		[134] '(W137) Distalmost biconvex caudal centra length-to-height ratio'
+		[135] '(W138) Distalmost biconvex caudal centra number'
+		[136] '(W139) Cervical rib tuberculum–capitulum angle'
+		[137] '(W140) Cervical ribs length'
+		[138] '(W141) Dorsal ribs proximal pneumatocoels'
+		[139] '(W142) Anterior dorsal ribs cross-sectional shape'
+		[140] '(W143) ‘Forked’ chevrons with anterior and posterior projections'
+		[141] '(W144) ‘Forked’ chevrons, distribution'
+		[142] '(W145) Chevrons ‘crus’ bridging dorsal margin of haemal canal'
+		[143] '(W146) Chevron haemal canal depth'
+		[144] '(W147) Chevrons'
+		[145] '(W148) Posterior chevrons distal contact'
+		[146] '(W149) Posture'
+		[147] 'Scapular head'
+		[148] '(W151) Scapular blade, orientation'
+		[149] '(W152) Scapular blade, shape'
+		[150] 'Scapular blade'
+		[151] '(W153) Scapular glenoid, orientation'
+		[152] '(W154) Scapular blade, cross-sectional shape at base'
+		[153] 'Scapular head, triangular dorsal process immediately caudal to the acromial articular facet'
+		[154] '(W155) Coracoid, proximodistal length'
+		[155] '(W156) Coracoid, anteroventral margin shape'
+		[156] '(W157) Coracoid, infraglenoid lip'
+		[157] 'Coracoid, ventromedial edge'
+		[158] 'Coracoid, prominent biceps tubercle caudolaterally'
+		[159] '(W158) Sternal plate, shape'
+		[160] '(W159) Humeral proximolateral corner, shape'
+		[161] '(W160) Humeral deltopectoral attachment, development'
+		[162] '(W161) Humeral deltopectoral crest, shape'
+		[163] 'Humerus, distal articular condyles'
+		[164] '(W163) Humeral distal condyles, articular surface shape'
+		[165] '(W164) Humeral distal condyle, shape'
+		[166] '(W165/166) Ulnar proximal condyle, shape'
+		[167] '(W167) Ulnar olecranon process, development'
+		[168] '(W168) Ulna, length-to-proximal breadth ratio'
+		[169] '(W169) Radial distal condyle, shape'
+		[170] '(W170) Radius, distal breadth'
+		[171] '(W171) Radius, distal condyle orientation'
+		[172] '(W172) Humerus-to-femur ratio'
+		[173] '(W173) Carpal bones, number'
+		[174] '(W174) Carpal bones, shape'
+		[175] '(W175) Metacarpus, shape'
+		[176] '(W176) Metacarpals, shape of proximal surface in articulation'
+		[177] '(W177) Longest metacarpal-to-radius ratio'
+		[178] '(W178) Metacarpal I, length'
+		[179] '(W179) Metacarpal I, distal condyle shape'
+		[180] '(W180) Metacarpal I distal condyle, transverse axis orientation'
+		[181] '(W181) Manual digits II and III, phalangeal number'
+		[182] '(W182) Manual phalanx I.1, shape'
+		[183] '(W183) Manual nonungual phalanges, shape'
+		[184] '(W184) Pelvis, anterior breadth'
+		[185] '(W185) Ilium, ischial peduncle size'
+		[186] '(W186) Iliac blade dorsal margin, shape'
+		[187] '(W187) Iliac preacetabular process, orientation'
+		[188] '(W188) Iliac preacetabular process, shape'
+		[189] '(W189) Pubis, ambiens process development'
+		[190] '(W190) Pubic apron, shape'
+		[191] '(W191) Puboischial contact, length'
+		[192] 'Pubic shaft'
+		[193] '(W192) Ischial blade, length'
+		[194] '(W193) Ischial blade, shape'
+		[195] '(W194) Ischial distal shaft, shape'
+		[196] '(W195) Ischial distal shafts, cross-sectional shape'
+		[197] '(W196) Femoral fourth trochanter, development'
+		[198] '(W197) Femoral lesser trochanter'
+		[199] '(W198) Femoral midshaft, transverse diameter'
+		[200] '(W199) Femoral shaft, lateral margin shape'
+		[201] '(W200) Femoral distal condyles, relative transverse breadth'
+		[202] '(W201) Femoral distal condyles, orientation'
+		[203] '(W202) Femoral distal condyles, articular surface shape'
+		[204] '(W203) Tibial proximal condyle, shape'
+		[205] '(W204) Tibial cnemial crest, orientation'
+		[206] '(W205) Tibia, distal breadth'
+		[207] '(W206) Tibial distal posteroventral process, size'
+		[208] '(W207) Fibula, proximal tibial scar, development'
+		[209] '(W208) Fibula, lateral trochanter'
+		[210] '(W209) Fibular distal condyle, size'
+		[211] '(W210) Astragalus, shape'
+		[212] '(W211) Astragalus, foramina at base of ascending process'
+		[213] '(W212) Astragalus, ascending process length'
+		[214] '(W213) Astragalus, posterior fossa shape'
+		[215] '(W214) Astragalus, transverse length'
+		[216] '(W215) Calcaneum'
+		[217] '(W216) Distal tarsals 3 and 4'
+		[218] '(W217) Metatarsus, posture'
+		[219] '(W218) Metatarsal I proximal condyle, transverse axis orientation'
+		[220] '(W219) Metatarsal I distal condyle, transverse axis orientation'
+		[221] '(W220) Metatarsal I distal condyle, posterolateral projection'
+		[222] '(W221) Metatarsal I, minimum shaft width'
+		[223] '(W222) Metatarsal I and V proximal condyle, size'
+		[224] '(W223) Metatarsal III length'
+		[225] '(W224) Metatarsals III and IV, minimum transverse shaft diameters'
+		[226] '(W225) Metatarsal V, length'
+		[227] '(W226) Pedal nonungual phalanges, shape'
+		[228] '(W227) Pedal digits II–IV, penultimate phalanges, development'
+		[229] '(W228) Pedal unguals, orientation'
+		[230] '(W229) Pedal digit I ungual, length relative to pedal digit II ungual'
+		[231] '(W230) Pedal digit I ungual, length'
+		[232] '(W231) Pedal ungual I, shape'
+		[233] '(W232) Pedal ungual II–III, shape'
+		[234] '(W233) Pedal digit IV ungual, development'
+		[235] '(W234) Osteoderms'
+	;
+	STATELABELS
+		1
+			'without midline contact'
+			'with midline contact forming marked narial depression, subnarial foramen not visible laterally'
+			,
+		2
+			'without step'
+			'with marked step, anterior portion of skull sharply demarcated'
+			,
+		3
+			'short, making up much less than one-fourth narial perimeter'
+			'long, making up more than one third narial perimeter'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'well distanced from one another'
+			'separated by narrow bony isthmus'
+			,
+		6
+			'much shorter than orbital maximum diameter'
+			'subequal to orbital maximum diameter'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'terminal'
+			'retracted to level of orbit'
+			'retracted to a position between orbits'
+			,
+		9
+			'shorter than orbital maximum diameter'
+			'longer than orbital maximum diameter'
+			,
+		10
+			'broad, with subcircular orbital margin'
+			'reduced, with acute orbital margin'
+			,
+		11
+			'present'
+			'absent'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'very reduced or absent'
+			'large, bordering approximately one-third its perimeter'
+			,
+		14
+			'small, not projecting far posterior of frontal–nasal suture'
+			'elongate, approaching parietal'
+			,
+		15
+			'flat'
+			'hooked'
+			,
+		16
+			'transversely narrow'
+			'broader transversely than anteroposteriorly'
+			,
+		17
+			'no supratemporal fossa'
+			'present'
+			'absent'
+			,
+		18
+			'sutured in adult individuals'
+			'fused in adult individuals'
+			,
+		19
+			'approximately twice minimum transverse breadth'
+			'less than minimum transverse breadth'
+			,
+		20
+			'short, less than the diameter of the foramen magnum'
+			'deep, nearly twice the diameter of the foramen magnum'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'less than the long axis of supratemporal fenestra'
+			'twice the long axis of supratemporal fenestra'
+			'supratemporal fenestra reduced'
+			,
+		24
+			'anteroposterior'
+			'transverse'
+			'supratemporal fenestra reduced'
+			,
+		25
+			'much longer than that of foramen magnum'
+			'subequal to that of foramen magnum'
+			'supratemporal fenestra reduced'
+			,
+		26
+			'temporal bar longer anteroposteriorly than transversely'
+			'temporal bar shorter anteroposteriorly than transversely'
+			'supratemporal fenestra reduced'
+			,
+		27
+			'not visible laterally, obscured by temporal bar'
+			'visible laterally, temporal bar shifted ventrally'
+			,
+		28
+			'posterior to orbit'
+			'ventral to orbit'
+			,
+		29
+			'present'
+			'absent'
+			,
+		30
+			'short, anterior process shorter than dorsal process'
+			'long, anterior process more than twice as long as dorsal process'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'no quadrate fossa'
+			'shallow'
+			'deeply invaginated'
+			,
+		33
+			'no quadrate fossa'
+			'posterior'
+			'posterolateral'
+			,
+		34
+			'pterygoid with small facet for basipterygoid articulation'
+			'dorsomedially orientated hook for basipterygoid articulation'
+			'rocker-like surface for basipterygoid articulation'
+			,
+		35
+			'posterior of orbit'
+			'between orbit and antorbital fenestra'
+			'anterior to antorbital fenestra'
+			,
+		36
+			'straight, at level of dorsal margin of quadrate ramus'
+			'stepped, raised above level of quadrate ramus'
+			,
+		37
+			'plate-shaped (long maxillary contact)'
+			'rod-shaped (narrow maxillary contact)'
+			,
+		38
+			'present'
+			'absent'
+			,
+		39
+			'maxilla'
+			'premaxilla'
+			,
+		40
+			'twice height of foramen magnum'
+			'subequal to or less than height of foramen magnum'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'rudimentary'
+			'expanded laterally into ‘dorsolateral process’'
+			,
+		43
+			'short, approximately twice basal diameter'
+			'elongate, at least four times basal diameter'
+			,
+		44
+			'approximately 45°'
+			'less than 30°'
+			,
+		45
+			'approximately half dorsoventral height'
+			'sheet-like, 20% dorsoventral height'
+			,
+		46
+			'much broader than occipital condyle'
+			'narrower than occipital condyle'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'present'
+			'absent'
+			,
+		49
+			'perpendicular to skull roof'
+			'angled approximately 45° to skull roof'
+			,
+		50
+			'flat or slightly convex'
+			'strongly concave'
+			,
+		51
+			'anteroposteriorly deep, paroccipital processes oriented posterolaterally'
+			'flat, paroccipital processes oriented transversely'
+			,
+		52
+			'slightly less than that of dentary at midlength'
+			'150% minimum depth'
+			,
+		53
+			'gently rounded'
+			'sharply projecting triangular process or ‘chin’'
+			,
+		54
+			'present'
+			'absent'
+			,
+		55
+			'less than twice maximum depth of the angular'
+			'more than two and one-half times maximum depth of the angular'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'shallow'
+			'deep, prearticular expanded dorsoventrally'
+			,
+		58
+			'overlapping angular'
+			'separating anterior portions of prearticular and angular'
+			,
+		59
+			'present, approaching margin of adductor chamber'
+			'absent'
+			,
+		60
+			'extending to dorsal margin of jaw'
+			'reduced, not extending dorsal to splenial'
+			'absent'
+			,
+		61
+			'narrowly arched, anterior portion of tooth rows V-shaped'
+			'broadly arched, anterior portion of tooth rows U-shaped'
+			'rectangular, tooth-bearing portion of jaw perpendicular to jaw rami'
+			,
+		62
+			'extending to orbit'
+			'restricted anterior to orbit'
+			'restricted anterior to subnarial foramen'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'no occlusion'
+			'interlocking, V-shaped facets'
+			'high-angled planar facets'
+			'low-angled planar facets'
+			,
+		65
+			'aligned along jaw axis, crowns do not overlap'
+			'aligned slightly anterolingually, tooth crowns overlap'
+			,
+		66
+			'elliptical'
+			'D-shaped'
+			'cylindrical'
+			,
+		67
+			'smooth'
+			'wrinkled'
+			,
+		68
+			'present'
+			'absent on posterior edge'
+			'absent on both anterior and posterior edges'
+			,
+		69
+			'greater than 20'
+			'17 or fewer'
+			,
+		70
+			'perpendicular to jaw margin'
+			'oriented anteriorly relative to jaw margin'
+			,
+		71
+			'solid'
+			'spongy, with large, open internal cells, ‘camellate’ (Britt, 1993, 1997)'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'rectangular in lateral view, length of dorsal aspect subequal to that of ventral aspect'
+			'expanded anteroventrally in lateral view, anteroposterior length of dorsal aspect shorter than that of ventral aspect'
+			,
+		74
+			'10'
+			'12'
+			'13'
+			'15 or greater'
+			,
+		75
+			'well developed, with well defined laminae and coels'
+			'rudimentary; diapophyseal laminae only feebly developed if present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'amphicoelous'
+			'opisthocoelous'
+			,
+		78
+			'prominent triangular flange on caudal edge of diapophyseal process, absent'
+			'present'
+			,
+		79
+			'cranial process situated ventrolaterally to articular surface, absent'
+			'present'
+			,
+		80
+			'absent or rudimentary'
+			'strongly developed tubercle, projecting caudally'
+			,
+		81
+			'absent'
+			'present'
+			,
+		82
+			'less than 1'
+			'approximately 1.25'
+			,
+		83
+			'single'
+			'bifid'
+			,
+		84
+			'2.5–3.0'
+			'> 4'
+			,
+		85
+			'less than that of posterior centrum face'
+			'greater than that of posterior centrum face'
+			,
+		86
+			'single'
+			'divided'
+			,
+		87
+			'single'
+			'bifid'
+			,
+		88
+			'no bifurcation'
+			'absent'
+			'present'
+			,
+		89
+			'15'
+			'13'
+			'12'
+			'11'
+			'10 or fewer'
+			,
+		90
+			'narrower transversely than anteroposteriorly'
+			'much broader transversely than anteroposteriorly'
+			,
+		91
+			'approximately twice centrum length'
+			'approximately four times centrum length'
+			,
+		92
+			'amphicoelous'
+			'opisthocoelous'
+			,
+		93
+			'single'
+			'divided'
+			,
+		94
+			'absent'
+			'present'
+			,
+		95
+			'absent'
+			'present'
+			,
+		96
+			'absent'
+			'present'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'single'
+			'divided'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'tapering or not flaring distally'
+			'flared distally, with pendant, triangular lateral processes'
+			,
+		101
+			'absent'
+			'present'
+			,
+		102
+			'vertical'
+			'posterior, neural spine summit approaches level of diapophyses'
+			,
+		103
+			'amphicoelous'
+			'opisthocoelous'
+			,
+		104
+			'present'
+			'absent'
+			,
+		105
+			'rectangular through most of length'
+			'‘petal’ shaped, expanding transversely through 75% of its length and then tapering'
+			,
+		106
+			'3 or fewer'
+			'4'
+			'5'
+			'6'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'not applicable'
+			'numbers 1–3'
+			'numbers 2–4'
+			'numbers 3–5'
+			,
+		109
+			'approximately twice length of centrum'
+			'approximately four times length of centrum'
+			,
+		110
+			'low, not projecting beyond dorsal margin of ilium'
+			'high extending beyond dorsal margin of ilium'
+			,
+		111
+			'solid'
+			'spongy, with large internal cells'
+			,
+		112
+			'persist through caudal 20 or more posteriorly'
+			'disappear by caudal 15'
+			'disappear by caudal 10'
+			,
+		113
+			'flat'
+			'procoelous'
+			'opisthocoelous'
+			'biconvex'
+			,
+		114
+			'amphiplatyan or platycoelous'
+			'procoelous'
+			'opisthocoelous'
+			,
+		115
+			'absent'
+			'present'
+			,
+		116
+			'approximately the same over the first 20 vertebrae'
+			'doubling over the first 20 vertebrae'
+			,
+		117
+			'extending over entire length of cranial and caudal sides of the spine, absent'
+			'present'
+			,
+		118
+			'absent'
+			'present and extending onto lateral aspect of neural spine'
+			,
+		119
+			'absent'
+			'present, forming a prominent lamina on lateral aspect of neural spine'
+			,
+		120
+			'absent'
+			'present'
+			,
+		121
+			'absent'
+			'present'
+			,
+		122
+			'absent'
+			'present'
+			,
+		123
+			'approximately 50% of anteroposterior length'
+			'greater than anteroposterior length'
+			,
+		124
+			'shallow, on centrum only'
+			'deep, extending from centrum to neural arch'
+			,
+		125
+			'triangular, tapering distally'
+			'‘wing-like’, not tapering distally'
+			,
+		126
+			'absent'
+			'present'
+			,
+		127
+			'not present'
+			'single'
+			'divided'
+			,
+		128
+			'cylindrical'
+			'quadrangular, flat ventrally and laterally'
+			,
+		129
+			'absent'
+			'present'
+			,
+		130
+			'flat'
+			'procoelous (cone shaped)'
+			'opisthocoelous'
+			,
+		131
+			'cylindrical'
+			'dorsoventrally flattened, breadth at least twice height'
+			,
+		132
+			'short and dorsally to caudodorsally directed, not extending far beyond the caudal articular facet of the centrum'
+			'elongate and strongly caudally directed, extending over more than 50% of the length of the succeeding vertebral centrum'
+			,
+		133
+			'platycoelous'
+			'biconvex'
+			'fused, forming tail club'
+			,
+		134
+			'not applicable'
+			'less than 4'
+			'greater than 5'
+			,
+		135
+			'none'
+			'10 or fewer'
+			'more than 30'
+			,
+		136
+			'greater than 90°'
+			'90°, rib level with ventral border of centrum'
+			'less than 90°, rib ventrolateral to centrum'
+			,
+		137
+			'much longer than centrum, overlapping as many as three subsequent vertebrae'
+			'shorter than centrum, little or no overlap'
+			,
+		138
+			'absent'
+			'present'
+			,
+		139
+			'subcircular'
+			'plank-like, anteroposterior breadth more than three times mediolateral breadth'
+			,
+		140
+			'absent'
+			'present'
+			,
+		141
+			'none'
+			'throughout middle and posterior caudal vertebrae'
+			'distal tail only'
+			'reduced to simple U-shaped element'
+			,
+		142
+			'present'
+			'absent'
+			,
+		143
+			'short, approximately 25% chevron length'
+			'long, approximately 50% chevron length'
+			,
+		144
+			'persisting throughout at least 80% of tail'
+			'disappearing by caudal 30'
+			,
+		145
+			'fused'
+			'unfused (open)'
+			,
+		146
+			'bipedal'
+			'columnar, obligately quadrupedal posture'
+			,
+		147
+			'craniocaudal width, not more than two times the minimum width of the scapular blade'
+			'strongly expanded, about three times the minimum width of the scapular blade'
+			,
+		148
+			'perpendicular to coracoid articulation'
+			'forming a 45° angle with coracoid articulation'
+			,
+		149
+			'acromial edge not expanded'
+			'rounded expansion on acromial side'
+			'racquet-shaped'
+			,
+		150
+			'prominent triangular flange proximally on the caudal edge, absent'
+			'prominent triangular flange proximally on the caudal edge, present'
+			,
+		151
+			'relatively flat or laterally facing'
+			'strongly bevelled medially'
+			,
+		152
+			'flat or rectangular'
+			'D-shaped'
+			,
+		153
+			'absent'
+			'present'
+			,
+		154
+			'less than length of scapular articulation'
+			'approximately twice length of scapular articulation'
+			,
+		155
+			'rounded'
+			'rectangular'
+			,
+		156
+			'absent'
+			'present'
+			,
+		157
+			'convex and rugose'
+			'with smooth central groove'
+			,
+		158
+			'present'
+			'absent'
+			,
+		159
+			'oval'
+			'crescentic'
+			,
+		160
+			'rounded'
+			'square'
+			,
+		161
+			'prominent'
+			'reduced to a low crest or ridge'
+			,
+		162
+			'relatively narrow throughout length'
+			'markedly expanded distally'
+			,
+		163
+			'subsymmetrical'
+			'strongly asymmetric with enlarged accessory condyles'
+			,
+		164
+			'restricted to distal portion of humerus'
+			'exposed on anterior portion of humeral shaft'
+			,
+		165
+			'divided'
+			'flat'
+			,
+		166
+			'short lateral process (subtriangular)'
+			'subequal triradiate'
+			'unequal triradiate, anterior arm longer'
+			,
+		167
+			'prominent, projecting above proximal articulation'
+			'rudimentary, level with proximal articulation'
+			,
+		168
+			'gracile'
+			'stout'
+			,
+		169
+			'round'
+			'subrectangular, flattened posteriorly and articulating in front of ulna'
+			,
+		170
+			'slightly larger than midshaft breadth'
+			'approximately twice midshaft breadth'
+			,
+		171
+			'perpendicular to long axis of shaft'
+			'bevelled approximately 20° proximolaterally relative to long axis of shaft'
+			,
+		172
+			'less than 0.60'
+			'0.60 or more'
+			,
+		173
+			'3 or more'
+			'2 or fewer'
+			'completely lost'
+			,
+		174
+			'round'
+			'block-shaped, with flattened proximal and distal surfaces'
+			'completely lost'
+			,
+		175
+			'spreading'
+			'bound, with subparallel shafts and articular surfaces that extend half their length'
+			,
+		176
+			'gently curving, forming a 90° arc'
+			'U-shaped, forming a 180° arc'
+			'C-shaped, subtending a 270° arc'
+			,
+		177
+			'close to 0.3'
+			'0.45 or more'
+			,
+		178
+			'shorter than metacarpal IV'
+			'longer than metacarpal IV'
+			,
+		179
+			'divided'
+			'undivided'
+			,
+		180
+			'bevelled approximately 20° proximodistally with respect to axis of shaft'
+			'perpendicular with respect to axis of shaft'
+			,
+		181
+			'2-3-4-3-2 or more'
+			'reduced, 2-3-2-2-2 or less'
+			'absent or unossified'
+			,
+		182
+			'rectangular'
+			'wedge-shaped'
+			'lost'
+			,
+		183
+			'longer proximodistally than broad transversely'
+			'broader transversely than long proximodistally'
+			'lost'
+			,
+		184
+			'narrow, ilia longer anteroposteriorly than distance separating preacetabular processes'
+			'broad, distance between preacetabular processes exceeds anteroposterior length of ilia'
+			,
+		185
+			'large, prominent'
+			'low, rounded'
+			,
+		186
+			'flat'
+			'semicircular'
+			,
+		187
+			'anterolateral to body axis'
+			'perpendicular to body axis'
+			,
+		188
+			'pointed, arching ventrally'
+			'semicircular, with posteroventral excursion of cartilage cap'
+			,
+		189
+			'small, confluent with anterior margin of pubis'
+			'prominent, projecting anteriorly from anterior margin of pubis'
+			,
+		190
+			'flat (straight symphysis)'
+			'canted anteromedially (gentle S-shaped symphysis)'
+			,
+		191
+			'approximately one third total length of pubis'
+			'one-half total length of pubis'
+			,
+		192
+			'elongate and free without continuous connection to the puboischial contact'
+			'shortened and robust, with a caudal flange connecting the distal pubic foot with the puboischial contact'
+			,
+		193
+			'much shorter than pubic blade'
+			'equal to or longer than pubic blade'
+			,
+		194
+			'emarginate distal to pubic peduncle'
+			'no emargination distal to pubic peduncle'
+			,
+		195
+			'triangular, depth of ischial shaft increases medially'
+			'bladelike, medial and lateral depths subequal'
+			,
+		196
+			'V-shaped, forming an angle of nearly 50° with each other'
+			'flat, nearly coplanar'
+			,
+		197
+			'prominent'
+			'reduced to crest or ridge'
+			,
+		198
+			'present'
+			'absent'
+			,
+		199
+			'subequal to anteroposterior diameter'
+			'125–150% anteroposterior diameter'
+			'at least 185% anteroposterior diameter'
+			,
+		200
+			'straight'
+			'proximal one-third deflected medially'
+			,
+		201
+			'subequal'
+			'tibial much broader than fibular'
+			,
+		202
+			'perpendicular or slightly bevelled dorsolaterally relative to femoral shaft'
+			'bevelled dorsomedially approximately 10° relative to femoral shaft'
+			,
+		203
+			'restricted to distal portion of femur'
+			'expanded onto anterior portion of femoral shaft'
+			,
+		204
+			'narrow, long axis anteroposterior'
+			'expanded transversely, condyle subcircular'
+			,
+		205
+			'projecting anteriorly'
+			'laterally'
+			,
+		206
+			'approximately 125% midshaft breadth'
+			'more than twice midshaft breadth'
+			,
+		207
+			'broad transversely, covering posterior fossa of astragalus'
+			'shortened transversely, posterior fossa of astragalus visible posteriorly'
+			,
+		208
+			'not well-marked'
+			'well-marked and deepening anteriorly'
+			,
+		209
+			'absent'
+			'present'
+			,
+		210
+			'subequal to shaft'
+			'expanded transversely, more than twice midshaft breadth'
+			,
+		211
+			'rectangular'
+			'wedgeshaped, with reduced anteromedial corner'
+			,
+		212
+			'present'
+			'absent'
+			,
+		213
+			'limited to anterior two-thirds of astragalus'
+			'extending to posterior margin of astragalus'
+			,
+		214
+			'undivided'
+			'divided by vertical crest'
+			,
+		215
+			'50% more than proximodistal height'
+			'subequal to proximodistal height'
+			,
+		216
+			'present'
+			'absent or unossified'
+			,
+		217
+			'present'
+			'absent or unossified'
+			,
+		218
+			'bound'
+			'spreading'
+			,
+		219
+			'perpendicular to axis of shaft'
+			'angled ventromedially approximately 15° to axis of shaft'
+			,
+		220
+			'perpendicular to shaft axis'
+			'angled dorsomedially to axis of shaft'
+			,
+		221
+			'absent'
+			'present'
+			,
+		222
+			'less than that of metatarsals II–IV'
+			'greater than that of metatarsals II–IV'
+			,
+		223
+			'smaller than those of metatarsals II and IV'
+			'subequal to those of metatarsals II and IV'
+			,
+		224
+			'more than 30% that of tibia'
+			'less than 25% that of tibia'
+			,
+		225
+			'subequal to that of metatarsals I or II'
+			'less than 65% that of metatarsals I or II'
+			,
+		226
+			'shorter than length of metatarsal IV'
+			'at least 70% length of metatarsal IV'
+			,
+		227
+			'longer proximodistally than broad transversely'
+			'broader transversely than long proximodistally'
+			,
+		228
+			'subequal in size to more proximal phalanges'
+			'rudimentary or absent'
+			,
+		229
+			'aligned with digit axis'
+			'deflected lateral to digit axis'
+			,
+		230
+			'subequal'
+			'25% larger than that of digit II'
+			,
+		231
+			'shorter than metatarsal I'
+			'longer than metatarsal I'
+			,
+		232
+			'broader transversely than dorsoventrally'
+			'sickle-shaped, much deeper dorsoventrally than broad transversely'
+			,
+		233
+			'broader transversely than dorsoventrally'
+			'sickle-shaped, much deeper dorsoventrally than broad transversely'
+			,
+		234
+			'subequal in size to unguals of pedal digits II and III'
+			'rudimentary or absent'
+			,
+		235
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Vulcanodon'              ???????????????????????????????????????????????????????????????????????0????????0????????????????????????1????0?000????????100001????????????00??1???0??0???????10?0?2101001????0???????1???000010101010???000?00001000010?100100100?011000
+	'Tazoudasaurus'           ???????????????00?0????1????0000???????????????????100010???0?1111101?00??0110?001001000?1?0011?10101000?????????0??0??00?01000?00?000???010?00?11?00????00000?010001?101001?101?00110101?000000?010001010000111110101???00?011?010001?1000
+	'Barapasaurus'            ?????????????????????????????????????????????????????????????????1?0??00??0010000??01000?10101101110100001110?0?000?0??????100000001000???10?00?01000?00000011?010001210100????????????011000100101011101000101111?1?10???010???????1??11?0
+	'Omeisaurus'              111000110110000?101100010111?11?1?1?11100?00??0?0011000?1???1111111110010301110111010?002101?11011100000021201?10100000000010000?001???2001?10000110010?10000100101011101001010100001110110001011010111000?01011??0101001111111111111111110
+	'Shunosaurus'             0110001101100000011??0000111011110101100000000?00111000?101?1111111200010211110001001000110000?00000000?010000010000000000010000?0012000?010110101000000000001001000111010010101000110101100010010?01110100?101?10010?00111101110111?111110
+	'Patagosaurus'            1?100?11??????????????????????????????1?????????????0???????1?11111??001??0110011?001000?10101101??0100002??0????00?0??????1???0?000???2?0?0?00??100?00?000001?010011210100?????????????11000100101011101000001??????????101011???????????0
+	'Spinophorosaurus'        ?1????????1????01111010101????000??0???000000110011?0?11????1??11110?001?201111101001000210?0110000000000?????01?0001000000??000000100010010100011100100100010?010101???????????????????1???000110101010000000111101000???????????????????0
+	'Mamenchisaurus'          111020111010000??01000010?1101121?1?111?00????0??0110001101111111111001103001010010101112101011011101000021?0??11100100000010000?001???20010100?0110?1??100?01001010121010011102?0001???11000??0101011101001101?1101110?11?101?1?1111??1??0
+	'Losillasaurus'           ??????????????????????????????????????????0?0??????????????????????????1??011000000??100?0???1?110111?001???????110?00000?01100?0????????????0????????????????0010001???01????????????????000??????????????????????????????????????????????
+	'Cetiosaurus'             ???????????????????1??010??????????????000????????1???????????????????01?200100000001000210100000000100001????0??000000000010000000????1?0???00??1000001000?000010001210???1????????????1100010010??111000001011?0?????????????????????????
+	'Suuwassea'               ?0???????1???????0??11110?1???111???????00??0?10?01?????????2???0?12??011?0010011000?111??01??????????????????0???0??????????????00?000?10???????1000001100?01??10000??????????????????????????????????????11??11??????0?111110?1?1?1011???
+	'Apatosaurus'             00111112011?111?10111?1101111111102?1?0000100000101?????????221302121?0113001010101011124101111111100000021?110110000111101111200000122210101001010000110000010010001110100111120000111111001100100011101001101110111101111111111?1111?1110
+	'Tornieria'               11?1??12?????01?0??01?110??????????????0???00000?01?????????????0212???1???01??????1??????????????????????????0??111011??01?11111000?????????????10000011?????0010001210???1????????????1100?????0001110101110101011110????????????????????
+	'Brachiosaurus'           111100111111000110110001011111121011111000000011001101111112111101121011020010001001100021010111111100100212010100000001100100000000???201?1?10??1101001100001001000121010011112111110111101011010111111100110111111110011110111?11?1??11?0
+	'Camarasaurus'            1111001111110001101100110111001211111110000000010011011111111111111210010100100010101011210101101111001002120101000010011011000000000002001?21010110100110001100100012101001111211001111110001111011111010011011101111001111011111111111110
+	'Dicraeosaurus'           00?11?????0??00?111111111111?????1???1000110110110111???????22130212100111011101101010122111110011100000121?1?011000010110111000000012?21010?00??1000001000001?010001210???1???????????11100110010001110100110111011110??111111?11????11??0
+	'Diplodocus'              00111112011111111011101101111111102111000010000110111101101?2213021211011300100010111112410111111110000002121101111101111011112110001222101010010100000110000100100012101001???????????111001100100011101011101?101111001111111111111?11110
+	'Haplocanthosaurus'       ?????????????????????????????????????????????0????????????????????????01?200101010001000110101101111000002120101000010011001000000?0???210?0?10??10000010000?1?????????????????????????11100010010111110100???????????????????????????????0
+	'Amargasaurus'            ??????????1??0011111?111111????????????00110111?101???????????????????00120010000?1010114111????1??0000?12??1???0???0????????????0?0???????0?????10?00?10????1?010001110?001????????????1100????????1110?00???????????????????????????????0
+	'Euhelopus'               11100?11??1????1?????????????1111???111????????????1011?????1?1111121111?310110101011012110101111?11011?03??01?????????????????????????201?1?????1?00?10?000???110?01??????????????????111010100101111111001101?10111?00?11101111?1??1111?0
+	'Jobaria'                 111100111111000110110001011101121?1?11?000?0?00?0?100???????111111100001?20?1011000010002101011111110000021201010000?001100100000001???20010?001010010010000?1001000121010010112000011111100010?1011111010011011101111001111011111????????0
+	'Malawisaurus'            11?????1??1??????????????????????????????????????0?10???????1?1??1121?11??10101000011?00?10101?01?1101110??????1?10?0001110100001000???2010?311??1???????000?11110001100100???1??111?????????????111?111?????11110???????1?????????????1??1
+	'Limaysaurus'             ?????????01??0012001102222110?121??????100110011101???????????1??212??01??001?0010001000?1?10???1110000?1?????010000000110110000000012?2?????1???100200?0000?110100012101001????????????11??010010111110?00?10??1?1???0??10001111?????????0
+	'Neuquensaurus'           ??????????????????????????????????????????????????????????????????????11??0010000?001?00?101????1?1?0111031?0?1?310?00011?110000111011???????????10100100111??1111010201111?????????????111101??011111211111111?1011101??1110?????1???????1
+	'Opisthocoelicaudia'      ???????????????????????????????????????????????????????????????????????1?????????????0113101011110110111031?0??222000001101100001200111??10131111100001101110111110102011111221211112221111?01100111112111011111101110111111011111111011110
+	'Rapetosaurus'            0011?111?10?000?0010101101010?122211???11?0010?10?10011?????111202121011??1010000?011?00?10101?01011011103???????1??00???????00??1?0???2?????????10100??1100??1110010?00110?????1?1????111010110011111?1101???????????????????????????????1
+	'Saltasaurus'             ?????????????00?101?0011???????????????01001001??01???????????????????11??00100010001100?10101?1101101110313011??10?000111110000111011?2?????11?010100100111011111010201111????????????11111011?011111211111111110????????????????????????1
+	'Plateosaurus'            0000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-7 9-31 34 36-59 63-67 69-73 75-88 90-105 107-111 113-126 128-133 137-140 142-165 167-172 174-175 177-180 184-235, ord: 8 32-33 35 60-62 68 74 89 106 112 127 134-136 141 166 173 176 181-183;
+ENDBLOCK;
+BEGIN LABELS;
+ TAXAGROUPLABEL Ingroup COLOR = (RGB 1 1 1) ; TAXAGROUPLABEL Outgroup COLOR = (RGB 1 1 1) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1599435034906; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1374838889842456250; tell It; setSelected 28; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7776278141175262420; mqVersion 360; checksumv 0 3 3896369714 null getNumChars 235 numChars 235 getNumTaxa 28 numTaxa 28 short true bits 31 states 31 sumSquaresStatesOnly 13980.0 sumSquares 13980.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 202; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1090 608; setLocation 57 115; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #1374838889842456250 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #1374838889842456250; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 888 536; setLocation 57 115; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #1374838889842456250 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.DefaultTrees.DefaultTrees; setAssignedID 6314.1599434215390.7903138547479211460; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 888 536; setLocation 57 115; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.trees.SearchTreeToolAssistant.SearchTreeToolExtra.randomlyRotate; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(28,(1,(10,(2,(7,(5,(3,(6,((4,8),(9,(21,((18,(23,((16,19),(11,(12,(13,17)))))),(15,(14,(20,(22,(26,(25,(24,27)))))))))))))))))))<> <> < setBetweenBits = selected >;'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.trees.SearchTreeToolAssistant.SearchTreeToolAssistant; tell It; getEmployee #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #7776278141175262420; endTell; endTell; endTell; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow bootstrapFrequency; toggleShow posteriorProbability; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7776278141175262420 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 888 536; setLocation 57 115; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 235; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Ingroup : 1- 27, Outgroup : 28; 
+ENDBLOCK;

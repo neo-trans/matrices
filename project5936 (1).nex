@@ -1,0 +1,372 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.52.06 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=42;
+	TAXLABELS
+		'Nevadaecystis'
+		'Galliaecystis'
+		'Procothurnocystis'
+		'Cothurnocystis bifida'
+		'Bohemiaecystis'
+		'Scotiaecystis'
+		'Chauvelicystis'
+		'Prochauvelicystis'
+		'Ponticulocarpus'
+		'Cothurnocystis elizae'
+		'Phyllocystis blacyi'
+		'Phyllocystis crassmarginata'
+		'Amygdalotheca'
+		'Nanocarpus'
+		'Lyricocarpus'
+		'Peltocystis'
+		'Lagynocystis'
+		'Anatiferopsis'
+		'Jaekelocarpus'
+		'Chauvelia'
+		'Ovocarpus'
+		'Milonicystis'
+		'Hanusia'
+		'Chinianocarpos'
+		'Aspidocarpus'
+		'Mitrocystites'
+		'Mitrocystella'
+		'Eumitrocystella'
+		'Reticulocarpos'
+		'Prokopicystis'
+		'Ateleocystites'
+		'Placocystites'
+		'Anomalocystites'
+		'Rhenocystis'
+		'Barrandeocarpus'
+		'Enoploura'
+		'Allanicytidium'
+		'Notocarpos'
+		'Tasmanicytidium'
+		'Diamphidiocystis'
+		'Beryllia'
+		'Ceratocystis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		[1] 'Tripartite aulacophore'
+		[2] 'Attached cover plates on distal aulacophore'
+		[3] 'Marginal plates'
+		[4] 'Asymmetrical theca'
+		[5] 'Symmetrical theca'
+		[6] 'Anal lobe'
+		[7] 'Spinal'
+		[8] 'Zygal (strut)'
+		[9] 'Zygal (strut)'
+		[10] 'Zygal (strut)'
+		[11] 'Septum'
+		[12] 'Septum'
+		[13] 'Glossal spine'
+		[14] 'Digital spine'
+		[15] 'Many small spines attached to marginals'
+		[16] 'Sutural respiratory pores'
+		[17] 'Stylocone'
+		[18] 'Symmetrical theca marginals'
+		[19] 'Thecal movable spines'
+		[20] 'Single movable spine-but with M''1-M4 septum, no CS plate'
+		[21] 'Dorsal bar connecting M4-M''4'
+		[22] 'Distal superior margin with transversely arranged somatics'
+		[23] 'Distal margin of inferior somatics'
+		[24] 'Aulacophore normal length'
+		[25] 'Placocystited plate'
+		[26] 'Lateripores'
+		[27] 'Peripores'
+		[28] 'Ctenoid organ'
+		[29] 'Subanal plate'
+		[30] 'Adaulacophoral plate with hydropore'
+		[31] 'Anal pyramid'
+		[32] 'Plastron order'
+		[33] 'Paired aulacophorals'
+		[34] 'Dorsal somatics'
+		[35] 'M1 marginals'
+		[36] 'Cothurnopores'
+		[37] 'Lamellipores'
+		[38] 'Respiratory structures'
+		[39] 'Distal end "open" or "closed:" by transverse marginal plate'
+		[40] 'Tetramerous organization of proximal aulacophore'
+		[41] 'Loss of marginal symmetry in symmetrical forms'
+		[42] 'CS in contact with 2 1/2 or more pairs of marginals'
+	;
+	STATELABELS
+		1
+			'with stylocone'
+			'with styloid'
+			,
+		2
+			'loosely attached cover plates on distdal aulacophore'
+			'short; tightly attached cover plates'
+			,
+		3
+			'somatic plates not differentiated'
+			'differentiated'
+			,
+		4
+			'no'
+			'boot-shaped'
+			'loss of'
+			,
+		5
+			'no'
+			'yes'
+			'secondary loss (u-shaped, collapsed)'
+			,
+		6
+			'none'
+			'M4/M6'
+			'M5/M6'
+			'M5/M''5'
+			'loss of anal lobe'
+			,
+		7
+			'none'
+			'M3'
+			'M4'
+			,
+		8
+			'none'
+			'M''1-M4'
+			,
+		9
+			'none'
+			'M''1-M5'
+			,
+		10
+			'none'
+			'M''1-CS or S'
+			,
+		11
+			'none'
+			'M''1-M4'
+			,
+		12
+			'none'
+			'M''1/CS'
+			'M''1, CS, M4'
+			,
+		13
+			'none'
+			'attached to M5'
+			'attached to another marginal'
+			,
+		14
+			'none'
+			'attached to M4'
+			'attached to another marginal'
+			,
+		15
+			'none'
+			'yes'
+			'one side only'
+			,
+		16
+			'simple'
+			'compound'
+			'loss of pores'
+			,
+		17
+			'with'
+			'styloid as "spike"'
+			'flanged or multicuspid'
+			,
+		18
+			'none'
+			'MI-M7'
+			'M6 + M7'
+			'M1-M6'
+			'M5+M6'
+			'M1-M5'
+			'M4+M5'
+			'M1-M4'
+			'M1'
+			,
+		19
+			'none'
+			'with M5 plus other marginals in thecal frame'
+			'M5 marginals as fixed projections'
+			'M5 marginals as moveable spines'
+			'loss of one spine'
+			,
+		20
+			'none'
+			'with'
+			,
+		21
+			'no'
+			'yes'
+			,
+		22
+			'no'
+			'multiplated'
+			'five plates'
+			'four plates'
+			'three plates'
+			'M4 marginals'
+			,
+		23
+			'no'
+			'multiplated'
+			'M5, M6, M''5'
+			'single plate'
+			,
+		24
+			'normal length (assumed to be so)'
+			'flagellate'
+			'shortened'
+			,
+		25
+			'no'
+			'yes'
+			,
+		26
+			'no'
+			'yes'
+			'loss'
+			,
+		27
+			'no'
+			'yes'
+			,
+		28
+			'no'
+			'yes'
+			,
+		29
+			'no'
+			'yes'
+			,
+		30
+			'no'
+			'yes'
+			,
+		31
+			'0'
+			'pyramid and sugar loaf plate'
+			'sugar loaf plate'
+			,
+		32
+			'ancestral'
+			'tessellated'
+			'S or CS'
+			'CS+A'
+			'CS+A+DS'
+			'paired CS'
+			'loss or never in the organization'
+			,
+		33
+			'none'
+			'present'
+			'partly inserted MAM plate'
+			'three aulacophorals'
+			,
+		34
+			'ancestral-massive'
+			'tessellated pavement'
+			'distally overlapping'
+			'ordered and abutting'
+			'single massive plate'
+			,
+		35
+			'ancestral subequal'
+			'M''1 with distal extension'
+			'reduced to equalized M1 series'
+			,
+		36
+			'no'
+			'yes'
+			,
+		37
+			'no'
+			'yes'
+			,
+		38
+			'yes'
+			'no set'
+			,
+		39
+			'non-asymmetrical genera'
+			'open'
+			'closed'
+			'subanal or not applicable'
+			,
+		40
+			'no'
+			'yes'
+			,
+		41
+			'not applicable'
+			'no'
+			'yes'
+			,
+		42
+			'not applicable'
+			'no'
+			'yes'
+			,
+	;
+	MATRIX
+	'Nevadaecystis'                    001103110000000200000000000000?10111000100
+	'Galliaecystis'                    001103110000020200001000000000?1011?000100
+	'Procothurnocystis'                001102201000110200000000000000110111000100
+	'Cothurnocystis bifida'            0011011010002?0200000000000000?10111000100
+	'Bohemiaecystis'                   001103101000??0200000000000000?10110100100
+	'Scotiaecystis'                    001103101000100200000000000000110110100100
+	'Chauvelicystis'                   001102001000001200000000000000?10111000100
+	'Prochauvelicystis'                001102001000001200000000000000110111000100
+	'Ponticulocarpus'                  001102001000000200000000000000?10111000100
+	'Cothurnocystis elizae'            001102201000110200000000000000110111000100
+	'Phyllocystis blacyi'              001213001000000200000000000000110111000110
+	'Phyllocystis crassmarginata'      001213001000000100000000000000110110000110
+	'Amygdalotheca'                    ??121?0001000002?1000000000000?20110011111
+	'Nanocarpus'                       10121?000100000214100000000000?21110012111
+	'Lyricocarpus'                     10121?000?0000021700000000000???1110011111
+	'Peltocystis'                      11121?000?10000217010000000010??1210013110
+	'Lagynocystis'                     11122?000?0100022740000100010022322001102?
+	'Anatiferopsis'                    11121?000?00000228410001000010?61?10013110
+	'Jaekelocarpus'                    11121?000?10000218410?02000100?61?20013110
+	'Chauvelia'                        11121?000100000223100000010001?21220012111
+	'Ovocarpus'                        10121?00000?00022410000001000???1?2001211?
+	'Milonicystis'                     1?121?0001000002?4100000000000?20110012111
+	'Hanusia'                          1?121?0001000002?5201110000000?20110011110
+	'Chinianocarpos'                   11121?000?10000216000000001010?20110011110
+	'Aspidocarpus'                     10121?000?01000223100100010001222320012112
+	'Mitrocystites'                    11121?000?01000222100100011001241210012111
+	'Mitrocystella'                    11121?000?01000222100100000000241220012112
+	'Eumitrocystella'                  11121?000?01000224100100000000232220012112
+	'Reticulocarpos'                   11121?000?00000215201110000000?101100?1111
+	'Prokopicystis'                    11121?000?00000215201110000000?101100?1111
+	'Ateleocystites'                   11121?000?02000227300320100000242320011112
+	'Placocystites'                    11121?000?02000227300420100000232320011112
+	'Anomalocystites'                  11121?000?02000227300220000000?33320011112
+	'Rhenocystis'                      11121?000?02000117300420100000232320011112
+	'Barrandeocarpus'                  11121?000?01000224100200100000242320012112
+	'Enoploura'                        11121?000?02000227300220000000243320011112
+	'Allanicytidium'                   11121?000?020002273005?0000000253420011112
+	'Notocarpos'                       11121?000?020002273005?0000000231420011112
+	'Tasmanicytidium'                  11121?000?020002?7300520000000221420011112
+	'Diamphidiocystis'                 11122?000?0?0002?7400220000000241320011122
+	'Beryllia'                         11121?000?00000227000??0000000?2011001?110
+	'Ceratocystis'                     00000000000000000000000000000?000000000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-42;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845291815; FileSettings '1' '1' '43' '1'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '188' '1' all; EditorPosition '188' '52' '818' '837'; TreeWindowPosition '46' '6' '985' '1630'; ListWindow Characters closed Gadget '12' '50' '10' '253' '321' 000; ListWindow Taxa closed Geneva '9' '50' '25' '241' '308' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '387'; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharSets closed Geneva '9' '50' '10' '276' '490'; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '944' '1220'; StateNamesSymbols open Gadget '12' '9' '50' '30' '186' '220'; WindowOrder States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '684' '978' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1659124579990; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8080295816341859892; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4507552914272941666; mqVersion 360; checksumv 0 3 3080016416 null getNumChars 42 numChars 42 getNumTaxa 42 numTaxa 42 short true bits 1023 states 1023 sumSquaresStatesOnly 649203.0 sumSquares 649203.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 227; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1675 804; setLocation 8 25; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4507552914272941666 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 266; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1448 732; setLocation 8 25; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 42; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Stylophora_Parsley_1997.nex"'; ID 01824b87848715; LINK Taxa = Taxa; TRANSLATE [0] 1 Nevadaecystis, [1] 2 Galliaecystis, [2] 3 Procothurnocystis, [3] 4 Cothurnocystis_bifida, [4] 5 Bohemiaecystis, [5] 6 Scotiaecystis, [6] 7 Chauvelicystis, [7] 8 Prochauvelicystis, [8] 9 Ponticulocarpus, [9] 10 Cothurnocystis_elizae, [10] 11 Phyllocystis_blacyi, [11] 12 Phyllocystis_crassmarginata, [12] 13 Amygdalotheca, [13] 14 Nanocarpus, [14] 15 Lyricocarpus, [15] 16 Peltocystis, [16] 17 Lagynocystis, [17] 18 Anatiferopsis, [18] 19 Jaekelocarpus, [19] 20 Chauvelia, [20] 21 Ovocarpus, [21] 22 Milonicystis, [22] 23 Hanusia, [23] 24 Chinianocarpos, [24] 25 Aspidocarpus, [25] 26 Mitrocystites, [26] 27 Mitrocystella, [27] 28 Eumitrocystella, [28] 29 Reticulocarpos, [29] 30 Prokopicystis, [30] 31 Ateleocystites, [31] 32 Placocystites, [32] 33 Anomalocystites, [33] 34 Rhenocystis, [34] 35 Barrandeocarpus, [35] 36 Enoploura, [36] 37 Allanicytidium, [37] 38 Notocarpos, [38] 39 Tasmanicytidium, [39] 40 Diamphidiocystis, [40] 41 Beryllia, [41] 42 Ceratocystis; TREE Published = (42,((7,8),(9,((1,2),((4,(3,10)),((5,6),(11,(12,(13,((15,(41,(24,(16,(18,19))))),((23,(29,30)),(22,(14,(21,(20,(25,(26,(27,(28,(35,((17,40),((33,36),((31,(34,32)),(37,(38,39))))))))))))))))))))))))); TREE SCI = (42,((7,8),(9,((4,(3,10)),((1,2),((5,6),(11,(12,(13,((15,((23,(29,30)),(41,(24,(16,(18,19)))))),(22,(14,(21,(20,(25,(26,(27,(28,(35,((17,40),(36,(33,((31,(34,32)),(37,(38,39))))))))))))))))))))))))); 
+ENDBLOCK;

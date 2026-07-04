@@ -1,0 +1,737 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.50.19 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=33;
+	TAXLABELS
+		'Protorosaurus speneri'
+		'Ammorhynchus navajoi'
+		'Bentonyx sidensis'
+		'Brasinorhynchus mariantensis'
+		'Eohyosaurus wolvaardti'
+		'Fodonyx spenceri'
+		'Hyperodapedon gordoni'
+		'H. huenei'
+		'Paradapedon huxleyi'
+		'MARIENSIS combined'
+		'SANJUANENSIS combined'
+		'H. tikiensis'
+		'Zimbabwe form'
+		'Howesia browni'
+		'Isalorhynchus genovefae'
+		'Langeronyx brodiei'
+		'Mesodapedon kuttyi'
+		'Mesosuchus browni'
+		'Prolacerta broomi'
+		'Rhynchosaurus articeps'
+		'Stenaulorhynchus stockleyi'
+		'Supradapedon stockleyi'
+		'Teyumbaita sulcognathus'
+		'Oryctorhynchus bairdi H DS'
+		'Beesiiwo cooowuse'
+		'Sanjuanensis ulbrapvt53'
+		'Sanjuanensis cappaufsm0440'
+		'Mariensis cappaufsm0393'
+		'Sanjuanensis cappausm0211'
+		'Teyumbaita cappaufsm0399'
+		'M mariensis holotype'
+		'Sanjuanensis mcp1693'
+		'Sanjuanensis holotype'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=126;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Skull dimensions (Benton, 1984)'
+		[2] 'Skull height (Hone & Benton, 2008)'
+		[3] 'External nares (Benton, 1985)'
+		[4] 'Orbit orientation (Langer & Schultz, 2000)'
+		[5] 'Orbit with elevated rim along the jugal, postorbital, frontal, prefrontal and lacrimal'
+		[6] 'Orbital medial margin (Montefeltro, Langer & Schultz, 2010)'
+		[7] 'Lower temporal fenestra (Dilkes, 1998)'
+		[8] 'Premaxilla ventral margin (Benton, 1985)'
+		[9] 'Premaxilla and prefrontal contact (Dilkes, 1998)'
+		[10] 'Shape of rostral margin of nasal at midline (Dilkes, 1998)'
+		[11] 'Jugal and maxillary heights bellow the ventral border of the orbit (Benton, 1984)'
+		[12] 'Jugal-lacrimal contact (Whatley, 2005)'
+		[13] 'Anguli oris crest (modified from Benton, 1984)'
+		[14] 'Rostral extension of the anguli oris crest (modified from Benton, 1984)'
+		[15] 'Jugal surface dorsal to anguli oris crest (Langer & Schultz, 2000)'
+		[16] 'Lateral overlap of maxilla by jugal (Whatley, 2005)'
+		[17] 'Jugal with multiple pits on the lateral surface of its main body (Butler et al., 2015)'
+		[18] 'Jugal subtemporal process (Dilkes, 1995)'
+		[19] 'Jugal subtemporal process with a distinct lateroventral orientation with respect to the sagittal axis of the snout (Butler et al., 2015)'
+		[20] 'Relative widths of postorbital bar and lower temporal fenestra (Langer & Schultz, 2000)'
+		[21] 'Dorsomedial surface of prefrontal near the orbital rim (Whatley, 2005)'
+		[22] 'Procumbent lacrimal and prefrontal rostrolateral margin (Whatley, 2005)'
+		[23] 'Groove on the dorsal surface of the frontal (Dilkes, 1995)'
+		[24] 'Dorsal groove on frontal (Butler et al., 2015)'
+		[25] 'Well-marked'
+		[26] 'Frontal and parietal midline lengths (Benton, 1987)'
+		[27] 'Postfrontal (Dilkes, 1998)'
+		[28] 'Postfrontal dorsal surface (Dilkes, 1995)'
+		[29] 'Caudal extension of the caudal process of the postorbital (modified from Dilkes, 1998)'
+		[30] 'Postorbital rostroventral process (Dilkes, 1998)'
+		[31] 'Postorbital ventral process (Whatley, 2005)'
+		[32] 'Postorbital-parietal suture (Dilkes, 1998)'
+		[33] 'Parietals (Benton, 1985)'
+		[34] 'Parietal foramen (Benton, 1985)'
+		[35] 'Parietal table (Dilkes, 1998)'
+		[36] 'Parietal body (Montefeltro, Langer & Schultz, 2010)'
+		[37] 'Parietal transverse process (Montefeltro, Langer & Schultz, 2010)'
+		[38] 'Distal tip of parietal transverse process (modified from Montefeltro, Langer & Schultz, 2010)'
+		[39] 'Squamosal ventral process (Benton, 1990)'
+		[40] 'Squamosal medial process (Butler et al., 2015)'
+		[41] 'Relative position of quadratojugal and squamosal processes (Whatley, 2005)'
+		[42] 'Quadratojugal rostral process (Dilkes, 1998)'
+		[43] 'Supratemporal (Benton, 1984)'
+		[44] 'Supratemporal with a bifurcated medial border, in which a ventromedial process extends underneath the caudolateral process of the parietal (Butler et al., 2015)'
+		[45] 'Pterygoid midline suture length (Whatley, 2005)'
+		[46] 'Ectopterygoid reaches lateral corner of transverse flange of pterygoid (Dilkes, 1998)'
+		[47] 'Elements forming the border of the suborbital fenestra (Dilkes, 1995)'
+		[48] 'Supraoccipital shape (Dilkes, 1995)'
+		[49] 'Occipital condyle position'
+		[50] 'Basioccipital and basisphenoid/parasphenoid lengths (Langer & Schultz, 2000)'
+		[51] 'Relative positions of the basipterygoid process of the basisphenoid and the ectopterygoid process of the pterygoid (Dilkes, 1995)'
+		[52] 'Basipterygoid process dimensions (dorsoventral length, rostrocaudal width) (Langer & Schultz, 2000)'
+		[53] 'Jaw symphysis (Dilkes, 1998)'
+		[54] 'Divergence of dentaries in front of symphysis (Dilkes, 1998)'
+		[55] 'Mandible depth (Benton, 1984)'
+		[56] 'Dentary length (Benton, 1990)'
+		[57] 'Premaxillary teeth (Benton, 1985)'
+		[58] 'Tooth implantation (Benton, 1985)'
+		[59] 'Maxilla occlusal ventral margin (modified from Dilkes, 1998)'
+		[60] 'Tooth occlusion (Benton, 1985)'
+		[61] 'Vomerine teeth (Dilkes, 1998)'
+		[62] 'Palatine teeth (Dilkes, 1998)'
+		[63] 'Pterygoid teeth (Modified from Benton, 1983a and Ezcurra et al., 2015)'
+		[64] 'Pterygoid teeth (Benton, 1983a, 1983a and Ezcurra et al., 2015)'
+		[65] 'Medial maxillary groove'
+		[66] 'Medial maxillary groove (Benton, 1984)'
+		[67] 'Maxillary area lateral to main groove (Benton, 1990)'
+		[68] 'Maxillary cross-section lateral to main groove (Langer, Ferigolo & Schultz, 2000)'
+		[69] 'Tooth rows lateral to main maxillary groove (Langer & Schultz, 2000)'
+		[70] 'Number of tooth rows medial to main maxillary groove (at the caudal half of the maxilla) (Langer, Ferigolo & Schultz, 2000, modified from Schultz et al., 2016)'
+		[71] 'Occlusal tooth rows on the rostral half of the maxilla (Whatley, 2005)'
+		[72] 'Maxillary lingual teeth (Benton, 1984)'
+		[73] 'Maxillary lingual teeth (Benton, 1984) - 2'
+		[74] 'Maxillary teeth (Whatley, 2005)'
+		[75] 'Dentary teeth (Whatley, 2005)'
+		[76] 'Number of rows of teeth on dentary (Benton, 1983a)'
+		[77] 'Caudal-most dentary teeth (Langer & Schultz, 2000)'
+		[78] 'Lingual dentary teeth (Benton, 1984)'
+		[79] 'DEACTIVATED - 2'
+		[80] 'Dentary teeth on the dentary lingual surface (Benton, 1985, rewritten from Schultz et al., 2016)'
+		[81] 'Axis ventral keel (Montefeltro et al., 2013)'
+		[82] 'Axial parapophysis (Montefeltro et al., 2013)'
+		[83] 'Cervical postaxial vertebrae ventral keel (Montefeltro et al., 2013)'
+		[84] 'Truncal vertebrae with ossified intercentrum (Evans, 1988)'
+		[85] 'Epipophyses on cervical postzygapophyses (Whatley, 2005)'
+		[86] 'Position of the transverse process of cranial truncal vertebrae (Montefeltro et al., 2013)'
+		[87] 'Second sacral vertebra (Dilkes, 1998)'
+		[88] 'Caudal vertebrae, neural spine height versus proximodistal length at its base in proximal caudal vertebrae (Dilkes, 1998)'
+		[89] 'Interclavicle'
+		[90] 'Supinator process on the external surface of humeral ectepicondyle (Montefeltro et al., 2013)'
+		[91] 'Caudal process of the coracoid'
+		[92] 'Dorsal margin of the ilium (Dilkes, 1995)'
+		[93] 'Pubic tubercle on the lateral surface of the pubic shaft (Whatley, 2005)'
+		[94] 'Internal trochanter (Whatley, 2005)'
+		[95] 'Crest on craniomedial region of tibial shaft'
+		[96] 'Relative size of astragalar articular facets (Langer & Schultz, 2000)'
+		[97] 'Metatarsal I (Hone & Benton, 2008)'
+		[98] 'Sacral vertebrae and ribs, shape of the caudal projection of the bifurcated distal end of the second sacral rib (Dilkes 1998)'
+		[99] 'Caudal vertebrae, median longitudinal groove on the ventral surface of the centrum of the first two caudals (Dilkes 1998)'
+		[100] 'Metatarsus, length of metatarsal I versus metatarsal III (Dilkes 1998)'
+		[101] 'Caudal orbital margin and caudal margin of maxillary tooth bearing area (Schultz et al., 2016)'
+		[102] 'Dorsal nasal profile in lateral view (Schultz et al., 2016)'
+		[103] 'Participation of the frontal in orbital margin (Schultz et al., 2016)'
+		[104] 'Squamosal body (Schultz et al., 2016)'
+		[105] 'Rounded depression on the ventral surface of basisphenoid (Schultz et al., 2016)'
+		[106] 'Dentary medial surface at caudal portion (Schultz et al., 2016)'
+		[107] 'Curvature of the maxillary caudal border in lateral view (Schultz et al., 2016)'
+		[108] 'Extension of the lateral, or only, maxillary groove (Schultz et al., 2016)'
+		[109] 'Maxillary cross-section medial to main groove (Schultz et al., 2016)'
+		[110] 'Size of maxillary occlusal teeth  (Schultz et al., 2016)'
+		[111] 'Maxillary lingual teeth (Schultz et al., 2016)'
+		[112] 'Maxillary lingual tooth crown orientation (Schultz et al., 2016)'
+		[113] 'Jugal height/length ratio'
+		[114] 'Frontal pair (Benton 1983, Mukherjee & Ray 2014'
+		[115] 'Proportion of maxillary tooth plate, width at caudal end/length (Modified from Mukherjee & Ray, 2014'
+		[116] 'Three bulbous processes or convexities on the cranial surface of the axial centrum (Mukherjee & Ray, 2014'
+		[117] 'Coracoid foramen (Modified from Langer & Schultz 2000, Mukherjee & Ray, 2014'
+		[118] 'Ratio between humeral (HL) and femoral (FL) lengths (Mukherjee & Ray, 2014'
+		[119] 'Presence of a hook-shaped process at the maxilla-premaxilla suture above the dentigerous area (Langer et al., 2017)'
+		[120] 'Paraoccipital process of opisthotic (Langer et al., 2017)'
+		[121] 'DEACTIVATED - 3'
+		[122] 'Size of teeth in rows L1 and L2 (Langer et al., 2017)'
+		[123] 'Medial most row of occlusal tooth at caudal region of maxilla (Langer et al., 2017)'
+		[124] 'Lacrimal, contacts the ascending process of the palatine (Fitch et al., 2022)'
+		[125] 'Maxilla, occlusal view, labiolingual distance between longitudinal groove apex and L1 tooth row (Fitch et al., 2022)'
+		[126] 'Maxilla, ascending process (Fitch et al., 2022)'
+	;
+	STATELABELS
+		1
+			'longer than broad'
+			'broader than long'
+			,
+		2
+			'<50% of the midline length'
+			'>50% of the midline length'
+			,
+		3
+			'separate'
+			'single medial naris'
+			,
+		4
+			'mostly lateral'
+			'mostly dorsal'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'rounded'
+			'forming a marked angle'
+			,
+		7
+			'open ventrally'
+			'closed ventrally'
+			,
+		8
+			'horizontal'
+			'down-turned'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'strongly convex with rostral process'
+			'transverse with little convexity'
+			,
+		11
+			'maxilla higher'
+			'jugal higher'
+			,
+		12
+			'minimal'
+			'extensive contact of the jugal rostral process'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'restricted to the main body of the jugal'
+			'extending onto the rostral process of the jugal, but not the maxilla'
+			'extending onto the maxilla, but not the rostral process of the jugal'
+			,
+		15
+			'lacking a secondary crest'
+			'with a secondary anguli oris crest'
+			,
+		16
+			'absent or minimally expanded'
+			'well developed'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'height >50% of the length'
+			'height <50% of the length'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'<0.4'
+			'>0.4'
+			,
+		21
+			'flat or slightly concave'
+			'deeply concave'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'longitudinally extended along most of the surface of the frontal'
+			'rostrolaterally-to-caudomedially extended along the caudal half of the frontal'
+			,
+		25
+			'V'
+			'-shaped crest along frontal-postfrontal contact, rostral to the margin of the supratemporal fossa (Montefeltro, Langer & Schultz, 2010)'
+			'absent'
+			'present'
+			,
+		26
+			'frontal longer'
+			'parietal longer'
+			,
+		27
+			'excluded from upper temporal fenestra border'
+			'forming the upper temporal fenestra border'
+			,
+		28
+			'flat'
+			'markedly concave'
+			,
+		29
+			'considerably rostral to the level of the caudal border of the infratemporal fenestra'
+			'at level with the caudal border of the infratemporal fenestra'
+			,
+		30
+			'expanding ventral to the level of the orbital midpoint'
+			'expanding dorsally to orbital height midpoint'
+			,
+		31
+			'expands rostral to the jugal'
+			'fits dorsal to the jugal'
+			,
+		32
+			'visible in dorsal view'
+			'hidden in dorsal view'
+			,
+		33
+			'separate'
+			'fused'
+			,
+		34
+			'always, or sometimes, present'
+			'always absent'
+			,
+		35
+			'broad'
+			'constricted and with sagittal crest'
+			,
+		36
+			'not expanded laterally at midlength'
+			'expanded laterally at midlength'
+			,
+		37
+			'caudolaterally directed'
+			'laterally directed'
+			,
+		38
+			'not rostroventrally curved'
+			'rostroventrally curved'
+			,
+		39
+			'thinner than 50% of dorsoventral length'
+			'broader than over 50% of dorsoventral length'
+			,
+		40
+			'short, forming less than half of the caudal border of the supratemporal fenestra'
+			'long, forming entire or almost entire caudal border of the supratemporal fenestra'
+			,
+		41
+			'squamosal ventral process rostral to quadratojugal dorsal process'
+			'squamosal ventral process overlapping the quadratojugal dorsal process'
+			,
+		42
+			'completely absent'
+			'present'
+			,
+		43
+			'present'
+			'absent'
+			,
+		44
+			'present'
+			'absent'
+			,
+		45
+			'greater than or equal to the distance between the caudal margin of the suture and the basipterygoid articulation'
+			'less than the distance between the caudal margin of the suture and the basipterygoid articulation'
+			,
+		46
+			'no'
+			'yes'
+			,
+		47
+			'pterygoid, ectopterygoid, palatine, and maxilla'
+			'pterygoid, ectopterygoid and palatine only'
+			,
+		48
+			'plate-like'
+			'inverted V-shape'
+			,
+		49
+			'rostral_to_craniomandibular_articulation'
+			'aligned_to_craniomandibular_articulation'
+			,
+		50
+			'basisphenoid/parasphenoid longer'
+			'basioccipital longer'
+			,
+		51
+			'at the same level'
+			'basipterygoid process of the basisphenoid caudal to ectopterygoid process of the pterygoid'
+			,
+		52
+			'longer than wide'
+			'wider than long'
+			,
+		53
+			'formed largely by dentary'
+			'formed only by splenial'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'<0.25 of the total length'
+			'>0.25 of the total length'
+			,
+		56
+			'half, or less, than the total mandibular length'
+			'greater than half of the total mandibular length'
+			,
+		57
+			'present'
+			'absent'
+			,
+		58
+			'subthecodont or thecodont'
+			'ankylothecodont'
+			,
+		59
+			'horizontal'
+			'convex'
+			,
+		60
+			'single sided overlap'
+			'flat occlusion'
+			'blade and groove jaw apparatus, where dentary blade(s) fit precisely into maxillary groove(s)'
+			,
+		61
+			'present'
+			'absent'
+			,
+		62
+			'present'
+			'absent'
+			,
+		63
+			'present'
+			'absent'
+			,
+		64
+			'present as two or more rows of bottom-like teeth'
+			'present, but single distinct row of teeth'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'not reaching the rostral half of the maxilla'
+			'reaching the rostral half of the maxilla'
+			,
+		67
+			'narrower than the medial area'
+			'same width'
+			'broader than the medial area'
+			,
+		68
+			'crest-shaped'
+			'cushion-shaped'
+			,
+		69
+			'one row'
+			'two rows'
+			'three rows'
+			'four rows'
+			'five or more rows'
+			,
+		70
+			'one row'
+			'two rows'
+			'three rows'
+			'four rows'
+			'five or more rows'
+			,
+		71
+			'four or more tooth rows'
+			'fewer than four tooth rows'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'scattered teeth'
+			'large number of teeth on the medial surface of the bone'
+			,
+		74
+			'only conicals'
+			'conicals and'
+			'pyramidal'
+			,
+		75
+			'only conical'
+			'conical and rostrocaudally compressed'
+			,
+		76
+			'one'
+			'two'
+			'more than two full rows'
+			,
+		77
+			'on the rostral half of lower jaw'
+			'on the caudal half of lower jaw'
+			,
+		78
+			'absent'
+			'present as single row'
+			'present as two rows'
+			,
+		79
+			,
+		80
+			'forming rows of well-spaced teeth'
+			'crowded'
+			,
+		81
+			'present'
+			'absent'
+			,
+		82
+			'present'
+			'absent'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'present'
+			'absent'
+			,
+		85
+			'spine-shaped'
+			'crest-shaped'
+			,
+		86
+			'at the level of prezygapophysis'
+			'caudally located in the vertebra centrum'
+			,
+		87
+			'with a notch between the iliac articular surface and the caudal process'
+			'caudal process continuous to the iliac articular surface'
+			,
+		88
+			'<2.20'
+			'=2.20'
+			,
+		89
+			'caudal process longer than twice the lateral processes'
+			'caudal process shorter than twice the lateral process'
+			,
+		90
+			'hook-shaped'
+			'formed by a low supinator ridge and ligament groove'
+			,
+		91
+			'present'
+			'absent'
+			,
+		92
+			'cranial process <15% of the length of the caudal process'
+			'cranial process >15% of the length of the caudal process'
+			,
+		93
+			'present'
+			'absent'
+			,
+		94
+			'continuous with the femoral head'
+			'separated from femoral head'
+			,
+		95
+			'(Montefeltro et al., 2013)'
+			'absent'
+			'present'
+			,
+		96
+			'tibial facet greater than centrale facet'
+			'centrale facet greater than tibial facet'
+			,
+		97
+			'longer than broad'
+			'broader than long'
+			,
+		98
+			'tapering'
+			'squared'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'<0.45'
+			'=0.45'
+			,
+		101
+			'at the same level'
+			'caudal orbital margin located caudally'
+			,
+		102
+			'nasal inclined rostrally'
+			'nasal horizontally oriented, rostral edge in level with caudal edge'
+			,
+		103
+			'frontal forming great part of the median section of orbital dorsal border'
+			'prefrontal and postfrontal closer to, or contacting each other reducing the participation of the frontal in dorsal orbital border'
+			,
+		104
+			'restricted, forming a restricted intertemporal bar'
+			'developed and forming a plate-like intertemporal bar'
+			,
+		105
+			'absent'
+			'present'
+			,
+		106
+			'flat'
+			'forming a bulged area projecting medially from the remaining area of the dentary'
+			,
+		107
+			'caudal border of maxillae curves gentle towards the jugal'
+			'caudal border of maxillae curves strongly towards the jugal so that the caudal teeth face caudoventrally'
+			,
+		108
+			'along the whole occlusal surface of maxilla'
+			'limited to the caudal half of maxillary occlusal surface'
+			,
+		109
+			'crest-shaped'
+			'cushion-shaped'
+			,
+		110
+			'enlarged teeth with each longitudinal row formed by reduced number of teeth'
+			'reduced teeth with each longitudinal row formed by great number of teeth'
+			,
+		111
+			'restricted to caudal half of the maxilla'
+			'extending to the rostral half of maxillary length'
+			,
+		112
+			'medially oriented, perpendicular to maxillary medial wall'
+			'ventrally directed parallel to maxillary medial wall'
+			,
+		113
+			'<0.5'
+			'>0.5'
+			,
+		114
+			'[14]'
+			')'
+			'longer than broad'
+			'broader than long'
+			,
+		115
+			'[33]'
+			')'
+			'<0.3'
+			'>0.3'
+			,
+		116
+			'[50]'
+			')'
+			'absent'
+			'present'
+			,
+		117
+			'[58]'
+			')'
+			'restricted to coracoid'
+			'shared between scapula and coracoid'
+			,
+		118
+			'[65]'
+			')'
+			'HL/FL < 1'
+			'HL/FL = 1'
+			,
+		119
+			'absent'
+			'present'
+			,
+		120
+			'curved ventrally'
+			'straight'
+			,
+		121
+			,
+		122
+			'same size as other teeth'
+			'teeth in L1 or L2'
+			,
+		123
+			'strictly occlusal'
+			'medially displaced and crowns with not strictly occlusal direction'
+			,
+		124
+			'present'
+			'absent'
+			,
+		125
+			'less than the labiolingual width of L1 teeth'
+			'equal to or greater than the labiolingual width of L1 teeth'
+			,
+		126
+			'anterodorsal-posteroventral orientation of contact with the prefrontal and/or lacrimal'
+			'nearly vertical orientation of contact with the prefrontal and/or lacrimal'
+			,
+	;
+	MATRIX
+	'Protorosaurus speneri'             0000000000000???0?00000?00000000(0 1)?10001???1????0?????0010000??00???????0?00010?????1?010010?10?00??1??00????????0???0?0??????0
+	'Ammorhynchus navajoi'              ????????????????????????????????????????????????????????1112????0?00011110???2????????????????????????????100111??0??????0??1?
+	'Bentonyx sidensis'                 001011?1111010000?10101101011?01111110?1?1011??1011011??111211?????001?10??2?2?0????????????????????110110100011?0????01??0??1
+	'Brasinorhynchus mariantensis'      01100001111012000110100?110110011110110?010???01010011??11121101110004111002?2?1110?????????????????10111111011?1000??01?0??11
+	'Eohyosaurus wolvaardti'            00?00?0???0?12001100??????0?100?1?1000000100???0???0??00?1110?00???????10002?2?0????????????????????1??0?00??0?01??????0??????
+	'Fodonyx spenceri'                  11?01?0???1?1000?11??????????0???1????0?0????11?????11011112111?10000111000202?0???????????????????????1?110100??????????10?10
+	'Hyperodapedon gordoni'             11110011111111010111?1100100111011111011111?1111110111111112111?0?012(1 2 3)00?11111?0111110?0011111111??00101001010??10111100?0(0 1)000
+	'H. huenei'                         11110011111111110111110?0110111111111011111?0111110111111112111?10013401011212?0????????????????????010101101000101???11?01011
+	'Paradapedon huxleyi'               11110011111111010011?1100110111111111011111?1111110111111112111?0?21(3 4)(2 3 4)00?11111?000?110101111?1111??00101001000??10100100?11001
+	'MARIENSIS combined'                1111001111111101001111100110111111111011111?(0 1)(0 1)11110111111112111?0?21(2 3 4)200?11111?0???1?00?011??1?1?1??0101011010??101?1000?0(0 1)111
+	'SANJUANENSIS combined'             1111001111111101011111100110111111111011111?0111110111111112111?0?21(2 3 4)200?11010???011100?0111?111?1??0101001000??1010??00?00111
+	'H. tikiensis'                      ??11???11?1?110?0???????????????????????????????11?01???1112?11?0?213200?112?2?00111?0???1?1?111????????0?10?0????11?????01?1?
+	'Zimbabwe form'                     ??1????1??1?1??1?????????????????????????????1???????1??1112?11?0?113(1 2 3)00?11(1 2)?(1 2)?0??????????????????????????1010????1???0??01?0?
+	'Howesia browni'                    00?0000??10?????1100001000010?00111000?0??0?10000000?????111?000??????0100020???0??0?001???00000010???0?0?0??01??00???????(0 1)???
+	'Isalorhynchus genovefae'           11110?1111111111011101?????0100?111?1?1?11??0?1?110011111112111?0?(1 2)(0 1)0(1 2)10?11111?0??11000011110111?1?00???001010??1?1??00??10?00
+	'Langeronyx brodiei'                ??1010?11?101(0 2)000?1?100?0??0?00???????????????0????011??1112????0?000(0 1)110002?2?0????????????????????000??01?000??0???????10?0?
+	'Mesodapedon kuttyi'                ?????????????????????????????????????????????????????1???1?2????110011111002?2?1????????????????????????????011???0??????0??1?
+	'Mesosuchus browni'                 0010000110000???0010000110000???11000010000100001000000000010000???????0?00200??00000001010000000110100000???0??00?0?001???0?0
+	'Prolacerta broomi'                 0000000100000???1100000?0000000000000000000111000000000101000000???????0?00000??0010?00001001000010110010???????00??0?00?????0
+	'Rhynchosaurus articeps'            00101001110012000110001101001000111100010101?101000011011112110????000?????20????????00(0 1)0?0??01000001000?00??0??10??0001???000
+	'Stenaulorhynchus stockleyi'        0010110111101200?110100?110110001111010101011111010011001112110111000011100202?1100000000001001010?011111111011011000000?00?11
+	'Supradapedon stockleyi'            ????????????11?1?????????????????????????????????????????112????0?21340101???????????????????1????????????101000??1??????01?1?
+	'Teyumbaita sulcognathus'           11110111111111110011110?0111111111111011111?0111110111111112111?11002401011212?1001111???11??11?????01010110110010101010?01010
+	'Oryctorhynchus bairdi H DS'        ???????1????????????????????????1?1????0?????????1?1????1112????0?10(0 1)010?110?0??????????????????????????000000????0??????10?0?
+	'Beesiiwo cooowuse'                 ?????????????????????????????????????????????????????????112????0?101010?110?0?????????????????????????????000???????????1??0?
+	'Sanjuanensis ulbrapvt53'           1111001111111101101?11????????????????1?11??????????11111112????0??12??????0?0??????????????????????01???010?0??1?1???0????1?1
+	'Sanjuanensis cappaufsm0440'        ????????????1101?11?????????????????????????????????111??112????0?21(2 3)200?11010???????????111?????????????01010??1?1??????00?1?
+	'Mariensis cappaufsm0393'           111100111?111101001111??????111111111?1?11?????1???111111112??1?0?213200?11111?0????????????????????01?1011010??1?1???00?001??
+	'Sanjuanensis cappausm0211'         111???11????1101011?????????????11111???11???11?????11111112111?0?212200?11010???????????????????????????01010??1?1?100??000??
+	'Teyumbaita cappaufsm0399'          ??????1?????1????0???????????????????????1??????????11?11112????1100(1 2 3 4)4????1212?1?????????????????????????110?1??????????????1?
+	'M mariensis holotype'              111100111111?101?01111???110111?11111011111?0??1???111111112??1?0??13???????????????????????????????01010?10?0??10????00???1?1
+	'Sanjuanensis mcp1693'              111?0?11??111101001??1??????????????????11??011?????11111112??1?0?212100?11010???????????????????????????01010??1?1???0??00111
+	'Sanjuanensis holotype'             111?0?11??111101011??1??????????????????11??0111???111111112111?0?212200?11010??????????????????????????001010??1?1???00?00111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-126;
+ENDBLOCK;

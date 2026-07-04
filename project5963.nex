@@ -1,0 +1,661 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.53.36 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=70;
+	TAXLABELS
+		'Fortiforceps foliosa OUTGROUP'
+		'Haikoucaris ercaiensis'
+		'Alalcomenaeus cambricus'
+		'Leanchoilia illecebrosa'
+		'Burgessia bella'
+		'Marrella splendens'
+		'Mimetaster hexagonalis'
+		'Martinssonia elongata'
+		'Nebalia bipes'
+		'Rehbachiella kinnekullensis'
+		'Squamacula clypeata'
+		'Acanthomeridion anacanthus'
+		'Acanthomeridion serratum'
+		'Australimicola spriggi'
+		'Zhiwenia coronata'
+		'Retifacies abnormalis'
+		'Pygmaclypeatus daziensis'
+		'Cindarella eucalla'
+		'Luohuilinella rarus'
+		'Luohuilinella deletres'
+		'Xandarella spectaculum'
+		'Australoxandarella poikar'
+		'Zhugeia acuticaudata'
+		'Sinoburius lunaris'
+		'Phytophilaspis pergamena'
+		'Misszhouia longicaudata'
+		'Naraoia compacta'
+		'Naraoia spinosa'
+		'Tariccoia arrusensis'
+		'Soomaspis splendida'
+		'Liwia convexa'
+		'Buenaspis forteyi'
+		'Tegopelte gigas'
+		'Skioldia aldna'
+		'Saperion glumaceum'
+		'Kuamaia lata'
+		'Helmetia expansa'
+		'Haifengella corona'
+		'Olenoides serratus'
+		'Eoredlichia intermedia'
+		'Kwanyinaspis maotianshanensis'
+		'Tonglaiia bispinosa'
+		'Sidneyia inexpectans'
+		'Sidneyia minor'
+		'Sidneyia malongensis'
+		'Triopus draboviensis'
+		'Duslia insignis'
+		'Cheloniellon calmani'
+		'Neostrabops martini'
+		'Emeraldella brocki'
+		'Kodymirus vagans'
+		'Eozetetes gemmelli'
+		'Australaglaspis stonyensis'
+		'Beckwithia typa'
+		'Flobertia kochi'
+		'Cyclopites vulgaris'
+		'Chlupacaris dubia'
+		'Quasimodaspis brentsae'
+		'Tremaglaspis unite'
+		'Brachyaglaspis singularis'
+		'Tremaglaspis vanroyi'
+		'Uarthrus instabilis'
+		'Aglaspella granulifera'
+		'Gogglops ensifer'
+		'Aglaspis spinifer'
+		'Glypharthrus simplex'
+		'Chraspedops modesta'
+		'Glypharthrus thomasi'
+		'Glypharthrus magnoculus'
+		'Glypharthrus trispinicaudatus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=94;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		[1] 'Nature of first appendage'
+		[2] 'Number of podomeres on raptorial limb'
+		[3] 'Raptorial appendages with flagellum'
+		[4] 'Length of distal spine on podomeres'
+		[5] 'Number of post-ocular head segments'
+		[6] 'Nature of second appendage pair'
+		[7] 'Nature of third appendage pair'
+		[8] 'Appendages under cephalo-thoracic articulation'
+		[9] 'Trunk endopods'
+		[10] 'Trunk exopod structure'
+		[11] 'Proximal exopod lobe'
+		[12] 'Distal exopod lobe'
+		[13] 'Exopod with articulations'
+		[14] 'Imbricate exopod lamellae'
+		[15] 'Lamellae structure'
+		[16] 'Non-overlapping marginal setae on distal lobe'
+		[17] 'Gnathobasic limbs'
+		[18] 'Lateral eyes'
+		[19] 'Nature of lateral eyes'
+		[20] 'Ventral eyes in front of head'
+		[21] 'Calcified eyes'
+		[22] 'Dorsal exoskeletal bulge'
+		[23] 'Eye slits'
+		[24] 'Dorsal median eyes'
+		[25] 'Free head shield'
+		[26] 'Bivalved carapace'
+		[27] 'Cephalic doublure'
+		[28] 'Cephalon notched'
+		[29] 'Hypostome'
+		[30] 'Anterior sclerite'
+		[31] 'Ecdysial sutures'
+		[32] 'Position of ecdysial sutures'
+		[33] 'Elevated marginal rim'
+		[34] 'Marginal rim ornamented'
+		[35] 'Differentiated glabellar region'
+		[36] 'Head shield outline'
+		[37] 'Posterior cephalic band'
+		[38] 'Pleural cephalic furrows'
+		[39] 'Cuticle sculpture'
+		[40] 'Mineralized cuticle'
+		[41] 'Expanded lateral pleurae'
+		[42] 'Free thoracic tergites'
+		[43] 'Decoupling of tergites and limb pairs'
+		[44] 'Tergite articulations'
+		[45] 'Dorsal trunk effacement'
+		[46] 'Cephalic articulation fused'
+		[47] 'Head shield extends over anterior tergites'
+		[48] 'Articulation with reduced tergite'
+		[49] 'Trunk narrowed anteriorly'
+		[50] 'Trunk tergites reflexed anteriorly'
+		[51] 'Joints between posterior tergites functional'
+		[52] 'Posterior tergite with single axial spine'
+		[53] 'Radial pleurae'
+		[54] 'Raised axial region'
+		[55] 'Anterior tergal processes'
+		[56] 'Tuberculation of posterior tergite margin'
+		[57] 'Axial spines or nodes'
+		[58] 'Length of postabdomen'
+		[59] 'Postabdomen without walking legs'
+		[60] 'Postabdomen as differentiated tergites'
+		[61] 'Posterior tergites strongly curved'
+		[62] 'Pygidium'
+		[63] 'Position of anus'
+		[64] 'Pygidium with median keel'
+		[65] 'Pygidium with broad median spine'
+		[66] 'Pygidium with lateral spines'
+		[67] 'Tailspine'
+		[68] 'Tailspine shape'
+		[69] 'Length of tailspine'
+		[70] 'Marginal spines on tailspine'
+		[71] 'Tailspine with median cleft or keel'
+		[72] 'Paddle with projections'
+		[73] 'Ventral sclerite covering anal region'
+		[74] 'Paired modified appendages'
+		[75] 'Nature of preterminal appendages'
+		[76] 'Reduced carapace'
+		[77] 'Width of doublure'
+		[78] 'Length of thorax relatve to pygidium'
+		[79] 'Articulating half rings'
+		[80] 'Axial furrows on trunk'
+		[81] 'Postventral plate medial attachment'
+		[82] 'Dorsal eyes confined to anterior half'
+		[83] 'Dorsal eyes abutting glabella anteriorly'
+		[84] 'Dorsal eyes merge anteriorly into cephalon'
+		[85] 'Nature of anal sclerite'
+		[86] 'Nature of differentiated preterminal tergite'
+		[87] 'Pleural tips on posterior end with elongate spines'
+		[88] 'Antennal scale'
+		[89] 'Head shield with lateral notches'
+		[90] 'Tailspine with multiple articulatons'
+		[91] 'Shape of undivided exopod lobe with lamella'
+		[92] 'Head/trunk exopods heteronomous'
+		[93] 'Exites'
+		[94] 'Length of posterior three thoracic tergites'
+	;
+	STATELABELS
+		1
+			'Raptorial appendage'
+			'Antennae'
+			,
+		2
+			'Four'
+			'Three'
+			'Two'
+			,
+		3
+			'Absent'
+			'Present'
+			,
+		4
+			'Absent or shorter than podomere'
+			'Subequal to length of podomeres'
+			'Longer than entire podomere series'
+			,
+		5
+			'None'
+			'One'
+			'Two'
+			'Three'
+			'Four'
+			'Five'
+			'Six'
+			'Seven'
+			,
+		6
+			'Biramous walking leg or antennae'
+			'Uniramous walking leg'
+			,
+		7
+			'Biramous walking leg'
+			'Uniramous walking leg'
+			,
+		8
+			'Absent'
+			'Present'
+			,
+		9
+			'Absent or reduced'
+			'Present'
+			,
+		10
+			'Simple oval flap'
+			'Exopod differentiated into proximal and distal lobes, the proximal lobe bearing lamellar setae, the distal lobe bearing short setae'
+			'Numerous podomeres, each bearing a single seta'
+			'Undivided lobe with lamellae'
+			,
+		11
+			'Flattened lobe'
+			'Slender shaft'
+			,
+		12
+			'Small to moderate sized flap'
+			'Large, teardrop shaped lobe with long attachment'
+			,
+		13
+			'Absent'
+			'Present'
+			,
+		14
+			'Absent'
+			'Present'
+			,
+		15
+			'Thick, flat lamellae'
+			'Delicate, comb-like lamellae'
+			'Paddle-shape lamellae with marginal setae'
+			,
+		16
+			'Absent'
+			'Small setae'
+			'Long spines or filaments'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'Stalked'
+			'Sessile'
+			,
+		20
+			'Absent'
+			'Present'
+			,
+		21
+			'Absent'
+			'Present'
+			,
+		22
+			'Absent'
+			'Present'
+			,
+		23
+			'Absent'
+			'Present'
+			,
+		24
+			'Absent'
+			,
+		25
+			'Absent'
+			'Present'
+			,
+		26
+			'Absent'
+			'Present'
+			,
+		27
+			'Absent'
+			'Present'
+			,
+		28
+			'Absent'
+			'Present'
+			,
+		29
+			'Median extension of the doublure, with no suture'
+			'Natant, sclerite not in contact with doublure'
+			'With narrow overlap with pre-hypostomal sclerite'
+			'Narrow attachment to doublure at hypostomal suture'
+			'Absent'
+			,
+		30
+			'Absent'
+			'Present'
+			,
+		31
+			'Absent'
+			'Present'
+			,
+		32
+			'Marginal'
+			'Dorsal'
+			,
+		33
+			'Absent'
+			'Present'
+			,
+		34
+			'Absent'
+			'Present'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'Genal spines'
+			'Acute genal angles'
+			'Rounded genal angles'
+			'Lateral spine-like extensions of the carapace'
+			,
+		37
+			'Absent'
+			'Present'
+			,
+		38
+			'Absent'
+			'Present'
+			,
+		39
+			'Absent'
+			'Present'
+			,
+		40
+			'Absent'
+			'Calcium phosphate'
+			'Calcium carbonate'
+			,
+		41
+			'Absent'
+			'Present'
+			,
+		42
+			'Absent'
+			'Present'
+			,
+		43
+			'Absent'
+			'Present'
+			,
+		44
+			'Tergites non-overlapping'
+			'Extensive overlap of tergites'
+			'Edge to edge pleural articulations'
+			,
+		45
+			'Trunk with (separate or fused) tergite boundaries'
+			'Trunk tergite boundaries effaced laterally'
+			'Trunk tergite boundaries completely effaced'
+			,
+		46
+			'Absent'
+			'Present'
+			,
+		47
+			'Overlap absent or identical to overlap between thoracic segments'
+			'Head shield overlaps first thoracic tergite only'
+			'Head shield covers multiple anterior trunk tergites'
+			,
+		48
+			'Absent'
+			'Present'
+			,
+		49
+			'Absent'
+			'Present'
+			,
+		50
+			'Absent, boundaries transverse or reflexed posterolaterally'
+			'Present'
+			,
+		51
+			'Absent'
+			'Present'
+			,
+		52
+			'Absent'
+			'Present'
+			,
+		53
+			'Absent'
+			'Present'
+			,
+		54
+			'Absent or weakly defined'
+			'Present and well defined'
+			,
+		55
+			'Absent'
+			'Present'
+			,
+		56
+			'Absent'
+			'Present'
+			,
+		57
+			'Absent'
+			'Present'
+			,
+		58
+			'One segment'
+			'Two segments'
+			'Three segments'
+			'Five segments'
+			,
+		59
+			'Absent'
+			'Present'
+			,
+		60
+			'Absent'
+			'Present, tergite free'
+			'Present, preterminal tergites fused with telson (most aglaspidids)'
+			,
+		61
+			'Absent'
+			'Present'
+			,
+		62
+			'Absent'
+			'Present'
+			,
+		63
+			'Terminal, within telson'
+			'At base of telson'
+			,
+		64
+			'Absent'
+			'Present'
+			,
+		65
+			'Absent'
+			'Present'
+			,
+		66
+			'Absent'
+			'Present'
+			,
+		67
+			'Absent'
+			'Present'
+			,
+		68
+			'Spinose'
+			'Paddle shaped'
+			'Cap-like'
+			,
+		69
+			'Shorter than length of trunk'
+			'Longer than half length of trunk'
+			,
+		70
+			'Absent'
+			'Present'
+			,
+		71
+			'Absent'
+			'Present'
+			,
+		72
+			'Absent'
+			,
+		73
+			'Absent'
+			'Present (e.g., aglaspidids, Sidneyia)'
+			,
+		74
+			'Absent'
+			'Present'
+			,
+		75
+			'Uropods'
+			'Furca'
+			,
+		76
+			'Absent'
+			'Present'
+			,
+		77
+			'Narrow to moderately wide'
+			'Wide'
+			'Covers entire ventral side of cephalon'
+			,
+		78
+			'Longer than pygidium'
+			'Shorter than pygdium'
+			,
+		79
+			'Absent'
+			'Present'
+			,
+		80
+			'Absent'
+			'Present'
+			,
+		81
+			'Narrow attachment by central portion'
+			'Wide longitudinal attachment'
+			,
+		82
+			'Absent (e.g., Trilobita)'
+			'Present (e.g., Aglaspidida)'
+			,
+		83
+			'Absent (e.g., Trilobita)'
+			'Present (e.g., Aglaspidida)'
+			,
+		84
+			'Absent (e.g., Trilobita)'
+			'Present, eyes separate (e.g., Glypharthrus)'
+			'Present, eyes medially fused (e.g., Cyclopites)'
+			,
+		85
+			'Anal plate (e.g., Sidneyia)'
+			'Postventral plate (e.g., Aglaspidida)'
+			,
+		86
+			'Tergite with reduced pleurae'
+			'Cylindical tergite without pleurae'
+			,
+		87
+			'Absent'
+			'Present'
+			,
+		88
+			'Absent'
+			'Present'
+			,
+		89
+			'Absent'
+			'Present'
+			,
+		90
+			'Absent'
+			'Present'
+			,
+		91
+			'Broad lobe (e.g., Retifacies, Pygmaclypeatus)'
+			'Slender shaft (e.g., Naraoia compacta)'
+			,
+		92
+			'Absent, exopods with same morphology in head and trunk'
+			'Present, exopods with different morphology on head and trunk'
+			,
+		93
+			'Absent'
+			'Present'
+			,
+		94
+			'Similar to anterior thoracic tergites'
+			'Progressively lengthening posteriorly'
+			,
+	;
+	MATRIX
+	'Fortiforceps foliosa OUTGROUP'      0201400010---0-1010100000-00400-0-02000011010000000000000-00001---10000000-0?-00------0000-00-
+	'Haikoucaris ercaiensis'             0101400010---0-2010100000-00400-0-01000011010000000000000-00001---10010-00-00-00------0000-00-
+	'Alalcomenaeus cambricus'            0112400010---0-2110100000-00400-0-01000011010000000000000-00001---11010000-0--00------0000-00-
+	'Leanchoilia illecebrosa'            0112400010---0-2110?00000-00?00-0-01000011010000000000000-00101---10010-00-0--00------0000-01-
+	'Burgessia bella'                    1--0400010---0-000-----00-10400-0-02000001000020000000000-00001---10100-00-0--00-------000-00-
+	'Marrella splendens'                 1--021-012---0--00-----00-00?00-0-030000010000200000-0000-0000?---12000-00-0--00-------000--0-
+	'Mimetaster hexagonalis'             1--0311012---0--010000000-00100-0-030000010000200000-0000-0000?---12000-00-0--00-------000--0-
+	'Martinssonia elongata'              1--0500012---0--10-----00000400-0-01000001000020000000000310000---0-----00-0--00-------00--00-
+	'Nebalia bipes'                      1--0500012---0--110100001100400-0-01000001000020000000000210000---0-----00-0--00-------00--00-
+	'Rehbachiella kinnekullensis'        1--0500012---0--110100001100400-0-01000001000020000000000210000---0-----00-0--00-------00--00-
+	'Squamacula clypeata'                1--010-010---0-110-----00-10000-0-01000011010000000000000-0-1110000-----00-02000------000---?0
+	'Acanthomeridion anacanthus'         ?????????????????0----000-10?0110-01000011?10000000001000-0-10?---10000-?0-00-00------0?00???-
+	'Acanthomeridion serratum'           ?????????????????0----000-10?0110-01000011?10000000001000-0-10?---10000-?0-00-00------1?00???-
+	'Australimicola spriggi'             1--0?????????????0----000-10210-0-01000011?10000010001000-0-10?---10010-?0-00-00------0000???0
+	'Zhiwenia coronata'                  1--04???1?0??1???10100000-10000-0-02000011?10001010001000-0-10?---10010-?0-00-00------0010???0
+	'Retifacies abnormalis'              1--0411013---12-00-----00-10000-0-00000011010000000000000-0-11100110100-00-00000------00010-10
+	'Pygmaclypeatus daziensis'           1--0400013---12-10-----00-10000-0-01000011010000000000000-0-11?00010000-00-00000-------0010100
+	'Cindarella eucalla'                 1--0500011001111010100000-10100-0-01000011110021000100000-001110000-----00-00000------001--000
+	'Luohuilinella rarus'                ?????????????????1??00000-?0?00-0-01000011?10021000001000-?-1??????????????0?000------0?1????0
+	'Luohuilinella deletres'             1--0400011?0?111?10000000-10100-0-01000011?10021000001000-0-11?0100-----?0-00000------001--0?0
+	'Xandarella spectaculum'             1--0700011101111110001100-10100-0-01000011110021000000000-0-1110110-----00-00000-0-0--000--001
+	'Australoxandarella poikar'          ????????1110111??????00?0-?0?00-0-010000111100??000000000-0-01?1000-----0??0?000----?-0?0--??1
+	'Zhugeia acuticaudata'               ?????????????????1?0?1000-?0??0-0-00000011?10021000000000-0-11?0110-----?0-0?000-0-0--0?0-???0
+	'Sinoburius lunaris'                 1--0500011101111110001000-10100-0-00000011110021000001000-0-01?0110-----00-00000-0-0--010--100
+	'Phytophilaspis pergamena'           ????5????????????10001100-00100-0-11001110??10?1000001000-0-01?0000-----?0-0-101-000?--?0-???-
+	'Misszhouia longicaudata'            1--0500111101111110000000-10110-0-020000100-2000100000000-0--110000-----00-00?00-------10--00-
+	'Naraoia compacta'                   1--0{4 5}00113101121110000000-10100-0-020000100-2000100000000-0--110000-----00-00?00-------00-100-
+	'Naraoia spinosa'                    1--0500111010111110000000-10100-0-000000100-2000100000000-0--110010-----00-00?00-------00--01-
+	'Tariccoia arrusensis'               ??????????????????????000-10?00-0-02000011?10010100000000-0-0111000-----00-01100------0?0-???0
+	'Soomaspis splendida'                ??????????????????????000-10?00-0-02000011?10010100000000-0-0111000-----00-01110------0?0-???0
+	'Liwia convexa'                      1--0?00?11???1?????????00-?0?00-0-01000011010010100000000-?-0111010-----00-0?100------0?0--0?0
+	'Buenaspis forteyi'                  ?????????????????????0000-10?00-0-02000011?10000100000000-0-011?000-----00-00010------0?0-???0
+	'Tegopelte gigas'                    1--0?00?1???????0100??000-11210-0-0-000010?211--00?000000-0--110000-----00-00?00-------?0-???-
+	'Skioldia aldna'                     1--0?00?11???10??10001000-11210-0-0-000010?211--001000000-0--110000-----00-00?00-------?0--0?0
+	'Saperion glumaceum'                 1--0?0??11011100010001000-11210-0-0-0000100211--001000000-0--110000-----00-00?00-------?0--0?-
+	'Kuamaia lata'                       1--0?00?11011120110001000-11210-0-01000011020000011001000-0-0110110-----00-000?0------0?0--000
+	'Helmetia expansa'                   ????4????????????10001000-11210-0-01000011020000011000000-?-0110110-----00-000?0------0?0-???0
+	'Haifengella corona'                 ?????????????????10001000-?1210-0-00000011?20000000000000-0-01?0110-----?0-0?000------1?0-???0
+	'Olenoides serratus'                 1--0400111001101111-1-000-1030111010001211020000000001000-0-0110010-----00-00-11-000--000--000
+	'Eoredlichia intermedia'             1--0400111000101111-1-000-1030111010000211020000000101000-0-1110000-----00-00011-000--000--000
+	'Kwanyinaspis maotianshanensis'      ?????00?11010101110001000-10000-1011000011020000010000000??010?---10000-?0-00-?0?---?-0?00-000
+	'Tonglaiia bispinosa'                ?????????????????1?0?1000-?0??0-0-02000011?100?0000000000-0-11?0010-----?0-0?000------0?0-???0
+	'Sidneyia inexpectans'               1--011-01101-101110000000-10000-0-01000011010000000000000211101---11000011002-00----010010--0-
+	'Sidneyia minor'                     1--040001101-101110000000-00000-0-01000011010000000000000011101---110000???00-00----010?10???-
+	'Sidneyia malongensis'               ?????????????????1?0?0000-?0??0-0-01000011?1001000000000011110?---110000?100?-00----?10?10???-
+	'Triopus draboviensis'               ????????????????????00000-?0?00-0-12000011?1000001001100001110?---12000-0??1?-01-----10?00???-
+	'Duslia insignis'                    1????????????????????0000-?0?00-0-12000011?1000001001100001110?---12000-0110?-01-----10?00???-
+	'Cheloniellon calmani'               1--0511011?11??1111-0-000-10100-0-0200101101000001001100001110?---12000-01110-01-0---10000--0-
+	'Neostrabops martini'                ?????????????????11-0-000-?0?00-0-02000011?10000010000000?0?10?????????????1?-00?0-0??0?0????-
+	'Emeraldella brocki'                 1--041001101112110-----00-10000-0-01000011010000000000000011101---10100-01000-00-----10000-00-
+	'Kodymirus vagans'                   1--041??1{0 1}?????1111-0-000-10000-0-11001011?10000000000001-?210?---10100-00-00-00-110-10000--?-
+	'Eozetetes gemmelli'                 1--??????????????1?0??000-10000-1011000011?10000000001001???10?---10101-0??00-00-1??-?0?00???-
+	'Australaglaspis stonyensis'         ????????1????????11-0-000-?0000-10110?0111?10000000000?0?11?10?---10101-10-0?-00111?1?0?00???-
+	'Beckwithia typa'                    ?????????????????11-0-000-10?00-1110001111?10000000?00001???10?---10110-?0-00-00?111??0?00???-
+	'Flobertia kochi'                    ????????1????????11-0-000-10000-10?2001111?100000?0000100????0???????????0?00?00?1????0?0????-
+	'Cyclopites vulgaris'                ?????????????????11-0-000-?0?00-1012000111?1000000000010011210?---10100-10-0?-00?112110?00???-
+	'Chlupacaris dubia'                  ?????????????????11-?-000-10100-1??2?0?111???0??000000?00?1??0?---10000-10-00-0010??1???00???-
+	'Quasimodaspis brentsae'             ?????????????????11-0-000-10?00-1011000111?10000000001?00???10?---10000-?0-00-?0?111??0?00???-
+	'Tremaglaspis unite'                 ?????????????????0-----00-00100-0-02000111?10000000001?0021?00?---10000-10-0--001---1?0?00???-
+	'Brachyaglaspis singularis'          ?????????????????0-----00-?0?00-100200?111?100??000001?00?1?10?---10001-1??0?-?01---1?0?00???-
+	'Tremaglaspis vanroyi'               ?????????????????0-----00-00?00-1002001111?10011100001?00???10?---10001-???0--00?---??0?00???-
+	'Uarthrus instabilis'                ?????????????????11-00000-10?00-???1001111?10000000000?0011?10?---10100-10-00-0001?11?0?00???-
+	'Aglaspella granulifera'             ?????????????????11-0-000-10?00-1011011111?1000000000010011210?---10100-10-00-000111110?00???-
+	'Gogglops ensifer'                   ?????????????????11-00000-10?00-1010011211?200???00?0110????10?---10000-?0-00-10?111??0?00???-
+	'Aglaspis spinifer'                  ????4??11????????11-0-000-10000-111011111101000000000011011210?---10100-10-00-000111111?00???-
+	'Glypharthrus simplex'               ?????????????????11-0-000-00?00-1010111111?1000000000011021210?---10100-10-0--001111110?00???-
+	'Chraspedops modesta'                ?????????????????11-0-000-00?00-1011011111?10000000000?00???10?---10101-?0-0--00?111??0?00???-
+	'Glypharthrus thomasi'               ?????????????????11-0-000-00?00-1011?1?111?10000000001?00??210?---10100-???0--00?011?10?00???-
+	'Glypharthrus magnoculus'            ?????????????????11-0-000-00?00-1?11?11111?10000000001??0??1?0?---10100-???0--00?111?10?00???-
+	'Glypharthrus trispinicaudatus'      ?????????????????11-0-000-?0?00-1?11??1111?10000000001??001110?---10?00-?100?-00?111?10?00???-
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-94;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1750247423903; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 412816259097827351; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8164831229617134702; mqVersion 381; checksumv 0 3 4287840024 null getNumChars 94 numChars 94 getNumTaxa 70 numTaxa 70 short true bits 2305843009213694143 states 191 sumSquaresStatesOnly 43032.0 sumSquares -4.611686018427355E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8164831229617134702 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; showExtraDataWindow #8164831229617134702 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #8164831229617134702 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 94; 
+ENDBLOCK;

@@ -1,0 +1,411 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.54.47 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=40;
+	TAXLABELS
+		'Cyclus radialis'
+		'Uralocyclus harknessi'
+		'Uralocyclus woodwardi'
+		'Ambocyclus simulans'
+		'Litocyclus bilobatus'
+		'Litocyclus torosus'
+		'Litocyclus jonesianus'
+		'Carabicyclus wrighti'
+		'Prolatcyclus martinensis'
+		'Prolatcyclus kindzadza'
+		'Chernyshevine spinosus'
+		'Tazawacyclus tazawai'
+		'Brittaniclus scotti'
+		'Americlus americanus'
+		'Brittaniclus rankini'
+		'Dziklus obesus'
+		'Schramine max'
+		'Schramine montanaensis'
+		'Magnitocyclus struveae'
+		'Malayacyclus terengganuensis'
+		'Apionicon apioides'
+		'Uralocyclus miloradovitchi'
+		'Ambocyclus capidulum'
+		'Hemitrochiscus paradoxus'
+		'Oonocarcinus insignis'
+		'Skuinocyclus juliae'
+		'Yunnanocyclus nodosus'
+		'Yunnanocyclus fortis'
+		'Opolanka decorosa'
+		'Halicyne agnota'
+		'Halicyne ornata'
+		'Halicyne oosterinkorum'
+		'Halicyne plana'
+		'Cyclocarcinus serratus'
+		'Carcinaspides pustulosus'
+		'Cyclocarcinides bosniacus'
+		'Cyclocarcinides tenuicarinatus'
+		'Juracyclus posidoniae'
+		'Alsasuacaris nostradama'
+		'Maastrichtiocaris rostrata'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=56;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		[1] 'posterior axial keel absent 0 well defined 1 weak 2'
+		[2] 'inner branchial region absent 0 present 1'
+		[3] 'outer branchial region absent 0 present 1'
+		[4] 'inner lyrate keel absent 0 present 1'
+		[5] 'outer lyrate keel absent 0 present 1'
+		[6] 'median concentric keel absent 0 present weak 1 present strong 1 present continuous 2'
+		[7] 'concentric depression absent 0 present shallow 1 present deep 2'
+		[8] 'cephalic regions separated from thoracic (scarab type)absent 0 present 1'
+		[9] 'carapace vaulted absent 0 weak 1 strong 2'
+		[10] 'gastric muscle insertion absent 0 present 1'
+		[11] 'axial lobe 1 absent 0 present 1'
+		[12] 'axial lobe 2 absent 0 present single 1 present paired 2'
+		[13] 'axial lobe 3 absent 0 present 1'
+		[14] 'lateral lobe 1 absent 0 present 1'
+		[15] 'lateral lobe 2 absent 0 present 1'
+		[16] 'lateral lobe 3 absent 0 present 1'
+		[17] 'posterior axial lobe absent 0 present weak 1 present strong 2'
+		[18] 'marginal rim absent 0 present 1'
+		[19] 'marginal rim width absent 0 same width 1 narrowing posteriorly 2'
+		[20] 'marginal rim serrate absent 0 smooth 1 finely serrate 2 coarsely serrate 3 with long spines 4'
+		[21] 'marginal rim surface absent 0 smooth 1 ridged 2 granular 3'
+		[22] 'posterior notch in rim absent 0 present narrow 1 present wide 2'
+		[23] 'transverse keel anteriorly on marginal rim(obesus-like)absent 0 present 1'
+		[24] 'optic notch absent 0 present posterior to rostrum 1 present on lateral margin 2 present on anterior margin 3'
+		[25] 'carapace with papillae absent 0 present(small'
+		[26] 'rostral lobe absent 0 present unornamented 1 present ornamented 2'
+		[27] 'transverse crest(tc)absent 0 present 1'
+		[28] 'thoracic ridges(dorsally)absent 0 expressed to axis 1 expressed in outer branchial region only 2'
+		[29] 'ventral lug absent 0 present 1'
+		[30] 'concentric groove separating ibr and obr(martinensis-like)absent 0 present 1'
+		[31] 'overall shape circular 0 elongate ovate 1 leaf-shaped(Halicyne-like) 2 bilobate 3 transversely ovate 4'
+		[32] 'frontal margin straight'
+		[33] 'vermiform lines on posterior branchial regions absent 0 present 1'
+		[34] 'thoracic appendages ornamented with spines absent 0 present 1'
+		[35] 'appendages placement anterior to posterior 0 concentrated anteriorly 1'
+		[36] 'propodus of supposed mouthparts as long as high 0 much longer than high 1'
+		[37] 'maximum number of non-antennal appendages observed number of appendages given'
+		[38] 'labrum absent 0 present 1'
+		[39] 'ventral rim with teeth directed axially(Oonocarcinus-like)absent 0 present 1'
+		[40] 'marginal carapace cornice(cm)absent 0 present 1'
+		[41] 'granular ridge 1 on cm absent 0 present 1'
+		[42] 'granular ridge 2 on cm absent 0 present 1'
+		[43] 'granular ridge 3 on cm absent 0 present 1'
+		[44] 'raised orbital rim(Alsasuacaris-like)absent 0 present 1'
+		[45] 'anterolateral foramen absent 0 present 1'
+		[46] 'transverse granular ridge 1(on carapace)absent 0 present 1'
+		[47] 'transverse granular ridge 2(on carapace)absent 0 present 1'
+		[48] 'transverse granular ridge 3(on carapace)absent 0 present 1'
+		[49] 'transverse granular ridge 4(on carapace)absent 0 present 1'
+		[50] 'orbital process(op)absent 0 present 1'
+		[51] 'small circular pit(pc)absent 0 present 1'
+		[52] 'post orbital swelling(ps)absent 0 present 1'
+		[53] 'sunken pit(sp)absent 0 present 1'
+		[54] 'anterior or post optic bulge(x)absent 0 present 1'
+		[55] 'posterior or cardiac bulge(y) absent 0 present 1'
+		[56] 'outer orbital tooth absent 0 present 1'
+	;
+	STATELABELS
+		1
+			'absent'
+			'well defined'
+			'weak'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present weak'
+			'present strong'
+			'present continuous'
+			,
+		7
+			'absent'
+			'present shallow'
+			'present deep'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'absent'
+			'weak'
+			'strong'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'absent'
+			'present single'
+			'present paired'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present weak'
+			'present strong'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'absent'
+			'same width'
+			'narrowing posteriorly'
+			,
+		20
+			'absent'
+			'smooth'
+			'finely serrate'
+			'coarsely serrate'
+			'with long spines'
+			,
+		21
+			'absent'
+			'smooth'
+			'ridged'
+			'granular'
+			,
+		22
+			'absent'
+			'present narrow'
+			'present wide'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present posterior to rostrum'
+			'present on lateral margin'
+			'present on anterior margin'
+			,
+		25
+			'absent'
+			'granular)'
+			'present'
+			'present only posteriorly'
+			,
+		26
+			'absent'
+			'present unornamented'
+			'present ornamented'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'expressed to axis'
+			'expressed in outer branchial region only'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'circular'
+			'elongate ovate'
+			'leaf-shaped'
+			'bilobate'
+			'transversely ovate'
+			,
+		32
+			'rostral lobe present'
+			'lobate'
+			'straight'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'anterior to posterior'
+			'concentrated anteriorly'
+			,
+		36
+			'as long as high'
+			'much longer than high'
+			,
+		37
+			'none'
+			'one'
+			'two'
+			'three'
+			'four'
+			'five'
+			'six'
+			'seven'
+			'eight'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent'
+			'present'
+			,
+		53
+			'absent'
+			'present'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Cyclus radialis'                     111110202012?111211112001001000?0?????000000000000000000
+	'Uralocyclus harknessi'               111102?0201211112??????0000200010?????000000000000000000
+	'Uralocyclus woodwardi'               1111021020121111111?10?0000200010?????000000000000000000
+	'Ambocyclus simulans'                 211002102012?11111111?00000000010?????000000000000000000
+	'Litocyclus bilobatus'                100000?02012?0110??????0000000010?????000000000000000000
+	'Litocyclus torosus'                  200110102012111111111?00000000010?????000000000000000000
+	'Litocyclus jonesianus'               20000010201211??11211000000000010?????000000000000000000
+	'Carabicyclus wrighti'                211001?1201001000??????0000000120?????000000000000000000
+	'Prolatcyclus martinensis'            111100?11012011020123000100201120????0000000000000000000
+	'Prolatcyclus kindzadza'              111100012011011120040000100201120????0000000000000000000
+	'Chernyshevine spinosus'              111101102012?11?21141000000000110????0000000000000000000
+	'Tazawacyclus tazawai'                1110002020121110012110000000000?0????0000000000000000000
+	'Brittaniclus scotti'                 111112200012111011211101021000300????0000000000000000000
+	'Americlus americanus'                10000010000000101112110131000030000070000000000000000000
+	'Brittaniclus rankini'                10010210000001001121110102100030010080000000000000000000
+	'Dziklus obesus'                      200001000000010011111011010000400????0000000000000000000
+	'Schramine max'                       100000100000001111121001120000000?0150000000000000000000
+	'Schramine montanaensis'              100102100012011111111?0101?0000?010080000000000000000000
+	'Magnitocyclus struveae'              100100002012111111211000100000110?????000000000000000000
+	'Malayacyclus terengganuensis'        111101002012111121113201100000010?????000000000000000000
+	'Apionicon apioides'                  100010101000000001121?01310000100????0000000000000000000
+	'Uralocyclus miloradovitchi'          111102002012111121102?00100200010????0000000000000000000
+	'Ambocyclus capidulum'                111101?0201211101?????00000000010????0000000000000000000
+	'Hemitrochiscus paradoxus'            000000002000000000000002000000021????0000000000000000000
+	'Oonocarcinus insignis'               200000002011000110000002200000120????1100000000000000000
+	'Skuinocyclus juliae'                 200000002111000110000002200010020????000000000000?000000
+	'Yunnanocyclus nodosus'               00000010000000000111300111000000010070000000000000000000
+	'Yunnanocyclus fortis'                00000000000000000111100101100010000170000000000000000000
+	'Opolanka decorosa'                   000000000000000001133001210000100????0000000000000000000
+	'Halicyne agnota'                     100110101012011011211003000000210????0000000000000000000
+	'Halicyne ornata'                     200110101012111011211003000000210?1150000000000000000000
+	'Halicyne oosterinkorum'              111000100011011111211003000000210????0000000000000000000
+	'Halicyne plana'                      100110?0001010112111100?1?0000??0??????00000000000000000
+	'Cyclocarcinus serratus'              000000102000000001141002100000010?????000000000000000000
+	'Carcinaspides pustulosus'            100000100012111111131003200000210????0000000000000000000
+	'Cyclocarcinides bosniacus'           00000000200000000??????2200000020??????00000000000000000
+	'Cyclocarcinides tenuicarinatus'      100000002000000001141002100000020????0100000000000000000
+	'Juracyclus posidoniae'               100100?0001201102???????100000??0????0000000000000000000
+	'Alsasuacaris nostradama'             000000000000000000000001011000100????0000001011110111000
+	'Maastrichtiocaris rostrata'          000000000000000000000001010000100????0011110000001000111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-56;
+ENDBLOCK;

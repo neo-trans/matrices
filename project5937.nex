@@ -1,0 +1,587 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.52.30 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=19;
+	TAXLABELS
+		'Trimerorhachis insignis'
+		'Sclerocephalus haeuseri'
+		'Uranocentrodon senekalensis'
+		'Lydekkerina huxleyi'
+		'Siderops kehli'
+		'Batrachosuchus watsoni'
+		'Laidleria gracilis'
+		'Trucheosaurus'
+		'Gerrothorax pulcherrimus'
+		'Plagiosuchus pustuliferus'
+		'Mastodonsaurus'
+		'Aphaneramma'
+		'Trematolestes hagdorni'
+		'Lyrocephaliscus euri'
+		'Rileymillerus cosgriffi'
+		'Almasaurus habbazi'
+		'Metoposaurus diagnosticus'
+		'Callistomordax kugleri'
+		'Dendrerpeton acadianum'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=100;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Ornament (elements)'
+		[2] 'Ornament (snout)'
+		[3] 'Ornament (general)'
+		[4] 'Ornament (intensive growth)'
+		[5] 'Orbit location'
+		[6] 'Orbit margins'
+		[7] 'Lacrimal'
+		[8] 'Lacrimal position'
+		[9] 'Nasal width'
+		[10] 'Naris position'
+		[11] 'Lateral line sulci in adults'
+		[12] 'Infraorbital sulcus'
+		[13] 'Supraorbital sulcus'
+		[14] 'Maxilla, nasal'
+		[15] 'Maxilla, prefrontal'
+		[16] 'Prefrontal, postfrontal'
+		[17] 'Prefrontal, jugal'
+		[18] 'Postorbital'
+		[19] 'Postorbital, postfrontal'
+		[20] 'Otic notch'
+		[21] 'Supratemporal'
+		[22] 'Jugal (ventral process)'
+		[23] 'Jugal (anterior extension)'
+		[24] 'Intertemporal'
+		[25] 'Squamosal, tabular'
+		[26] 'Squamosal, falciform crest'
+		[27] 'Tabular, horn'
+		[28] 'Posterior skull rim'
+		[29] 'Occipital ﬂange'
+		[30] 'Postfenestral window'
+		[31] 'Quadrate and occipital condyles'
+		[32] 'Paraquadrate foramen (quadratojugal)'
+		[33] 'Dentition (marginal)'
+		[34] 'Dentition (marginal, tooth bases)'
+		[35] 'Palatal tusks (cross section)'
+		[36] 'Dentition (vomer)'
+		[37] 'Dentition (vomerine tusks)'
+		[38] 'Transverse tooth row (transvomerine)'
+		[39] 'Parasphenoid shagreen'
+		[40] 'Ectopterygoid, fangs'
+		[41] 'Anterior palatal opening'
+		[42] 'Anterior palatal depression'
+		[43] 'Anterior palatal opening(s)'
+		[44] 'Basicranium, contact'
+		[45] 'Basicranium, suture'
+		[46] 'Parasphenoid'
+		[47] 'Basicranium, carotids'
+		[48] 'Parasphenoid, plate'
+		[49] 'Cultriform process (width)'
+		[50] 'Cultriform process (shape)'
+		[51] 'Parasphenoid (muscular pockets)'
+		[52] 'Parasphenoid (posterolateral process)'
+		[53] 'Pterygoid, vomer'
+		[54] 'Pterygoid, ventral ornament'
+		[55] 'Pterygoid, exoccipital'
+		[56] 'Pterygoid width'
+		[57] 'Pterygoid, ectopterygoid'
+		[58] 'Pterygoid, palatine, ectopterygoid'
+		[59] 'Palatine, vomer'
+		[60] 'Palate structure'
+		[61] 'Quadrate trochlea (medial bulge)'
+		[62] 'Occipital condyle'
+		[63] 'Exoccipital condyles'
+		[64] 'Retroarticular process'
+		[65] 'Preglenoid process'
+		[66] 'Meckelian window'
+		[67] 'Symphyseal teeth'
+		[68] 'Presacral count'
+		[69] 'Transverse process (orientation)'
+		[70] 'Transverse process (length)'
+		[71] 'Neural spine (height)'
+		[72] 'Intercentrum (shape)'
+		[73] 'Intercentrum (width)'
+		[74] 'Intercentrum (ventral surface)'
+		[75] 'Intercentrum anterior surface'
+		[76] 'Parapophysis'
+		[77] 'Pleurocentrum (presence)'
+		[78] 'Pleurocentrum (lateral surface)'
+		[79] 'Ribs (morphology)'
+		[80] 'Ribs (uncinate blades)'
+		[81] 'Ribs (uncinate spines)'
+		[82] 'Interclavicle (central ornamented area)'
+		[83] 'Interclavicle (proportions)'
+		[84] 'Interclavicle (posterior margin)'
+		[85] 'Interclavicle (anterior margin)'
+		[86] 'Interclavicle, clavicles'
+		[87] 'Scapula (glenoid facet)'
+		[88] 'Humerus (supinator)'
+		[89] 'Humerus (condyles)'
+		[90] 'Humerus (torsion)'
+		[91] 'Humerus (shape)'
+		[92] 'Ilium (dorsal portion)'
+		[93] 'Ilium (dorsal end)'
+		[94] 'Ilium (height)'
+		[95] 'Ilium (shaft)'
+		[96] 'Pubis'
+		[97] 'Femur'
+		[98] 'Gastral squamation'
+		[99] 'Dorsal squamation'
+		[100] 'Rib cage'
+	;
+	STATELABELS
+		1
+			'Reticulate ridges of various sizes'
+			'isolated pustules'
+			,
+		2
+			'Polygons or short grooves'
+			'or mostly radial, elongated grooves'
+			,
+		3
+			'Shallow ridges of variable height'
+			'high ridges throughout'
+			,
+		4
+			'Elongated ridges (‘zones of intensive growth’) conﬁned to snout only'
+			'or prepineal growth zone established on extended anterior parietal and postorbital'
+			,
+		5
+			'Medial, framed by wide jugals laterally'
+			'or lateral emplacement, framed by very slender jugals'
+			,
+		6
+			'Raised well above skull plain'
+			'or ﬂush with roof'
+			,
+		7
+			'Present'
+			'or absent'
+			,
+		8
+			'Long element anterior to orbit'
+			'or small and conﬁned to lateral orbit margin'
+			,
+		9
+			'Nasal longer than wide'
+			'or as wide as long'
+			,
+		10
+			'At lateral margin of snout, opening laterally'
+			'or set well medially, opening anteriorly'
+			,
+		11
+			'Present'
+			'Absent'
+			,
+		12
+			'With simple curve on lacrimal'
+			'With pronounced S-shaped lacrimal flexure'
+			,
+		13
+			'Passing medial to lacrimal'
+			'Entering lacrimal'
+			,
+		14
+			'Maxilla separated from nasal'
+			'Sutured to nasal'
+			,
+		15
+			'Separated by lacrimal'
+			'In wide contact'
+			,
+		16
+			'Sutured'
+			'Separated by frontal'
+			,
+		17
+			'Separated by lacrimal'
+			'In contact'
+			,
+		18
+			'Not wider than orbit'
+			'With substantial lateral process projecting into jugal'
+			,
+		19
+			'Shorter than supratemporal and parietal'
+			'As long, or longer than supratemporal and parietal'
+			,
+		20
+			'Semicircular embayment between squamosal and posterior skull table'
+			'Straight transverse posterior skull margin without embayment between cheek and table'
+			,
+		21
+			'Longer than wide'
+			'Quadrangular, giving a foreshortened posterior skull table'
+			,
+		22
+			'No ventral outgrowth'
+			'Insula jugalis framing subtemporal window'
+			,
+		23
+			'Jugal ending at or behind level of anterior orbit margin'
+			'Extending anteriorly'
+			,
+		24
+			'Present'
+			'Absent'
+			,
+		25
+			'Separated by supratemporal'
+			'Sutured'
+			,
+		26
+			'Posterior rim of squamosal straight'
+			'With convex projection, referred to as falciform crest'
+			,
+		27
+			'Tabular forming substantial posterior or posterolateral projection'
+			'With blunt end'
+			,
+		28
+			'Cheek posterior to tabular horns'
+			'At one level'
+			,
+		29
+			'Descending ﬂange of occipital portion of postparietals forming a bulge'
+			'Long smooth blades as long as the dermal portion of the postparietal'
+			,
+		30
+			'Large opening, having at least double the width of the foramen magnum'
+			'Much smaller than the foramen magnum'
+			'Reduced to a tiny foramen'
+			,
+		31
+			'Quadrate condyles posterior to occipital ones'
+			'at same level'
+			'well anterior'
+			,
+		32
+			'Absent'
+			'present'
+			,
+		33
+			'Heterogenous, varying sizes and distances'
+			'homogeneous, small teeth, equidistant'
+			,
+		34
+			'Round or oval'
+			'forming transversely broadened ovals'
+			,
+		35
+			'Round or oval'
+			'laterally compressed and keeled on at least one side'
+			,
+		36
+			'Tooth patches present at least in small specimens'
+			'dentition entirely restricted to vomerine fangs'
+			,
+		37
+			'Sockets aligned sagittally'
+			'transversely'
+			,
+		38
+			'Absent'
+			'present'
+			,
+		39
+			'Tooth patches present'
+			'teeth entirely absent'
+			,
+		40
+			'Present'
+			'absent'
+			,
+		41
+			'Forming a continuous depression on the vomer'
+			'perforated to accommodate symphyseal fangs'
+			,
+		42
+			'Posterior rim round'
+			'straight transverse'
+			,
+		43
+			'Unpaired'
+			'paired'
+			,
+		44
+			'Joint between basal plate and pterygoid'
+			'sutural contact'
+			,
+		45
+			'Suture much shorter than basal plate, reaching at best 40% of its length'
+			'suture almost as long as basal plate'
+			,
+		46
+			'Suturing with exoccipitals'
+			'underplating exoccipitals'
+			,
+		47
+			'Internal carotids entered basicranium ventrally near base of cultriform process'
+			'at posterolateral corner of bone'
+			,
+		48
+			'Basal plate quadrangular or wider than long'
+			'sagittally rectangular'
+			,
+		49
+			'Base not wider than rest, clearly set off from basal plate'
+			'merging continuously into plate'
+			,
+		50
+			'Ventrally ﬂat'
+			'knife-edged and keel-shaped'
+			'with ridge emplaced on broader base'
+			,
+		51
+			'Posterolateral corner with faint depressions or smooth'
+			'housing large pockets'
+			'pockets entirely absent'
+			,
+		52
+			'Posterolateral margin straight'
+			'with lateral wing'
+			,
+		53
+			'Pterygoid and vomer in contact'
+			'separated by palatine'
+			,
+		54
+			'Palatine ramus of pterygoid smooth'
+			'ornamented with reticulate ridges'
+			,
+		55
+			'No contact'
+			'sutured lateral to parasphenoid'
+			,
+		56
+			'Palatine and quadrate regions forming slender rami'
+			'broad shelves'
+			,
+		57
+			'Palatine ramus exclusively formed by pterygoid'
+			'with posteromedial projection of ectopterygoid'
+			,
+		58
+			'Pterygoid contacting both ectopterygoid and palatine'
+			'pterygoid only in contact with ectopterygoid'
+			,
+		59
+			'Suture aligned posterolaterally'
+			'with medial wing framing the interpterygoid vacuity anteriorly'
+			,
+		60
+			'In occipital view, pterygoids either sloping continuously ventrolaterally or flat horizontal'
+			'vertically downcurved at right angle with basicranium'
+			,
+		61
+			'Medial bulge only slightly larger than lateral one'
+			'being at least two times longer and twice as wide'
+			,
+		62
+			'Trilobed, with basioccipital forming ventral part of facet'
+			'bilobed exoccipital condyle with reduced basioccipital contribution'
+			,
+		63
+			'Short and broad base, projecting only with their posterior half behind the rim of the skull table'
+			'almost the complete element posterior to level of occipital ﬂange'
+			,
+		64
+			'Absent or present as very faint outgrowth'
+			'longer than glenoid facet'
+			,
+		65
+			'Labial side of surangular with straight dorsal margin anterior to glenoid'
+			'forming dorsal projection well above the level of the glenoid articulation'
+			,
+		66
+			'Small round or oval opening'
+			'elongate window as long or longer than the adductor fossa'
+			,
+		67
+			'No accessory teeth posterior to symphyseal tusks'
+			'a transverse row of such teeth'
+			,
+		68
+			'23–25 vertebrae'
+			'27–28'
+			'20–21'
+			,
+		69
+			'Short, directed posteriorly'
+			'distally extended with diaphophysis pointing laterally'
+			,
+		70
+			'Shorter than dorsal spine is high'
+			'markedly longer'
+			,
+		71
+			'Low throughout vertebral column'
+			'dorsally extended in posterior portion of trunk and tail'
+			,
+		72
+			'Presacral intercentra form simple wedges'
+			'dorsally closed discs'
+			'dorsally closed and elongated cylinders'
+			,
+		73
+			'Chordal canal wider than intercentrum high'
+			'narrower'
+			,
+		74
+			'Ventral surface shorter than wide in ventral view, giving transversely rectangular outline'
+			'as long as wide, quadrangular'
+			,
+		75
+			'Always concave'
+			'convex at least in some presacral centra'
+			,
+		76
+			'Segmental'
+			'intersegmental'
+			,
+		77
+			'Ossiﬁed'
+			'unossiﬁed'
+			,
+		78
+			'As large as that of intercentrum'
+			'smaller'
+			,
+		79
+			'Anterior trunk ribs simple rods'
+			'with uncinate processes'
+			,
+		80
+			'If present, small and spine-like'
+			'extensive and blade-like'
+			,
+		81
+			'Short'
+			'elongated, as long as shaft'
+			,
+		82
+			'Rhomboidal'
+			'pentagonal and posteriorly widest'
+			,
+		83
+			'As long as wide'
+			'1.3 times as long as wide'
+			'more than twice as long as wide'
+			,
+		84
+			'With posterior process'
+			'transversely straight'
+			,
+		85
+			'Serrated'
+			'smooth'
+			,
+		86
+			'Clavicles broadly separated by interclavicle ventrally'
+			'leaving only a narrow stripe of interclavicle in between'
+			'in contact and excluding anterior part of interclavicle from ventral exposure'
+			,
+		87
+			'Ossified'
+			'unossified'
+			,
+		88
+			'Present'
+			'absent'
+			,
+		89
+			'Distal end narrow'
+			'broadened to give extensive condyles'
+			,
+		90
+			'Strong, 70–90°'
+			'weak, well below 60°'
+			,
+		91
+			'Tetrahedral, with both ends wider than shaft'
+			'only distal end wider than shaft because of rudimentary proximal head'
+			,
+		92
+			'Anterior margin of shaft straight'
+			'concave'
+			,
+		93
+			'Tip of dorsal end continuous'
+			'much broadened'
+			,
+		94
+			'Shaft more than twice the length of the base'
+			'shorter'
+			,
+		95
+			'Shaft inclined posterodorsally'
+			'vertical'
+			,
+		96
+			'Unossiﬁed'
+			'ossiﬁed'
+			,
+		97
+			'Intercondylar fossa forming deep and elongated trough'
+			'reduced to short depression'
+			,
+		98
+			'Ossiﬁed dermal scutes'
+			'dermis naked'
+			,
+		99
+			'Dorsal region naked'
+			'covered by dermal ossicles'
+			,
+		100
+			'Trunk narrower than skull or as wide'
+			'trunk substantially wider than lateral margin of cheeks at about mid level'
+			,
+	;
+	MATRIX
+	'Trimerorhachis insignis'          0000000000000000000000001011001100010100111000000000000000000001000100000000000000000010010000000000
+	'Sclerocephalus haeuseri'          00000000001??10010000001000000010000000000?000100000000000000000000000000000001100000000100000000000
+	'Uranocentrodon senekalensis'      000001000000010010000101010000010(0 1)00010001?100100011000000000101010110000000000000101001110000011000
+	'Lydekkerina huxleyi'              0000010000(0 1)(0 1)0100100001011101001111010100110100100011110000000101010?10000000000000101000110000011000
+	'Siderops kehli'                   000011101100?11011111101110101211111111111011010(0 1)020101111110101010010000000001000101011010011001000
+	'Batrachosuchus watsoni'           000011101100?110111111011111012111011111110111111020111111110101????????????????????????????????????
+	'Laidleria gracilis'               000011100000?111110111011?1102211101110111?1101110201111111001010??210?100001?000??????1110??????011
+	'Trucheosaurus'                    01001110000??11011000101110100111101111011011010102010110010010?0?????????????????????????0???????00
+	'Gerrothorax pulcherrimus'         1000010010000101000111011?110221110111(0 1)10101101010201011111001010002100200011?0001011100000011011011
+	'Plagiosuchus pustuliferus'        1000010010000101010111011?110221110111110101101010201011111001010?02100200011?0001111111000000001011
+	'Mastodonsaurus'                   01000100000111011000010111010011110101111101101100101010001001010?011101000001110010110(0 1)010000001100
+	'Aphaneramma'                      01111000000101?01110010111010011110100001111111101201010011001010???10?010000010?0201110011?00?0?100
+	'Trematolestes hagdorni'           01111101000101101110011111010011110100001111111101201010011001010?0010101000001010201111011100101100
+	'Lyrocephaliscus euri'             00111000000111?011100101110100111101110(0 1)1111111101201111011001010???10?010000010?01012??0???00?0?100
+	'Rileymillerus cosgriffi'          00011101??1??11001110?111011002111111?11???11?1110201010?1?0011100?????????????????????????????0??00
+	'Almasaurus habbazi'               0011110?010111100110001111010021111110111111111101201010111001110???10?01100001000101200010?00?01100
+	'Metoposaurus diagnosticus'        00111101110111100110001111011121111110101111111110201110111011111?111101111101100010120(0 1)010000101100
+	'Callistomordax kugleri'           001111011101011001100111110111211111(0 1)11?1111111101201(0 1)10111011111?11101(0 1)1110001010101201010100101100
+	'Dendrerpeton acadianum'           000000000010000000000000000000000000000000?000000000000000000000000000000000000000000000000000000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-100;
+ENDBLOCK;
+BEGIN LABELS;
+ TAXAGROUPLABEL Outgroup COLOR = (RGB 1.0 1.0 1.0) ; TAXAGROUPLABEL Ingroup COLOR = (RGB 1.0 1.0 1.0) ; 
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -809809409; FileSettings editor '1' '1' '109' '1'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '188' '1' all; EditorPosition '44' '11' '478' '1629'; TreeWindowPosition '44' '53' '813' '975'; ListWindow Characters open Gadget '12' '356' '61' '355' '419' 000; ListWindow Taxa closed Gadget '12' '50' '10' '273' '278' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; TextWindow AboutFile '50' '25' '280' '445' Gadget '12' ( normal ) 1; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Gadget '12' '16' '523' '179' '305' '299'; WindowOrder Data Text AboutFile List Characters; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '12' ( normal ) Geneva '10' ( normal ) Gadget '12' ( normal ) Gadget '12' ( normal ) Gadget '12' ( bold ) Gadget '12' ( normal ) Gadget '12' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '-1109' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1747938817007; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3071737235848320888; tell It; setDefaultOrder 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 0; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3208770312996457164; mqVersion 381; checksumv 0 3 156960692 null getNumChars 100 numChars 100 getNumTaxa 19 numTaxa 19 short true bits 7 states 7 sumSquaresStatesOnly 4676.0 sumSquares 4676.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1438 565; setLocation -7 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #3071737235848320888 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #3071737235848320888; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1338 493; setLocation -7 23; setFont Gadget; setFontSize 12; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #3071737235848320888 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 0176262b2b3116; toggleUseWeights off; endTell; setAssignedID 2975.1606958352973.1830325355261533998; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1338 493; setLocation -7 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.SearchTreeToolAssistant.SearchTreeToolExtra.randomlyRotate; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientRight; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setFont Gadget; setFontSize 12; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(19,(2,(1,((3,4),((8,((5,6),(7,(9,10)))),(11,((12,13),(14,((15,16),(17,18))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3208770312996457164 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 163; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1338 493; setLocation -7 23; setFont Gadget; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #3208770312996457164 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1338 493; setLocation -7 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 100; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Ingroup : 1- 18, Outgroup : 19; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Stereospondyli_Schoch_2008.nex"'; ID 0176262b2b3116; LINK Taxa = Taxa; TRANSLATE [0] 1 Trimerorhachis_insignis, [1] 2 Sclerocephalus_haeuseri, [2] 3 Uranocentrodon_senekalensis, [3] 4 Lydekkerina_huxleyi, [4] 5 Siderops_kehli, [5] 6 Batrachosuchus_watsoni, [6] 7 Laidleria_gracilis, [7] 8 Trucheosaurus, [8] 9 Gerrothorax_pulcherrimus, [9] 10 Plagiosuchus_pustuliferus, [10] 11 Mastodonsaurus, [11] 12 Aphaneramma, [12] 13 Trematolestes_hagdorni, [13] 14 Lyrocephaliscus_euri, [14] 15 Rileymillerus_cosgriffi, [15] 16 Almasaurus_habbazi, [16] 17 Metoposaurus_diagnosticus, [17] 18 Callistomordax_kugleri, [18] 19 Dendrerpeton_acadianum; TREE Default_ladder = (19,(1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,18)))))))))))))))))); TREE Default_ladder = (19,(1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,18)))))))))))))))))); TREE Default_ladder = (19,(1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,18)))))))))))))))))); TREE Default_ladder = (19,(1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,18)))))))))))))))))); TREE UNTITLED = (19,(2,(1,(3,(4,((((5,6),(7,(9,10))),8),(11,((12,13),(14,((15,16),(17,18))))))))))); 
+ENDBLOCK;

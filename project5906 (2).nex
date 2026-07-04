@@ -1,0 +1,533 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.51.00 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=26;
+	TAXLABELS
+		'Macrothele (macrothelidae)'
+		'Stormtropis paisa'
+		'Stormtropis colima'
+		'Stormtropis muisca'
+		'Stormtropis parvum'
+		'Anisaspoides spp.'
+		'Alienus awa'
+		'Alienus abditus'
+		'Alienus pasochoa'
+		'Alienus croceus'
+		'Alienus alo'
+		'Alienus pollex'
+		'Alienus basho'
+		'Paratropis papilligera'
+		'Paratropis cryptica'
+		'Paratropis nunka'
+		'Paratropis elicioi'
+		'Paratropis otonga'
+		'Paratropis pristirana'
+		'Paratropis rocolita'
+		'Yamaratropis machinaza'
+		'Inpatropis minuscula'
+		'Stormtropis barbacoas'
+		'Stormtropis celiae'
+		'Alienus roigi'
+		'Stormtropis dunlopi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=55;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Eyes'
+		[2] 'Superior tarsal claw'
+		[3] 'Maxillary lobe'
+		[4] 'Eye tubercle'
+		[5] 'Cheliceral teeth'
+		[6] 'Cheliceral denticles'
+		[7] 'Sternum'
+		[8] 'Spinnerets'
+		[9] 'Labial cuspules'
+		[10] 'Coarse spines, tibia I females'
+		[11] 'PLS, overall lenght'
+		[12] 'Preening-combs'
+		[13] 'Trochantal lyra'
+		[14] 'Midventral rows of bristles on tarsi'
+		[15] 'Serrula'
+		[16] 'Abdominal ventro-basal spinules'
+		[17] 'Spiky maxillary cuspules'
+		[18] 'Femur, patella, and tibia of legs I-II with microthrichium-like scopulae'
+		[19] 'Coxae dorso-retrolateral/prolateral surfaces with apically dilated STS'
+		[20] 'Distal tarsal organ'
+		[21] 'Apical segment of PLS'
+		[22] 'Male abdominal pattern'
+		[23] 'Female abdominal pattern'
+		[24] 'Abdominal setiferous tubercles'
+		[25] 'Dorsal cephalic spinules'
+		[26] 'Fovea'
+		[27] 'Principal branch lenght (vs. receptacle or vesicle area)'
+		[28] 'Principal branch dorsal longitudinal fold'
+		[29] 'Principal branch ventral longitudinal folds'
+		[30] 'Bursa copulatrix'
+		[31] 'Apical concavity'
+		[32] 'number of receptacles'
+		[33] 'Simple lobular receptacle'
+		[34] 'Caliciform-shaped receptacle'
+		[35] 'Shroom-shaped receptacle'
+		[36] 'Digitiform receptacle'
+		[37] 'Dimensionality, one lobule'
+		[38] 'Dimensionality, vesicles'
+		[39] 'Distal concavity'
+		[40] 'Receptacle width (not applicable for vesicles)'
+		[41] 'Receptacle or vesicle sclerotisation'
+		[42] 'Principal branch sclerotised neck'
+		[43] 'Distal sclerotised ring of principal branch'
+		[44] 'Wide membranous plate below spermathecae'
+		[45] 'Tegulum/embolus lenght proportion'
+		[46] 'Ventral median depression'
+		[47] 'Dorsal embolic keel'
+		[48] 'Prolateral embolik keel'
+		[49] 'Embolus curvature'
+		[50] 'Tibial apophyisis'
+		[51] 'Tibia I, retrolateral basal process'
+		[52] 'Tibia I, retrolateral cluster of spines tibia I'
+		[53] 'Retrolateral cymbial apophysis'
+		[54] 'Prolateral teeth row'
+		[55] 'Principal branch basal dilatation'
+	;
+	STATELABELS
+		1
+			'Eight'
+			'Six'
+			,
+		2
+			'Single row of various teeth'
+			'Only one large tooth I-IV'
+			'Only one large tooth II'
+			,
+		3
+			'unmodified'
+			'anteriorly projected'
+			,
+		4
+			'Slightly domed'
+			'Strogly domed'
+			,
+		5
+			'one-row arrangement'
+			'two rows arrangement'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'Longer than wide'
+			'almost as long as wide'
+			,
+		8
+			'two pairs (PLS and PMS)'
+			'one pair (PLS)'
+			,
+		9
+			'few (less than 10)'
+			'moderately numerous (less than 70)'
+			'numerous (>70)'
+			,
+		10
+			'Absent'
+			'Present'
+			,
+		11
+			'long'
+			'short'
+			,
+		12
+			'Absent'
+			'Present'
+			,
+		13
+			'Absent'
+			'Present'
+			,
+		14
+			'Absent'
+			'Present'
+			,
+		15
+			'Present'
+			'Absent'
+			,
+		16
+			'Absent'
+			'Present'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'Absent'
+			'Present'
+			,
+		20
+			'Low, generally smooth'
+			'Big and protruding'
+			,
+		21
+			'Digitiform'
+			'Domed'
+			,
+		22
+			'Absent'
+			'Present'
+			,
+		23
+			'Absent'
+			'Present'
+			,
+		24
+			'Absent'
+			'Present'
+			,
+		25
+			'Absent'
+			'Present'
+			,
+		26
+			'Just deep'
+			'shallow and straight'
+			'deep and procurved'
+			,
+		27
+			'Shorter (<1 times)'
+			'medium (>1-2 times)'
+			'elongated (>2 times)'
+			,
+		28
+			'Absent'
+			'Present'
+			,
+		29
+			'Absent'
+			'Present'
+			,
+		30
+			'wide and rounded'
+			'thin and incospicuous'
+			,
+		31
+			'Absent'
+			'Present'
+			,
+		32
+			'One'
+			'Multilobular (vesicles)'
+			,
+		33
+			'Absent'
+			'Present'
+			,
+		34
+			'Absent'
+			'Present'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'Absent'
+			'Present'
+			,
+		37
+			'Bidimensional'
+			'Tridimensional'
+			,
+		38
+			'bidimensional'
+			'Tridimensional'
+			'Bidimensional'
+			,
+		39
+			'Absent'
+			'Present'
+			,
+		40
+			'wider than width of principal branch'
+			'same as principal branch with'
+			'Thinner than principal branch width'
+			,
+		41
+			'Constant to the rest of spermathecae'
+			'Slightly more sclerotised'
+			'Hypersclerotised'
+			,
+		42
+			'Absent'
+			'Present'
+			,
+		43
+			'Absent'
+			'Present'
+			,
+		44
+			'Absent'
+			'Present'
+			,
+		45
+			'Embolus less than ~5 times tegulum lenght'
+			'Embolus more than ~5 times tegulum lenght'
+			,
+		46
+			'Absent'
+			'Present'
+			,
+		47
+			'Absent'
+			'Present'
+			,
+		48
+			'Absent'
+			'Present'
+			,
+		49
+			'Absent'
+			'Median section'
+			'Distal section'
+			,
+		50
+			'Absent'
+			'Present'
+			,
+		51
+			'Absent'
+			'Present'
+			,
+		52
+			'Absent'
+			'Present'
+			,
+		53
+			'Absent'
+			'Present'
+			,
+		54
+			'Continuous'
+			'Conspicuously'
+			,
+		55
+			'Absent'
+			'Present'
+			,
+	;
+	MATRIX
+	'Macrothele (macrothelidae)'      000001002001110000000(0 1)(0 1)00010000010000-0(1 2)0000100000001-0
+	'Stormtropis paisa'               0111101010100?1000??0??10210010000101-00100000101100000
+	'Stormtropis colima'              011110101?100?1000??0??102???????????-??????0010110000?
+	'Stormtropis muisca'              011110101?100?1000??01?102???????????-??????0010100000?
+	'Stormtropis parvum'              011110101?100?1000??01?102???????????-??????0010110000?
+	'Anisaspoides spp.'               0111101110100010000101110200000010000-00000000101000?01
+	'Alienus awa'                     0111101?1?1000100001011102???????????-??????01011000100
+	'Alienus abditus'                 0111101010100110100101110220110010000-10000101011000100
+	'Alienus pasochoa'                011110101010011010010?110210010010000-100001?????????00
+	'Alienus croceus'                 011110102110001110010?110200010010000-100001?????????00
+	'Alienus alo'                     011110101110001100010?110210010010000-110000?????????00
+	'Alienus pollex'                  011110102110011100010?110200010010000-100001?????????00
+	'Alienus basho'                   011110101110001000010??10221010010000-10000??????????00
+	'Paratropis papilligera'          011110102?100010?0?1??0102??????-----?????0?10002011?0?
+	'Paratropis cryptica'             01111010211001110011000102100101-----10-200111002011100
+	'Paratropis nunka'                011110102110011100110?0102200101-----10-1000?????????00
+	'Paratropis elicioi'              01111010101000100011??0102200101-----10-000011002000100
+	'Paratropis otonga'               01111010201000100011??0102210101-----00-0000?????????00
+	'Paratropis pristirana'           01111010101000101011??0102210101-----10-000011002000100
+	'Paratropis rocolita'             011110101110011110110?11012??101-----10-1100?????????00
+	'Yamaratropis machinaza'          011110101010011001010?010210011001001-001001?????????10
+	'Inpatropis minuscula'            1211101000100?1?0?0111111220000000010-00001000002000100
+	'Stormtropis barbacoas'           011110102110011110010?110210010010001-000000???????0?00
+	'Stormtropis celiae'              0111101010100111000100?10210010000101-00000001101000000
+	'Alienus roigi'                   011110102110011100010?110200010010000-101000???????0?00
+	'Stormtropis dunlopi'             011110102110011000010??10210010010001-000000???????0?00
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-55;
+ENDBLOCK;
+BEGIN MESQUITE;
+
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1747700930880;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8245604381585102822;
+			tell It;
+				setDefaultOrder  21 0 3 4 5 7 8 12 9 16 17 22 13 5 18 19 10 13 14 24 20 22 23 24 25 26;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 5440629314152393826;
+			tell It;
+				setDefaultOrder  0 1 3 4 6 7 8 9 13 16 17 18 19 20 21 22 24 25 26 29 30 31 34 32 38 35 38 39 50 57 52 40 41 42 43 44 46 47 53 56 57 58 59 62 63 64 64 65 68 69 83 71 81 66 54;
+				attachments ;
+			endTell;
+			mqVersion 381;
+			checksumv 0 3 3828583980 null  getNumChars 55 numChars 55 getNumTaxa 26 numTaxa 26   short true   bits 2305843009213693959   states 7   sumSquaresStatesOnly 3203.0 sumSquares -1.844674407370955E19 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1536 737;
+			setLocation -7 0;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #5440629314152393826 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 154;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1436 665;
+					setLocation -7 0;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames off;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						getTable;
+						tell It;
+							rowNamesWidth 279;
+						endTell;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1436 665;
+						setLocation -7 0;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1- 55;
+ENDBLOCK;

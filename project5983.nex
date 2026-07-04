@@ -1,0 +1,1725 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.55.14 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=96;
+	TAXLABELS
+		'Choanoflagellata'
+		'Porifera'
+		'Placozoa'
+		'Xianguangia'
+		'Daihua'
+		'Theiokylixia'
+		'Calathites spinalis'
+		'Calathites macrocalyx'
+		'Dinomischus venustus'
+		'Dinomischus isolatus'
+		'Dinomischus nudus'
+		'Siphusauctum'
+		'Daihuoides'
+		'Fasciculus'
+		'Xanioascus'
+		'Ctenorhabdotus capulus'
+		'Ctenorhabdotus campanelliformis'
+		'Thalassostaphylos'
+		'Thaumactena'
+		'Galeactena'
+		'Maotianoascus'
+		'Batofasciculus'
+		'Trigoides'
+		'Gemmactena'
+		'Beroe'
+		'Euplokamis'
+		'Pleurobrachia'
+		'Haeckelia'
+		'Mnemiopsis'
+		'Ocyropsis'
+		'Ctenoplana'
+		'Cestum'
+		'Ganesha'
+		'Thalassocalyce'
+		'Nematostella'
+		'Anemonia'
+		'Aiptasia'
+		'Metridium'
+		'Antipathes'
+		'Cerianthus'
+		'Corynactis'
+		'Montastraea'
+		'Porites'
+		'Acropora'
+		'Zoanthus'
+		'Anthomastus'
+		'Nephthyigorgia'
+		'Leptogorgia'
+		'Cornularia'
+		'Virgularia'
+		'Haliclystus'
+		'Craterolophus'
+		'Carybdea'
+		'Chiropsalmus'
+		'Carukia'
+		'Nausithoe'
+		'Atorella'
+		'Aurelia'
+		'Rhizostoma'
+		'Hydra'
+		'Candelabrum'
+		'Ectopleura'
+		'Hydractinia'
+		'Clytia'
+		'Obelia'
+		'Physalia'
+		'Craseoa'
+		'Nanomia'
+		'Aegina'
+		'Halitrephes'
+		'Entoprocta'
+		'Bryozoa'
+		'Brachiopoda'
+		'Phoronida'
+		'Mollusca'
+		'Annelida'
+		'Echinodermata'
+		'Pterobranchia'
+		'Enteropneusta'
+		'Chaetognatha'
+		'Onychophora'
+		'Arthropoda'
+		'Nemertea'
+		'Urochordata'
+		'Cephalochordata'
+		'Vertebrata'
+		'Nematoda'
+		'Nematomorpha'
+		'Priapulida'
+		'Gastrotricha'
+		'Tardigrada'
+		'Kinorhyncha'
+		'Loricifera'
+		'Gnathifera'
+		'Xenacoelomorpha'
+		'Platyhelminthes'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=294;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Collar complex'
+		[2] 'Multicellularity with extracellular matrix'
+		[3] 'Extracellular digestion'
+		[4] 'Ostia with porocytes'
+		[5] 'Septate junctions (SJs)'
+		[6] 'Tight junctions (TJs)'
+		[7] 'Gap junctions (GJs)'
+		[8] 'Adherens junctions (AJs)'
+		[9] 'Hemidesmosomes'
+		[10] 'Epithelia'
+		[11] 'Basal laminae'
+		[12] 'Collagen'
+		[13] 'Nerve cells'
+		[14] 'Acetylcholine used as a neurotransmitter'
+		[15] 'Diffuse nervous system'
+		[16] 'Hox/ParaHox gene'
+		[17] 'Epidermis with pulsatite bodies'
+		[18] 'Xenacoelomorph cilia'
+		[19] 'Striated ciliary rootlets'
+		[20] 'Diploblasts made of 2 cell layers'
+		[21] 'Triploblasts made of 3 cell layers'
+		[22] 'Spiral cleavage with 4d mesoderm'
+		[23] 'Through-gut'
+		[24] 'U-shaped gut'
+		[25] 'Protonephridia (or homologues)'
+		[26] 'Fate of blastopore'
+		[27] 'Body cuticle with chitin'
+		[28] 'Body cuticle with ?-chitin'
+		[29] 'Body cuticle moulted'
+		[30] 'Segmented body with jointed limbs'
+		[31] 'Lobopods'
+		[32] 'Slime papillae'
+		[33] 'Telescoping mouth cone with protrudable stylets'
+		[34] 'Respiration via metameric tracheae and spiracles'
+		[35] 'Teloblastic segmentation'
+		[36] 'Longitudinal ventral nerve cord(s)'
+		[37] 'Circum-pharyngeal, collar-shaped brain with anterior and posterior rings of perikarya separated by a ring-shaped neuropil'
+		[38] 'Introvert with scalid rings'
+		[39] 'Flosculi'
+		[40] 'Immunoreactivity of horseradish peroxidase (HRP)'
+		[41] 'Lophophore'
+		[42] 'Trochophore'
+		[43] 'Radula'
+		[44] 'Segmental metanephridia sacculus'
+		[45] 'Chitinous microvillar appendages (chaetae)'
+		[46] 'Parapodia with dorsal and ventral branches terminated by ?-chitinous chaetae'
+		[47] 'Eversible proboscis surrounded by rhynchocoel'
+		[48] 'Complex jaw apparatus in pharynx'
+		[49] 'Mesoderm'
+		[50] 'Origin of mesoderm'
+		[51] 'Mixocoel (haemocoel) surrounded by segmented mesoderm'
+		[52] 'Radial cleavage'
+		[53] 'Coelom formation'
+		[54] 'Trimeric coelom'
+		[55] 'Pharyngeal slits'
+		[56] 'Endostyle (or homologues)'
+		[57] 'Longitudinal dorsal nerve cord'
+		[58] 'Notochord'
+		[59] 'Stomochord'
+		[60] 'Haemal system with axial complex'
+		[61] 'Calcareous endoskeleton composed of separate ossicles'
+		[62] 'Tornaria type larva'
+		[63] 'Zig zag myomeres'
+		[64] 'Endothelium that lines the inner wall of blood vessels'
+		[65] 'Neural crest'
+		[66] 'Neurogenic placodes'
+		[67] 'Dorsoventral axis'
+		[68] 'Anterior posterior axis'
+		[69] 'Symmetry'
+		[70] 'Type of symmetry'
+		[71] 'Compression in oral aboral axis'
+		[72] 'Compression in stomodeal plane'
+		[73] 'Compression in tentacular plane'
+		[74] 'Cydippid larvae'
+		[75] 'Ciliary rosettes'
+		[76] 'Radially-arranged outgrowths from the interface between the oral and aboral regions'
+		[77] 'Radial outgrowths fixed in globular configuration'
+		[78] 'Radial outgrowths tentacular'
+		[79] 'Outer sheaths on external surface of radial outgrowths'
+		[80] 'Number of outer sheaths'
+		[81] 'Pinnules emerging from outgrowths'
+		[82] 'Ciliary row borne on pinnules'
+		[83] 'Median dark line along outgrowths'
+		[84] 'Y-shaped ornament on outgrowth'
+		[85] 'Cushion rows arranged along outgrowths'
+		[86] 'Number of cushion rows'
+		[87] 'Cushion paired'
+		[88] 'Uniformity of cushion rows'
+		[89] 'Orientation of cushion rows'
+		[90] 'Large cilia'
+		[91] 'Large cilia fused to form locomotory plate'
+		[92] 'aboral body region modified into attachment stalk [modified character]'
+		[93] 'Stalk with narrow attachment to calyx base [New character]'
+		[94] 'Stalk with longitudinal rays or spokes [new character]'
+		[95] 'Bulbous base at the terminate end of stalk'
+		[96] 'Circular depression on basal disc'
+		[97] 'Aboral region represented only by apical organ'
+		[98] 'Apical organ forming narrow pointed extension'
+		[99] 'Ciliary dome'
+		[100] 'Statolith'
+		[101] 'Balancers'
+		[102] 'Ciliated furrows'
+		[103] 'Trifurcating ciliated furrows'
+		[104] 'Interplate ciliated groove (ICG)'
+		[105] 'Comb row nerves with giant axons'
+		[106] 'Polar field'
+		[107] 'Aboral papillae'
+		[108] 'Oral dome with paired bracts'
+		[109] 'Extension of the oral surface to form oral cone'
+		[110] 'Morphology of the tip of oral extension'
+		[111] 'Oral structure separated by circumferential constriction'
+		[112] 'Constriction type'
+		[113] 'Mouth as margin of creeping sole'
+		[114] 'Oral lobes'
+		[115] 'Auricles'
+		[116] 'Brood chambers'
+		[117] 'Pharyngeal ridges'
+		[118] 'Sealing ridges of pharynx'
+		[119] 'Macrocilia on the lip'
+		[120] 'Pharyngeal canals'
+		[121] 'Tentacular canals'
+		[122] 'Meridional canals'
+		[123] 'Diverticula of meridional canals'
+		[124] 'Circumoral ring canal'
+		[125] 'Termination of meridional and pharyngeal canals'
+		[126] 'Aboral canal'
+		[127] 'Interradial canals'
+		[128] 'Number of interradial canals'
+		[129] 'Adradial canals'
+		[130] 'Anal canals and pores'
+		[131] 'Paired ctenophore tentacles'
+		[132] 'Colloblasts'
+		[133] 'Tentilla'
+		[134] 'Disposition of tentilla'
+		[135] 'Tentacle sheaths'
+		[136] 'Opening position of tentacles'
+		[137] 'Skeletal elements (sclerotised outgrowths and/or calyx)'
+		[138] 'Skeletonisation restricted to aboral capsule'
+		[139] 'Tentacles extending beyond skeletal rods and outer sheaths'
+		[140] 'calyx region more elongate than skeletal rods'
+		[141] 'skeletal rods tapering to sharp points'
+		[142] 'Medial structures of skeletal elements'
+		[143] 'Kinked spokes'
+		[144] 'Spinose spokes'
+		[145] 'Radiating flaps/lobes'
+		[146] 'Longitudinal lobe fins'
+		[147] 'Mesoglea'
+		[148] 'Mesoglea cellular'
+		[149] 'Embryonic development'
+		[150] 'Structure of mitochondrial DNA'
+		[151] 'Cnidae'
+		[152] 'Cnidae in gastrodermis'
+		[153] 'Cnidocil'
+		[154] 'Cnidae apical structure'
+		[155] 'Spirocyst'
+		[156] 'Ptychocyst'
+		[157] 'Nematocyst'
+		[158] 'Stenoteles'
+		[159] 'Euryteles'
+		[160] 'Birhopaloids'
+		[161] 'Rhopalonemes'
+		[162] 'Desmonemes'
+		[163] 'Mastigophores'
+		[164] 'Isorhizas'
+		[165] 'Atrichous isorhizas'
+		[166] 'Holotrichous isorhizas'
+		[167] 'Apotrichous isorhizas'
+		[168] 'Basitrichous isorhizas'
+		[169] 'Zooxanthellae'
+		[170] 'Mesogleal skeleton'
+		[171] 'Ectodermal skeleton'
+		[172] 'Composition of ectodermal skeleton'
+		[173] 'Corallum'
+		[174] 'Columella'
+		[175] 'Costae'
+		[176] 'Octocorallian spicules'
+		[177] 'Spicules in tentacle'
+		[178] 'Gorgonin'
+		[179] 'Periderm'
+		[180] 'Cuticle layers in periderm'
+		[181] 'Periderm type'
+		[182] 'Periderm expression'
+		[183] 'Tubular periderm'
+		[184] 'Peridermal tooth'
+		[185] 'Periderm with annulation'
+		[186] 'Annulation distribution'
+		[187] 'Propagation through lateral budding'
+		[188] 'Location of gonads'
+		[189] 'Oocyte development'
+		[190] 'Nectosome'
+		[191] 'Pneumatophore'
+		[192] 'Planula'
+		[193] 'Planula ciliation'
+		[194] 'Number of endodermal cells of the planula'
+		[195] 'Glandular cells in the planula'
+		[196] 'Nervous cells in the planula'
+		[197] 'Relationship between axes of planula and adult'
+		[198] 'Actinula'
+		[199] 'Polypoid phase'
+		[200] 'Polyp life mode'
+		[201] 'Polymorphic polyps'
+		[202] 'Pedal disc'
+		[203] 'Coelenteron'
+		[204] 'Actinopharynx'
+		[205] 'Siphonoglyph'
+		[206] 'Number of siphonoglyphs'
+		[207] 'Gastric cavity partitioned by mesentery'
+		[208] 'Mesenterial filament'
+		[209] 'Number of mesenterial filament strips'
+		[210] 'Ciliated tract on mesenterial filament'
+		[211] 'Acontia'
+		[212] 'Number of mesenteries'
+		[213] 'Mesentery in polyp'
+		[214] 'Coupled mesenteries'
+		[215] 'Paired mesenteries'
+		[216] 'Mesentery pair morphology'
+		[217] 'Paired secondary cycle'
+		[218] 'Perfect mesentery'
+		[219] 'Perfect mesentery only'
+		[220] 'Number of perfect mesenteries'
+		[221] 'Directive mesentery'
+		[222] 'Number of  directive mesentery pairs'
+		[223] 'Mesentery formation'
+		[224] 'Gonads on mesenteries of 1st cycle'
+		[225] 'Gonads on mesenteries of 2nd and subsequent cycles'
+		[226] 'Number of tentacles in polyp'
+		[227] 'Structure of polyp tentacles'
+		[228] 'Arrangement of tentacles'
+		[229] 'Two-tentacle polyp stage'
+		[230] 'Tentacle retractile'
+		[231] 'Tentacle/coelenteron relationship'
+		[232] 'Catch tentacle'
+		[233] 'Acrospheres'
+		[234] 'Marginal spherules'
+		[235] 'Acrorhagi'
+		[236] 'Mesogleal sphincter'
+		[237] 'Ectodermal longitudinal muscle location'
+		[238] 'Gastrodermic musculature'
+		[239] 'Basilar musculature'
+		[240] 'Retractor muscle'
+		[241] 'Parietal muscle'
+		[242] 'Organisation of the nervous system'
+		[243] 'Canal system in polyp'
+		[244] 'Mesogleal lacunae'
+		[245] 'Ephyrae'
+		[246] 'Marginal lappet type'
+		[247] 'Number of marginal lappets'
+		[248] 'Medusoid phase'
+		[249] 'Location of medusa formation'
+		[250] 'Type of apical medusa formation'
+		[251] 'Strobilation type'
+		[252] 'Adult medusoid shape'
+		[253] 'Shape of horizontal cross-section of the medusa'
+		[254] 'Umbrellar margin'
+		[255] 'Rhopalia/rhopalioids'
+		[256] 'Complex eyes in rhopalia'
+		[257] 'Statocysts'
+		[258] 'Statocyst origin'
+		[259] 'Statolith composition'
+		[260] 'Ocelli in medusa'
+		[261] 'Giant fibre nerve net (GFNN) in medusae'
+		[262] 'Nerve ring in medusa'
+		[263] 'Number of rings in nerve ring'
+		[264] 'Manubrium'
+		[265] 'Gastric filaments'
+		[266] 'Gastric saccule'
+		[267] 'Coronal muscle'
+		[268] 'Longitudinal muscles in the peduncle'
+		[269] 'Pedalium of coronate type'
+		[270] 'Pedalium of cubozoan type'
+		[271] 'Pedalial branching'
+		[272] 'Velum'
+		[273] 'Claustrum'
+		[274] 'Tentacles in medusa'
+		[275] 'Structure of medusa tentacle'
+		[276] 'Shape of medusa tentacle'
+		[277] 'Tentacular bulbs'
+		[278] 'Tentacular insertion'
+		[279] 'Number of tentacular whorls in medusa'
+		[280] 'Oral arms with suctorial mouths'
+		[281] 'Mesentery in medusa'
+		[282] 'Mesenteric shape in medusa'
+		[283] 'Perradial mesenteries'
+		[284] 'Radial canals'
+		[285] 'Circular canal'
+		[286] 'Circular canal partial'
+		[287] 'Peripheral canal system'
+		[288] 'Velarium'
+		[289] 'Velar canals'
+		[290] 'Frenulae'
+		[291] 'Coronal furrow'
+		[292] 'Gonadal location'
+		[293] 'Urticant rings'
+		[294] 'Peronia'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'protostomy'
+			'deuterostomy'
+			'amphistomy'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'from the blastopore lips and as ectomesoderm'
+			'from the walls of the archenteron or neural crest'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent'
+			'present'
+			,
+		53
+			'schizocoely'
+			'enterocoely'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'absent'
+			'present'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'absent'
+			'present'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'bilateral'
+			'biradial'
+			'triradial'
+			'tetraradial'
+			'pentaradial'
+			'hexaradial'
+			'octaradial'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'absent'
+			'present'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'absent'
+			'present'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'absent'
+			'present'
+			,
+		80
+			'single'
+			'teo pairs'
+			,
+		81
+			'absent'
+			'present'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'absent'
+			'present'
+			,
+		85
+			'absent'
+			'present'
+			,
+		86
+			'eight'
+			'eighteen'
+			'six'
+			'twenty four'
+			'more than 24'
+			'sixteen'
+			,
+		87
+			'paired'
+			'unpaired'
+			,
+		88
+			'uniform'
+			'non uniform'
+			,
+		89
+			'adaxial'
+			'abaxial'
+			,
+		90
+			'absent'
+			'present'
+			,
+		91
+			'absent'
+			'present'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'Absent'
+			'Present'
+			,
+		94
+			'absent'
+			'present'
+			,
+		95
+			'absent'
+			'present'
+			,
+		96
+			'absent'
+			'present'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'absent'
+			'present'
+			,
+		101
+			'absent'
+			'present'
+			,
+		102
+			'absent'
+			'present'
+			,
+		103
+			'absent'
+			'present'
+			,
+		104
+			'absent'
+			'present'
+			,
+		105
+			'absent'
+			'present'
+			,
+		106
+			'absent'
+			'present'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'absent'
+			'present'
+			,
+		109
+			'absent'
+			'present'
+			,
+		110
+			'narrow'
+			'voluminous'
+			'manubrium-like'
+			,
+		111
+			'absent'
+			'present'
+			,
+		112
+			'skirt or bell'
+			'lappets'
+			,
+		113
+			'absent'
+			'present'
+			,
+		114
+			'absent'
+			'present'
+			,
+		115
+			'absent'
+			'present'
+			,
+		116
+			'absent'
+			'present'
+			,
+		117
+			'absent'
+			'present'
+			,
+		118
+			'absent'
+			'present'
+			,
+		119
+			'absent'
+			'present'
+			,
+		120
+			'absent'
+			'present'
+			,
+		121
+			'absent'
+			'present'
+			,
+		122
+			'absent'
+			'present'
+			,
+		123
+			'absent'
+			'present'
+			,
+		124
+			'absent'
+			'present'
+			,
+		125
+			'both terminate blindly'
+			'branch to form a complex network'
+			'united with the circumoral ring canal'
+			,
+		126
+			'absent'
+			'present'
+			,
+		127
+			'absent'
+			'present'
+			,
+		128
+			'two'
+			'four'
+			,
+		129
+			'directly branch from the infundibulum'
+			'branch from interradial canals'
+			,
+		130
+			'absent'
+			'present'
+			,
+		131
+			'absent'
+			'present'
+			,
+		132
+			'absent'
+			'present'
+			,
+		133
+			'absent'
+			'present'
+			,
+		134
+			'fringing along tentacles'
+			'fringing along elongate oral margin'
+			,
+		135
+			'absent'
+			'present'
+			,
+		136
+			'orally'
+			'aborally'
+			,
+		137
+			'absent'
+			'present'
+			,
+		138
+			'absent'
+			'present'
+			,
+		139
+			'absent'
+			'present'
+			,
+		140
+			'absent'
+			'present'
+			,
+		141
+			'Absent'
+			'Present'
+			,
+		142
+			'absent'
+			'present'
+			,
+		143
+			'absent'
+			'present'
+			,
+		144
+			'absent'
+			'present'
+			,
+		145
+			'absent'
+			'present'
+			,
+		146
+			'absent'
+			'present'
+			,
+		147
+			'absent'
+			'present'
+			,
+		148
+			'absent'
+			'present'
+			,
+		149
+			'direct'
+			'indirect'
+			,
+		150
+			'circular'
+			'linear'
+			,
+		151
+			'absent'
+			'present'
+			,
+		152
+			'absent'
+			'present'
+			,
+		153
+			'immobile'
+			'mobile'
+			,
+		154
+			'flaps/cap'
+			'operculum'
+			'no flaps/operculum'
+			,
+		155
+			'absent'
+			'present'
+			,
+		156
+			'absent'
+			'present'
+			,
+		157
+			'absent'
+			'present'
+			,
+		158
+			'absent'
+			'present'
+			,
+		159
+			'absent'
+			'present'
+			,
+		160
+			'absent'
+			'present'
+			,
+		161
+			'absent'
+			'present'
+			,
+		162
+			'absent'
+			'present'
+			,
+		163
+			'absent'
+			'present'
+			,
+		164
+			'absent'
+			'present'
+			,
+		165
+			'absent'
+			'present'
+			,
+		166
+			'absent'
+			'present'
+			,
+		167
+			'absent'
+			'present'
+			,
+		168
+			'absent'
+			'present'
+			,
+		169
+			'absent'
+			'present'
+			,
+		170
+			'absent'
+			'present'
+			,
+		171
+			'absent'
+			'present'
+			,
+		172
+			'proteinaceous'
+			'calcitic'
+			,
+		173
+			'absent'
+			'present'
+			,
+		174
+			'absent'
+			'present'
+			,
+		175
+			'absent'
+			'present'
+			,
+		176
+			'absent'
+			'present'
+			,
+		177
+			'absent'
+			'present'
+			,
+		178
+			'absent'
+			'present'
+			,
+		179
+			'absent'
+			'present'
+			,
+		180
+			'one'
+			'two'
+			'five'
+			,
+		181
+			'corneous'
+			'coriaceous'
+			'fibrous'
+			,
+		182
+			'entire polyp'
+			'hydrocaulus or hydrorhiza'
+			'basal region or podocyst'
+			'stolon and anthostele'
+			,
+		183
+			'absent'
+			'present'
+			,
+		184
+			'absent'
+			'present'
+			,
+		185
+			'absent'
+			'present'
+			,
+		186
+			'parts of body'
+			'entire body'
+			,
+		187
+			'absent'
+			'present'
+			,
+		188
+			'Gastrodermis'
+			'Epidermis'
+			,
+		189
+			'oocytes develop without accessory cells'
+			'oocytes develop with accessory cells'
+			'oocytes develop within follicles'
+			'oocytes develop from uptake of somatic or other germ line cells'
+			,
+		190
+			'absent'
+			'present'
+			,
+		191
+			'absent'
+			'present'
+			,
+		192
+			'absent'
+			'present'
+			,
+		193
+			'absent'
+			'present'
+			,
+		194
+			'variable'
+			'constant, n=16'
+			,
+		195
+			'absent'
+			'present'
+			,
+		196
+			'absent'
+			'present'
+			,
+		197
+			'oral-aboral axis in the adult derived from the longitudinal axis of the planula'
+			'oral-aboral axis in the adult derived from the transverse axis of the planula'
+			,
+		198
+			'absent'
+			'present'
+			,
+		199
+			'absent'
+			'present'
+			,
+		200
+			'solitary'
+			'colonial'
+			,
+		201
+			'absent'
+			'present'
+			,
+		202
+			'absent'
+			'present'
+			,
+		203
+			'absent'
+			'present'
+			,
+		204
+			'absent'
+			'present'
+			,
+		205
+			'absent'
+			'present'
+			,
+		206
+			'one'
+			'more than one'
+			,
+		207
+			'absent'
+			'present'
+			,
+		208
+			'absent'
+			'present'
+			,
+		209
+			'two strips'
+			'three strips'
+			'one strip'
+			,
+		210
+			'absent'
+			'present'
+			,
+		211
+			'absent'
+			'present'
+			,
+		212
+			'more than twelve'
+			'ten'
+			'eight'
+			'four'
+			,
+		213
+			'absent'
+			'present'
+			,
+		214
+			'absent'
+			'present'
+			,
+		215
+			'absent'
+			'present'
+			,
+		216
+			'members the same size'
+			'members differ in size'
+			,
+		217
+			'absent'
+			'present'
+			,
+		218
+			'absent'
+			'present'
+			,
+		219
+			'absent'
+			'present'
+			,
+		220
+			'eight'
+			'six or multiple of six'
+			'ten'
+			,
+		221
+			'absent'
+			'present'
+			,
+		222
+			'one pair'
+			'two pairs'
+			,
+		223
+			'only primary tentacles'
+			'new septa arise in the exocoel to either side of the ventral directive'
+			'from ventral'
+			'between directive and transverse septa'
+			'anywhere around the circumference'
+			,
+		224
+			'absent'
+			'present'
+			,
+		225
+			'absent'
+			'present'
+			,
+		226
+			'six'
+			'eight'
+			'twelve'
+			'sixteen'
+			'eighteen'
+			'more than twenty'
+			,
+		227
+			'hollow'
+			'solid'
+			,
+		228
+			'scattered'
+			'one cycle'
+			'more than one cycle'
+			,
+		229
+			'absent'
+			'present'
+			,
+		230
+			'non retractile'
+			'retractile'
+			,
+		231
+			'one tentacle per endocoel and per exocoel'
+			'one tentacle per exocoel, multiple per endocoel'
+			,
+		232
+			'absent'
+			'present'
+			,
+		233
+			'absent'
+			'present'
+			,
+		234
+			'absent'
+			'holotrichous'
+			,
+		235
+			'absent'
+			'present'
+			,
+		236
+			'absent'
+			'present'
+			,
+		237
+			'tentacles and oral disc only'
+			'whole body'
+			,
+		238
+			'not in bunches'
+			'organised in bunches of gastrodermal origin'
+			'organised in bunches of ectodermal origin'
+			,
+		239
+			'absent'
+			'present'
+			,
+		240
+			'weak'
+			'defined'
+			,
+		241
+			'absent'
+			'present'
+			,
+		242
+			'nets'
+			'with nerve rings'
+			,
+		243
+			'absent'
+			'present'
+			,
+		244
+			'absent'
+			'present'
+			,
+		245
+			'absent'
+			'present'
+			,
+		246
+			'without lappet stem'
+			'with lappet stem'
+			,
+		247
+			'five'
+			'eight'
+			'twelve'
+			'sixteen'
+			,
+		248
+			'absent'
+			'present'
+			,
+		249
+			'lateral budding from an entocodon'
+			'apical or oral'
+			'direct development without polyp stage'
+			,
+		250
+			'strobilation'
+			'without transverse fission'
+			,
+		251
+			'polydisc'
+			'monodisc'
+			,
+		252
+			'bell'
+			'pyramidal'
+			'cubic'
+			,
+		253
+			'circular'
+			'four-part symmetry'
+			,
+		254
+			'smooth and continuous'
+			'lobed'
+			,
+		255
+			'absent'
+			'present'
+			,
+		256
+			'absent'
+			'present'
+			,
+		257
+			'absent'
+			'present'
+			,
+		258
+			'endodermic'
+			'ectodermic'
+			,
+		259
+			'MgCaPO4'
+			'CaSO4'
+			,
+		260
+			'absent'
+			'present'
+			,
+		261
+			'absent'
+			'present'
+			,
+		262
+			'absent'
+			'present'
+			,
+		263
+			'one'
+			'two'
+			,
+		264
+			'absent'
+			'present'
+			,
+		265
+			'absent'
+			'present'
+			,
+		266
+			'absent'
+			'present'
+			,
+		267
+			'well-developed'
+			'marginal and tiny'
+			,
+		268
+			'absent'
+			'present'
+			,
+		269
+			'absent'
+			'present'
+			,
+		270
+			'absent'
+			'present'
+			,
+		271
+			'absent'
+			'present'
+			,
+		272
+			'absent'
+			'present'
+			,
+		273
+			'absent'
+			'present'
+			,
+		274
+			'absent'
+			'present'
+			,
+		275
+			'hollow'
+			'solid'
+			,
+		276
+			'filiform'
+			'capitate'
+			,
+		277
+			'absent'
+			'present'
+			,
+		278
+			'at umbrellar margin'
+			'away from margin'
+			,
+		279
+			'one whorl'
+			'two whorls'
+			,
+		280
+			'absent'
+			'present'
+			,
+		281
+			'absent'
+			'present'
+			,
+		282
+			'straight'
+			'Y-shaped'
+			,
+		283
+			'absent'
+			'present'
+			,
+		284
+			'absent'
+			'present'
+			,
+		285
+			'absent'
+			'present'
+			,
+		286
+			'absent'
+			'present'
+			,
+		287
+			'absent'
+			'present'
+			,
+		288
+			'absent'
+			'present'
+			,
+		289
+			'absent'
+			'present'
+			,
+		290
+			'absent'
+			'present'
+			,
+		291
+			'absent'
+			'present'
+			,
+		292
+			'manubrium'
+			'radial canals'
+			'both sides of gastric septa'
+			,
+		293
+			'absent'
+			'present'
+			,
+		294
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Choanoflagellata'                     100--------00--0-00---0---------------------0---0-----------------000----000-------------0--??----000----0------------------------00----0---?---0-0--00---000---------------------0---------?--0------0---0---0----------------------------------------0----------------------------------------------
+	'Porifera'                             1101(0 1)00101(0 1)10--00000000-0-0-0000000--000000000000--0--00-0000000--00(0 1)?---000-------------0-0??----0000---0----0-0000---0-0-0-00--000----0---?---0-101(0 1)0---000------------00----0--0---------?--0------0---0---0----------------------------------------0----------------------------------------------
+	'Placozoa'                             0110?00101010--10010000-0-0-0000000--000000000000--0--00-0000000--000----000-------------0--??----0000---0----0-0000---0-0-0-00--000----0---?---0-0-000---000------------00----0--0---------?--0------0---0---0----------------------------------------0----------------------------------------------
+	'Xianguangia'                          ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????12??-??10110111111000100---10-?????????00-0-000?????-?????????00----101000000-????0???????????????????????????0-------0???????????10-011??1????01????????????4?100?0??????????????????????????????????????????????????????????????
+	'Daihua'                               ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????12??-??1011111111100010100-00-?????????10-0-000?????-?????????00----101000000-????0???????????????????????????0-------0???????????10-01??????????????????????4?100?0??????????????????????????????????????????????????????????????
+	'Theiokylixia'                         ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1??????11110????11000??101000-?????????00-0-000???????????????0?????101000000-????????????????????????????????0-------0???????????10?01???1??????????????????4?100?0??????????????????????????????????????????????????????????????
+	'Calathites spinalis'                  ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1???-??101101?11???????111000-?????????00-0-000?????-?????????00----101000000-????????????????????????????????0-------0???????????10-01??????????????????????4?100?0??????????????????????????????????????????????????????????????
+	'Calathites macrocalyx'                ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1??????101??1???1?000??111??0-?????????00?0-000???????????????0?????101000000-????????????????????????????????0-------0???????????10?011??1?????1????????????4?100?0??????????????????????????????????????????????????????????????
+	'Dinomischus venustus'                 ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1???-??101101???11000??100100-?????????0100-000?????-?????????00----100110000-????0???????????????????????????0-------0???????????10-010??1?????1????????????4?100?0??????????????????????????????????????????????????????????????
+	'Dinomischus isolatus'                 ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1???-??10110???????????100100-?????????0??0-000?????-?????????00----???11???0-????0???????????????????????????0-------0???????????10-01??????????????????????4?100?0??????????????????????????????????????????????????????????????
+	'Dinomischus nudus'                    ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????1??????101??????????????00??0-?????????0??0-000???????????????0?????100110000-????????????????????????????????0-------0???????????10?01???1?????1??????????????100?0??????????????????????????????????????????????????????????????
+	'Siphusauctum'                         ??10??????????????????0-?????000000??00???0?0000??????0??0000?0?????15??-??111100-?01200010110000-?????????0100-000?????-?????????00----0-------10????0???????????????????????????0-------0???????????10-010??0------------------0?100?0??????????????????????????????????????????????????????????????
+	'Daihuoides'                           ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?01110??????????????????????0-00??????-?????????00----0-------0-????????????????????????????????0-------????????????????????0----------------------------???????????????????????????????????????????????????????????
+	'Fasciculus'                           ?????????????????????????????000000??00???0?0000??????0??0000?0?????11??-??1100-0-?014111??0-?--????????1??01?0-00??????-?????????00----0-------0-????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Xanioascus'                           ?????????????????????????????000000??00???0?0000??????0??0000?0?????11??-??1100-0-?013101??0-?--10???????100110-00??????-?????????00----0-------0-????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Ctenorhabdotus capulus'               ?????????????????????????????000000??00???0?0000??????0??0000?0?????11??-??1100-0-?013111??0-?--100??11??0001110000?????-?????????00----11------0-????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Ctenorhabdotus campanelliformis'      ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?013101??0-?--100??11?10001110000?????-?????????00----11------0-????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Thalassostaphylos'                    ?????????????????????????????000000??00???0?0000??????0??0000?0?????11??-??1100-0-?0151?1??0-?--10???????1001110000?????-?????????00----0-------0-????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Thaumactena'                          ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--110????????01?10000?????-?????????00----10000?0010????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Galeactena'                           ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--110?????1??01110000?????-????1????00----10000?0011????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Maotianoascus'                        ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--100????????01110000?????-?????????00----10000?0011????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Batofasciculus'                       ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--110????????01?11000?????-?????????00----1000010110????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Trigoides'                            ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--110????????01?11000?????-?????????00----1000011010????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Gemmactena'                           ?????????????????????????????000000??00???0?0000??????0??0000?0?????1???-??1100-0-?010001??0-?--110????????01?11000?????-?????????00----1000011010????????????????????????????????0--------??????????????0????0----------------------------???????????????????????????????????????????????????????????
+	'Beroe'                                0110001111111110001100100-0-000000000000000000000--0--000000000000001101-011100-0-0010101110-?--101111000110110-00000111-111200-0100----0-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Euplokamis'                           0110001111111110001100100-0-000000000000000000000--0--0000000000000011000111100-0-0010101110-?--101111001100100-00000001110001???11110110-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Pleurobrachia'                        0110001111111110001100100-0-000000000000000000000--0--0000000000000011000111100-0-0010101110-?--101111000100100-0000000111000111111110110-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Haeckelia'                            0110001111111110001100100-0-000000000000000000000--0--0000000000000011000111100-0-0010101110-?--101111000110100-0000000011000?0-01100-100-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Mnemiopsis'                           0110001111111110001100100-0-000000000000000000000--0--0000000000000011001111100-0-0010111110-?--101111010100100-0110100111012111111111010-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Ocyropsis'                            0110001111111110001100100-0-000000000000000000000--0--0000000000000011001111100-0-0010111110-?--101111010100100-0110?0011111211111(0 1)111010-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Ctenoplana'                           0110001111111110001100100-0-000000000000000000000--0--0000000000000011110111100-0-0010101110-?--101111000110100-1001000111101110(0 1)11110110-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Cestum'                               0110001111111110001100100-0-000000000000000000000--0--0000000000000011001111100-0-0010111110-?--101111000?00100-0000000111012111111111110-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Ganesha'                              0110001111111110001100100-0-000000000000000000000--0--00000000000000110?1111100-0-0010101110-?--1011110???00110-00000001110121111?1111110-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Thalassocalyce'                       0110001111111110001100100-0-000000000000000000000--0--0000000000000011010111100-0-0010101110-?--1011110???00120-00000001110121111?1111010-------0-11000---000------------00----0--0---------?--0------0---100-0----------------------------------------0----------------------------------------------
+	'Nematostella'                         01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111011101010000011??01000----0-00-------001--110110010-01111111100111101011141?30201000000010110000--0----------------------------------------------
+	'Anemonia'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111011101010000011?10?100----0-00-------001--110110010-11111111100111011011141150201000110011110000--0----------------------------------------------
+	'Aiptasia'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111011101010000011??01100----0-00-------001--110110010-1111111111011101101114??50201000001011110000--0----------------------------------------------
+	'Metridium'                            01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111011101010000011??00000----0-00-------001--110110010-11111111110111011011140150201110001011110000--0----------------------------------------------
+	'Antipathes'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111210100000110001?0101000-00-------0010011011001100111111200111100112113??50100000000?10000000--0----------------------------------------------
+	'Cerianthus'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111?111(0 2)111000001???0??00----0-00-------001--110110010-01110111100110-01111021?50200000000100000000--0----------------------------------------------
+	'Corynactis'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111(0 2)10100000110100000----0-00-------001--110110010-1110-112000111011010-4??50201101000110000000--0----------------------------------------------
+	'Montastraea'                          01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111(0 2)1010000011010010110110-00-------0010011011001100110-112000111011010-4??50201001000?10000000--0----------------------------------------------
+	'Porites'                              01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111(0 2)1010000011010010110110-00-------0010011011001100110-112000111011010-4??30201001000?10000000--0----------------------------------------------
+	'Acropora'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000015---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?1010000011010010110110-00-------0010011011001100110-112000111011010-4??20201001000?10000000--0----------------------------------------------
+	'Zoanthus'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111(0 2)1010000011?101100----0-00-------0010011011001100111011110011111101111??50201000001010010010--0----------------------------------------------
+	'Anthomastus'                          01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-10000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?00100000?11?00?10----1100-------00100110110011001110110102110-0110100??10100000000?10000000--0----------------------------------------------
+	'Nephthyigorgia'                       01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-10000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?00100000?11?00?10----1110-------00100110110011001110110102110-0110100??10100000000?10000000--0----------------------------------------------
+	'Leptogorgia'                          01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-10000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?00100000?11?00?10----1110-------00100110110011001110110102110-0110100??10100000000?10000000--0----------------------------------------------
+	'Cornularia'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-10000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?00100000?11?00?10----0-01?030-0-00100110110011001110110102110-0110100??10100000000?10000000--0----------------------------------------------
+	'Virgularia'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000010---001010-10000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-1110111?00100000?11?00010----0-00-------00100110110011101110110102110-0110100??10100000000?10000000--0----------------------------------------------
+	'Haliclystus'                          01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-101111?10010100001??00000----0-010020-0-102--101000010-0100-10---3100-00--0----10010-00000?20000100--111-110100--000-1101100-00101000011000-00000200
+	'Craterolophus'                        01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-101111??0010100001??00000----0-010020-0-102--101000010-0100-10---3100-00--0----10010-00000?20000100--111-110100--000-1101000-01101000011000-00000200
+	'Carybdea'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011110100111000111100100----0-011020-0-10?--110??0010-0100-10---30------------11110-00000?20001100--111-2101110111101100-01000100000011010-01110100
+	'Chiropsalmus'                         01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011110100111000111100000----0-011020-0-?0?--110??0010-0100-10---30------------11110-00000?20001100--111-2101110111101110-01100101000011010-01110100
+	'Carukia'                              01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011110100111000111100?00----0-011020-0-10?--110??0010-0100-10---30------------11110-00000?20001100--11012101110111101100-01000100000011010-01110100
+	'Nausithoe'                            01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111111?10010100001??00000----0-011001111(0 1)00--1????0010-0100-10---3100-00--0----51100-00000?2000010103110000110101110-1100-10-00110000010010-00001100
+	'Atorella'                             01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-111111?10010100001??00000----0-011001111?00--1????0010-0100-10---3100-00--0----51100-00000?2000010102110?001101??010-1100-10-00110000010010-00001100
+	'Aurelia'                              01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1111110100101000011000000----0-010020-0-101--1??110010-0100-10---3100-00--0----31100-00000?2000010111110000110101110-1100-00-0010000000-011100000100
+	'Rhizostoma'                           01101001111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1111110100101000011100000----0-010020-0-101--1??000010-0100-10---3100-00--0----31100-00000?2000010111110(0 1)00110101110-1100-00-000-----10-011100000100
+	'Hydra'                                01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-100110010011100111110?000----0-012200---113--0-----010-0100-10----0------------?0100-00000?00000000--0----------------------------------------------
+	'Candelabrum'                          01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-100110010011100111100?000----0-010010-0-013000-----11100100-10----0------------5?000-00000?00000000--0----------------------------------------------
+	'Ectopleura'                           01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-100110010011100111??01000----0-010010-0-013000-----11100100-10----0------------5?100-00000?00000000--10--0000-0--11111000-00-101?010000-111000000000
+	'Hydractinia'                          01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111001111?0?000----0-010010-0-013001??11001110100-10----0------------3?100-00000?00000000--10--0000-???{0 1}1??100?-00-?011010000-?110?0000000
+	'Clytia'                               01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111000111001000----0-010001010013001??11001110100-10----0------------51100-00000?00000000--10--0000-110?1111000-00-1010010000-011000000100
+	'Obelia'                               01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-1-?000-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111000111001000----0-010001010013001??11001110100-10----0------------51100-00000?00000000--10--0000-110?1111000-00-0011010000-011000000100
+	'Physalia'                             01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111111110100000----0-010000---01?011??11001110100-10----0------------?0?00-00000?00000000--10--0000-0--01111000-00-100--1--00-011000000000
+	'Craseoa'                              01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111111110?00000----0-010000---01?111??11001110100-10----0------------?0?00-00000?00000000--10--0000-0--01111000-00-100--1--00-011000000000
+	'Nanomia'                              01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?-00-0000---0000-0-00000000-0-0-00--000----0-------0-1011100100111111110?00000----0-010000---01?101??11001110100-10----0------------?0?00-00000?00000000--10--0000-0--01111000-00-100--1--00-011000000000
+	'Aegina'                               01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-101110?100100000011010000----0-00--------13001??00100---100-10---------------------------------------12--0010-10?01??0000-00-1011001000-001010000001
+	'Halitrephes'                          01101011111110110011000-0-0-000000000000000000000--0--0000000000000013---001010-0-000----0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-101110?100111000011000000----0-00--------13001??00000---100-10---------------------------------------12--0000-10001111000-00-1011000000-011000000110
+	'Entoprocta'                           01101011111111010011111110100000000000000100000010-0--0000000000001110---001010-0-000----0-1-?0-0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Bryozoa'                              011010111111110100111111100-000000000000100010001000010000000000001110---00(0 1)010-0-000----0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Brachiopoda'                          0110101111111101001111(0 1)11(0 1)0-000000000000100010001000010000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Phoronida'                            011010111111110100111111100-000000000000100000001000010000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Mollusca'                             0110101111111101001111101(0 1 2)(0 1)0000000010000011010001000000000000000001110---00(0 1)010-0-000----0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Annelida'                             0110101111111101001111101(0 1 2)0-000000110000010011001000000000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Echinodermata'                        011010011111110100111010110-000000000000000000001101111000011100001110---00(0 1)010-(0 1)0000----0-(0 1)??0-0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Pterobranchia'                        011010111111110100111011110-000000010000000000001101111100110100001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Enteropneusta'                        011010111111110100111010110-000000010000000000001101111100110100001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Chaetognatha'                         011010111111110100111010110-000000010000000000011100010000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Onychophora'                          0110101111111101001110101211101101110001000100001010000000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Arthropoda'                           0110101111111101001110101(0 1)1111000(0 1)110001000100001010000000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-{0 1}00---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Nemertea'                             0110101111111101001111101(0 1)0-000000010000010000101000000000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Urochordata'                          011011111111110100111010110-000000000000000000001100101111000000111110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Cephalochordata'                      011010111111110100111010110-000000000000000000001101101111000010001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Vertebrata'                           011001111111110100111010110-00000000000000000000110(0 1)101111000011111110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Nematoda'                             01101011111111010011101010101000000111010000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Nematomorpha'                         01101011111111010011101011101000000101010000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Priapulida'                           01101011111111010011101011111000000111110000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Gastrotricha'                         011010111111110100111110100-0000000100000000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Tardigrada'                           0110101111111101001110101011101010?10001000000001010000000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Kinorhyncha'                          0110101111111101001110101?101000001111110000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Loricifera'                           0110101111111101001110101?101000000111110000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Gnathifera'                           011010111111110100111110100-0000000100000000000110-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Xenacoelomorpha'                      011000?1?1(0 1)111111111100-0-0-0000000?00000000000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-000---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+	'Platyhelminthes'                      01101011111111010011110-000-0000000100000100000010-0--0000000000001110---000-------------0-0-?--0-0000---0000-0-00000000-0-0-00--000----0-------0-0-100---000------------00----0--0---------?--0------0---000-0----------------------------------------0----------------------------------------------
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-294;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1748430917332; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1326284787020836767; tell It; setDefaultOrder 1 2 5 96 97 7 83 8 96 10 6 96 12 98 99 100 86 87 101 102 104 103 105 100 31 25 26 29 29 33 35 27 32 31 37 39 40 41 42 47 48 50 52 52 55 55 57 58 60 61 62 145 143 144 68 66 74 68 69 70 71 75 72 76 79 80 81 82 88 89 125 110 111 112 113 114 115 116 121 117 118 119 120 122 123 124 126 127 128 129 130 131 132 133 134 135; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5030600329187913160; tell It; setDefaultOrder 5 6 7 320 8 9 10 11 12 13 14 15 16 17 18 19 20 21 24 22 23 25 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46 47 118 49 53 50 51 52 54 55 56 59 41 60 61 62 63 64 69 64 65 66 67 68 74 75 76 80 80 80 75 76 101 100 108 110 111 113 116 117 117 86 118 81 83 280 117 127 119 126 125 121 121 105 93 95 82 220 122 253 264 265 266 269 122 268 118 267 268 110 120 258 297 298 259 257 291 291 260 261 262 268 271 272 273 279 280 282 281 269 281 283 285 26 286 287 288 289 292 150 297 143 143 289 290 291 291 271 95 293 295 296 297 298 299 302 319 325 300 302 303 316 317 308 308 314 311 312 312 309 518 521 519 520 319 521 521 522 523 524 321 347 184 325 328 338 362 345 367 236 369 371 373 374 375 376 377 378 379 439 380 383 386 445 27 384 386 387 388 397 398 399 426 527 389 401 392 393 396 402 409 403 404 405 406 431 432 427 406 420 410 412 413 415 422 424 434 428 429 442 430 431 432 438 439 433 436 523 524 443 360 363 364 484 485 453 445 446 475 480 459 489 28 447 448 384 449 471 450 478 443 451 470 452 477 457 487 496 458 486 493 485 389 462 481 463 464 465 490 467 494 495 473 474 484 488; attachments ; endTell; mqVersion 370; checksumv 0 3 3141782246 null getNumChars 294 numChars 294 getNumTaxa 96 numTaxa 96 short true bits 2305843009213694015 states 63 sumSquaresStatesOnly 56383.0 sumSquares -9.2233720368547338E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1512 826; setLocation 0 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #1326284787020836767 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #1326284787020836767; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; newAssistant #mesquite.lists.NumForTaxaList.NumForTaxaList; tell It; suppress; setValueTask #mesquite.molec.PercentMissingInTaxon.PercentMissingInTaxon; tell It; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #5030600329187913160; endTell; endTell; endTell; toggleShadeCells off; desuppress; endTell; newAssistant #mesquite.lists.NumForTaxaList.NumForTaxaList; tell It; suppress; setValueTask #mesquite.molec.PercentGapsInTaxon.PercentGapsInTaxon; tell It; getMatrixSource #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #5030600329187913160; endTell; endTell; toggleEdges on; endTell; toggleShadeCells off; desuppress; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1412 754; setLocation 0 25; setFont SanSerif; setFontSize 12; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5030600329187913160 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 209; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1412 754; setLocation 0 25; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.NoColor.NoColor; colorText #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Magenta; removeColor off; endTell; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; setColumnWidth 16; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable off; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal off; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1412 754; setLocation 0 25; setFont Default; setFontSize 12; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 294; 
+ENDBLOCK;

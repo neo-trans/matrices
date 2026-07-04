@@ -1,0 +1,725 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.51.39 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=50;
+	TAXLABELS
+		'Cheirolepis trailli'
+		'Mimipiscis toombsi'
+		'Moythomasia durgaringa'
+		'Raynerius splendens'
+		'Palaeoneiros clackorum'
+		'Aesopichthys erinaceus'
+		'Bluefieldius mercerensis'
+		'Cyranorhis bergeraci'
+		'Discoserra pectinodon'
+		'Fouldenia ischiptera'
+		'Guildayichthys carnegiei'
+		'Kalops monophrys'
+		'Proceramala montanensis'
+		'Styracopterus fulcratus'
+		'Amphicentrum jurgenai'
+		'Coccocephalus wildi'
+		'Platysomus schultzei'
+		'Platysomus swaffordae'
+		'Trawdenia planti'
+		'Brachydegma caelatum'
+		'Concentrilepis minnekahtaensis'
+		'Ebenaqua ritchiei'
+		'Roslerichthys riomafrensis'
+		'Australosomus kochi'
+		'Beishanichthys brevicaudalis'
+		'Bobasatrania groenlandica'
+		'Boreosomus piveteaui'
+		'Errolichthys mirabilis'
+		'Fukangichthys longidorsalis'
+		'Hemicalypterus weiri'
+		'Luganoia fortuna'
+		'Peia jurongensis'
+		'Pholidoctenus serianus'
+		'Robustichthys luopingensis'
+		'Saurichthys madagascarensis'
+		'Pteronisculus stensioi'
+		'Teffichthys elegans'
+		'Watsonulus eugnathoides'
+		'Chondrosteus acipenseroides'
+		'Coccolepis bucklandi'
+		'Pachycormus macropterus'
+		'Semionotus elegans'
+		'Yanosteus longidorsalis'
+		'Erpetoichthys calabaricus'
+		'Polypterus ornatipinnis'
+		'Hiodon alosoides'
+		'Psephurus gladius'
+		'Acipenser brevirostrum'
+		'Lepisosteus osseus'
+		'Amia calva'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=115;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Premaxillae'
+		[2] 'Premaxilla, arrangement'
+		[3] 'Premaxillae, connection to skull roof elements'
+		[4] 'Premaxillae, position in dorsal view'
+		[5] 'Premaxillae, posterior-dorsal process (=nasal process)'
+		[6] 'Premaxillae, lateral view, shape of posterior-dorsal process (=nasal process)'
+		[7] 'Premaxillae, ventral margin, teeth'
+		[8] 'Premaxillae, lateral view, foramen (correlated with olfactory nerve in extant taxa)'
+		[9] 'Maxillae'
+		[10] 'Maxillae, posterior margin'
+		[11] 'Maxilla, position of posterior-most point relative to posterior rim of orbit'
+		[12] 'Maxillae, height of postorbital portion relative to anterior portion in lateral view'
+		[13] 'Maxilla, dorso-ventrally expanded postorbital portion, shape of the dorsal margin in lateral view'
+		[14] 'Maxilla, ventral margin, teeth'
+		[15] 'Maxilla, anterior-most portion, medially directed process'
+		[16] 'Maxilla, posterior and ventral margin'
+		[17] 'Supramaxilla'
+		[18] 'Supramaxilla, number of pairs'
+		[19] 'Quadrate-mandibular articulation, relative to posterior most part of orbit, position'
+		[20] 'Coronoid process, composition'
+		[21] 'Surangular (=suprangular)'
+		[22] 'Cranium, external layer of ganoine'
+		[23] 'Cranium, pineal foramen'
+		[24] 'Rostral plate'
+		[25] 'Rostral plate, number'
+		[26] 'Nasals, consolidation of ossifications'
+		[27] 'Nasals, number of pairs'
+		[28] 'Nasals, position relative to orbit'
+		[29] 'Frontals, length (anterior-posterior) relative to parietals'
+		[30] 'Frontals, arrangement'
+		[31] 'Parietals'
+		[32] 'Extrascapulars, number of pairs'
+		[33] 'Median extrascapular'
+		[34] 'Supraorbital bone'
+		[35] 'Supraorbital bones, number of pairs'
+		[36] 'Dermosphenotic, anterior and dorsal process'
+		[37] 'Dermosphenotic, degree of extension of the posterior margin'
+		[38] 'Dermosphenotic, relation to orbit'
+		[39] 'Infraorbital 4'
+		[40] 'Infraorbital 3, relationship with preopercle'
+		[41] 'Infraorbital 1.'
+		[42] 'Infraorbital 1, position.'
+		[43] 'Infraorbital 1, number of pairs'
+		[44] 'Antorbital'
+		[45] 'Antorbital, anterior process (=tube-like arm)'
+		[46] 'Hyomandibula, number of articulation surfaces with the neurocranium'
+		[47] 'Hyomandibula, posterior and dorsal process (=opercular process)'
+		[48] 'Hyomandibula, preopercular process'
+		[49] 'Hyomandibula, lateral view, foramen (correlated with the hyomandibular branch of the facial nerve in extant taxa)'
+		[50] 'Symplectic'
+		[51] 'Symplectic, anterior and ventral margin'
+		[52] 'Opercle'
+		[53] 'Opercle, dorsal-ventral height'
+		[54] 'Subopercle, shape of anterior and ventral margin in lateral view'
+		[55] 'Preopercle'
+		[56] 'Preopercle, pattern of ossifications in lateral view'
+		[57] 'Interopercle'
+		[58] 'Median gular'
+		[59] 'Branchiostegal rays'
+		[60] 'Dorsal-most (=first) branchiostegal ray, height in lateral view'
+		[61] 'Branchiostegal rays, number of pairs on each side of the midline'
+		[62] 'Braincase, lateral view, dorsal-ventral position of the foramen corresponding to the foramen for cranial nerve II in extant taxa (=optic foramen)'
+		[63] 'Supracleithrum, relationship with posttemporal'
+		[64] 'Postcleithrum'
+		[65] 'Cleithrum, dorsal most portion'
+		[66] 'Cleithrum, posterior and ventral portion'
+		[67] 'Cleithrum, height of dorsal arm relative to length of ventral arm'
+		[68] 'Posterior and lateral shoulder girdle'
+		[69] 'Vomers'
+		[70] 'Vomer, arrangement'
+		[71] 'Vomers, relationship to parasphenoid'
+		[72] 'Parasphenoid, posterior processes'
+		[73] 'Parasphenoid, length of posterior processes'
+		[74] 'Parasphenoid, ascending processes'
+		[75] 'Parasphenoid, orientation of ascending processes'
+		[76] 'Parasphenoid, teeth on ventral surface'
+		[77] 'Preopercle, shape in lateral view'
+		[78] 'Parasphenoid, ventral surface bearing foramen corresponding to the buccohypophyseal canal in extant taxa'
+		[79] 'Pectoral fin lepidotrichium, modified into pointed/wedge shaped accessory elements (=fringing fulcra) along the edge of the proximal-most principal ray'
+		[80] 'Pectoral fin lepidotrichium, composition of pointed/wedge shaped accessory elements (=fringing fulcra) along the edge of the proximal-most principal ray, composition'
+		[81] 'Pectoral fin spine'
+		[82] 'Pelvic fin'
+		[83] 'Pelvic fin, length of insertion'
+		[84] 'Pelvic fin, position of insertion along ventral margin'
+		[85] 'Basal fulcrum, pelvic fin'
+		[86] 'Pelvic fin lepidotrichium'
+		[87] 'Pelvic fin lepidotrichium, pointed/wedge shaped accessory elements (=fringing fulcra)'
+		[88] 'Pelvic fin lepidotrichium, pointed/wedge shaped accessory elements (=fringing fulcra), composition'
+		[89] 'Median fins, relative anterior-posterior position of insertions'
+		[90] 'Median fins, number of rays relative to number of radials'
+		[91] 'Dorsal fin, shape in lateral view'
+		[92] 'Dorsal fin, position of posterior-most point'
+		[93] 'Dorsal fin, spacing of principal lepidotrichia in lateral view'
+		[94] 'First principal dorsal fin lepidotrichium'
+		[95] 'Basal fulcrum, dorsal fin'
+		[96] 'Dermal scale, dorsal-most row anterior to dorsal fin.'
+		[97] 'Anal fin, shape in lateral view'
+		[98] 'Anal fin, position of posterior-most point'
+		[99] 'Anal fin lepidotrichium'
+		[100] 'First principal anal fin lepidotrichium'
+		[101] 'Basal fulcrum, anal fin.'
+		[102] 'Dermal scale, ventral-most row.'
+		[103] 'First principal caudal fin lepidotrichium (=dorsal-most)'
+		[104] 'Last principal caudal fin lepidotrichium (=ventral-most)'
+		[105] 'Caudal basal fulcrum.'
+		[106] 'Epaxial basal fulcrum, number.'
+		[107] 'Hypaxial basal fulcrum, number.'
+		[108] 'Portion of the vertebral column posterior to caudal peduncle (=axial lobe), anterior-posterior length relative to the principal caudal fin lepidotrichia'
+		[109] 'Dermal scale, shape of laterally visible portions.'
+		[110] 'Dermal scale coverage.'
+		[111] 'Dermal scale, type of external tissue covering.'
+		[112] 'Dermal scale, pattern of exposed ridges in elasmodine external covering.'
+		[113] 'Dermal scale, posterior margin of ganoine.'
+		[114] 'Dermal scale, process on the dorsal margin.'
+		[115] 'Body shape in lateral view'
+	;
+	STATELABELS
+		1
+			'present'
+			'absent'
+			'Present'
+			'Absent'
+			,
+		2
+			'paired'
+			'fused into a midline element'
+			,
+		3
+			'fused to elements of the dermal skull roof'
+			'separate from elements of the dermal skull roof'
+			,
+		4
+			'contact at midline (=medial)'
+			'separated at midline (=lateral)'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'wedge-shaped'
+			'elongate'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'present'
+			'absent'
+			,
+		10
+			'contact through bony suture to preopercle'
+			'free from preopercle'
+			,
+		11
+			'posterior to posterior rim of orbit'
+			'ventral to posterior rim of orbit'
+			'anterior to posterior rim of orbit'
+			,
+		12
+			'taller than portion ventral to orbit (=postorbital expansion)'
+			'approximately equal to height of portion ventral to orbit'
+			,
+		13
+			'flat (=straight)'
+			'dorsally convex (=curved)'
+			,
+		14
+			'present'
+			'absent'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'continuous'
+			'process free from posterior margin'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'one'
+			'two'
+			,
+		19
+			'posterior to orbit'
+			'ventral to orbit'
+			'anterior to orbit'
+			,
+		20
+			'prearticular only'
+			'surangular only'
+			'dentary and postdentary elements (surangular and/or angular)'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'present'
+			'absent'
+			,
+		23
+			'present'
+			'absent'
+			,
+		24
+			'present'
+			'absent'
+			,
+		25
+			'one'
+			'two'
+			'numerous'
+			,
+		26
+			'consolidated ossifications'
+			'unconsolidated, divided into a series of ossicles'
+			,
+		27
+			'one'
+			'two'
+			'three'
+			,
+		28
+			'dorsal to orbit'
+			'anterior to orbit'
+			,
+		29
+			'frontals longer than parietals'
+			'frontals and parietals approximately equal in length'
+			'frontals shorter than parietals'
+			,
+		30
+			'contact along suture at midline'
+			'fused at midline'
+			'separate at midline, no contact'
+			,
+		31
+			'present'
+			'absent'
+			,
+		32
+			'one pair'
+			'two pairs'
+			'three pairs'
+			'four pairs'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'one'
+			'two'
+			'three'
+			'twelve'
+			,
+		36
+			'present'
+			'absent'
+			,
+		37
+			'entirely extended into a distinct limb (=ramus)'
+			'extended into a process'
+			'no extension of posterior margin'
+			,
+		38
+			'participates in orbital margin'
+			'excluded from orbital margin'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'contact'
+			'no contact'
+			,
+		41
+			'present'
+			'absent'
+			,
+		42
+			'orbital'
+			'preorbital'
+			,
+		43
+			'1'
+			'2'
+			'series of 3 or more'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'one'
+			'two'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'not forming an articular facet with the lower jaw ossifications'
+			'forming an articular facet with the lower jaw ossifications'
+			,
+		52
+			'present'
+			'absent'
+			,
+		53
+			'more than twice the dorsal-ventral height of the subopercle'
+			'similar in size to the dorsal-ventral height of the subopercle'
+			'less than half the dorsal-ventral height of the subopercle'
+			,
+		54
+			'anteriorly and ventrally complex'
+			'pronounced into an elongate process'
+			'anteriorly and ventrally concave'
+			,
+		55
+			'present'
+			'absent'
+			,
+		56
+			'one'
+			'two'
+			'divided into a series of ossicles'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'present'
+			'absent'
+			,
+		59
+			'present'
+			'absent'
+			,
+		60
+			'approximately the same height as preceding ray'
+			'twice as tall or more than preceding ray'
+			,
+		61
+			'11 or more'
+			'6-10'
+			'1-5'
+			,
+		62
+			'dorsally positioned, wide separation from parasphenoid'
+			'ventrally positioned, near or contacting parasphenoid'
+			,
+		63
+			'articulates with posttemporal'
+			'separated from posttemporal'
+			,
+		64
+			'present'
+			'absent'
+			,
+		65
+			'single peak'
+			'extended into narrow process'
+			,
+		66
+			'deep embayment'
+			'posteriorly rounded and convex'
+			,
+		67
+			'dorsal arm height greater than length of ventral arm'
+			'dorsal arm height approximately equal to length of ventral arm'
+			'dorsal arm height less than length of ventral arm'
+			,
+		68
+			'cleithrum and supracleithrum articulate'
+			'cleithrum and supracleithrum separated'
+			,
+		69
+			'present'
+			'absent'
+			,
+		70
+			'single median'
+			'paired'
+			,
+		71
+			'separate from parasphenoid'
+			'sutured to parasphenoid'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'shorter (anterior-posterior) than rest of parasphenoid'
+			'elongate, longer (anterior-posterior) than or equal to rest of parasphenoid'
+			,
+		74
+			'present'
+			'absent'
+			,
+		75
+			'perpendicularly'
+			'anteriorly'
+			'posteriorly'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'pronounced anterior and dorsal limb'
+			'vertical only'
+			'pronounced anterior and ventral limb'
+			,
+		78
+			'present'
+			'absent'
+			,
+		79
+			'present'
+			'absent'
+			,
+		80
+			'formed only from expanded terminal lepidotrichial segments'
+			'formed from expanded terminal lepidotrichial segments and elements that are independent of terminal segments'
+			'formed only of elements that are independent of terminal lepidotrichial segments of procurrent rays'
+			,
+		81
+			'absent'
+			'present'
+			,
+		82
+			'present'
+			'absent'
+			,
+		83
+			'longer than fin depth'
+			'shorter than fin depth'
+			,
+		84
+			'abdominal'
+			'thoracic'
+			,
+		85
+			'present'
+			'absent'
+			,
+		86
+			'closely packed'
+			'separated'
+			,
+		87
+			'present'
+			'absent'
+			,
+		88
+			'formed only from expanded terminal lepidotrichial elements'
+			'formed from expanded terminal lepidotrichial elements and independent spiny elements'
+			'formed only from independent spiny elements'
+			,
+		89
+			'dorsal fin insertion posterior to anal fin insertion'
+			'dorsal fin insertion~equal to anal fin insertion'
+			'dorsal fin insertion anterior to anal fin insertion'
+			,
+		90
+			'rays more numerous than radials'
+			'rays and radials equal in number'
+			,
+		91
+			'triangular'
+			'oval/round'
+			'elongate'
+			,
+		92
+			'dorsal body margin'
+			'caudal peduncle'
+			'merged with caudal fin'
+			,
+		93
+			'contacting adjacent lepidotrichia'
+			'separated from other lepidotrichia'
+			,
+		94
+			'bifurcating'
+			'non-bifurcating'
+			,
+		95
+			'present'
+			'absent'
+			,
+		96
+			'bearing dorsally extended processes (=dorsal ridge scales)'
+			'dorsal-ventrally flat'
+			,
+		97
+			'triangular'
+			'oval/round'
+			'elongate'
+			,
+		98
+			'dorsal body margin (separate from caudal peduncle)'
+			'caudal peduncle'
+			,
+		99
+			'contacting adjacent lepidotrichia'
+			'separated from other lepidotrichia'
+			,
+		100
+			'branched'
+			'unbranched'
+			,
+		101
+			'present'
+			'absent'
+			,
+		102
+			'bearing ventrally extended processes (=dorsal ridge scales)'
+			'ventrally flat'
+			,
+		103
+			'bifurcating'
+			'non-bifurcating'
+			,
+		104
+			'bifurcating'
+			'non-bifurcating'
+			,
+		105
+			'present'
+			'absent'
+			,
+		106
+			'more than one'
+			'one'
+			,
+		107
+			'more than one'
+			'one'
+			,
+		108
+			'long, extending over half the length of the caudal fin'
+			'short, extending less than half the length of the caudal fin'
+			'very short, excluded from the caudal fin'
+			,
+		109
+			'rhombic'
+			'rounded/oval'
+			,
+		110
+			'covers entire lateral part of body'
+			'only present on axial lobe of caudal fin'
+			,
+		111
+			'ganoine'
+			'elasmodine'
+			,
+		112
+			'longitudinal to anterior margin of scale'
+			'parallel to anterior margin of scale'
+			,
+		113
+			'smooth'
+			'serrated'
+			,
+		114
+			'present'
+			'absent'
+			,
+		115
+			'fusiform'
+			'elongate, eel-like'
+			'circle-like, round'
+			,
+	;
+	MATRIX
+	'Cheirolepis trailli'                 000?0-00000000000-0-10001010100000-000000000-0000??0000000000?0000000?10-1-1000?000010000?000?012001010?0000000-000
+	'Mimipiscis toombsi'                  00000-00000000000-0-10000000000000-010000001000010-010000000000000000110-02100010000100100000100000100010000000-100
+	'Moythomasia durgaringa'              000?0-01000000000-0-10000000000000-010000001000010-000000000000001000110-021000?0010000?20000?00000?000?0000000-100
+	'Raynerius splendens'                 ????????0?00???00-0-100?????00010??100???????0001??0?????00??0??????0?1101-1??????????????????????????????????0-10?
+	'Palaeoneiros clackorum'              ????????000000000-0-1?????000?0??0-01001000??0000??000000?00??0?00000110-02000??0000?0??2?000???0?0?????????000-00?
+	'Aesopichthys erinaceus'              0?0?0-00000010?00-0200?00000000100-01011000100101??0010000001?010000????????0?01001010012?000100000000010000000-102
+	'Bluefieldius mercerensis'            00000-10000000?00-0-?0?00000?????0-01000000????????0000000001???000?????????0????010001-????????000?0??00?00000-1?0
+	'Cyranorhis bergeraci'                0?0?0-00002000?00-0-?01000002?0100-0100000010010???0000000000?000?00????????0????0?000??0?000???000001010000000-000
+	'Discoserra pectinodon'               000?0-00012--0?00-12?0?00000??0??100201000010010110000010?00?0?00020?????02?1?1-?0100?1-20211100211?00??0001000-002
+	'Fouldenia ischiptera'                0?0?0-10000010?00-0??0100000000000-010000000-010???011000?000?000000???????10?01001000001?000000000100110000000-000
+	'Guildayichthys carnegiei'            000?0-00012--0?00-12?0?00000??0??100201000010??????000010?00??000020????????1?1-0010011-2?211100211100110001000-002
+	'Kalops monophrys'                    0?0?0-00000000?00-0-?010100000010130001000010?0????0010000010?000000?????0??0?1-001000012?000100000100?10000000-100
+	'Proceramala montanensis'             0?0?0-00000010?00-0??0?00000200200-0101000010??????001000?000?000000????????0?0?001010012?210?002101???100?0000-102
+	'Styracopterus fulcratus'             000???10000010?00-???0100000000000-010000000-01????021000?01??000100????????0?01001000002?000?00000000000000000-000
+	'Amphicentrum jurgenai'               0?0?0-10001--1?00-1210?00001000?00-0201000010010???001000??????10000????????1????1------2?210100210?0?000000000-002
+	'Coccocephalus wildi'                 ??0?????000000?00-0110100000000200-010?000010010?1001?00?????00????????????10??????????????????????????????????????
+	'Platysomus schultzei'                00000-10011--1?00-1210?00000000000-020100001001011?000000100??000001????????1????1------1?210?00010100010010000-002
+	'Platysomus swaffordae'               0?0?0-10011--1?00-12?0?0000100000?????1000010??????011000100??00000?????????1?????????????????00????0???????000-0?2
+	'Trawdenia planti'                    00000-00000000000-0110100000000100-01000000????????010000?0?10000000????????0?020????????????????????????????10-100
+	'Brachydegma caelatum'                0???0-00000010000-0-10100???000010-1001100010010111011000000100000010001002001??????????????????????????????0?0-10?
+	'Concentrilepis minnekahtaensis'      00000-0000000??00-0110000000000100-01011000100101??0000000010?010110????????0?010010000?20000?00000101?00000000-010
+	'Ebenaqua ritchiei'                   ????????011--1?00-2210?????00001?0-1201000010??????00001010-2?010000?????0?01?1-0010001-1?210?00210100010000000-002
+	'Roslerichthys riomafrensis'          0?0?0-00000000000-0??01000?0000100-020??000100?????001000?00??000000????????0????0?0?0??2?000???100???010010000-000
+	'Australosomus kochi'                 1-------000000000-0-10100000000100----101--0-010110000000000100000000110-020011-0010001-0000011-000101111--1000-000
+	'Beishanichthys brevicaudalis'        0?0?0-00000000000-0????000000?01012120010000-??????011000?01??000100????????0?1-0010101-2?210100210100000--1000-000
+	'Bobasatrania groenlandica'           0?0-----011--1?00-1210?00001000?00-0001100010010???011010?0-20000000001??0?11?1-01------1121100021110-?10000000-002
+	'Boreosomus piveteaui'                00000-10000000000-0?1010?0?0000000-0101000010010010010000000100100000110-020010?0010?00?20000001000?1-0100-0000-010
+	'Errolichthys mirabilis'              ????????1-------??120?1020001201???120??0????010010011020?000?0?0100???10021-1????????????????--????????????------?
+	'Fukangichthys longidorsalis'         00?00-00000000000-0000100000000101012001000??0101??01000001--10?0000001000210001001000??2?200?00100?10???--1000-000
+	'Hemicalypterus weiri'                000?1000011--1100-2??0?1-00100030110201100011??????0020010002?000111????????1?020010011-21211000111000??00010-0-002
+	'Luganoia fortuna'                    010-1100001--0000-1??0100001010011?1200000010?10???011000?0???010101????????2?1-0010111-01101101?00?1-100011000-0?0
+	'Peia jurongensis'                    0???????0101-001100???100001000000-0101101010??????010001000000000000????0??1?0?00?0111-21000???200?????0??2000-010
+	'Pholidoctenus serianus'              0?1?0-00011--011111??0100000-1000110101000011??????0000110000?000010????????1?02101001022?001?01101?01110012000-100
+	'Robustichthys luopingensis'          000?1001011--011100210100001000001112011001110101110020010000?0001200100-0?111010010010121001101001000110001000-000
+	'Saurichthys madagascarensis'         010-0-00000010?00-0-000000010001010020010001???????0--00010-2?01002?0???????0?020000000?10000100000100??0001100-010
+	'Pteronisculus stensioi'              00000-?0000000000-0110100000000100-000110001001011?000000000000001000110-0?001010010000?10000?01000?01???????00-000
+	'Teffichthys elegans'                 0?0?0-0?000010000-02?010000000000121200000010??????0100000001?000100????????0?1-0010010121001001001110110011000-110
+	'Watsonulus eugnathoides'             000010010101-00110021?10000100000111101000111010111010001000000001000101002111020010??0?2?001??1001?01??0?????0-01?
+	'Chondrosteus acipenseroides'         1--?----1---------?2?11?????000-10-1200-1--0-0101??0201-01001?000000???0-020-11-100010??20000?1-000?1-010000-1----0
+	'Coccolepis bucklandi'                0?0?0-00000000?00-0-11100001000000-0200100010??????000000?0???000100????????0?011000000220000100000101010000000--10
+	'Pachycormus macropterus'             00110-000101-010100210100000000?00-0100100010??????0120010000?000100????????1?0101------2?000?1?01?????11--20010-10
+	'Semionotus elegans'                  00001001012--011101211100000000001112011012110111110020011001?0001010101000120020010010220001000001000?00001000-000
+	'Yanosteus longidorsalis'             1------01-------0-12011021--100??0-020--0?---00000-0201-010-2?000000???10010-11-100010022021011-10011-010000-1----0
+	'Erpetoichthys calabaricus'           00000-000001-0000-0000100020-01200-1?11-0001?01000-0--00011--111111000010021011-01????????????????????????????????1
+	'Polypterus ornatipinnis'             00000-00000000?00-0000100010-01200-1011-0001?01000-00000011--110111000010021001-0010101-2?22101-110111001--0000-001
+	'Hiodon alosoides'                    00110-00011--0100-120111-001000000-010110010-1101100020011001001001000110001111-0010111-11001111201111111--21011-10
+	'Psephurus gladius'                   1-------1-------0-0201102---000-00-000--1--0-000?0-1-01-010-2?00010001110010-11-0000111-2000011-00011-010010?1????0
+	'Acipenser brevirostrum'              1-------1---------0-011021-0220-1100001-1-00-10000-1-0020101200000100-111010-11-1010110020000100000101110010-1----0
+	'Lepisosteus osseus'                  00001101012--0000-2211100001000(1 2)01101010012110101100020001002?0011100111000121020010110201101001100011000011000-000
+	'Amia calva'                          000010010101-011101211100001000100-11011000110101110020010000?00112001110011111-0010111-21211111101111011--11010-10
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-115;
+ENDBLOCK;

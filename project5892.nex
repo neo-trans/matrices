@@ -1,0 +1,622 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.49.56 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=55;
+	TAXLABELS
+		'Turcoceros grangeri'
+		'Addax nasomaculatus'
+		'Aepyceros melampus'
+		'Alcelaphus buselaphus'
+		'Ammotragus lervia'
+		'Antidorcas marsupialis'
+		'Antilope cervicapra'
+		'Arabitragus jayacari'
+		'Boselaphus tragocamelus'
+		'Budorcas taxicolor'
+		'Capra falconeri'
+		'Capricornis crispus'
+		'Cephalophus rufilatus'
+		'Cephalophus silvicultor'
+		'Madoqua kirki'
+		'Madoqua saltiana'
+		'Connochaetes gnou'
+		'Damaliscus pygargus'
+		'Dorcatragus megalotis'
+		'Eudorcas rufifrons'
+		'Gazella bennetti'
+		'Gazella cuvieri'
+		'Gazella dorcas'
+		'Gazella gazella'
+		'Gazella spekei'
+		'Gazella subgutturosa'
+		'Hemitragus jemlahicus'
+		'Hippotragus niger'
+		'Kobus ellipsiprymnus'
+		'Litocranius walleri'
+		'Nanger dama'
+		'Nanger granti'
+		'Nanger soemmerringi'
+		'Nesotragus batesi'
+		'Nesotragus moschatus'
+		'Oreotragus oreotragus'
+		'Oryx gazella'
+		'Ourebia ourebi'
+		'Ovibos moschatus'
+		'Pantholops hodgsoni'
+		'Pelea capreolus'
+		'Philantomba monticola'
+		'Procapra gutturosa'
+		'Raphicerus campestris'
+		'Redunca arundinum'
+		'Redunca fulvorufula'
+		'Rupicapra rupicapra'
+		'Saiga tatarica'
+		'Sylvicapra grimmia'
+		'Tetracerus quadricornis'
+		'Tragelaphus imberbis'
+		'Pliotragus ardeus Europe'
+		'Pliotragus cf ardeus CN'
+		'Euceratherium collinum'
+		'Sinoryx bombifrons'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=88;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'upper P2'
+		[2] 'upper P2 and P3, length compared to P4'
+		[3] 'upper premolar row, length compared to length of total upper (cheek) tooth row (ordered)'
+		[4] 'upper molars, entostyles (ordered)'
+		[5] 'upper molars, styles'
+		[6] 'upper molars, labial ribs on paracone and metacone'
+		[7] 'upper molars, thick labial cementum layer'
+		[8] 'upper molars, central fossetta'
+		[9] 'upper molars lingual cristae: postprotocrista and premetaconulecrista'
+		[10] 'upper M3, size of posterior half compared to anterior half'
+		[11] 'upper M3, metastyle'
+		[12] 'lower incisor insertion line'
+		[13] 'lower p2'
+		[14] 'lower p4 and p3, anterior conid and anterior stylid'
+		[15] 'lower p4, mesolingual conid (metaconid)'
+		[16] 'lower p4, anterior conid (paraconid) and mesolingual conid (metaconid)'
+		[17] 'lower p4, mesolingual conid (metaconid) and posterolingual conid (entoconid)'
+		[18] 'lower p4 labial incision'
+		[19] 'lower molars, ectostylids (ordered)'
+		[20] 'lower molars, ectostylids size'
+		[21] 'lower molars, very pronounced anterior cingulid (goat fold)'
+		[22] 'lower m3, third lobe'
+		[23] 'cheek teeth height, represented by Hypsodonty Index (HI), height of lower m3 divided by width of lower m3 (ordered)'
+		[24] 'diastema, length compared to length of lower cheek teeth row (ordered)'
+		[25] 'upper dP3, shape'
+		[26] 'upper dP2, width compared to dP3'
+		[27] 'lower dp2, morphology'
+		[28] 'elongation of face (skull in front of eyes) in % of skull length (condylo-basal length)'
+		[29] 'premaxillary, processus nasalis  (ordered)'
+		[30] 'premaxillary and nasal'
+		[31] 'premaxillary and lachrymal'
+		[32] 'nasal length in % of palatal length (ordered)'
+		[33] 'nasal, shape'
+		[34] 'nasal, middle part with distinct ventrolateral expansion, extending between maxillary and frontal'
+		[35] 'nasal, rostral processes'
+		[36] 'nasal, border to maxillary (and premaxillary, lachrymal)'
+		[37] 'nasal and lacrimal'
+		[38] 'preorbital fossa (=lachrymal pit) (ordered)'
+		[39] 'lacrimal, facial portion of in % of orbital diameter (ordered)'
+		[40] 'lacrimal foramina, number'
+		[41] 'fenestra in rostrum at junction of lacrimal, nasal, frontal and maxillary (ethmoidal fissure / antorbital vacuity)'
+		[42] 'fenestra between premaxillary and maxillary'
+		[43] 'infraorbital foramen, position (ordered)'
+		[44] 'maxillary and frontal'
+		[45] 'width across orbits compared to braincase width'
+		[46] 'posterior end of tooth row (teeth horizontal)'
+		[47] 'squamosal, small process above external auditory meatus'
+		[48] 'additional suture in squamosal above external auditory meatus, perpendicular to suture between squamosal and parietal'
+		[49] 'postglenoid foramen (foramen retroarticularis) in dorsal view'
+		[50] 'postglenoid process (processus retroarticularis) at mandibular fossa'
+		[51] 'palatine foramina, position'
+		[52] 'palatine foramina, distance'
+		[53] 'palatal ridges of maxillary'
+		[54] 'external nares, posterior margin (ordered)'
+		[55] 'maxillary, width in front of teeth'
+		[56] 'maxillary, width compared to premaxillary (in the middle of the diastema)'
+		[57] 'premaxillary shape in ventral view'
+		[58] 'medial postpalatal notch, anterior extension'
+		[59] 'medial postpalatal notch, shape'
+		[60] 'relative position of the medial and lateral postpalatal notches'
+		[61] 'process of alisphenoid (anterior to foramen ovale)'
+		[62] 'foramen ovale size (shape)'
+		[63] 'processus mastoideus (paroccipital process / processus paracondylaris), shape'
+		[64] 'mastoids and parietals (ordered)'
+		[65] 'ventral inflation of tympanic bulla'
+		[66] 'tympanohyal vagina completely surrounded by inflated bulla'
+		[67] 'lamina vaginalis connected to opening of external auditory meatus, forming a ''curtain'' under it'
+		[68] 'tympanic bulla, shape in lateral view'
+		[69] 'tympanic bulla, shape in ventral view'
+		[70] 'distinct basal process of tympanic bulla directly adjacent to basioccipital'
+		[71] 'external auditory meatus, bones contributing to the opening'
+		[72] 'external auditory meatus, orientation of the opening in ventral view'
+		[73] 'external auditory meatus, position of the opening in lateral view (teeth orientated horizontally)'
+		[74] 'postcornual fossa (in males)'
+		[75] 'rings on horn surface'
+		[76] 'ring prominence'
+		[77] 'horns in females (ordered)'
+		[78] 'horn position in lateral view'
+		[79] 'horn position in frontal view'
+		[80] 'male horns, length (measured with a tape measure along the front line of the horn) in % of skull length (condylo basal length) (ordered)'
+		[81] 'horn cores cross section at the base of the horn (in males)'
+		[82] 'horn core torsion'
+		[83] 'degree of horn core torsion'
+		[84] 'male horn core, length in relation to the total length of the skull'
+		[85] 'male horn core, keel'
+		[86] 'horn cores, orientation in frontal view (from base to tip)'
+		[87] 'pedicle, insertion angle relative to the tooth row'
+		[88] 'horn core, curvature in lateral view'
+	;
+	STATELABELS
+		1
+			'usually absent'
+			'present, reduced (fewer tooth crown elements than P3)'
+			'present and of similar size as P3'
+			,
+		2
+			'much longer (length of P2 and/or P3 is at least 120% of the length of P4)'
+			'same length or shorter'
+			,
+		3
+			'42% or more'
+			'35%-41%'
+			'34% or less'
+			,
+		4
+			'absent'
+			'always present and relatively big'
+			'lambda shaped (at least on one of the molars)'
+			,
+		5
+			'prominent'
+			'very small/almost absent'
+			,
+		6
+			'absent'
+			'present but weak, more prominent on paracone, sometimes only present on M3'
+			'present and large on all molars'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'unfused, at least in young individuals'
+			'fused'
+			,
+		10
+			'same size'
+			'distinctively smaller'
+			,
+		11
+			'absent or weak'
+			'moderate'
+			'strong'
+			,
+		12
+			'half circle / triangle'
+			'only slightly arched'
+			,
+		13
+			'present'
+			'absent (very tiny in few individuals)'
+			,
+		14
+			'clearly separate at least on one tooth'
+			'no separate anterior stylid'
+			,
+		15
+			'straight'
+			'oblique, leaning posteriorly'
+			,
+		16
+			'separate'
+			'fused via anterolingual cristid'
+			,
+		17
+			'separate'
+			'fused via posterolingual cristid'
+			,
+		18
+			'always absent or weak'
+			'variable, but deep in some specimens'
+			,
+		19
+			'always present on all molars or at least on m1 and m2'
+			'usually only present on m1, never big, absent in some specimens'
+			'always absent'
+			,
+		20
+			'absent or low, not connected to postmetacristid and preentocristid until late in life'
+			'high, forming part of occlusal plane at least on one molar'
+			,
+		21
+			'absent or very weak (tooth slightly elongate, could have a prominent anterior stylid)'
+			'present (at least on m3)'
+			,
+		22
+			'absent'
+			'present but very small, consisting of hypoconulid only'
+			'present, consisting of hypoconulid only'
+			'present, consisting of hypoconulid and entoconulid (central fossa visible until middle or later wear)'
+			,
+		23
+			'low crowned, brachyodont, HI <1.5'
+			'higher crowned, mesodont, 1.5<HI<3'
+			'high crowned, hypsodont, 3<HI'
+			,
+		24
+			'< 50%'
+			'50% - 75%'
+			'> 75%'
+			,
+		25
+			'molariform with anterior part smaller than posterior part (no protocone, but protocrista forming the lingual wall of anterior half)'
+			'molariform, anterior half and posterior half have the same size (protocone present)'
+			,
+		26
+			'appr. same width'
+			'much narrower'
+			,
+		27
+			'simple, conical'
+			'trenchant tooth with small talonid'
+			'with central conid and anterior and posterior accessory cuspids and small talonid with central cusp (protoconulid), total number of cuspids is three to four'
+			,
+		28
+			'long, 46% - 56%'
+			'elongate, 57% - 67%'
+			'very elongate, > 67%'
+			,
+		29
+			'very short (ends shortly behind foramen incisivum)'
+			'short, ends in distal half of diastema, not reaching premolars'
+			'intermediate length, extending to premolars, sometimes overlapping with P2 or even P3'
+			'long, extending to over P3 or even P4'
+			'very long, extending to molars'
+			,
+		30
+			'not in contact'
+			'in contact or almost in contact'
+			,
+		31
+			'far apart, never in contact'
+			'very close, sometimes in contact'
+			'always in contact'
+			,
+		32
+			'very short, less than 33%'
+			'short, 33% - 42%'
+			'intermediate, 43% - 60%'
+			'long, 61% - 69%'
+			'very long, more than 70%'
+			,
+		33
+			'short, the length is only 100% of the width or less'
+			'intermediate, the length is about 150-250% of the width'
+			'long, length is clearly more than 250% of the width'
+			'very long and narrow, length is more than 500% of the width'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'median process short, lateral processes clearly present'
+			'median process long, lateral processes absent or tiny'
+			,
+		36
+			'no suture (gap)'
+			'suture'
+			,
+		37
+			'no contact'
+			'contact'
+			,
+		38
+			'absent'
+			'present (at least in males)'
+			'present and very deep, sharp edge in dorsal part of lachrymal'
+			,
+		39
+			'moderate, 65% - 90%'
+			'large, 91% - 130%'
+			'very large, more than 131%'
+			,
+		40
+			'two'
+			'one'
+			,
+		41
+			'absent'
+			'present, fissure between nasal and lacrimal (at least in males)'
+			'enlarged (at least in males)'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'in front of toothrow or above P2 (up to P2/P3 boundary, but never clearly above P3)'
+			'above P2/P3 or P3 (can be variable, but clearly above P3 in some specimens)'
+			'above P4 or further posterior'
+			,
+		44
+			'wide apart, never in contact'
+			'very close, sometimes in contact'
+			,
+		45
+			'narrow, less than 120%'
+			'intermediate, 120-135%'
+			'wide, more than 135-160%'
+			'very wide, more than 160%'
+			,
+		46
+			'below orbit'
+			'at anterior margin of orbit or further anterior (largest part of MÂ³ situated in front of orbit)'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'visible'
+			'not visible'
+			,
+		50
+			'absent'
+			'present, at posteromedial side of mandibular fossa'
+			'present and very high and wide'
+			,
+		51
+			'at level of M1/M2 to M2'
+			'at level of M2/M3 or further posterior'
+			,
+		52
+			'foramina enclosing 39% of the palate or less'
+			'enclosing 40% to 49% of the palate'
+			'enclosing 50% to 59% of the palate'
+			'enclosing more than 60% of the palate'
+			,
+		53
+			'very close together, sometimes touching each other'
+			'further apart, on palatal part of maxillary'
+			,
+		54
+			'anterior half of diastema'
+			'posterior half of diastema, in front of P2'
+			'posterior to P2'
+			,
+		55
+			'slender, equal to width of palate al level of anteriormost premolar'
+			'broad, wider than palate at anteriormost premolar'
+			,
+		56
+			'maxillary as wide as premaxillary'
+			'maxillary less wide than premaxillary, premaxillary is visible lateral to the maxillary in ventral view'
+			,
+		57
+			'premaxillary sides almost parallel, snout tip slightly tapering'
+			'snout tip tapering considerably'
+			'premaxillary sides parallel, snout tip with square-shaped appearance'
+			'snout tip spoon-shaped'
+			,
+		58
+			'ends at anterior half of MÂ³ or further posterior'
+			'extends to posterior end of M2 or further anterior'
+			,
+		59
+			'rounded, parabolic to U-shaped'
+			'pointy, V shaped'
+			'parabolic with distinct backward projection at the tip'
+			,
+		60
+			'medial notch is always clearly posterior to the lateral notches'
+			'medial notch more or less at the same level as lateral ones'
+			'medial notch is always clearly anterior to lateral notches'
+			,
+		61
+			'barely developed or absent'
+			'very prominent'
+			,
+		62
+			'very small (more rounded)'
+			'relatively big (oval)'
+			,
+		63
+			'relatively broad, sometimes triangular'
+			'very narrow'
+			,
+		64
+			'far apart, never in contact'
+			'relatively close, sometimes in contact'
+			'very close, usually in contact'
+			,
+		65
+			'absent, ventral edge of bulla dorsal to ventral edge of occipital condyles'
+			'intermediate, edge of bulla same at same level as occipital condyles'
+			'strong, ventral edge of bulla ventral to occipital condyles'
+			,
+		66
+			'no'
+			'yes'
+			,
+		67
+			'curtain absent'
+			'curtain present'
+			,
+		68
+			'convex, half circle shaped or slightly flattened'
+			'triangular, curving down posteriorly, with process adjacent to the mastoid process'
+			,
+		69
+			'spherical, length/width < 1.66'
+			'slightly elongate, length/width 1.67 - 1.85'
+			'elongate, length/width 1.85 - 1.95'
+			'very elongate, length/width > 1.96'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'bony rim formed by ectotympanic and squamosal  (only half-circle formed by ectotympanic)'
+			'bony rim (almost) entirely formed by ectotympanic'
+			,
+		72
+			'directed laterad'
+			'directed posteriad'
+			,
+		73
+			'below or at level of mandibular fossa'
+			'at least in part or completely above mandibular fossa'
+			,
+		74
+			'absent or poorly developed'
+			'clearly present'
+			,
+		75
+			'surface smooth/no rings'
+			'prominent rings'
+			,
+		76
+			'rings all around horn (rel. equal back and front)'
+			'no rings at back (or much flatter)'
+			,
+		77
+			'absent'
+			'present, smaller than horns in males'
+			'present, appr. equal size to horns in males'
+			,
+		78
+			'centre of horn above posterior margin of orbit, some of the horn above orbit'
+			'centre of horn completely behind orbits'
+			,
+		79
+			'horns very close together'
+			'horn base situated at same distance to midline of skull and lateral edges of orbits'
+			'horns far apart'
+			,
+		80
+			'very short, 75% or less'
+			'short, 76% - 120%'
+			'intermediate 121% - 175%'
+			'long, 176% - 240%'
+			'very long, more than 250%'
+			,
+		81
+			'mediolaterally compressed (lateral diameter/antero-posterior diameter < 0.85)'
+			'round (lateral diameter/antero-posterior diameter = 0.86 or more)'
+			,
+		82
+			'no torsion'
+			'right horn clockwise torsion (dorsal view, moving from base to tip)'
+			'right horn anti-clockwise torsion (dorsal view, moving from base to tip)'
+			,
+		83
+			'less than one full turn'
+			'one full turn ore more'
+			,
+		84
+			'short, horncore length much shorter than skull length'
+			'medium, horncore length between 85 and 150% of skull length'
+			'large, horncore length > 150% of skull length'
+			,
+		85
+			'absent'
+			'present'
+			,
+		86
+			'parallel'
+			'divergent'
+			'only slightly divergent at the base, but greatly divergent towards the tips'
+			'lyriform, parallel or slightly divergent at the base, but convergent towards the tips'
+			'very divergent at the base, parallel or convergent towards the tips'
+			,
+		87
+			'< 40°'
+			'40° - 60°'
+			'> 60°'
+			,
+		88
+			'straight or very little curved'
+			'curved forwards'
+			'sinusoid, curved backwards at the base and forwards towards the tip'
+			'curved backwards'
+			,
+	;
+	MATRIX
+	'Turcoceros grangeri'           2110010000200010010112110?211102?0?0?11??00?300??10?1101?01?1?0?0001001000???01?12001120
+	'Addax nasomaculatus'           212202011010000000011221112121043010001120112100011(2 3)1110001111021010201000112114111?0100
+	'Aepyceros melampus'            2110000010200001112003210121411210001011111011000101121110(0 1)21101100020100111001311020312
+	'Alcelaphus buselaphus'         11100211100000010?2002221122110430101121000121000212101020021102101010100011210211010302
+	'Ammotragus lervia'             212000010020010111200221???121031010(0 1)011101031000111120130021102000130100001111310-10113
+	'Antidorcas marsupialis'        0120010010101010112003210101310410101121101021000111121110011101100010101110101202000212
+	'Antilope cervicapra'           1120010010101010112012210120210210001111101020000111100100111101100010101010001411120110
+	'Arabitragus jayacari'          212000010020010111200221???12103101000112010310001111101?0111102000130100010111300-11113
+	'Boselaphus tragocamelus'       211102011010000000011222???121022010001110013000010010100000010010111010000-012011001111
+	'Budorcas taxicolor'            211001011010011111200221???110021111001100113100011012100000110200003000000-211211001112
+	'Capra falconeri'               2110000?0020010111200221???131031010(0 1)01120103100010111010001010200013010000-100401121110
+	'Capricornis crispus'           211001011010011111200212???110021010111100103000010101010001010000003010000-211010-00003
+	'Cephalophus rufilatus'         2101020111000100012002?10020110311111211000000100102000001120100100010110110211010-01100
+	'Cephalophus silvicultor'       210102011100010011001211???1100411111111001010000102000001121100100010110110211010-01100
+	'Madoqua kirki'                 20001000110000101020011100?0312100001200201010010001020030120110110011111010002010-01000
+	'Madoqua saltiana'              2000100011000010102000?10000312100001201201010010001020131220110110011111010002010-01000
+	'Connochaetes gnou'             111002111000100101200222???221043010112100113100021310102002110210100010000-211100-??402
+	'Damaliscus pygargus'           1110021110000101012002211111210430101121001131100213101020021102101110000010201100-00113
+	'Dorcatragus megalotis'         2100100011000010101003210020411100100011201020010101020130111100100020111010002010-00010
+	'Eudorcas rufifrons'            2110010010100010102003210120311210000111201020000111120100(0 1)11101100010101110101100-1011?
+	'Gazella bennetti'              2110010010100010102003210120210210000111201020000110120100111101100000101110101200-10113
+	'Gazella cuvieri'               (1 2)1100101102?0010102003?1???031021000011120102000011?120100111101100010101110101200-10113
+	'Gazella dorcas'                2110010010100010102003210120210210000111201020000110120100111101100010101110101200-10113
+	'Gazella gazella'               211001001010001010200321???0200210001111201020000111120?00111101100010101110101200-10113
+	'Gazella spekei'                211001011010001010200321???0210210000111201020000110120100111101100010101010101200-10113
+	'Gazella subgutturosa'          2110010110100010102003210120210210000111201020000110120100111101100000101110001200-10313
+	'Hemitragus jemlahicus'         211000010020010111200221???1210310000011101031000111110100111102000130100010111300-11113
+	'Hippotragus niger'             2112020110000000010112211021110430100021201131000101101020111102101100000010201300-?0013
+	'Kobus ellipsiprymnus'          111102101020000(0 1)0101122111211(0 1)0420100021200021100101011020110100100000100010001210-20302
+	'Litocranius walleri'           2100000010000000000003020110100220000111201010001001101010111100100030101010001201010312
+	'Nanger dama'                   2110010010200010112003210021311110000121201020000110120100121101100010101010101100-10213
+	'Nanger granti'                 2110010010200010101003210020311210000121201020000110120100121101100020101010101300-20223
+	'Nanger soemmerringi'           21100100102000101020032100213112100001212010200001(0 1)0120100121101100000101010101200-10213
+	'Nesotragus batesi'             2100100010000100102003?1011011121000120111001000010110001010011010000001000-002010-00000
+	'Nesotragus moschatus'          2000000010000010002003210010211210001201210010000100100010100110100010110010002010-00000
+	'Oreotragus oreotragus'         2100100011000010002001200020210210101201(1 2)01020000101100001120000100030110010(0 1)02010-00020
+	'Oryx gazella'                  211202?11000000(0 1)00011221112110032010002120113100011(0 1)111020111101101030000010211410-??100
+	'Ourebia ourebi'                21100100100000101120022101?111032010(0 1)211201020010110000000110100100030111110002010-00110
+	'Ovibos moschatus'              211001011021110111200221???120031011101100203100011112110000000100013000000-210200-00102
+	'Pantholops hodgsoni'           012000001011110101200221???1200310111011001131000112121130121101000130100011000300-00110
+	'Pelea capreolus'               2110000010100001102003220111100320100011200020000112111000020100000010110110002110-00020
+	'Philantomba monticola'         210(0 1)020111000100101002110020110311111201001000(0 1)00102000001(0 1)20110100020110010211010-00000
+	'Procapra gutturosa'            2110010010200001112003210121210310100021201021000111121100121100100010101110000100-10213
+	'Raphicerus campestris'         2100100011000010102003210120210210100201200020010101000000110110100011111(0 1)0-002010-00010
+	'Redunca arundinum'             111202111000000001011222112110032010001120002000010(0 1)001000110100100000100110001110-??101
+	'Redunca fulvorufula'           11110211100000000101122211211(0 1)04201000112000200001010010(0 2)0110100100000100110001110-??111
+	'Rupicapra rupicapra'           2110010110100101102002?1111120022010(0 1)011(0 1)01130000111120000(0 1)2010000012010000-200110-00020
+	'Saiga tatarica'                1120010010201010112003210121000000100021002031000113120030000101100000100010001210-10310
+	'Sylvicapra grimmia'            210002011100000(0 1)(0 1)11003210021110411111111001010100102000001120000100020110110010010-00000
+	'Tetracerus quadricornis'       200(0 1)02001000000001010211???011022000111100012000010110000000010010101011000-012010-00000
+	'Tragelaphus imberbis'          210002011010000001100311112011042000102020002000010010100001110010002000000-001311121110
+	'Pliotragus ardeus Europe'      21100101102?000111100210?????????????1??????31???????????????10?00?1300000???10?(0 1)0-?0113
+	'Pliotragus cf ardeus CN'       21100101102?000111100(2 3)1??????12??0?011??001130????11?????0?1?????????????0???10?00-?0113
+	'Euceratherium collinum'        211001010021000101200221???120??101111??002?3100?101?211?0020000??0???0000???10?00-?0102
+	'Sinoryx bombifrons'            21100101102??????????????????????????1????1?30????11?????0?1?????????????0???10?10-?0113
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-88;
+ENDBLOCK;

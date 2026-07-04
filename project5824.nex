@@ -1,0 +1,1110 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.47.09 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=112;
+	TAXLABELS
+		'Herrerasaurus'
+		'Daemonosaurus'
+		'Eoraptor'
+		'Eodromaeus'
+		'Coelophysis'
+		'Liliensternus'
+		'Dracovenator'
+		'Dilophosaurus'
+		'Ceratosaurus'
+		'Genyodectes'
+		'Berberosaurus'
+		'''Limusaurus juvenile'''
+		'''Limusaurus adult'''
+		'Noasaurus'
+		'Masiakasaurus'
+		'Kryptops'
+		'Rugops'
+		'Abelisaurus'
+		'Arcovenator'
+		'Chenanisaurus'
+		'Indosuchus'
+		'Majungasaurus'
+		'Aucasaurus'
+		'Skorpiovenator'
+		'Chilesaurus'
+		'Piatnitzkysaurus'
+		'Marshosaurus'
+		'Monolophosaurus'
+		'Sciuruminus'
+		'Eustreptospondylus'
+		'Afrovenator'
+		'Dubreuillosaurus'
+		'Duriavenator'
+		'Megalosaurus'
+		'Torvosaurus'
+		'Baryonyx'
+		'Suchomimus'
+		'''Irritator angaturama'''
+		'Spinosaurus'
+		'Erectopus'
+		'Yangchuanosaurus'
+		'Sinraptor dongi'
+		'Sinraptor hepingensis'
+		'Allosaurus'
+		'Neovenator'
+		'Fukuiraptor'
+		'Australovenator'
+		'Megaraptor'
+		'Orkoraptor'
+		'Acrocanthosaurus'
+		'Eocarcharia'
+		'Carcharodontosaurus'
+		'Giganotosaurus'
+		'Mapusaurus'
+		'Bicentenaria'
+		'Zuolong'
+		'Proceratosaurus'
+		'Guanlong'
+		'Dilong'
+		'Eotyrannus'
+		'Raptorex'
+		'Gorgosaurus'
+		'Alioramus'
+		'Daspletosaurus'
+		'Tyrannosaurus'
+		'Compsognathus'
+		'Juravenator'
+		'Scipionyx'
+		'Ornitholestes'
+		'Nqwebasaurus'
+		'Pelecanimimus'
+		'Shenzhousaurus'
+		'Garudimimus'
+		'Struthiomimus'
+		'Aorun'
+		'Haplocheirus'
+		'Shuvuuia'
+		'Mononykus'
+		'Eshanosaurus'
+		'Falcarius'
+		'Jianchangosaurus'
+		'Segnosaurus'
+		'Erlikosaurus'
+		'Incisivosaurus'
+		'Caudipteryx'
+		'Chirostenotes'
+		'Citipati'
+		'Halszkaraptor'
+		'Buitreraptor'
+		'Microraptor'
+		'Sinornithosaurus'
+		'Graciliraptor'
+		'Dromaeosaurus'
+		'Atrociraptor'
+		'Bambiraptor'
+		'Saurornitholestes'
+		'Tsaagan'
+		'Velociraptor'
+		'Deinonychus'
+		'''MPC d100 1128'''
+		'Almas'
+		'Sinusonasus'
+		'Byronosaurus'
+		'Zanabazar'
+		'Troodon'
+		'Epidexipteryx'
+		'Archaeopteryx'
+		'MorphoI'
+		'MorphoII'
+		'MorphoIII'
+		'MorphoIV'
+		'MorphoV'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=146;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Premaxillary teeth'
+		[2] 'Highest number of premaxillary teeth (or alveoli):'
+		[3] 'Premaxillary alveoli, direction of main axis of elongation in palatal view'
+		[4] 'Premaxillary alveoli, overlap of the first and second alveoli in palatal view'
+		[5] 'Premaxillary alveoli, overlap of the second and third alveoli in palatal view'
+		[6] 'Premaxillary alveoli, overlap of the third and fourth alveoli in palatal view'
+		[7] 'Premaxillary teeth (or alveoli), size'
+		[8] 'Mesial premaxillary teeth (or alveoli), size'
+		[9] 'Distal premaxillary teeth (or alveoli), size'
+		[10] 'First premaxillary tooth (or alveolus), size'
+		[11] 'Second premaxillary tooth (or alveolus), size'
+		[12] 'Distalmost premaxillary tooth (or alveolus), mesiodistal length in palatal view'
+		[13] 'Distal premaxillary alveoli, shape in palatal view'
+		[14] 'Premaxillary tooth row, distal extension (position of distalmost premaxillary tooth)'
+		[15] 'Premaxilla in palatal view'
+		[16] 'Subnarial gap/diastema (i.e., posterior part of premaxillary alveolar margin edentelous, resulting in an interruption of the upper tooth row)'
+		[17] 'First premaxillary alveoli open'
+		[18] 'Maxillary teeth'
+		[19] 'Highest number of maxillary teeth (or alveoli):'
+		[20] 'Mesial maxillary teeth (or alveoli), size'
+		[21] 'Mid-maxillary teeth (or alveoli), mesiodistal length'
+		[22] 'First maxillary tooth (or alveolus), size:'
+		[23] 'First maxillary teeth (or alveoli) open:'
+		[24] 'Mid-maxillary teeth, inclination:'
+		[25] 'Maxillary alveoli, shape of most of them in palatal view:'
+		[26] 'Maxillary tooth row, posterior extension (position of posteriormost tooth)'
+		[27] 'Dentary teeth'
+		[28] 'Highest number of dentary teeth (or alveoli):'
+		[29] 'Dentary alveoli in dorsal view:'
+		[30] 'Mesialmost dentary teeth (or alveoli), size'
+		[31] 'First dentary tooth (or alveolus), size in comparison to second and third dentary alveoli:'
+		[32] 'Mid-dentary teeth (or alveoli), size'
+		[33] 'Terminal rosette of dentary, highest number of teeth (or alveoli):'
+		[34] 'First dentary alveoli open'
+		[35] 'Mid-dentary teeth, inclination'
+		[36] 'Dentary teeth, spacing'
+		[37] 'Palatal teeth on the pterygoid'
+		[38] 'Mesial teeth, constriction between root and crown in most crowns:'
+		[39] 'Mesial teeth, constriction between root and crown along the tooth row:'
+		[40] 'Mesial teeth, height of the largest crown (CH in centimetres) in subadult/adults:'
+		[41] 'Mesial teeth, labiolingual compression of the widest crown (CBR = CBW/CBL):'
+		[42] 'Mesial teeth, baso-apical elongation of the most elongated crown (CHR = CH/CBL):'
+		[43] 'Mesial teeth, crown recurvature (lingually or distally)'
+		[44] 'Mesial teeth, distal margin of the crown in lateral view'
+		[45] 'Mesial teeth, outline of basal cross-section of the crown in the mesialmost tooth'
+		[46] 'Mesial teeth, concave surface adjacent to the carina'
+		[47] 'Mesial teeth, mesial carina'
+		[48] 'Mesial teeth, mesial carina - 2'
+		[49] 'Mesial teeth, distal carina'
+		[50] 'Mesial teeth, mesial carina - 3'
+		[51] 'Mesial teeth, mesial carina, and if denticulated, mesial serration'
+		[52] 'Mesial teeth, distal carina - 2'
+		[53] 'Mesial teeth, position of mesial carina on the crown in articulation in mesialmost teeth'
+		[54] 'Mesial teeth, position of distal carina on the crown in articulation in mesialmost teeth'
+		[55] 'Mesial teeth, average number of denticles per five millimetres on mesial carina at two-thirds height of the crown (MCA) in subadults/adults'
+		[56] 'Mesial teeth, average number of mid-crown denticles per five millimetres on distal carina (DC) in subadults/adults'
+		[57] 'Mesial teeth, denticle size (except in embryos and hatchlings)'
+		[58] 'Mesial teeth, denticles on mesial carina'
+		[59] 'Mesial teeth, denticles on distal carina'
+		[60] 'Mesial teeth, size of mesial denticles relative to distal denticles (DSDI)'
+		[61] 'Mesial teeth, denticles contiguous over tip or very close to the apex'
+		[62] 'Mesial teeth, interdenticular sulci'
+		[63] 'Mesial teeth, flutes (i.e., subparallel longitudinal grooves separated by acute ridges) on the crown'
+		[64] 'Mesial teeth, longitudinal groove on the labial and/or lingual side of the crown'
+		[65] 'Mesial teeth, longitudinal ridge, different of flutes, on the lingual side of the crown'
+		[66] 'Mesial teeth, basal striations, different of flutes, on both lingual and labial sides of the crown'
+		[67] 'Lateral teeth, constriction between root and crown'
+		[68] 'Lateral teeth, constriction between root and crown along the tooth row'
+		[69] 'Lateral teeth, height of the largest crown (CH in centimetres) in subadults/adults'
+		[70] 'Lateral teeth, labiolingual compression of the crown (CBR = CBW/CBL)'
+		[71] 'Lateral teeth, baso-apical elongation of the crown (CHR = CH/CBL)'
+		[72] 'Lateral teeth, distal margin of crown in lateral view'
+		[73] 'Lateral teeth, mesial margin of crown in lateral view'
+		[74] 'Lateral teeth, mesiodistal curvature of the labial surface of the crown at one third of the crown'
+		[75] 'Lateral teeth, concave surface adjacent to carinae all along the crown'
+		[76] 'Lateral teeth, outline of basal cross-section of the crown'
+		[77] 'Lateral teeth, mesial carina'
+		[78] 'Lateral teeth, mesial carina - 2'
+		[79] 'Lateral teeth, distal carina'
+		[80] 'Lateral teeth, distal carina - 2'
+		[81] 'Lateral teeth, extension of mesial carina relative to distal carina'
+		[82] 'Lateral teeth, mesial carina, and if denticulated, basalmost serration of the mesial carina'
+		[83] 'Lateral teeth, twisted mesial carina in some crowns'
+		[84] 'Lateral teeth, split carina in some teeth:'
+		[85] 'Lateral teeth, distal carina, and if denticulated, basalmost serration of the distal carina'
+		[86] 'Lateral teeth, profile of the distal carina on the crown in distal view'
+		[87] 'Lateral teeth, position of distal carina on the crown in distal view'
+		[88] 'Lateral teeth, average number of denticles per five millimeters on mesial carina at two-thirds height of the crown (MCA) in subadults/adults:'
+		[89] 'Lateral teeth, average number of mid-crown denticles per five millimetres on distal carina (DC) in subadults/adults'
+		[90] 'Lateral teeth, denticle number on both mesial and distal carinae (except in embryos and hatchlings)'
+		[91] 'Lateral teeth, shape of denticles on mesial carina in lateral view'
+		[92] 'Lateral teeth, shape of denticles on distal carina in lateral view'
+		[93] 'Lateral teeth, shape of mesial margin of rounded denticles on mesial carina in lateral view'
+		[94] 'Lateral teeth, shape of distal margin of rounded denticles on distal carina in lateral view'
+		[95] 'Lateral teeth, shape of denticles at two-thirds height of the crown (MC-MA) on mesial carina in lateral view'
+		[96] 'Lateral teeth, shape of mid-crown denticles (DC) on distal carina in lateral view'
+		[97] 'Lateral teeth, denticle size along the carinae'
+		[98] 'Lateral teeth, biconvex apical denticles (i.e., biconvex external margin of denticle) on mesial carina in lateral view'
+		[99] 'Lateral teeth, orientation of mesiodistal axis of apical denticles on mesial carina in lateral view'
+		[100] 'Lateral teeth, orientation of mesiodistal axis of mid-crown denticles on distal carina in lateral view'
+		[101] 'Lateral teeth, average number of denticles on mesial carina'
+		[102] 'Lateral teeth, average number of denticles on mesial carina - 2'
+		[103] 'Lateral teeth, average number of denticles on distal carina (except in embryos and hatchlings)'
+		[104] 'Lateral teeth, average number of denticles on distal carina'
+		[105] 'Lateral teeth, size of mesial denticles relative to distal denticles (DSDI)'
+		[106] 'Lateral teeth, distal denticles on the apex'
+		[107] 'Lateral teeth, interdenticular space between mid-crown denticles on the distal carina'
+		[108] 'Lateral teeth, interdenticular sulci between apical denticles on the mesial carina'
+		[109] 'Lateral teeth, interdenticular sulci between mid-crown denticles on the distal carina'
+		[110] 'Lateral teeth, interdenticular sulci between basalmost denticles on the distal carina'
+		[111] 'Lateral teeth, flutes (i.e., subparallel longitudinal grooves separated by acute ridges) on the crown'
+		[112] 'Lateral teeth, average number of flutes on the crown'
+		[113] 'Lateral teeth, large transverse undulations on the crown in some teeth'
+		[114] 'Lateral teeth, large transverse undulations on the crown in some teeth when present'
+		[115] 'Lateral teeth, marginal undulations (i.e., short undulations adjacent to carinae) in some teeth'
+		[116] 'Lateral teeth, marginal undulations in some teeth'
+		[117] 'Lateral teeth, marginal undulations in some teeth - 2'
+		[118] 'Lateral teeth, marginal undulations in some teeth - 3'
+		[119] 'Lateral teeth, longitudinal groove on the labial and/or lingual surface of the crown'
+		[120] 'Lateral teeth, elongated longitudinal and rounded ridge (differing from flutes) on the lingual surface of the crown'
+		[121] 'Enamel surface texture'
+		[122] 'Coarse enamel surface texture'
+		[123] 'Enamel microstructure, enamel tubules'
+		[124] 'Enamel microstructure, predominant enamel type'
+		[125] 'Enamel microstructure, predominant enamel type, percentage of enamel thickness'
+		[126] 'Enamel microstructure, number of enamel types present in schmelzmuster'
+		[127] 'Enamel microstructure, number of different module types present in schmelzmuster'
+		[128] 'Enamel microstructure, boundary between first and second enamel types from the enamel-dentine junction (EDJ)'
+		[129] 'Enamel microstructure, boundary between second and third enamel types from the EDJ'
+		[130] 'Enamel microstructure, basal unit layer (BUL)'
+		[131] 'Enamel microstructure, basal unit layer (BUL) - 2'
+		[132] 'Enamel microstructure, basal unit layer (BUL), maximum unit diameter'
+		[133] 'Enamel microstructure, basal unit layer (BUL) - 3'
+		[134] 'Enamel microstructure, incremental lines'
+		[135] 'Enamel microstructure, incremental lines - 2'
+		[136] 'Enamel microstructure, columnar units closest to the EDJ, shape of units in cross-sections'
+		[137] 'Enamel microstructure, columnar units closest to the enamel-dentine junction (EDJ)'
+		[138] 'Enamel microstructure, columnar units closest to the enamel-dentine junction (EDJ), maximum unit diameter'
+		[139] 'Enamel microstructure, columnar units closest to the outer enamel surface (OES)'
+		[140] 'Enamel microstructure, ratio of thickest enamel type in schmelzmuster divided by second thickest enamel type'
+		[141] 'Root, shape in lateral view'
+		[142] 'Root, distal shape in lateral view'
+		[143] 'Root, outline of mid-root in cross section'
+		[144] 'Root, form of the resorption pit in lingual view'
+		[145] 'Root, transversal undulations below the cervix in some crowns:'
+		[146] 'Root, apicobasal height in lateral view'
+	;
+	STATELABELS
+		1
+			'present in the anterior and posterior portions of the premaxilla'
+			'absent in the posterior portion of the premaxilla'
+			'absent in the anterior portion of the premaxilla'
+			'absent in the whole premaxilla, toothless premaxilla'
+			,
+		2
+			'3 or less'
+			'4'
+			'5'
+			'6'
+			'7 or more'
+			,
+		3
+			'all alveoli mesio-distally oriented'
+			'mesial alveoli labio-lingually oriented, distal alveoli mesio-distally oriented'
+			'all alveoli labio-lingually oriented'
+			,
+		4
+			'absent'
+			'present, partial'
+			'present, almost complete'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'all approximately equal in size'
+			'distal teeth (or alveoli) smaller than mesial teeth (or alveoli)'
+			'mesial teeth (or alveoli) smaller than distal teeth (or alveoli)'
+			,
+		8
+			'significantly smaller than the first six mesial maxillary teeth (or alveoli)'
+			'subequal in size than the first six mesial maxillary teeth (or alveoli)'
+			'significantly larger than the first six mesial maxillary teeth (or alveoli)'
+			,
+		9
+			'significantly smaller than the first six mesial maxillary teeth (or alveoli)'
+			'subequal in size than the first six mesial maxillary teeth (or alveoli)'
+			'significantly larger than the first six mesial maxillary teeth (or alveoli)'
+			,
+		10
+			'subequal in size than second tooth (or alveolus)'
+			'significantly smaller than second tooth (or alveolus)'
+			'significantly bigger than second tooth (or alveolus)'
+			,
+		11
+			'subequal in size than third (and fourth) premaxillary tooth (or alveolus)'
+			'significantly smaller than third (and fourth) tooth (or alveolus)'
+			'significantly larger than third (and fourth) tooth (or alveolus)'
+			,
+		12
+			'subequal in size than more mesial teeth (or alveoli)'
+			'significantly smaller than more mesial teeth (or alveoli)'
+			'significantly larger than mesial teeth (or alveoli)'
+			,
+		13
+			'oval to subcircular'
+			'subrectangular'
+			'polygonal'
+			,
+		14
+			'aligned (ventral) to external naris'
+			'mesial to external naris'
+			,
+		15
+			'unconstricted'
+			'slightly constricted'
+			'strongly constricted, terminal rosette of premaxilla'
+			,
+		16
+			'absent'
+			'present and short, diastema not extensive enough to host more than one tooth'
+			'present and long, diastema extensive enough to host more than one tooth'
+			,
+		17
+			'ventrally, decumbent teeth'
+			'anteroventrally, procumbent teeth'
+			,
+		18
+			'present in the anterior and posterior portions of the maxilla (posteriormost portion excluded)'
+			'absent in the anteriormost portion of the maxilla'
+			'absent in the posterior portion of the maxilla (i.e., tooth row extending only on the anterior 75% of the bone or less)'
+			'absent in the whole maxilla, toothless maxilla'
+			,
+		19
+			'>19'
+			'18-19'
+			'16-17'
+			'15'
+			'10-14'
+			'1-9'
+			,
+		20
+			'subequal in size than distal teeth (or alveoli)'
+			'significantly larger than distal maxillary teeth (or alveoli)'
+			'significantly smaller than distal maxillary teeth (or alveoli)'
+			,
+		21
+			'subequal in size than mesialmost maxillary teeth (or alveoli)'
+			'significantly larger than mesialmost maxillary teeth (or alveoli)'
+			'significantly smaller than mesialmost maxillary teeth (or alveoli)'
+			,
+		22
+			'significantly smaller than second tooth (or alveolus)'
+			'subequal in size than second tooth (or alveolus)'
+			,
+		23
+			'ventrally, decumbent teeth'
+			'anteroventrally, procumbent teeth'
+			,
+		24
+			'pointing ventrally (decumbent)'
+			'pointing lateroventrally (laterocumbent)'
+			'pointing anteroventrally (procumbent)'
+			'pointing posteroventrally (retrocumbent)'
+			,
+		25
+			'oval to lenticular'
+			'subrectangular'
+			'circular'
+			'merged to form an open alveolar groove (interdental septa absent)'
+			,
+		26
+			'posterior to the anteriormost rim of orbit'
+			'anterior or aligned to the anteriormost rim of orbit, posterior to the posteriormost rim of antorbital fenestra'
+			'anterior or aligned to the posteriormost rim of antorbital fenestra, posterior to the anteriormost rim of antorbital fenestra'
+			'aligned to the anteriormost rim of antorbital fenestra'
+			'anterior to the anteriormost rim of the antorbital fenestra'
+			,
+		27
+			'present in the anterior and posterior portions of the dentary'
+			'absent in the anteriormost portion of the dentary'
+			'absent in the posterior portion of the dentary (i.e., tooth row extending only on the anterior 75% of the bone or less)'
+			'absent in the whole dentary, toothless dentary'
+			,
+		28
+			'> 25'
+			'18-25'
+			'15-17'
+			'< 15'
+			,
+		29
+			'in separate alveoli'
+			'merged to form an open alveolar groove (interdental septa absent)'
+			,
+		30
+			'subequal in size than mid- and distal dentary teeth (or alveoli)'
+			'significantly larger than mid- and distal dentary teeth (or alveoli)'
+			'significantly smaller than mid- and distal dentary teeth (or alveoli)'
+			,
+		31
+			'subequal in size'
+			'first tooth (or alveolus) substantially smaller'
+			'first tooth (or alveolus) substantially larger'
+			,
+		32
+			'subequal in size than mesial maxillary teeth (or alveoli)'
+			'significantly smaller than mesial maxillary teeth (or alveoli)'
+			'significantly larger than mesial maxillary teeth (or alveoli)'
+			,
+		33
+			'terminal rosette absent'
+			'four teeth (or alveoli)'
+			'five teeth (or alveoli)'
+			,
+		34
+			'dorsally'
+			'anterodorsally, procumbent teeth'
+			,
+		35
+			'pointing dorsally'
+			'pointing anterodorsally, procumbent'
+			,
+		36
+			'evenly spaced'
+			'mesial dentary teeth more closely appressed than those in middle and distal parts of the tooth row'
+			,
+		37
+			'present'
+			'absent'
+			,
+		38
+			'absent'
+			'constriction weak, base of crown occupying more than 85% of largest crown width'
+			'constriction important, base of crown occupying 85% or less of largest crown width'
+			,
+		39
+			'present in some teeth'
+			'present in all teeth'
+			,
+		40
+			'CH ? 1'
+			'1 < CH ? 6'
+			'CH > 6'
+			,
+		41
+			'CBR < 0.5, lenticular and strongly labiolingually compressed'
+			'0.5<CBR ? 0.75, oval to lenticular'
+			'weak, 0.75 < CBR < 1.2, tooth subcircular'
+			'CBR ? 1.2, teeth labiolingually elongated'
+			,
+		42
+			'strongly elongated, CHR > 3'
+			'important, 2.5 < CHR ? 3'
+			'normal, 2 < CHR ? 2.5'
+			'weak, CHR ? 2'
+			,
+		43
+			'present, strongly recurved'
+			'present, slightly recurved'
+			'absent, tooth crown straight'
+			,
+		44
+			'mainly concave'
+			'straight'
+			'mainly convex, apex centrally positioned or almost centrally positioned'
+			,
+		45
+			'subcircular, ovoid or elliptical'
+			'lanceolate, with acute and well-developed distal carina'
+			'Salinon shape, with labial margin convex and lingual margin biconcave'
+			'D-shaped or J-shaped, with lingual margins strongly convex and labial margin convex or sigmoid'
+			'U-shaped, with mesial and distal margin subparalell'
+			'lenticular, with acute and well-developed distal and mesial carinae'
+			,
+		46
+			'absent'
+			'on the labial surface and adjacent to the distal carina'
+			'on the lingual surface and adjacent to both carinae'
+			'on the lingual surface and adjacent to the mesial carina only'
+			'on the lingual surface and adjacent to the distal carina only'
+			'one main concave surface centrally positioned on the lingual side of the crown'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'non-denticulated'
+			'denticulated'
+			,
+		49
+			'denticulated'
+			'non-denticulated'
+			,
+		50
+			'straight and centrally positioned on the crown'
+			'slightly twisted, curves onto the mesiolingual surface'
+			'strongly twisted, curves onto the lingual surface'
+			'almost straight and strongly lingually deflected'
+			,
+		51
+			'terminates well-above the cervix'
+			'extends to the cervix or just above it'
+			'terminates well beneath the cervix'
+			,
+		52
+			'centrally positioned or slightly displaced'
+			'strongly labially deflected'
+			,
+		53
+			'facing mostly labially'
+			'facing mostly mesially'
+			'facing mostly lingually'
+			,
+		54
+			'facing mostly distally or labiodistally'
+			'facing mostly lingually'
+			,
+		55
+			'? 20'
+			'14-19'
+			'9-13'
+			'? 8'
+			,
+		56
+			'? 20'
+			'14-19'
+			'9-13'
+			'? 8'
+			,
+		57
+			'minute denticles, more than 250 denticles on the distal carina'
+			'normal in height, between 15 to 250 denticles on the distal carina'
+			'very larges denticles, less than 15 denticles on the distal carina'
+			,
+		58
+			'rounded and symmetrically convex'
+			'rounded and asymmetrically convex'
+			'strongly hooked/pointed, denticles with a tip pointing apically'
+			,
+		59
+			'rounded and symmetrically convex'
+			'rounded and asymmetrically convex'
+			'strongly hooked/pointed, denticles with a tip pointing apically'
+			,
+		60
+			'mesial and distal denticles of same size, 0.8 < DSDI <1.2'
+			'mesial denticles larger than distal ones, DSDI < 0.8'
+			'distal denticles larger than mesial ones, DSDI > 1.2'
+			,
+		61
+			'present'
+			'absent'
+			,
+		62
+			'absent'
+			'present, short'
+			'present, long and well-developed'
+			,
+		63
+			'absent'
+			'present on the lingual surface only'
+			'present on both labial and lingual surfaces'
+			'present on the labial surface only'
+			,
+		64
+			'absent'
+			'present, a single groove centrally positioned'
+			'present, a single groove mesially positioned'
+			,
+		65
+			'absent'
+			'present, a single ridge centrally positioned'
+			'present, more than one ridge'
+			,
+		66
+			'absent'
+			'present'
+			,
+		67
+			'absent'
+			'constriction weak, base of crown base occupying more than 85% of largest crown width mesiodistally'
+			'constriction important, base of crown base occupying 85% or less of largest crown width mesiodistally'
+			,
+		68
+			'present in some teeth'
+			'present in all teeth'
+			,
+		69
+			'CH ? 1'
+			'1 < CH ? 6'
+			'CH > 6'
+			,
+		70
+			'important, CBR ? 0.5, tooth strongly flattened'
+			'normal, 0.5 < CBR ? 0.75'
+			'weak, CBR > 0.75, tooth incrassate or subcircular'
+			,
+		71
+			'weak, CHR ? 1.5'
+			'normal, 1.5 < CHR ? 2.5'
+			'important, CHR > 2.5'
+			,
+		72
+			'strongly concave'
+			'slightly concave, roughly straight, or straight, apex positioned at the same level as distal profile'
+			'convex, apex positioned mesial to mesial profile'
+			'sigmoid, basal half concave and apical half convex'
+			'sigmoid, basal half convex and apical half concave'
+			,
+		73
+			'strongly convex'
+			'slightly convex, almost straight'
+			,
+		74
+			'convex'
+			'surface centrally positioned on the crown roughly flattened'
+			'surface centrally positioned on the crown concave, labial depression restricted to the crown base'
+			'surface centrally positioned on the crown concave, labial depression extends along the basal half of the crown or more apically'
+			,
+		75
+			'absent'
+			'present on labial surface and adjacent to distal carina'
+			'present on lingual surface and adjacent to distal carina'
+			'present on labial surface and adjacent to both mesial and distal carinae'
+			'present on lingual surface and adjacent to both mesial and distal carinae'
+			,
+		76
+			'subcircular'
+			'lenticular or lanceolate'
+			'elliptical or bean-shaped (i.e., longitudinal depression centrally positioned on one side only)'
+			'8-shaped (i.e., longitudinal depression centrally positioned on both lingual and labial margins)'
+			'Subrectangular'
+			,
+		77
+			'present'
+			'absent'
+			,
+		78
+			'denticulated'
+			'non-denticulated'
+			,
+		79
+			'present'
+			'absent'
+			,
+		80
+			'denticulated'
+			'non-denticulated'
+			,
+		81
+			'mesial carina extends at the same level or terminates more apically than the distal carina'
+			'mesial carina extends more basally than the distal carina'
+			,
+		82
+			'terminates around mid-height of crown or more apically'
+			'extends to base of crown or slightly above the cervix'
+			'terminates well beneath the cervix'
+			,
+		83
+			'absent, mesial carina centrally positioned on mesial margin or weakly curved lingually towards the base in all teeth'
+			'present, mesial carina strongly twisting onto the mesiolingual surface in some teeth'
+			,
+		84
+			'absent'
+			'present in the mesial carina'
+			'present in the distal carina'
+			,
+		85
+			'extends to the cervix or just above it'
+			'terminates well beneath the cervix'
+			'terminates well above the cervix'
+			,
+		86
+			'straight or very slightly bowed'
+			'strongly bowed or sigmoid'
+			,
+		87
+			'centrally positioned or slightly displaced, crown subsymmetrical'
+			'strongly labially deflected, crown asymmetrical'
+			,
+		88
+			'? 30'
+			'16-29'
+			'9-15'
+			'? 8'
+			,
+		89
+			'? 30'
+			'16-29'
+			'9-15'
+			'? 8'
+			,
+		90
+			'more than 250 denticles (minute denticles or very large number of denticles of normal size)'
+			'between 15 to 250 denticles (denticles of average size)'
+			'less than 15 denticles (very large denticles or very small number of small denticles)'
+			'-'
+			,
+		91
+			'symmetrically convex'
+			'asymmetrically convex'
+			'hooked/pointed'
+			,
+		92
+			'symmetrically convex'
+			'asymmetrically convex'
+			'hooked/pointed'
+			,
+		93
+			'parabolic'
+			'subrectangular, with flattened surface'
+			,
+		94
+			'parabolic'
+			'subrectangular, with flattened surface'
+			'semi-circular'
+			,
+		95
+			'longer apicobasally than mesiodistally, vertical subrectangular'
+			'as long mediodistally as apicobasally, subquadrangular'
+			'longer mediodistally than apicobasally, horizontal subrectangular'
+			,
+		96
+			'as long mediodistally as apicobasally, subquadrangular'
+			'longer mediodistally than apicobasally, horizontal subrectangular'
+			'longer apicobasally than mesiodistally, vertical subrectangular'
+			,
+		97
+			'regular, gradual change in denticle size'
+			'irregular, sporadic change in denticle size'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'perpendicular to mesial margin'
+			'inclined apically from mesial margin'
+			,
+		100
+			'perpendicular to distal margin'
+			'inclined apically from distal margin'
+			,
+		101
+			'higher number of denticles basally than at the mid-crown'
+			'lower number of denticles basally than at the mid-crown'
+			'subequal number of denticles basally than at the mid-crown'
+			,
+		102
+			'higher number of denticles apically than at the mid-crown'
+			'lower number of denticles apically than at the mid-crown'
+			'subequal number of denticles apically than at the mid-crown'
+			,
+		103
+			'higher number of denticles basally than at the mid-crown'
+			'subequal or lower number of denticles basally than at the mid-crown'
+			,
+		104
+			'higher number of denticles apically than at the mid-crown'
+			'lower number of denticles apically than at the mid-crown'
+			'subequal number of denticles apically than at the mid-crown'
+			,
+		105
+			'mesial and distal denticles of same size, 0.8 < DSDI <1.2'
+			'mesial denticles larger than distal ones, DSDI < 0.8'
+			'distal denticles larger than mesial ones, DSDI > 1.2'
+			,
+		106
+			'contiguous over tip, or very close to the apex'
+			'distal denticles disappear well beneath apex'
+			,
+		107
+			'narrow, less than one third of the denticle width'
+			'broad, more than one third of the denticle width'
+			,
+		108
+			'absent'
+			'present, short and poorly developed, shorter than proximodistal denticle height'
+			'present, long and well-developed, equal or longer than proximodistal denticle'
+			,
+		109
+			'absent'
+			'present, short and poorly developed, shorter than proximodistal denticle height'
+			'present, long and well-developed, equal or longer than proximodistal denticle'
+			,
+		110
+			'absent'
+			'present, short and poorly developed, shorter than proximodistal denticle height'
+			'present, long and well-developed, equal or longer than proximodistal denticle'
+			,
+		111
+			'absent'
+			'present on the lingual surface'
+			'present on labial surface or both labial and lingual surfaces'
+			,
+		112
+			'1-7'
+			'7-8'
+			'>8'
+			,
+		113
+			'absent'
+			'present, tenuous and barely visible with light'
+			'present, pronounced and well visible with light'
+			,
+		114
+			'just a few'
+			'numerous and closely packed'
+			,
+		115
+			'absent'
+			'present and short, the mesiodistal elongation is less than four times the space separating each undulation'
+			'present and elongated, the mesiodistal elongation is longer than four times the space separating each undulation'
+			,
+		116
+			'present and shallow, only visible with light'
+			'present and pronounced, well visible in lateral view'
+			,
+		117
+			'present only on the mesial side of the crown'
+			'present only on the distal side of the crown'
+			'present on both mesial and distal sides'
+			,
+		118
+			'present and mesio-distally oriented'
+			'present and diagonally oriented'
+			,
+		119
+			'absent'
+			'present, a single groove centrally positioned'
+			'present, a single groove adjacent to mesial carina'
+			'present, two grooves or more'
+			,
+		120
+			'absent'
+			'present, a single ridge centrally positioned'
+			'present, two or three ridges'
+			'present, several fainted ridges'
+			,
+		121
+			'smooth or irregular (non-oriented) texture'
+			'braided (oriented) texture not clearly visible with light'
+			'braided (oriented) texture clearly visible with or without light'
+			'deeply veined/anastomosed (oriented) texture'
+			,
+		122
+			'remains baso-apically/diagonally oriented or slightly curved basally close to the carinae'
+			'strongly curved basally close to the carinae'
+			,
+		123
+			'absent or rare'
+			'common only in basal unit layer (BUL) and/or inner potion of enamel'
+			'common and extend throughout entire enamel thickness'
+			'extremely common and forming an integral structural component of enamel'
+			,
+		124
+			'parallel crystallites'
+			'basal unit layer (BUL)'
+			'columnar'
+			,
+		125
+			'? 75%'
+			'< 75%'
+			,
+		126
+			'one'
+			'two'
+			'three'
+			'four'
+			,
+		127
+			'one'
+			'two'
+			,
+		128
+			'parallel to EDJ'
+			'jagged, varies in distance from EDJ'
+			,
+		129
+			'parallel to EDJ'
+			'jagged, varies in distance from EDJ'
+			,
+		130
+			'present'
+			'absent'
+			,
+		131
+			'poorly developed'
+			'well-developed, with distinct planes of separation between adjacent units'
+			,
+		132
+			'< 10 �m'
+			'? 10 �m'
+			,
+		133
+			'< 25% of total enamel thickness'
+			'25-50% of total enamel thickness'
+			'? 50% of enamel thickness'
+			,
+		134
+			'absent'
+			'faint, poorly defined'
+			'well-defined'
+			,
+		135
+			'present in one section of the schmelzmuster only'
+			'present in more than one section of the schmelzmuster but not throughout entire schmelzmuster'
+			'present throughout entire schmelzmuster'
+			,
+		136
+			'polygons with sharp corners and more than 4 sides'
+			'subcircular or polygons with rounded corners and more than 4 sides'
+			'triangles and/or rectangles with sharp corners'
+			,
+		137
+			'extend straight and unbroken to the OES or to within 20 �m below the OES'
+			'end, split, or are interrupter less than two-thirds of the distance from the EDJ to OES'
+			,
+		138
+			'< 15 �m'
+			'? 15�m'
+			,
+		139
+			'no dominant direction of orientation, planes of separations equally well-developed in all directions'
+			'distinct longitudinal orientation, planes of separation better developed in an apicobasal (longitudinal) direction'
+			,
+		140
+			'> 7'
+			'1.3 to 7'
+			'1 to 1.3'
+			,
+		141
+			'with subparallel mesial and distal margins'
+			'with convex margins, root significantly larger than base crown'
+			,
+		142
+			'broad'
+			'strongly tapered apically'
+			,
+		143
+			'oval to subcircular'
+			'8-shape (i.e., longitudinal depression centrally positioned on both lingual and labial margins)'
+			'bean-shaped (i.e., longitudinal depression centrally positioned on one side only)'
+			,
+		144
+			'deep and well-delimited depression'
+			'shallow concavity or absent'
+			,
+		145
+			'absent'
+			'present'
+			,
+		146
+			'less than twice the apicobasal height of the crown'
+			'twice or more the apicobasal height of the crown'
+			,
+	;
+	MATRIX
+	'Herrerasaurus'                 01000000000000000011000000020001000010-11(2 3)10000-0--1-0-01-0-?000010-1(0 1 2)(0 1)(0 1)000(0 2)00000?00000111000(0 1)100000-???0?10000-200---000-????????????????????????
+	'Daemonosaurus'                 00?000110021?00110412000?00?01010100?0-1?(2 3)000011000010??110?0000000-1?(1 2)0000?00000000000??11000010?000000?0?0000-0-0---000-??????????????????00????
+	'Eoraptor'                      010100000000?00100110000?00?????????0100(1 2)(1 2)100(0 1)(0 1)10001101012(1 2)1100000(1 2)00(0 1)(0 1)100(1 3)?00000000?001(0 1)1(1 2)(1 2)00000001--001000000-0-0---000-????????????????????????
+	'Eodromaeus'                    01???????????000?0410?000?030??100000?????????????????????????????0-0(0 1)200011(0 1)0000100000001(0 1)000(0 1)(0 1)000020000?00000-100---0010????????????????????????
+	'Coelophysis'                   010?000000000011000101100000010??00010-0(0 1)(0 1 2)1000(0 1)1000110-01-0-0030000-1(0 1)(0 1)000(1 3)100000(0 1)000??00?00(0 1)0(0 1)00000-000000000(0 2)00-0---001000011--1---0------??????
+	'Liliensternus'                 ?????????????????0?????00?010010100010-01?1(0 1)0011000010001?00?000000-1(0 1)1(0 1)000100000000000(0 1)(0 1)100(0 1)0(0 1)(0 1)0?00-0000010000-0-0---000-??????????????????001?0?
+	'Dracovenator'                  0111100??10100200??????00???0????????0-1021010110000???21?020000000-10?000010000010010012100000100000?0?2?10000-100---0010??????????????????????0?
+	'Dilophosaurus'                 011100000101002200411110010201111000?0-11(0 1)0000110001??1(1 2)10020000000-11100(1 2)(3 4)1000001000001210000(0 1)100000?0?20?0000-0-0---0010??????????????????001000
+	'Ceratosaurus'                  00111-000000000000(3 4)11100000(2 3)0011000010-1(1 2)3(0 1)(0 1)0011000010(2 3)(2 3)10020(0 1)10000-2(0 1)1(0 1 2)0(1 2)(0 3 4)10000010000(0 1)22100(0 1)01(0 1 2)001(0 1)0(1 2)0(0 2)001(0 1)(0 1 2)(0 1 2)0-(1 2)01(0 1)(0 1)(0 1)001022021000110202000000?000
+	'Genyodectes'                   011111000000000000??11000?0300110000?0-2(0 1)(0 1 2)000011000000221000?000000-2(0 1)1(0 1)0(1 2)(2 3 4)2000001000(0 1)12210(0 1)0010001(0 1)-2020010(0 1)00-210---0010????????????????????????
+	'Berberosaurus'                 ??????????????????????????????????????????????????????????????????0-10100(1 2)2300000100?01221(0 1)(0 1)???1001?-1020?10000-200---0010????????????????????????
+	'''Limusaurus juvenile'''       (1 2)0------(1 2)---0000-(0 1)50100002(1 2)30001000010-0??(0 1)???0-1-------------00000-0??(0 1)0???1-1-------------------------------0-0-0---00????????????????????0(0 1)???0
+	'''Limusaurus adult'''          3----------------3--------3---------1-------------------------------------------------------------------------------------------------------------
+	'Noasaurus'                     ?????????????????04101000?????????????????????????????????????????0-01(0 1)100010000010000001100000000000?1?2?00000-0-0---000-????????????????????????
+	'Masiakasaurus'                 0?11???1?0???????0?10?000?0300000100?210(2 3)(0 1)10231(0 1)02112000100(0 2)0010000-1(0 1)(1 2)0000100000100001(0 1)(1 2)10(0 1 2)(0 1)000000(0 1)000020000010(1 2)00---0010??????????????????001100
+	'Kryptops'                      ?????????????????0??0?001?????????????????????????????????????????0-1?1100010000010000?121(0 1)2(0 1)0000001?0?000022?0-0-0---000-??????????????????0?????
+	'Rugops'                        0100000?1?00100000?111001???????????????1???2?11?0?010????????????0-1(0 1)?(1 2)000100000100000(1 2)210200000001?0?000000?0-0-0---000-????????????????????????
+	'Abelisaurus'                   01?000???????00000????00?????????????0-113(1 2)(1 2)231100(1 2)0??2210(1 2)00200000-1(0 1)(0 1)1000100000100?00221(0 1)(1 2)0010011100000000100-101010000-????????????????????????
+	'Arcovenator'                   ??????????????????????????????????????????????????????????????????0-1(0 1)10000100000100101(1 2)21(0 1)(0 1)0(0 2)(0 1)1000100012000000-0-0---000-??????????????????0?????
+	'Chenanisaurus'                 ????????????????????????????021?0????1?1(1 2)2(0 1)(1 2)2311002010331(0 1)(0 1)00200001?1(0 1)110??100000200110221(0 1)(0 1)00110?01000000012?0-?00---000-??????????????????00???0
+	'Indosuchus'                    0100000110001000004001001?0?0?100000?0-1(1 2)3(1 2)(1 2)(2 3)(2 3)110(0 1)(1 2)010(2 3)(2 3)1??0?000000-1(0 1)?(1 2)0001000001000?0221??????????0???0??0110-0-0---000-????????????????????????
+	'Majungasaurus'                 010000011(0 1)001000002111001102021000001(0 1)01(1 2)3(1 2)(1 2)(2 3)(2 3)110(0 1)2010(2 3)(2 3)1(1 2)200200000-1(0 1)(0 1)(1 2)000100000100000(2 3)21(1 2)2000(0 1)000100000001220-201010000-22021000110102000000?1??
+	'Aucasaurus'                    01?000??1?00?000004101001?????????????????????????????????????????0-1(0 1)(0 1)1000100000100000221(0 1)(1 2)(0 1)01(0 1)011100?00000000-200---000-??????????????????0?0?1?
+	'Skorpiovenator'                01???????????00000110?00?10??????????0-11222?3110020??211???0000000-10(0 1)(1 2)000100000100010221000011001(0 1)0?0?0?00000-0-2020000-??????????????????00?1?0
+	'Chilesaurus'                   01???????????0?01?????02??0????00110?210?122?00-1-------------0000110?12000?1-(0 1)(0 1)----200?0??0?0?2?0?0??--?00?0-0-0-0---00????????????????????10??00
+	'Piatnitzkysaurus'              ?????????????????01?00000?0?0???0000??????????????????????????????0-11(1 2)0010100000(0 1)10(0 1)10(1 2)(1 2)10(0 1 2)0(0 2)(0 1)1000020002000(1 2)(1 2)0-(1 2)1201000(0 1)0??????????????????001100
+	'Marshosaurus'                  0111100000000000002101000?0100110000?0-1121(0 1)10110000100110020100000-1(0 1)(0 1)0000100000000?0(0 1)1(1 2)101(0 1)00(0 1)000000002010100-(1 2)(0 1)0---0010??????????????????00?1?0
+	'Monolophosaurus'               01??000?0?00?00000410?00?2010001000010-11(2 3)(0 1)0101?000110?11?0??000000-1(0 1)(0 1)(0 1)000100000000(0 1)0(0 1)(1 2)(1 2)100(0 1)(0 2)0(0 1)0000?0?00010000-1010110011??????????????????0??1??
+	'Sciuruminus'                   01?100000000?0?000?11?03?20300110100?0-0?(1 2)(0 1)0??0-(0 1)--?-0-0?-?-100000100?100???1-00---00??-??-(1 2)-0-(0 2)0--0--00-(0 1)1-000-0-0---000-??????????????????1???0?
+	'Eustreptospondylus'            011110?0000?000000????000?0300111000???1??10?01100?00122100?0100000-11?0000100000000???(2 3)2100(0 1)0000000-??00000??0-0-0---0010????????????????????????
+	'Afrovenator'                   ?????????????????041010002????????????????????????????????????????0-2010001100000000110321(0 1)(0 1)(0 1)2010?00-0011001110-0-10000010??????????????????0?1?0?
+	'Dubreuillosaurus'              01111000000000000041010002030011000010-11210101100000(0 1)221000?000000-1(0 1)(0 1)0000100000000100111(0 1)(0 1)(0 1)0000000-0010000110-0-0---0010??????????????????000?00
+	'Duriavenator'                  0?11???0?0??00??00?101000?0?00100000?0-?12??1?110??0?1(2 3)310000?00000-1(0 1)100001000000001??(2 3)210(0 1)(0 1)00101(0 1)0-101(0 1)000110-(0 1)00---0010??????????????????00?100
+	'Megalosaurus'                  0????????????????04101000?03001000001?????????????????????????????0-2(0 1)100001000000001(0 1)0(2 3)(2 3)1(0 1)(0 1)(0 1)(0 2)010100-100(0 1)001(1 2)(1 2)0-2110(1 2)(0 1)0020????????????????????????
+	'Torvosaurus'                   00111-00000000000041010002030??100001??21???1011000000331???0?00000-2(0 1)(1 2)0000100000(0 1)001(0 1)0(2 3)(2 3)1(0 1)(0 1)(0 1)0110?00-101(0 1)0(0 1)1220-2(0 1)10100020??????????????????002100
+	'Baryonyx'                      0(3 4)1110110011012000?100102?000111100010-12(1 2)1000110020??0000000010000-121(0 1)000000000(1 2)001(0 1)000(0 1)00(0 1)(0 1)2111000202(0 2)00000(1 2)00-10100031??????????????????010111
+	'Suchomimus'                    041110110011012000010010220001111?0010-???1000110020??00000000(1 2)0000-1(1 2)(1 2)(0 1)000000000(1 2)001(0 1)0(0 1)(0 1)(0 1)00(0 1)(0 1)1010002202(0 2)00000(1 2)00-10(1 2)(0 1)0031????????????????????????
+	'''Irritator angaturama'''      0410001??021012100?????1220?0???????1?????????????????????????????0-12(1 2)2100001010100100-----------------------210-101(0 1)000-????????????????????????
+	'Spinosaurus'                   0312(0 1)011012101220041001123020111(1 2)10010-?(1 2)??1001010(1 2)001--------20000-2(1 2)(1 2)(1 2)100001010(0 1)00100-----------------------220-0---0031??????????????????0101?(0 1)
+	'Erectopus'                     ??????????????????????000?????????????????????????????????????????0-10(1 2)001010000010000022100(0 1)011010000000000100-1(0 1)0---000-????????????????????????
+	'Yangchuanosaurus'              011110200001?00000(3 4)00(0 1)00?20(2 3)01??000010-1?(1 2)11??110(1 2)?0?0?21?0???????0-2?2(0 1)0??20000???????22?????????????????????????????????????????????????????????
+	'Sinraptor dongi'               01111(0 1)000000000000(3 4)01000020200?1000010-1(1 2 3)?11(2 3)(1 3)1101(1 2)0102210(0 1)00(1 2)02000-2(0 1)(0 1)(0 1)0(1 2)(0 1 2)(2 3)00000(1 2)00(0 1)(0 1)(0 1)221(0 1)(0 1)00(1 2)1000000000011(1 2)(0 1)0-211010000-??????????????????001(0 1)01
+	'Sinraptor hepingensis'         01?11(0 1)000000?00000401000?2020101000010-1?1(1 2)(1 2)??110???10????????????0-201(0 1)0(1 2)0?00000(1 2)0?1?12210(0 1)00110?00?000001???0-????????0-??????????????????00?0?1
+	'Allosaurus'                    021110011000000000(2 3)00100020201(0 1)1000010-1(2 3)(0 1 2)(0 1)(0 1)(2 3)(2 3)110(1 2)10102(2 3)1(0 1)(0 1)00(0 1 2)0(0 2)(0 1)00-2(0 1 2)(1 2)(0 1)000(0 1 2)00000(1 2)11(0 1)(0 1)1(1 2)(1 2)1(0 1)(0 1)(0 1)011000(0 1)00000011(1 2)(1 2)0-2(0 1)2(0 1)1(0 1)00(0 1)02202110011111200000(0 1)(0 1)(0 1)1(0 1)
+	'Neovenator'                    0211112011200000003100000?0?001100001?????????????????????????????0-111001(1 2)20000000011(0 1)2(1 2)11100110010-0000011110-2(0 1)20100020??????????????????10211(0 1)
+	'Fukuiraptor'                   ??????????????????????000?0?0?1??000?0-1(1 2)?0030110210??(0 1)110(0 1)0??00000-1(0 1)(0 1 2)00??100000(0 1)00010(1 2)(1 2)1(0 1)(0 1)000(0 1)0?0000000002220-(1 2)020?000??????????????????????????
+	'Australovenator'               ??????????????????????????01001?0000?0-1(1 2)(2 3)00?3110210??1(1 2)1?????00000-1(0 1)100(2 3)(1 2)?000000000?(0 1)221?(0 1)?00(0 1)0??0-000001???0-??????0020????????????????????????
+	'Megaraptor'                    0?(1 2)11??0?0??00??0030100002????????????????10?3100200??-11-0-00000?0-1(0 1)(0 1)002231-00---000(0 1)-11-0-0-100-0--00-01-000-100---0010??????????????????100100
+	'Orkoraptor'                    ??????????????????????????????????????????????????????????????????0-1??003231-00---0(0 1)(0 1)(0 1)-21-0-0-100-0--0?-?1-110-??0---0(0 2)10??????????????????0?1???
+	'Acrocanthosaurus'              01111100000000000031010002020011000010-2(1 2)(1 2)100011000(0 1)00(1 2)210020000000-2(0 1)(0 1 2)0000?00000(0 1)0011(0 1)(1 2)(1 2)(0 1)001(0 1)110111010(1 2)(0 1)010(0 1)00-2(0 1)(1 2)(0 1)100020????????????????????????
+	'Eocarcharia'                   ?????????????????0310?000?????????????????????????????????????????0-101(0 3)00020000000011(0 1)211(0 1)(0 1)0(0 2)(1 2)10110-1011001110-100---0010????????????????????????
+	'Carcharodontosaurus'           ?????????????????0400100020?0?1?0000??????????????????????????????102(0 1)1(1 2 3)000100001200110(2 3)(2 3)1110010011(0 1)00001001(0 1)(0 1)0-(0 1)021200010??????????????????001100
+	'Giganotosaurus'                01111101111?000000??0?000?02001?000010-02?110011001000221?00?10000102(0 1)(1 2)(0 3)000100000(1 2)00110(2 3)(2 3)1(0 1)(0 1)001(0 1)00000000101(1 2)220-(1 2)0(1 2)0200010??????????????????00(1 2)100
+	'Mapusaurus'                    ?????????????????04101000?0?0???0000?0-12(2 3)10001101?1??221??0000000102(0 1)(0 1)(0 1 3)000100000(1 2)00110(2 3)(2 3)1(0 1)(0 1)001100000000(0 1)01(1 2)220-0-(1 2)(0 1)200010??????????????????(0 1)0(1 2)100
+	'Bicentenaria'                  ???000???00?0???0??????0?????????????0-?(1 2)???00??0??0?0?0??0??000000?0?100?0100000100000001000001000000002000000-0-0---0020??????????????????0000??
+	'Zuolong'                       01?0002001002000?040?1000????????????0?1?(2 3)2140110301??0010020000000??(0 1)?(1 2)0?0?00000000(0 1)??1(0 1)10000?10?01-?0???1?000-1?0---0010??????????????????00(1 2)?10
+	'Proceratosaurus'               011111000000000000011100?201021101001100?(2 3)103(0 3)1102011(0 1)0010020000010-1(0 1)(0 1)00(1 2)0(1 3)00000(0 1)100(0 1)10(0 1)?0000000000-0002000(0 1)(0 1)0-0-0---0010????????????????????????
+	'Guanlong'                      011111200?1??00000311100?2??????????10-1(1 2 3)3(1 2)13(0 3)11021121(1 2)11(0 1)(0 1)00000000-1(0 1)(0 1)00001(0 1)0000(0 1)(0 1)00011110(0 1)1(0 2)010000-0?02010(0 1)?0-100---0010????????????????????????
+	'Dilong'                        011110000002?00000410000??030(0 2)11010010-0(2 3)(0 1 2 3)(1 2)(0 1)4(0 3)(0 1)11(1 3)012000100(0 2)0000100-1(0 1 2)(0 1 2)(0 1)0(0 2)0?000000000011110(0 1)(0 1)(0 2)0(0 1 2)0000-0002010(0 1)0(0 1)2100---00(1 2)0??????????????????11(1 2)10(0 1)
+	'Eotyrannus'                    01211100000000000???10001?0?02110000?0-1311(0 1)43110311??(1 2)(1 2)10000100000-111(0 1)0001000000001001(1 2)10000000000-0002000110-0-0---0010????????????????????1???
+	'Raptorex'                      01211100000000000040010002020211000010-03(0 1)104211031121??10020000100-?(0 1)(0 1)00(0 1)0100000(0 1)10(0 1)(0 1)1??100(0 1)(0 2)1(0 1)000000000000100-100---0010??????????????????0?1000
+	'Gorgosaurus'                   012211000000000000(3 4)0110002020011000010-1(2 3)(0 1 2 3)1142110(2 3)1(0 1)(1 2)(0 1)1(1 2)1?000000(0 1)00-1(0 1 2)(1 2)(0 1)000(0 1)00000(0 1)10(0 1)01(1 2)(1 2)100(0 1)01(0 1)00000(0 2)0(0 2)00111(0 1)0-1(0 1)0---0010220310101001011112001000
+	'Alioramus'                     ?????????????????02111000201021100001?????????????????????????????0-?(0 1)(0 1)00(1 2)0(1 3)00000(0 1)10(0 1)01??100001(0 1)000(0 1)00000000100-210---0010??????????????????001000
+	'Daspletosaurus'                012211000000000000(2 3 4)(0 1)100002020011000010-13(0 1)11421(0 1)(0 1)(2 3)(0 1)(0 1)2(0 1)221(0 1)0(0 2)0100100-2(0 1 2)(0 1 2)(0 1)000(0 1)00000111(0 1)0(0 1)(2 3)2111(0 1)01(0 1)00000(0 2)0(0 2)0011(1 2)10-(1 2)11000001022021101---1011112(0 1)(0 1)(0 1)(0 1)1(0 1)
+	'Tyrannosaurus'                 01221100000000000041110002030211000010-233(0 1)04(0 2)11031(0 1)(1 2)(0 1)(2 3)(2 3)10000000(0 1)00-2(1 2)(0 1 2)(0 1)000000000(0 1)11001(2 3)(2 3)100001(0 1)0100020200122?0-2(0 1)112(0 1)00(0 1)022021101---0-01112001(0 1)0(0 1)
+	'Compsognathus'                 01?100?000?1?0??00210?00?20100?1000010-0?3(0 1 2)0?00-1-------------00000-0(0 1)(0 1)0000?1-0(0 1)---02??-01-0-(0 1)-20--0--00-10-000-0-0---000-??????????????????10?000
+	'Juravenator'                   01??00?00?01?0?000510000?2?3?????????0-0?(0 1 2)00??0-(0 1)--?-0-0--0-1000000-0?(1 2)00?011-01---02??-01-0-0-(0 2)0--?--(0 1)0-(0 1)0-000-0-0---000-??????????????????10??00
+	'Scipionyx'                     02?100-11122?00100510000?2030011000010-??2000?0-1-------------10000-??(0 1 2)(0 1)02011-00---0(0 2)??-?--0-0-(0 2)0--0--?0-10-000-0-0---000-????????????????????????
+	'Ornitholestes'                 01110012(0 2)021?000104101000203000101001100(1 2 3)21(0 1)(3 4)(0 3)(0 1)0111010--------00000-0(1 2)(0 1)0(0 1)001(0 1)10(0 1)?100201-01-0-0-00--0--?0-1?-0-0-(0 1)00---0010??????????????????0?(0 1)??1
+	'Nqwebasaurus'                  ?????????????????2????0234????????????????????????????????????????0-022210001-1-------------------------------0-0-0---000-????????????????????????
+	'Pelecanimimus'                 04??????????0000020???00340011?100001110??1(0 1)3?0-1-------------0000(1 2)10?0(0 1)(0 1)00?1-1-------------------------------0-0-0---000-??????????????????0?0?0?
+	'Shenzhousaurus'                3----------------3--------230-?-011010-02?22000-1-------------00000-021210001-1-------------------------------0-0-0---000-????????????????????????
+	'Garudimimus'                   3----------------3--------3---------1-------------------------------------------------------------------------------------------------------------
+	'Struthiomimus'                 3----------------3--------3---------1-------------------------------------------------------------------------------------------------------------
+	'Aorun'                         011100011000?00002410?00?3000??10?0010-0?(0 2)00(0 1)?0-1-------------00000-0(0 1)?000?11-(0 1)1---0???-01-0-0-(0 2)0--0--?--10-0?0-0-0---0020????????????????????????
+	'Haplocheirus'                  01??00000000000000012?00(0 2)2000?1?00001000?210000-1--0-0--------00000-0(1 2)(1 2)0000?(0 1)00000000??0(0 1)1000000000(0 1)-??0?(0 1)10000-0-0---030-????????????????????????
+	'Shuvuuia'                      ?????????????????2000100340010000000?1102?22000-1-------------00?011021210001-1-------------------------------0-0-0---000-??????????????????0?0???
+	'Mononykus'                     ??????????????????????????????????????????????????????????????????1?021210001-1-------------------------------0-0-0---030-??????????????????0?0?0?
+	'Eshanosaurus'                  ??????????????????????????0001??0?00??????????????????????????????21021(1 2)000000000000200112(0 1)(0 1 2)00(0 2)(0 2)0000-(1 2)-20010000-0-0---0(0 1)0-??????????????????1?0?0?
+	'Falcarius'                     ?????????????????0?100002?000???000011002(2 3)220(0 5)001-------------0000210(1 2)(0 1)(2 4)00(0 2 3)0000000102000010000(0 1)(0 2)0000-1-1(0 2)00(0 2)(0 2)00-100---0(0 1)0-000(0 1)?0-(0 1)00022----0(0 1)(0 1)010(0 1)
+	'Jianchangosaurus'              3----------------0000?00?2?0000-0000?211221004110201201?2220000?0021021(2 4)00(0 3)0000000002002222200000011-2-20010000-0-0---000-??????????????????110?01
+	'Segnosaurus'                   ??????????????????????????110???0?00??????????????????????????????2112(1 2)(1 2)(0 1)(0 2)(0 4)0000000(0 1)22(0 1)0223(0 1 2)(0 1 2)00(0 1)2(0 1)0(0 1)(0 1)-0-00(0 1)10000-100---(0 3)(0 1)1-??????????????????0?????
+	'Erlikosaurus'                  3----------------10???00?210010?010011002222000-0--0-0-02-1-?00000210212000000000000200??2(0 2)(0 2)00020011-2-20010000-0-0---000-??????????????????110??1
+	'Incisivosaurus'                0100001222010000005101000213(0 1)00?01101001?22(1 2)001010?010--------00001?0?021000(0 1)?(0 1)(0 1)??00200-?01?0?0?10??0??-???0?0--0-0---00(0 3)0????????????????????????
+	'Caudipteryx'                   11?????--????10013--------3---------10-0?0(0 2)(0 1)?-0-1-------------0000------------------------------------------------------0-??????????????????10(1 2)00(0 1)
+	'Chirostenotes'                 3----------------3--------3---------1-------------------------------------------------------------------------------------------------------------
+	'Citipati'                      3----------------3--------3---------1-------------------------------------------------------------------------------------------------------------
+	'Halszkaraptor'                 041111000000000000001?0001010???0???11?0??003-0-1-------------00?00-0??000011-1-------------------------------0-??????00????????????????????0(0 1)?0?0
+	'Buitreraptor'                  ?????????????????0?????0020?0??00000??????????????????????????????0-0(0 1)(0 1)003(0 1)31-1-------------------------------0-0-0---(1 3)(1 2)0-??????????????????1?1?00
+	'Microraptor'                   011000100(0 1)20?00000401?00?20?0?110(0 1)0010-0?(1 2)(0 1)0?(0 3)0-1--0-0--------00(0 1 2)0100?1(0 1)03131-0(0 1)---0(0 2)??-0(1 2)-0-0-(0 2)0--0--1--(0 1)0-00(0 2)00-0---0(0 2)(0 1)0??????????????????0(0 1)??00
+	'Sinornithosaurus'              011000101020?00000?01000?20?0011010010-0?(2 3)(0 1)0?(2 3)1(0 1)(0 1)(0 1)(0 1)(0 1)10001(0 1)(0 1)?1002(0 1 2)00-(0 1)?1003(0 1)30(0 1)0000000??00100(0 1)(0 1)0(0 2)000000002(0 1)0000210-0---0010??????????????????(0 1)01(0 1)00
+	'Graciliraptor'                 ????????????????????1000??????????????????????????????????????????000?100(2 3)?(2 3)0000000000?00100(0 1)(0 1)0(0 2)0?00-??02000000-0-0---0010????????????????????(1 2)???
+	'Dromaeosaurus'                 0????00?1??000000050010002030010000010-1(1 2 3)(1 2)(0 1)03(1 3)110210201111(0 1)00100000-1(0 1)100(2 3)(0 1)300000(0 1)11001(1 2)(1 2)100000(0 1)00010000(0 1)000100-100---0010201110-000112----2??????
+	'Atrociraptor'                  010000000?20000000400103?20300110000?0-(0 1)1(2 3)113(1 3)110(1 2)1010(0 1 2)(0 1)1(1 2)(1 2)20(0 1)00000-1(0 1)(0 1)(0 1)020?00000(0 1)00000(0 1)(1 2)102(0 1)00(0 1)0001000020001(0 1)0-100---0010??????????????????00?00(0 1)
+	'Bambiraptor'                   01??00??????0000004???03?2030?100000??????????????????????????????0-0(0 1)1003(0 1)3(0 1)00000000000010(0 1)0001000(0 1)-?002010000-0-0---0(0 2)1000000--1---12-----??????
+	'Saurornitholestes'             01?????????????00??101000?0200010100?0-002(0 1)(0 1)331(0 1)021(0 1)200(1 2)1(0 1)(1 2)20100000-1(0 1)1002(1 2)(2 3)0(0 1)000(0 1)10(0 1)00(0 1)(0 1)1(0 1)(1 2)0001000000002010110-110---0010211110-00020-----1001000
+	'Tsaagan'                       011100110021?00000400?00?20(2 3)0010000010-1?3(0 1)(0 1)000-0--0-0-01-0-0000?00-1?1(0 1)02031-00---0000-11-0-0-10--0--00-00-000-0-0---000-????????????????????????
+	'Velociraptor'                  011000110?21?00000(3 4)10?00?20(2 3)0011000010-00310300-0--0-0-01-0-?030?00-00(0 1)(0 1)021?(0 1)000000000001100000(0 1)0000-0022000000-0-0---0(0 1 2)0-100110-00000-----1??????
+	'Deinonychus'                   01000011000100000?3?110302020000000010-01(2 3)1(0 1)(1 3)3110210?0011(0 1)120002000-1(0 1)(0 1)0020200000(0 1)00000(0 1)(1 2)2011001000(0 1)(0 2)0(0 1)(0 2)20101(0 1)0-1(0 1)0---0010200110-000012----0001100
+	'''MPC d100 1128'''             0???1?????0?000?020????0?3001??00?00?1102222000-1-------------0000(1 2)1021(0 1 2)(0 1)0001-1-------------------------------0-0-0---000-??????????????????1?0?0?
+	'Almas'                         01??00000??0?00002221100?30112100001?110?222000-1-------------0000(1 2)10?(0 1)(1 2)00001-1-------------------------------0-0-0---000-00000--1---22-----1???0?
+	'Sinusonasus'                   0????0??1??0?00000121?00?20(0 1)?2010?01?(1 2)10?3(1 2)(0 2)??0-1-------------0000(1 2)00?0(0 1 2)00??1-(0 1)(0 1)---02?0-02-0-0-(0 2)0--0--1--0(0 1)-000-0-0---000-????????????????????????
+	'Byronosaurus'                  0101000110?0000002021100?200100?0001?100?211010-1----1--------0000(1 2)00(1 2)(1 2)(0 1)0(0 1 2 3)(0 1)(2 4)1-1-------------------------------0-0-0---(1 3)(1 2)0-00000--1---22-----??????
+	'Zanabazar'                     010100000000000000(0 1)211000300100100011110?3112?1102?010222??0--0000(1 2)10(1 2)(0 1)(0 1)001(1 3)(0 1)1000?00000(1 2)(1 2)2?2?0?000?1??1221(0 1)0000-0-0---200-????????????????????????
+	'Troodon'                       01????????????????????????00100?00011210221050(0 1)(0 1)0010??332220000000(1 2)111(0 1)(0 1)0(0 2)(1 3 4)1(0 1)(0 1)000100000(2 3)(2 3)322(0 1)00(0 1)001100000010000-100---000-110110-00020-----11(0 1)1101
+	'Epidexipteryx'                 01?000121020?0?0125--112??23?1200110?0-0?0(0 1)0?00-1-------------00000-0?(0 1)10?0?1-1-------------------------------0-0-0---000-??????????????????00??0(0 1)
+	'Archaeopteryx'                 01?000011000?000(0 1)0500100?303001000(0 1)01100?310?00-1-------------0000100?(0 1)(0 1)000?1-1-------------------------------0-0-0---000-??????????????????10?00?
+	'MorphoI'                       ?????????????????????????????????????0-11(2 3)(1 2)(1 2)(1 2)(0 2)110(0 1)10102(2 3)1(0 1)(1 2)00(1 2)0000????????????????????????????????????????????????????????????????????????????????
+	'MorphoII'                      ??????????????????????????????????????????????????????????????????0?1011010100000100000121020011000000002000220-100---000?????????????????????????
+	'MorphoIII'                     ??????????????????????????????????????????????????????????????????0?1011010100000100000221120011000100000000110-101120000?????????????????????????
+	'MorphoIV'                      ??????????????????????????????????????????????????????????????????0?10(0 1)1010100000100000121110011000(0 1)000000001(1 2)0-100---000?????????????????????????
+	'MorphoV'                       ?????????????????????????????????????1?02201001000-0---11-1-000000????????????????????????????????????????????????????????????????????????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-2 4 15-16 19 26 28 38 40 50 57 67 69 90, unord: 3 5-14 17-18 20-25 27 29-37 39 41-49 51-56 58-66 68 70-89 91-146;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1737064536150; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8841722198171081162; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 883030229055335933; mqVersion 370; checksumv 0 3 48367664 null getNumChars 146 numChars 146 getNumTaxa 112 numTaxa 112 short true bits 63 states 63 sumSquaresStatesOnly 87036.0 sumSquares 87036.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 190; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1370 693; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #883030229055335933 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1180 621; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1180 621; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #883030229055335933 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1180 621; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 146; 
+ENDBLOCK;

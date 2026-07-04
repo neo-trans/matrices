@@ -1,0 +1,922 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.55.39 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=20;
+	TAXLABELS
+		'ptilodus'
+		'Buginbaatar transaltaiensis'
+		'Lambdopsalis bulla'
+		'Taeniolabis taoensis'
+		'Eucosmodon gratus'
+		'Stygimys kuszmauli'
+		'Nemegtbaatar gobiensis'
+		'Kamptobaatar kuczynskii'
+		'Bulganbaatar nemegtbaataroides'
+		'Nessovbaatar multicostatus'
+		'Sloanbaatar mirabilis'
+		'Chulsanbaatar vulgaris'
+		'Kryptobaatar dashzevegi'
+		'Tombaatar sabuli'
+		'Djadochtatherium matthewi'
+		'Mangasbaatar udanii'
+		'Catopsbaatar catopsaloides'
+		'Guibaatar castellanus'
+		'Yubaatar zhongyuanensis'
+		'Erythrobaatar ganensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=121;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		[1] '1. Lower incisor, enamel covering'
+		[2] '2. Wa114. Lower incisor: tooth crown (rodent-like)'
+		[3] 'Ma15. Lower incisor robustness'
+		[4] 'Ma34. Lower p2'
+		[5] '2. Lower p3, presence'
+		[6] 'Ma38. Shape of p3'
+		[7] '3. Lower p4, serrated tooth'
+		[8] '4. Lower p4, serration count'
+		[9] '5. Lower p4, serrated tooth in lateral view'
+		[10] '6. Lower p4, number of roots'
+		[11] '7. Lower p4, posterobuccal basal cusp or ridge, presence'
+		[12] 'Ma44. Lower p4 anterior root - Exoedaenodont at crown-root junction'
+		[13] 'Ma45. Dorsal margin of p4 to m1'
+		[14] 'Ma46. p3/p4 maximum length ratio'
+		[15] '8. Lower m1, labial row, cusp formula'
+		[16] '9. Lower m1, lingual row, cusp formula'
+		[17] 'W119. Posterobuccal cingulid on m1'
+		[18] '10. Lower m1, lingual row, cusp formula:'
+		[19] '11. Lower m1, lingual row, cusp formula:'
+		[20] '12. Lower m1, lingual row, cusp formula:'
+		[21] 'Ma73. Ultimate lower molar (or m2) with multi-rows ? ratio of row length'
+		[22] 'Wa130. m2 : lingual cusp row: facing medially'
+		[23] 'Ma74. Cusp shape on lower molars'
+		[24] '13. Upper I2, enamel covering'
+		[25] '14. Upper I2, cusp number'
+		[26] 'Wa115. Two-cusped I2, the posterior cusp: position'
+		[27] '15. Upper I2, position'
+		[28] '16. Upper I2, orientation'
+		[29] '17. Upper I3, position'
+		[30] 'Ma20. Upper Incisor 3 (or ultimate upper incisor) morphology'
+		[31] 'Wa116. Upper incisor 3: form'
+		[32] 'Ma18. Diastema between Upper Incisor 2 and Incisor 3'
+		[33] 'Ma25. Ratio between I3 & first maxillary tooth vs. length of upper premolars and molars'
+		[34] '18. Upper P1, presence'
+		[35] '19. Upper P1, cusp number'
+		[36] '20. Upper P1, number of roots'
+		[37] '21. Upper P2, presence'
+		[38] '22. Upper P2, cusp number'
+		[39] '23. Upper P2, number of roots'
+		[40] '24. Upper P3, presence'
+		[41] '25. Upper P3, cusp number'
+		[42] '26. Upper P3, root number'
+		[43] 'Wa125. Penultimate upper premolar, outline'
+		[44] '27. Length of upper premolar tooth row to molar tooth row, ratio'
+		[45] '28. Upper P4, occlusal morphology'
+		[46] '29. Upper P4, labial row of cusps, presence'
+		[47] 'Ma30. Last upper premolar: number and length of cusp rows'
+		[48] '30. Upper P4, labial row, cusp formula'
+		[49] 'Ma31. P4 (or penultimate Upper Premolar) ? cusp number of the main labial cusp row'
+		[50] '31. Upper P4, middle row, cusp formula'
+		[51] '32. Upper P4, lingual row of cusps, presence'
+		[52] '33. Upper P4, lingual row, cusp formula'
+		[53] '34. Upper P4, root number'
+		[54] 'Wa124. Tooth crown of the ultimate upper premolar in lateral view, outline'
+		[55] 'Wa126. Ultimate upper premolar: the length to width ratio'
+		[56] 'C103. Length ratio (R) of ultimate vs. penultimate upper premolar'
+		[57] 'C104. Length ratio (R) of M1 to penultimate premolar'
+		[58] 'C105. Length ratio (R) of ultimate upper premolar vs. M1'
+		[59] '35. Upper M1, labial row, cusp formula'
+		[60] '36. Upper M1, middle row, cusp formula'
+		[61] '37. Upper M1, lingual row, cusp formula'
+		[62] '38. Upper M1, inner ridge length to total length of upper M1'
+		[63] 'Wa118. M1/m1 multiple accessory roots'
+		[64] 'C107. Length ratio (R) of M2 vs. M1'
+		[65] '39. Width of upper P4?M1, ratio'
+		[66] '40. Upper M2, labial row, cusp formula'
+		[67] '41. Upper M2, middle row, cusp formula'
+		[68] '42. Upper M2, lingual row, cusp formula'
+		[69] 'Ma62. Anterior end of middle valley of Upper M2'
+		[70] 'Ma63. Middle valley of Upper M1'
+		[71] 'Ma64. Curvature of lingual cusp row'
+		[72] 'Ma65. M2 middle valley posterior end'
+		[73] 'Ma76. Molar enamel surface'
+		[74] 'Ma77. Enamel microstructure'
+		[75] '43. Skull width to skull length ratio'
+		[76] '44. Width of snout:skull length ratio:'
+		[77] 'Ma89. Snout length'
+		[78] '45. Ridge between palate and lateral wall of premaxilla, presence'
+		[79] '46. Thickenings in palatal process of premaxilla, presence'
+		[80] '47. Incisive foramen, size'
+		[81] 'Ma95. Incisive foramen positioned'
+		[82] '48. Palatal vacuities, presence'
+		[83] '49. Postpalatine torus, presence'
+		[84] '50. Postpalatine torus, development'
+		[85] '51. Minor palatine foramen, alisphenoid contribution'
+		[86] '52. Nasal foramina, number per side'
+		[87] '53. Infraorbital foramen, position in lateral view'
+		[88] '54. Infraorbital foramen, visibility in ventral view'
+		[89] '55. Secondary infraorbital foramen, presence'
+		[90] '56. Facial surface of lacrimal, size and shape'
+		[91] '57. Base of zygomatic arch as marked by posterior edge'
+		[92] '58. Zygomatic process of squamosal, anterior extent'
+		[93] 'Ma83. Curvature of anterior zygomatic root'
+		[94] '59. Frontal-nasal suture, shape'
+		[95] '60. Midline crest on vomer posterior to choanae, presence'
+		[96] '61. Postorbital process, size'
+		[97] '62. Supraorbital notch, presence'
+		[98] 'Ma87. Bony roof over anterior orbital space'
+		[99] '63. Frontal-parietal suture, shape'
+		[100] '64. Contact between nasal and parietal, presence'
+		[101] '65. Foramen masticatorium, position'
+		[102] 'Ma96. Foramen ovale inferium placement'
+		[103] '66. Anterior part of promontorium, shape'
+		[104] '67. Hiatus Fallopii, visible in ventral view'
+		[105] '68. Tensor tympani fossa on lateral side of promontorium, depth'
+		[106] '69. Jugular fossa, size and depth'
+		[107] '70. Posttemporal foramen, size'
+		[108] 'Ma99. Glenoid fossa length-width ratio'
+		[109] '71. Coronoid process, angle relative to tooth row'
+		[110] '72. Coronoid process, shape'
+		[111] '73. Angle between the ventral margin of dentary and occlusal plane'
+		[112] '74. Mandibular condyle, height to coronoid process'
+		[113] 'Wa108. Masseteric ridge'
+		[114] 'Wa109. Masseteric fovea in front of masseteric fossa'
+		[115] 'Wa110. Coronoid process'
+		[116] 'Wa111. Dorsal margin of the posterior part of mandible: neck'
+		[117] 'Wa112. Mandibular condyle, size, relative to mandible size'
+		[118] 'Wa113. Mandibular condyle: orientation'
+		[119] 'Wa120. Post-trigeminal canal'
+		[120] 'Wa121. Stapedial groove'
+		[121] 'Wa122. Stapes form'
+	;
+	STATELABELS
+		1
+			'thickness uniform'
+			'thicker on labial surface than on lingual surface'
+			'completely restricted to labial surface'
+			,
+		2
+			'Rounded'
+			'Strongly laterally compressed'
+			,
+		3
+			'Robust'
+			'Gracile'
+			,
+		4
+			'Present'
+			'Absent'
+			,
+		5
+			'present'
+			'absent'
+			,
+		6
+			'Single row of cusps'
+			'Blade-like rectangular'
+			'Blade­like triangular'
+			'Peg-like'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'five or fewer'
+			'six to ten'
+			'more than ten'
+			,
+		9
+			'rectangular'
+			'arcuate'
+			'trapezoidal'
+			,
+		10
+			'one'
+			'two'
+			'three'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'Absent'
+			'Present'
+			,
+		13
+			'On the level of molars'
+			'Protruding dorsally over molars'
+			,
+		14
+			'Above 0.7'
+			'0.7?0.4'
+			'0.39?0.11'
+			'0.10 or less'
+			,
+		15
+			'four'
+			'five'
+			'six'
+			'seven'
+			,
+		16
+			'three'
+			'four'
+			'five'
+			'six'
+			'seven or more'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'less than 0.6'
+			'0.6 to 1.7'
+			'greater than 1.7'
+			,
+		19
+			'two'
+			'three'
+			'four'
+			'five'
+			'six'
+			,
+		20
+			'two'
+			'three'
+			'four'
+			'five'
+			'six'
+			,
+		21
+			'Labial cusp row about equal as lingual cusp row'
+			'Labial row is longer (by at least half-cusp length) than lingual row'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'Conical'
+			'Crescentic'
+			'Inflated'
+			,
+		24
+			'thickness uniform'
+			'thicker on labial surface than on lingual surface'
+			'completely restricted to labial surface'
+			,
+		25
+			'two'
+			'one'
+			,
+		26
+			'Small cuspule, close to the tip of tooth crown; (as seen in Jeholbaatar)'
+			'Small cuspule, more posterodorsal to the tip of tooth crown; (as seen in Kuehneodon)'
+			,
+		27
+			'separated from midline by equal to or greater than the tooth?s width'
+			'separated from midline by less than the tooth?s width'
+			,
+		28
+			'more vertical'
+			'more medially directed'
+			,
+		29
+			'located on margin of palate'
+			'slightly shifted from labial margin'
+			'in middle of palatal part of premaxilla'
+			,
+		30
+			'Single cusped or peg-like'
+			'2-cusped'
+			'3?4-cusped'
+			,
+		31
+			'Conical'
+			'Triangular or trapezoidal'
+			'Transversely wide and anteroposteriorly compressed'
+			,
+		32
+			'No large diastema between the second incisor and third upper incisors'
+			'I2-I3 diastema'
+			,
+		33
+			'Below 0.09'
+			'Between 0.1?0.19'
+			'0.2 or above'
+			,
+		34
+			'present'
+			'absent'
+			,
+		35
+			'three'
+			'four'
+			,
+		36
+			'one'
+			'two'
+			,
+		37
+			'present'
+			'absent'
+			,
+		38
+			'three'
+			'four'
+			'five or more'
+			'six'
+			,
+		39
+			'two'
+			'one'
+			,
+		40
+			'present'
+			'absent'
+			,
+		41
+			'two'
+			'three'
+			'four'
+			'five'
+			'six'
+			,
+		42
+			'two'
+			'one'
+			,
+		43
+			'triangular or square'
+			'rectangular with length greater than width'
+			,
+		44
+			'1.5 to 0.5'
+			'less than 0.5'
+			,
+		45
+			'multiple rows of cusps'
+			'one row of cusps'
+			,
+		46
+			'present'
+			'absent'
+			,
+		47
+			'Two main and equal rows of cusps'
+			'Two equal rows of cusps and a continuous row of labial cingular cuspules or cingulum'
+			'One main row and a shorter buccal row (anterior or posterior)'
+			'One main row only'
+			,
+		48
+			'one'
+			'two'
+			'three'
+			,
+		49
+			'1?4'
+			'5?8'
+			'9?10'
+			,
+		50
+			'four or five'
+			'six'
+			'seven or eight'
+			'nine or more'
+			,
+		51
+			'present'
+			'absent'
+			,
+		52
+			'one'
+			'two'
+			'three or more'
+			,
+		53
+			'two'
+			'one'
+			'three'
+			,
+		54
+			'relatively flat or conical'
+			'triangular'
+			,
+		55
+			'<1.4'
+			'1.4-1.7'
+			'>1.7'
+			,
+		56
+			'subequal (R = 1-1.25)'
+			'penultimate premolar lengthened, R < 1'
+			'enultimate premolar shortened, 3 > R> 1.25'
+			'penultimate premolar strongly shortened, R > 3'
+			'penultimate premolar lost, onlyone premolar present'
+			,
+		57
+			'roughly subequal, 1.5 > R > 1'
+			'penultimate premolar elongated, R < 1'
+			'penultimate premolar shortened, 3.5 > R > 1.5'
+			'penultimate premolar strongly shortened, R > 3.5'
+			'penultimate premolar lost, only one premolar present'
+			,
+		58
+			'premolar and molar subequal, R < 1.5'
+			'ultimate premolar shortened, 3 > R > 1.5'
+			'ultimate premolar vestigial, R > 3'
+			,
+		59
+			'four'
+			'five'
+			'six'
+			'seven'
+			'eight or more'
+			,
+		60
+			'four'
+			'five'
+			'six'
+			'seven'
+			'eight'
+			'nine or more'
+			,
+		61
+			'ridge'
+			'one'
+			'two'
+			'three'
+			'four'
+			'five'
+			'six'
+			'seven or more'
+			,
+		62
+			'less than 0.5'
+			'greater than 0.5'
+			,
+		63
+			'Absent'
+			'Present'
+			,
+		64
+			'R > 0.7'
+			'M1 elongated, 0.7 > R > 0.5'
+			'M1 strongly elongated, R < 0.5'
+			,
+		65
+			'greater than or equal to 0.9'
+			'greater than or equal to 0.6 but less than 0.9'
+			'greater than 0.45 but less than 0.60'
+			'less than or equal to 0.45'
+			,
+		66
+			'ridge'
+			'one'
+			'two or more'
+			,
+		67
+			'two'
+			'three'
+			'four or more'
+			,
+		68
+			'two'
+			'three'
+			'four or more'
+			,
+		69
+			'Middle valley absent'
+			'Present as a uniform groove along most length but anterior end closed by a crescentic rim'
+			'Uniform valley anteriorly open'
+			,
+		70
+			'Middle valley absent'
+			'Valley present along the tooth length but its posterior end closed by a rim or rim with tiny cuspules'
+			'Valley present along most of the tooth length but posterior end closed by a single enlarged cusp in mid position'
+			'Uniform valley posteriorly open'
+			'Valley indistinctive owing to inflation of tooth cusps'
+			,
+		71
+			'Straight'
+			'Curved posterolabially'
+			,
+		72
+			'Valley posteriorly open'
+			'Valley closed by a posterior cusp'
+			'Valley absent due to inflation of tooth cusps'
+			,
+		73
+			'Not ornamented'
+			'Covered with grooves, pits and ridges'
+			,
+		74
+			'prismless'
+			'Gigantoprismatic'
+			'Small prismatic'
+			,
+		75
+			'equal to or less than 0.79'
+			'greater than 0.8'
+			,
+		76
+			'below 0.3'
+			'0.3?0.39'
+			'above 0.4'
+			,
+		77
+			'< 49 percent of total skull length'
+			'> 50 percent of skull length'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'absent'
+			'present'
+			,
+		80
+			'subequal to or greater than the length of I2 and I3'
+			'subequal to or less than the length of I2'
+			,
+		81
+			'Within premaxilla'
+			'Limited posteriorly by maxilla'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'developed laterally and with a ventral projection from the palate forming a distinctive bulge'
+			'strongly developed forming a raised, ornate, and sharply angled plate'
+			,
+		85
+			'present'
+			'absent'
+			,
+		86
+			'one'
+			'two'
+			'more than two'
+			,
+		87
+			'dorsal to P1'
+			'dorsal to P1?P2 embrasure'
+			'dorsal to P2'
+			'dorsal to P2?P3 embrasure'
+			'dorsal to P3 or more posterior'
+			,
+		88
+			'absent'
+			'present'
+			,
+		89
+			'present'
+			'absent'
+			,
+		90
+			'very small and arcuate'
+			'large, roughly rectangular'
+			,
+		91
+			'directly dorsal to P4'
+			'dorsal or posterior to P4?M1 embrasure'
+			,
+		92
+			'posterior to orbit'
+			'nearly contacting lacrimal and contributing to orbital rim'
+			,
+		93
+			'Zygomatic root aligned with (or lightly incurved into) facial part of rostrum'
+			'Zygomatic root is more transverse and deeply incurved with facial part of rostrum'
+			,
+		94
+			'frontal pointed anteriorly and not deeply inserted between the nasals'
+			'frontal pointed anteriorly and deeply inserted between the nasals'
+			'frontal with subtransversal anterior margins'
+			,
+		95
+			'present'
+			'absent'
+			,
+		96
+			'swelling'
+			'less than half orbit width but more than swelling'
+			'equal to or more than half orbit width'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'Absent'
+			'Present'
+			,
+		99
+			'V-shaped'
+			'U-shaped'
+			,
+		100
+			'absent'
+			'present'
+			,
+		101
+			'on lateral braincase wall'
+			'on basicranial surface'
+			,
+		102
+			'Medial to foramen masticatorium'
+			'Posterior to foramen masticatorium'
+			,
+		103
+			'oval'
+			'irregular with incurvatures on both sides'
+			,
+		104
+			'absent'
+			'present'
+			,
+		105
+			'deep'
+			'shallow'
+			,
+		106
+			'small and shallow'
+			'large and deep'
+			,
+		107
+			'large'
+			'small'
+			,
+		108
+			'Oval'
+			'Irregular within curvatures on both sides'
+			,
+		109
+			'steep, equal to 45 degrees or greater than 45 degrees'
+			'low, less than 45 degrees'
+			,
+		110
+			'angle between anterior and posterior edges less than or equal to 50 degrees'
+			'angle between anterior and posterior edges greater than 50 and less than 70 degrees'
+			'angle between anterior and posterior edges greater than 70 degrees'
+			,
+		111
+			'equal to or less than 10 degrees'
+			'greater than 10 and less than 20 degrees'
+			'greater than or equal to 20 degrees'
+			,
+		112
+			'mandibular condyle lower'
+			'mandibular condyle level with or higher'
+			,
+		113
+			'Weak'
+			'Prominent'
+			,
+		114
+			'Absent'
+			'Present'
+			,
+		115
+			'Relatively massive'
+			'Low and short'
+			'High and short'
+			,
+		116
+			'Shallow'
+			'Deep'
+			,
+		117
+			'Large'
+			'Small'
+			,
+		118
+			'Facing posteriorly'
+			'Facing dorsoposteriorly'
+			,
+		119
+			'Present'
+			'Absent'
+			,
+		120
+			'Absent'
+			'Present, running posterolaterally on the promontorium to the oval window'
+			'Present, runs wholly posterior to the oval window'
+			,
+		121
+			'Columelliform?macroperforate'
+			'Columelliform­microperforate (or imperforate)'
+			'Bicrurate-perforate'
+			'Bicrurate-perforate with a large posterior process'
+			,
+	;
+	MATRIX
+	'ptilodus'                            0011030201011321021010001?0101?1000101002000002121020012204551020212231012010000110-?140100000000000000?0001012000000011?
+	'Buginbaatar transaltaiensis'         21011?0002010?230111000?????????????????????00221100002??2346101321023000?????????????????00??????????????????1?10???????
+	'Lambdopsalis bulla'                  20011-1--0000-1100(2 3)010121-0?100021--1--1--?11-3-0---100442(2 3)(3 4)(5 6 7)101310(1 2)130001110100100-0240101?120000010?1001110110010110021
+	'Taeniolabis taoensis'                20011?1--1000?33?0(2 3 4)20?221-0100?021--1--1--111-(2 3)-0---1?04114571103122240201110000??0-??21101012?00001??????1?0100110110???
+	'Eucosmodon gratus'                   21011?020?110?32?120100?0????1???1--0010?1??0?2?????001???????0?0???23??01??????????????????????????????????122100???????
+	'Stygimys kuszmauli'                  21011?020?110?3201(1 2)0100?00??21?11000001021000021230000122133(2 3)0011(1 2)11230001?????011????001?0?0???????????????1?1?111100???
+	'Nemegtbaatar gobiensis'              200103010?110311011010021-??210?10010000(0 1)00000221(1 2)(0 1)0002230(2 3)(2 3)(4 5)10221102300010101111110022111000101011000000100121001100101?
+	'Kamptobaatar kuczynskii'             100103010??1030001??100?1-01210100010000200000221(0 1)1-00233111010121012300010101011010?(1 2)11110001010110000101001201011011?1?
+	'Bulganbaatar nemegtbaataroides'      ???????????????????????1????2????001000020000021201-0012201131?1110023000????111?1????1?1?0??????????????????????????????
+	'Nessovbaatar multicostatus'          ?00103010?1103000210100?????????????????????????????????????????????????????????????????????????????????????1211011111???
+	'Sloanbaatar mirabilis'               100103010?1103000100?00?1-112101200?00?020000021101-?022200000?1110123000?100111111??0111???01?101100?01??0002211011110??
+	'Chulsanbaatar vulgaris'              200103010?11030001(0 1)0100?1?1?2101001100002000002(1 2)1(0 1)1-00222(0 1)01100221(0 1)023001110011110100(1 2)01110001010110110001001111111010?11
+	'Kryptobaatar dashzevegi'             2001030102110300011010021?112101000100002000012-1001002220(0 1)(0 1)0002110(0 1)23000112111110110(1 2)11110001021110111001001100011000012
+	'Tombaatar sabuli'                    ???????????????????????21???210120011--02000002110??0022200120?1200123000????11110111111?10??1?????0?????????????????????
+	'Djadochtatherium matthewi'           2001030?0?10030001??10021-102101?0?10?00?0???????????????????????????????????111?????121110??1?2??10??????0?0?10111001???
+	'Mangasbaatar udanii'                 2001030012100300000010021-?1210120011--02000002000000022211130?1300123000?12111110111?2101000112?1101010110000100120110??
+	'Catopsbaatar catopsaloides'          20000300121003010(0 1)(0 1)010021-11210100?11--0?00?012-1000002220(1 2)(1 2)410132(0 1)(0 1)2300011211?100101(1 2)(0 4)1(0 1)1(0 1)10(0 1)?21110??1?11000020012111???
+	'Guibaatar castellanus'               (1 2)0010301021003000100?00(1 2)1-??210121--02003000002110000022211120??2???23??0???01111?1111310100011????010111??0001?012???0??
+	'Yubaatar zhongyuanensis'             20011-1101000-330122002??????????0?100002000??0?0???00203213(6 7)110?21223000??2??1??1101?40?01012000000??1111000010111001???
+	'Erythrobaatar ganensis'              20011-1001000-3401(3 4)(3 4)00221-11210121--0(1 2 3)00(2 3)00000020?01002232(1 2)37110122223010?0000001?0-1240101012000000?011110000001010010??
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-121;
+ENDBLOCK;
+BEGIN MESQUITE;
+
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1762159157635;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 6705937662835433636;
+			tell It;
+				setDefaultOrder  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 19 17 18;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 3909840762945010100;
+			tell It;
+				setDefaultOrder  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 54 55 56 57 58 53 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120;
+				attachments ;
+			endTell;
+			mqVersion 361;
+			checksumv 0 3 1461367504 null  getNumChars 121 numChars 121 getNumTaxa 20 numTaxa 20   short true   bits 2305843009213694207   states 255   sumSquaresStatesOnly 148151.0 sumSquares -2.121375568476597E20 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1920 961;
+			setLocation -8 0;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #3909840762945010100 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 110;
+					endTell;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1820 889;
+					setLocation -8 0;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames off;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Dark Gray;
+					removeColor on;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1820 889;
+						setLocation -8 0;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1- 121;
+ENDBLOCK;

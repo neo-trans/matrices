@@ -1,0 +1,204 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-4 18.49.45 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=15;
+	TAXLABELS
+		'Dinilysia patagonica'
+		'Palaeophis colossaeus'
+		'Palaeophis maghrebianus'
+		'Palaeophis africanus'
+		'Palaeophis vastaniensis'
+		'Palaeophis nessovi'
+		'Palaeophis toliapicus'
+		'Pterosphenus schucherti'
+		'Pterosphenus schweinfurthi'
+		'Pterosphenus kutchensis'
+		'Pterosphenus biswasi'
+		'Pterosphenus muruntau'
+		'Pterosphenus rannensis'
+		'Palaeophis typhaeus'
+		'Palaeophis oweni'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Shape of the zygosphene'
+		[2] 'Thickness of the zygosphene'
+		[3] 'Presence of the anterior hypapophysis on the anterior trunk vertebrae'
+		[4] 'Presence of the anterior hypapophysis on the vertebrae of the middle and posterior trunk region'
+		[5] 'Relative height of the neural canal in the middle trunk vertebrae in anterior view'
+		[6] 'Presence of the interzygapophyseal ridge'
+		[7] 'Shape of the centrum'
+		[8] 'Size of the prezygapophyses'
+		[9] 'Position of the prezygapophyses'
+		[10] 'Shape of the prezygapophyses'
+		[11] 'Position of synapophyses on middle trunk vertebrae'
+		[12] 'Extent of lateral flattening of the middle trunk vertebrae'
+		[13] 'Length of the centrum in the vertebrae which do not belong to the posterior trunk region in ventral view'
+		[14] 'Position of the neural spine'
+		[15] 'Presence of subcentral foramina'
+		[16] 'Development of the haemal keel on the middle trunk vertebrae'
+		[17] 'Shape of the condyle'
+		[18] 'Shape of the cross section of the centrum'
+		[19] 'Width of the neural canal in the middle part of the vertebra'
+		[20] 'Presence of subcentral crests on the anterior and middle trunk vertebrae'
+		[21] 'Width of the zygosphene'
+		[22] 'Height of the vertebra'
+		[23] 'Height of the neural arch'
+		[24] 'Shape of the neural canal in anterior view'
+		[25] 'Angle formed by the margins of the Vshaped incisure in the posterior part of the neural arch in the vertebrae which do not belong to the posterior trunk region'
+		[26] 'Shape of the posterior part of the neural arch in posterior view'
+		[27] 'Prezygapophyseal butress'
+		[28] 'Pterapophysis in precloacal vertebrae'
+		[29] 'Height of pterapophysis (PTH) relative to centrum length (CL)'
+		[30] 'Pterapophysis-postzygapophysis connection in lateral view'
+	;
+	STATELABELS
+		1
+			'dorsal surface of the zygosphene devoid of dorsoventrally high central crest'
+			'dorsal surface of the zygosphene bears dorsoventrally high central crest'
+			,
+		2
+			'zygosphene is thin (width is more than twice as great as the thickness)'
+			'zygosphene is thick (width is less than twice as great as the thickness)'
+			,
+		3
+			'vertebrae in the anterior part of the vertebral column lack anterior hypapophyses, which are much more developed than hypapophysis on other trunk vertebrae'
+			'vertebrae in the anterior part of the vertebral column have anterior hypapophyses, which are much more developed than that of other trunk vertebrae'
+			,
+		4
+			'anterior hypapophysis is absent'
+			'anterior hypapophysis is present'
+			,
+		5
+			'the height ratio of the neural canal and cotyle is more than 0.4'
+			'this ratio is less than 0.4'
+			,
+		6
+			'the ridge is absent or very weak'
+			'the ridge is well developed'
+			,
+		7
+			'condyle is positioned much lower than cotyle'
+			'condyle is positioned at the same level as cotyle'
+			,
+		8
+			'prezygapophyses are large (the ratio of the prezygapophysis length to the height of the cotyle is more than 0.7)'
+			'prezygapophyses are small (ratio of the prezygapophysis length to the height of the cotyle is less than 0.7)'
+			,
+		9
+			'the medial part of the articular surface of the prezygapophyses is positioned above the dorsal surface of the centrum'
+			'the medial part of the articular surface of the prezygapophyses is positioned at the level of the dorsal surface of the centrum'
+			,
+		10
+			'articular surfaces of the prezygapophyses are strongly inclined'
+			'articular surfaces of the prezygapophyses are positioned almost horizontally'
+			,
+		11
+			'synapophyses remain dorsal to ventral cotylar rim'
+			'synapophyses extend slightly for a short distance below ventral cotylar rim'
+			'synapophyses extend strongly below ventral cotylar rim'
+			,
+		12
+			'slightly flattened prW/cL >= 1'
+			'strongly flattened prW/cL < 1'
+			,
+		13
+			'less than the distance between the lateral margins of the synapophyses'
+			'more than the distance between the lateral margins of the synapophyses'
+			,
+		14
+			'anterior margin of spine does not extend up to dorsal margin of zygosphene'
+			'anterior margin of spine extends up to dorsal margin of zygosphene'
+			,
+		15
+			'subcentral foramina are absent'
+			'subcentral foramina are present'
+			,
+		16
+			'haemal keel is well developed, gradually passes into the posterior hypapophysis, which projects slightly more strongly than the haemal keel'
+			'haemal keel is poorly developed, projects to a considerably lesser extent than the posterior hypapophysis'
+			,
+		17
+			'condyle is inclined strongly anteriorly'
+			'condyle almost lacks anterior inclination'
+			,
+		18
+			'ovate'
+			'almost triangular'
+			,
+		19
+			'not wider than the centrum'
+			'much wider than the centrum'
+			,
+		20
+			'present'
+			'absent'
+			,
+		21
+			'zygosphene is wide (its width is more than half the distance between the lateral ends of the prezygapophyses)'
+			'zygosphene is narrow (its width is less than half of the distance between the lateral ends of the prezygapophyses)'
+			,
+		22
+			'distance between the lateral margins of prezygapophyses is more than the vertebral height from the ventral side of the cotyle to the dorsal margin of the zygosphene'
+			'distance between the lateral margins of prezygapophyses is less than the vertebral height from the ventral side of the cotyle to the dorsal margin of the zygosphene'
+			,
+		23
+			'the ratio of the distance from the dorsal side of the centrum to the dorsal margin of the zygosphene to the distance between the lateral margins of prezygapophyses is less than 0.4'
+			'this ratio is more than 0.4'
+			,
+		24
+			'lateral margins of the neural canal are strongly inclined'
+			'lateral margins of the neural canal are almost vertical'
+			,
+		25
+			'more than 105°'
+			'less than 105°'
+			,
+		26
+			'distance from the dorsal surface of the centrum to the dorsal margin of the zygantrum is greater than the distance from the dorsal margin of the zygantrum to the bases of pterapophyses'
+			'distance from the dorsal surface of the centrum to the dorsal margin of the zygantrum is less than the distance from the dorsal margin of the zygantrum to the bases of pterapophyses'
+			,
+		27
+			'buttress lacks convexity or weakly concave'
+			'buttress strongly convex'
+			,
+		28
+			'absent'
+			'present but remains below or at par with the dorsal zygosphenal margin'
+			'present and extends slightly above the dorsal zygosphenal margin'
+			'present and extends well above the dorsal zygosphenal margin'
+			,
+		29
+			'PTH/CL less than equal to 0.4'
+			'PTH/CL greater than 0.4 less than equal to 0.7'
+			'PTH/CL greater than 0.7'
+			,
+		30
+			'straight or weakly concave'
+			'markedly concave'
+			,
+	;
+	MATRIX
+	'Dinilysia patagonica'            000001100000001000001000??00??
+	'Palaeophis colossaeus'           01?010100010000110010010001210
+	'Palaeophis maghrebianus'         00?000100010001110011000001200
+	'Palaeophis africanus'            0010?11101???01?10010?101?1100
+	'Palaeophis vastaniensis'         00?0111000100011000100001012?0
+	'Palaeophis nessovi'              000011111011101110001000101100
+	'Palaeophis toliapicus'           0110001101??101?10011010001210
+	'Pterosphenus schucherti'         11?01011112111?100010111?10321
+	'Pterosphenus schweinfurthi'      11?11011012111?110010110?10321
+	'Pterosphenus kutchensis'         10?001111121111110010111101311
+	'Pterosphenus biswasi'            11?011111120011110010110101210
+	'Pterosphenus muruntau'           111011110100111110000110100211
+	'Pterosphenus rannensis'          111011110110010110010110001110
+	'Palaeophis typhaeus'             00?001110120000010000011101110
+	'Palaeophis oweni'                1010011?01??100110?0???0100120
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-30;
+ENDBLOCK;
