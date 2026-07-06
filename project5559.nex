@@ -1,0 +1,315 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.19.00 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=25;
+	TAXLABELS
+		'Angusaurus'
+		'Benthosuchus'
+		'Cherninia'
+		'Chomatobatrachus'
+		'Cyclotosaurus'
+		'Deltacephalus'
+		'Eryosuchus'
+		'Eocyclotosaurus'
+		'Lydekkerina'
+		'Mastodonsaurus'
+		'Odenwaldia'
+		'Benthosuchus madagascariensis'
+		'Paracyclotosaurus'
+		'Parotosuchus'
+		'Stenotosaurus'
+		'Tatrasuchus'
+		'Thoosuchus'
+		'Trematosaurus'
+		'Watsonisuchus'
+		'Wellesaurus'
+		'Wetlugasaurus'
+		'Konzhukovia'
+		'Rhineceps'
+		'Rhinesuchus'
+		'Uranocentrodon'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=47;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Snout'
+		[2] 'Postero-lateral skull corners'
+		[3] 'Otic notch'
+		[4] 'Tabular horns'
+		[5] 'Orbital margins'
+		[6] 'Postorbital-prepineal growth zone'
+		[7] 'Lateral line sensory canals'
+		[8] 'Lacrimal flexure of infraorbital sensory canal'
+		[9] 'Occipital sensory canal'
+		[10] 'Supraorbital sensory canal'
+		[11] 'Frontal'
+		[12] 'Supratemporal'
+		[13] 'Preorbital projection of jugal'
+		[14] 'Postorbital'
+		[15] 'Nares'
+		[16] 'Prefenestral division of palate'
+		[17] 'Occipital condyles'
+		[18] 'Choanal outline'
+		[19] 'Transvomerine tooth row'
+		[20] 'Anterior palatal vacuity'
+		[21] 'Suture between pterygoid and parasphenoid'
+		[22] 'Posterolateral process of vomer'
+		[23] 'Cultriform process of parasphenoid'
+		[24] 'Cultriform process of parasphenoid - 2'
+		[25] 'Ectopterygoid'
+		[26] 'Crista muscularis of parasphenoid'
+		[27] 'Crista muscularis of parasphenoid - 2'
+		[28] '''Pockets'''
+		[29] 'Exoccipital'
+		[30] 'Marginal teeth'
+		[31] 'Ectopterygoid tusks'
+		[32] 'Denticle field'
+		[33] 'Quadratojugal'
+		[34] 'Cheek region of skull'
+		[35] 'Posttemporal fenestrae'
+		[36] 'Tabular horns - 2'
+		[37] 'Oblique ridge of pterygoid'
+		[38] 'Crista muscularis of the parasphenoid'
+		[39] 'Basioccipital'
+		[40] 'Crista falciformis of the squamosal'
+		[41] 'Post-glenoid area'
+		[42] 'Hamate process of the prearticular'
+		[43] 'Posterior meckelian foramen'
+		[44] 'Labial wall of adductor fossa'
+		[45] 'Coronoid series'
+		[46] 'Prearticular'
+		[47] 'Glenoid fossa'
+	;
+	STATELABELS
+		1
+			'convex in outline dorsally'
+			'narrow, wedge-shaped'
+			,
+		2
+			'posterior to distal end of tabular horns'
+			'anterior to distal end of tabular horns'
+			,
+		3
+			'deeply incised into posterior border of skull table'
+			'reduced to an embayment'
+			,
+		4
+			'posteriorly directed'
+			'laterally directed'
+			'suturing with the squamosal posteriorly'
+			,
+		5
+			'flush with plane of skull roof'
+			'elevated above plane of skull roof'
+			,
+		6
+			'restricted to antorbital region of skull'
+			'present'
+			,
+		7
+			'weakly impressed, discontinuous'
+			'continuous, well impressed'
+			,
+		8
+			'absent'
+			'step-shaped'
+			'‘Z''-shaped'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'passes medial to lacrimal'
+			'enters lacrimal'
+			,
+		11
+			'excluded from medial border of orbit'
+			'enters medial border of orbit'
+			,
+		12
+			'enters margin of otic notch'
+			'excluded from margin of otic notch'
+			,
+		13
+			'abbreviated'
+			'elongated'
+			,
+		14
+			'unexpanded'
+			'moderately antero-laterally expanded'
+			'strongly antero-laterally expanded'
+			,
+		15
+			'oval-shaped'
+			'narrow, elongated'
+			,
+		16
+			'abbreviated'
+			'elongated'
+			,
+		17
+			'anterior to quadrate condyles'
+			'level with or posterior to quadrate condyles'
+			,
+		18
+			'oval-shaped'
+			'narrow, slitlike'
+			'sub-circular to circular'
+			,
+		19
+			'oriented transversely'
+			'V-Shaped'
+			,
+		20
+			'upaired'
+			'paired or bilobed'
+			,
+		21
+			'short'
+			'antero-posteriorly elongated'
+			,
+		22
+			'present'
+			'absent'
+			,
+		23
+			'extends beyond anterior border of interpterygoid vacuities'
+			'underplated by posterior extension of vomer'
+			,
+		24
+			'simple flattened bar'
+			'narrow, deep and ‘knife-edged’ ventrally'
+			,
+		25
+			'excluded from margin of interpterygoid vacuity'
+			'enters margin of interpterygoid vacuity'
+			,
+		26
+			'behind posterior border of pterygoid-parasphenoid suture'
+			'level with posterior border of pterygoid-parasphenoid suture'
+			,
+		27
+			'not confluent in midline'
+			'confluent in midline'
+			,
+		28
+			'situated obliquely to ventral surface of corpus of parasphenoid'
+			'situated on ventral surface of corpus of parasphenoid'
+			,
+		29
+			'does not suture with pterygoid ventrally'
+			'sutures with pterygoid ventrally'
+			,
+		30
+			'sub-circular or circular at base'
+			'strongly antero-posteriorly compressed at base'
+			,
+		31
+			'present in adults'
+			'absent in adults'
+			,
+		32
+			'present on pterygoid and parasphenoid'
+			'absent from pterygoid and parasphenoid'
+			,
+		33
+			'does not form part of upper jaw condyle'
+			'forms part of upper jaw condyle'
+			,
+		34
+			'smoothly rounded in occipital view'
+			'straight in occipital view'
+			,
+		35
+			'narrow and slitlike'
+			'triangular'
+			,
+		36
+			'small, triangular and supported from below by paroccipital process'
+			'large, elongated and partially supported from below by muscular ridges'
+			,
+		37
+			'poorly developed'
+			'tall, crest-like'
+			,
+		38
+			'visible in occipital view'
+			'not visible in occipital view'
+			,
+		39
+			'present'
+			'absent'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'poorly developed'
+			'well developed'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'short'
+			'elongated'
+			,
+		44
+			'horizontal'
+			'strongly convex dorsally'
+			,
+		45
+			'bears denticles'
+			'bears teeth'
+			,
+		46
+			'sutures anteriorly with splenial'
+			'does not suture anteriorly with splenial'
+			,
+		47
+			'above level of dorsal surface of dentary'
+			'below level of dorsal surface of dentary'
+			,
+	;
+	MATRIX
+	'Angusaurus'                         1110011111??0?????1??11111000000011101101011111
+	'Benthosuchus'                       1100101201??0?????1??11001000110011011111000110
+	'Cherninia'                          0101100200??1?????0??10001110111111011111??????
+	'Chomatobatrachus'                   0110000100??0?????0??10001000000001?0010???????
+	'Cyclotosaurus'                      0102000200??1?????0??1010111101111101111???????
+	'Deltacephalus'                      0110000200??0?????????000100001?0010001????????
+	'Eryosuchus'                         0101100200??1?????0??10001110111111011111100110
+	'Eocyclotosaurus'                    1102101201??1?????0??1110111111101101111???????
+	'Lydekkerina'                        0110000100??0?????0??10001000010001100101000110
+	'Mastodonsaurus'                     0101001201??0?????0??10001111111111011111111110
+	'Odenwaldia'                         110110?2?????????????????????1?????0???????????
+	'Benthosuchus madagascariensis'      0110000100??0?????1???00010000????1?001????????
+	'Paracyclotosaurus'                  0101100200??1?????0??100?1111111111011111100?10
+	'Parotosuchus'                       0100100200??1?????0??10001110111111011111100110
+	'Stenotosaurus'                      0102100200??1?????0??100?111?11111101111???????
+	'Tatrasuchus'                        0101000200??1?????0??10001110011111011111111110
+	'Thoosuchus'                         1100011111??0?????1??11111000000011101101011111
+	'Trematosaurus'                      1110011111??0?????-??1111---000011110-101011111
+	'Watsonisuchus'                      0100100200??1?????1??10001110111011011111100110
+	'Wellesaurus'                        0101000200??1?????0??10001111111111011111100110
+	'Wetlugasaurus'                      0100100200??1?????1??11001110110111011111100110
+	'Konzhukovia'                        0000000000??0?????0??1?00001001001010100???????
+	'Rhineceps'                          0000000000??0?????0??00000000000010100010000000
+	'Rhinesuchus'                        0000000000??0?????0??01000000010?1010001???????
+	'Uranocentrodon'                     0000000000??0?????0???0000000010?10100010000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-47;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -850037876; FileSettings editor '2' '48' '1' '0'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '194' '1' all; EditorPosition '45' '9' '529' '387'; TreeWindowPosition '98' '123' '514' '634'; ListWindow Characters closed Gadget '12' '50' '10' '253' '374' 000; ListWindow Taxa closed Gadget '9' '50' '10' '273' '309' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; TextWindow AboutFile '50' '25' '280' '445' Gadget '12' (normal) 1 ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '83' '1242' '203' '302'; WindowOrder Data States Text AboutFile; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '605' '44' '115' '165'; TreeToolsPosition '607' '5' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1100101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' (normal) Gadget '10' (normal) Gadget '9' (normal) Gadget '9' (normal) Gadget '9' (bold ) Gadget '9' (normal) Gadget '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Angusaurus, 2 Benthosuchus, 3 Cherninia, 4 Chomatobatrachus, 5 Cyclotosaurus, 6 Deltacephalus, 7 Eryosuchus, 8 Eocyclotosaurus, 9 Lydekkerina, 10 Mastodonsaurus, 11 Odenwaldia, 12 Benthosuchus_madagascariensis, 13 Paracyclotosaurus, 14 Parotosuchus, 15 Stenotosaurus, 16 Tatrasuchus, 17 Thoosuchus, 18 Trematosaurus, 19 Watsonisuchus, 20 Wellesaurus, 21 Wetlugasaurus, 22 Konzhukovia, 23 Rhineceps, 24 Rhinesuchus, 25 Uranocentrodon ; TREE * UNTITLED = [&R] (((23,(24)25),(((4,9),(12,6)),(((18)1)17,(((8)11,((19,(((13,(15,((3,(10,(16,5))))20)))7)14))21))2))))22; 
+ENDBLOCK;

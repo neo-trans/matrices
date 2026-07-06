@@ -1,0 +1,1008 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.06.12 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=41;
+	TAXLABELS
+		'Amia calva'
+		'Amia pattersoni'
+		'Anaethalion'
+		'Annaichthys'
+		'Ankylophorus'
+		'Ascalabos'
+		'Aspidorhynchus'
+		'Belonostomus'
+		'Catervariolus'
+		'Domeykos'
+		'Elops'
+		'Eurycormus'
+		'Ichthyokentema'
+		'Heterotis'
+		'Hiodon'
+		'Hypsocormus'
+		'Knerichthys'
+		'Lehmanophorus'
+		'Leptolepis coryphaenoides'
+		'Lepisosteus'
+		'Luisichthys'
+		'Lycoptera'
+		'Megalops'
+		'Obaichthys'
+		'Orthocormus'
+		'Pachycormus'
+		'Parapholidophorus'
+		'Dorsetichthys'
+		'Pholidophorus gervasuttii'
+		'Pholidophorus latiusculus'
+		'Pholidophoretes'
+		'Pholidoctenus'
+		'Pholidorhynchodon'
+		'Prohalecites'
+		'Protoclupea'
+		'Siemensichthys macrocephalus'
+		'Siemensichthys siemensi'
+		'Tharsis'
+		'Varasichthys'
+		'Vinctifer'
+		'Watsonulus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=167;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'All skull roof bones fused into a plate'
+		[2] 'Postparietal bones'
+		[3] 'Skull roof'
+		[4] 'Ratio of preorbital snout length to postorbital head length'
+		[5] 'Parietal bones acutely sharp anteriorly and sutured with rostral by a narrow contact'
+		[6] 'Roughly rhomboidal rostral bone with well-developed, distinct lateral processes'
+		[7] 'Large compound rostrodermethmoid'
+		[8] 'Teeth on rostrodermethmoid'
+		[9] 'Toothed lateral dermethmoids joined to premaxillaries laterally'
+		[10] 'Autosphenotic with small dermal component'
+		[11] 'Basisphenoid'
+		[12] 'Large orbitosphenoid bone'
+		[13] 'Supraoccipital bone'
+		[14] 'Occipital process formed by fusion of intercalar and autopterotic'
+		[15] 'Temporal boss (enlargement of temporal-supratemporal region)'
+		[16] 'Temporal boss'
+		[17] 'Extrascapular bone with a large rollover bony layer at the anterior region of the bone'
+		[18] 'Sutures between all cartilage bones in the braincase retained throughout life, rather than being lost ontogenetically'
+		[19] 'Interparietal [= interfrontal] suture'
+		[20] 'Nasal bones'
+		[21] 'Nasal bone with a large foramen forming the wall of the posterior nostril'
+		[22] 'Lateral margin of nasal bone joining medial margin of an elongate antorbital'
+		[23] 'Nasal bone forming part of the orbital margin'
+		[24] 'Vomer (in adult individuals)'
+		[25] 'Parasphenoid'
+		[26] 'Long parasphenoid extending posterior to basioccipital'
+		[27] 'Primary bite between parasphenoid and basihyal'
+		[28] 'Ossified aortic canal'
+		[29] 'Canals for occipital arteries in basioccipital bone'
+		[30] 'Spiracular canal'
+		[31] 'Anterior myodome'
+		[32] 'Foramen for glossopharyngeal nerve positioned in exoccipital'
+		[33] 'Foramen for vagus nerve placed in posterolateral face of exoccipital alone'
+		[34] 'Supraorbital canal with'
+		[35] 'Supraorbital canal and infraorbital canal'
+		[36] 'Middle pit-line groove crossing the dermopterotic (or pterotic)'
+		[37] 'Skull roof bones covered by layer of ganoine densely ornamented with ridges and/or tubercles of ganoine'
+		[38] 'Antorbital bone'
+		[39] 'Antorbital bone: carrying a bony enclosed portion of the infraorbital sensory canal (= antorbital branch)'
+		[40] 'Tube-like canal canal bearing anterior arm of antorbital'
+		[41] 'A long, narrow tube-like infraorbital 1'
+		[42] 'Posterior region of infraorbital 3 extending below suborbital bone and reaching anterior margin of preopercle'
+		[43] 'Narrow, long infraorbital (3 plus 4 and 5) forming the ventro-posterior part of circumorbital ring'
+		[44] 'Fourth infraorbital bone'
+		[45] 'Fourth and fifth infraorbital bones'
+		[46] 'More than six small, roughly posterodorsal infraorbital bones'
+		[47] 'Suborbital(s)'
+		[48] 'One or two accessory suborbital bones positioned ventrolateral to postorbital region of skull roof'
+		[49] 'Supraorbital bones'
+		[50] 'Sclerotic ring'
+		[51] 'Elongated jaws bearing numerous villiform teeth'
+		[52] 'Premaxillary teeth'
+		[53] 'Ascending process on premaxilla'
+		[54] 'Premaxilla forming a rostral tube that projects into the ethmoidal region'
+		[55] 'Mobile premaxilla'
+		[56] 'Maxilla'
+		[57] 'Posterior margin of maxilla'
+		[58] 'Supramaxillary process on dorsal margin of maxilla'
+		[59] 'Supramaxillary bone(s)'
+		[60] 'Long supramaxillary bone covering most of dorsal margin of maxilla'
+		[61] 'Supramaxillary bone'
+		[62] 'Quadrate-mandibular articulation'
+		[63] 'Articular bone'
+		[64] 'Postarticular process of lower jaw'
+		[65] 'Notch (= ‘leptolepid’ notch) in the ascending margin of dentary'
+		[66] 'Coronoid bone(s) in lower jaw'
+		[67] 'Surangular bone in lower jaw'
+		[68] 'Prearticular bone in lower jaw'
+		[69] 'Coronoid process of lower jaw formed by'
+		[70] 'A well-developed, protruding lateral bony ridge extending along the dentary and separating dental and splenial regions'
+		[71] 'Toothed predentary in lower jaw'
+		[72] 'Predentary'
+		[73] 'Maxilla heavily ornamented with characteristic longitudinal ridges of ganoine'
+		[74] 'Supramaxilla(e) heavily ornamented with characteristic longitudinal or concentric ridges of ganoine'
+		[75] 'Autopalatine bone'
+		[76] 'Elongation of the suspensorium due to the posteroventral inclination of the hyomandibula'
+		[77] 'Hyomandibular bone with a preopercular process at its posterior margin'
+		[78] 'Elongated posterodorsal or posteroventral process of quadrate (depending on the angle of the quadrate)'
+		[79] 'Symplectic'
+		[80] 'Symplectic - 2'
+		[81] 'Quadrate and metapterygoid'
+		[82] 'Two ossified hypohyals'
+		[83] 'Urohyal formed as an unpaired tendon bone of the sternohyoideus muscle'
+		[84] 'Anterior extent of preopercle'
+		[85] 'Posteroventral region of preopercle'
+		[86] 'Preopercular sensory canal with long tubules opening on the ventral and posteroventral borders of the preopercle'
+		[87] 'Very posterior position of the preopercular sensory canal in a peculiarly shaped preopercle'
+		[88] 'Preopercle with a notch at its anteroventral margin and inverted heart-like shape'
+		[89] 'Notch at the posteroventral margin of preopercle'
+		[90] 'Crescent-shaped preopercle'
+		[91] 'Irregular parallelogram, oval, or kidney-shaped opercular bone'
+		[92] 'Interopercle'
+		[93] 'Median gular plate'
+		[94] 'Two vertebral centra fused into occipital condyle in adults'
+		[95] 'Opisthoceolous centra with convex anterior articular surface and concave posterior surface'
+		[96] 'Each vertebral centrum of the caudal region of adult individuals formed by'
+		[97] 'Mid-caudal vertebral autocentra'
+		[98] 'Walls of mid-caudal centra'
+		[99] 'Notochord strongly constricted by the walls of the centra'
+		[100] 'Diplospondyly in mid-caudal region'
+		[101] 'Neural spines of caudal vertebrae'
+		[102] 'Long epineural process of neural arch in adult individuals'
+		[103] 'Epipleural intermuscular bones'
+		[104] 'Epipleural intermuscular bones - 2'
+		[105] 'Posttemporal with a small body and distinct, strong, sharp dorsal process to articulate with cranium'
+		[106] 'Supracleithrum with main lateral line emerging'
+		[107] 'Postcleithrum'
+		[108] 'Serrated appendages'
+		[109] 'Clavicle articulated to the anteroventral margin of cleithrum'
+		[110] 'Four pectoral proximal radials'
+		[111] 'Pectoral propterygium fused with first ray'
+		[112] 'A compound first pectoral ray fused with basal fulcra'
+		[113] 'Pectoral axillary process'
+		[114] 'Fringing fulcra associated with the leading margin of the pectoral fin'
+		[115] 'Pectoral fin scythe-like'
+		[116] 'Pelvic axillary process'
+		[117] 'Pelvic axillary process formed by'
+		[118] 'Dorsal fin placed posteriorly, closer to caudal fins than to pelvic fins'
+		[119] 'Fringing fulcra on leading margin of dorsal fin'
+		[120] 'Fringing fulcra on leading margin of anal fin'
+		[121] 'Preural vertebrae (excluding preural centrum 1) of adult individuals with haemal arches'
+		[122] 'Neural spine of preural centrum 2'
+		[123] 'Neural spine of preural centrum 1'
+		[124] 'Parhypural in adults'
+		[125] 'Neural spine of ural centrum 1 (diural terminology; adults)'
+		[126] 'Neural arch over first ural centrum (adults)'
+		[127] 'Number of ural centra (in adults)'
+		[128] 'Cartilaginous ‘elopomorph’ neural arch above ural centra'
+		[129] 'Number of epural(s)'
+		[130] 'Some of the preural neural arches modified as uroneural-like bones'
+		[131] 'Only ural neural arches modified as uroneurals'
+		[132] 'Number of ural neural arches modified as uroneurals'
+		[133] 'Anterior most uroneurals present as'
+		[134] 'All uroneurals'
+		[135] 'Two uroneurals (rather than three or four) extending beyond the second ural centrum'
+		[136] 'Hypural 8'
+		[137] 'Hypural 7'
+		[138] 'Hypural 6'
+		[139] 'Hypurals fused into a plate'
+		[140] 'Bases of hypurals 1 and 2'
+		[141] 'A diastema between hypurals 2 and 3'
+		[142] 'Arrangement of hypurals and caudal fin rays'
+		[143] 'Epaxial caudal basal fulcra'
+		[144] 'Hypaxial basal fulcra'
+		[145] 'Epaxial basal fulcra or epaxial procurrent rays are in close proximity to'
+		[146] 'Epaxial procurrent rays'
+		[147] 'Long and narrow fringing fulcra'
+		[148] 'Number of principal caudal rays'
+		[149] 'First and last principal caudal rays forming the leading margins of the caudal fin'
+		[150] 'Dorsal processes of the bases of the innermost principal caudal rays of dorsal lobe of the caudal fin'
+		[151] 'All or some principal caudal rays with:'
+		[152] 'Tendon-bone ‘urodermals’'
+		[153] 'One large dorsal scute preceding caudal fin'
+		[154] 'Posterior margin of caudal fin convexly rounded'
+		[155] 'Caudal fin homocercal (internally)'
+		[156] 'Scales'
+		[157] 'Cycloid scales with circuli crossed by transverse lines in the middle field'
+		[158] 'Cycloid scale with crenulate posterior margin'
+		[159] 'Ganoid scales with posterior margin'
+		[160] 'Ganoid scales with'
+		[161] 'Layer of ganoine on scales densely ornamented with ridges and/or tubercles of ganoine'
+		[162] 'Three rows of ganoid mid-flank scales distinctively deeper than long between the postcleithra and midpoint of the body length'
+		[163] 'Narrow separation between olfactory organ and eye'
+		[164] 'Accessory nasal sacs'
+		[165] 'Craniotemporal muscle'
+		[166] 'Very elongate, needle-like body'
+		[167] 'Body'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'independent'
+			'fused to each other'
+			'fused with other skull bones'
+			,
+		3
+			'no distinct broadening between orbital and postorbital regions'
+			'orbital region slightly narrower than postorbital one'
+			'narrow orbital region versus a broad postorbital region—about four times broader or more'
+			,
+		4
+			'less than 1.2'
+			'1.5 or greater'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'uniform in size'
+			'combination of large tusk-like tooth and small dentition'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'present'
+			'absent'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'poorly developed, scarcely rising above the surface of the skull roof'
+			'well developed, extending above and in front of postparietal region'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'smooth'
+			'serrated'
+			'absent'
+			,
+		20
+			'joined in midline'
+			'completely separated from each other by the parietal bones [= frontals of tetrapods]'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'paired'
+			'unpaired'
+			,
+		25
+			'with small teeth'
+			'toothless'
+			'with large teeth'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'present'
+			'absent'
+			,
+		29
+			'present'
+			'absent'
+			,
+		30
+			'developed'
+			'greatly reduced'
+			'absent'
+			,
+		31
+			'present'
+			'absent'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'branched tubules'
+			'simple tubules'
+			,
+		35
+			'join within the parietal (= frontals of tetrapods) bone'
+			'within the dermopterotic'
+			'within the dermosphenotic'
+			'do not join'
+			,
+		36
+			'present'
+			'absent'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'present'
+			'absent'
+			,
+		39
+			'antorbital branch present'
+			'antorbital branch absent'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present'
+			'no suborbital or tube-like infraorbital'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'small'
+			'expanded, broad bone'
+			'bone is fused with another infraorbital or has some other morphology'
+			,
+		45
+			'separated'
+			'fused forming an expanded bone'
+			'bones are fused with another infraorbital or have some other morphology'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'none'
+			'one'
+			'two or three'
+			'many'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'two or more'
+			'one'
+			'none'
+			,
+		50
+			'absence of bones'
+			'complete ring of two sclerotic bones oriented anterior and posterior to eye'
+			'an incomplete ring of two sclerotic bones oriented anterior and posterior to eye'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'placed at an angle of about 90 degrees to the premaxilla'
+			'placed obliquely to the premaxilla (posteriorly directed teeth)'
+			,
+		53
+			'absent'
+			'present'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'elongate, extending behind orbit'
+			'moderately long, extending below the orbit'
+			'very short, anterior to orbit'
+			,
+		57
+			'rounded or straight'
+			'notched or concave'
+			'acute'
+			'irregularly shaped'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'one'
+			'none'
+			'two'
+			,
+		60
+			'absent'
+			'present'
+			,
+		61
+			'dorsal to maxilla'
+			'posterior to maxilla'
+			,
+		62
+			'posterior to orbit'
+			'below the posterior half of orbit'
+			'below anterior half of orbit'
+			'anterior to orbit'
+			,
+		63
+			'not fused with angular and/or retroarticular bones'
+			'fused with angular and retroarticular'
+			'fused with angular forming an anguloarticular'
+			,
+		64
+			'poorly developed or not developed'
+			'well developed'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'present'
+			'absent'
+			,
+		67
+			'present'
+			'absent'
+			,
+		68
+			'present'
+			'absent'
+			,
+		69
+			'surangular and dentary'
+			'surangular'
+			'dentary and angular'
+			'no process'
+			'only dentary'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'short, less than half the length of the premaxillary tube'
+			'almost as long as the premaxillary tube'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'absent'
+			'present'
+			,
+		75
+			'present'
+			'absent'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'absent'
+			'present'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'articulates with lower jaw'
+			'does not articulate with lower jaw'
+			,
+		80
+			'posterior to the posterior margin of quadrate'
+			'medial to the posterior margin of quadrate'
+			,
+		81
+			'close together and articulated with each other'
+			'distant to each other'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'not extending below anterior region of orbit'
+			'extending below anterior region of orbit'
+			,
+		85
+			'narrow or slightly expanded'
+			'broadly expanded in a distinct pattern'
+			,
+		86
+			'absent'
+			'present'
+			,
+		87
+			'absent'
+			'present'
+			,
+		88
+			'absent'
+			'present'
+			,
+		89
+			'absent'
+			'present'
+			,
+		90
+			'absent'
+			'present'
+			,
+		91
+			'absent'
+			'present'
+			,
+		92
+			'present'
+			'absent'
+			,
+		93
+			'present'
+			'absent'
+			,
+		94
+			'absent'
+			'present'
+			,
+		95
+			'absent'
+			'present'
+			,
+		96
+			'chordacentrum'
+			'chordacentrum surrounded by autocentrum'
+			'chordacentrum surrounded by arcocentra'
+			,
+		97
+			'thin and smooth'
+			'thick and sculptured'
+			,
+		98
+			'without cavities for adipose tissue'
+			'with cavities for adipose tissue'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'absent'
+			'present'
+			,
+		101
+			'paired'
+			'unpaired'
+			'State not mentioned in the article'
+			,
+		102
+			'absent'
+			'present'
+			,
+		103
+			'absent'
+			'present'
+			,
+		104
+			'few bones in the anterior caudal region'
+			'many bones'
+			,
+		105
+			'absent'
+			'present'
+			,
+		106
+			'at its upper half'
+			'at its posteroventral margin'
+			,
+		107
+			'one or two'
+			'three or more'
+			'none'
+			'State not mentioned in the article'
+			,
+		108
+			'anterior and posterior toothed elements present on the ventral arm of cleithrum'
+			'one long, toothed element covering the whole medial surface of cleithrum'
+			'one long, narrow element covering the medial border of cleithrum'
+			'absent'
+			,
+		109
+			'absent'
+			'present'
+			,
+		110
+			'absent'
+			'present'
+			,
+		111
+			'absent'
+			'present'
+			,
+		112
+			'absent'
+			'present'
+			,
+		113
+			'absent'
+			'present'
+			,
+		114
+			'present'
+			'absent'
+			,
+		115
+			'absent'
+			'present'
+			,
+		116
+			'absent'
+			'present'
+			'State not mentioned in the article'
+			,
+		117
+			'an elongate bony element'
+			'a combination of bony elements and modified scales'
+			'modified scales'
+			,
+		118
+			'present'
+			'absent'
+			,
+		119
+			'present'
+			'absent'
+			,
+		120
+			'present'
+			'absent'
+			,
+		121
+			'autogenous'
+			'laterally fused to their respective autocentra'
+			,
+		122
+			'as long as neural spine of preural centrum 3'
+			'shorter than neural spine of preural centrum 3'
+			,
+		123
+			'long, close or extending to the dorsal margin of the body'
+			'rudimentary or short'
+			'absent'
+			,
+		124
+			'autogenous'
+			'laterally fused with its centrum'
+			,
+		125
+			'absent'
+			'present'
+			'fused elements'
+			,
+		126
+			'complete'
+			'reduced or absent'
+			'fused elements'
+			,
+		127
+			'more than two'
+			'commonly two'
+			'no ural centra'
+			,
+		128
+			'absent'
+			'present'
+			,
+		129
+			'five or more'
+			'three or four'
+			'one'
+			'none'
+			,
+		130
+			'absent'
+			'present'
+			,
+		131
+			'absent, additional components included'
+			'present'
+			'uroneurals absent'
+			'State not mentioned in the article'
+			,
+		132
+			'none'
+			'seven or more'
+			'six'
+			'five or four'
+			'three or less'
+			,
+		133
+			'a group of three or four long separate elements'
+			'one or two long, separate uroneural(s)'
+			,
+		134
+			'inclined toward the horizontal, one beside the other'
+			'at different angles'
+			,
+		135
+			'absent'
+			'present'
+			,
+		136
+			'present in adult individuals'
+			'absent'
+			,
+		137
+			'present'
+			'absent'
+			,
+		138
+			'present'
+			'absent'
+			,
+		139
+			'absent'
+			'present'
+			,
+		140
+			'not joined by cartilage'
+			'joined by cartilage (and/or bone) in some growth stages'
+			,
+		141
+			'absent'
+			'present'
+			,
+		142
+			'each hypural normally articulated with one caudal ray'
+			'each hypural normally articulated with a few caudal rays'
+			'a hypural plate articulated with many rays'
+			,
+		143
+			'present'
+			'absent'
+			,
+		144
+			'present'
+			'absent'
+			,
+		145
+			'epurals and posterior uroneurals'
+			'neural spines, epurals, and posterior uroneurals'
+			,
+		146
+			'absent'
+			'present'
+			,
+		147
+			'absent'
+			'present'
+			'State not mentioned in the article'
+			,
+		148
+			'fewer than 19'
+			'27 to 30'
+			'20 to 26'
+			'19'
+			'more than 40 rays'
+			,
+		149
+			'absent'
+			'present'
+			,
+		150
+			'absent'
+			'present'
+			,
+		151
+			'straight segmentation'
+			'Z-like segmentation'
+			'State not mentioned in the article'
+			,
+		152
+			'none'
+			'two'
+			'one'
+			,
+		153
+			'absent'
+			'present'
+			,
+		154
+			'absent'
+			'present'
+			,
+		155
+			'absent'
+			'present'
+			'State not mentioned in the article'
+			,
+		156
+			'ganoid of lepisosteoid type'
+			'elasmoid of amioid type'
+			'elasmoid of cycloid type'
+			,
+		157
+			'absent'
+			'present'
+			'other type of scale'
+			,
+		158
+			'absent'
+			'present'
+			'other type of scale'
+			,
+		159
+			'smooth'
+			'serrated'
+			'other type of scale'
+			,
+		160
+			'smooth surface'
+			'ornamented surface'
+			'other type of scale'
+			,
+		161
+			'absent'
+			'present'
+			,
+		162
+			'absent'
+			'present'
+			,
+		163
+			'present'
+			'absent'
+			,
+		164
+			'absent'
+			'present'
+			,
+		165
+			'absent'
+			'present'
+			,
+		166
+			'absent'
+			'present'
+			,
+		167
+			'covered with scales'
+			'devoid of squamation'
+			,
+	;
+	MATRIX
+	'Amia calva'                        0(0 1)00000-0100000-0000010000000000000000010-01000020000000110000000000000-00000000000000000100010???11100-000000000100-01100000-0010-0---000000011-1-000000101----0-0000?
+	'Amia pattersoni'                   0000000-0100000-00000100000??0?0?00000010-01000020000000110000000000000-000000000000000001000?0???11100-0?0000000100-01100000-0010-0---000000011-1-?00000101----0-0??0?
+	'Anaethalion'                       0010000-00001?0-01010001000??2??113000000-0000000210101(0 1)002000?1?111200-000001110110000000000001111011101013011??10??11111111011101310100001110110031112101200--0-0??0?
+	'Annaichthys'                       1-10010-0??00?0-??-1101???0????????0101000000010?1001011002002101?0?110-00?0????0??000010000??00-00???????011????0010100??????????????????????00?00200001000--01110??0?
+	'Ankylophorus'                      00001?0-1?????0-0?01110??????????(0 1)?000?0000-10100?0010102?0101?0?????10-00?????1???0?0000000?????????????????????00??100??????????????????????00?00?0??01000--11010??0?
+	'Ascalabos'                         0010000-00?01?0-01010001?00??2?1?1?000?00-000000?2001011002001111111200-000001110110000000001001111011101013011?0100-11111111010101100000001110100-31111101210--0-0??0?
+	'Aspidorhynchus'                    02000-0-0000010-00110001000???00?0?00??-000000200100010000001000000?301000?000?000000010000(0 1)1?02-000(0 1)00-002?0?0?0100-000(0 1)0(1 2)0000030140001110?0100-10200000010--01110??0?
+	'Belonostomus'                      02010-0-00?0010-0011000?000???0001?001--000000201100010000001000000?301100?0001000000010000(0 1)1?02-000100-002?0???01?0-00000200000310400011100(0 1)100-01000000010--01000??1?
+	'Catervariolus'                     0000000-0001100-0?000001100?????1130?0000-1--0210?001010(0 1)0000100(0 1)000000-??00011100?00000000000011?01111001011?01000??10000?010000013000000000?00?0030??0?000--00010??00
+	'Domeykos'                          00100?0-00001?0-0101??01100??2?1?1??0???0-0?0000?20010??002001111111200-00?0?1110??011000000??0111101110??130???1101011110111010101101000001111101-2111??01211--0-0??0?
+	'Elops'                             0010000-0000100-0101000100011211113100000-01000012101010002000010111200-0000011101100(0 1)000000000111101111111301111101211101101011101310110001111111-31012101200--0-0110?
+	'Eurycormus'                        0000000-10?0000-00?1010?100??????02000000000001101000001002001?00?00?00-00?00??0?000000000000000-001110-?00??0010000-100012001000101000000001100100001101001----0-0??00
+	'Ichthyokentema'                    0010000-1000100-010000010001??01113000000000-010010010110000011?1011210-000001110??0000001000?0?0?0??0??1?030????000-100??????????????????????00??02??10?000--00000??00
+	'Heterotis'                         0000000-0000100-0100000110011201113101--1-0-10002000101?001--1010111400-00100111011000000?101001111011111?030110?10??0111000002030?0?-011101111111-01010101200--0-01100
+	'Hiodon'                            0010000-0000100-0101000120111201113101--1-0-100020001011001--1010111200-00100111011000000010100111101111101301101101201110011010201300?10001111111-01010101200--0-01100
+	'Hypsocormus'                       00000-11?0010011000100???00??00000??0???000001202101000000???00000?0300-00?1?0?????0000000000?------(1 2)00-0?????0?0?10-1??0000--2-0100------1--200-0040?0010?-----0-0??00
+	'Knerichthys'                       1-200?0-????0?0-??-1????????????????1?????????????00?0?0(1 2)?0000?01????10-11?????????000000000????????????0?0??????00??100?????-????????????????00?00100001000--111-0??00
+	'Lehmanophorus'                     00000?0-1?????0-0??1110??????????1?000?00?0?????0?0010102?2001???????10-?0?0???????000000000?????????????????????00??100??????????????????????00?0020??0?000--11110??00
+	'Leptolepis coryphaenoides'         0010000-0000100-0001000100000100013000000100001002001011002001111111210-000011110110000000000001000011101112011101011111111110101011100000010101000311?1101200--0-0??00
+	'Lepisosteus'                       0001000-0110000-000100000000001000100001--0--03-00?0000230(0 2)003000000100-00?00000100100000001011??000(0 1)00-000000000000-0000000100000-0----00000000-00000000000--000010000
+	'Luisichthys'                       0010000-00?0100-0101?001000112?111?10????-000000?200?01?002001?1?11?200-00?0?1110??01100000000011110111-1?1???1?110101110110011010131010000?111111-?1???101211--0-0??00
+	'Lycoptera'                         0010000-00001?0-01010001201??2???1?001--1-0-10002000101?001--1?00111200-001001110??0000000100?01(0 1)(0 1)(0 1)0111-?0130????10??011100110(0 1)020120001000?111111-01000101200--0-0??00
+	'Megalops'                          0010000-0000100-01?1000100011211113100000-00000012101010002001110111200-0000011101100000000000111101111101301111101211110111011101310110001111111-21012001200--0-01100?
+	'Obaichthys'                        0001000-0110000-00010000000???1?0?1001-1-?0--0?-20000002300003000?0?100-00?00000100100000000011??000100-000000000000-0000??00?0000-0---???000000-00000000000--01001??00
+	'Orthocormus'                       00000-11?001001(0 1)000100????0??00?00??0????00001202101000000???0?000???00-00???0?????0000000000?------100-0???????0110-1??0000--2-0100------1--200-004010010?-----0-0??00
+	'Pachycormus'                       00000-10?001001000010011?00??000?030000?00000120210000?000??10?00000300-00?1?0????00000000000?------100-0????10?0110-1??0000--2-0100------1--200-0040?0010?-----0-0??00
+	'Parapholidophorus'                 1-20110-00?00?0-1?-1001?1?0??????13100000(0 1)00001101001011002001?0100?110-11?00?000?00000100000?00-001100-00011?011001010000?01000?000---???000?00?00200001000--00010??00
+	'Dorsetichthys'                     0010100-0000100-0001000100000000003000000100001001001010002001111101110-10?001110?00010010000?00-00?1?0-000??11100010100011010?0(0 1)01??0?0000011000002010010?0--00000??00
+	'Pholidophorus gervasuttii'         1-20110-00?00?0-1?-1101?1?0??????1?010000000001101001010(1 2)02000?01?0?110-11?100(0 1)(0 1)00?0000010000?00-001100-00011?0110010100??????????????????????00?00200001000--01110??00
+	'Pholidophorus latiusculus'         1-201?0-?0????0-1?-1??1???0??????1300???010000100?00?010002000?01????10-11?0???????0000010000??0???????-??01?????00??100??????????????????????00?00200001000--00010??00
+	'Pholidophoretes'                   1-200?0-?0??0?0-1?-0(0 1)?1???0??????130000?010000100?00?0?110(0 2)001?0?????10-11?0???????0000001000?0????????-??01?????00??000??????????????????????00?002??001000--00010??00
+	'Pholidoctenus'                     1-20000-00?00?0-1?-0001?1?0??????13000000100001101001011(0 1)02001?01?0?110-11?0??(0 1)???00000001000?00-001100-00011?011001010000101000?000---???000?00?00(0 3)00001000--10010??00
+	'Pholidorhynchodon'                 1-20010-10?00?0-1?-1111?1000?????13010000100001101001010002000101000110-11?100??0?00000110000?00-00??00-0001100110010100??????????????????????00?00200001000--11110??00
+	'Prohalecites'                      0(0 1)00000-0??0000-0000010?100??????13(0 1)00000-0000200?0010?10010-0000?0?000-00?000???00000000100??00---1100-000??????000-0000110100000-----000000100-0000000000-------0??01
+	'Protoclupea'                       0010??0-?0?01?0-01010?0??00??2???130000??-000000?200?0???020-1111111200-00?0011101?011000000??011110111-111?0???110101110110?11010130010000?111101-21?1?101211--0-0??00
+	'Siemensichthys macrocephalus'      0200100-10?0100-01011101100?0?000(0 1)3000?00001(0 1)000110010102001-0101?00100-00?0?11101?0010000000002-00?11??1000??01000??1000??0??????????????????00?000?1101000--11000??00
+	'Siemensichthys siemensi'           ??00100-10????0-0?01?????????????(0 1)??00???0?1??00??00?0100001-010??00100-00?0?1?10??0010000000?????????????0??????00??100??????????????????????00?002??101000--00000??00
+	'Tharsis'                           0010000-0000100-0101000110011(1 2)01013000000-000000120010110020-1111111200-00001111011001100000000111101110101301110100-11101101010101101000001011110031111101200--0-0??00
+	'Varasichthys'                      0010000-0000100-0101000?11011211113000000-000000120010111020-1201111200-000001110110110000000001111011101113011?110101110?001110?011010??001111111121?11101211--0-0??00
+	'Vinctifer'                         02000-0-0000010-01110001100?02000??001--00000020110001000020-000011?301000?000000000001000?11002-000100-002?000?0100-000001011103014001111010101?10000100010--00000??00
+	'Watsonulus'                        0000000-0111000-000000000000?00???3011-1000000000?000000110000000000000-00?000000000000000100?0??????00-000?100?0000-000?????????????????????000?00?0?00?000--00000??00
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-167;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -814379353; FileSettings treewindow '1' '1' '1' '0'; Singles 010; Editor 00011001111111100100010010 '0' '72' Gadget '12' '180' '1' all; EditorPosition '134' '-1300' '954' '805'; TreeWindowPosition '244' '-1465' '891' '1390'; ListWindow Characters closed Gadget '12' '50' '10' '253' '624' 000; ListWindow Taxa closed Gadget '12' '50' '25' '270' '391' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '134' '185'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; TextWindow AboutFile '50' '25' '280' '445' Gadget '12' ( normal ) 1; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Gadget '12' '26' '76' '512' '475' '298'; WindowOrder Tree Text AboutFile; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '1039' '-176' '77' '85'; TreeLegendPosition '1004' '-274' '112' '93'; EditorToolsPosition '709' '790' '115' '165'; TreeToolsPosition '607' '5' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1100111; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' ( normal ) Gadget '10' ( normal ) Gadget '9' ( normal ) Gadget '9' ( normal ) Gadget '9' ( bold ) Gadget '9' ( normal ) Gadget '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '12' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1659387624790; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 5513930400129087312; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5184926310534260772; mqVersion 360; checksumv 0 3 2785446472 null getNumChars 167 numChars 167 getNumTaxa 41 numTaxa 41 short true bits 31 states 31 sumSquaresStatesOnly 17574.0 sumSquares 17574.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 227; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1329 711; setLocation 8 25; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5184926310534260772 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 246; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1102 639; setLocation 8 25; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 167; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Pholidophoridae_Arratia_2013.nex"'; ID 01825b35725a98; LINK Taxa = Taxa; TRANSLATE [0] 1 Amia_calva, [1] 2 Amia_pattersoni, [2] 3 Anaethalion, [3] 4 Annaichthys, [4] 5 Ankylophorus, [5] 6 Ascalabos, [6] 7 Aspidorhynchus, [7] 8 Belonostomus, [8] 9 Catervariolus, [9] 10 Domeykos, [10] 11 Elops, [11] 12 Eurycormus, [12] 13 Ichthyokentema, [13] 14 Heterotis, [14] 15 Hiodon, [15] 16 Hypsocormus, [16] 17 Knerichthys, [17] 18 Lehmanophorus, [18] 19 Leptolepis_coryphaenoides, [19] 20 Lepisosteus, [20] 21 Luisichthys, [21] 22 Lycoptera, [22] 23 Megalops, [23] 24 Obaichthys, [24] 25 Orthocormus, [25] 26 Pachycormus, [26] 27 Parapholidophorus, [27] 28 Dorsetichthys, [28] 29 Pholidophorus_gervasuttii, [29] 30 Pholidophorus_latiusculus, [30] 31 Pholidophoretes, [31] 32 Pholidoctenus, [32] 33 Pholidorhynchodon, [33] 34 Prohalecites, [34] 35 Protoclupea, [35] 36 Siemensichthys_macrocephalus, [36] 37 Siemensichthys_siemensi, [37] 38 Tharsis, [38] 39 Varasichthys, [39] 40 Vinctifer, [40] 41 Watsonulus; TREE Default_ladder = (1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,(18,(19,(20,(21,22))))))))))))))))))))); TREE Default_ladder = (1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,(18,(19,(20,(21,22))))))))))))))))))))); TREE UNTITLED = ((((((((((((((((((22,15),14),11),23),(((21,35),39),10)),38),3),6),19),13),28),(((5,18),36),37)),9),12),(4,((31,32),((30,((17,33),29)),27)))),34),(((7,40),8),((16,25),26))),(((1,2),41),(20,24))); 
+ENDBLOCK;

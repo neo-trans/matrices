@@ -1,0 +1,265 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.38.37 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=19;
+	TAXLABELS
+		'Outgroup'
+		'MA-PHQ-348'
+		'Dinaelurus'
+		'Nimravus intermedius'
+		'Nimravus brachyops'
+		'Eofelis'
+		'Dinailurictis bonali'
+		'Quercylurus major'
+		'Dinictis felina'
+		'Pogonodon'
+		'Nanosmilus kurteni'
+		'Hoplophoneus mentalis'
+		'Hoplophoneus primaevus'
+		'Hoplophoneus occidentalis'
+		'Hoplophoneus dakotensis'
+		'Eusmilus sicarius'
+		'Eusmilus cerebralis'
+		'Eusmilus bidentatus'
+		'Eusmilus villebramarensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=33;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Development of the mastoid, paroccipital and glenoid processes'
+		[2] 'Development of the coronoid process'
+		[3] 'Development of the flange on the mandible'
+		[4] 'Compression of the upper canines'
+		[5] 'Size of the lower canine'
+		[6] 'Shape of incisor arcades'
+		[7] 'Shape of the lower and upper incisors'
+		[8] 'Relationship between the jugal and the lacrymal'
+		[9] 'Posterior extension of nasals'
+		[10] 'Height of the sagittal crest'
+		[11] 'Shape of the sagittal crest'
+		[12] 'Fossa on the ventrointernal face of the zygomatic arch, below the postorbital process'
+		[13] 'Basioccipital ventral shape'
+		[14] 'Relationship between petrobasilar and posterior lacerate foramina'
+		[15] 'Fossa on the ventral face of the chin'
+		[16] 'Shape of the ventral rim of the mandible'
+		[17] 'P1'
+		[18] 'P2'
+		[19] 'Size of P3 vs. size of P4'
+		[20] 'Roots of P3'
+		[21] 'P4: the parastyle'
+		[22] 'P4: morphology and size of the protocone'
+		[23] 'P4: position of the protocone'
+		[24] 'M1: proportion and size of the protocone'
+		[25] 'M1: orientation of the crown'
+		[26] 'p1'
+		[27] 'p2'
+		[28] 'p3: height'
+		[29] 'p4: cingular cusps'
+		[30] 'p4: height'
+		[31] 'm1: metaconid'
+		[32] 'm1: trigonid proportion'
+		[33] 'm2'
+	;
+	STATELABELS
+		1
+			'no ventral projection of the glenoid pedicle and mastoid apophysis, plateform-like paroccipital process more or less posteroventrally and ventrally orientated'
+			'slight ventral projection of the glenoid pedicle, small plate-like paroccipital process posteroventrally orientated, very slight development and ventral projection of the mastoid apophysis'
+			'glenoid pedicle more developed and more ventrally projected than in state 1, reduced paroccipital process which only forms a short posteriorly orientated projection, mastoid apophysis more developed than in state 1, its ventral border lower than the ventral surface of the basioccipital and basisphenoid'
+			'great development and ventral projection of the glenoid pedicle which lies lower than the ventral basicranial surface, very reduced paroccipital process, great development and ventral projection of the mastoid apophysis, which is much lower than the ventral basicranial surface'
+			'greater development and ventral projection of the glenoid pedicle and mastoid apophysis than in state 3, paroccipital process almost invisible'
+			,
+		2
+			'tall and expanded coronoid process, with rounded tip and nearly vertically or slightly backwardly orientated posterior border'
+			'process slightly reduced, as in extant felids, backwardly orientated posterior border'
+			'process orientated as in state 1 but process lower'
+			'process with rounded tip, strongly reduced (i.e. very low), with nearly vertically orientated posterior border'
+			'markedly more reduced than in state 3, forwardly orientated posterior border'
+			'extremely reduced process, lower than the alveolar border'
+			,
+		3
+			'no flange, the ventral rim of the chin is regularly curved'
+			'no flange but the ventral rim of the chin is distinctly angulate'
+			'short flange'
+			'deep flange, from 35 to 40% of the total length of the mandible'
+			'deeper flange, from 40 to 45% of the total mandibular length'
+			'extremely deep flange, more than 50% of the total mandibular length'
+			,
+		4
+			'upper canines a little flattened, ratio about 1.35'
+			'canines slightly compressed, ratio around 1.65 (range: 1.51–1.83)'
+			'higher ratio, around 1.9–1.95 (range: 1.7–2.08)'
+			'ratio 2.3 (range: 2.1–2.5)'
+			'very flattened canines, ratio 2.88 (range: 2.7–3.16)'
+			,
+		5
+			'large lower canine'
+			'lower canine shortened'
+			'lower canine very shortened'
+			,
+		6
+			'upper incisor arcade curved and lower incisor arcade not or little curved'
+			'upper and lower incisor arcades curved'
+			,
+		7
+			'spatulated incisors, with accessory denticules especially on the lower incisors; I3 slightly caniniform and distinctly larger than the other incisors'
+			'I3, i1–i3 caniniform'
+			'incisors all caniniform; i1 very transversely compressed and i3 nearly as large as the lower canine'
+			,
+		8
+			'sutural contact between the jugal and the lacrymal'
+			'no sutural contact'
+			,
+		9
+			'nasals extend beyond the maxillofrontal suture'
+			'nasals shortened, the posterior border lies across or anterior to the maxillofrontal suture'
+			,
+		10
+			'sagittal crest developed, at least posteriorly'
+			'sagittal crest strongly developed'
+			,
+		11
+			'crest approximately rectilinear in lateral view'
+			'crest distinctly concave'
+			,
+		12
+			'no fossa'
+			'presence of a marked fossa'
+			,
+		13
+			'lateral rim not or a little ventrally buttressed, the basicranium is planar or slightly depressed'
+			'basicranium distinctly depressed'
+			'basicranium strongly depressed'
+			,
+		14
+			'foramina confluent'
+			'basioccipital separates foramina'
+			'foramina separated by the basioccipital, canals as two distinct grooves'
+			,
+		15
+			'no fossa'
+			'fossa present and marked'
+			,
+		16
+			'ventral rim narrow'
+			'ventral rim thick'
+			,
+		17
+			'present'
+			'variably present'
+			'lost'
+			,
+		18
+			'present or rarely lost'
+			'very reduced and usually single-rooted or absent'
+			,
+		19
+			'P3 approximately as tall as P4'
+			'P3 distinctly lower than P4'
+			'P3 much lower than P4'
+			'P3 tiny, lower than the parastyle of P4'
+			,
+		20
+			'P3 two-rooted'
+			'P3 three-rooted'
+			,
+		21
+			'no parastyle or parastylar crest slightly prominent'
+			'no parastyle but a very prominent crest, with at least one notch present'
+			'parastyle present'
+			,
+		22
+			'protocone well developed and cusp-like'
+			'protocone reduced, short, crest-like'
+			'protocone strongly reduced, a fusion of the anterior roots of P4 may occur'
+			,
+		23
+			'well projected anterolingually, its anterior face is at or anterior to the anterior face of the paracone'
+			'little projected anterolingually, and posterior to the anterior face of the paracone'
+			,
+		24
+			'M1 triangular in shape, large and little transversely elongated'
+			'M1 transversely elongated, with a prominent protocone widely separated from the paracone'
+			'M1 transversely reduced, with low cusps and strongly reduced protocone'
+			,
+		25
+			'crown not vertically orientated'
+			'crown close to the vertical plane'
+			,
+		26
+			'present'
+			'variably present'
+			'lost'
+			,
+		27
+			'present'
+			'lost'
+			,
+		28
+			'p3 as tall as or slightly taller than p4'
+			'p3 distinctly lower than p4'
+			'p3 much lower than p4'
+			'p3 strongly reduced, single-rooted or absent'
+			,
+		29
+			'anterior cusp on p4 shorter than the posterior cusp'
+			'anterior cusp more elongated than the posterior cusp'
+			,
+		30
+			'p4 as tall as or taller than the paraconid of m1'
+			'the main cusp of p4 is lower than the paraconid of m1'
+			,
+		31
+			'metaconid present'
+			'no metaconid'
+			,
+		32
+			'trigonid length is about 80% of the total length of m1'
+			'this ratio is between 80 and 85%'
+			'this ratio is over 90%'
+			,
+		33
+			'm2 present and relatively large'
+			'm2 reduced; the paraconid and the protoconid may be distinct, as in Dinictis'
+			'variably present'
+			'rarely present; as in Hoplophoneus primaevus (8% of specimens; n = 61); or absent'
+			,
+	;
+	MATRIX
+	'Outgroup'                       000000000000000000000000000000000
+	'MA-PHQ-348'                     0??0????1???02??00?1??010????????
+	'Dinaelurus'                     1??0????0??111??210001021????????
+	'Nimravus intermedius'           111110000001111010000102110010111
+	'Nimravus brachyops'             111110000001111010000102120010112
+	'Eofelis'                        ?1111?????????0110010001010100112
+	'Dinailurictis bonali'           ??12?????1????01??110001000100113
+	'Quercylurus major'              ??1???????????0?201110010????????
+	'Dinictis felina'                222210100000110120100001020100011
+	'Pogonodon'                      222200100100110120100001020100012
+	'Nanosmilus kurteni'             3???11210???220121202102021200123
+	'Hoplophoneus mentalis'          334211210010220121202212021201023
+	'Hoplophoneus primaevus'         333211210010220121202212021201023
+	'Hoplophoneus occidentalis'      33321121001022012?202212021201023
+	'Hoplophoneus dakotensis'        334301210010220121?02212021301023
+	'Eusmilus sicarius'              445321210010220121302212121301023
+	'Eusmilus cerebralis'            44532120101?220121302212021301023
+	'Eusmilus bidentatus'            44531121001?220121302212?21301023
+	'Eusmilus villebramarensis'      4554?12??01?220121302212121301?23
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-33;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -997602419; FileSettings editor '1' '1' '34' '0'; Singles 010; Editor 0001101111111110010001001 '0' '72' Gadget '12' '180' '1' all; EditorPosition '44' '14' '427' '733'; TreeWindowPosition '46' '6' '624' '800'; ListWindow Characters open Gadget '12' '733' '502' '253' '374' 000; ListWindow Taxa open Gadget '12' '119' '333' '389' '343' 100000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '16' '607' '25' '305' '242'; WindowOrder Data States List Characters List Taxa; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '798' '29' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 0; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1582065236877; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 535956827769428084; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7101483306322923292; mqVersion 360; checksumv 0 3 1973778630 null getNumChars 33 numChars 33 getNumTaxa 19 numTaxa 19 short true bits 63 states 63 sumSquaresStatesOnly 12562.0 sumSquares 12562.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 35; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1280 649; setLocation 0 289; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7101483306322923292 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 154; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1245 577; setLocation 0 289; setFont Gadget; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #7101483306322923292 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1245 577; setLocation 0 289; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 33; 
+ENDBLOCK;

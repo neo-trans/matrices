@@ -1,0 +1,2021 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.47.57 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=74;
+	TAXLABELS
+		'Proterogryinus scheelei'
+		'Greererpeton burkemorani'
+		'Edops craigi'
+		'Cochleosaurus bohemicus'
+		'Dendrerpeton helogenes'
+		'Balanerpeton woodi'
+		'Trimerorhachis insignis'
+		'Acanthostomatops vorax'
+		'Zatrachys serratus'
+		'Micromelerpeton credneri'
+		'Apateon pedestris'
+		'Micropholis stowi'
+		'Platyrhinops lyelli'
+		'Doleserpeton annectens'
+		'Amphibamus grandiceps'
+		'Gerobatrachus hottoni'
+		'Dissorophus multicinctus'
+		'Cacops aspidephorus'
+		'Broiliellus texensis'
+		'Acheloma cumminsi'
+		'Phonerpeton pricei'
+		'Onchiodon labyrinthicus'
+		'Eryops megacephalus'
+		'Sclerocephalus haeuseri'
+		'Glanochthon latirostris'
+		'Archegosaurus decheni'
+		'Uranocentrodon senekalensis'
+		'Lydekkerina huxleyi'
+		'Siderops kehli'
+		'Batrachosuchus browni'
+		'Plagiosuchus pustuliferus'
+		'Sangaia lavina'
+		'Gerrothorax pulcherrimus'
+		'Edingerella madagascariensis'
+		'Benthosuchus sushkini'
+		'Trematosaurus brauni'
+		'Trematolestes hagdorni'
+		'Lyrocephaliscus euri'
+		'Callistomordax kugleri'
+		'Metoposaurus krasiejowensis'
+		'Parotosuchus nasutus'
+		'Paracyclotosaurus davidi'
+		'Cyclotosaurus intermedius'
+		'Mastodonsaurus giganteus'
+		'Chinlestegophis jenkinsi'
+		'Rileymillerus cosgriffi'
+		'Adamanterpeton ohioensis'
+		'Nigerpeton ricqlesi'
+		'Chenoprosopus milleri'
+		'Neldasaurus wrightae'
+		'Isodectes obtsusus'
+		'Acroplous vorax'
+		'Capetus palustris'
+		'Iberospondylus schultzei'
+		'Limnogyrinus elegans'
+		'Ecolsonia cutlerensis'
+		'Platyoposaurus stuckenbergi'
+		'Lapillopsis nana'
+		'Rhigerpeton isbelli'
+		'Rotaurisaurus contundo'
+		'UWBM middle Fremouw capitosaurs'
+		'UWBM vp 117460'
+		'Peltobatrachus pustulatus'
+		'Australerpeton cosgriffi'
+		'Rhineceps nyasaensis'
+		'Broomistega putterilli'
+		'Chomatobatrachus halei'
+		'Peltostega erici'
+		'Laidleria gracilis'
+		'Watsonisuchus aliciae'
+		'''Parotosaurus wadei'''
+		'Nanolania anatopretia'
+		'Benthosuchus juvenile'
+		'Deltacephalus whitei'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=345;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		[1] 'Skull (outline)'
+		[2] 'Skull (height)'
+		[3] 'Ornament (elements)'
+		[4] 'Ornament (snout)'
+		[5] 'Ornament (general)'
+		[6] 'Ornament (intensive growth)'
+		[7] 'Ornament (preorbital)'
+		[8] 'Spines'
+		[9] 'Preorbital region (length)'
+		[10] 'Premaxilla (posterior margin)'
+		[11] 'Premaxilla (prenarial portion)'
+		[12] 'Premaxilla (outline)'
+		[13] 'Premaxilla (foramen)'
+		[14] 'Snout (internarial distance)'
+		[15] 'Nasal (width)'
+		[16] 'Naris (position)'
+		[17] 'Naris (extension)'
+		[18] 'Naris (flange)'
+		[19] 'Nasal (lateral margin)'
+		[20] 'Lacrimal'
+		[21] 'Lacrimal (lateral suture)'
+		[22] 'Lacrimal (relative length)'
+		[23] 'Lacrimal (posterior extent)'
+		[24] 'Orbit and naris'
+		[25] 'Orbit location'
+		[26] 'Orbit margins'
+		[27] 'Palpebral ossifications'
+		[28] 'Pineal foramen (adults)'
+		[29] 'Interorbital distance'
+		[30] 'Frontal, nasal (length)'
+		[31] 'Frontal-nasal (suture)'
+		[32] 'Lateral line sulci (adults)'
+		[33] 'Sulci (skull roof)'
+		[34] 'Infraorbital sulcus'
+		[35] 'Supraorbital sulcus'
+		[36] 'Maxilla (anterior margin)'
+		[37] 'Maxilla-nasal'
+		[38] 'Prefrontal, frontal (anterior extent)'
+		[39] 'Prefrontal (anterior end)'
+		[40] 'Prefrontal (lateral suture with jugal)'
+		[41] 'Prefrontal (process)'
+		[42] 'Prefrontal-jugal'
+		[43] 'Prefrontal-maxilla'
+		[44] 'Posterior skull table (length)'
+		[45] 'Postorbital (posterior margin)'
+		[46] 'Postorbital (lateral process)'
+		[47] 'Postorbital, postfrontal (length)'
+		[48] 'Otic notch'
+		[49] 'Otic notch (position)'
+		[50] 'Supratemporal (proportions)'
+		[51] 'Supratemporal (lateral margin)'
+		[52] 'Supratympanic flange'
+		[53] 'Semilunar flange'
+		[54] 'Jugal (ventral process)'
+		[55] 'Jugal (anterior extent)'
+		[56] 'Jugal-lacrimal'
+		[57] 'Intertemporal'
+		[58] 'Parietal-postorbital'
+		[59] 'Squamosal-tabular (dorsal)'
+		[60] 'Tabular, squamosal'
+		[61] 'Squamosal (falciform crest)'
+		[62] 'Tabular horn'
+		[63] 'Tabular horn (extension)'
+		[64] 'Tabular (ventral crest)'
+		[65] 'Quadratojugal (medial process)'
+		[66] 'Quadratojugal-maxilla'
+		[67] 'Quadrate (dorsal process)'
+		[68] 'Posterior skull rim'
+		[69] 'Occipital flange'
+		[70] 'Postparietal-exoccipital'
+		[71] 'Posttemporal fenestra'
+		[72] 'Quadrate and occipital condyles'
+		[73] 'Epipterygoid'
+		[74] 'Dentition (marginal, size)'
+		[75] 'Dentition (marginal, tooth bases)'
+		[76] 'Palatal tusks (cross-section)'
+		[77] 'Dentition (marginal, pedicely)'
+		[78] 'Dentition (marginal, bicuspidity)'
+		[79] 'Dentition (marginal, labyrinthodonty)'
+		[80] 'Transverse tooth row (transvomerine)'
+		[81] 'Additional vomerine fangs'
+		[82] 'Parasphenoid (shagreen)'
+		[83] 'Ectopterygoid (fangs)'
+		[84] 'Interpterygoid vacuities (shape)'
+		[85] 'Interpgyoid vacuities, pterygoid'
+		[86] 'Anterior palatal opening(s)'
+		[87] 'Anterior palatal opening(s) (paired)'
+		[88] 'Vomer (shape)'
+		[89] 'Vomer (paired anterior depression)'
+		[90] 'Anterior palatal depression'
+		[91] 'Vomer (ridges)'
+		[92] 'Vomer (pit and fontanelle)'
+		[93] 'Vomer (septum)'
+		[94] 'Choana (orientation)'
+		[95] 'Choana (shape)'
+		[96] 'Vomer-pterygoid'
+		[97] 'Vomer (posteromedial process)'
+		[98] 'Vomer-palatine (suture)'
+		[99] 'Basipterygoid ramus'
+		[100] 'Basicranium (contact)'
+		[101] 'Basicranium (suture)'
+		[102] 'Parasphenoid-exoccipitals'
+		[103] 'Basicranium (carotids)'
+		[104] 'Parasphenoid (plate, proportions)'
+		[105] 'Parasphenoid (plate, width)'
+		[106] 'Parasphenoid (cultriform process, width)'
+		[107] 'Parasphenoid (cultriform process, structure)'
+		[108] 'Parasphenoid (cultriform process, outline)'
+		[109] 'Parasphenoid (plate, lateral notches)'
+		[110] 'Pterygoid (ventral ornament)'
+		[111] 'Pterygoid-exoccipital'
+		[112] 'Pterygoid-basioccipital'
+		[113] 'Pterygoid-squamosal'
+		[114] 'Pterygoid (flange)'
+		[115] 'Pterygoid (quadrate ramus, width)'
+		[116] 'Palatine ramus'
+		[117] 'Pterygoid-palatine-ectopterygoid'
+		[118] 'Palatine, ectopterygoid (suture)'
+		[119] 'Palatine, vomer (suture)'
+		[120] 'Palatine (LEP)'
+		[121] 'Palatine, ectopterygoid (ontogeny)'
+		[122] 'Palatine, ectopterygoid (width)'
+		[123] 'Palatine, ectopterygoid (continuous tooth row)'
+		[124] 'Ectopterygoid (length)'
+		[125] 'Ectopterygoid (LEE)'
+		[126] 'Ectopterygoid (Y-shaped)'
+		[127] 'Palate structure'
+		[128] 'Quadrate trochlea'
+		[129] 'Occipital condyle'
+		[130] 'Exoccpital condyles'
+		[131] 'Basioccipital (length)'
+		[132] 'Dentigerous palatal ossicles'
+		[133] 'Postglenoid area'
+		[134] 'Postglenoid area (type)'
+		[135] 'Postglenoid area (dorsal)'
+		[136] 'Hamate process'
+		[137] 'Preglenoid process'
+		[138] 'Meckelian window'
+		[139] 'Symphyseal teeth'
+		[140] 'Coronoids (denticles)'
+		[141] 'Coronoids (fangs)'
+		[142] 'Mandibular osteoderms'
+		[143] 'Stapes (quadrate process)'
+		[144] 'Stapes (ventral process)'
+		[145] 'Stapes (shape)'
+		[146] 'Stapes (curvature)'
+		[147] 'Ceratobranchials'
+		[148] 'Basibranchial'
+		[149] 'Hypobranchials'
+		[150] 'Branchial denticles'
+		[151] 'Presacral count'
+		[152] 'Caudal count'
+		[153] 'Transverse process (orientation)'
+		[154] 'Transverse process (length)'
+		[155] 'Neural spine (height)'
+		[156] 'Intercentrum (shape)'
+		[157] 'Intercentrum (width)'
+		[158] 'Intercentrum (ventral surface)'
+		[159] 'Intercentrum (anterior surface)'
+		[160] 'Parapophysis'
+		[161] 'Pleurocentrum'
+		[162] 'Pleurocentrum (lateral surface)'
+		[163] 'Pleurocentrum (ventral extension)'
+		[164] 'Ribs (curvature)'
+		[165] 'Ribs (ventral extension)'
+		[166] 'Ribs (uncinate blades)'
+		[167] 'Ribs (uncinate spines)'
+		[168] 'Cleithrum (dorsal head)'
+		[169] 'Cleithrum (dorsal head, anterior rim)'
+		[170] 'Cleithrum (dorsal head, dorsal extent)'
+		[171] 'Clavicle (ventral blade)'
+		[172] 'Interclavicle (length)'
+		[173] 'Interclavicle (ontogeny)'
+		[174] 'Interclavicle (central ornamented area)'
+		[175] 'Interclavicle (proportions)'
+		[176] 'Interclavicle (posterior margin)'
+		[177] 'Interclavicle (anterior margin)'
+		[178] 'Interclavicle (anterior stylus)'
+		[179] 'Interclavicle (posterior stylus)'
+		[180] 'Interclavicle, clavicles'
+		[181] 'Scapula (glenoid facet)'
+		[182] 'Scapula (height)'
+		[183] 'Humerus (ontogeny)'
+		[184] 'Humerus (adult shaft)'
+		[185] 'Humerus (entepicondylar foramen)'
+		[186] 'Humerus (supinator)'
+		[187] 'Humerus (condyles)'
+		[188] 'Humerus (torsion)'
+		[189] 'Carpals'
+		[190] 'Manual digit count'
+		[191] 'Ilium (shaft)'
+		[192] 'Ilium (dorsal end)'
+		[193] 'Ilium (height)'
+		[194] 'Ilium (orientation)'
+		[195] 'Ilium (tip)'
+		[196] 'Pubis'
+		[197] 'Femur (intercondylar fossa)'
+		[198] 'Femur (trochanter)'
+		[199] 'Tarsals'
+		[200] 'Gastral squamation'
+		[201] 'Squamation (shape)'
+		[202] 'Osteoderms'
+		[203] 'Osteoderms (articulation)'
+		[204] 'Osteoderms (width)'
+		[205] 'Rib cage'
+		[206] 'Skull (length)'
+		[207] 'Skull to trunk'
+		[208] 'Skull (proportions)'
+		[209] 'Supratemporal'
+		[210] 'Supratemporal (occipital exposure)'
+		[211] 'Postfrontal (shape)'
+		[212] 'Lacrimal-naris'
+		[213] 'Lacrimal-orbit'
+		[214] 'Lacrimal (orbital processes)'
+		[215] 'Quadratojugal'
+		[216] 'Frontals (paired)'
+		[217] 'Frontal-orbit'
+		[218] 'Septomaxilla'
+		[219] 'Prefrontal-naris'
+		[220] 'External naris in dorsal view'
+		[221] 'Posterior skull margin'
+		[222] 'Large otic notch approaching orbit'
+		[223] 'Postorbital'
+		[224] 'Parietal-squamosal'
+		[225] 'Parietal-tabular'
+		[226] 'Postparietals'
+		[227] 'Postparietal-squamosal'
+		[228] 'Postparietal (proportions)'
+		[229] 'Squamosal-jugal'
+		[230] 'Tabular'
+		[231] 'Maxilla-external naris'
+		[232] 'Maxilla (contribution to ventral naris)'
+		[233] 'Premaxilla (tooth count)'
+		[234] 'Maxilla (tooth count)'
+		[235] 'Marginal teeth (lateral compression)'
+		[236] 'Skull (occipital profile)'
+		[237] 'Supraoccipital'
+		[238] 'Jugular foramen'
+		[239] 'Palatine (anterior process)'
+		[240] 'Pterygoid (denticles)'
+		[241] 'Pterygoid (teeth)'
+		[242] 'Vomer (denticles)'
+		[243] 'Palatine (denticles)'
+		[244] 'Cultriform process (anterior extent)'
+		[245] 'Stapes'
+		[246] 'Pleurosphenoid'
+		[247] 'Sphenethmoid'
+		[248] 'Pterygoids (contact)'
+		[249] 'Dentary (length)'
+		[250] 'Dentary (coronoid process)'
+		[251] 'Surangular'
+		[252] 'Angular (depth)'
+		[253] 'Splenials'
+		[254] 'Splenial (lateral exposure)'
+		[255] 'Meckelian fossae'
+		[256] 'Posterior Meckelian window'
+		[257] 'Retroarticular process'
+		[258] 'Jaw articulation, tooth row'
+		[259] 'Angular (extent in lateral view)'
+		[260] 'Coronoids'
+		[261] 'Coronoid (teeth)'
+		[262] 'Coronoid (teeth, size)'
+		[263] 'Symphysis'
+		[264] 'Jaw sculpture'
+		[265] 'Ossified hyoids'
+		[266] 'Parahyoid'
+		[267] 'Trunk intercentra'
+		[268] 'Trunk neural arch to centrum'
+		[269] 'Base of neural spine'
+		[270] 'Haemal arches'
+		[271] 'Haemal arch (articulation)'
+		[272] 'Haemal arch (length)'
+		[273] 'Haemal arch (shape)'
+		[274] 'Spinal nerve foramina'
+		[275] 'Transverse process'
+		[276] 'Atlas-axis intercentra'
+		[277] 'Atlas (anterior surface of centrum)'
+		[278] 'Atlas (centrum)'
+		[279] 'Atlas (neural arch, articulation)'
+		[280] 'Atlas (parapophyses)'
+		[281] 'Atlas (neural arch)'
+		[282] 'Proatlantes'
+		[283] 'Second cervical arch'
+		[284] 'Cervical rib (distal shape)'
+		[285] 'Presacral ribs (length)'
+		[286] 'Sacral parapophysis'
+		[287] 'Caudal ribs (count)'
+		[288] 'Scapula (supraglenoid foramen)'
+		[289] 'Coracoid (number of coracoid foramina)'
+		[290] 'Scapulocoracoid'
+		[291] 'Humerus (deltopectoral crest)'
+		[292] 'Humerus (length)'
+		[293] 'Radius:humerus'
+		[294] 'Ulna (olecranon process)'
+		[295] 'Basale commune'
+		[296] 'Femur (length)'
+		[297] 'Elongate tibiale and fibulare'
+		[298] 'Distal tarsals (count)'
+		[299] 'Splenial-coronoids'
+		[300] 'Parietal (anterior waisting)'
+		[301] 'Parietal (width relative to frontal)'
+		[302] 'Skull table'
+		[303] 'Prefrontals'
+		[304] 'Postfrontals'
+		[305] 'Squamosal-frontal'
+		[306] 'Zygokrotaphy'
+		[307] 'Quadrate-maxilla (separation)'
+		[308] 'Quadrate-maxillopalatine'
+		[309] 'Ceratobranchials - 2'
+		[310] 'Tentacle'
+		[311] 'Splenial (teeth)'
+		[312] 'Choana (size)'
+		[313] 'Sphenethmoid (dorsal exposure)'
+		[314] 'Larval stage'
+		[315] 'Dentary (anterior teeth, bicuspidity)'
+		[316] 'Nasal septum ossification'
+		[317] 'Sphenethmoid (dorsomedial process, length)'
+		[318] 'Sphenethmoid (dorsomedial process, thickness)'
+		[319] 'Sphenethmoid (dorsal sutural surface)'
+		[320] 'Sola nasi'
+		[321] 'Sphenethmoid (lateral walls, length)'
+		[322] 'Sphenethmoid (floor)'
+		[323] 'Os basale (dorsal exposure)'
+		[324] 'Fenestra vestibuli'
+		[325] 'Canal for palatal ramus of the facial nerve in antotic region'
+		[326] 'Stapes (footplate)'
+		[327] 'Stapes (columellar process)'
+		[328] 'Optic foramen (shape)'
+		[329] 'Sphenethmoid (anterior wall)'
+		[330] 'Sphenethmoid (anterolateral process)'
+		[331] 'Parasphenoid (cultriform process)'
+		[332] 'Pseudodentary'
+		[333] 'Dorsolateral osteoderms fused to ribs'
+		[334] 'Ectopterygoid'
+		[335] 'Interclavicle'
+		[336] 'Cleithrum'
+		[337] 'Vomer (shape) - 2'
+		[338] 'Parachoanal tooth row'
+		[339] 'Pterygoid (quadrate ramus)'
+		[340] 'Squamosal (posterior extent)'
+		[341] 'Palatine (fangs)'
+		[342] 'Palatine'
+		[343] 'Batrachian operculum'
+		[344] 'Os basale'
+		[345] 'Squamosal (shape)'
+	;
+	STATELABELS
+		1
+			'parabolic'
+			'triangular with pointed tip'
+			,
+		2
+			'skull of variable height, but occiput always deeper than snout'
+			'extremely flattened to equal height throughout'
+			,
+		3
+			'reticulate ridges of various sizes'
+			'isolated pustules'
+			'dense covering of minute pits'
+			'sparsely distributed pits or absent'
+			,
+		4
+			'polygons or short grooves'
+			'mostly radial, elongated grooves'
+			'numerous circular to subcircular pits'
+			,
+		5
+			'shallow ridges of variable height'
+			'high ridges throughout'
+			,
+		6
+			'elongated ridges (''zones of intensive growth'') confined to snout only'
+			'prepineal growth zone established on anterior parietal and postorbital'
+			,
+		7
+			'zone of subdued ornament on the medial skull bones adjacent to the midline suture absent'
+			'present'
+			,
+		8
+			'absent'
+			'present along lateral flank of quadratojugal'
+			,
+		9
+			'less than twice the length of posterior skull table'
+			'twice as long'
+			'more than twice the length'
+			,
+		10
+			'transversely straight'
+			'angled posterolaterally'
+			'forming a posterior hook-like indentation (''alary process'' sensu Ruta & Bolt (2006)'
+			'forming a posterior plate-like indentation'
+			,
+		11
+			'short'
+			'very expanded, equaling the length of the frontal'
+			,
+		12
+			'parabolically rounded'
+			'box-like and anteriorly blunt'
+			,
+		13
+			'premaxilla and nasal completely sutured'
+			'medially bearing an opening within the premaxillae'
+			'medially bearing an opening between the premaxillae and the nasals without prominent division of the nasals'
+			'medially bearing an opening between the premaxillae and the nasals that prominently divdes the nasals'
+			,
+		14
+			'narrower than interorbital distance'
+			'wider'
+			,
+		15
+			'longer than wide'
+			'as wide as long'
+			,
+		16
+			'at lateral margin of snout, opening laterally'
+			'set well medially, opening anteriorly'
+			,
+		17
+			'naris uniform, with oval shaped margin'
+			'posteriorly expanded with distinct anterior and posterior regions giving ''key-hole'' shape'
+			,
+		18
+			'ventral surface of skull roof medial to naris is smooth'
+			'bearing a complicated bar-like strucutre (narial flange)'
+			,
+		19
+			'straight, longitudinal'
+			'stepped, with lateral excursion'
+			'straight, oblique'
+			,
+		20
+			'present'
+			'absent'
+			,
+		21
+			'parallels medial suture'
+			'posterolaterally expanded to give broader preorbital region'
+			,
+		22
+			'>= 50% of the length between the orbit and naris'
+			'less than 50% of the length between the orbit and the naris'
+			,
+		23
+			'restricted to the antorbital region'
+			'extending back lateral to orbit'
+			,
+		24
+			'well separated'
+			'separated only by narrow gap'
+			,
+		25
+			'more medial than lateral, framed by wide jugals laterally'
+			'more lateral than medial, framed by slender jugals laterally'
+			'central, framed by both narrow jugals and narrow frontals'
+			,
+		26
+			'raised well above skull plane'
+			'flush with skull roof'
+			,
+		27
+			'ossifications in orbit restricted to sclerotic ring'
+			'numerous additional ossicles'
+			,
+		28
+			'present'
+			'absent'
+			,
+		29
+			'narrower than or equaling orbital width'
+			'wider'
+			,
+		30
+			'frontal as longer or longer than nasal'
+			'shorter'
+			,
+		31
+			'level with or anterior to the orbital margin'
+			'posterior'
+			,
+		32
+			'present'
+			'absent'
+			,
+		33
+			'throughout skull roof if present'
+			'confined to circumorbital region'
+			,
+		34
+			'with simple curve'
+			'with pronounced S-shaped flexure'
+			,
+		35
+			'passing entirely through nasal'
+			'passing through nasal and prefrontal'
+			'passing through nasal, prefrontal, and lacrimal'
+			,
+		36
+			'straight'
+			'laterally convex due to enlarged teeth'
+			,
+		37
+			'separated'
+			'in contact'
+			,
+		38
+			'prefrontal extends beyond the anterior level of the frontal'
+			'ending at one level with frontal'
+			'ending posterior to the anterior level of the frontal'
+			,
+		39
+			'pointed'
+			'wide and blunt'
+			,
+		40
+			'suture posterolaterally oriented, either straight or continuously anterolaterally convex'
+			'longitudinally straight or continuously laterally convex'
+			'anteromedially oriented, either striaght or continuously posterolaterally convex'
+			'steppped, with distinct inflection point near orbit'
+			,
+		41
+			'prefrontal-lacrimal suture simple'
+			'prefrontal underlying lacrimal laterally to reach the palatine'
+			,
+		42
+			'separated'
+			'in contact'
+			,
+		43
+			'separated'
+			'in contact'
+			,
+		44
+			'more than 0.6 times the width'
+			'less than that'
+			,
+		45
+			'posterior margin approximately straight or squared-off'
+			'posterior end acutely triangular'
+			'posterior end with finger-like projection'
+			,
+		46
+			'not wider than orbit'
+			'with substantial lateral process projecting into jugal'
+			,
+		47
+			'shorter than supratemporal and parietal'
+			'as long or longer'
+			,
+		48
+			'semicircular embayment between squamosal and posterior skull table'
+			'straight transverse posterior skull margin without embayment between cheek and table'
+			,
+		49
+			'lateral, expanding along entire cheek to form continuous unornamented area up to quadrate'
+			'slit-like'
+			'small and rounded, confined to dorsomedial part of squamosal'
+			,
+		50
+			'longer than wide'
+			'quadrangular'
+			,
+		51
+			'with straight sagittal lateral margin'
+			'posterolaterally constricted'
+			,
+		52
+			'squamosal continuously ornamented around margin of otic notch'
+			'squamosal having dorsally exposed and ornamented area (supratympanic flange) stepped abruptly into steeply aligned, poorly ornamented portion'
+			,
+		53
+			'supratemporal without ventral projection into otic notch'
+			'supratemporal forming marked ventral flange participating in medial bordering of otic notch'
+			,
+		54
+			'no ventral outgrowth'
+			'insula jugalis framing subtemporal window'
+			,
+		55
+			'ending at or posterior to level of anterior orbital margin'
+			'extending anteriorly'
+			,
+		56
+			'in contact'
+			'separated'
+			,
+		57
+			'present'
+			'absent'
+			,
+		58
+			'separated'
+			'in contact'
+			,
+		59
+			'separated'
+			'in contact'
+			,
+		60
+			'forming either squamosal embayment or straight posterior margin'
+			'projecting posteriorly, with tabular extended posterolaterally'
+			,
+		61
+			'posterior rim of squamosal straight'
+			'with convex projection (falciform crest)'
+			,
+		62
+			'present in some form'
+			'entirely absent'
+			,
+		63
+			'pointing posteriorly if present'
+			'aligned laterally'
+			'sutured with squamosal posterior to otic notch (cyclotosaur condition)'
+			,
+		64
+			'absent'
+			'present and shallow'
+			'forming a deep ridge that almost doubles the thickness of the tabular in occipital view'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'in contact'
+			'separated'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'quadrate trochlea posterior to posteriormost extent of tabular'
+			'at one level or anterior'
+			,
+		69
+			'descending flange of occipital portion of postparietals forming a bulge'
+			'long smooth blades as long as the dermal portion of the postparietal'
+			,
+		70
+			'both elements ossified but separated'
+			'both elements ossified and in contact'
+			'exoccipitals unossified'
+			,
+		71
+			'large opening, much wider than the foramen magnum when the maximum width of each is compared'
+			'moderately sized, subequal in width to the foramen magnum'
+			'reduced to a tiny foramen'
+			,
+		72
+			'quadrate condyles posterior to occipital ones'
+			'at same level'
+			'well anterior'
+			,
+		73
+			'simple rod-like ascending process'
+			'complicated and robust element with up to six processes'
+			,
+		74
+			'heterogenous, varying sizes and distances'
+			'homogenous, small teeth, equidistant'
+			,
+		75
+			'round or oval'
+			'forming transversely broadened ovals'
+			,
+		76
+			'round or oval'
+			'laterally compressed and keeled at least on one side'
+			,
+		77
+			'all teeth consisting of a single mineralized conus'
+			'at least some teeth with two separate mineralization centers'
+			,
+		78
+			'all teeth with single tip'
+			'at least some with bicuspid crowns'
+			,
+		79
+			'teeth with labyrinth infolidng of dentine and enamel at base'
+			'never labyrinthodont'
+			,
+		80
+			'absent'
+			'present and transverse'
+			'V-shaped'
+			,
+		81
+			'vomer with a single pair of fangs at the medial margin of choana'
+			'with additional fangs/fang pairs posteromedially'
+			,
+		82
+			'denticle patches restricted to basal plate'
+			'denticles absent'
+			'denticles expanded onto cultriform process to at least the mid-length of the process'
+			,
+		83
+			'present'
+			'absent'
+			,
+		84
+			'slender and slit-like'
+			'rounded, oval'
+			,
+		85
+			'vacuities bordered by moderately concave pterygoid'
+			'laterally greatly extended at mid-level pushing pterygoid to the margin'
+			,
+		86
+			'vomer and premaxilla with continuous suture'
+			'perforated to accommodate symphyseal fangs'
+			,
+		87
+			'unpaired if present'
+			'paired'
+			,
+		88
+			'narrow and small'
+			'large plate, widely separating choanae'
+			,
+		89
+			'absent'
+			'present'
+			,
+		90
+			'posterior rim round if present'
+			'straight transverse'
+			,
+		91
+			'absent'
+			'present, radiating from vomerine tusks anteriorly'
+			,
+		92
+			'absent'
+			'pit present (posterior to mandible)'
+			'fenestra within such pit'
+			,
+		93
+			'absent'
+			'present'
+			,
+		94
+			'long axis oriented more transversely than it is sagittally'
+			'long axis more sagittally oriented'
+			,
+		95
+			'oval and symmetrical'
+			'semi-circular and symmetrical'
+			'asymmetrical, expanded orally'
+			'asymmetrical, expanded aborally'
+			,
+		96
+			'in contact'
+			'separated'
+			,
+		97
+			'no process extending posterior to the level of the anterior margin of the interpterygoid vacuities'
+			'process present and short'
+			'process present and long'
+			,
+		98
+			'anteriormost contact with the palatine is anterior to the level of the posterior choanal margin'
+			'contact is at the same level or more posterior'
+			,
+		99
+			'pterygoid with short, posteromedially curved basipterygoid process, constricted palatal vacuities posterolaterally'
+			'with transversely extended process producing posteriorly wider vacuities'
+			,
+		100
+			'joint between basal plate and pterygoid'
+			'sutural contact'
+			,
+		101
+			'suture (if present) much shorter than basal plate, reaching best 40% its length'
+			'suture between 40% and 75% the length'
+			'suture almost as long as basal plate'
+			,
+		102
+			'parasphenoid suturing with exoccipitals'
+			'underplating exoccipitals'
+			,
+		103
+			'internal carotids entered basicranium ventrally near base of cultriform process'
+			'at posterolateral corner of bone'
+			,
+		104
+			'basal plate sagittally rectangular'
+			'quadrangular to slightly wider than long'
+			'much abbreviated, transversely rectangular'
+			,
+		105
+			'basal plate substantially narrower than parietals at level posterior to basicranial joint'
+			'as wide or wider'
+			,
+		106
+			'base not wider than rest, clearly set off from basal plate'
+			'merging continuously into plate'
+			,
+		107
+			'ventrally flat'
+			'with ridge emplaced on broader base'
+			'knife-edge and keel-shaped'
+			,
+		108
+			'of similar width throughout'
+			'posteriorly expanding abruptly to about twice the width'
+			,
+		109
+			'posterolateral margin continuous'
+			'with notches in the lateral margin of the basal plate'
+			,
+		110
+			'palatine ramus of pterygoid smooth'
+			'ornamented with reticulate ridges'
+			,
+		111
+			'separated'
+			'sutured lateral to parasphenoid'
+			,
+		112
+			'separated'
+			'sutured lateral to parasphenoid'
+			,
+		113
+			'entirely sutured'
+			'with open fissure'
+			,
+		114
+			'palatine ramus of pterygoid merging continuously into basipterygoid ramus'
+			'broadening abruptly to form transverse flange'
+			,
+		115
+			'ramus distinct from palatine ramus and narrower at base'
+			'distinct and broader at base'
+			'confluent with palatine ramus'
+			,
+		116
+			'formed exclusively by pterygoid'
+			'with posteromedial projection of ectopterygoid'
+			,
+		117
+			'pterygoid contacting both ectopterygoid and palatine'
+			'pterygoid only in contact with ectopterygoid'
+			,
+		118
+			'with straight suture'
+			'palatine with posterior process along medial edge of ectopterygoid'
+			,
+		119
+			'suture aligned posterolaterally'
+			'with medial wing framing the interpterygoid vacuity anteriorly'
+			,
+		120
+			'absent'
+			'present'
+			,
+		121
+			'maintain their width'
+			'become proportionally wider'
+			,
+		122
+			'much wider than maxilla'
+			'as narrow'
+			,
+		123
+			'absent'
+			'present'
+			,
+		124
+			'as long or longer than palatine'
+			'markedly shorter'
+			,
+		125
+			'absent'
+			'present'
+			,
+		126
+			'ectopterygoid with continuous maxillary suture'
+			'Y-shaped, with posterior half separated from maxilla by a gap'
+			,
+		127
+			'in occipital view, pterygoids either sloping continuously ventrolaterally or flat horizontal'
+			'vertically curved ventrally at right angle with basicranium'
+			,
+		128
+			'medial bulge only slightly larger than lateral one'
+			'at least two times longer and twice as wide'
+			,
+		129
+			'trilobed'
+			'bilobed'
+			,
+		130
+			'exoccipitals not exposed in dorsal view'
+			'exoccipitals partially exposed, with occipital condyles visible in dorsal view'
+			'almost the complete element visible in dorsal view'
+			,
+		131
+			'forming a long element posterior to parasphenoid plate'
+			'foreshortenedto a narrow posterior rim'
+			'unossified'
+			,
+		132
+			'absent'
+			'present within interpterygoid vacuities'
+			,
+		133
+			'absent or present as very faint outgrowth'
+			'longer than glenoid facet'
+			,
+		134
+			'type 1'
+			'type 2'
+			,
+		135
+			'plain'
+			'with elongated groove'
+			,
+		136
+			'absent'
+			'present but lower than postgleonoid portion is long'
+			'as high as postglenoid process is long'
+			,
+		137
+			'labial side of surangular with straight dorsal margin anterior to glenoid'
+			'forming convex dorsal projection well above the level of the glenoid articulation'
+			,
+		138
+			'small round or oval opening'
+			'elongate window shorter than the adductor fossa'
+			'as long or longer than adductor fossa'
+			,
+		139
+			'no accessory teeth posterior to symphyseal tusks'
+			'transverse row of such teeth'
+			'row aligned parallel to the labial tooth row'
+			,
+		140
+			'present on all coronoids'
+			'presnet on posteriormost coronoid but not anteriormost coronoid'
+			'absent on all coronoids'
+			,
+		141
+			'absent'
+			'present'
+			,
+		142
+			'throat region naked'
+			'covered with a mosaic of ventral osteoderms between mandible and dermal pectoral girdle'
+			,
+		143
+			'absent'
+			'present'
+			,
+		144
+			'absent'
+			'present, giving the proximal region two heads'
+			,
+		145
+			'robust, tetrahedral bone'
+			'rod-like element with elongated stylus'
+			'blade-like'
+			,
+		146
+			'stapes with pronounce dorsodistal curvature'
+			'without such curvature'
+			,
+		147
+			'bony elements absent'
+			'present in adults'
+			,
+		148
+			'bony element absent'
+			'present in adults'
+			,
+		149
+			'bony elements absent'
+			'present in adults'
+			,
+		150
+			'conical and attache to small ossicles in groups of 2?10'
+			'free and with brush-like end'
+			,
+		151
+			'>28 vertebrae'
+			'23-28'
+			'19-22'
+			'<19'
+			,
+		152
+			'similar to presacral count or higher'
+			'much lower'
+			,
+		153
+			'short, directed posteriorly'
+			'distally extended with diapophysis pointing laterally'
+			,
+		154
+			'shorter than dorsal spine is high'
+			'markedly longer'
+			,
+		155
+			'as high as distance between zygapophyses'
+			'higher'
+			,
+		156
+			'presacral intercentra form wedges'
+			'dorsally closed discs'
+			'dorsally closed and elongated cylinders'
+			,
+		157
+			'chordal canal wider than intercentrum is high'
+			'narrower'
+			,
+		158
+			'ventral surface shorter than wide in ventral view'
+			'giving transversely rectangular outline'
+			'as long as wide, quadrangular'
+			,
+		159
+			'always concave'
+			'convex in at least some presacral centra'
+			,
+		160
+			'segmental'
+			'intersegmental'
+			,
+		161
+			'ossified'
+			'unossified'
+			,
+		162
+			'as large as that of intercentrum'
+			'smaller'
+			,
+		163
+			'wedged between successive intercentra and not reaching ventral margin of intercentra'
+			'ventrally expanded to near each other'
+			'ventrally fused to form a single cylindrical element'
+			,
+		164
+			'curved distoventrally'
+			'without distal curvature'
+			,
+		165
+			'rib heads (tuberculum and capitulum) confluent'
+			'clearly set off and widely separated in mid-trunk region'
+			,
+		166
+			'small and spine-like'
+			'extensive and blade-like'
+			'absent'
+			,
+		167
+			'short'
+			'elongated, as long as shaft'
+			,
+		168
+			'with broadened dorsal head region'
+			'simple rod'
+			,
+		169
+			'head with slightly convex or straight anterior rim'
+			'with pronounced anterior projection'
+			,
+		170
+			'dorsal head region confined to anterior rim of scapula'
+			'posteriorly extended to cover dorsal rim of scapula'
+			,
+		171
+			'wide, triangular, overlapping interclavicle broadly'
+			'slender, with minor overlap'
+			,
+		172
+			'shorter than posterior skull'
+			'substantially longer'
+			,
+		173
+			'without major proportional change in ontogeny'
+			'decreasing proportionally relative to skull length'
+			,
+		174
+			'rhomboidal'
+			'pentagonal and posteriorly widest'
+			,
+		175
+			'as long as wide'
+			'1.3 times as long as wide'
+			'more than twice as long as wide'
+			,
+		176
+			'with posterior process'
+			'transversely straight'
+			,
+		177
+			'serrated'
+			'smooth'
+			,
+		178
+			'anterior portion of interclavicle variably shaped but not longer than posterior one, as measured by the center of ornamentation'
+			'substantially longer than posterior one'
+			,
+		179
+			'posterior process confluent with main body'
+			'posterior process markedly offset from main body'
+			,
+		180
+			'clavicles broadly separated by interclavicle ventrally'
+			'leaving only narrow strip of interclavicle between them'
+			'in contact and excluding anterior part of interclavicle from ventral exposure'
+			,
+		181
+			'ossified'
+			'unossified in adults'
+			,
+		182
+			'maximally two times longer (higher) than wide'
+			'dorsally extended and fully ossified, three times higher than wide'
+			,
+		183
+			'short cylinder in larvae, elongates at slow rate'
+			'with substantial shaft in larvae'
+			'very long rod from small stages on'
+			,
+		184
+			'no shaft proper, humerus blade-like in cross-section'
+			'with short shaft oval in cross-section'
+			'shaft elongate and slender, comprising more than 50% of the humerus with rounded cross-section'
+			,
+		185
+			'present'
+			'absent'
+			,
+		186
+			'present'
+			'absent'
+			,
+		187
+			'unfinished without condyles'
+			'distal end at least partially ossified with identifiable condyles'
+			'with full established condyles'
+			,
+		188
+			'strong, 70-90?'
+			'weak, well below 60?'
+			'strong, 70-90°'
+			'weak, well below 60°'
+			,
+		189
+			'all unossified'
+			'at least some ossified'
+			,
+		190
+			'Five'
+			'four'
+			,
+		191
+			'shaft of variable length but laterally flattened'
+			'very long and slender'
+			,
+		192
+			'tip of dorsal end continuous'
+			'much broadened'
+			,
+		193
+			'shaft more than twice the length of the base'
+			'shorter'
+			,
+		194
+			'main axis of shaft inclined posterodorsally'
+			'vertically'
+			'anteriorly'
+			,
+		195
+			'dorsal end two-headed'
+			'single-headed'
+			,
+		196
+			'unossified'
+			'ossified'
+			,
+		197
+			'intercondylar fossa forming deep and elongated trough'
+			'reduced to short depression'
+			,
+		198
+			'internal trochanter present as discrete process'
+			'reduced to a shallow crest'
+			'greatly enlarged to form a massive projection'
+			,
+		199
+			'at least some ossified'
+			'all unossified'
+			,
+		200
+			'ossified ventral dermal scales'
+			'ventral dermal scales absent'
+			,
+		201
+			'dermal scales oval to spindle-shaped'
+			'broad, oval with ''microsaur-type'' ornament'
+			,
+		202
+			'absent'
+			'present as single sagittal row'
+			'more numerous to form carapace'
+			,
+		203
+			'osteoderms arranged in one layer if present'
+			'double set of layers'
+			,
+		204
+			'narrow median osteoderms'
+			'transversely extended plates'
+			,
+		205
+			'trunk narrower than or as wide as skull'
+			'trunk substantially wider than lateral margin of cheeks at about mid-level'
+			,
+		206
+			'>450 mm'
+			'251-450 mm'
+			'151-250 mm'
+			'101-150 mm'
+			'71-100 mm'
+			'51-70 mm'
+			'30-50 mm'
+			'<30 mm'
+			,
+		207
+			'>= 0.45'
+			'0.30-0.4'
+			'0.20-0.29'
+			'< 0.20'
+			,
+		208
+			'longer than wide'
+			'wider than long'
+			,
+		209
+			'present'
+			'absent'
+			,
+		210
+			'absent'
+			'present'
+			,
+		211
+			'broadly quadrangular'
+			'falciform'
+			,
+		212
+			'in contact'
+			'separated'
+			,
+		213
+			'separated'
+			'in contact'
+			,
+		214
+			'only ventral present'
+			'dorsal and ventral present'
+			'neither present'
+			,
+		215
+			'present'
+			'absent'
+			,
+		216
+			'paired along midline'
+			'fused'
+			,
+		217
+			'separated'
+			'in contact'
+			,
+		218
+			'ossified and entirely intranarial'
+			'unossified'
+			'ossified and integrated with skull roof'
+			,
+		219
+			'distant from naris'
+			'near'
+			'in contact'
+			,
+		220
+			'exposed'
+			'not exposed'
+			,
+		221
+			'concave'
+			'straight'
+			'convex'
+			'undulating'
+			,
+		222
+			'absent'
+			'intermediate'
+			'close'
+			,
+		223
+			'present'
+			'absent'
+			,
+		224
+			'separated'
+			'in contact'
+			,
+		225
+			'separated'
+			'in contact'
+			,
+		226
+			'paired'
+			'fused'
+			'absent'
+			,
+		227
+			'separated'
+			'in contact'
+			,
+		228
+			'large, quadrangular'
+			'abbreviated anteroposteriorly, transversely elongate rectangle'
+			,
+		229
+			'in contact'
+			'separated'
+			,
+		230
+			'present'
+			'absent'
+			,
+		231
+			'in contact'
+			'separated'
+			,
+		232
+			'absent'
+			'present'
+			,
+		233
+			'>= 10'
+			'5-9'
+			'< 5'
+			,
+		234
+			'>= 30'
+			'20-29'
+			'< 20'
+			,
+		235
+			'absent'
+			'present'
+			,
+		236
+			'low and wide'
+			'high and wide'
+			'high and narrow'
+			,
+		237
+			'absent'
+			'present'
+			,
+		238
+			'between opisthotic and exoccipital'
+			'through exoccipital'
+			,
+		239
+			'process along aboral edge of choana longer than process along oral edge'
+			'processes of equal length'
+			'process along oral edge longer'
+			,
+		240
+			'present'
+			'absent'
+			,
+		241
+			'absent'
+			'present'
+			,
+		242
+			'present'
+			'absent'
+			,
+		243
+			'present'
+			'absent'
+			,
+		244
+			'extending anterior to the anterior level of the interpterygoid vacuities'
+			'terminating at such level'
+			'terminating posterior to such level'
+			,
+		245
+			'perforated columella'
+			'imperforate columella'
+			'no columella'
+			,
+		246
+			'unossified'
+			'ossified'
+			,
+		247
+			'ossified'
+			'unossified'
+			,
+		248
+			'in contact'
+			'separated'
+			,
+		249
+			'long'
+			'short'
+			,
+		250
+			'absent'
+			'present'
+			,
+		251
+			'normal'
+			'reduced'
+			'absent'
+			,
+		252
+			'narrow'
+			'deep'
+			,
+		253
+			'two'
+			'one'
+			'zero'
+			,
+		254
+			'present'
+			'absent'
+			,
+		255
+			'two or more foramina along the ventrolingual surface'
+			'one'
+			'zero'
+			,
+		256
+			'bounded by the prearticular, postsplenial, and angular'
+			'bounded by the prearticular and postsplenial'
+			'bounded by the prearticular and angular'
+			'bounded by the prearticular, postsplenial, middle coronoid, and angular'
+			'entirely enclosed by the postsplenial'
+			,
+		257
+			'straight'
+			'hooked'
+			,
+		258
+			'jaw articulation above tooth row'
+			'same level'
+			'below'
+			,
+		259
+			'posterior tooth row'
+			'middle of tooth row'
+			,
+		260
+			'three'
+			'two'
+			'one'
+			'zero'
+			,
+		261
+			'present on all coronoids'
+			'present only on posteriormost coronoid'
+			'absent on all coronoids'
+			,
+		262
+			'larger than marginal'
+			'equal to marginal'
+			'smaller than marginal'
+			,
+		263
+			'dentary and splenial'
+			'dentary alone'
+			,
+		264
+			'present'
+			'absent'
+			,
+		265
+			'present'
+			'absent'
+			,
+		266
+			'absent'
+			'present'
+			,
+		267
+			'present'
+			'absent'
+			,
+		268
+			'loosely articulated'
+			'sutured'
+			'fused'
+			,
+		269
+			'equal to or wider than haemal'
+			'smaller than haemal'
+			,
+		270
+			'present'
+			'absent'
+			,
+		271
+			'loosely articulated to centrum'
+			'fused to mid-length of centrum'
+			,
+		272
+			'longer than or equal to neurals'
+			'shorter than neurals'
+			,
+		273
+			'non-parallel (triangular)'
+			'parallel (rectangular)'
+			,
+		274
+			'absent'
+			'present'
+			,
+		275
+			'on arch pedicle'
+			'on centrum'
+			,
+		276
+			'present'
+			'absent'
+			,
+		277
+			'same size as posterior'
+			'laterally expanded'
+			,
+		278
+			'multipartite'
+			'single notochordal'
+			'single odontoid'
+			,
+		279
+			'loosely articulated'
+			'sutured'
+			'fused'
+			,
+		280
+			'on centrum'
+			'on transverse process'
+			'absent'
+			,
+		281
+			'paired'
+			'sutured at midline'
+			'fused at midline'
+			,
+		282
+			'present'
+			'absent'
+			,
+		283
+			'expanded to more posterior'
+			'equal to more posterior'
+			'shorter than more posterior'
+			,
+		284
+			'spatulate'
+			'pointed'
+			,
+		285
+			'short'
+			'long'
+			,
+		286
+			'on centrum'
+			'on transverse process'
+			,
+		287
+			'Five or more'
+			'four'
+			'three'
+			'two or fewer'
+			,
+		288
+			'present'
+			'absent'
+			,
+		289
+			'Zero'
+			'one'
+			'two or more'
+			,
+		290
+			'both'
+			'scapula only'
+			'absent'
+			,
+		291
+			'weak'
+			'intermediate'
+			'prominent'
+			,
+		292
+			'long (> 4 trunk centra)'
+			'short'
+			,
+		293
+			'>= 0.7'
+			'0.5-0.69'
+			'< 0.5'
+			,
+		294
+			'unossified'
+			'ossified'
+			,
+		295
+			'absent'
+			'present'
+			,
+		296
+			'long'
+			'short'
+			,
+		297
+			'absent'
+			'present'
+			,
+		298
+			'Six'
+			'five or fewer'
+			,
+		299
+			'Splenial contacts multiple coronoids dorsally'
+			'splenial contacts only first coronoid dorsally'
+			,
+		300
+			'Parietal of equal width throughout'
+			'parietals tapers gradually anteriorly with obliquely oriented lateral margin'
+			'parietal with prominent step in lateral margin to form constriction in anterior half'
+			'parietal with prominent step to form constriction over more than half of the element''s length'
+			,
+		301
+			'greater'
+			'less than or equal to'
+			,
+		302
+			'rectangular'
+			'T-shaped'
+			,
+		303
+			'present'
+			'absent'
+			,
+		304
+			'present'
+			'absent'
+			,
+		305
+			'In contact'
+			'separated'
+			,
+		306
+			'Stegokrotaphy including roofing bones like tabulars and^n supratemporals'
+			'zygokrotaphy with muscles approaching skull midline'
+			'stegokrotaphy in the absence of roofing bones such as tabulars and supratemporals'
+			'zygokrotaphy, but muscle does not extend through temporal fossa'
+			,
+		307
+			'only separated by pterygoid'
+			'separated by small pterygoid and pterygoid process of quadrate'
+			'separated by pterygoid process of quadrate only (pterygoid absent)'
+			,
+		308
+			'in contact'
+			'separated'
+			,
+		309
+			'3 and 4 fused enclosing larynx'
+			'not fused'
+			,
+		310
+			'absent'
+			'present adjacent to orbit'
+			'between orbit and naris'
+			'beneath naris'
+			,
+		311
+			'present'
+			'absent'
+			,
+		312
+			'small'
+			'large'
+			,
+		313
+			'covered dorsally'
+			'exposed dorsally'
+			,
+		314
+			'present'
+			'absent, direct development'
+			,
+		315
+			'bicuspid'
+			'monocuspid'
+			,
+		316
+			'not ossified'
+			'20-35% of the total skull length'
+			'< 20% of the total skull length'
+			,
+		317
+			'absent'
+			'>= 11% of the total skull length'
+			'=< 10% of the total skull length'
+			,
+		318
+			'thin and rod-like'
+			'thick and broad'
+			,
+		319
+			'narrow or weakly tapered'
+			'broad and triangular and strongly tapered'
+			,
+		320
+			'absent'
+			'present and connected to the nasal septum ventrally'
+			'present, rod-like or tubular'
+			,
+		321
+			'=<14% of the total skull length'
+			'>=15 % of the total skull length'
+			,
+		322
+			'deeply incised and U-shaped in outline'
+			'shallowly incised with broad coverage of os basale'
+			'deeply incised and U-shaped, but with midline extension'
+			,
+		323
+			'little to no exposure near the dorsal midline'
+			'moderate exposure at the dorsal midline'
+			'very wide exposure near the dorsal midline'
+			,
+		324
+			'large, subcircular'
+			'anteroposteriorly elongate, oval'
+			'very small, subcircular'
+			,
+		325
+			'absent'
+			'present'
+			,
+		326
+			'fills the fenestra vestibule'
+			'much smaller than the fenestra vestibule'
+			,
+		327
+			'no ridge present'
+			'ridge on distal columellar process'
+			,
+		328
+			'large, subcircular opening'
+			'narrow and slit-like opening'
+			'olbique anterior margin in the sphenethmoid'
+			'oblique posterior margin in the os basale'
+			,
+		329
+			'unossified'
+			'ossified, one pair of foramina'
+			'ossified, two pairs of foramina'
+			,
+		330
+			'absent'
+			'present'
+			,
+		331
+			'narrow, tapering anteriorly throughout its length'
+			'parallel-sided'
+			'narrowest at mid-length and then flaring anteriorly or continuously flaring anteriorly from the base'
+			,
+		332
+			'absent'
+			'present'
+			,
+		333
+			'absent'
+			'present'
+			,
+		334
+			'present'
+			'absent'
+			,
+		335
+			'present'
+			'absent'
+			,
+		336
+			'present'
+			'absent'
+			,
+		337
+			'quadrangular plate, bordering choana medially'
+			'irregular shape, choana posteromedially expanded'
+			,
+		338
+			'absent'
+			'present'
+			,
+		339
+			'long'
+			'short'
+			,
+		340
+			'ending at same level as quadrate and quadratojugal'
+			'ending anterior to this level'
+			,
+		341
+			'with distinct fang pair'
+			'replaced by row of small teeth'
+			,
+		342
+			'present and distinct from maxilla'
+			'present and co-ossified to form maxillopalatine'
+			'absent'
+			,
+		343
+			'absent'
+			'present'
+			,
+		344
+			'absent'
+			'present'
+			,
+		345
+			'plate-like or triradiate'
+			'forming straight, transverse strut'
+			,
+	;
+	MATRIX
+	'Proterogryinus scheelei'              0?20--0000000000001000?000?000000-00000-00001000000001??00000000010000-00000000??00000-??0???130??00-00000001000-00000??000000?002000-00?{1 2}0000????000?0000100000000002-000000000000000?0001210000001000000--031000101?000?00000010000000100?00200?10?000000000{0 1}0?00{0 1}?010000000001000000000001000200?100001?20000100-?0?00?1???????-???????000000?00000000
+	'Greererpeton burkemorani'             000000000200010000(0 1)0001000?010000010000-00101001-0---000(0 1)11101-0000000000000000000000110000001000000-00000001000-00000000000000001000-001200100000010?0000000000000(0 1)01-000000000000000?0001210000011000000--02200001100001213-000000000000000?10011000000000000??0010200100000000000000?00011001101111000?120000100-?0?00?1?????00-????0?0000000000000000
+	'Edops craigi'                         000000002110010000(0 1)0000000001101---100010100200000100010000000000000011000000000000100-100100000010100001000000000000000?0000000000?00000000000111000???????????000?0??0000????????????11012?????01?0??00???00?00001020002000000000000011100000000020100000000???0002-00??00?????00???????????????2?1??0??001000100-?0?00?1???1100-?000010200000000000000
+	'Cochleosaurus bohemicus'              0?0000102110(0 2)10000(0 1)0000000011101---00001010020000000011000000000010101?100000000000100-100100130000100001000100001000000000000?000010000000?00????000?1000000000000102-0000000000000100110031100001100?000--0110000102000200100000000001000?0?100000??0100010010?0002-10??0?????????????00???????????1?????(1 2)1000100-?010001??????0-???????100000000000000
+	'Dendrerpeton helogenes'               000000000200{1 2}0000000000000?01001---0000-0000100000100?0000000000000001?100000000000100-10-0001201010-0001000100000000000000000000?0?00000000000110000?1000000000000002-000000000000000?1011211000011000000--030000001000000000000000000000000?100000000100000102?0002-10100000001000000?0?000000102011000?100000100-?0?00?1???1?00-??00??0000000000000000
+	'Balanerpeton woodi'                   0?00000002000100001000000?100001---0000-000010000010000000000000000001?000000000000100-10-0001001110-0001000100001000000000000?0000?00000000000110000?1000000000000102-00000000000000001011211000011000000--0600001010000100000000000000000?00000001000100010004?0002-10100000000000000?0000000??020110001?20000100-?0100?1??????0-????????00000000000000
+	'Trimerorhachis insignis'              00000000020001000020001011?0(0 1)00000(1 2)00(0 1)0-0000100000-000000010000000000111000000010{0 1}010111000001000000-000101010000000000000100000010?0000000100011011100000000000000102-000010000000010?1100301000000001000--0210000010000200000000000001000000200110100100000000?0002-100000?0????0???{0 1}?0??01??0-1{1 2}??1-0?-?00000100-1010001??????0-1?0????200000000000000
+	'Acanthostomatops vorax'               0?000001220031000020000000001101---0000-0001100001-0001010100000000102---0000000020100-10002012011111-01100010--01000000000000?0--210000010{0 1}00011100102100000000000102-00010000000001011100301011010?01000--0401000010000000000000010001000?0-100000??11??????{0 1}4???{0 1 2}2-?00000?001000??????0??0?0???10?0000-?(1 2)0100100-?011-01?---?---?????--200000000000000
+	'Zatrachys serratus'                   000000012(1 2)10310000(1 2)0001000?01101---0000-0001100001-000001010000000010101?0000000020100-10002012(0 1)1011000110001000010000000001000010110000000001???000????????????????????????????????????????????????????????03?0000010000200100000010001??0000000001???1000?0?02?0?02-?0???????????????????????????????????(0 1 2)1?00100??0????????????-???????20?0??000000000
+	'Micromelerpeton credneri'             0?0000000200200001(1 2)000000110000000100(0 1)1-10011000000010011000000010?001?0?00000101(0 2)010(0 1)0100020101(0 1)010-001100000001(0 1)000001000(0 1)00?0??1?0000(0 1)000000111???00000000000001102-00010000000001011101301010010?11010--0610001010001100100000000001??????10000(0 1 2)???1??????{0 1}????{0 1}2-??????????????????????0????????????-?(1 2)0?00100??0???0????????-???????(1 2)00000000000000
+	'Apateon pedestris'                    0?000000000020000110000121000001---0001-100110000100?0011000000010?101?1?100?000010100-1000001010010-0021000100-10000001000101?0??2?0000000??00111011120000????0002102-10010000000000022110??1010010?11000--0711001010001120100000000001010?0?201112?0110000?????1?????00000?????00?????????0??0-10020000-?20000100-1011-01?---?---?????--000000000000000
+	'Micropholis stowi'                    001---00020000000110000001100(0 1)01---0001-100110000000000110(0 1)00(0 1)001011011100000000(0 1)20100-1000201311010-0?(1 2)1000100-110000010101000010210000000??10111011?21000000000011000100100000000000?2111211000011000000--060?0000120010?0000000001000{0 1}0000?100001000100000112001{0 1 2}??100000?????00?0002??100??1-100110001?(0 1)1000100-?0?00?1??????0-???????100000000000000
+	'Platyrhinops lyelli'                  0?0000000200000001(0 1)0000011101001---0000-100100000110100110000000101001?001000100020110-1000001011110-0011100100-0100000?010100?01021000000000001110?1?1?00000000001102-10010000000000022111211010011000000--051000?01?000100020000010000000???000000??010000001???002-?01002?00?0000102?21?00?0??0?011000??(0 2)1000100-?0?00?0??????0-???????200000000000000
+	'Doleserpeton annectens'               0?000000020020000100000021100001---0001-100110000000100110000000101001100100111000?110-1000101310010-0021000100-0100??01???????01121000?002-0001110?1?1000000000002102-100100000000000?2112211000011000?00--07?0001010001?00120000010000000?01100011?001000000{0 1}2?01{0 1}2-?0100??00??000?1222???0?????????0?0??11000100-?0??0?0??????0-??00??0000?00000110000
+	'Amphibamus grandiceps'                0?000000020000000110000011100001---0001-1001(0 1)0000110100110000000101001?0?1001110021110-1000101311010-0021000100-?1001001010100?0102?000?0000000111011?3?00000000002102-1001000000000?0221112110000110?0000--071100?010000000020000010000000???2000000011000??????0??2-??1000?00?0000?00?21?00?00?01010??0??(1 2)1000100-?010-01?---?---?????--200000000110000
+	'Gerobatrachus hottoni'                0??????00{2 3}00?00001{1 2}000?02??0000????0011-1001?0000?0??0??1000000010?00?????00?010-??110-1000?00{0 2 3}10010-?????00?0??00001001?10100?0????00?000???0????????3100000000002102-1001?????????????11221????011??01?0--?7110?1012001010120?000100000?0???2101????010?????{0 1}???1????1??02????????12??21?00??????0?11????{0 1}1100110-?0?0??????????-?????????000000?0??000
+	'Dissorophus multicinctus'             000000000200{1 2}0000100000001101001---0001-10011000000110011000000010110111000000000?1100-1000?010110110001000010000100000100000000101?000000000001100?0?10001000000001000001100000000001?21122110111110001?111031000001000100001000000100100000020011210010001??12000{0 1 2}2-?0??00?????00?110?21111000001011?00??11000100-?0?00?1???1???-???0???0000000000?0000
+	'Cacops aspidephorus'                  000000000200?0000100000000?00101---0001-100100000101100110000000101101100000000000?100-10002110???11000100001000010000?1000010001011000000000001100?0?210010000000000--001100000001001?211221?0111110001?1100{2 3}00000002001000020000010001010000{0 1 2}0000?1001000100{1 2}???002-10??00?000??0011{1 2}?{1 2}10?1??0?0{1 2}001?0??130000100-?0100?1???????-???????100000000000000
+	'Broiliellus texensis'                 000000000200000001(0 1)0000001100001---0001-100100000001100110000000101101?1?000000001?100-1000?01{0 2}1001100010000100001000001?000?000101?0000000??001100?0?2?0010000000010??00110?000000001?21?22??01111100?1?111041100001000100012000000000101000?{0 1 2}00000?001000101???11???00??0????????????????????????????????1000010???0????????????-???????2?00000000?0000
+	'Acheloma cumminsi'                    00000000020010001100000-01?00101---1001-1001000000011000100000001011011000000000000100-10002113000110001000010000100000100001000111?0000000?0001100?0?2?00000000000102-001100000000001?2102211011111000??0--020000001?001020020000000000(0 1)10000200001???10?0100{0 1}??01{0 1 2}2-00?00000000000112?01?00????0???10?01?(1 2)0000100-?0110?10?????0-???0??0000000000000000
+	'Phonerpeton pricei'                   00000000020020001100000-01?00001---1001-100100000001100110000000101101100000000001?100-10001110010110001000000000100000100001000111?000000000001100?0?2???000000000??00001??????????01?21022??011111000??0--04?000001?001020010000000000110000100001???10?01000{0 1}?0102-00?0000000000????????00????0???10?0??(1 2)0000100-?0110?10?????0-???0??0000000000000000
+	'Onchiodon labyrinthicus'              0?0000000201010000(0 1)0100000001101---10000010110001000001010000000000001?0?0000000000100-110000-10111110111001000001000000100000?010110000000100011001001000100000000101-00000100000000001102211011111020000--011000000?000000000000000000100?00100000?0010000000???102-00??000????????????????????0????????011000100-?0?00010???000-???0??0000000000000000
+	'Eryops megacephalus'                  000000000201010000(0 1)0100000?01101---1000301011(0 1)0010000110100000000000010000000000000100-11000010010111011100100000100000010000000111100000000000110010?1000100000000101-000001000000001?1102211011111020000--001000000?0000000?0000000000000000200001?00100000002???02-?0??0000000000110?(0 2)0?01?0??0???1???0?(0 1)1000100-?0?0{0 1}?100-?0?0-???0??0000000000000000
+	'Sclerocephalus haeuseri'              0?00000002010100001000000000100(0 1)000110010100100010(0 1)00010100000010000011000000000010100-1100001001(0 1)10-0111000000001000000001000?01111000000000011100110110010000000010(0 1)00000100100000000110121100001(0 1)020000--021000010?000000000000000001010?00100000?0010011000201002-10000000000??01?0?{0 1}?000?00202???010-0(0 1)1000100-?0?0001?????00-?????0?200000000000000
+	'Glanochthon latirostris'              0?000000210101000010000000?0100000?11001010010001000001010000001000001?0?0000000000100-1100001001010-0111000100001000000001000?010110000000{0 1}00011001001000100000000101-000010010000010011002010000100?1000--02?000010?000200000000000001100?00100000?0?100????{0 1}2???{0 1 2}2-??1?00?????01?????????0??0-1111001?-?11000100-?0?0001??????0-???????200000000000000
+	'Archegosaurus decheni'                0000000022010000000000000000110000101(0 2)000100100010000010100000010000011000000000001100-1100001000100-01110001000010000000010000010110000000000111001001000100000000001-000010010000?10011103010000100?1000--010000010?00020000000000000100000010101000010001000?11102-000000001010000?0?00001?002001000100111000100-?010001??????0-2?0?100200000000000000
+	'Uranocentrodon senekalensis'          000000002000000000(0 1)001000100110000101003010001002000011010001002000001100010000100010111000001001?111011100010000000000000100000101?0000010??00110010000100000000000000000010010100000?11103010000111?0000--00?0000-0?000200000000000001???001?0?0??00?1???????????????????????????????????????????????????31000100??0????????????-??????????000000000000
+	'Lydekkerina huxleyi'                  000000000000000000(0 1)0000001?010000110(0 1)0010100(0 1)10020-0011010101001000101100110000102(0 1)101010000010120111011100011000000(0 1)10000100000111?1000000000011101??1?100000000001000000010010101000?1101211010011120000--04?0000(0 1)0?00020000000000000100000120001(0 1)1001100100000110-{1 2}001?00?????010?????1??1??0102111?10?0(1 2)0000100-?0100?1??????0-???????200000010000000
+	'Siderops kehli'                       000000000????01100?1---011?01??00?-0?00?-?10?0?0???0?1?????0100?0?0?01?2011000010111010100000001201110111100011-0021101??01000101?2?110000100001110???10100000001--10(0 2)000001?010101010?11103??0000101111?0--0011000---000??000000?0?00????0001{0 1 2}10112001100110001?110-200??000000100000202?1?1???-101???1?-??1000100-?010-?1?---?---1????--000000011000000
+	'Batrachosuchus browni'                000000000????0110?(0 1)1---011?010000?-0100?-1100011-(0 1)---???101001-?0?010122?110000001110??1000000012(0 1)1110111100011-10211010?0100010122????????????12?0??????????????????????????????????????????????????????????2?1000---000?101-0000000001???001110111??11???????????????0???????????????????????????????????(1 2)1000100-?0?0-???---?---?????--1??0??001000000
+	'Plagiosuchus pustuliferus'            011---000?0000110010000111?0001000-01------1---1-1---1001?1001-?010101{0 1}2?1100001010100-10000000121111011110000100021101000?00010121?1100000200????1??021100????????10??01001010110-110?11002010000101110020012?100-1100011-01-1000000001??0001210112?101000000{0 1}201022-0000???????????????????????????????-030111130-?0100?1?-????0-???????10?0000?10?0000
+	'Sangaia lavina'                       100000000????0000010000011?010000?20100201000011-0---?10101100{0 1}?0?010111?110000?01??0?????????????1110111???010-?000???0????0?00112???????????????0??????????????????????????????????????????????????????????2?10001000002000-0000000001000001?00??????????????????????????????????????????????????????????21000100??0??0?????????-????????????????0??000
+	'Gerrothorax pulcherrimus'             001---00000000100010000111?000100010101-00010001-1---1(0 1)0101001-?00010122011000010(0 1)1100-1000000312(0 1)1120121100-11-0011101000100000122?11000022000120111021100????????102-01001010110-100?11002010111111110020013110011100010103-000000000100000121011201010000000?1110020000?0?????00?1222211?1??????1?????-0(2 3)0100100-?010{0 1}?10111?00-11012100000000110-0000
+	'Edingerella madagascariensis'         00000000(0 2)00000000010000001?01000012010010100(0 1)10020-0001010101001000101100110000101010101000001012(0 1)1120111110-1000010001000100000111?1001000200011100????1000000000011??000010010101110?111030??????????000--03?000010?001100000000000001000001100110?1?100000010011002001?00?????00?????????????-100??????111000100-?0100?10??????-???????200000010000000
+	'Benthosuchus sushkini'                00000000210010000010000001?01000012010030100110020-001101010100100010110011000020011010100000101211121111110-10-0010011000100000112?10011002000111??????100000001--1100000010010110110?110030?00001011??????010000010?000100000000000001000001100112?0010000001001001100??00??????0????????????0002??1?1??0(1 2)1000100-?0100?12211100-1?1?210100000010000000
+	'Trematosaurus brauni'                 000011002000000000(0 1)0000011?01(0 1)00012010000(0 1)00101020-001(0 1)01010100100010111?11000000011011100000101211121111120-01000101010001000001(1 2)1?1001020??0011?????????????????????????0100201111??????????????1?????????01??0001(0 1)?00010000000000000?00000?00011210110?0?00{0 1}0010????0???????????????????????????????????(0 1 2)(0 1)000100-?0?0-???---?---?????--00?00?010000000
+	'Trematolestes hagdorni'               0?001100000000000010010011?01000011010130010100020-001001010101100010111?11100000101011100000101201121111120-11-00101010001000?1112110011202000110????10100010000000101000010020011?10011003011000100111?0--0100000-12010100000000000001100?01??01110011000000?001102-000000?0001???????????1???-10100?0?-010000100-?01?-01?---?---?????--000000000000000
+	'Lyrocephaliscus euri'                 10001100020000000000000011?01000012011100100101020-001101010100100000111011?00010001011100000101201121111120-01010111010001000001{1 2}1???????????011????????0100???0101100???0?????1????????????????????????????2?000010-00020000000000001?10?0012001120001??????????????????00?????01???0?0?1????????????????(1 2)1000100-?0?00???????00-1?00{0 2}101?0000000000000
+	'Callistomordax kugleri'               0?00110000000001001?010011?010000110100-0010101020-001001010101100011112?11100000101011100000101201121111120-01-?0111010001000?1121?100112{1 2}200????11?010100111100101101000010010111210011003011000101111?0--0210000-10010100100000000001100?01200110?001010100030100-2001?000000100011???1??1?11001100?10-0(0 1)1000100-?010-?10---?---?????--100000000000000
+	'Metoposaurus krasiejowensis'          000011000(0 1 2)0000010010000011?0100001201(0 1)(0 1)00(0 1)(0 1)0101020-001(0 1)01010101101011122011100010111011101000101201110111100011-001110100010000112211?0111(0 1)200011101??10110111111--(0 1)10000001001011(0 1)210?1100300000010111??0--00000001(0 1)2000{0 1}0000000000000100000101111010110001000001102-001?0000001000112221??1??0-11?10-0--?(1 2)1000100-?010-?10---?-?-?????--200000010000000
+	'Parotosuchus nasutus'                 00000000200000000000000000?01000011010110100010021-001101010100100010110011000010111010101000101201120111110-10-0000011000100000112?1001011??00111?0???????0??????????????0???00111?????????????????????????01?000010?001100000000000001000001210110???1??????{0 1}0???????????????????????????????????????????21000100-?0?0?????????2-???????00?000010000000
+	'Paracyclotosaurus davidi'             00010000200000000000010001?010000120101{1 3}0100010020-00110101010210101011001100001011100-101000101??11?0111110001000100110?0100000111?1002120200011000??10110000001--111-00001?010110110?11103000000111?1000--0300000-0?001100000000000001000001{0 1 2}1011??001001100??01002-00??000010100010??????10?0-12121?10-0(1 2)1000100-?0100?1?111102-1?0??1??00000010000000
+	'Cyclotosaurus intermedius'            00010000210000000000010001?01000011010110100110021-001101010102101000110011000010111010101000101211120111110-1100010011000100000121?1002121200?????0???????????????????000010010111110?11003?????????????????0?0000-0?00110000000000000100000?100002???10001000000002-?0???????????????????????0?00???????0(1 2)1000100-?0?00?1???????-???????00?000010000000
+	'Mastodonsaurus giganteus'             000100002100010000(0 1)0000001?000000120101001001(0 1)0020-001101010101100010111111000010111011101000101201120111110-0100010011000100000121?1?120202000111?0??{0 1}011010000010(0 1)11-000010010111100?110031?000011111??0--000000010?001100000000000001000001010110000100110003010012101?0000101000112211??1??0102121?10-011000100-?0100?1?111100-1?01010000000010000000
+	'Chinlestegophis jenkinsi'             00000?000?00?0110011---011?010001?-0101-?010100001-10?0-1010?1-0???10112?10?000??1?00?????????????0120100100-0110?1????1????0?1012?????1001200??????????101???????????????00?01010011??111?3?????????????????6?0000---100?1012001000?0????0001{0 1 2}10????01?0010111??1000110??00??????????????????????00???????21000100-?{0 1}??-?1?---?---1?1??00100?0???10?0000
+	'Rileymillerus cosgriffi'              00000?000????0?????????011?01?01---0?21-?010???1-??--10????001-????00112?100000201110??1??0001012011???1?10000?-101?1011?0100000122?0?0????20????????????????????????????????????????????????????????????????6?0?00???000?0?1-???0???0???00001110102?0110010?????10{0 1 2}{0 1}??0?????????????????????????????????????000?00-?0?0-?1?---?---?????--20?000001000000
+	'Adamanterpeton ohioensis'             0?0000102(0 1)1001000010000000?01001---0000?0100200000(0 1)001100000000001??01???00000000{0 2}0100-100100130?00100?0100000???1000100?00000??0001?0?001?00?????000????????????????????????????????????????????????????????3?000010-000200?0000?0?00010{0 1}0???100001??0100000010?00{0 1 2}2-10???????????????????????????????????01000100-?0100?1??????0-????????00??000??0000?
+	'Nigerpeton ricqlesi'                  00000010211001000010000000?111000001100{1 3}0100100001100?100000000000000120?000000001010111000001{2 3}0{0 1}10100001000100000000000?00000000001???0??????????000???????????????????????????????????????????????????????00?000010-00020000000001000000000?0?0??0??01??????????????10??00??????00?0?????????????????????01000100-?0?00?1?????00-??????????0??00000000?
+	'Chenoprosopus milleri'                00000010211001000000000000?01101---01(0 1)01010010000110101000000000010001?000000000020100-1001001000001000010{1 2}010000100000000000000000?000000?000????000?????????????????????0???????????????????0?001?0????????1?000010-00020010000000001?010001000000??01000000{0 1}??00{0 1}2-00??0????????????????????????????????11000100-?0?00?1??????0-???????10000?000000000
+	'Neldasaurus wrightae'                 00000000020000000010001011?0100000101(0 1)0-0000100100-000000010000000010111?000000000010111000001001100-0?0100010000100000000100000000??0?000?{0 1}?0?????????????00000001102-???0????0??0?10?1100301000010?0??0???03?00001100000000000000000010000000?0?10??0100010000?00{0 1 2}?-00??00?1???00????????10??0?02010?????11000100-?0100?1??????0-???????20000?000000000
+	'Isodectes obtsusus'                   00000000020000000010000111?0100000?0000-00001001-0---001001001-001000112?000000001010111000001011100-0?110100000101000010000000002011000000{0 1}01??1??1000000000000000102-00001000000001001110301100010?11000--041100000-0000201-00000000010000001000?0?011000000???11{0 1 2}2-?0??00?????000?0?????1????-11?????0??20000100-?010-?1?--?----?????--2000??001000000
+	'Acroplous vorax'                      00000000010020100020000111?010001--0000-00001001-00--001100001-0000101-2?000000001010111000001{2 3}11100-001100000000020000100000000020?10000-01011?11??????000000000001?2-???01?000001010?{0 1}11?3??100010?0??0???04?10100120001101-000001000100000000010000110000011-01002-00??00???????????????????0-11110?10?020000100-?010-?1?--?----?????--100000001000000
+	'Capetus palustris'                    0?0000000200000000(0 1)000000?001101---0000-0000100000001?1000000000000001?0?00000000??100-1??00010000?0-00010000000000????0???????000?100?00????0?????0??????????????????????01?0000000????????????????????00--?1?0000012000{0 2}00000000000000000?0?1000??????000000???00????0???????????????????????????????????21000100-?0?0??1??????0-???????10??0?000000000
+	'Iberospondylus schultzei'             0?00000002000?000000000000?0010000?0010-000110000000001010000000001001?0?0000000000100-1000001001?10-0001000?00001000000?00000?01???0000000000011100??2000100000000101-????????????????????????????????1?0--02?0000010000200000000000001100?0?10000?0?010001000??0102-000?0000?00000????001????????????????11000100-?0100?1??????0-???????0000??000000000
+	'Limnogyrinus elegans'                 0?00000002000000011000000110000?0000000-100110000000?001100001-010??02???000001102?10??1000001311?10--01100010--1(0 1)0000?0000100?0--2?0000000??00111???000000?????1??102-0001000000000?-1?1?0?010?0010?11010--07?0000010000100{1 2}10000010001????0-{0 1 2}1111000110?????????????0???1-????????????????0-?--2?????0???2000010?-?0?0-0??---?---?????--0000000000000-0
+	'Ecolsonia cutlerensis'                000000000200000011(0 1)0000-01?00101---1001-100110000001100110000000101101?0?0000000000100-1000111{0 2 3}0101100010000100001000001?0000000101?00?000?000??{1 2}00?????000111000?0100000110?000000001?21022??0111110000020003?10000110010200100000000001{0 1}000?{0 1 2}00001?0?100000?00?0?02-00?0001000100?????????1??0101??0000?1100001?0-?01???????????-???????000000000000000
+	'Platyoposaurus stuckenbergi'          00000000200100000000000000001100000012000100100010000110100000010000011000000000001100-1000001000100-0111000100001010000001000001{1 2}1?0000000{0 1}00????0?0?1000100000000?01-000010010000010?1110301000010??0000--010000010-00010000000000000100000010101000010001001211102-00??????????????????????????????????110000100-?0100?1?0?1?00-20?01001000??000000000
+	'Lapillopsis nana'                     00000000020001000?10010021?00001---010(0 1)1010000000(0 1)-00110101000000001011??10000000101010100000101211100111000010-1100100000000000??2?10?100?200011?0???????????????????????0??0{0 1}0??1000?{1 2}?1???????????1???0--?7?0001-0-0011003100000000010000010101120??100100012011{0 1}?2000000?????00????????????0?0?????0???20000100-?0?0??1???????-???????20?000000000000
+	'Rhigerpeton isbelli'                  ??0?0??0???????????0??00{1 2}1?????1---0??00010??0?00?-0?110??10?00???01?????10000?????10????????101??1??????????0???10011?0?0??0000?????????????????????????????????????????????????????????????????????????????6??0???0-0???{0 1}??10?????00???{0 1}0????0011????1??????????????????????????????????????????????????????0???0-???0?????????????????????0???10??0??0
+	'Rotaurisaurus contundo'               00000??00?0001?00?{0 1}0??000???0?01---0???0?1?00??020-00?101?10?01???????????000???010101?10000???1??1100?1?0??110-?10010?0?00000?0102????????{1 2}0??11????????????????????????????????????????????????????????????6?00???0-001??0?0000000000??{0 1}?????1011????10???????????0??????????????????????????????????????{1 2}000010????????1????????????????0?0??000?00000
+	'UWBM middle Fremouw capitosaurs'      00000000020021?00??0000001??0???---0???{0 1}?1000??021000?101010?00??????????11?00?????????????????????????????????????????0????0????????????????????????????????????????????????????????????????????????????????6?000??0-0?1??03000000000????00???????????????????????????????????????????????????????????????2000010???0????1?????????????????????????????0
+	'UWBM vp 117460'                       ??0?0?00????????????????01??0???---????????001?021000???1010?00??????????11?00???????????????????????????????0???0???????????????????????????0????????????????????????????0??????????????????????????????????6??00???-0?1???30000000?0????00???10??????????????????????????????????????????????????????????2000010????????1???????????????????0?????????0
+	'Peltobatrachus pustulatus'            001---000?00?0?000?????000?01?01---??00?0??01?-0?0000???100000000?0?011??000000??2?10??100000?????110001100010000000??????????00111??0?00????0????0?????100????????001-?????????????00?10012??0111111??00200?3?0000???000?{0 1}?0000000000?????010?00????00??00000??001{0 1 2}???0??000000100?????????0?002020???0???10000100-????0????????0-00???0??01??0??????000
+	'Australerpeton cosgriffi'             00000000200100000000000001?0010000-01(0 1)0001000(0 1)-0111001101000000200000110?000000?001101110000010111011011100010000000000000100000111?00000{1 2}0200????0?0?{0 1}?10100000000001-000010010000000??100?1?0?001110?000--000000010-000100000000000000100001000010??110010000001002-00??00?011??0?????????0??010{1 2}??1?0??000000100-?010-?1?---?---?????--200000010000000
+	'Rhineceps nyasaensis'                 000000002000200000100(0 1)0001?0110000201002010001-021100?1010001002000001100010000100(0 1)10111000001002(0 1)1110111000100000000000?0100000101?000001000001100?0?????????????????????????????????????????????????????--?1?000010-000200000000010001000001100001?0010000000010002-00??????????????????????????????????0(0 1)1000100-?0100?1???????-?????0?20?0??010000000
+	'Broomistega putterilli'               00000000000000000010000001?01100?020100101000100200001101000100200000110?01000010201011100000101111110111000110-0000000000100000112?00000??000??{1 2}?0?0???1000000???0?0?00000100101000?0??100201000011111000--030000010?0002000000000000011100011000011??10001?01001102-001?00?????01?????????0??0-11110?10?0(1 2)1000100-?0100?1??????0-???????10000?010000000
+	'Chomatobatrachus halei'               00000000000000000010000001?010000120000(1 2)0100110020-001101010100100010111?1100001001101010000010110111011100001000000010000100000121?1000010000????0???????????????????????0??????????????????????????????????3?000000-000100000000000001?0??01100002??010001000001102-00??????????????????????????????????110000100-?0100?1???????-???????20?0??010000000
+	'Peltostega erici'                     100011000??0?00000{0 1}????011?010000??????????0001020-00???1010100?0?00011??11?000????1011100000?????1111100100001-101????0?0??00001{1 2}2??????????????????????????????????????????????????????????????????????????1?0000???000??00000000000?????00??0?11????????????????????????????????????????????????????????0(0 1)00010????????????????-????????????????0???00
+	'Laidleria gracilis'                   111---00010000000001---011?0100000-01000-1101011-(0 1)---?0-1011001?0?010122?110?00001110111000001010111{1 2}0111100010-100???10?01?0000122?1?000????0????0???2?10020000???1-2-???01???????????1110???????1????002001410000---001100{2 3}-00000000011?00010?0110??1100000???010???00??00?????0?01???????1???-10110?????11000100-?010-?1?---?---?????--2000??000000000
+	'Watsonisuchus aliciae'                00000?000??????????00?0?01??0?0?---????{0 1}?1?0010021000?10101010000?010111?11000010101010?0?0???????1120?111{1 2}0010-100010?0??1?0?00112?00?{1 2}00?{0 1}0???????????????????????0?????01?010110{0 1}???????????????0111??????6?0001?0-001???0000000000???00001?1011??01?00????{0 1}20{0 1}1{0 1}{0 1}2000?0??????????????????????0?????1--?2000010?-?01?-?1?---?---?????--20?00???0000000
+	'''Parotosaurus wadei'''               00000??00?0001?00?10000001??000?00001202?100110021?00?1010?0?00????????????????????????????????????????????????????????0????0????????????????0????????????????????????????01?0101101?????????????????????????5?000010-001?00?0000???000????0???????????????????????????????????????????????????????????????2000010???0????????????????????????0??????????
+	'Nanolania anatopretia'                10000000000000100?11---011?01??00?-01?10-1100001-00--10-1011?00{1 2}?1??012??10?00???1?10?????????????1110?10100110-1000???0?0??000?122?00??0????????????????????????????????????????????????????????????????????7?0000---000?000-000000000??{1 2}0001?10????01?0000??????1????????????????????????????????????????2000010???0????1?---?---?????--10??????0????00
+	'Benthosuchus juvenile'                00000000010001000?10000011??000?01201001?1000000200001101010100?00010110?0000002021101010?00?101001120?11000010-00000(0 1)10?0100000112??????????????????????????????????????????????????????????????????????????7?000010-00010000000000000?000001100112???10????????00????0???????????????????????????????????(1 2)0000100-?0?0??????????????????10?0??010000?00
+	'Deltacephalus whitei'                 000000000????1000?200000{0 1}1?0100001101100?10000?0210001101010?00100010101?01?00???1110??????????1??1110?010{1 2}0110-?(0 1)0001?0?01?0000102??????????????????????????????????????????????????????????????????????????{5 6}?000010-000?00000000000001?00001?10??0???1???????????????????????????????????????????????????20000100-?0????????????-???????1??0????0?00?00
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-8 10-37 39-63 65-70 73-96 98-100 102-103 105-129 132-135 137 139-150 152-155 157-162 164-174 176-179 181-183 185-186 188-205 208-218 220-221 223-232 235-243 245-250 252 254 256-257 259 261 263-267 269-278 280 282 284-286 288 292-299 301-322 324-328 330-345, ord: 9 38 64 71-72 97 101 104 130-131 136 138 151 156 163 175 180 184 187 206-207 219 222 233-234 244 251 253 255 258 260 262 268 279 281 283 287 289-291 300 323 329;
+ENDBLOCK;
+BEGIN LABELS;
+ CHARGROUPLABEL Skull_roof COLOR = (RGB 0.70588235 1.0 0.63529412) ; CHARGROUPLABEL 'Skull (general)' COLOR = (RGB 0.52941176 0.52941176 0.93333333) ; CHARGROUPLABEL Palate COLOR = (RGB 1.0 0.4 1.0) ; CHARGROUPLABEL Occiput COLOR = (RGB 1.0 0.86666667 0.66666667) ; CHARGROUPLABEL Dentition COLOR = (RGB 0.53333333 0.8 0.8) ; CHARGROUPLABEL Hemimandible COLOR = (RGB 1.0 0.4 0.4) ; CHARGROUPLABEL Visceral_skeleton COLOR = (RGB 0.83529412 0.83529412 0.41568627) ; CHARGROUPLABEL Accessory_ossifications COLOR = (RGB 1.0 1.0 1.0) ; CHARGROUPLABEL Hindlimb COLOR = (RGB 0.94509804 0.73333333 1.0) ; CHARGROUPLABEL Pelvic_girdle COLOR = (RGB 0.16862745 0.83137255 1.0) ; CHARGROUPLABEL Forelimb COLOR = (RGB 0.11372549 0.56862745 0.20392157) ; CHARGROUPLABEL 'Postcrania (general)' COLOR = (RGB 0.86666667 0.86666667 0.86666667) ; CHARGROUPLABEL Pectoral_girdle COLOR = (RGB 1.0 0.50196078 0.16862745) ; CHARGROUPLABEL Axial_column COLOR = (RGB 1.0 0.26666667 0.85490196) ; CHARGROUPLABEL Neurocranium; CHARGROUPLABEL DELETE COLOR = (RGB 1.0 0.13333333 0.13333333) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1721144795598; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3361161457842116522; tell It; setDefaultOrder 0 4 8 9 10 11 12 13 14 15 16 17 18 107 108 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 38 41 42 43 43 43 44 45 46 47 48 54 106 106 113 113 114 115 116 117 118 119 120 121 122 123 88 89 70 61 123 124 125 126 127 128 129 70 71 74 81 72; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7817249413020164912; mqVersion 381; checksumv 0 3 4255231962 null getNumChars 345 numChars 345 getNumTaxa 74 numTaxa 74 short true bits 2305843009213694207 states 255 sumSquaresStatesOnly 232497.0 sumSquares -6.041308684139878E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 99; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 991; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #3361161457842116522 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #3361161457842116522; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1821 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7817249413020164912 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 110; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1821 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground Light_Gray; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1821 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #7817249413020164912 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1821 919; setLocation 1440 -155; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 345; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARPARTITION * UNTITLED = 'Skull (general)' : 1- 2 68 72 206 208 302 306, Skull_roof : 3- 53 55- 60 62- 63 66- 67 120 209- 232 300- 301 303- 305 307- 308 310 340 345, Palate : 54 73 84- 112 114- 119 121- 122 124 126- 128 132 239 244 248 312 331-3373 339-3423, Occiput : 61-643 65 69- 71 113 129- 131 236- 238 323 344, Dentition : 74- 83 123 125 139- 141 233- 235 240- 243 261- 262 311 315 332 338-3413, Hemimandible : 133- 138 249- 260 263- 264 299, Accessory_ossifications : 142 200- 204 333, Neurocranium : 143- 146 245- 247 313-3163 317- 322 324- 330 343, Visceral_skeleton : 147- 150 265- 266 309, Axial_column : 151- 167 267- 287, Pectoral_girdle : 168- 182 288- 290 335- 336, Forelimb : 183- 190 291- 295, Pelvic_girdle : 191- 196, Hindlimb : 197- 199 296- 298, 'Postcrania (general)' : 205; 
+ENDBLOCK;

@@ -1,0 +1,1409 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.48.26 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=17;
+	TAXLABELS
+		'Gracilisuchus stipanicicorum'
+		'Terrestrisuchus gracilis'
+		'Dibothrosuchus elaphros'
+		'Protosuchus richardsoni'
+		'Hemiprotosuchus leali'
+		'Orthosuchus stormbergi'
+		'Kayentasuchus walkeri'
+		'Edentosuchus tienshanensis'
+		'Zaraasuchus shepardi'
+		'Gobiosuchus kielanae'
+		'Sichuanosuchus shuhanensis'
+		'Shantungosuchus hangjinensis'
+		'Zosuchus davidsoni'
+		'Hsisosuchus chungkingensis'
+		'Fruitachampsa callisoni'
+		'Notosuchus terrestris'
+		'Comahuesuchus brachybuccalis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=257;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'External surface of dorsal cranial bones'
+		[2] 'Skull expansion at orbits'
+		[3] 'Rostrum proportions'
+		[4] 'Premaxilla participation in internarial bar'
+		[5] 'Premaxilla anterior to nares'
+		[6] 'External nares facing anterolaterally or anteriorly'
+		[7] 'Palatal parts of premaxillae'
+		[8] 'Premaxilla-maxilla contact'
+		[9] 'Ventrally opened notch on ventral edge of rostrum at premaxilla-maxilla contact'
+		[10] 'Posterior ends of palatal branches of maxillae anterior to palatines'
+		[11] 'Nasal contacts lacrimal'
+		[12] 'Lacrimal contacts nasal along medial edge'
+		[13] 'Nasal contribution to narial border'
+		[14] 'Nasal-premaxilla contact'
+		[15] 'Descending process of prefrontal contacts palate'
+		[16] 'Postorbital-jugal contact'
+		[17] 'Anterior part of the jugal with respect to posterior part'
+		[18] 'Jugal bar beneath infratemporal fenestra'
+		[19] 'Quadratojugal dorsal process'
+		[20] 'Frontal width between orbits'
+		[21] 'Frontals'
+		[22] 'Dorsal surface of frontal and parietal'
+		[23] 'Parieto-postorbital suture'
+		[24] 'Supratemporal roof dorsal surface'
+		[25] 'Postorbital bar'
+		[26] 'Postorbital bar - 2'
+		[27] 'Vascular opening in dorsal surface of postorbital bar'
+		[28] 'Postorbital anterolateral process'
+		[29] 'Dorsal part of the postorbital'
+		[30] 'Dorsal end of the postorbital bar'
+		[31] 'Bar between orbit and supratemporal fossa'
+		[32] 'Parietal'
+		[33] 'Parietal - 2'
+		[34] 'Postparietal (dermosupraoccipital)'
+		[35] 'Posterodorsal corner of the squamosal'
+		[36] 'Posterolateral process of squamosal'
+		[37] 'Palatines'
+		[38] 'Pterygoid'
+		[39] 'Choanal opening'
+		[40] 'Palatal surface of pterygoids'
+		[41] 'Pterygoids posterior to choanae'
+		[42] 'Depression on primary pterygoidean palate posterior to choana'
+		[43] 'Pterygoids'
+		[44] 'Anterior edge of choanae situated'
+		[45] 'Quadrate'
+		[46] 'Posterior edge of quadrate'
+		[47] 'Dorsal, primary head of quadrate articulates with'
+		[48] 'Ventrolateral contact of otoccipital with quadrate'
+		[49] 'Quadrate, squamosal, and otoccipital'
+		[50] 'Pterygoid ramus of quadrate'
+		[51] 'Ventromedial part of quadrate'
+		[52] 'Eustachian tubes'
+		[53] 'Basisphenoid rostrum (cultriform process)'
+		[54] 'Basipterygoid process'
+		[55] 'Basisphenoid ventral surface'
+		[56] 'Basisphenoid'
+		[57] 'Basioccipital'
+		[58] 'Otoccipital'
+		[59] 'Cranial nerves IX--XI'
+		[60] 'Otoccipital - 2'
+		[61] 'Crista interfenestralis between fenestrae pseudorotunda and ovalis'
+		[62] 'Supraoccipital'
+		[63] 'Mastoid antrum'
+		[64] 'Posterior surface of supraoccipital'
+		[65] 'Palpebrals'
+		[66] 'External nares'
+		[67] 'Antorbital fenestra'
+		[68] 'Supratemporal fenestrae extension'
+		[69] 'Choanal groove'
+		[70] 'Dentary'
+		[71] 'Retroarticular process'
+		[72] 'Prearticular'
+		[73] 'Articular'
+		[74] 'Dorsal edge of surangular'
+		[75] 'Mandibular fenestra'
+		[76] 'Insertion area for M. pterygoideous posterior'
+		[77] 'Splenial involvement in symphysis in ventral view'
+		[78] 'Posterior premaxillary teeth'
+		[79] 'Maxillary teeth waves'
+		[80] 'Anterior dentary teeth opposite premaxilla-maxilla contact'
+		[81] 'Dentary teeth posterior to tooth opposite premaxilla-maxilla contact'
+		[82] 'Anterior and posterior scapular edges'
+		[83] 'Coracoid length'
+		[84] 'Anterior process of ilium'
+		[85] 'Pubis'
+		[86] 'Pubis - 2'
+		[87] 'Distal end of femur'
+		[88] 'Fifth pedal digit'
+		[89] 'Atlas intercentrum'
+		[90] 'Cervical neural spines'
+		[91] 'Hypapophyses in cervicodorsal vertebrae'
+		[92] 'Cervical vertebrae'
+		[93] 'Trunk vertebrae'
+		[94] 'All caudal vertebrae'
+		[95] 'Dorsal osteoderms'
+		[96] 'Dorsal osteoderms - 2'
+		[97] 'Rows of dorsal osteoderms'
+		[98] 'Osteoderms'
+		[99] 'Tail osteoderms'
+		[100] 'Trunk osteoderms'
+		[101] 'Osteoderms: with longitudinal keels on dorsal surfaces'
+		[102] 'Jugal: participating in margin of antorbital fossa'
+		[103] 'Mandibular symphysis in lateral view'
+		[104] 'Articular facet for quadrate condyle'
+		[105] 'Jaw joint'
+		[106] 'Premaxillary teeth'
+		[107] 'Unsculptured region along alveolar margin on lateral surface of maxilla'
+		[108] 'Maxilla'
+		[109] 'Coracoid'
+		[110] 'Radiale and ulnare'
+		[111] 'Prefrontals anterior to orbits'
+		[112] 'Basioccipital and ventral part of otoccipital'
+		[113] 'Vertebral centra'
+		[114] 'Transverse process of posterior dorsal vertebrae'
+		[115] 'Number of sacral vertebrae'
+		[116] 'Supra-acetabular crest'
+		[117] 'Proximal end of radiale expanded'
+		[118] 'Lateral surface of the anterior region of surangular and posterior region of dentary'
+		[119] 'Ventral exposure of splenials'
+		[120] 'Tooth margins'
+		[121] 'Lateral surface of anterior process of jugal'
+		[122] 'Jugal'
+		[123] 'Notch in premaxilla on lateral edge of external nares'
+		[124] 'Dorsal border of external nares'
+		[125] 'Posterodorsal process of premaxilla'
+		[126] 'Premaxilla-maxilla suture in palatal view, medial to alveolar region'
+		[127] 'Nasal lateral border posterior to external nares'
+		[128] 'Nasal lateral edges'
+		[129] 'Palatine anteromedial margin'
+		[130] 'Dorsoventral height of jugal antorbital region respect to infraorbital region'
+		[131] 'Maxilla-lacrimal contact'
+		[132] 'Lateral eustachian tube openings'
+		[133] 'Anterior process of ectopterygoid'
+		[134] 'Posterior process of ectopterygoid'
+		[135] 'Small foramen located in the premaxillo-maxillary suture in lateral surface'
+		[136] 'Jugal posterior process'
+		[137] 'Compressed crown of maxillary teeth'
+		[138] 'Large and aligned neurovascular foramina on lateral maxilary surface'
+		[139] 'External surface of maxilla and premaxilla'
+		[140] 'Maxillary teeth'
+		[141] 'Posteroventral corner of quadratojugal'
+		[142] 'Base of postorbital process of jugal'
+		[143] 'Postorbital process of jugal'
+		[144] 'Postorbital-ectopterygoid contact'
+		[145] 'Quadratojugal'
+		[146] 'Prefrontal-maxillary contact in the inner anteromedial region of orbit'
+		[147] 'Basisphenoid - 2'
+		[148] 'Quadrate process of pterygoids'
+		[149] 'Quadrate major axis directed'
+		[150] 'Quadrate distal end'
+		[151] 'Anteroposterior development of neural spine in axis'
+		[152] 'Prezygapophyses of axis'
+		[153] 'Postzygapophyses of axis'
+		[154] 'Shape of dentary symphysis in ventral view'
+		[155] 'Unsculpted region in the dentary below the tooth row'
+		[156] 'Surangular forms only the lateral wall of glenoid fossa'
+		[157] 'Anterior margin of femur'
+		[158] 'Dentary lateral to seventh alveolous'
+		[159] 'Dorsal edge of dentary'
+		[160] 'Dentary compression and lateroventral surface anterior to mandibular fenestra'
+		[161] 'Splenial'
+		[162] 'Cheek teeth'
+		[163] 'Ventral edge of premaxilla located'
+		[164] 'Maxillary dental implantation'
+		[165] 'Caudal tip of nasals'
+		[166] 'Relative length between squamosal and postorbital'
+		[167] 'Jugal portion of postorbital bar'
+		[168] 'Outer surface of squamosal laterodorsally oriented'
+		[169] 'Quadratojugal spine at caudal margin of infratemporal fenestra'
+		[170] 'Quadrate condyles'
+		[171] 'Exposure of supraoccipital in skull roof'
+		[172] 'Nasal participation in antorbital fenestra'
+		[173] 'Anterior opening of temporo-orbital in dorsal view'
+		[174] 'Foramen intramandibularis oralis'
+		[175] 'Coronoid size'
+		[176] 'Width of root of teeth respect to crown'
+		[177] 'Gap in cervico-thoracic dorsal armor'
+		[178] 'Lateral contour of snout in dorsal view'
+		[179] 'Pterygoidean flanges'
+		[180] 'Ectopterygoid medial process'
+		[181] 'Skull roof shape in dorsal view'
+		[182] '+ Prefrontal pillars when integrated in palate'
+		[183] 'Ventral edge of maxilla in lateral view'
+		[184] 'Position of first enlarged maxillary teeth'
+		[185] 'Splenial-dentary suture at symphysis on ventral surface'
+		[186] 'Posterior peg at symphysis'
+		[187] 'Posterior ridge on glenoid fossa of articular'
+		[188] 'Cusps of teeth'
+		[189] 'Dorsal surface of mandibular symphysis'
+		[190] 'Medial surface of splenials posterior to symphysis'
+		[191] 'Choanal septum shape'
+		[192] 'Cross section of distal end of quadrate'
+		[193] 'Lateral surface of dentaries below alveolar margin, at mid to posterior region of tooth row'
+		[194] 'Palatine-pterygoid contact on palate'
+		[195] 'Ectopterygoid main axis oriented'
+		[196] 'Squamosal descending process'
+		[197] 'Development of distal quadrate body ventral to otoccipital-quadrate contact'
+		[198] 'Pterygoid flanges'
+		[199] 'Postorbital participation in infratemporal fenestra'
+		[200] 'Palatines - 2'
+		[201] 'Angular posterior to mandibular fenestra'
+		[202] 'Posteroventral edge of mandibular ramus'
+		[203] 'Quadrate ramus of pterygoid in ventral view'
+		[204] 'Pterygoids - 2'
+		[205] 'Olecranon'
+		[206] 'Cranial table width respect to ventral portion of skull'
+		[207] 'Depression on posterolateral surface of maxilla'
+		[208] 'Anterior palatal fenestra'
+		[209] 'Paired ridges located medially on ventral surface of basisphenoid'
+		[210] 'Ventral margin of infratemporal bar of jugal'
+		[211] 'Posterolateral end of quadratojugal'
+		[212] 'Orientation of quadrate body distal to otoccipital-quadrate contact in posterior view'
+		[213] 'Wedge-like process of the maxilla in lateral surface of premaxilla-maxilla suture'
+		[214] 'Palpebrals - 2'
+		[215] 'External surface of ascending process of jugal'
+		[216] 'Longitudinal ridge on lateral surface of jugal below infratemporal fenestra'
+		[217] 'Dorsal surface of posterolateral region of squamosal'
+		[218] 'Ridge along dorsal section of quadrate-quadratojugal contact'
+		[219] 'Sharp ridge along the ventral surface of angular'
+		[220] 'Longitudinal ridge along the dorsolateral surface of surangular'
+		[221] 'Dorsal surface of osteoderms ornamented with anterolaterally and anteromedially directed ridges'
+		[222] 'Cervical region surrounded by lateral and ventral osteoderms sutured to the dorsal elements'
+		[223] 'Appendicular osteoderms'
+		[224] 'Supratemporal fenestra'
+		[225] 'Flat ventral surface of internal nares septum'
+		[226] 'Perinarial fossa'
+		[227] 'Premaxillary palate circular paramedian depressions'
+		[228] 'Posterolateral region of nasals'
+		[229] 'Ventral half of the lacrymal'
+		[230] 'Large foramen on the lateral surface of jugal, near its anterior margin'
+		[231] 'Procumbent premaxilary and anterior dentary alveoli'
+		[232] 'Palatine bar'
+		[233] 'Participation of ectopterygoid in palatine bar'
+		[234] 'Choanal opening - 2'
+		[235] 'Ectopterygoid projecting medially on ventral surface of pterygoid flanges'
+		[236] 'Evaginated maxillary alveolar edges'
+		[237] 'Foramen in perinarial depression of premaxilla'
+		[238] 'Frontal anterior ramus respect to tip of prefrontal'
+		[239] 'Premaxillary anterior alveolar margin and teeth orientation'
+		[240] 'Premaxillary tooth row orientation'
+		[241] 'Last premaxillary tooth position relative to tooth row'
+		[242] 'Posterior end of premaxilla-maxilla suture on dorsal surface of rostrum'
+		[243] 'Maxilla-palatine suture'
+		[244] 'Lateral surface of postorbital bar'
+		[245] 'Enlarged foramen at anterior end of surangular groove'
+		[246] 'Shape of antorbital fossa'
+		[247] 'Prefrontal lateral development'
+		[248] 'Foramen for the internal carotid artery'
+		[249] 'Squamosal posterolateral region, lateral to paroccipital process'
+		[250] 'Posteromedial branch of squamosal oriented'
+		[251] 'Dorsal margin of squamosal occipital flange'
+		[252] 'Sculpture in external surface of rostrum'
+		[253] 'Longitudinal depressions on palatal surface of maxillae and palatines'
+		[254] 'Angle between medial and anterior margins of supratemporal fossa'
+		[255] 'Transverse process of sacral vertebrae directed'
+		[256] 'Prefrontal and lacrimal around orbits'
+		[257] 'Nasal bones'
+	;
+	STATELABELS
+		1
+			'smooth'
+			'slightly grooved'
+			'heavily ornamented with deep pits and grooves'
+			,
+		2
+			'gradual'
+			'abrupt'
+			,
+		3
+			'narrow oreinirostral'
+			'broad oreinirostral'
+			'nearly tubular'
+			'platyrostral'
+			,
+		4
+			'forming at least the ventral half'
+			'with little participation'
+			,
+		5
+			'narrow'
+			'broad'
+			,
+		6
+			'anterolaterally or anteriorly'
+			'dorsally not separated by premaxillary bar from anterior edge of rostrum'
+			'dorsally separated by premaxillary bar'
+			,
+		7
+			'do not meet posterior to incisive foramen'
+			'meet posteriorly along contact with maxillae'
+			,
+		8
+			'premaxilla loosely overlies maxilla'
+			'sutured together along a butt joint'
+			,
+		9
+			'absent'
+			'present as a notch'
+			'present as a large fenestra'
+			,
+		10
+			'do not meet'
+			'meet'
+			,
+		11
+			'contacts'
+			'do not contact'
+			,
+		12
+			'only medial edge'
+			'medial and anterior edges'
+			,
+		13
+			'yes'
+			'no'
+			,
+		14
+			'present'
+			'absent'
+			,
+		15
+			'does not contact palate'
+			'contacts palate'
+			,
+		16
+			'postorbital anterior to jugal'
+			'postorbital medial to jugal'
+			'postorbital lateral to jugal'
+			,
+		17
+			'as broad'
+			'twice as broad'
+			,
+		18
+			'flattened'
+			'rod-shaped'
+			,
+		19
+			'narrow, contacting only a small part of postorbital'
+			'broad, extensively contacting the postorbital'
+			,
+		20
+			'narrow, as broad as nasals'
+			'broad, twice as broad as nasals'
+			,
+		21
+			'paired'
+			'unpaired'
+			,
+		22
+			'flat'
+			'with midline ridge'
+			,
+		23
+			'absent from dorsal surface of skull roof and supratemporal fossa'
+			'absent from dorsal surface of skull roof but broadly present within supratemporal fossa'
+			'present within supratemporal fossa and on dorsal surface of skull roof'
+			,
+		24
+			'complex'
+			'dorsally flat ‘skull table’ developed, with postorbital and squamosal with flat shelves extending laterally beyond quadrate contact'
+			,
+		25
+			'sculpted (if skull sculpted)'
+			'unsculpted'
+			,
+		26
+			'transversely flattened'
+			'cylindrical'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent or poorly developed'
+			'well developed, long, and acute'
+			,
+		29
+			'with anterior and lateral edges only'
+			'with anterolaterally facing edge'
+			,
+		30
+			'broadens dorsally, continuous with dorsal part of postorbital'
+			'constricted, distinct from the dorsal part of the postorbital'
+			,
+		31
+			'broad and solid, with broadly sculpted dorsal surface if sculpture present'
+			'narrow, sculpting restricted to anterior surface'
+			,
+		32
+			'with broad occipital portion'
+			'without broad occipital portion'
+			,
+		33
+			'with broad sculpted region separating fossae'
+			'with sagittal crest between supratemporal fossae'
+			,
+		34
+			'a distinct element'
+			'not distinct (fused with parietal?)'
+			,
+		35
+			'squared off, lacking extra ‘lobe’'
+			'with unsculptured ‘lobe’'
+			,
+		36
+			'poorly developed and projected horizontally at the same level of the skull'
+			'elongated, thin, and posteriorly directed, not ventrally deflected'
+			'elongated, posterolaterally directed, and ventrally deflected'
+			,
+		37
+			'do not meet on palate below the narial passage'
+			'form palatal shelves that do not meet'
+			'meet ventrally to the narial passage, forming part of secondary palate'
+			,
+		38
+			'restricted to palate and suspensorium, joints with quadrate and basisphenoid overlapping'
+			'pterygoid extends dorsally to contact laterosphenoid and form ventrolateral edge of the trigeminal foramen, strongly sutured to quadrate and laterosphenoid'
+			,
+		39
+			'continuous with pterygoid ventral surface except for anterior and anterolateral borders'
+			'opens into palate through a deep midline depression (choanal groove)'
+			,
+		40
+			'smooth'
+			'sculpted'
+			,
+		41
+			'separated'
+			'fused'
+			,
+		42
+			'absent or moderate in size being narrower than palatine bar'
+			'wider than palatine bar'
+			,
+		43
+			'form posterior half of the choanal opening'
+			'forms posterior, lateral and part of the anterior margin of the choana'
+			'completely enclose choana'
+			,
+		44
+			'near posterior edge of suborbital fenestra (or anteriorly)'
+			'near posterior edge of pterygoid flanges'
+			,
+		45
+			'without fenestrae'
+			'with single fenestrae'
+			'with three or more fenestrae on dorsal and posteromedial surfaces'
+			,
+		46
+			'broad medial to tympanum, gently concave'
+			'narrow dorsal to otoccipital contact, strongly concave'
+			,
+		47
+			'squamosal, otoccipital, and prootic'
+			'with prootic and laterosphenoid'
+			,
+		48
+			'very narrow'
+			'broad'
+			,
+		49
+			'do not meet to enclose cranioquadrate passage'
+			'enclose passage near lateral edge of skull'
+			'meet broadly lateral to the passage'
+			,
+		50
+			'with flat ventral edge'
+			'with deep groove along ventral edge'
+			,
+		51
+			'does not contact otoccipital'
+			'contacts otoccipital to enclose carotid artery and form passage for cranial nerves IX--XI'
+			,
+		52
+			'not enclosed between basioccipital and basisphenoid'
+			'entirely enclosed'
+			,
+		53
+			'slender'
+			'dorsoventrally expanded'
+			,
+		54
+			'prominent, forming movable joint with pterygoid'
+			'small or absent, with basisphenoid joint suturely closed'
+			,
+		55
+			'shorter than the basioccipital'
+			'wide and similar to, or longer in length than basioccipital'
+			,
+		56
+			'exposed on ventral surface of braincase'
+			'virtually excluded from ventral surface by pterygoid and basioccipital'
+			,
+		57
+			'without well-developed bilateral tuberosities'
+			'with large pendulous tubera'
+			,
+		58
+			'without laterally concave descending flange ventral to subcapsular process'
+			'with flange'
+			,
+		59
+			'pass through common large foramen vagi in otoccipital'
+			'cranial nerve IX passes medial to nerves X and XI in separate passage'
+			,
+		60
+			'without large ventrolateral part ventral to paroccipital process'
+			'with large ventrolateral part'
+			,
+		61
+			'nearly vertical'
+			'horizontal'
+			,
+		62
+			'forms dorsal edge of the foramen magnum'
+			'otoccipitals broadly meet dorsal to the foramen magnum, separating supraoccipital from foramen'
+			,
+		63
+			'does not extend into supraoccipital'
+			'extends through transverse canal in supraoccipital to connect middle ear regions'
+			,
+		64
+			'nearly flat'
+			'with bilateral posterior prominences'
+			,
+		65
+			'absent'
+			'one small palpebral present in orbit'
+			'one large palpebral'
+			'two large palpebrals'
+			,
+		66
+			'divided by a septum'
+			'confluent'
+			,
+		67
+			'as large as orbit'
+			'about half the diameter of the orbit'
+			'much smaller than the orbit'
+			'absent'
+			,
+		68
+			'relatively large, covering most of surface of skull roof'
+			'relatively short, fenestrae surrounded by a flat and extended skull roof'
+			,
+		69
+			'undivided'
+			'partially septated'
+			'completely septated'
+			,
+		70
+			'extends posteriorly beneath mandibular fenestra'
+			'does not extend beneath fenestra'
+			,
+		71
+			'absent or extremely reduced'
+			'very short, broad, and robust'
+			'with an extensive rounded, wide, and flat (or slightly concave) surface projected posteroventrally and facing dorsomedially'
+			'posteriorly elongated, triangular-shaped and facing dorsally'
+			'posteroventrally projecting and paddle-shaped'
+			,
+		72
+			'present'
+			'absent'
+			,
+		73
+			'without medial process'
+			'with short process not contacting braincase'
+			'with process articulating with otoccipital and basisphenoid'
+			,
+		74
+			'flat'
+			'arched dorsally'
+			,
+		75
+			'present'
+			'absent'
+			,
+		76
+			'does not extend onto lateral surface of angular'
+			'extends onto lateral surface of angular'
+			,
+		77
+			'not involved'
+			'involved slightly in symphysis'
+			'extensively involved'
+			,
+		78
+			'similar in size to anterior teeth'
+			'much longer'
+			,
+		79
+			'absent, no tooth size variation'
+			'one wave of teeth enlarged'
+			'enlarged maxillary teeth curved in two waves (festooned)'
+			,
+		80
+			'no more than twice the length of other dentary teeth'
+			'more than twice the length'
+			,
+		81
+			'equal in size'
+			'enlarged dentary teeth opposite to smaller teeth in maxillary toothrow'
+			,
+		82
+			'symmetrical in lateral view'
+			'anterior edge more strongly concave than posterior edge'
+			'dorsally narrow with straight edges'
+			,
+		83
+			'up to two-thirds of the scapular length'
+			'subequal in length to scapula'
+			,
+		84
+			'similar in length to posterior process'
+			'one-quarter or less of the length of the posterior process'
+			,
+		85
+			'rodlike without expanded distal end'
+			'with expanded distal end'
+			,
+		86
+			'forms anterior half of ventral edge of acetabulum'
+			'pubis contacting the ilium but partially excluded from the acetabulum by the anterior process of the ischium'
+			'pubis completely excluded from the acetabulum by the anterior process of the ischium'
+			,
+		87
+			'with large lateral facet for the fibula'
+			'with very small facet'
+			,
+		88
+			'with phalanges'
+			'without phalanges'
+			,
+		89
+			'broader than long'
+			'as long as broad'
+			,
+		90
+			'all anteroposteriorly large'
+			'only posterior ones rodlike'
+			'all spines rodlike'
+			,
+		91
+			'absent'
+			'present only in cervical vertebrae'
+			'present in cervical and the first two dorsal vertebrae'
+			'present up to the third dorsal vertebra'
+			'present up to the fourth dorsal vertebrae'
+			,
+		92
+			'amphicoelous or amphyplatian'
+			'procoelous'
+			,
+		93
+			'amphicoelous or amphyplatian'
+			'procoelous'
+			,
+		94
+			'amphicoelous or amphyplatian'
+			'first caudal biconvex with other procoelous'
+			'procoelous'
+			,
+		95
+			'rounded or ovate'
+			'rectangular, broader than long'
+			'square'
+			,
+		96
+			'without articular anterior process'
+			'with a discrete convexity on anterior margin'
+			'with a well-developed process located anterolaterally in dorsal parasagittal osteoderms'
+			,
+		97
+			'two parallel rows'
+			'more than two'
+			'more than four with accessory ranges of osteoderms'
+			,
+		98
+			'some or all imbricated'
+			'sutured to one another'
+			,
+		99
+			'dorsal only'
+			'completely surrounded by osteoderms'
+			,
+		100
+			'absent from ventral part of the trunk'
+			'present'
+			,
+		101
+			'with longitudinal keels'
+			'without longitudinal keels'
+			,
+		102
+			'participating in margin of antorbital fossa'
+			'separated from it'
+			,
+		103
+			'shallow and tapering anteriorly'
+			'deep and tapering anteriorly'
+			'deep and anteriorly convex'
+			'shallow and anteriorly convex'
+			,
+		104
+			'equal in length to the quadrate condyles'
+			'slightly longer'
+			'close to three times the length of the quadrate condyles'
+			,
+		105
+			'placed at level with basioccipital condyle'
+			'below basioccipital condyle about above level of lower toothrow'
+			'below level of toothrow'
+			,
+		106
+			'five'
+			'four'
+			'three'
+			'two'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'with eight or more teeth'
+			'seven'
+			'six'
+			'five'
+			'four teeth'
+			,
+		109
+			'without posteromedial or ventromedial process'
+			'with elongate posteromedial process'
+			'distally expanded ventromedial process'
+			,
+		110
+			'short and massive'
+			'elongate'
+			,
+		111
+			'elongated, oriented parallel to anteroposterior axis of the skull'
+			'short and broad, oriented posteromedially-anterolaterally'
+			,
+		112
+			'facing posteriorly'
+			'posteroventrally'
+			,
+		113
+			'cylindrical'
+			'spool shaped'
+			,
+		114
+			'dorsoventrally low and laminar'
+			'dorsoventrally high'
+			,
+		115
+			'two'
+			'more than two'
+			,
+		116
+			'present'
+			'absent'
+			,
+		117
+			'symmetrically, similarly to the distal end'
+			'more expanded proximomedially than proximolaterally'
+			,
+		118
+			'without a longitudinal depression'
+			'with a longitudinal depression'
+			,
+		119
+			'absent'
+			'present'
+			,
+		120
+			'with denticulate carinae'
+			'without carinae or with smooth or crenulated carinae'
+			,
+		121
+			'flat or convex'
+			'with broad shelf below the orbit with triangular depression underneath it'
+			,
+		122
+			'does not exceed the anterior margin of orbit'
+			'exceeds margin'
+			,
+		123
+			'absent'
+			'present on the dorsal half of the external nares lateral margin'
+			,
+		124
+			'formed mostly by the nasals'
+			'by both the nasals and premaxilla'
+			,
+		125
+			'absent'
+			'present extending posteriorly wedging between maxilla and nasals'
+			,
+		126
+			'anteromedially directed'
+			'sinusoidal, posteromedially directed on its lateral half and anteromedially directed along its medial region'
+			'posteromedially directed'
+			,
+		127
+			'laterally concave'
+			'straight'
+			,
+		128
+			'nearly parallel'
+			'oblique to each other converging anteriorly'
+			'oblique to each other diverging anteriorly'
+			,
+		129
+			'exceeding the anterior margin of the palatal fenestrae extending anteriorly between the maxillae'
+			'not exceeding the anterior margin of palatal fenestrae'
+			,
+		130
+			'equal or lower'
+			'antorbital region more expanded than infraorbital region of jugal'
+			,
+		131
+			'partially included in antorbital fossa'
+			'completely included'
+			,
+		132
+			'located posteriorly to the medial opening'
+			'aligned anteroposteriorly and dorsoventrally'
+			,
+		133
+			'developed'
+			'reduced--absent'
+			,
+		134
+			'developed'
+			'reduced-absent'
+			,
+		135
+			'absent'
+			'present'
+			,
+		136
+			'exceeding posteriorly the infratemporal fenestrae'
+			'not'
+			,
+		137
+			'oriented parallel to the longitudinal axis of skull'
+			'obliquely disposed'
+			,
+		138
+			'absent'
+			'present'
+			,
+		139
+			'with a single plane facing laterally'
+			'with ventral region facing laterally and dorsal region facing dorsolaterally'
+			,
+		140
+			'not compressed laterally'
+			'compressed laterally'
+			,
+		141
+			'reaching the quadrate condyles'
+			'not reaching the quadrate condyles'
+			,
+		142
+			'directed posterodorsally'
+			'dorsally'
+			'anterodorsally'
+			,
+		143
+			'anteriorly placed'
+			'in the middle'
+			'posteriorly positioned'
+			,
+		144
+			'present'
+			'absent'
+			,
+		145
+			'not ornamented'
+			'ornamented in the base'
+			,
+		146
+			'absent'
+			'present'
+			,
+		147
+			'without lateral exposure'
+			'with lateral exposure on the braincase'
+			,
+		148
+			'well developed'
+			'poorly developed'
+			,
+		149
+			'posteroventrally'
+			'ventrally'
+			'anteroventrally'
+			,
+		150
+			'with only one plane facing posteriorly'
+			'with two distinct faces in posterior view, a posterior one and a medial one bearing the foramen aereum'
+			,
+		151
+			'well developed covering all the neural arch length'
+			'poorly developed, located over the posterior half of the neural arch'
+			,
+		152
+			'not exceeding anterior edge of neural arch'
+			'exceeding the anterior margin of neural arch'
+			,
+		153
+			'well developed, curved laterally'
+			'poorly developed'
+			,
+		154
+			'tapering anteriorly forming an angle'
+			'U-shaped, smoothly curving anteriorly'
+			'lateral edges longitudinally oriented, convex anterolateral corner, and extensive transversaly oriented anterior edge'
+			,
+		155
+			'absent'
+			'present'
+			,
+		156
+			'forms only the lateral wall of glenoid fossa'
+			'forms approximately one-third of the glenoid fossa'
+			,
+		157
+			'linear'
+			'bears flange for coccygeofemoralis musculature'
+			,
+		158
+			'smooth'
+			'with lateral concavity for the reception of the enlarged maxillary tooth'
+			,
+		159
+			'slightly concave or straight and subparallel to the longitudinal axis of skull'
+			'straight with an abrupt dorsal expansion, being straight posteriorly'
+			'with a single dorsal expansion and concave posterior to this'
+			'sinusoidal, with two concave waves'
+			,
+		160
+			'compressed and vertical'
+			'not compressed and convex'
+			,
+		161
+			'thin posterior to symphysis'
+			'robust dorsally posterior to symphysis'
+			,
+		162
+			'not constricted at base of crown'
+			'constricted'
+			,
+		163
+			'at the same height that ventral edge of maxilla'
+			'located deeper, with the dorsal contour of anterior part of dentary strongly concave'
+			,
+		164
+			'teeth in isolated alveoli'
+			'located on a dental groove'
+			,
+		165
+			'converge at sagittal plane'
+			'caudally separated by anterior sagittal projection of frontals'
+			,
+		166
+			'squamosal is longer'
+			'postorbital is longer'
+			,
+		167
+			'flushes with lateral surface of jugal'
+			'anteriorly continuous but posteriorly inset'
+			'medially displaced and a ridge separates postorbital bar from lateral surface of jugal'
+			,
+		168
+			'extensive'
+			'reduced and sculpted'
+			'reduced and unsculpted'
+			,
+		169
+			'absent'
+			'present'
+			,
+		170
+			'with poorly developed intercondylar groove'
+			'medial condyle expands ventrally, being separated from the lateral condyle by a deep intercondylar groove'
+			,
+		171
+			'absent'
+			'present'
+			,
+		172
+			'yes'
+			'no'
+			,
+		173
+			'exposed'
+			'hidden in dorsal view and overlapped by squamosal rim of supratemporal fossa'
+			,
+		174
+			'small or absent'
+			'big and slotlike'
+			,
+		175
+			'short and located below the dorsal edge of the mandibular ramus'
+			'anteriorly extended with posterior region elevated at the dorsal margin of the mandibular ramus'
+			,
+		176
+			'narrower or equal'
+			'wider'
+			,
+		177
+			'absent'
+			'present'
+			,
+		178
+			'straight'
+			'sinusoidal'
+			,
+		179
+			'laminar and expanded'
+			'bar-like and elongated'
+			,
+		180
+			'single'
+			'forked'
+			,
+		181
+			'rectangular shaped'
+			'trapezoidal shape'
+			,
+		182
+			'pillars transverselly expanded'
+			'transverselly expanded in their dorsal part and columnar ventrally'
+			'longitudinally expanded in their dorsal part and columnar ventrally'
+			,
+		183
+			'straight or convex'
+			'sinusoidal'
+			,
+		184
+			'second or third alveoli'
+			'fourth or fifth'
+			,
+		185
+			'v-shaped'
+			'transversal'
+			,
+		186
+			'absent'
+			'present'
+			,
+		187
+			'present'
+			'absent'
+			,
+		188
+			'unique cusp'
+			'one main cusp with smaller cusps arranged in one row'
+			'one main cusp with smaller cusps arranged in more than one row'
+			'several cusps of equal size arranged in more than one row'
+			'multiple small cusps along edges of occlusal surface'
+			,
+		189
+			'flat or slightly concave'
+			'strongly concave and narrow, trough shaped'
+			,
+		190
+			'flat or slightly convex'
+			'markedly concave'
+			,
+		191
+			'narrow vertical bony sheet'
+			'T-shaped bar expanded ventrally'
+			,
+		192
+			'mediolaterally wide and anteroposteriorly thin'
+			'subquadrangular'
+			,
+		193
+			'vertically oriented, continuous with rest of lateral surface of the dentaries'
+			'flat surface exposed laterodorsally, divided by a ridge from rest of the lateral surface of the dentaries'
+			,
+		194
+			'palatines overlie pterygoids'
+			'palatines firmly sutured to pterygoids'
+			,
+		195
+			'laterally or slightly anterorlaterally'
+			'anteriorly, subparallel to the skull longitudinal axis'
+			,
+		196
+			'absent'
+			'present'
+			,
+		197
+			'distinct'
+			'incipiently distinct'
+			'indistinct'
+			,
+		198
+			'thin and laminar'
+			'dorsoventrally thick, with pneumatic spaces'
+			,
+		199
+			'almost or entirely excluded'
+			'bordering infratemporal fenestra'
+			,
+		200
+			'form margin of suborbital fenestra'
+			'excluded from margin of suborbital fenestra'
+			,
+		201
+			'widely exposed on lateral surface of mandible'
+			'shifted to the ventral surface of mandible'
+			,
+		202
+			'straight or convex'
+			'markedly deflected'
+			,
+		203
+			'narrow'
+			'broad'
+			,
+		204
+			'not in contact anterior to basisphenoid on palate'
+			'in contact'
+			,
+		205
+			'well developed'
+			'absent'
+			,
+		206
+			'as wide as ventral portion'
+			'narrower than ventral portion of skull'
+			,
+		207
+			'absent'
+			'present'
+			,
+		208
+			'absent'
+			'present'
+			,
+		209
+			'absent'
+			'present'
+			,
+		210
+			'straight'
+			'dorsally arched'
+			,
+		211
+			'acute or rounded, tightly overlapping the quadrate'
+			'with sinusoidal ventral edge and wide and rounded posterior edge slightly overhanging the lateral surface of the quadrate'
+			,
+		212
+			'ventrally'
+			'ventrolaterally'
+			,
+		213
+			'absent'
+			'present'
+			,
+		214
+			'separated from the lateral edge of the frontals'
+			'extensively sutured to each other and to the lateral margin of the frontals'
+			,
+		215
+			'exposed laterally'
+			'exposed posterolaterally'
+			,
+		216
+			'absent'
+			'present'
+			,
+		217
+			'without ridges'
+			'with three curved ridges oriented longitudinally'
+			,
+		218
+			'absent'
+			'present'
+			,
+		219
+			'absent'
+			'present'
+			,
+		220
+			'absent'
+			'present'
+			,
+		221
+			'absent'
+			'present'
+			,
+		222
+			'absent'
+			'present'
+			,
+		223
+			'absent'
+			'present'
+			,
+		224
+			'present'
+			'absent'
+			,
+		225
+			'anteriorly broad'
+			'tapering anteriorly'
+			,
+		226
+			'restricted extension'
+			'extensive, with a distinctly concave surface facing anteriorly'
+			'large concave surface facing anteriorly, projecting anteroventraly from the external nares opening toward the alveolar margin'
+			,
+		227
+			'absent'
+			'present'
+			,
+		228
+			'flat surface facing dorsally'
+			'lateral region deflected ventrally, forming part of the lateral surface of the snout'
+			,
+		229
+			'extending ventroposteriorly widely contacting the jugal'
+			'tapering ventroposteriorly, does not contact or contacts the jugal only slightly'
+			,
+		230
+			'absent'
+			'present'
+			,
+		231
+			'absent'
+			'present'
+			,
+		232
+			'absent'
+			'present'
+			,
+		233
+			'no'
+			'yes'
+			,
+		234
+			'opened posteriorly and continuous with pterygoid surface'
+			'closed posteriorly by an elevated wall formed by the pterygoids'
+			,
+		235
+			'barely extended'
+			'widely extended covering approximately the lateral half of the ventral surface of the pterygoid flanges'
+			,
+		236
+			'absent'
+			'present as a continuous sheet'
+			'present as discrete evaginations at each alveoli'
+			,
+		237
+			'absent'
+			'present'
+			,
+		238
+			'ending posteriorly'
+			'ending anteriorly'
+			,
+		239
+			'vertical'
+			'inturned'
+			,
+		240
+			'arched posteriorly from midline'
+			'angled posterolaterally, at 120 degree angle'
+			,
+		241
+			'anterior'
+			'anterolateral'
+			,
+		242
+			'straight forming an acute V-shaped suture'
+			'gradually curving medially forming a broad U-shape suture'
+			,
+		243
+			'palatine anteriorly rounded'
+			'palatine anteriorly pointed'
+			'palatine invaginated'
+			,
+		244
+			'formed by postorbital and jugal'
+			'only by postorbital'
+			,
+		245
+			'absent'
+			'present'
+			,
+		246
+			'subcircular or subtriangular'
+			'elongated, low, and oriented obliquely'
+			,
+		247
+			'reduced'
+			'enlarged, extending laterally over the orbit'
+			,
+		248
+			'reduced, similar in size to the openings for cranial nerves IX-XI'
+			'extremely enlarged'
+			,
+		249
+			'narrow'
+			'bearing a subrounded flat surface'
+			,
+		250
+			'transversely'
+			'posterolaterally'
+			,
+		251
+			'straight'
+			'dorsally concave'
+			,
+		252
+			'absent'
+			'present'
+			,
+		253
+			'absent'
+			'present'
+			,
+		254
+			'approximately 90 degrees'
+			'approximately 45 degrees'
+			,
+		255
+			'laterally'
+			'markedly deflected ventrally'
+			,
+		256
+			'forming flat rims'
+			'evaginated, forming elevated rims'
+			,
+		257
+			'paired'
+			'partially or completely fused'
+			,
+	;
+	MATRIX
+	'Gracilisuchus stipanicicorum'      000000??0?000000000000?0?000000000?0??0?0?00000?000???0000?0???0?000?100000?00000000?0???0000?0?0000013012?00?0????0?01?01000??1?01???000001002?0???0000????000???00000?0000????000???0????0???????0000?00000?0?000000000?0?0000?00?0?0??0?0??0000?0?00??1?0?0?00
+	'Terrestrisuchus gracilis'          000??00??0??000000?000?0?00?000?110?00000?00000?000??0?000?000????00???010??0?000000?010?0000?02000001301??0110??00000?00100??10?00?110?0?0??(0 1)110???00000???000???00100?000??000?00???0????0??????00????00??0?0??0?0???????????0?????????0?????0?????????????0?00
+	'Dibothrosuchus elaphros'           000?00?020??001???000000??????00110000000?00000?0000?00000?0?0102000?010100?0010?000?????2000?0?????013010?0110?0?00000001001?10?00?1?000101011100??000001??00?0??0?1000000100000000?000??00?0?00100001000100?0?000000000?000000?0?0000??0??000000?0000?00?0?0?00
+	'Protosuchus richardsoni'           2100000120?000011010002100000100010001010?00201001111110010101103011?110210001010100001100(1 2 3 4)00?120011010011102101010000(0 1)000000?01??01??10010(0 1)0101000000???0110000000000000001?00000000?0???0000?0100120000011110??001000?010?0000?0?0000??0?0000000?00000000100000
+	'Hemiprotosuchus leali'             ?00?00?10??????10010?0??00?0010?11?0??01??0020?00?11?1100101??1?3?11??1?21????01?????????0????1200?1?1001??0?????????000?000??10?00???00000??10?????00???????0?0??0??00?0??????0?0000?0????0???0???12???001??10?00?00?01??00???0???0?????0?????00???00???00????00
+	'Orthosuchus stormbergi'            21100001201?0001001000(0 1)10000010001000?000?002011001111100??1?1?03011?0?0?0?001000100011100000?120010013021142101?10010?100000001?0101000000?000?0???00001??0000???1010000001?0?000000?0????0??000?012?000011110?0001000?0?000?00?00?0?0??0?000?0?0?0000?000100?00
+	'Kayentasuchus walkeri'             (1 2)01110?1200000?10010?0??00????0?0???11110?002010011111100001011?3011?0102100?1010??0????00??0?12001011001112????0????01100?00?01000111?101001?01?10000000010??01?1?????????1?????00???0????4?00010112??00011??0?010???00?????????000?????0???????0?????0???1???00
+	'Edentosuchus tienshanensis'        201?????(1 2)????0??(0 1)0??1?0100??0?????02?110?00?????????????????????(2 3)?311????10?01010?????????(2 3 4)???????????0???1(2 3)?????????00110??1?01?1???1000110?11?1????????01??001?1?1?00?????0????00?0?0????4??0?101??1????11??0??1??00000??0???0???0?????0???0???0?00?0??0?1?0???
+	'Zaraasuchus shepardi'              10?????????????1?01?01?1000001?10?02????????????????????????????3?????1??010??????????????(1 2 3 4)0??1010??0???????????0??????????????????????0?????1??1?????????10?????????0000???????0???0?????0?????1?????1?00???0???0???11111111111???????????????????0?????00??????
+	'Gobiosuchus kielanae'              101000?110000011001?(0 1)(0 1)?1?00001?10?0201000?0020112011111000?0????301???1?20100(0 1)010?0?1???????0?1010110(0 1)3012002?0000???0010(0 1)00001000000?00001001211?0000???11000000001?00000?1?0010000000???00?0?01?0121000011?00?00?0011111111111?000000??000000000?0000?00010????
+	'Sichuanosuchus shuhanensis'        (1 2)01??0?1200(0 1)00?10010(0 1)1?110???1?00?021?10?00020?1?011?1100???????3?11????1?000011?1??1?????000????????10?11?0?1???0??100100??1??10?0????0011?(0 1)1210??00?????1??000??00100?00?10???000?0?00???0?00110?111011111100?1010000100?1???0???0?00??00??0?000???00??001???00
+	'Shantungosuchus hangjinensis'      2?1????1?0???0?1??1????11??????????21?1(0 1)100020?1?011?1100?10????????101?1?000??10???????0?????????????0?1??????1?????00100??????00??10?00???11211??001??????00000000??0????1???10?00??0????0??????0??1011111??0?1(0 1)10??0???1??????????????0??????????????????0??0?
+	'Zosuchus davidsoni'                201??0?1200000??001010(0 1)110?001110?02211010012?1??011?11000?0?1?0311110????0?01111????????????????????10?12?3???1?????00100011011?0001?0?0010112?(0 1)?0001???0?0?0010001(0 1)000?(0 1)111????0??0?00???000?1000111??1011?101101000000100???0?000?000?0000000?0?00?0?000100?00
+	'Hsisosuchus chungkingensis'        211?0???????000000100001100011000?022?101001(1 2)??12?11?10000?0?1?0(2 3)?11114?00(0 1)01?1??10???????000?1000???0?01?1021?1?????01001?????0?0000??000?1011?1??001????10???0??0?00020?010???000?0?000000?00?10??(0 1)00?00011111100(0 1)?0000?1000?0???000?0?10??0???0??000?0001?0???
+	'Fruitachampsa callisoni'           201??001200100010000100100000110010221?11?0120112?1???0?0??0??1?3?31?????1?0111101011?1?00011112?0??1?0??(0 1)00??1?1001?001?0?0100100??101?0011?01110??0??00?10?????001?00?0????000?0000?0????0????110???000????101??0?00000?000??0??00???0??00?????0???????0?100?00
+	'Notosuchus terrestris'             101?001101010011100011111100110001022110110021112011?1000010?1103111112?0101110001(0 1)112?1?200001000??01122011??1100101(0 1)1101(0 1)010010000001111111111?00011110010100000011000011100?0?001000?1110000111010110000111011?00000000000000?1000001111(0 1)100000?0000?000100000
+	'Comahuesuchus brachybuccalis'      103??0?101??00?????0112????????0010?2????1?011?1?????????????????131??????0?10101?????????????????????0??(0 1)13??1??????0?10?101201?01?????011??0?1????11???11??020??00(0 1)0?0011?0(0 1)?0?0?00?1011?000??110?0??000???100???0?000??0????0?1?011110?1(0 1)(0 1)00000?0??0??0?100???
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-257;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -986904405; FileSettings editor '1' '1' '258' '0'; Singles 110; Editor 00011011111111100100010010 '0' '100' Gadget '12' '214' '1' all; EditorPosition '100' '231' '478' '1263'; TreeWindowPosition '91' '843' '652' '715'; ListWindow Characters open Gadget '12' '524' '108' '270' '382' 000; ListWindow Taxa closed Geneva '9' '50' '10' '241' '318' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '10' '50' '30' '203' '220'; WindowOrder Data States List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '676' '21' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '15' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Gracilisuchus_stipanicicorum, 2 Terrestrisuchus_gracilis, 3 Dibothrosuchus_elaphros, 4 Protosuchus_richardsoni, 5 Hemiprotosuchus_leali, 6 Orthosuchus_stormbergi, 7 Kayentasuchus_walkeri, 8 Edentosuchus_tienshanensis, 9 Zaraasuchus_shepardi, 10 Gobiosuchus_kielanae, 11 Sichuanosuchus_shuhanensis, 12 Shantungosuchus_hangjinensis, 13 Zosuchus_davidsoni, 14 Hsisosuchus_chungkingensis, 15 Fruitachampsa_callisoni, 16 Notosuchus_terrestris, 17 Comahuesuchus_brachybuccalis ; TREE * UNTITLED = [&R] (1,((3,2),((6,((7,8),(5,4))),((10,9),((13,(12,11)),(15,(14,(16,17)))))))); 
+ENDBLOCK;

@@ -1,0 +1,1292 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.05.57 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=119;
+	TAXLABELS
+		'Biarmosuchus tener'
+		'Hipposaurus boonstrai'
+		'Archaeosyodon praeventor'
+		'Titanophoneus potens'
+		'Gorgonops torvus'
+		'Lycosuchus vanderrieti'
+		'Glanosuchus macrops'
+		'Biseridens qilianicus'
+		'Anomocephalus africanus'
+		'Tiarajudens eccentricus'
+		'Otsheria netzvetajevi'
+		'ulemica'
+		'Suminia getmanovi'
+		'Patranomodon nyaphulii'
+		'Galeops whaitsi'
+		'Galepus jouberti'
+		'Galechirus scholtzi'
+		'Eodicynodon oelofseni'
+		'Eodicynodon oosthuizeni'
+		'Colobodectes cluveri'
+		'Lanthanostegus mohoii'
+		'Eosimops newtoni'
+		'Diictodon feliceps'
+		'Robertia broomiana'
+		'Prosictodon dubei'
+		'Abajudon kaayai'
+		'Niassodon mfumukasi'
+		'Brachyprosopus broomi'
+		'Endothiodon tolani'
+		'Endothiodon bathystoma'
+		'Pristerodon mackayi'
+		'emydops'
+		'Compsodon helmoedi'
+		'Digalodon rubidgei'
+		'Thliptosaurus imperforatus'
+		'Rastodon procurvidens'
+		'dicynodontoides'
+		'Kombuisia frerensis'
+		'Myosaurus gracilis'
+		'Kembawacela kitchingi'
+		'Cistecephalus microrhinus'
+		'Sauroscaptor tharavati'
+		'Cistecephaloides boonstrai'
+		'Kawingasaurus fossilis'
+		'Kembawacela sp'
+		'Daqingshanodon limbus'
+		'Keyseria benjamini'
+		'Rhachiocephalus magnus'
+		'Kitchinganomodon crassus'
+		'Oudenodon bainii'
+		'Tropidostoma dubium'
+		'australobarbarus'
+		'Syops vanhoepeni'
+		'Odontocyclops whaitsi'
+		'Idelesaurus tataricus'
+		'Bulbasaurus phylloxyron'
+		'Aulacephalodon bainii'
+		'Pelanomodon moschops'
+		'Geikia locusticeps'
+		'Geikia elginensis'
+		'Elph borealis'
+		'Interpresosaurus blomi'
+		'Katumbia parringtoni'
+		'Delectosaurus arefjevi'
+		'Dicynodon lacerticeps'
+		'Dicynodon angielczyki'
+		'Daptocephalus huenei'
+		'Daptocephalus leoniceps'
+		'Dinanomodon gilli'
+		'Peramodon amalitzkii'
+		'Taoheodon baizhijuni'
+		'Counillonia superoculis'
+		'Repelinosaurus robustus'
+		'Vivaxosaurus trautscholdi'
+		'Jimusaria sinkianensis'
+		'Sintocephalus alticeps'
+		'Basilodon woodwardi'
+		'Turfanodon bogdaensis'
+		'Turfanodon jiufengensis'
+		'Gordonia traquairi'
+		'Euptychognathus bathyrhynchus'
+		'Lystrosaurus hedini'
+		'Lystrosaurus maccaigi'
+		'Lystrosaurus curvatus'
+		'Lystrosaurus declivis'
+		'Lystrosaurus murrayi'
+		'shansiodon'
+		'Tetragonias njalilus'
+		'Vinceria andina'
+		'Rhinodicynodon gracile'
+		'Acratophorus argentinensis'
+		'Kannemeyeria simocephalus'
+		'Kannemeyeria aganosteus'
+		'Kannemeyeria lophorhinus'
+		'Dolichuranus primaevus'
+		'sinokannemeyeria'
+		'parakannemeyeria'
+		'Xiyukannemeyeria brevirostris'
+		'Rabidosaurus cristatus'
+		'rhadiodromus'
+		'Wadiasaurus indicus'
+		'shaanbeikannemeyeria'
+		'Rechnisaurus cristarhynchus'
+		'Uralokannemeyeria vjuschkovi'
+		'Angonisaurus cruickshanki'
+		'Ufudocyclops mukanelai'
+		'Zambiasaurus submersus'
+		'Placerias hesternus'
+		'Moghreberia nmachouensis'
+		'Pentasaurus goggai'
+		'Stahleckeria potens'
+		'Sangusaurus parringtonii'
+		'Sangusaurus sp'
+		'Eubrachiosaurus browni'
+		'Ischigualastia jenseni'
+		'Jachaleria candelariensis'
+		'Jachaleria colorata'
+		'Dinodontosaurus tener'
+		'Dinodontosaurus brevirostris'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=190;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Premaxillae unfused (0) or fused (1)'
+		[2] 'Paired anterior ridges on palatal surface of premaxilla absent (0), present and converge posteriorly (1), or present and do not converge (2).'
+		[3] 'Lateral anterior palatal ridges absent (0) or present (1).'
+		[4] 'Rounded depression on anterior palatal surface of premaxilla: absent (0); present (1).'
+		[5] 'Posterior median ridge on palatal surface of premaxilla'
+		[6] 'Palatal surface of premaxilla'
+		[7] 'Palatal surface of premaxilla with antero-posterior vascular groove lateral to median ridge (if present)'
+		[8] 'Location of premaxillary teeth'
+		[9] 'Posterior exposure of the premaxilla on the palate: absent (0), present (1)'
+		[10] 'Posterior process of the premaxilla with a non-bifurcated posterior tip (0) or with a bifurcated posterior tip (1).'
+		[11] 'Palatine shelf ventral to internal naris: absent (0), present (1).'
+		[12] 'Anterior tip of snout rounded (0), squared off (1), or with a deep central invagination, giving the snout a ?hare-lip? appearance in anterior view (2).'
+		[13] 'Marked anterior expansion of preorbital region absent (0) or present (1).'
+		[14] 'Snout roughly parallel to long axis of skull (0) or strongly angled ventrally (1).'
+		[15] 'Height of canine-bearing portion of maxilla: relatively short (0); extremely deep, with long caniniform process, but with equally long premaxilla resulting in an overall tall snout (1); extremely long caniniform process offset from rest of snout (2).'
+		[16] 'Snout open to back of the skull (0) or anterior margin of orbit extended posteromedially to partly close off the snout from the rest of the skull (1).'
+		[17] 'Septomaxilla posterodorsal spur present and widely separates nasal and maxilla (0), spur present but does not separate maxilla and nasal (i.e., nasal-maxilla suture present and well defined in this region) (1), septomaxilla spur absent (2).'
+		[18] 'Notch on dorsal edge of narial opening absent (0) or present (1).'
+		[19] 'Postnarial excavation absent (0), present, relatively small, and rounded posteriorly (1), or present, very large, and elongate (2).'
+		[20] 'Maxillary alveolar region short, occupying less than 53% of the ventral length of the bone (0) or tooth bearing region long, occupying 72% or more of the ventral length of the bone (1).'
+		[21] 'Palatal surface of premaxilla exposed in lateral view (1) or not exposed in lateral view (0).'
+		[22] 'Maxillary canine present as large member of tooth series (0), absent (1), or present as tusk (2).'
+		[23] 'Maxillary non-caniniform teeth located near lateral margin of maxilla (0), located more medially, (1), or absent (2).'
+		[24] 'Shelf-like area lateral to the maxillary non-caniniform teeth absent (0) or present (1).'
+		[25] 'Fine serrations on maxillary teeth present (0), serrations absent (1), or coarse serrations present (2).'
+		[26] 'Sutural contact of maxilla and prefrontal present (0) or absent (1).'
+		[27] 'Caniniform process absent (0) or present (1).'
+		[28] 'Caniniform depression: has the form of an embayment bounded by a ridge medially of palatal rim anterior to caniniform process or tusk (1), has the form of a notch in palatal rim anterior to caninfiorm process (2), or absent (0).'
+		[29] 'Distinct lateral caniniform buttress absent (0), present (1), or present with posteroventral furrow (2).'
+		[30] 'Keel-like extension of the palatal rim posterior to the caniniform process absent (0) or present (1).'
+		[31] 'Postcaniniform crest absent (0) or present (1).'
+		[32] 'Ventral edge of the caniniform process or dorsal edge of the erupted portion of the canine tusk anterior (0) to, or at the same level to slightly posterior to (1) the anterior orbital margin.'
+		[33] 'Nasals with a long median suture that separates the premaxilla from the frontals (0) or with a short median suture and frontals and premaxilla in close proximity (1) or without a median suture (2).'
+		[34] 'Nasal bosses absent (0), present as a median swelling with a continuous posterior margin (1), present as paired swellings near the dorsal or posterodorsal margin of external nares (2), present as paired swellings that meet in the midline to form a swollen anterodorsal surface on the snout (3).'
+		[35] 'Naso-frontal suture relatively straight, interdigitated, or gently bowed (0), with a distinct anterior process (1), or with a distinct posterior process (2).'
+		[36] 'Transverse crest approximately at level of naso-frontal suture absent (0); present and straightly transverse to curved with posterior convexity (1); present and strongly curved with posterior concavity (2).'
+		[37] 'Lacrimal does not contact septomaxilla (0) or does contact septomaxilla (1).'
+		[38] 'Prefrontal bosses absent (0), present but separate from nasals (1), or present and confluent with nasal bosses (2).'
+		[39] 'Raised, sometimes rugose, circumorbital rim absent (0) or present (1).'
+		[40] 'Frontal contribution to the dorsal rim of the orbit: broad, frontal forms a major part of the orbital rim (0); thin or absent, if present a thin frontal process extends laterally between the prefrontal and postorbital to reach the orbital margin (1).'
+		[41] 'Postfrontal bone present on dorsal surface of skull (0) or absent (1).'
+		[42] 'Postorbital bar without (0) or with thickenings and rugosities (1).'
+		[43] 'Mediolateral flattening and anteroposterior expansion of postorbital bar for most or all of its length absent (0) or present (1).'
+		[44] 'Temporal portion of skull roof relatively straight, without a strong break in slope (0), or temporal portion of skull roof angled dorsally with a strong break in slope near its anterior end (1).'
+		[45] 'Preparietal bone absent (0), present and flush with skull roof (1), present and depressed (2).'
+		[46] 'Lateral ridges bounding preparietal absent (0) or present (1).'
+		[47] 'Parietals? contribution to skull table transversely as broad as long (0), longer anteroposteriorly than broad (1), or shorter anteroposteriorly than broad (2).'
+		[48] 'Parietal posterolateral process slender and elongate (0), or short (1).'
+		[49] 'Parietals well exposed on the skull roof and relatively flat (0), parietals exposed in midline groove or channel (1), dorsal parietal exposure narrow and crest-like (2).'
+		[50] 'Postparietal bulges outwards as ovoid swellings at posterior end of sagittal crest: no (0); yes (1).'
+		[51] 'Orientation of the temporal portion of the postorbital: relatively flat, so that most of the exterior surface of the bone faces dorsally (0), close to vertical, so that most of the exterior surface of the bone faces laterally (1), or bi-planar, with approximately equallysized dorsal and lateral surfaces that are close to perpendicular (2).'
+		[52] 'Postorbitals extend the entire length of intertemporal bar (0) or do not extend the entire length of intertemporal bar, such that the posterior portion of the bar is formed only by the parietals (1).'
+		[53] 'Fossa on the ventral surface of the intertemporal bar formed by the postorbital and parietal large (0), reduced (1), or absent (2).'
+		[54] 'Pineal foramen present (0); absent (1).'
+		[55] 'Circumpineal ornamentation: chimney-like boss (0); no boss, foramen flush with skull surface (1); dome- or collar-like boss, rugosity present (2); boss present with incomplete border, more strongly developed on lateral edges of pineal foramen (3).'
+		[56] 'Orientation of pineal foramen: exits perpendicular to long axis of intertemporal bar (0); angled anterior to perpendicular relative to long axis of intertemporal bar (1).'
+		[57] 'Interparietal does not contribute to intertemporal skull roof (0), makes a small contribution to intertemporal skull roof (1), or makes a large contribution to intertemporal skull roof (2).'
+		[58] 'Squamosal without (0) or with (1) a small or (2) large lateral fossa for the origin of the lateral branch of the M. adductor mandibulae externus. ORDERED.'
+		[59] 'Distinct dorsolateral notch in squamosal below zygomatic arch in posterior view absent (0) or present (1).'
+		[60] 'Squamosal posteroventral process short such that there is relatively extensive exposure of quadrate and quadratojugal in posterior view and the quadrate foramen (if present) is visible in posterior view) (0) or long such that nearly all of the quadrate and quadratojugal are covered by the squamosal in posterior view and the quadrate foramen (if present) is not visible in posterior view (1).'
+		[61] 'Zygomatic portion of the squamosal without folded edge (0), out-turned to downturned (1) (Oudenodon, Odontocylops, etc.), or folded-over (2) (Pelanomodon, Geikia). ORDERED.'
+		[62] 'Dorsoventral expansion of squamosal posterior to postorbital bar: (0) absent (1) present.'
+		[63] 'Zygomatic process of squamosal parasagittally deep (0), narrow and rod-like (1), or transversely expanded (2).'
+		[64] 'Oblique ridge on lateral side of zygomatic arch giving triangular cross-section and overhanging a weak groove present (1) or absent (0).'
+		[65] 'Squamosal zygomatic process narrowly based and in line with occipital condyle (0) or widely based and flares posteriorly beyond occipital condyle (1).'
+		[66] 'Sutural contact of squamosal and maxilla absent (0) or present (1).'
+		[67] 'Squamosal separated by tabular bone from supraoccipital (0) or contacts supraoccipital (1).'
+		[68] 'Suborbital boss on jugal absent (0) or present (1).'
+		[69] 'Quadratojugal narrow and rod-like (0) or plate-like distally (1).'
+		[70] '70. Quadrate with a dorsal lobe that has a convex, rounded anterior edge that rests against quadrate ramus of pterygoid (0) or with a dorsal lobe that is developed into a distinct process that extends anteriorly along the quadrate ramus of the pterygoid and is triangular to sub-triangular in shape (1).'
+		[71] 'Vomers unfused (0) or fused (1).'
+		[72] 'Mid-ventral plate of vomers with an expanded, oval-shaped area posterior to junction with premaxilla (0) or without a notable expanded area posterior to junction with premaxilla (1).'
+		[73] 'Mid-ventral plate of vomers relatively wide in ventral view (0), more narrow and bladelike in ventral view (1).'
+		[74] 'Through on mid-ventral plate of vomers (i.e., ventral surface concave ventrally with raised edges): present (0) or absent (1).'
+		[75] 'Palatine dentition present (0) or absent (1).'
+		[76] 'Bone texture of the palatine: primarily smooth, without evidence of keratinized covering (0); relatively smooth but with fine pitting and texturing suggestive of a keratinized covering (1); rugose and textured (2).'
+		[77] 'Position of palatine: raised, central palatine boss present (0); entire palatine flush with surrounding palatal elements (1); raised posterior section with anterior section that is flush with the secondary palate (2).'
+		[78] 'Paired fossae on palatine surface absent (0); present (1).'
+		[79] 'Palatine widest at its approximate midpoint of length (0), widens posteriorly (1),  width relatively constant for entire length (2), widens anteriorly forming a palatine pad (3). ORDERED'
+		[80] 'Foramen on the palatal surface of the palatine absent (0) or present (1).'
+		[81] 'Lateral palatal foramen absent (0), present at level of the anterior, expanded palatal exposure of the palatines (1), present posterior and dorsal to the level of the anterior, expanded palatal exposure of the palatines (2).'
+		[82] 'Sutural contact of palatine and premaxilla absent (0) or present (1).'
+		[83] 'Labial fossa surrounded by maxilla, jugal, and palatine absent (0) or present (1).'
+		[84] 'Ectopterygoid extends further posteriorly than palatine in palatal aspect (0), or does not extend further posteriorly than palatine in palatal aspect (1), or absent (2).'
+		[85] 'Ectopterygoid dentition absent (0) or present (1).'
+		[86] 'Pterygoids contact anteriorly (0) or separated by vomers (1).'
+		[87] 'Transverse flange of pterygoid projects laterally, free of posterior ramus (0), projects laterally, bound by posterior ramus (1) does not project laterally (2).'
+		[88] 'Anterior pterygoid keel: absent (0); present (1).'
+		[89] 'Anterior pterygoid keel extending for most of the length of anterior ramus of pterygoid (0); anterior pterygoid keel restricted to the anterior tip of the anteritor ramus of the pterygoid (1).'
+		[90] 'Contact of pterygoid and maxilla absent (0) or present (1).'
+		[91] '91. Converging ventral ridges on posterior portion of anterior pterygoid rami absent (0) or present (1).'
+		[92] 'Ventral surface of the median pterygoid plate depressed (0), smooth and flat (1), with a thin median ridge (2), with a wide, boss-like median ridge (3), or with a low rugose median swelling (4), or with a conical ventral projection (5), or with thin paried ridges that are contiguous with the edges of the interpterygoid vacuity (6).'
+		[93] 'Pterygoid dentition present, conical (0); absent (1); present, bucco-lingually expanded (2).'
+		[94] 'Posterior edges of the interpterygoid vacuity located dorsal to the median pterygoid plate (0) or extended ventrally such that they are flush with the median pterygoid plate (1).'
+		[95] 'Development of the pila antotica as a rod-like process on the anterior edge of the periotic with a corresponding notch for the trigeminal never posterior to it (0), or pronounced pila antotica absent and trigeminal notch is a horizontal hollow in the anterior edge of the periotic (1).'
+		[96] 'Contact between periotic and parietal absent (0) or present (1).'
+		[97] 'Parasphenoid excluded from (0) or reaches (1) interpterygoid vacuity.'
+		[98] 'Basisphenoid contribution to the basisphenoid-basioccpital tubera slopes anterodorsally at a shallow angle, forming elongate ridges on the basicranium that are close to the same height as the tubera for most of their length (0), slopes anterodorsally at a steeper angle such that the parabasisphenoid conribution is still somewhat ridge-like but the portion of the ridge on the anterior surface of the tuber is more vertically-oriented (1), or is nearly vertical, forming very weak ridges if any (2)'
+		[99] 'Stapedial facet of basisphenoid-basioccipital tuber exposed laterally (0), exposed ventrolaterally (1), or exposed ventrolaterally and open distally (2).'
+		[100] 'Exposure of internal cartoid between mid-pterygoid plate and parasphenoid: directed laterally (0); directed medially (1)'
+		[101] 'Shape of basal tubera: bifurcating and posteriorly-directed (0); laterally directed anteroposteriorly elongate with relatively narrow edges (1); strongly rounded, such that anterior and posterior tips of tuber curve towards each other, nearly enclosing the stapedial facet; tuber inflated (2); elongate, nearly quadrangular, with tubera extremely close together (3).'
+		[102] 'Margin of fenestra ovalis formed predominantly by parabasisphenoid, with little or no contribution from basioccipital (0), formed by approximately equal portions of parabasisphenoid and basioccipital (1), or formed predominantly by basioccipital, with little or no contribution by parabasisphenoid (2).'
+		[103] 'Intertuberal ridge absent (0) or present (1).'
+		[104] 'Dorsal process on anterior end of epipterygoid footplate absent (0) or present (1).'
+		[105] 'Stapedial foramen present (0) or absent (1).'
+		[106] 'Dorsal process of the stapes present (0) or absent (1).'
+		[107] 'Tabular contacts opisthotic (0) or separated from opisthotic by squamosal (1).'
+		[108] 'Prootic bearing rectangular alar process that forms a plate raised above surface of temporal fenestra wall, in front of fossa: absent (0) present (1).'
+		[109] 'Exoccipital and basioccipital contributions to the occipital condyle distinct (0) or co-ossified into a single unit (1).'
+		[110] 'Occipital condyle round to subspherical in posterior view (0) or distinctly triradiate (1) in posterior view.'
+		[111] 'Circular central depression or fossa on the occipital condyle between the exoccipitals and basioccipital present (0) or absent (1)'
+		[112] 'Lateral edge of paroccipital process drawn into sharp posteriorly-directed process that is distinctly offset from the surface of the occipital plate: absent (0) present (1).'
+		[113] 'Floccular fossa present (0) or absent (1).'
+		[114] 'Mandibular fenestra absent (0), present (1), or present but occluded by a thin sheet of the dentary (2).'
+		[115] 'Jaw ramus straight in dorsal view, without strong lateral bends (0), or bends strongly laterally (1) posterior to symphysis'
+		[116] 'Dentaries sutured (0) or fused (1) at symphysis'
+		[117] 'Teeth present on dorsal surface of dentaries (0), medially displaced, sometimes on a swelling or shelf (1), or absent (2)'
+		[118] 'Fine serrations on dentary teeth present (0), serrations absent (1), or coarse serrations present (2).'
+		[119] 'Denticulated cingulum on dentary teeth absent (0) or present (1).'
+		[120] 'Anteriormost dentary tooth: not distinct from rest of tooth row (0); massively enlarged and incisiform (1).'
+		[121] 'Jaw symphysis terminates in dorsal platform bearing the incisors and canine elevated above level of posterior dentary ramus (0); Symphyseal region of lower jaw smoothly rounded and at same level as rest of dentary ramus in lateral view (1), with an upturned beak that is raised above the level of the dorsal surface of the jaw rami and has a scooped-out depression on its posterior surface (2), drawn into a sharp, spiky beak (3), or shovel-shaped beak with a rounded or squared-off edge and a weak depression on its posterior surface (4).'
+		[122] 'Curved ridge that follows the profile of the symphysis present on the edge between the anterior and lateral surfaces of the dentary absent (0) or present (1).'
+		[123] 'Boss present on ventral surface of anterior dentary ramus. absent (0) present (1).'
+		[124] 'Dentary table absent (0) or present (1).'
+		[125] 'Posterior dentary sulcus absent (0), present but does not extend past dentary teeth (if present) (1), present and extends past dentary teeth (if present), but is relatively wide and shallow (2), or present, extends past dentary teeth (if present) and is narrower and deeper (3).'
+		[126] 'Tall, dorsally-convex cutting blade on medial edge of dorsal surface of dentary absent (0) or present (1).'
+		[127] 'Lateral dentary shelf absent (0), present but relatively small (1), present and well developed (2).'
+		[128] 'Anterodorsal edge of lateral dentary shelf relatively flat (0), with a groove (1), or developed into a rounded swelling (2).'
+		[129] 'Lateral dentary shelf relatively thick, with distinct dorsal and ventral surfaces above the mandibular fenestra (0) or a thin ventrolaterally-directed sheet that forms the dorsal margin of the mandibular fenestra (1).'
+		[130] 'Splenial symphysis unfused (0) or fused (1).'
+		[131] 'Spenial contribution to dentary symphysis: anterior process on splenial present in ventral view (0) or absent (1).'
+		[132] 'Exposed contribution of the angular to the symphysis: absent (0) present (1).'
+		[133] 'Coronoid bone present (0), or absent (1).'
+		[134] 'Angular with anterolateral trough for the posterior process of the dentary absent (0) or present (1).'
+		[135] 'Reflected lamina: (0) reflected lamina large, rounded, unornamented; (1) with perpendicular ridges; (2) with reticulate ridges; (3) triradiate, with distinct groove-ridge-groove morphology dorsoventrally arrayed along lamina; (4) small, tab-like (more elongate than rounded), unornamented (5); large, rounded, but with only a central groove bisecting the lamina.'
+		[136] 'Reflected lamina of angular closely approaches or touches articular (0) or widely separated from articular (1).'
+		[137] 'Prearticular with (0) or without (1) lateral exposure posteriorly.'
+		[138] 'Articular distinct (0) or at least partially fused to prearticular (1).'
+		[139] 'Surangular vertical lamina present and lateral to articular (0) or absent (1).'
+		[140] 'Jaw joint allows strictly orthal closure (0); allows parasagittal movement with joint surfaces of quadrate and articular approximately equal (1); allows parasagittal movement with joint surfaces on articular large than that of quadrate (2). ORDERED.'
+		[141] 'Enlarged dentary caniniform present (0) or absent (1).'
+		[142] 'Number of sacral vertebrae three (0), four (1), five (2), or six or more (3).'
+		[143] 'Number of sternal bosses: 2 (0), 4(1).'
+		[144] 'Cleithrum absent (0) or present (1).'
+		[145] 'Anterior edge of scapula extended laterally to form a strong crest (1) or not (0).'
+		[146] 'Origin of triceps on posterior surface of scapula relatively low (0) or developed into a prominent posterior projection (1).'
+		[147] 'Acromion process: absent or very small (0) or present and well defined (1).'
+		[148] 'Procoracoid foramen or notch entirely contained within the procoracoid (0) or formed by contributions of the procoracoid and scapula in lateral view (1).'
+		[149] 'Procoracoid does not participate in formation of glenoid (0) or participates in formation of glenoid (1).'
+		[150] 'Proximal articular surface of humerus formed by a slightly convex area on proximal surface of the bone without much expansion onto the dorsal surface (0), somewhat expanded with some encroachment onto the dorsal surface (1), or strongly developed and set off from rest of humerus by a weak neck (2). ORDERED'
+		[151] 'Insertion of M. subcoracoscapularis on humerus a rounded, rugose area on proximal end of humerus (0), short, pinna-like process (1); large elongate process (2). ORDERED'
+		[152] 'Insertion of M. latissimus dorsi at rugose tuberosity on the posteroventral surface of humerus (0) or extended into a dorsoventrally flattened pinna-like process (1)'
+		[153] 'Anterior and distal edges of deltopectoral crest close to perpendicular (0) or very obtuse (1).'
+		[154] 'Ectepicondylar foramen on humerus present (0) or absent (1).'
+		[155] 'Radial and ulnar condyle continuous (0) or well ossified and separate (1) on ventral surface of humerus.'
+		[156] 'Ulna with small olecranon process that does not extend far past the articular surface for the humerus (0), or with a large olecranon process that extends well past the articular surface for the humerus (1).'
+		[157] 'Distal carpal 5: present as a distinct element (0), not present as a distinct element (1).'
+		[158] 'Manual digit III, shape of second phalanx: short (disc-like) (0), absent (1).'
+		[159] 'Manual digit IV, phalangeal number: 5 (0), or 3 (1).'
+		[160] 'Dorsal edge of ilium: unnotched (0) or notched (1).'
+		[161] 'Pubic plate is significantly expanded anteroposteriorly, such that its length is comparable to that of ischium (0) or anteroposteriorly short, so that it is much shorter than ischium (1).'
+		[162] 'Pubic plate is significantly expanded ventrally such that it is nearly the same height as ischium (0) or reduced ventrally such that it is shorter than ischium (1).'
+		[163] 'Distinct cranial process on anterior end of pubis absent (0) or present (1).'
+		[164] 'Femoral head continuous with the dorsal margin of femur (0) or offset dorsally from dorsal margin (1).'
+		[165] 'Proximal articular surface of the femur present as a weak swelling that is mostly limited to the proximal surface of the bone (0) or present as a more rounded, hemispherical swelling that has some encroachment on the anterior surface of the femur (1).'
+		[166] 'Insertion of M. iliofemoralis present as a low rugosity on the dorsolateral portion of the femur (0), developed into a distinct crest that extends down part of the lateral surface of the femur (1) or a lateral crest that is split into a distinct first trochanter and third trochanter (2). ORDERED'
+		[167] 'Pedal digit III, shape of second phalanx: short (disc-like) (0), absent (1).'
+		[168] 'Pedal digit IV, phalangeal number: 5 (0), 4 (1), or 3 (2).'
+		[169] 'Pedal digit IV, shape of second and third phalanges: long (0), short (1).'
+		[170] 'Pedal digit V, shape of second phalanx: short (0), absent (1).'
+		[171] 'Greatly enlarged vascular channels present (1) or absent (0).'
+		[172] 'Anterior face of dentary symphysis: unornamented (0), with median ridge (1).'
+		[173] 'Supinator process above ectepicondyle of humerus absent (0), present (1).'
+		[174] 'Morphology of supinator process: low, broadly separated from the shaft (0), tall and subvertical, with dorsal margin close to base of shaft (1), discrete, tab-like process occupying restricted portion of anterior face of distal humerus (2).'
+		[175] 'Angulation of subtemporal zygoma: horizontal to low-angle, such that dorsal margin of squamosal is ventral to skull roof in lateral view (0), steeply-angled, such that dorsal margin of squamosal is at the level of or dorsal to the skull roof in lateral view (1).'
+		[176] 'Median snout ridge: absent (0), restricted to premaxilla (1), present on premaxilla and nasal (2), present on premaxilla, nasal, and terminates in transversely-expanded boss on frontal (3). ORDERED.'
+		[177] 'Rostrum notch: absent (0), slightly embayed (1), strongly embayed (2).'
+		[178] 'Inflated vestibule: absent (0), present (1).'
+		[179] 'Anteriorly-directed orbits: absent (0), present (1).'
+		[180] 'The paraoccipital process is: convex and confluent with the lateral vertical buttress of the opisthotic in posterior view (0); flat with a lateral vertical buttress (1); concave with two laterally divergent crests (2).'
+		[181] 'Development of the small rod-like opisthotic ventromedial process: present but very reduced (0); robust tuber-like knob (1); ventromedial process absent (2).'
+		[182] 'The supraoccipital is dorsoventrally tall in occipital view (0); transversely wider (1).'
+		[183] 'The posterior surface of the supraoccipital medial lobe: is smooth or does not present a nuchal crest (0), is smooth with lateral shallow vertical depressions (1), or has a prominent vertical nuchal crest (2).'
+		[184] 'The pterygoid median plate bears a lateral lamina (0), or the lateral lamina is absent (1).'
+		[185] 'The pila antotica: has a robust and rounded base (0), is narrow, long and rod-like (1), or is tall and anteroposteriorly expanded (2).'
+		[186] 'The anteromedial process of the pterygoid: is present (0), or is absent (1).'
+		[187] 'The tuberculum sellae: is present and forms crests (0); is absent (1).'
+		[188] 'The clinoid process: is short (0); or it is tall (1).'
+		[189] 'The dorsal component of the exoccipital and the exoccipital condyle: are fused to form an oblique buttress (0); or they are separated by a shallow sulcus (1).'
+		[190] 'The exoccipital dorsal component is: short with minor contribution to the height of the foramen magnum (0); rectangular and covers half the foramen magnum height (1); or reniform and covers more than half the height of the foramen magnum (2).'
+	;
+	STATELABELS
+		1
+			'unfused'
+			'fused'
+			,
+		2
+			'absent'
+			'present and converge posteriorly'
+			'present and do not converge'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present with a flattened, expanded anterior area'
+			'present, without a flattened, expanded anterior area'
+			,
+		6
+			'with well-defined depressions with curved sides lateral to median ridge (if present)'
+			'with distinct accessory ridges lateral to medial ridge'
+			'or relatively flat with poorly defined or no depressions present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'lateral'
+			'medial'
+			'absent'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'non-bifurcated posterior tip'
+			'with a bifurcated posterior tip'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'rounded'
+			'squared off'
+			'with a deep central invagination'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'parallel to long axis of skull'
+			'strongly angled ventrally'
+			,
+		15
+			'relatively short'
+			'extremely deep, with long caniniform process, but with equally long premaxilla'
+			'extremely long caniniform process offset from rest of snout'
+			,
+		16
+			'Snout open to back of the skull'
+			'anterior margin of orbit extended posteromedially to partly close off the snout from the rest of the skull'
+			,
+		17
+			'present and widely separates nasal and maxilla'
+			'spur present but does not separate maxilla and nasal'
+			'septomaxilla spur absent'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'absent'
+			'present, relatively small, and rounded posteriorly'
+			'present, very large, and elongate'
+			,
+		20
+			'occupying less than 53% of the ventral length of the bone'
+			'tooth bearing region long, occupying 72% or more of the bone'
+			,
+		21
+			'exposed in lateral view'
+			'not exposed in lateral view'
+			,
+		22
+			'large member of tooth series'
+			'absent'
+			'present as tusk'
+			,
+		23
+			'located near lateral margin of maxilla'
+			'located more medially'
+			'absent'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'present'
+			'serrations absent'
+			'coarse serrations present'
+			,
+		26
+			'present'
+			'absent'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'has the form of an embayment bounded by a ridge medially of palatal rim anterior to caniniform process or tusk'
+			'has the form of a notch in palatal rim anterior to caninfiorm process'
+			,
+		29
+			'absent'
+			'present'
+			'present with posteroventral furrow'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'edge of the caniniform process or dorsal edge of the erupted portion of the canine tusk anterior to the anterior orbital margin'
+			'at the same level to slightly posterior to anterior orbital margin'
+			,
+		33
+			'long median suture that separates the premaxilla from the frontals'
+			'short median suture and frontals and premaxilla in close proximity'
+			'without a median suture'
+			,
+		34
+			'absent'
+			'present as a median swelling with a continuous posterior margin'
+			'), present as paired swellings near the dorsal or posterodorsal margin of external nares'
+			'present as paired swellings that meet in the midline to form a swollen anterodorsal surface on the snout'
+			,
+		35
+			'straight, interdigitated, or gently bowed'
+			'with a distinct anterior process'
+			'with a distinct posterior process'
+			,
+		36
+			'absent'
+			'present and straightly transverse to curved with posterior convexity'
+			'present and strongly curved with posterior concavity'
+			,
+		37
+			'does not contact septomaxilla'
+			'does contact septomaxilla'
+			,
+		38
+			'absent'
+			'present but separate from nasals'
+			'present and confluent with nasal bosses'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'broad, frontal forms a major part of the orbital rim'
+			'thin or absent'
+			,
+		41
+			'present'
+			'absent'
+			,
+		42
+			'without thickening and rugosities'
+			'with thickenings and rugosities'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'skull roof relatively straight, without a strong break in slope'
+			'angled dorsally with a strong break in slope near its anterior end'
+			,
+		45
+			'absent'
+			'present and flush with skull roof'
+			'present and depressed'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'transversely as broad as long'
+			'longer anteroposteriorly than broad'
+			'shorter anteroposteriorly than broad'
+			,
+		48
+			'slender and elongate'
+			'short'
+			,
+		49
+			'well exposed on the skull roof and relatively flat'
+			'parietals exposed in midline groove or channel'
+			'dorsal parietal exposure narrow and and crest-like'
+			,
+		50
+			'no'
+			'yes'
+			,
+		51
+			'relatively flat'
+			'close to vertical'
+			'bi-planar'
+			,
+		52
+			'extend the entire length of intertemporal bar'
+			'do not extend the entire length of intertemporal bar'
+			,
+		53
+			'formed by the postorbital and parietal large'
+			'reduced'
+			'absent'
+			,
+		54
+			'present'
+			'absent'
+			,
+		55
+			'chimney-like boss'
+			'no boss'
+			'dome or collar-like boss'
+			'boss present with incomplete border'
+			,
+		56
+			'exits perpendicular to long axis of intertemporal bar'
+			'angled anterior to perpendicular relative to long axis of intertemporal bar'
+			,
+		57
+			'does not contribute to intertemporal skull roof'
+			'makes a small contribution to intertemporal skull roof'
+			'makes a large contribution'
+			,
+		58
+			'without'
+			'with a small lateral fossa'
+			'large lateral fossa'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'short'
+			'long'
+			,
+		61
+			'without folded edge'
+			'out-turned to downturned'
+			'folded-over'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'deep'
+			'norrow and rod-like'
+			'transversely expanded'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'narrowly based and in line with occipital condyle'
+			'widely based and flares posteriorly beyond occipital condyle'
+			,
+		66
+			'absent'
+			'present'
+			,
+		67
+			'separated by tabular bone from supraoccipital'
+			'contacts supraoccipital'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'narrow and rod-oke'
+			'plate-like distally'
+			,
+		70
+			'with a dorsal lobe that has a convex, rounded anterior edge that rests against quadrate ramus of pterygoid'
+			'with a dorsal lobe that is developed into a distinct process that extends anteriorly along the quadrate ramus of the pterygoid and is triangular to sub-triangular in shape'
+			,
+		71
+			'unfused'
+			'fused'
+			,
+		72
+			'with an expanded, oval-shaped area posterior to junction with premaxilla'
+			'without a notable expanded area posterior to junction with premaxilla'
+			,
+		73
+			'relatively wide in ventral view'
+			'more narrow and bladelike in ventral view'
+			,
+		74
+			'present'
+			'absent'
+			,
+		75
+			'present'
+			'absent'
+			,
+		76
+			'primarily smooth, without evidence of keratinized covering'
+			'relatively smooth but with fine pitting and texturing suggestive of a keratinized covering'
+			'rugose and textured'
+			,
+		77
+			'raised, central palatine boss present'
+			'entire palatine flush with surrounding palatal elements'
+			'raised posterior section with anterior section that is flush with the secondary palate'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'widest at its approximate midpoint of length'
+			'widens posteriorly'
+			'width relatively constant for entire length'
+			'widens anteriorly forming a palatine pad'
+			,
+		80
+			'absent'
+			'present'
+			,
+		81
+			'absent'
+			'present at level of the anterior, expanded palatal exposure of the palatines'
+			'present posterior and dorsal to the level of the anterior, expanded palatal exposure of the palatines'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'extends further posteriorly'
+			'does not extend further posteriorly than palatine'
+			'absent'
+			,
+		85
+			'absent'
+			'present'
+			,
+		86
+			'contact anteriorly'
+			'separated by vomers'
+			,
+		87
+			'projects laterally, free of posterior ramus'
+			'projects laterally, bound by posterior ramus'
+			'does not projec laterally'
+			,
+		88
+			'absent'
+			'present'
+			,
+		89
+			'extending for most of the length of anterior ramus of pterygoid'
+			'anterior pterygoid keel restricted to the anterior tip of the anteritor ramus of the pterygoid'
+			,
+		90
+			'absent'
+			'present'
+			,
+		91
+			'absent'
+			'present'
+			,
+		92
+			'depressed'
+			'smooth and flat'
+			'with a thin median ridge'
+			'with a wide, boss-like median ridge'
+			'with low rugose median swelling'
+			'with a conical ventral projection'
+			'with thin paired ridges'
+			,
+		93
+			'present, conical'
+			'absent'
+			'present, bucco-lingually expanded'
+			,
+		94
+			'dorsal to the median pterygoid plate'
+			'extended ventrally'
+			,
+		95
+			'pila antotica present, rod-like'
+			'pronounced pila antotica absent'
+			,
+		96
+			'absent'
+			'present'
+			,
+		97
+			'excluded from'
+			'reaches interpterygoid vacuity'
+			,
+		98
+			'slopes anterodorsally at a shallow angle'
+			'slopes anterodorsally at a steeper angle'
+			'nearly vertical'
+			,
+		99
+			'exposed laterally'
+			'exposed ventrolaterally'
+			'ventrolaterally exposed, opens distally'
+			,
+		100
+			'directed laterally'
+			'directed medially'
+			,
+		101
+			'bifurcating and posteriorly-directed'
+			'laterally directed anteroposteriorly elongate with relatively narrow edges'
+			'strongly rounded'
+			'elongate, nearly quadrangular'
+			,
+		102
+			'formed predominantly by parabasisphenoid'
+			'approximately equal portions of parabasisphenoid and basioccipital'
+			'formed predominantly by basioccipital'
+			,
+		103
+			'absent'
+			'present'
+			,
+		104
+			'absent'
+			'present'
+			,
+		105
+			'present'
+			'absent'
+			,
+		106
+			'present'
+			'absent'
+			,
+		107
+			'contacts opisthotic'
+			'separated by squamosal'
+			,
+		108
+			'absent'
+			'present'
+			,
+		109
+			'distinct'
+			'co-ossified'
+			,
+		110
+			'round to subspherical in posterior view'
+			'distinctly triradiate'
+			,
+		111
+			'present'
+			'absent'
+			,
+		112
+			'absent'
+			'present'
+			,
+		113
+			'present'
+			'absent'
+			,
+		114
+			'absent'
+			'present'
+			'present but occluded by dentary'
+			,
+		115
+			'without strong lateral bends'
+			'bends strongly laterally'
+			,
+		116
+			'sutured'
+			'fused'
+			,
+		117
+			'present'
+			'medially displaced'
+			'absent'
+			,
+		118
+			'present'
+			'absent'
+			'coarse serrations present'
+			,
+		119
+			'absent'
+			'present'
+			,
+		120
+			'not distinct from the rest'
+			'massively enlarged, incisiviform'
+			,
+		121
+			'terminates in dorsal platform'
+			'Symphyseal region of lower jaw smoothly rounded'
+			'upturned beak'
+			'drawn into a sharp, spiky beak'
+			'shovel-shaped beak'
+			,
+		122
+			'absent'
+			'present'
+			,
+		123
+			'absent'
+			'present'
+			,
+		124
+			'absent'
+			'present'
+			,
+		125
+			'absent'
+			'does not extend past dentary teeth'
+			'extends past dentary teeth'
+			'extends past dentary teeth (if present) and is narrower and deeper'
+			,
+		126
+			'absent'
+			'present'
+			,
+		127
+			'absent'
+			'present, small'
+			'present, well developed'
+			,
+		128
+			'relatively flat'
+			'with groove'
+			'rounded swelling'
+			,
+		129
+			'thick'
+			'ventrolaterally-directed sheet'
+			,
+		130
+			'unfused'
+			'fused'
+			,
+		131
+			'present'
+			'absent'
+			,
+		132
+			'absent'
+			'present'
+			,
+		133
+			'present'
+			'absent'
+			,
+		134
+			'absent'
+			'present'
+			,
+		135
+			'large, rounded, unornamented'
+			'with perpendicular ridges'
+			'with reticulate ridges'
+			'triradiate'
+			'small, tab-like'
+			'large, rounded'
+			,
+		136
+			'closely approaches or touches articular'
+			'widely separated from articular'
+			,
+		137
+			'with lateral exposure'
+			'without lateral exposure'
+			,
+		138
+			'distinct'
+			'at least partially fused to prearticular'
+			,
+		139
+			'present and lateral to articular'
+			'absent'
+			,
+		140
+			'strictly orthal closure'
+			'allows parasagittal movement'
+			'allows parasagittal movement with joint surfaces on articular large than that of quadrate'
+			,
+		141
+			'present'
+			'absent'
+			,
+		142
+			'three'
+			'four'
+			'five'
+			'six or more'
+			,
+		143
+			'two'
+			'four'
+			,
+		144
+			'absent'
+			'present'
+			,
+		145
+			'strong crest'
+			'no strong crest'
+			,
+		146
+			'low'
+			'prominent posterior projection'
+			,
+		147
+			'absento or very small'
+			'present, well-defined'
+			,
+		148
+			'entirely contained within the procoracoid'
+			'contributions of the procoracoid and scapula in lateral view'
+			,
+		149
+			'does not participate'
+			'does participate'
+			,
+		150
+			'slightly convex area on proximal surface of the bone without much expansion onto the dorsal surface'
+			'somewhat expanded with some encroachment onto the dorsal surface'
+			'strongly developed and set off from rest of humerus'
+			,
+		151
+			'rounded, rugose area on proximal end of humerus'
+			'short, pinna-like process'
+			'large elongate process'
+			,
+		152
+			'at rugose tuberosity on the posteroventral surface of humerus'
+			'extended into a dorsoventrally flattened pinna-like process'
+			,
+		153
+			'close to perpendicular'
+			'very obtuse'
+			,
+		154
+			'present'
+			'absent'
+			,
+		155
+			'continuous'
+			'well ossified and separate'
+			,
+		156
+			'small olecranon process'
+			'large olecranon process'
+			,
+		157
+			'distinct element'
+			'not present as distinct element'
+			,
+		158
+			'short'
+			'absent'
+			,
+		159
+			'five'
+			'three'
+			,
+		160
+			'unnotched'
+			'notched'
+			,
+		161
+			'significantly expanded anteroposteriorly'
+			'anteroposteriorly short'
+			,
+		162
+			'significantly expanded ventrally'
+			'reduced ventrally'
+			,
+		163
+			'absent'
+			'present'
+			,
+		164
+			'continuous'
+			'offset dorsally'
+			,
+		165
+			'weak swelling'
+			'more rounded, hemispherical swelling'
+			,
+		166
+			'low rugosity on the dorsolateral portion of the femur'
+			'distinct crest that extends down part of the lateral surface'
+			'lateral crest that is split into a distinct first trochanter and third trochanter'
+			,
+		167
+			'short'
+			'absent'
+			,
+		168
+			'five'
+			'four'
+			'two'
+			,
+		169
+			'long'
+			'short'
+			,
+		170
+			'short'
+			'absent'
+			,
+		171
+			'absent'
+			'present'
+			,
+		172
+			'unornamented'
+			'with median ridge'
+			,
+		173
+			'absent'
+			'present'
+			,
+		174
+			'low, broadly separated from the shaft'
+			'tall and subvertical'
+			'discrete, tab-like process'
+			,
+		175
+			'horizontal to low-angle'
+			'steeply-angled'
+			,
+		176
+			'absent'
+			'restricted to premaxilla'
+			'present on premaxilla and nasal'
+			'present on premaxilla, nasal, and terminates in transversely-expanded boss on frontal'
+			,
+		177
+			'absent'
+			'slightly embayed'
+			'strongly embayed'
+			,
+		178
+			'absent'
+			'present'
+			,
+		179
+			'absent'
+			'present'
+			,
+		180
+			'convex and confluent with the lateral vertical buttress of the opisthotic'
+			'flat with a lateral vertical buttress'
+			'concave with two laterally divergent crests'
+			,
+		181
+			'present, very reduced'
+			'robust tuber-like knob'
+			'ventromedial process absent'
+			,
+		182
+			'dorsoventrally tall'
+			'transversely wider'
+			,
+		183
+			'smooth or does not present a nuchal crest'
+			'smooth with lateral shallow vertical depressions'
+			'or has a prominent vertical nuchal crest'
+			,
+		184
+			'present'
+			'absent'
+			,
+		185
+			'robust, rounded base'
+			'narrow, long, rod-like'
+			'tall and anteroposteriorly expanded'
+			,
+		186
+			'present'
+			'absent'
+			,
+		187
+			'present, forms a crest'
+			'absent'
+			,
+		188
+			'short'
+			'tall'
+			,
+		189
+			'fused to form an oblique buttress'
+			'separated by a shallow sulcus'
+			,
+		190
+			'short with minor contribution to the height of the foramen magnum'
+			'rectangular and covers half the foramen magnum'
+			'reniform and covers more than half the height of the foramen magnum'
+			,
+	;
+	MATRIX
+	'Biarmosuchus tener'                 000002000000000000010000000????00000000000000?200020000000000000100000100100000000000000?01201??0??00?0??0000??0000000000000000??0000000000000?0000?100001101?000110000110?00?000??00100??????
+	'Hipposaurus boonstrai'              000002000000000000010000000????000000000000010200000000000000000100000101100000000000000?01001??0?000?0???000000?00000000000000??0000010000000?10000100011101????0?000010??00?0?0?000100??????
+	'Archaeosyodon praeventor'           000002000000000000010000100????00000001000000?2000100000000000001000??010000001000000000?01201??0???0????????????00001100000000??000????????0??????????????????????????????0??000?0???????????
+	'Titanophoneus potens'               000002000000000010000000000????00000001001000?10000000(0 2)000000000100000010000001000000000?012010000000?0010000100000000000000000??0001000000000?00000?0000000011001100012?1?00?000?0???????????
+	'Gorgonops torvus'                   000002000000000000000000000????000000001000010200020002000000000100000100000000000000000?012010000000?0000000000000000000000000??0000011000000?000001000100010001101110011?00?000?001100??????
+	'Lycosuchus vanderrieti'             000002000000000000000001000????00020000000000?102011001000000000100000010010001100000000?0120100100001001?000000000000000000000??0100020100000?00000100010001110???000?????00?000?001100??10??
+	'Glanosuchus macrops'                000002000000000000010000000????00000000000010?102011001000000000100000010010001100000000?01201000000010010000000000000000000000??0100020100000?000001000100011100100001211?00?000?0???????????
+	'Biseridens qilianicus'              000002100000000010010000100????00000001000100?2000100000000000001001??000000001000000000?00?01??????0?0???000100?00101011000000??000000?1???0?????????????????????????????????000?00010???????
+	'Anomocephalus africanus'            ???????0?????00??0?0?100??0??????0???0???00??????????????0??0000?0?01???????????????1???????2????????????????????1??010???????0???????????????????????????????????????????????000?0???????????
+	'Tiarajudens eccentricus'            0??????0?0??000010000000100????000??00?0000??????????????00?0000?0?01?????????????011????0??2???????????????????????????????????????????????????00???0001010??????????12?1??0?000?0???????????
+	'Otsheria netzvetajevi'              000002101000000?1001?100?00?????0000000000000?2?0010?000000000101010??11??10100001010000?00011???00?000???1?1??0??????????????????????????????????????????????????????????????000?0???????????
+	'ulemica'                            000002101010000?1001?000100????00000001000000?200010?0000100001010?000110011102001010010?00011??1000010?10??1?0001010111101000100(0 1)00000010011??????????????????????????????0??000?0???????????
+	'Suminia getmanovi'                  000002?0101000001001?100200?????0010000000000?210010?00002000010?010001100?1102021010010?010110?100?0000101001?0?10002111000001000000000100210?000000000000010000000000010?00?000?0011000?????
+	'Patranomodon nyaphulii'             000?0?10101?00002000?100100?????000000000000100100000010000000100000000000100010?0110000?01011??0001100?10100100?10?01001000000????00031000010??????????????0110???000?????0??000000110???????
+	'Galeops whaitsi'                    00000210101000002000?100100??????1?000000000???1000?00?0?200001010?00100001?0010?0?10000?0?0110?1?1?1????????????1000??0100000100?10113100011??0010000000100??????????????00??000?0???????????
+	'Galepus jouberti'                   ?00?02??1????00??0????????0??????????????00??????????????????0?????0??????????????????????????????????????????????0?01001?0000??????????????1??????1?00010?0?11?00?000?2?1????0?0?0???????????
+	'Galechirus scholtzi'                00??0??010?0?00??000?1001?0??????1??00???????????????????????????0?0?????????????????????????????????????????????10?0100100??0???????031????1???0000??0?1000011?00?0001211????000?0???????????
+	'Eodicynodon oelofseni'              ???????01?100000200001001?0????????0?000000010??0010001002010?200??0??0000111030????012???1310??000???0????0?10?010111002000001001?01??1??121??????????????????????????????0??000?000000??????
+	'Eodicynodon oosthuizeni'            0000101210100000200002001010000001100000000010010010001002110020101010000011103010010121001310010000100001101100010101002001002001001131111210?0001000000110?1101000001???100?0000000??0??????
+	'Colobodectes cluveri'               01001012101000002000020010100000011000001000101100000010?21100201010??0001111030100101210013100100001100??10???0??????????????????????????????????????????????????????????????000?0000000?????
+	'Lanthanostegus mohoii'              ??????????1??0?0???0?201?1????10???0?0100010101?001000200???0000?0?0??0???1110301?01012110?310?100?0110??????????1??????????????????0????1????????????????????????????????????0?0?0???????????
+	'Eosimops newtoni'                   111010121110000020000210111200010100001000101011001000200211002011101010(0 1)(0 1)111030100101210013100?000011001?1?1100?1011???4000111000001131?11210?10011?0000010?1101000001????00?000?0001001?????
+	'Diictodon feliceps'                 11101012111000002000022??1120001(0 1)1(0 1)0001000001011200000(1 2)00211002011101011111110301001012100121000000112001110110001012???2001111001001131111211?1001100000000?1101000001211000?00000000000?0010
+	'Robertia broomiana'                 11101012111000002000021011120001010000100000101100100020021100201110101000111030100101210012100?000111001?1011000101110?200111100?001131111210?1001?00000000?11???00001211?00?000?0????0??????
+	'Prosictodon dubei'                  11101012111000002000021011120001011000100000101120000010?2110020111010100011103010010121001210??00011100111?1100?1011???20?111100?0?1??1??121?????????????????????????????????000?000000??????
+	'Abajudon kaayai'                    100102011?1000012000021111000??0010000001000101000100010021100201010101000111130200101210012101?00001100??11???0?1011200301020210100???????2???????????????????????????????0??000?0?00200?????
+	'Niassodon mfumukasi'                1???22?11?1?0001???0?11011100101010000000000212100200010020100201010101000111131110?012110121000000111001111110001011??0400?20200100114?111211?????????????????01???1??????0??0?00000100111010
+	'Brachyprosopus broomi'              101112121011000120000211111001000100001000001011001000200211002010101000001110302001012100121101000112001?11110001011200200120100100113111121??0001??000010????????01??????0??00000000001????0
+	'Endothiodon tolani'                 100102111012000120100211200????00(0 1)0000001??010111010102002?1??2??0?11011001111302101012100131000000?1200??11110001011200301120200100114111121??????????????????????????????0??02000???????????
+	'Endothiodon bathystoma'             1001(0 1)2111012000020100111200?????0(1 2)?00100(0 1)10111111010102002110020101110100011113021010120?0131000000112001?1?1100010112003011202001001141111212?00010?0000100?11011?0001211000?0200000?????????
+	'Pristerodon mackayi'                110012121010000020000210111001000100001000?010110010001012110020111010100011103021010121001210010001120011101100010112002?01202001001131111212?1101000000100?1101?00001211?00?000?000000000000
+	'emydops'                            101110121010000020000200111101010100000000001011001000100201002011101011111110301101012110021000001112001011110101011(1 2)004000202101001131111210?1?010?00000001110???0001211?00?00000?01111????1
+	'Compsodon helmoedi'                 101110121010000120100200111101010100001000002110100000300211002011?0101110111031110101211002000?0111120011110101?1????????????????????????????????????????????????????????????000?00111120???1
+	'Digalodon rubidgei'                 12102012101000012000022??0110100010000001000101100200030121100201110101111111030110101210012100000111?001?111100?1012???40002????100???????????????????????????????????????0??000?0111112????2
+	'Thliptosaurus imperforatus'         1????????0?0000??00001???11??1?00100?0001000101?0?20?1???2?10020???01????????????????1211???????001?1?0?????110???11????410??????100?1?11112??????????????????????????????????000?0011?0??????
+	'Rastodon procurvidens'              1??12??2101000012000022??11101000100000000002011100000200211002011101011111???????0101210012100100111200??111100?201????400??020010011?111?11???101101101000???????000????00??000?0001?02?1002
+	'dicynodontoides'                    10112012101000012000022??11101000100000010002011200000100211002010101010001110301101012110021000001112001011110002012???41000021010011311112110010110110001?1??011001112110011000?000120??????
+	'Kombuisia frerensis'                10102012101000012?00012??011010101000000100020102011?1??02?10020?0101?1???11103011010?21100?1??10011120010110100?2012???4101002001?011?110121??????????????????????????????0??000?0?211(0 1)?????1
+	'Myosaurus gracilis'                 10002112101000012000012??11101010120000010001020002000100201002010101011111010311101012110121001001112001111110001012???410000210??01131??1210?11011010110?????0??????????00??000?0(0 1)1111201111
+	'Kembawacela kitchingi'              101022121?1000012010022??11101010100000010000?21002000101201002001101011001110311101012110131?0??01111000??1110101112???4000202101001131011210?????????????1???01??100?????0??00201211212????2
+	'Cistecephalus microrhinus'          10102012101000012010012??111010101000(0 1)101(0 1)000?21002000101201002001101011011110311101012110021?00?011120001?11100?1112???4000202101011131111210?110001221001111101001101211001100201201212?????
+	'Sauroscaptor tharavati'             1???2??21?100001?000012???110100?1?0?00?10000???0020?0100201002001101011??11103??10?01211?131????01?1?00????1100?111????4000?021010??1?1????1??????????????????????????????0??001?1?0121?????2
+	'Cistecephaloides boonstrai'         10002012101000012010012??01101000100000110000?210020001012010020001010110111103?11010120??0?1????011110?1??11100?1112???4000202101?111?111121??????????????????????????????0??001?1?1121??????
+	'Kawingasaurus fossilis'             10002012101000012010012??01101000020000010000?21002001???201002001?010110111103111010120?0011????011110?0??0110001012?????00001001111???11121??11000?2200011?11???????1211?0110011122121211112
+	'Kembawacela sp'                     1?0?22121?1?0001???0012??1??????0100?00010001021002000100201002001101011001110311101012110121?0000111100???111010?????????????????????????????????????????????????????????????00211201?1211112
+	'Daqingshanodon limbus'              12002212101000002000022??11010100200?00010001011100000300211?02011101011??12203011010121001210?00??11?????1011?0?1112???2101301211?0114111121??????????????????????????????0??000?000120??????
+	'Keyseria benjamini'                 120022?21010000?2000022??110101102000000000010110000?0100211002011101011??122030?1?10121000210??01?11210111?1100???????????????????????????2??????????????????????????????????000?000100??????
+	'Rhachiocephalus magnus'             12002212101100002000012??11000100200110001001011200000210211002011101111111220301101012100121000012112001110110001112???200130100100114111121??0011(0 1)11010100???????011????1010010?001000??????
+	'Kitchinganomodon crassus'           12002212101100002000012??11000100200110001001011200000211211102011101111011220301101012100131?0?012112011?101100?1112???2001?0121??0?1411?121???00???10?010????????????????0??010?000100??????
+	'Oudenodon bainii'                   12002212101100002000012??11010100210(0 1)01000001011100000101211102011101011111220301101012100121000012112001110110001112???200130121100114111121200001001010100?11011101112110110010?0????0??????
+	'Tropidostoma dubium'                12002212101100002000021011101010021010100000101110000010121110201110101100122030110101210012100?012112001110110001111???2001301211?01141111212?0001001010100???0???011????000?010?0????0??????
+	'australobarbarus'                   120022121011000020000210?110101002?0?010000010111000001012111020111010111112203010010121011210??0121120111101100?111120?2001301211?01141??121??????????????????????????????00?010?0????0??????
+	'Syops vanhoepeni'                   1??012?21011000?2000022??1101011020011?00??02011201010100??1?????11??011111220301111?121?1??1?????2????0??1?010??1?1????200????????0???11?12???????????????????????????????1??020?0???????????
+	'Odontocyclops whaitsi'              12002212101100002000022??1101010020012000000211110000020121110201110101111122030110101210012100?012112011?101100?1112???200130121??011411?121200001??1010100???0111011?????010000?001100??????
+	'Idelesaurus tataricus'              12002212101100002000022??1101010021011000000211110000010021110201110101100122030111101210012100000211201??100100?1112???2101301211?0114111121??????????????????????????????0??000?0???????????
+	'Bulbasaurus phylloxyron'            12002212101100002000022??1101000(0 1)2(0 1)1000011002011(1 2)01000(1 2)002111020111010110112203011010121001210000121120???101100?111????2101?01211??????????1???????????0??????????????????1??000?000100??????
+	'Aulacephalodon bainii'              12002212101110002000022??11010(0 1)002011200(0 1)100(1 2)001001000(1 2)00211102011101011011220301111012100121000012112(0 1)01110110001112???200130121110114111121210001001010100?11010101112111110000?0????0??????
+	'Pelanomodon moschops'               12002212101110002000012??1101010020112001100210100100020021120201110101111122030111101210(0 1)12100?0121121011101100???????????????????????????2???????????????????????????????1??000?001100??????
+	'Geikia locusticeps'                 12002212101110002000012??110101002011210110021111000002?02012020111010111112203011110121011210000221121011101100?1112???210130101100114111121??00?10???????????????????????1??000?000100??????
+	'Geikia elginensis'                  120022?2101110002000012??1101011120??21??100????10000???021120201??01?11111?2030?1??01210??210?10??????????????0?1012???210130121?????41??121?????????0101????????????????????000?001101??????
+	'Elph borealis'                      1??02??2101000002010022??110100100000010000010112000001002110020111010????12203011010?2100?11?000121120???101100?1112???20?130121110???????21??????????????????????????????0??000?0????0??????
+	'Interpresosaurus blomi'             1200??12101000002010022??1101001?0?000100???10??2?1???????????????????1???1???30??0????????????????????????????????????????????????????????????????????????????????????????????00?0???????????
+	'Katumbia parringtoni'               12002212101?0000??10022??11000010100001000001111200000100211?02011?010111112203011010121010210??0121121111?00100?1112???210130121110???????21??????????????????????????????0??000?0????0??????
+	'Delectosaurus arefjevi'             12002212101000002100022??1101000011000100000201120101010021100201110101111121030111(1 2)01210112110?0121121???1001000?????????????????????????????????????????????????????????????000?0????0??????
+	'Dicynodon lacerticeps'              12002212101000002000022??110100001(0 1)0011000002011200010100211002011101011111210301111012100121000022112111110110011112???210130221111115111121??????????????????????????????00?000?0????0??????
+	'Dicynodon angielczyki'              12002212101000002000022??11010000100011000002011200010100211002011101011111210301111012101121000022112111110110011112???210130201111115111121?????????????????????????????????000?000100??????
+	'Daptocephalus huenei'               120022?2101000002110022??1101001011001100000201120101010021100201110101111121030111101210101110101211211111011101?????????????????????????????????????????????????????????????000?010101??????
+	'Daptocephalus leoniceps'            12002212101000002110022??11010010110011000002011201010100211002011101011111210301111012101011101012112111110111011112???210130221111115111121????????101110????0111????????10?000?001120??????
+	'Dinanomodon gilli'                  12002212101000002110122??110100021100110000020112010101002110020111010111112103011110121110211??01211211111011?011?1?????10?3?121??1?1511?12???????????????????????????????1??000?0????0??????
+	'Peramodon amalitzkii'               1??0?????0?00000201002???11?100101100010000020112010?0100211002011?010???????????????12????21?0?0?2?121?11?0?1???111????210???221111?1511?12?3?100101??????????????????????1??000?0???????????
+	'Taoheodon baizhijuni'               120022?2101?00002?10022??110100011000100100010?1100000100211????111?101???12103011110120?0121100002??2?????01010?1112????101?02211?1115?????1?????????????????????????????????0????????1??????
+	'Counillonia superoculis'            120022121010000???00022??1101000??2????????0???????0?0100211002011?0??11111210301??101210102110?022?120?????01011?????????????????????????????????????????????????????????????00??????????????
+	'Repelinosaurus robustus'            1200221210?10000?100?22??1101001?100?10??100201110000010021100201??0??????1????????1012??10?11??022?120?????01??1?????????????????????????????????????????????????????????????00??????????????
+	'Vivaxosaurus trautscholdi'          120022?2101000002010022??1101000111000000000201110101010021100201110101100121030111(1 2)01210112110?022112(0 1)?1?10110011112???210130221??1115110121??000??1101110????????????????0??000?0????0??????
+	'Jimusaria sinkianensis'             1200???210110000200002???110200001000010000010112010101012110020111010????1210301?11012100?21101022112111?10???0?1112???21013022110111511?121??????????????????????????????0??000?0????0??????
+	'Sintocephalus alticeps'             120022?21010000?2000022??110000000101100000010111010?010121?0020?1?0??????12103011?1012101?210??0??????????????????????????????????????????2??????????????????????????????????000?0???????????
+	'Basilodon woodwardi'                120022?2101100002000022??11000000200111000002011101000101211002011101011111220301111012101?210??0121121?1?1?1101?1?1?????1????221??????1???2??????????????????????????????????000?0????0??????
+	'Turfanodon bogdaensis'              120022?2101100002110022??1101000221001000000201110101010121100201110??11111210301111?121111211?101211210??1011001?????????????????????????????????????????????????????????????000?0????0??????
+	'Turfanodon jiufengensis'            12002212101100002110122??0101001221011001000201120101010?21100201110101111121030?111012111121?0101211??0??10?10011112???2101302211111151?11213????11?1??0?0????????001??1???0??????20100??????
+	'Gordonia traquairi'                 120022?21?10000??000022??1101001?2?0?010?00010112010?010?211002011?010?1??1?103??????12101??1???0???12??11???1?0?1112???2?0?30221????1?1??121???001??10?0100???0???????????00?000?0???????????
+	'Euptychognathus bathyrhynchus'      120022?2101101102000022??1101001?0?1?1000000101120101010?21100201110101111121030?1???1210?1210??02211?11??101100?1112???2101302211?1???1???21??????????????????????????????1??010?0???????????
+	'Lystrosaurus hedini'                12002212101111102000022??11010000200110001001011001010100211002011101011111210301112?121010411??02211210??10110011112???210130221101115110121?????1?????1??????????????????1??000?001121??????
+	'Lystrosaurus maccaigi'              120022?21011111?2000022??110100110101110?10020?10010?0100211002011101?11111210301012?121010411??02211210??1?1100?1112???210130221??11151??1213????????010100?11?11?0011211110?000?000101??????
+	'Lystrosaurus curvatus'              120022?2101111102000022??11010010210111001002011001010100211002011101011111210301012?121011211000221121???1001001111?????10???221101?1511?12???0001??10101?0???1???001????110?0000001100??????
+	'Lystrosaurus declivis'              12002212101111102000022??11010010212111001002011001010100211002011101011111210301012?12101121100022112101110010011112???2101302211011151101213?0??1??1011100?1111110111211110?0100001100??????
+	'Lystrosaurus murrayi'               12002212101111102000022??11010010202110001002011001010100211002011101011111210301012?121011211?0022112111110110001112???210130221101115110121??0001111011100?111??10111211110?010?001100??????
+	'shansiodon'                         12002212101100002000022??1101001?2?0011010002011201120001201002111101?????1210301?12?12101??1?0?0221120?111?110011112???20013022110??0?1??1212?0001??1110111?110???1111211?110000?000101??????
+	'Tetragonias njalilus'               12002212101100002000022??110(1 2)0010200010010001011201120101201002111101011111210301012?121010211010?2112111110110011112???210130121101105111121200001001110100?1101111121211?110000?001101??????
+	'Vinceria andina'                    120022?21011000?2000022??11020010200?1001000101120112010120100201110??11111???30??12?121010211??022?1?0?111?11???1??2?????????????????????121?????????????????????????????????000?002101??????
+	'Rhinodicynodon gracile'             120022?2101100002000022??110100102100110100010112011201002010021111010????121030?112?12101??1?0?022?1?????1?0100?1112???210130221??11??1??121??000100101?100???0111112?????110000?0???????????
+	'Acratophorus argentinensis'         12002212101000002110022??110200003100110110120112010?010?20100201110101111121030?112?121110211010221220?1110100111112???2101?01?1???1?50?112120?0010011101?0???011111??????01000???????0??????
+	'Kannemeyeria simocephalus'          120022?2101000002110022??11020000310011011012011211020101211002011101011111210301112?1210101111102212201??10100111112???210130221101115111121300011001010100?11011101112111110020??00100??????
+	'Kannemeyeria aganosteus'            120022?2101000002110122??110200003100110??????????????????????????????111?????????1???????????????????????????????????????????????????????????????????????????????????????????02??????????????
+	'Kannemeyeria lophorhinus'           120022?2101000202110122??110200003100200110110112110201012110?2011101?11111210301?12?12101111101022??201??1?000??1112???210130121??110?011121???00???11?110????0??????????????020?0????1??????
+	'Dolichuranus primaevus'             120022?2101100002110022??1102000030001001100101121102010120100201110101111121030101101210106110?02212200??1?1001?1112???2101301211?110?11?121??0000??1100101???????012?????110000?000101??????
+	'sinokannemeyeria'                   120022?2101000202120022??11020000310?10011012011201010101201002111101111111210301??2?12101?211??0221?20?1110100111112???2101301211???0?11?1212000010?1110101?110???0111211?110000?0???????????
+	'parakannemeyeria'                   120022?2101100202020122??110200003?0110011012011201010101201002111101011111210301?12?1210101110?022??2011110100111112???2101?0121???1??11?1213?0001001010100?110111(0 1)111211??10000?0001????????
+	'Xiyukannemeyeria brevirostris'      120????21011002?2020022??110200103?011001101201120101010?2010021111010111112??301?12?12??10211??022??20?111?000??1112???210???1211??1??11?121???0?1??1110?00?110???0111211?110000?0001????????
+	'Rabidosaurus cristatus'             120?22?2101000002110022??110?000?3?0010011?1201?0?1??010?211??2?1110??????12??30101??121?1?11???0?2????1??1??00?1?????????????????????????????????????1???????????????????????000?0???????????
+	'rhadiodromus'                       120022?2101100002010022??11020000310(0 1)1001101111120102010?20100201110??1111121030?1?1012??1??1?11022?220???10110???????????????????????????????????????????????????????????????000?0???????????
+	'Wadiasaurus indicus'                120022?21010000?21100(1 2)2??1102000???0010??001??11011??0??120100201?1010????1???30??12?12101??1???022??20???1?10?1?1112???2??130?????????11?121200101?01111101???0111111?????1100?0?000100??????
+	'shaanbeikannemeyeria'               120022?2101100002010022??110200003100100110110112010?0101211002111101?1111121030111?012101?211??0221220?????100??1112???20?1??121????????1?21???001??1??1100???????011????????020?0????1??????
+	'Rechnisaurus cristarhynchus'        120022?21011002?2010122??1102000030001001001??1?10102010?2??0?2???????????121030?011012101??1???0221220???????0???????????????????????????????????????????????????????????????020?0????0??????
+	'Uralokannemeyeria vjuschkovi'       120022?21?11002?2??0122???102000????01?0110120111010?010?201?02011101011111???30?????12???1211??022?220???1?100????????????????????????????2?2?????????????????0??????????????0?0?0???????????
+	'Angonisaurus cruickshanki'          120022?21?1100002?00112??1101001???001001100001100111010120100201110??11111???30?1???12101??110?0221120???1?110?11112???21013012110110011?1213??00100?10?10????0111????????111100?00010???????
+	'Ufudocyclops mukanelai'             120?22?2101?00002010?12??1101000?2?0010011000?11011110102201002011101011111210302112?121110111?10?211?0???1?1100?1112????1013?12110??????1?21?????????????????????????????????100?000120??????
+	'Zambiasaurus submersus'             120022?21??1???????0012???1?0?????????00???10?1100???010220???2?1????0??????????????????????????????????????110????12???2??1??????0?????????1?0?111001?01100???0111111?????111??0?0???????????
+	'Placerias hesternus'                120002?21??000202000022??11100000310?100110110100011101022010120111010???????????????1????051110022??20?111?101?11112???200130???10??1?1??121?00111001?0010????0111111????111111000???????????
+	'Moghreberia nmachouensis'           1?0002?21010002??020022???102000?3?0??0011?1201000111010220?01201??0?0111112103011????210???1??0?221?20?????101??1112???2?013012110????0??121??????????????????????????????1???00?0???????????
+	'Pentasaurus goggai'                 ????????????????????????????????????????????20??????1010???????????????????????????????????????????????????????????12???200???10?101???????????????00????101???????????????111????????????????
+	'Stahleckeria potens'                120020?2101100002120112??11010000310010111010?11001010102201002011101011111210301111012111011111022112111?10100011112???210130121101110011121310101001110101?1101111111211?010100??00100??????
+	'Sangusaurus parringtonii'           120022?2101100000010112??01010000310020111001011101020102201002001101?1???1210301112?121010111110221121???11100011112????10130121111?100111213?????????????????0111111?????0??130?000010??????
+	'Sangusaurus sp'                     120022?210110000?010012???10100003?0?201110?10???????010???????0?1?0??1???121030?112?12101??1??????????????????????????????????????????????????????????????????????????????????3??????????????
+	'Eubrachiosaurus browni'             ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????101??1?0010????0????????????10????????????????
+	'Ischigualastia jenseni'             120022?2101100002120112??1101000031001011101101120112010220100200110111111121030??12?121010511?10221320?11101000?1112???2101301????1??001?121210100101100101?1101111111211?010110?000100??????
+	'Jachaleria candelariensis'          12002212101100002110112??11010010310110111002011201120102201002001101111111210301002?121010111?102213200??101000???12????????????????????????210010???1????1???0111111????????100??10100??????
+	'Jachaleria colorata'                ???????????????0??????????????01???0??0111001011201120102201002011?011?1111???????12?120?10111??022?3?0????01000??112???2?01?0????????????121??????????????????????????????0??1???????????????
+	'Dinodontosaurus tener'              120022?2101100002010022??110100103100100100020112011201012010021111010111112103000110121010111?102211211??10100011112???21013012110010?11?121300001001100101?1101110121211?10?000?0001000?????
+	'Dinodontosaurus brevirostris'       120022?2101100002010022??11010010310010010002011201120101201002111101011111210300011?121010111?102211211111010001?????????????????????????????????????????????????????????????00??????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-190;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1738779515260; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4921512449403736996; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8147087192870555217; mqVersion 370; checksumv 0 3 2030262071 null getNumChars 190 numChars 190 getNumTaxa 119 numTaxa 119 short true bits 127 states 127 sumSquaresStatesOnly 103847.0 sumSquares 103847.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1366 649; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8147087192870555217 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 577; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows on; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 688; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 577; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #8147087192870555217 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 577; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 190; 
+ENDBLOCK;

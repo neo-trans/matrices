@@ -1,0 +1,157 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.20.01 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		'Oelandiella korobkovi'
+		'Watsonella crosbyi'
+		'Anabarella plana'
+		'Pojetaia runnegari'
+		'Fordilla troyensis'
+		'Mellopegma uslonicum'
+		'Mellopegma georginense'
+		'Acanthotheca junior'
+		'Mellopegma simesi'
+		'Tuarangia gravgaerdensis'
+		'Pseudomyona queenslandica'
+		'Ribeiria huckitta'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=21;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Pegma or pegma-like structure'
+		[2] 'Development of pegma'
+		[3] 'Divided shell'
+		[4] 'Degree of coiling'
+		[5] 'Raised sub-apical aperture lip'
+		[6] 'Internal shell ridges'
+		[7] 'Curved ventral margin'
+		[8] 'Univalved or bivalved larval shell'
+		[9] 'Lateral compression'
+		[10] 'Ratio of length:height'
+		[11] 'Prismatic shell layer'
+		[12] 'Inner laminar layer'
+		[13] 'Inner calcite layer'
+		[14] 'Shell pores'
+		[15] 'Spiny layer (lamello-fibrillar)'
+		[16] 'Stepwise inner layer'
+		[17] 'Calcitic semi-nacre'
+		[18] 'Prismatic best preserved near apex'
+		[19] 'Coiling loss; straight dorsal margin'
+		[20] 'Aperture Constriction'
+		[21] 'Aperture Shape'
+	;
+	STATELABELS
+		1
+			'Absent'
+			'Present'
+			,
+		2
+			'Weak'
+			'Strong'
+			'Very Strong'
+			,
+		3
+			'Absent'
+			'Present'
+			,
+		4
+			'None'
+			'<1 coil'
+			'1+ coils'
+			,
+		5
+			'Absent'
+			'Raised lip / siphon'
+			,
+		6
+			'Absent or faint'
+			'Present'
+			,
+		7
+			'Absent'
+			'Present'
+			,
+		8
+			'Univalved'
+			'Bivalved'
+			,
+		9
+			'Absent'
+			'Present'
+			,
+		10
+			'Less than 1.5'
+			'1.5 or more'
+			,
+		11
+			'Absent'
+			'Present'
+			,
+		12
+			'Absent'
+			'Present'
+			,
+		13
+			'Absent'
+			'Present'
+			,
+		14
+			'Absent'
+			'Present'
+			,
+		15
+			'Absent'
+			'Present'
+			,
+		16
+			'Absent'
+			'Present'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'Absent'
+			'Present'
+			,
+		20
+			'Absent'
+			'Pinched near Inner Margin'
+			,
+		21
+			'Anterior Width Greatest'
+			'Posterior Width Greatest'
+			,
+	;
+	MATRIX
+	'Oelandiella korobkovi'          0-0101000110001001001
+	'Watsonella crosbyi'             101001111011?01101001
+	'Anabarella plana'               100101101011?01101001
+	'Pojetaia runnegari'             0-1001111011?00100001
+	'Fordilla troyensis'             0-1001111011?00100001
+	'Mellopegma uslonicum'           100011101111110010011
+	'Mellopegma georginense'         100011101111110010011
+	'Acanthotheca junior'            1100101010?1100010001
+	'Mellopegma simesi'              1100111010?1110010011
+	'Tuarangia gravgaerdensis'       ??10101010?1100000100
+	'Pseudomyona queenslandica'      ??10101010?1100000100
+	'Ribeiria huckitta'              1210101011????????100
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-21;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -809722397; FileSettings editor '1' '1' '22' '1'; Singles 110; Editor 00011011111111100100010010 '0' '120' Gadget '12' '190' '1' all; EditorPosition '44' '6' '308' '1799'; TreeWindowPosition '46' '6' '985' '1630'; ListWindow Characters open Gadget '12' '95' '161' '253' '489' 000; ListWindow Taxa open Gadget '12' '50' '25' '253' '357' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '968' '1620'; StateNamesSymbols closed Gadget '12' '7' '505' '1417' '152' '220'; WindowOrder Data List Taxa List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '866' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Arial '12' (normal) Geneva '10' (normal) Arial '12' (normal) Arial '12' (normal) Arial '12' (bold ) Arial '12' (normal) Arial '12' (normal) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' '45' '182' '214' '13' '45' '211' '47' '0' '0' '624' '456' '636' '35' '678' '35' '678' '288' '24' '35' '1' '1' '1' '1' '0' '4' '-39' '4' '-40' '0' '1' '2' '1' '8' '40' '40' '0' '2' 1000111000000001000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Oelandiella_korobkovi, 2 Watsonella_crosbyi, 3 Anabarella_plana, 4 Pojetaia_runnegari, 5 Fordilla_troyensis, 6 Mellopegma_uslonicum, 7 Mellopegma_georginense, 8 Acanthotheca_junior, 9 Mellopegma_simesi, 10 Tuarangia_gravgaerdensis, 11 Pseudomyona_queenslandica, 12 Ribeiria_huckitta ; TREE * UNTITLED = [&R] (1,(3,(2,((4,5),((12,(10,11)),(8,(9,(6,7)))))))); 
+ENDBLOCK;

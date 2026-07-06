@@ -1,0 +1,286 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.01.48 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		'Diacodexis pakistanensis'
+		'Cebochoerus lacustris'
+		'Pecari tajacu'
+		'Tayassu pecari'
+		'Catagonus wagneri'
+		'Doliochoerus quercyi'
+		'Xenohyus venitor'
+		'Kenyapotamus'
+		'Choeropsis liberiensis'
+		'Saotherium mingoz'
+		'Archaeopotamus harvardi'
+		'Hexaprotodon sivalensis'
+		'Hippopotamus amphibius'
+		'Libycosaurus petrocchiii'
+		'Merycopotamus dissimilis'
+		'Brachyodus aequatorialis'
+		'Elomeryx armatus'
+		'Anthracotherium'
+		'Microbunodon minimum'
+		'Anthracokeryx ulnifer'
+		'Siamotherium krabiense'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=37;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Post-canine constriction of the muzzle (Fig. 2)'
+		[2] 'Inter-premaxillae suture (Fig. 2)'
+		[3] 'Facial crest morphology (ventral or dorsal view) (Fig. 2)'
+		[4] 'Zygomatic arch (ventral or dorsal view) (Fig. 2)'
+		[5] 'Bone contact in the lachrymal area (Fig. 2)'
+		[6] 'Lachrymal shape (Fig. 2)'
+		[7] 'Relative position of the anterior border of the orbit (in lateral view) (Fig. 3)'
+		[8] 'Size of the orbits (Fig. 3)'
+		[9] 'Height of the orbits (Fig. 3)'
+		[10] 'Notch on the anterior border of the orbit (Fig. 3)'
+		[11] 'Profile of the cranial roof anterior to the orbits (innlateral view)'
+		[12] 'Sagittal crest morphology'
+		[13] 'Development of the supra-orbital nprocesses'
+		[14] 'Braincase morphology (dorsal view)'
+		[15] 'Orientation of the posterior border of the glenoidnprocess (in ventral view)'
+		[16] 'Outline of the glenoid articular area (in ventralnview)'
+		[17] 'Morphology of the tympanic bulla'
+		[18] 'Orientation of the symphysis plane (in lateralnview)'
+		[19] 'Transition between the frontal and ventral faces ofnthe symphysis'
+		[20] 'Incisor alveolar process'
+		[21] 'Position of the canine relative to the incisor row (in dorsal view)'
+		[22] 'Canine processes (in dorsal view)'
+		[23] 'I/1-I/1 diastema'
+		[24] 'Gonial angle'
+		[25] 'Lateral expansion of the gonial angle (in dorsal view)'
+		[26] 'Upper incisor number'
+		[27] 'Posterior groove of the upper canines'
+		[28] 'Shape of the P1/alveolus'
+		[29] 'Disto-lingual heel for P2/and P3/'
+		[30] 'P4/morphology'
+		[31] 'Lower incisor number'
+		[32] 'Size of the I/3 relative to the I/1'
+		[33] 'Relative position of the lower incisors (in frontal view)'
+		[34] 'Enamel ornamentation of the lower canines'
+		[35] 'Anterior relation between the lower cheek tooth rows (in dorsal view)'
+		[36] 'P/4 morphology'
+		[37] 'Molar hypsodonty'
+	;
+	STATELABELS
+		1
+			'weak constriction in comparison to the lateral extension of the skull canine apophyses'
+			'deep constriction in comparison to the lateral extension of the skull canine apophyses'
+			'state not mentioned in publication'
+			,
+		2
+			'complete'
+			'partial, a gap occurs between the premaxillae anteriorly'
+			,
+		3
+			'regularly convex, gradually sloping postero-laterally from the zygomatic arch toward the maxilla'
+			'with an obvious angle or a well-developed facial tubercle at anterior edge of orbit, and linked with an abrupt change of direction in the facial crest'
+			,
+		4
+			'gracile, strongly medio-laterally compressed'
+			'robust, medio-laterally thick'
+			,
+		5
+			'lachrymal bone always separated from the nasal bone by a maxillary process of the frontal bone'
+			'lachrymal narrowly contacts the nasal bone, forming a quadruple junction between the nasal, frontal, lachrymal and maxillary bones, or variations around this conformation'
+			'lachrymal always in contact with the nasal for some length, isolating the frontal and maxillary bones'
+			,
+		6
+			'quadrangular bone of rather constant width, widely participating in the anterior border of the orbit'
+			'narrow at the anterior border of the orbit, and exposed over a large surface of the face, more or less circular in shape'
+			,
+		7
+			'anterior to the middle of M2/'
+			'at the level or posterior to the middle of M2/'
+			,
+		8
+			'small relative to the length of the face'
+			'large relative to the face'
+			'state not mentioned in publication'
+			,
+		9
+			'orbital summit below the cranial roof'
+			'orbital summit at the level of the cranial roof'
+			'orbital summit elevated well above the cranial roof'
+			,
+		10
+			'absent'
+			'weak'
+			'deep and widely open'
+			'deep and narrow'
+			,
+		11
+			'flat'
+			'angulated, withnangle just anterior to orbits'
+			,
+		12
+			'crest compressed transversally (laminar) and very elevatednposteriorly above the braincase'
+			'large crest,nstrongly sloping up posteriorly'
+			'the same, butnhorizontal or slightly sloping up posteriorly'
+			'the same, but sloping down posteriorly'
+			,
+		13
+			'weak'
+			'well-developed laterally'
+			,
+		14
+			'elongated, rounded transversal section, with anweak postorbital constriction'
+			'elongated,ntransversally compressed (triangular transversalnsection)'
+			'short and globular, with a well-nmarked postorbital constriction'
+			,
+		15
+			'parallel ornslightly divergent from the exoccipital'
+			'strongly frontward divergent from the exoccipital'
+			,
+		16
+			'small, globular and well delimited'
+			'large with diffuse borders, with an elongated shape (anterior and posterior border morenor less rectilinear and laterally converging)'
+			'large with diffuse borders, with a complex shapen(anterior and posterior borders not rectilinearnand/or not symmetrical)'
+			,
+		17
+			'bulla large and elongated, with a rounded apexnand, anteriorly, a reduced or absent muscular pro-ncess for the tensor veli palatini muscle'
+			'globular bulla with a developed muscular process'
+			'bulla small and compressed, with well developednmuscular process and keel'
+			,
+		18
+			'almost horizontal'
+			'anterodorsallyninclined'
+			'state not mentioned in publication'
+			,
+		19
+			'gentle angle'
+			'abrupt angle'
+			'state not mentioned in publication'
+			,
+		20
+			'continuous betweennthe two canines, forming an overhang relative tonthe frontal face of the symphysis'
+			'weakly over-nhanging, generally interrupted between the firstnincisors'
+			,
+		21
+			'anterior border of the canine alveolus at the level of the incisor alveoli or posterior'
+			'anterior border of the canine alveolus anterior to the incisor alveoli'
+			'posterior border of the canine alveolus anterior to the incisor alveoli'
+			,
+		22
+			'poorly developed'
+			'developed'
+			'state not mentioned in publication'
+			,
+		23
+			'shorter than the mesio-distal diameter of the I/1'
+			'longer than the mesio-distal diameter of the I/1'
+			'state not mentioned in publication'
+			,
+		24
+			'poorly developed'
+			'well-developed, but not hook-shaped'
+			'well-developed, hook-shaped'
+			,
+		25
+			'not warped laterally away from the corpus direction'
+			'laterally warped'
+			'state not mentioned in publication'
+			,
+		26
+			'six'
+			'four'
+			,
+		27
+			'absent'
+			'shallow and narrow (canine with an almost rounded section)'
+			'shallow and wide (bilobate section)'
+			'deep (bilobate section)'
+			,
+		28
+			'large, transversally pinched'
+			'most frequently small and rounded, or absent'
+			,
+		29
+			'reduced or absent on both teeth'
+			'strong at least on the P3/'
+			,
+		30
+			'bicuspidate, the two cusps being subequal in size'
+			'bicuspidate tooth with unequal cusps, or single-cuspidate tooth'
+			,
+		31
+			'six'
+			'four'
+			'two'
+			,
+		32
+			'subequal'
+			'smaller or absent'
+			'larger'
+			,
+		33
+			'not horizontally aligned'
+			'horizontally aligned'
+			'state not mentioned in publication'
+			,
+		34
+			'smooth or with small to strong ridges, these ridges being always parallel'
+			'strong and convergent ridges'
+			,
+		35
+			'subparallel or slightly convergent'
+			'divergent'
+			'state not mentioned in publication'
+			,
+		36
+			'presence of a large centro-lingual accessory cuspid, with one or several other accessory cuspids in distal position'
+			'lingual accessory cuspid distally shifted, low and reduced, or absent, often with no distal accessory cuspids'
+			,
+		37
+			'low-crowned teeth; with an hypsodonty index (height of the crown ¥ 100/buc-colingual breadth of the crown) inferior or equal to 125 (lower molars) or 100 (upper molars)'
+			'high-crowned teeth; with an hypsodonty index superior to 125 (lower molars) or 100 (upper molars)'
+			,
+	;
+	MATRIX
+	'Diacodexis pakistanensis'      ??10000002001001000012000000001?01000
+	'Cebochoerus lacustris'         001000001000100100000(0 1)000001101?010??
+	'Pecari tajacu'                 100000001(1 2)110200022110111010011011001
+	'Tayassu pecari'                210000001(1 2)111200022110111010011011001
+	'Catagonus wagneri'             101000000(1 2)110200022110111010011011201
+	'Doliochoerus quercyi'          0?1001001?11?2?0022??00?(0 1)110011?(0 1)100?
+	'Xenohyus venitor'              ?????????????????????00?(0 1)110011?110??
+	'Kenyapotamus'                  (1 2)?????????????????????????1?1?0?0111?
+	'Choeropsis liberiensis'        20110000011101000111012021101100(0 2)0110
+	'Saotherium mingoz'             20110001?1111110011101202110110000110
+	'Archaeopotamus harvardi'       20110001?1110110011101202110110000110
+	'Hexaprotodon sivalensis'       20110112?1111112111101202110110000110
+	'Hippopotamus amphibius'        2011111201110112111101202110110020110
+	'Libycosaurus petrocchiii'      21011112?1110112211101202010010001210
+	'Merycopotamus dissimilis'      2101111(1 2)1(0 1)110112111101202110010001210
+	'Brachyodus aequatorialis'      20010001?01111100111010?1000000?01210
+	'Elomeryx armatus'              11110101101111000111020021100100012?0
+	'Anthracotherium'               0?1??10??0?1??0201???10?2110000001110
+	'Microbunodon minimum'          1011000100011100012101101110001001210
+	'Anthracokeryx ulnifer'         10?1000(0 1)?0011100012112000110001?012??
+	'Siamotherium krabiense'        ??100001?0???????????20?0?00001?01110
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-37;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -849529942; FileSettings editor '1' '1' '38' '1'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '202' '1' all; EditorPosition '46' '6' '546' '515'; TreeWindowPosition '47' '153' '736' '1212'; ListWindow Characters closed Gadget '12' '50' '10' '270' '374' 000; ListWindow Taxa closed Geneva '9' '50' '10' '241' '296' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols closed Gadget '12' '12' '611' '34' '203' '220'; WindowOrder Data; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '508' '918' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722912080394; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4534935727621930464; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8332263669408877217; mqVersion 381; checksumv 0 3 3645720926 null getNumChars 37 numChars 37 getNumTaxa 21 numTaxa 21 short true bits 15 states 15 sumSquaresStatesOnly 2749.0 sumSquares 2749.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8332263669408877217 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 37; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Hippopotamidae_Boisserie_et_al_2005.nex"'; ID 0191257f4ec140; LINK Taxa = Taxa; TRANSLATE [0] 1 Diacodexis_pakistanensis, [1] 2 Cebochoerus_lacustris, [2] 3 Pecari_tajacu, [3] 4 Tayassu_pecari, [4] 5 Catagonus_wagneri, [5] 6 Doliochoerus_quercyi, [6] 7 Xenohyus_venitor, [7] 8 Kenyapotamus, [8] 9 Choeropsis_liberiensis, [9] 10 Saotherium_mingoz, [10] 11 Archaeopotamus_harvardi, [11] 12 Hexaprotodon_sivalensis, [12] 13 Hippopotamus_amphibius, [13] 14 Libycosaurus_petrocchiii, [14] 15 Merycopotamus_dissimilis, [15] 16 Brachyodus_aequatorialis, [16] 17 Elomeryx_armatus, [17] 18 Anthracotherium, [18] 19 Microbunodon_minimum, [19] 20 Anthracokeryx_ulnifer, [20] 21 Siamotherium_krabiense; TREE UNTITLED = (1,(2,(((6,7),(5,(3,4))),(21,(20,(19,(16,((17,18),(8,(9,((10,11),(12,(13,(14,15)))))))))))))); 
+ENDBLOCK;

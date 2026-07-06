@@ -1,0 +1,205 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.07.23 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=28;
+	TAXLABELS
+		'Raymondaspis'
+		'Illaenus crassicauda'
+		'Illaenus sarsi'
+		'Illaenus aduncus'
+		'Illaenus planifrons'
+		'Illaenus oscitatus'
+		'Illaenus praecurrens'
+		'Illaenus fallax'
+		'Illaenus roemeri'
+		'Illaenus lacertus'
+		'Illaenus viator'
+		'Illaenus utahensis'
+		'Illaenus marginalis'
+		'Illaenus conradi'
+		'Illaenus angusticollis'
+		'Illaenus depressicapitatus'
+		'Illaenus latiaxiatus'
+		'Illaenus fieldi'
+		'Illaenus conifrons'
+		'Nanillaenus ?raymondi'
+		'Nanillaenus aduncus'
+		'Nanillaenus mackenziensis'
+		'Thaleops ovata'
+		'Thaleops longispina'
+		'Thaleops anusacermissima'
+		'Thaleops laurentiana'
+		'Thaleops jaanussoni'
+		'Thaleops mobydicki'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Length and orientation of articulating facets'
+		[2] 'Maximum length (sag.) of pygidium relative to maximum width (tr.)'
+		[3] 'First pleural furrow'
+		[4] 'Pygidial doublure'
+		[5] 'Degree of definition of pygidial axis'
+		[6] 'Length of pygidial axis'
+		[7] 'Width of pygidial axis'
+		[8] 'Number of thoracic segments'
+		[9] 'Thorax shape'
+		[10] 'Occipital ring'
+		[11] 'Genal spine'
+		[12] 'Elevation of palpebral lobes'
+		[13] 'Position of palpebral lobes'
+		[14] 'Strength of axial glabellar furrows'
+		[15] 'Shape of glabella posterior to lunettes'
+		[16] 'Definition of anterior margin of glabella'
+		[17] 'Glabellar muscle scars visible on exterior of cranidium'
+		[18] 'Course of anterior facial sutures'
+		[19] 'Cephalic ornamentation'
+		[20] 'Maximum length (sag.) of cranidium versus maximum width (tr.)'
+	;
+	STATELABELS
+		1
+			'distance from anterior margin of pygidium to point of maximum width (tr.) of pygidium 25-39% of total length (sag.) of pygidium'
+			'distance from anterior margin of pygidium to point of maximum width (tr.) of pygidium 14-18% of total length (sag.) of pygidium'
+			'distance from anterior margin of pygidium to point of maximum width (tr.) of pygidium 51-77% of total length (sag.) of pygidium'
+			,
+		2
+			'pygidium wider (tr.) than long (sag.)'
+			'length (sag.) and width (tr.) of pygidium nearly equal'
+			,
+		3
+			'present'
+			'absent'
+			,
+		4
+			'smooth or with faint embayment'
+			'two sharp forward projections reaching anterior to either side of posterior border of pygidial axis'
+			'strong, U-shaped medial embayment'
+			'central forward projection with no central embayment'
+			,
+		5
+			'entire pygidial axis well defined by strong furrows'
+			'entire pygidial axis defined by weak axial furrows'
+			'posterior portion of axial furrows effaced'
+			,
+		6
+			'length (sag.) of axis greater than length of post-axial field'
+			'length (sag.) of axis less than length of post-axial field'
+			,
+		7
+			'width (tr.) less than 30% of maximum width (tr.) of pygidium'
+			'width (tr.) 33—44% of maximum width (tr.) of pygidium'
+			'width (tr.) 47-50% of maximum width (tr.) of pygidium'
+			,
+		8
+			'seven'
+			'ten'
+			'eight'
+			,
+		9
+			'width (tr.) of posterior-most thoracic segment equal to or only slightly narrower than width (tr.) of first thoracic segment'
+			'width (tr.) of posterior-most thoracic segment 87-89% of width (tr.) of first thoracic segment'
+			'width (tr.) of posterior-most thoracic segment 71-82% of width (tr.) of first thoracic segment'
+			,
+		10
+			'occipital ring well defined by occipital furrow'
+			'occipital furrow effaced'
+			,
+		11
+			'short spine directed backward'
+			'rounded genal angle'
+			'rounded genal angle elongated into genal flap'
+			'genal spine directed posterolaterally'
+			,
+		12
+			'palpebral lobes directed outward or slightly downward'
+			'palpebral lobes directed upward'
+			,
+		13
+			'located well in front of posterior margin of cranidium'
+			'located short distance in front of posterior margin of cranidium'
+			'located almost even with posterior margin of cranidium'
+			,
+		14
+			'strong'
+			'effaced'
+			,
+		15
+			'glabellar furrows subparallel'
+			'glabellar furrows bowed out'
+			'glabellar furrows curved in'
+			'glabellar furrows directed sharply in, then sharply out'
+			,
+		16
+			'well defined'
+			'weakly defined'
+			'effaced'
+			,
+		17
+			'absent'
+			'present as irregularly shaped, smooth areas in sculpture or as lateral ridges on margins of glabella'
+			'present as raised areas on dorsal surface of exoskeleton'
+			,
+		18
+			'strongly divergent'
+			'directed weakly laterally'
+			'nearly parallel'
+			'directed weakly medially'
+			'angled sharply toward mid-line'
+			,
+		19
+			'punctae faint to absent'
+			'punctae present'
+			,
+		20
+			'length 82-88% of width'
+			'length 64% of width'
+			'length 71-79% of width'
+			'length 92% of width'
+			'length 103-104% of width'
+			,
+	;
+	MATRIX
+	'Raymondaspis'                    00000000000000000000
+	'Illaenus crassicauda'            00102111111111210100
+	'Illaenus sarsi'                  00112111011011020100
+	'Illaenus aduncus'                00112111012011020104
+	'Illaenus planifrons'             0013211??1?011220100
+	'Illaenus oscitatus'              0011211??11011020214
+	'Illaenus praecurrens'            11102?1101101102000?
+	'Illaenus fallax'                 1100211101101102000?
+	'Illaenus roemeri'                0000201?011011020000
+	'Illaenus lacertus'               20112?21211021?2030?
+	'Illaenus viator'                 20112021211021?20302
+	'Illaenus utahensis'              2012211111202102030?
+	'Illaenus marginalis'             20112111111011220203
+	'Illaenus conradi'                20111012212021122312
+	'Illaenus angusticollis'          201?0012202020312412
+	'Illaenus depressicapitatus'      2011101??1?021221312
+	'Illaenus latiaxiatus'            201?1121?1?021221312
+	'Illaenus fieldi'                 201??01??1?021221302
+	'Illaenus conifrons'              2011??1??0?120300412
+	'Nanillaenus ?raymondi'           2011001121?120211310
+	'Nanillaenus aduncus'             2011101??131211204?2
+	'Nanillaenus mackenziensis'       2011101??13021020412
+	'Thaleops ovata'                  20110011203120112311
+	'Thaleops longispina'             2011?011203120301412
+	'Thaleops anusacermissima'        2011101??13121120402
+	'Thaleops laurentiana'            20111011212021120302
+	'Thaleops jaanussoni'             20110011213021021312
+	'Thaleops mobydicki'              20111011211021220302
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-20;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -943039448; FileSettings editor '1' '1' '22' '0'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '186' '1' all; EditorPosition '113' '110' '597' '619'; TreeWindowPosition '46' '6' '495' '619'; ListWindow Characters closed Gadget '12' '134' '27' '423' '374' 000; ListWindow Taxa closed Geneva '9' '50' '10' '209' '315' 100000000; ListWindow Trees closed Gadget '9' '56' '130' '134' '395' ; ListWindow TypeSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '9' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '10' '651' '833' '203' '305'; WindowOrder Data States; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '765' '283' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '9' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '10' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '15' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Raymondaspis, 2 Illaenus_crassicauda, 3 Illaenus_sarsi, 4 Illaenus_aduncus, 5 Illaenus_planifrons, 6 Illaenus_oscitatus, 7 Illaenus_praecurrens, 8 Illaenus_fallax, 9 Illaenus_roemeri, 10 Illaenus_lacertus, 11 Illaenus_viator, 12 Illaenus_utahensis, 13 Illaenus_marginalis, 14 Illaenus_conradi, 15 Illaenus_angusticollis, 16 Illaenus_depressicapitatus, 17 Illaenus_latiaxiatus, 18 Illaenus_fieldi, 19 Illaenus_conifrons, 20 Nanillaenus_?raymondi, 21 Nanillaenus_aduncus, 22 Nanillaenus_mackenziensis, 23 Thaleops_ovata, 24 Thaleops_longispina, 25 Thaleops_anusacermissima, 26 Thaleops_laurentiana, 27 Thaleops_jaanussoni, 28 Thaleops_mobydicki ; TREE * UNTITLED = [&R] (1,(9,((7,8),((2,5),(3,(4,(6,(13,(12,((10,11),(28,(((26,14),(22,(21,25))),(18,(17,(16,(27,(20,(23,(15,(19,24)))))))))))))))))))); 
+ENDBLOCK;

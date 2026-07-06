@@ -1,0 +1,451 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.57.55 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=35;
+	TAXLABELS
+		'Tricholepidion gertschi'
+		'Carpotriplura kukalovae'
+		'Hypothetical pterygote ancestor'
+		'Bojophlebia prokopi'
+		'Triplosoba pulchella'
+		'Syntonoptera schucherti'
+		'Gallolithoneura butchlii'
+		'Aedoeophasma anglica'
+		'Unnamed (prokop & Nel 2011)'
+		'Lithoneura mirifica'
+		'Lithoneura lameerei'
+		'Anglolithoneura magnifica'
+		'Miracopteron mirabile'
+		'Misthodotes obtusus'
+		'Protereisma permianum'
+		'Litophlebia optata'
+		'Tintorina meridensis'
+		'Cretereisma antiqua'
+		'Mickoleitia longimanus'
+		'Mesephemera speciosa'
+		'Palingeniopsis praecox'
+		'Siphluriscus chinensis'
+		'Hexagenites cellulosa'
+		'Siphlonurus aestivalis'
+		'Eugeropteron lunatum'
+		'Stenodicta lobata'
+		'Eugereon boeckingi'
+		'Dunbaria fasciipennis'
+		'Homoioptera vorhallensis'
+		'Thesoneura americana'
+		'Mischoptera nigra'
+		'Diathema tenerum'
+		'Uralia maculata'
+		'Liomopterum ornatum'
+		'Gerarus danielsi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'larval development'
+		[2] 'aquatic larvae'
+		[3] 'larval tarsi'
+		[4] 'larvae with abdominal gills'
+		[5] 'larval epiproct'
+		[6] 'adult epiproct'
+		[7] 'adult cerci'
+		[8] 'male genitalia'
+		[9] 'labium and labrum developed as beak (haustellum)'
+		[10] 'both mandibles developed as stylets'
+		[11] 'both maxillae developed as stylets'
+		[12] 'hypopharynx developed as stylet'
+		[13] 'labial palps reduced'
+		[14] 'adult glossae developed as enlarged plates'
+		[15] 'adult femora (esp. mid- and hind legs) extremely elongated'
+		[16] 'adult number of tarsomeres'
+		[17] 'adult pronotum with lateral lobes or winglets (in ground plan)'
+		[18] 'wings'
+		[19] 'wing folding'
+		[20] 'wing span'
+		[21] 'forewing basal costal field'
+		[22] 'costal spines'
+		[23] 'costal brace'
+		[24] 'ScP reaches apex'
+		[25] 'ScP thicker than RA'
+		[26] 'undulation of ScP and RA near wing base'
+		[27] 'RA'
+		[28] 'RA reaches apex'
+		[29] 'RA and RP fused'
+		[30] 'RP'
+		[31] 'RP with triadic branching'
+		[32] 'RP1 with several pectinate branches'
+		[33] 'RP2 asymmetrically branched'
+		[34] 'RP seems to originate on MA, with common stem'
+		[35] 'MA'
+		[36] 'MA with triadic branching'
+		[37] 'MA attached to RP'
+		[38] 'MA with a strong anterior curve at its base, touching RP for a short distance'
+		[39] 'course of MA and MA1'
+		[40] 'MP'
+		[41] 'MP with triadic branching'
+		[42] 'MP fork'
+		[43] 'CuA'
+		[44] 'CuA with triadic branching'
+		[45] 'branching of CuA'
+		[46] 'CuA basally curved and touching stem of M'
+		[47] 'CuA and CuP very short'
+		[48] 'CuP'
+		[49] 'CuP with triadic branching'
+		[50] 'CuP strongly curved in forewing'
+		[51] 'anal veins strongly shortened and anal field largely reduced'
+		[52] 'AA1 simple in forewing'
+		[53] 'hind wing with anal brace'
+		[54] 'both wings with curved veinal arch, from which CuP and anal veins seem to originate'
+		[55] 'forewing triangular'
+		[56] 'forewing anal area expanded'
+		[57] 'hind wing size'
+		[58] 'hind wing base very broad, with large anal area with alternating concave and convex veins (anal fan)'
+		[59] 'both wings slender and elongate (narrow winged)'
+		[60] 'wing bases petiolated'
+		[61] 'archaedictyon (numerous irregular and branches crossveins)'
+		[62] 'both wings with most anterior branch of AA with a strong curve (zigzag) and touching CuP in one point'
+		[63] 'hind wing with characteristic concave vein IN between the two convex veins AA1+2 and AA3+4'
+		[64] 'hind wing with constriction of the area between the first and the second convex branches of AA, with a strong brace between them'
+		[65] 'pair-wise ordering of longitudinal veins and intercalaries'
+		[66] 'wings with strong color pattern by anternating dark and light bands or spots'
+	;
+	STATELABELS
+		1
+			'continous molting into imago'
+			'with at least one subimaginal stage'
+			'without subimaginal stages'
+			,
+		2
+			'absent (in ground plan)'
+			'present (in ground plan)'
+			,
+		3
+			'5-2 segments and double claw'
+			'only 1 segment and single claw'
+			,
+		4
+			'absent'
+			'present on segments 1-9'
+			'present on segments 1-7'
+			,
+		5
+			'well developed (in ground plan)'
+			'reduced or absent'
+			,
+		6
+			'developed as terminal filament'
+			'reduced (club-like process in ground plan)'
+			'reduced (totally absent)'
+			,
+		7
+			'not much longer than body'
+			'much longer than body'
+			,
+		8
+			'silverfish-like (with large leg-like gonopods)'
+			'mayfly-like (with claspers)'
+			'neopterid-like (no claspers and no large gonopods)'
+			,
+		9
+			'absent (biting mouth parts)'
+			'present (sucking-piercing mouth parts)'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present  (1-segmented or absent)'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'5'
+			'4'
+			'3'
+			'2'
+			'1'
+			,
+		17
+			'present (wing-like with venation)'
+			'present (only paranota)'
+			'absent'
+			,
+		18
+			'missing'
+			'present'
+			,
+		19
+			'palaeopterous'
+			'neopterous'
+			,
+		20
+			'much smaller than 10 cm (in ground plan)'
+			'distinctly larger than 10 cm (but smaller than 40 cm, in ground plan)'
+			'very large (about 40 cm)'
+			,
+		21
+			'very large and broad'
+			'not very large and broad'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present (small, not fused to C)'
+			'present (large, elongate, not fused to C)'
+			'present (fused to C and semi-circular)'
+			'present (small, elongate, not fused to C)'
+			,
+		24
+			'ScP reaches apex'
+			'ScP long but not reaching apex'
+			'ScP short (midwing)'
+			,
+		25
+			'absent (RA thicker than ScP)'
+			'present (ScP thicker than RA)'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'simple'
+			'branched'
+			'with oblique veinlets near apex'
+			,
+		28
+			'present (RA reaches apex)'
+			'absent (RA does not reach apex)'
+			,
+		29
+			'unfused till base'
+			'double-barrelled short stem'
+			'short common stem'
+			'long common stem (separating in distal half of wing)'
+			,
+		30
+			'branched'
+			'simple'
+			,
+		31
+			'absent'
+			'present (positive intercalaries IR1 and IR2 well developed)'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'branched'
+			'simple (or only tiny fork near wing margin)'
+			,
+		36
+			'absent'
+			'present (negative intercalary IM)'
+			,
+		37
+			'MA separate from RP'
+			'fused to RP in forewing, but fused to MP in hind wing'
+			'MA approaches or touches RP in both wings, but has a separate origin'
+			'MA fused to RP in both wings, without separate origin'
+			'MA approaches or touches RP (MA with basal curve toards RP) in both wings, but has a separate origin'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'strongly curved'
+			'weakly curved'
+			'straight'
+			,
+		40
+			'branched'
+			'simple'
+			,
+		41
+			'absent'
+			'present (positive intercalary)'
+			,
+		42
+			'near wing base'
+			'basal of CuA fork'
+			'same level as CuA fork'
+			'distal of CuA fork'
+			,
+		43
+			'branched'
+			'simple'
+			,
+		44
+			'absent'
+			'present (negative intercalary ICU)'
+			,
+		45
+			'wide'
+			'narrow'
+			,
+		46
+			'absent'
+			'present'
+			'CuA fused to MP without separate stem'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'branched'
+			'simple'
+			,
+		49
+			'absent'
+			'present (positive intercalary)'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent (AA1 branched)'
+			'present (AA1 unbranched)'
+			,
+		53
+			'absent'
+			'present (connection between AA and CuP with bulla on CuP)'
+			,
+		54
+			'absent'
+			'present and weakly curved'
+			'present and strongly curved'
+			,
+		55
+			'absent (not triangular)'
+			'present (triangular)'
+			,
+		56
+			'absent (forewing narrower than hind wing)'
+			'present (forewing as broad as hind wing)'
+			,
+		57
+			'hind wing not much shorter than forewing'
+			'hind wing about half length of forewing'
+			'hind wing much less than half length of forewing'
+			'hind wing largely reduced or absent'
+			,
+		58
+			'present (hind wing base much wider)'
+			'absent (hind wing base slightly wider)'
+			'absent (hind wing base not wider, anal area mostly reduced)'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'absent'
+			'present'
+			,
+		61
+			'all crossveins reduced'
+			'most crossveins reduced'
+			'absent (crossveins regular and simple)'
+			'weakly present (only some crossveins are irregularily oblique or branched)'
+			'present in ground plan (very dense archedictyon, with many irregular and branched crossveins)'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Tricholepidion gertschi'              000000000000000020-0----------------------------------------------
+	'Carpotriplura kukalovae'              ?000000?0000000010-1----------------------------------------------
+	'Hypothetical pterygote ancestor'      000000000000000001??0100000000010000000003000000000000000000400000
+	'Bojophlebia prokopi'                  ????????0000010?21?20101100000???001300013011?00100???0000003???00
+	'Triplosoba pulchella'                 ?????00??000??0?21?0110000002010001-10101-1--101-00100000100200000
+	'Syntonoptera schucherti'              ?????????????????1?1????0?00101?1001??0012010?01-000??0000003???00
+	'Gallolithoneura butchlii'             ?????????????????1?1????0?0??01??001??10?3010?01-00???0???102???00
+	'Aedoeophasma anglica'                 ?????????????????1?1???10?00?0100?01??0?????????????????????3???00
+	'Unnamed (prokop & Nel 2011)'          ?????????????????1?00?0?00??2????0??21???30?1?01-00??0?00?0030??00
+	'Lithoneura mirifica'                  ?????????????????1?1????00001010000?210011011101-101??0?00002???00
+	'Lithoneura lameerei'                  ????????0000????2101001?0000101??001210011011101-10110000000311100
+	'Anglolithoneura magnifica'            ?????????????????1?1????0000201??001210011010101-?0?10??0000311100
+	'Miracopteron mirabile'                ?????????????????1?1?????????0???00?20?0130101001?0?????00003?1100
+	'Misthodotes obtusus'                  ?????00?0000??0?21001?21000120101001202011001001-00111000100200000
+	'Protereisma permianum'                1101000100000?1021001120000010101001202011011101-00111000110200000
+	'Litophlebia optata'                   ?????????????????1?01?000000201011013020101--?11-0111?0???10200000
+	'Tintorina meridensis'                 ??????????????10210011020001201011013020101--?11-01111000211200000
+	'Cretereisma antiqua'                  ????????0000????210010200000101010013010101--101-00111000210200010
+	'Mickoleitia longimanus'               ?1120???0000000421001020000000100001?02010011?01-001??0?00002?0000
+	'Mesephemera speciosa'                 ?????00?0000??0?21001020000020100101300011010101-00011000000200000
+	'Palingeniopsis praecox'               ?????????????????1?0??20000010100101301011010101-10??10?0000200000
+	'Siphluriscus chinensis'               111200010000000021001020000020100001300011010101-10112101100200000
+	'Hexagenites cellulosa'                ?11200110000000021001030000020100001300011010101-10112101100200000
+	'Siphlonurus aestivalis'               111200010000000021001030000020101001301011000101-01112102100200000
+	'Eugeropteron lunatum'                 1100010000000000010101010000001000012001--010001-00011000010200000
+	'Stenodicta lobata'                    10?012111111100001000?0100003000001-0001--1--001-00000000100400000
+	'Eugereon boeckingi'                   ?0?0????1111100?11010?0000003001001-00000-1--100000000001010400000
+	'Dunbaria fasciipennis'                ?????21?1111100?11010100000010010000000003000001-00000000000200001
+	'Homoioptera vorhallensis'             ?????212111110000101010000003001001-001003000000000000010000400001
+	'Thesoneura americana'                 ?????????1111????1?1??0100201001001-0010030000000000000?0-00300000
+	'Mischoptera nigra'                    10?01211111110001100110100003001001-0001--1--001-01000000211200000
+	'Diathema tenerum'                     ?????211111110?221001?0001003000101-0010030010000000-2003-00010000
+	'Uralia maculata'                      ?????211111110021110110201003001011-21100-1--101-01100000100100000
+	'Liomopterum ornatum'                  200012020000000001100002002030010000001003001001-00100000000300000
+	'Gerarus danielsi'                     ?????20?0000000021100001002030010000012003001200000000000000300000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1 6 8-16 18-20 22-24 26-29 31-37 39 44-57 60-61 63-66, ord: 2-5 7 17 21 25 30 38 40-43 58-59 62;
+ENDBLOCK;

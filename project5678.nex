@@ -1,0 +1,201 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.41.15 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		'Gogonasus andrewsae'
+		'Spodichthys buetleri'
+		'Cabonnichthys burnsi'
+		'Edenopteron keithcrooki'
+		'Eusthenopteron foordi'
+		'Eusthenopteron jenkinsi'
+		'Eusthenopteron wenjukowi'
+		'Heddleichthys dalgleisiensis'
+		'Hyneria lindae'
+		'Langlieria radiatus'
+		'Langlieria smalingi'
+		'Langlieria socqueti'
+		'Mandageria fairfaxi'
+		'Notorhizodon mackelveyi'
+		'Platycephalichthys bischoffi'
+		'Tinirau clackae'
+		'Tristichopterus alatus'
+		'Eusthenodon bourdoni'
+		'Eusthenodon wangsjoi'
+		'Eusthenodon legannihanne'
+		'Hyneria udlezinye'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Epichordal radials in caudal fin (Ahlberg and Johanson, 1997; character 13)'
+		[2] 'Shape of caudal fin (Ahlberg and Johanson, 1997; modified from character 14)'
+		[3] 'Relationship of jugal to orbit (Ahlberg and Johanson, 1997; character 4)'
+		[4] 'Relationship of postorbital to orbit (Ahlberg and Johanson, 1997; character 3)'
+		[5] 'Contact between posterior supraorbital and intertemporal (Ahlberg and Johanson, 1997; character 1)'
+		[6] 'Shape of posterior supraorbital (Ahlberg and Johanson, 1998; modified from character 58)'
+		[7] 'Shape of pineal area (Ahlberg and Johanson, 1997; modified from character 5)'
+		[8] 'Location of pineal foramen (Ahlberg and Johanson, 1997; modified from character 6)'
+		[9] 'Premaxillary dentition (Ahlberg and Johanson, 1997; modified from character 7)'
+		[10] 'Number of fang positions on ectopterygoid (Ahlberg and Johanson, 1998, character 17; character states redefined by Clément et al., 2009; character 10)'
+		[11] 'Number of fang positions on third coronoid (Ahlberg and Johanson, 1998, character 13; character states redefined by Clément et al., 2009; character 11)'
+		[12] 'Coronoid proportions (Ahlberg and Johanson, 1998; character 8; character states redefined by Clment et al., 2009; character 12)'
+		[13] 'Marginal dentition on dentary reaches lower jaw symphysis (Ahlberg and Johanson, 1998; modified from character 11)'
+		[14] 'Vertical blade-like lamina labial to coronoid fang on first coronoid (Clment et al., 2009; character 14)'
+		[15] 'Accessory vomers (Clment et al., 2009; character 16)'
+		[16] 'Marginal tooth row lateral to dermopalatine fang (Clment et al., 2009; slightly modified from character 19)'
+		[17] 'Dentary fang pair (Ahlberg and Johanson, 1997, character 11)'
+		[18] 'Lateral margin of caudal process of vomer (Snitting, 2008, appendix 2, modified from character 22)'
+		[19] 'Extratemporal in a postspiracular position (Ahlberg and Johanson, 1997, modified from character 12)'
+		[20] 'Denticulated field of parasphenoid (Snitting, 2008, appendix 2, character 25)'
+		[21] 'Width/length ratio of vomers + parasphenoid (character 21, Olive et al., 2020)'
+		[22] 'Width/length ratio of parietal (character 22, Olive et al., 2020)'
+		[23] 'Maxilla overlap onto squamosal (character 23, Olive et al., 2020)'
+		[24] 'Maximum height of maxilla, articulated specimen in dermal view (character 24, Olive et al., 2020)'
+		[25] 'Portion of lacrimal that is rostral to orbit (character 25, Olive et al., 2020)'
+		[26] 'Marginal coronoid tooth row (character 26, Olive et al., 2020)'
+		[27] 'Scale ornament (character 27, Downs and Daeschler, 2022)'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'asymmetrical'
+			'symmetrical'
+			,
+		3
+			'contributes to orbital margin'
+			'excluded from orbital margin'
+			,
+		4
+			'contributes to orbital margin'
+			'excluded from orbital margin'
+			,
+		5
+			'present'
+			'absent'
+			,
+		6
+			'caudal process subequal in length or shorter than orbital margin of the posterior supraorbital'
+			'caudal process much longer than orbital margin of the posterior supraorbital'
+			,
+		7
+			'round or oval'
+			'kite- or drop-shaped'
+			,
+		8
+			'level with or rostral to caudal margin of orbits'
+			'well caudal to orbits'
+			,
+		9
+			'homodont (morphotype A of Borgen and Nakrem, 2016)'
+			'teeth closest to symphysis gradually increase in size (morphotype B)'
+			'single, greatly enlarged premaxillary fang (morphotypes C and D)'
+			,
+		10
+			'one'
+			'two'
+			,
+		11
+			'one'
+			'two'
+			,
+		12
+			'third coronoid similar in length to second coronoid'
+			'third coronoid significantly longer than second coronoid'
+			,
+		13
+			'yes'
+			'no'
+			,
+		14
+			'present'
+			'absent'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'distinct corner present'
+			'straight or slightly concave'
+			,
+		19
+			'no'
+			'yes'
+			,
+		20
+			'stands proud of body of parasphenoid, supported rostrally by midline keel'
+			'recessed into body of parasphenoid'
+			,
+		21
+			'equal to or more than 0.5'
+			'less than 0.5'
+			,
+		22
+			'less than 0.5'
+			'equal to or more than 0.5'
+			,
+		23
+			'present'
+			'absent'
+			,
+		24
+			'at squamosal-jugal junction'
+			'at lacrimal-jugal junction'
+			'both positions equal height'
+			,
+		25
+			'half or more'
+			'less than half'
+			,
+		26
+			'present on coronoids 1 to 3'
+			'present only on coronoid 3'
+			'not present on coronoids 1 to 3'
+			,
+		27
+			'incised grooves absent'
+			'incised grooves present, adjacent grooves separated by a space approximately equal to width of groove'
+			'incised grooves present, adjacent grooves separated by a space much greater than width of groove'
+			,
+	;
+	MATRIX
+	'Gogonasus andrewsae'               ??0000?0?00000000?000000000
+	'Spodichthys buetleri'              ????0?000000?0??0?0010????0
+	'Cabonnichthys burnsi'              1101011121111110111010?2122
+	'Edenopteron keithcrooki'           ???1101121??1?1?101101?21?2
+	'Eusthenopteron foordi'             000000001111000001101000100
+	'Eusthenopteron jenkinsi'           ????????1?1100??00?01010?0?
+	'Eusthenopteron wenjukowi'          ??0001010?1?00??01?010???0?
+	'Heddleichthys dalgleisiensis'      ?1000?1121110000111010?0100
+	'Hyneria lindae'                    1??11111211100?010?10102010
+	'Langlieria radiatus'               ??????11?????0??10?000????1
+	'Langlieria smalingi'               ????1?11????10??1????00???1
+	'Langlieria socqueti'               ??????1121??10??1010?01??00
+	'Mandageria fairfaxi'               1111111121110111111010?2011
+	'Notorhizodon mackelveyi'           ?????????11100??1??0?0???00
+	'Platycephalichthys bischoffi'      ??11?1?10?0100??10?01??010?
+	'Tinirau clackae'                   000????11001000?101010?200?
+	'Tristichopterus alatus'            0000000010000000011001?0100
+	'Eusthenodon bourdoni'              ??010111????10??1??1?0120?0
+	'Eusthenodon wangsjoi'              ??1111112111110?10110?02010
+	'Eusthenodon legannihanne'          ??111011211110??1????0121?2
+	'Hyneria udlezinye'                 ???1?111????????1????1100?0
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-27;
+ENDBLOCK;

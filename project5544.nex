@@ -1,0 +1,786 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.18.31 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=57;
+	TAXLABELS
+		'Outgroup paramys delicatus'
+		'Outgroup paradjidaumo trilophus'
+		'Tenudomys dakotensis'
+		'Proharrymys schlaikjeri'
+		'Dikkomys matthewi'
+		'Harrymys irvini'
+		'Harrymys taussigi'
+		'Harrymys cyanthos'
+		'Aurimys xeros'
+		'Mioheteromys amplissimus'
+		'Balantiomys oregonensis'
+		'Proheteromys latidens'
+		'KUVP 9386'
+		'Schizodontomys amnicolus'
+		'Schizodontomys harkseni'
+		'Schizodontomys sulcidens'
+		'Schizodontomys bareia'
+		'Schizodontomys beecanyonlandfill'
+		'Bursagnathus aterosseus'
+		'Chaetodipus artus'
+		'Chaetodipus hispidus'
+		'Perognathus furlongi'
+		'Perognathus amplus'
+		'Mioperognathus willardi'
+		'Eochaetodipus asulcatus'
+		'Heteromys pictus'
+		'Heteromys desmarestianus'
+		'Cupidinimus nebraskensis'
+		'Eodipodomys celtiservator'
+		'Prodipodomys fam87427'
+		'Dipodomys merriami'
+		'Microdipodops megacephalus'
+		'Florentiamys kingi'
+		'Florentiamys kennethi'
+		'Florentiamys kinseyi'
+		'Sanctimus simonisi'
+		'Sanctimus falkenbachi'
+		'Sanctimus stouti'
+		'Sanctimus stuartae'
+		'Ecclesimus tenuiceps'
+		'Kirkomys nebraskensis'
+		'Kirkomys martintau'
+		'Hitonkala andersontau'
+		'Megaheliscomys mcgrewi'
+		'Heliscomys vetus'
+		'Heliscomys ostranderi'
+		'Gregorymys formosus'
+		'Entoptychus ucmp65251'
+		'Pleurolicus sulcifrons'
+		'Thomomys talpoides'
+		'Pliosaccomys dubius'
+		'Parapliosaccomys cf.p.oregonensis'
+		'Geomys arenarius'
+		'Cratogeomys merriami'
+		'Trogomys rupinimenthae'
+		'Mojavemys galushai'
+		'Phelosaccomys neomexicanus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=119;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Dorsal inflation of mastoid'
+		[2] 'Lateral inflation of bulla'
+		[3] 'Mastoid foramen'
+		[4] 'Temporal foramen'
+		[5] 'Foramen magnum is'
+		[6] 'Component of the basicranium continuous between basioccipital and basisphenoid'
+		[7] 'Anterior narrowing of the basioccipital great [more than half]'
+		[8] 'Anterior inflation of bulla'
+		[9] 'Bone of the bulla'
+		[10] 'Ventral inflation of auditory bulla'
+		[11] 'Anteromedial bullar processes'
+		[12] 'Vacuity anterior to bulla'
+		[13] 'Space between auditory bullae and basioccipital'
+		[14] 'Lateral inflation of mastoid'
+		[15] 'Posterior inflation of mastoid'
+		[16] 'Fissure medial to bulla'
+		[17] 'Stapedial canal'
+		[18] 'Stapedial foramen'
+		[19] 'Relative height of coronoid process'
+		[20] 'Posterior process of coronoid'
+		[21] 'Angle of mandible'
+		[22] 'Posterior end of incisor alveolus'
+		[23] 'Insertion of masseter on dentary'
+		[24] 'Dorsal ridge of masseteric crest/scar'
+		[25] 'Anterior end of masseteric fossa'
+		[26] 'Mental foramen'
+		[27] 'Mental foramen - 2'
+		[28] 'ascends at posterior edge of m3'
+		[29] 'Basitemporal fossa'
+		[30] 'Angle of the mandible'
+		[31] 'Foramen between m3 and coronoid process'
+		[32] 'Mandibular condyle shape'
+		[33] 'Posterior end of frontals deeply incised in parietals'
+		[34] 'lower incisor is mediolaterally compressed'
+		[35] 'Central groove on upper incisor'
+		[36] 'Anterior surface of the lower incisors'
+		[37] 'Interparietal'
+		[38] 'Interparietal - 2'
+		[39] 'Shape of interparietal bone'
+		[40] 'Lingual end of M1 closed by lingual cingulum'
+		[41] 'M1 bearing entostyle and/or protostyle'
+		[42] 'Supraorbital bony flange'
+		[43] 'Anterior edge of anterior alar fissure'
+		[44] 'Anterior alar fissure rises'
+		[45] 'Dorsal extent of alisphenoid'
+		[46] 'Suture of maxilla and alisphenoid (lateral view)'
+		[47] 'Anterior division of temporalis arising on alisphenoid'
+		[48] 'Anterior squamosal foramen'
+		[49] 'Buccinator and masticatory foramina'
+		[50] 'Ethmoid foramen dorsal to'
+		[51] 'Foramen ovale'
+		[52] 'Masticatory and buccinators foramina'
+		[53] 'Accessory foramen ovale on alisphenoid'
+		[54] 'Frontal foramen present'
+		[55] 'Masticatory and buccinator foramina'
+		[56] 'Optic foramen'
+		[57] 'Optic foramen separation from orbital fissure'
+		[58] 'Size of optic foramen'
+		[59] 'Sphenofrontal foramen'
+		[60] 'Sphenopalatine foramen'
+		[61] 'Unossified area dorsal to orbitosphenoid'
+		[62] 'Unossified area on between maxillary and lacrimal bones'
+		[63] 'Posterior alar fissure'
+		[64] 'Hypostylid is present or not on p4'
+		[65] 'p4 shape'
+		[66] 'Hypoconulid size relative to protostylid and protoconid'
+		[67] 'Presence of a separation between protoconid and metaconid in p4'
+		[68] 'Protostylid of p4'
+		[69] 'character name not specified in documentation'
+		[70] 'character name not specified in documentation - 2'
+		[71] 'transversely elongated'
+		[72] 'Protostyle connected with entostyle'
+		[73] 'Protostyle'
+		[74] 'P4 is larger than the molars'
+		[75] 'Postglenoid foramen'
+		[76] 'Postglenoid foramen - 2'
+		[77] 'descending palatine vein'
+		[78] 'Hamulus-bulla contact'
+		[79] 'Main body of palate terminates'
+		[80] 'Furrows of the palate'
+		[81] 'Anterior suture of palatine'
+		[82] 'Parapterygoid fossae'
+		[83] 'Posterior maxillary notch'
+		[84] 'Posterior palatine foramina'
+		[85] 'Hamular process of pterygoid'
+		[86] 'Sphenopterygoid canal'
+		[87] 'Upper tooth rows'
+		[88] 'Venous foramen'
+		[89] 'Parietal'
+		[90] 'Origins of temporal muscles'
+		[91] 'Length of scar for temporalis muscle'
+		[92] 'Temporal foramen - 2'
+		[93] 'Anterior projection of frontal between premaxilla and jugal'
+		[94] 'Posterior border of anterior root of zygomatic arch'
+		[95] 'Posterior end of nasals'
+		[96] 'Nasals extend posteriorly to jugals overlapping orbits'
+		[97] 'Premaxilla-frontal suture dorsally'
+		[98] 'Infraorbital canal low'
+		[99] 'Distinct tubercle or swelling at posteroventral border of infraorbital foramen'
+		[100] 'Masseter'
+		[101] 'Nasals'
+		[102] 'Anterior edge of premaxillary-maxillary suture just posterior to posterior end of the incisor alveolus'
+		[103] 'Lateral wall of rostrum'
+		[104] 'Rostrum'
+		[105] 'Incisive foramen length/diastemal length'
+		[106] 'Incisive foramina set deeply into roof of palate'
+		[107] 'Interpremaxillary foramen'
+		[108] 'Location of the premaxillary-maxillary suture crossing of the midline of the palate'
+		[109] 'Chevrons are present'
+		[110] 'Enamel reduced to expose full dentine tracts'
+		[111] 'hypolophid'
+		[112] 'Modified radial enamel'
+		[113] 'Teeth'
+		[114] 'Glenoid fossa of the squamosal'
+		[115] 'Squamosal'
+		[116] 'Squamosal - 2'
+		[117] 'Jugal contribution to glenoid fossa'
+		[118] 'Boss anterior to glenoid fossa that redirects temporal muscle'
+		[119] 'Posterior margin of anterior root of zygomatic arch'
+	;
+	STATELABELS
+		1
+			'absent'
+			'small'
+			'great'
+			'joining bulla anterior to meatus'
+			,
+		2
+			'absent'
+			'small'
+			'large'
+			,
+		3
+			'absent'
+			'minute'
+			'large'
+			,
+		4
+			'present'
+			'absent'
+			,
+		5
+			'posteriorly oriented'
+			'posteroventrally oriented/anteriorly shifted'
+			,
+		6
+			'not swollen'
+			'swollen'
+			,
+		7
+			'no'
+			'yes'
+			,
+		8
+			'absent'
+			'present and widely separated by basisphenoid'
+			'present and nearly meeting separated narrowly'
+			'meeting at midline'
+			,
+		9
+			'single lamina'
+			'trabeculate'
+			,
+		10
+			'absent'
+			'small'
+			'large'
+			,
+		11
+			'absent'
+			'present'
+			'present and meeting in midline'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'small'
+			'large'
+			,
+		15
+			'absent'
+			'small'
+			'large'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'open'
+			'enclosed by bone'
+			,
+		18
+			'present'
+			'absent'
+			,
+		19
+			'tall'
+			'reduced'
+			'very reduced'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'large'
+			'reduced'
+			,
+		22
+			'in plane of mandible'
+			'projects laterally from mandible'
+			,
+		23
+			'smooth or nearly smooth'
+			'marked by a strong anterior ridge'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'posterior to p4'
+			'ventral to p4'
+			'anterior to p4'
+			,
+		26
+			'near posterior end of diastema'
+			'near midpoint of diastema'
+			,
+		27
+			'anteroventral to masseter insertion'
+			'anterodorsal to masseter insertion'
+			,
+		28
+			'ascends at posterior edge of m3'
+			'ascends at middle of m3'
+			'ascends at posterior edge of m2'
+			'ascends at middle of m2'
+			'ascends anterior to middle of m2'
+			,
+		29
+			'absent'
+			'shallow'
+			'deep'
+			'very deep'
+			,
+		30
+			'straight'
+			'deflected laterally'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'anteroposteriorly oriented'
+			'transversely expanded'
+			,
+		33
+			'not'
+			'yes'
+			,
+		34
+			'not'
+			'yes'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'convex'
+			'flat'
+			,
+		37
+			'without bullar constriction'
+			'with some constriction'
+			'with great constriction'
+			,
+		38
+			'wide or constricted by bullar inflation'
+			'narrow but not constricted by bullar inflation'
+			,
+		39
+			'triangular (with an anterior point)'
+			'oval (anterior and posterior sides are parallel)'
+			,
+		40
+			'hypostyle and protostyle separated without wear'
+			'closed by lingual cingulum'
+			,
+		41
+			'not'
+			'bearing entostyle and/or protostyle'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'alisphenoid only'
+			'palatine and alisphenoid'
+			,
+		44
+			'far posterior to M3'
+			'just posteriorly to M3'
+			'above or anterior to M3'
+			,
+		45
+			'low'
+			'moderate'
+			'high'
+			,
+		46
+			'none'
+			'narrow'
+			'broad'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'separate'
+			'fused'
+			,
+		50
+			'M3'
+			'mid M2 to M2/M3 junction'
+			'mid M2 to mid M1'
+			,
+		51
+			'surrounded by alisphenoid bone'
+			'bounded posteriorly by auditory bulla'
+			,
+		52
+			'separated from accessory foramen ovale'
+			'united with accessory foramen ovale'
+			,
+		53
+			'present and complete'
+			'present but lacking posterior margin'
+			'absent'
+			,
+		54
+			'present'
+			'absent'
+			,
+		55
+			'at the level of and dorsal to foramen ovale'
+			'ventral to it'
+			,
+		56
+			'posterodorsal to toothrow'
+			'dorsal to M3'
+			'dorsal to M2'
+			'dorsal to M1'
+			,
+		57
+			'wide'
+			'narrow'
+			'absent'
+			,
+		58
+			'<1mm in diameter'
+			'>1mm in diameter'
+			,
+		59
+			'present'
+			'absent'
+			,
+		60
+			'dorsal to M2 or M2-M3 boundary'
+			'dorsal to M1 or M1-M2 boundary'
+			'dorsal to P4 or P4-M1 boundary'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'absent'
+			'present but separated from foramen ovale'
+			'present and joined with foramen ovale'
+			,
+		64
+			'not present'
+			'present'
+			,
+		65
+			'circular'
+			'mesio-distally elongated'
+			,
+		66
+			'subequal/smaller in size'
+			'larger than protostylid and protoconid'
+			,
+		67
+			'not present'
+			'present'
+			,
+		68
+			'absent'
+			'single'
+			'double'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'present'
+			'absent'
+			,
+		71
+			'transversely elongated'
+			'circular'
+			,
+		72
+			'not'
+			'connected'
+			,
+		73
+			'absent'
+			'small'
+			'large'
+			,
+		74
+			'not'
+			'larger'
+			,
+		75
+			'in squamosal bone'
+			'in squamosal bone/another between squamosal and periotic'
+			'between bones and continuous with posterior alar fissure'
+			,
+		76
+			'present'
+			'absent'
+			,
+		77
+			'not enclosed in bone'
+			'going through dorsal palatine foramen (in maxillary-palatine suture) lateral to the anterior alar fissure'
+			'going through dorsal palatine foramen (in maxillary-palatine suture) medial or anteromedial to the anterior alar fissure'
+			'hidden within the anterior alar fissure'
+			,
+		78
+			'present'
+			'absent'
+			,
+		79
+			'level/anteriorly'
+			'posteriorly to M3'
+			,
+		80
+			'absent'
+			'shallow'
+			'deep'
+			,
+		81
+			'at level of M1 or M1-M2 boundary'
+			'at level of P4 or P4-M1 boundary'
+			,
+		82
+			'absent'
+			'shallow'
+			'deep'
+			'very deep'
+			,
+		83
+			'open'
+			'closed'
+			'absent'
+			,
+		84
+			'within palatine'
+			'within palatine-maxillary suture'
+			,
+		85
+			'robust'
+			'thin'
+			,
+		86
+			'absent'
+			'present'
+			,
+		87
+			'parallel'
+			'posteriorly diverging'
+			,
+		88
+			'absent'
+			'present'
+			,
+		89
+			'reaches occiput'
+			'somewhat retreated from occiput'
+			'does not come near occiput'
+			,
+		90
+			'reach or come close to midline'
+			'restricted laterally'
+			'restricted very far laterally'
+			,
+		91
+			'complete to occipital'
+			'shortened'
+			,
+		92
+			'dorsal to postglenoid foramen'
+			'just posterior to zygomatic arch'
+			,
+		93
+			'absent'
+			'present'
+			,
+		94
+			'at the level of the posterior end of the nasals and/or premaxillae'
+			'posterior to the posterior end of the nasals and/or premaxillae'
+			'anterior to the posterior end of the nasals and/or premaxillae'
+			,
+		95
+			'extending farther posteriorly than premaxillae'
+			'aligned with posterior end of premaxillae'
+			'anteriorly retracted'
+			'surrounded posteriorly by premaxillae'
+			,
+		96
+			'yes'
+			'no'
+			,
+		97
+			'simple'
+			'interdigitated'
+			,
+		98
+			'lateral to rostrum'
+			'depressed into rostrum'
+			'depressed but laterally bulging'
+			,
+		99
+			'absent'
+			'small'
+			'large'
+			,
+		100
+			'protrogomorphous'
+			'sciuromorphous'
+			,
+		101
+			'Retracted posterior to or near level with incisors and premaxilla'
+			'Expanded far anteriorly of premaxilla and incisors'
+			,
+		102
+			'just posterior to posterior end of the incisor alveolus'
+			'farther posterior'
+			'located nearer the midpoint of the rostrum'
+			,
+		103
+			'solid'
+			'perforated at and anterior to infraorbital foramen'
+			,
+		104
+			'not tapered'
+			'tapered by descending nasals'
+			'elevated nasals'
+			,
+		105
+			'>0.40'
+			'0.20 to 0.40'
+			'0.10 to 0.19'
+			,
+		106
+			'set deeply into roof of palate'
+			'not set deeply into roof of palate'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'at the posterior end of the incisive foramen'
+			'1/3rd from posterior margin of the incisive foramen'
+			'halfway through the incisive foramen'
+			,
+		109
+			'present'
+			'absent'
+			,
+		110
+			'reduced to expose full dentine tracts'
+			'partial dentine tracts'
+			'enamel continuous'
+			,
+		111
+			'not with anterior projection connecting via entolophid to protoconid to form a v-shape'
+			'with anterior projection connecting via entolophid to protoconid to form a v-shape'
+			,
+		112
+			'absent'
+			'present close to the enamel-dentine junction'
+			,
+		113
+			'rooted'
+			'roots are reduced'
+			'not rooted'
+			,
+		114
+			'anterodorsal to the auditory region'
+			'near the auditory region'
+			,
+		115
+			'entire posteriorly'
+			'emarginate posteriorly dorsal to auditory bulla'
+			,
+		116
+			'not reduced'
+			'reduced to thin bar posteriorly'
+			'overcome by mastoid and bulla'
+			,
+		117
+			'absent'
+			'forming lateral wall of the fossa'
+			'forming anterolateral corner of the fossa'
+			,
+		118
+			'absent'
+			'small'
+			'very prominent'
+			,
+		119
+			'lateral to P4'
+			'slightly anterior to P4'
+			'far anterior to P4'
+			,
+	;
+	MATRIX
+	'Outgroup paramys delicatus'             0000000000000000?000000000000000?00000000000100000000?0000000000??00000?01000000001000000000000000000000000100??0010000
+	'Outgroup paradjidaumo trilophus'        001?00100010000000??0100110000?00000000000010000120100?1000200000000001?0000101100000100200?010100201000100000000000000
+	'Tenudomys dakotensis'                   001000?0?2?00000????000021000?0??100000?1100?100?11??0?0?010?01?????111?0010?0110111110021011021110101102002000?0010??0
+	'Proharrymys schlaikjeri'                ?1?000?102?00??0????01112102000?0100?00?1000110?0?10000???????1?00??110?00?????11?11??1?11?110101111?11?0000001?0010??0
+	'Dikkomys matthewi'                      ???0??????????????????1021010????00????011??????????????1???????01???01?00????1????1??1?????1021111101101000001?0?????0
+	'Harrymys irvini'                        111000130220011010??011121020000010000001000110011100001101?0011010110001110??1?011??10011011021110100100001001?0010?10
+	'Harrymys taussigi'                      ??????????????????????112101?0?0?1?????10???????????????1??????10101100??1????1????0??0??????0?11?01??101001001?0?????0
+	'Harrymys cyanthos'                      ??????????????????????11210??0???100????1??????????????????????11001?0????????1????????????????1??010??010?0001?0??????
+	'Aurimys xeros'                          220?001202100221?0??011020020110?100101??10001011?10200??????12???????0??120??1?0?11??1?121?12001111?111?0?100??0011010
+	'Mioheteromys amplissimus'               ???????????????????0??11210???0??110???0100111001??00?0?????1??011111{0 1}0?01????1101111?0??1????2?0121?1101001000?0?????2
+	'Balantiomys oregonensis'                0???0??1?????????0??0110210?010??10000001001110??2???0?????110??1011111?01????111111?11121???0??1111111010?1000?0??????
+	'Proheteromys latidens'                  01???????10??00?????011021020100?100???000???1??1?1100??????????1111110?01?????111?1??1??1???0201111?11110?1000?00???12
+	'KUVP 9386'                              11??0?11021???????1?0?102103000?0100???011???????????0?????????00100100?01?0????1??1??0?????10211??111?1??00000?00?00??
+	'Schizodontomys amnicolus'               1211001202010111111?0?112102????00000010110101001210201011?10??11101110?01??11111111010111111?21112111111000000?0010??1
+	'Schizodontomys harkseni'                221100130101011111??01{0 1}021030110?100???0110??10012102?0???1100?11101110?0120??1111100101?1??1021112111111000000?0010?20
+	'Schizodontomys sulcidens'               ???10012???1??????????0121030????1000010110?01001?10200???1????11101111?01????1101110101?1?1112111?101111000000100????1
+	'Schizodontomys bareia'                  12110011??01011111??0?102102????010?0010110??1001?102?1???1?0?011101101011?0?111?111011?1111112111211?111000000?001??10
+	'Schizodontomys beecanyonlandfill'       ?????????????????????1112?0??1??0000?01011?????????????????????11101101011????11??10??1?11??10211??111111??0000?0?????0
+	'Bursagnathus aterosseus'                11?0001202200001?02?00112102010?0100001011??01000210200???1?1??10101110?0120??1?13?1?11?12110001111111111000000?0110010
+	'Chaetodipus artus'                      1111001111100111?02101102102010001100010110101000?00200???111?20??0?110?0120101103110111221?102111011210200000010111211
+	'Chaetodipus hispidus'                   1111001111100111?02101102102010001100000110101000200200?111111200001110?0120101103110111221?102111011210200000010111211
+	'Perognathus furlongi'                   ????????????????????????????????011????01????1?????????????1?1??????110?01????110?11??11????11211101?21120?000??0?????1
+	'Perognathus amplus'                     2101001211100121102101102102010001101000110101000210200111111120000?110?0120101103110111221?112111{0 1}11211200000010111211
+	'Mioperognathus willardi'                1100001100100011?0??????????????011?0010100101000?102?00111211???????1?????11011121101111201002111111211100000??0010??2
+	'Eochaetodipus asulcatus'                1?00??110?1?0111????01112101???00100001010??01000100000???1?0??00001110?01?11?10121??011120112210111?21?20?1000?0000?11
+	'Heteromys pictus'                       0001000000000001?1200110210301000100001011020100121010011011012111011?1?0120101103111101110?111101111110200000010010110
+	'Heteromys desmarestianus'               0011000000000001?120011021030100010000101102010012101001101101211011101?0120111103111111110?111111111110200000010010110
+	'Cupidinimus nebraskensis'               22??????0????2??????00102103010??10010?0?1001???????????????11?00001110?01??????????????1?1???210101??112002100100????0
+	'Eodipodomys celtiservator'              220??????2???22?1???00112103011??10010?0?????????????????????????????1???1?????11?????1??????????101?21?200212??0?????0
+	'Prodipodomys fam87427'                  32???????????22???2101112102011??11020?????????????????????????10001110?01???0?103111111221?112101011211200210??00????1
+	'Dipodomys merriami'                     32011013012002211021011021020111011020???100110101102000210?{0 1}121??01111??121100003111111221?112101{0 1}11211100212012012011
+	'Microdipodops megacephalus'             32011013012002211021011021020110011020???101110101102001211?1121??01?10?0121101111100111221?1121010112111002100?0012010
+	'Florentiamys kingi'                     00200000?1100000001?0?01200300000100000111102100111101?011110001010210111100201001110010010011110011?10?200000000000000
+	'Florentiamys kennethi'                  002000001110000??01?0001210300?001?0000111102100111101???11201010102101111002?100111001001001??11??1?????000000?0000000
+	'Florentiamys kinseyi'                   ????????????0?????1?10012103000?0100???11????????????1?????2???10002101111??2?1?0?11??100???1111101111001000000?0?????0
+	'Sanctimus simonisi'                     0?20001????00??000??????????????0?0000011110210011?101?01111000???01101021002?1101110010010011111011?10?1001000?0000000
+	'Sanctimus falkenbachi'                  0?2000?011100?0000100011210300?0?10000011?1021001?1101????????010111101021002?1101110?1001001011?01111101000000?0000000
+	'Sanctimus stouti'                       00200010??10000000?0??002003000?0100000111102100111101?011110001010110102100201101110010010011111011?1001000000?0000000
+	'Sanctimus stuartae'                     ?0?????0?1????????????0?200?????0100???11110?????1??01?????1?0?00101101021??2??10?1???1?????11111011?10?10?0000?00??000
+	'Ecclesimus tenuiceps'                   012?0000?110?00?????????????????1?0?00010012110011?101?001110?????0?1{0 1}0?0000??101110?000????1?001111100?100100??0?00???
+	'Kirkomys nebraskensis'                  ???????????????????0?0101003??????0????10012???????????2???2?1?001011{0 1}1?00??2?111?11?000????10001111?1012000000?0?????1
+	'Kirkomys martintau'                     0?2000?0?0000?0??0????101003????0?010001101?21001?110??011?2000{0 1}1111111?00002?111?11??000100110010?111012000000?00000?1
+	'Hitonkala andersontau'                  01?00??00110?????1??00102003????010?000010101100111100?001010001??0?111?0000??11111101100?00000011111101200000??0000001
+	'Megaheliscomys mcgrewi'                 00???0?0?0000000?0????????????????0????1000010001?000?0????1?0????0?101?00?011?111010000????11111?11?21101?200??0000?00
+	'Heliscomys vetus'                       ??????????????????????10201200???10????10??????????????????????0010001??00????1?0?00??10?????0??1221?101010200000?????0
+	'Heliscomys ostranderi'                  ?0??001000100010??1101{0 1}02012?000?100???01000100010?1???011010001010{0 1}0{0 1}??00??101111000000????101012210101010200000000??0
+	'Gregorymys formosus'                    11200113?1201110?0??01002002110?100101001002121002100001010100111001101011101?02031111110001102100110001100000010010020
+	'Entoptychus ucmp65251'                  01000113?1201110?0??01002004110?10010100100112100210000111110011??0110?011101002031111110001103100010001100010010010020
+	'Pleurolicus sulcifrons'                 01000111?1201010?00101002002110?10000100100111100?101002010200211101101011101012131111110101102100010001100000010010?20
+	'Thomomys talpoides'                     00210010?0000010?0001100100421111001000010022210021010022011102100011?001120300203110111000?002100010002201012012000020
+	'Pliosaccomys dubius'                    ?????????????????????0{0 1}010041?0??00{0 1}???????????????????????????100011?1??1????120?11??1??????????001??021010120?0?????0
+	'Parapliosaccomys cf.p.oregonensis'      ??????????????????0000{0 1}{0 1}{1 2}0041100?001?????002221??1???0?????1?0?100011????1????120311?111????10210001??022010110?1?????0
+	'Geomys arenarius'                       002{0 1}0010?0000010?0001100100431111011000010022210021010032012102100011?101120300203110111010?102100010002201012012100020
+	'Cratogeomys merriami'                   00210010?0000000?0001100200431111011010010022210021010032012102100011?101120300203110111000?102100010002201012012100020
+	'Trogomys rupinimenthae'                 ????????????????????001021020000?100???011???1?????????????????10011110?01?????1??111?0??????0?11101111?1001000?0?????1
+	'Mojavemys galushai'                     ????????????????????0?102101110??011???0???????????????????1?1?1?0?1110??1??1?120111??11????0?211121?111{0 1}001110?0?????0
+	'Phelosaccomys neomexicanus'             ??????????????????10011121011?0???11?????????????????????????1?10011110??0????120111??01????0021112111111002110?0?????0
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-119;
+ENDBLOCK;
+BEGIN PAUP;
+ outgroup Outgroup_Paramys_delicatus Outgroup_Paradjidaumo_trilophus; ctype ord : 1 2 8 10 11 14 15 19 25 28 29 37 44 45 46 50 56 60 82 89 90 95 99 105 108 110 113 116 118; constraints bb1 backbone = (((((Chaetodipus_artus,Chaetodipus_hispidus),(Perognathus_furlongi,Perognathus_amplus)),(Heteromys_pictus,Heteromys_desmarestianus)),(Dipodomys_merriami,Microdipodops_megacephalus)),(Thomomys_talpoides,(Geomys_arenarius,Cratogeomys_merriami))); PSet msTaxa=polymorph; Assume exSet=InfOnly; log file = 081723.txt; hsearch nreps = 1000 addseq = random; savetrees file = SaveTree081723.tre; contree / treefile = ConsTree081723.tre; 
+ENDBLOCK;

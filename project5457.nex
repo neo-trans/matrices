@@ -1,0 +1,229 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.05.32 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=17;
+	TAXLABELS
+		'Addax'
+		'Oryx gazella'
+		'Oryx tighenif'
+		'Oryx olduvai'
+		'Oryx omo'
+		'Oryx sivalensis'
+		'Praedamalis howelli'
+		'Praedamalis deturi'
+		'Sivatragus bohlini'
+		'Hippotragus cookei'
+		'Hippotragus gigas'
+		'Hippotragus gigas'
+		'Hippotragus equinus'
+		'Hippotragus niger'
+		'Hippotragus leucophaeus'
+		'Tchadotragus sudrei'
+		'Saheloryx solidus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Length of lower premolar row divided by length of lower molar row'
+		[2] 'Basal pillars (entostyles on upper molars, ectostylids on lower molars)'
+		[3] 'Pinching of medial lobes of upper molars'
+		[4] 'p4 metaconid'
+		[5] 'Ethmoidal fissure'
+		[6] 'Upper orbital margin'
+		[7] 'Supra-orbital foramina'
+		[8] 'Frontal sinus'
+		[9] 'Angle face to braincase'
+		[10] 'Temporal lines'
+		[11] 'Braincase'
+		[12] 'Antero-inferior extension of the parietal'
+		[13] 'Post-cornual fossa'
+		[14] 'Auditory bulla'
+		[15] 'Horn core compression'
+		[16] 'Horn core backward curvature'
+		[17] 'Horn core position'
+		[18] 'Posterior angle between the maximum horn-core diameter and mid-frontal suture'
+		[19] 'Angle in lateral view between the basal horn-core and the dorsal cranium'
+		[20] 'Torsion of the horn-core'
+		[21] 'Horn core'
+		[22] 'Horn core cross section area'
+		[23] 'Basal divergence of the horn-cores in anterior view'
+		[24] 'Occipital width'
+		[25] 'Paroccipital process'
+		[26] 'Goat folds on lower molars'
+		[27] 'Each half of the occipital'
+		[28] 'Lacrimal'
+		[29] 'Ante-orbital fossa'
+		[30] 'Face'
+	;
+	STATELABELS
+		1
+			'premolars short (less than 0.56)'
+			'medium (between 0.56 and 0.64)'
+			'long (more than 0.64)'
+			,
+		2
+			'absent or weak'
+			'large'
+			'Y-shaped'
+			,
+		3
+			'absent (medial lobes rounded)'
+			'present (medial lobes antero-posteriorly compressed)'
+			,
+		4
+			'transversal crest'
+			'lingually expanded into a rounded pillar'
+			,
+		5
+			'open'
+			'blocked by bone internally'
+			,
+		6
+			'normal'
+			'salient, projecting laterally far from the horn-core pedicle'
+			,
+		7
+			'close (distance between them less than 1.4 times the maximum horn-core diameter)'
+			'far apart (more than 1.4 times)'
+			,
+		8
+			'absent or small'
+			'medium (the sinus extends into the horn-core pedicle)'
+			'large (the sinus extends into the horn-core proper)'
+			,
+		9
+			'low (angle between the dorsal fronto-nasal profile and the parieto-frontal one greater than 140°)'
+			'high (angle smaller than 140°)'
+			,
+		10
+			'weak'
+			'strong, forming ridges behind the horn-cores'
+			,
+		11
+			'short (length from fronto-parietal suture to occipital less than 0.7 time that of the upper tooth-row)'
+			'medium (between 0.7 and 0.8)'
+			'long (more than 0.8)'
+			,
+		12
+			'broad'
+			'narrow and pointed'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'not inflated'
+			'inflated'
+			,
+		15
+			'strong (ratio of minimum diameter to maximum diameter less than 0.7)'
+			'medium (between 0.7 and 0.9)'
+			'weak (more than 0.9)'
+			,
+		16
+			'low'
+			'moderate'
+			'strong'
+			,
+		17
+			'above orbit'
+			'behind orbit'
+			,
+		18
+			'low (less than 30°)'
+			'moderate (between 30° and 70°)'
+			'high (more than 70°)'
+			,
+		19
+			'low (less than 60°)'
+			'moderate (between 60° and 80°)'
+			'high (more than 80°)'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'short (maximum length less than 5 times maximum basal diameter)'
+			'medium (between 5 and 8 times)'
+			'long (more than 8 times)'
+			,
+		22
+			'small (maximum × minimum diameters less than 1200 mm2)'
+			'medium (between 1200 and 3000 mm2)'
+			'large (more than 3000 mm2)'
+			,
+		23
+			'low (20° or less)'
+			'high (about 30°)'
+			,
+		24
+			'narrow (width over mastoids smaller than width over horn-core pedicles)'
+			'broad (width over mastoids equal to, or greater than width over horn-core pedicles)'
+			,
+		25
+			'vertical'
+			'slanting backwards'
+			,
+		26
+			'absent or very weak'
+			'present'
+			,
+		27
+			'facing postero-laterally'
+			'facing posteriorly'
+			,
+		28
+			'short and deep'
+			'long and narrow'
+			,
+		29
+			'present'
+			'shallow or absent'
+			,
+		30
+			'short (anterior border of orbit more anterior than middle of M3)'
+			'long (more posterior)'
+			,
+	;
+	MATRIX
+	'Addax'                        000100110001111012012111011111
+	'Oryx gazella'                 000100110001112012002101011111
+	'Oryx tighenif'                ???1?01100??1?201200210??1????
+	'Oryx olduvai'                 ???1?01100111?201100210??1????
+	'Oryx omo'                     ???1?01100??1?101110210??1????
+	'Oryx sivalensis'              ?00?00110?11111?1110?10???1?1?
+	'Praedamalis howelli'          0001?01210??1?101110110??1????
+	'Praedamalis deturi'           0001?0?210??1?101120111??1????
+	'Sivatragus bohlini'           ???1?1010110101?0020?111??1???
+	'Hippotragus cookei'           ?001?10110??1?110020111???????
+	'Hippotragus gigas'            0001?101011000120020121?011???
+	'Hippotragus gigas'            0??1?101011?001200201211011???
+	'Hippotragus equinus'          211111011020111200201111011111
+	'Hippotragus niger'            111110011020111200202111011111
+	'Hippotragus leucophaeus'      2111?101102?1?1200201111011111
+	'Tchadotragus sudrei'          100101011110111201202101100000
+	'Saheloryx solidus'            1001?00011?0011101201101101???
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-30;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -847565030; FileSettings editor '1' '1' '31' '1'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '230' '1' all; EditorPosition '53' '197' '410' '1119'; TreeWindowPosition '44' '226' '946' '1201'; ListWindow Characters open Gadget '12' '50' '25' '219' '374' 000; ListWindow Taxa closed Gadget '12' '50' '25' '273' '319' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '134' '193'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '567' '38' '203' '220'; WindowOrder Data List Characters States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '1016' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' ( normal ) Gadget '10' ( normal ) Gadget '9' ( normal ) Gadget '9' ( normal ) Gadget '9' ( bold ) Gadget '9' ( normal ) Gadget '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722912680022; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 948750850833452896; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3020547323572522831; mqVersion 381; checksumv 0 3 1779600058 null getNumChars 30 numChars 30 getNumTaxa 17 numTaxa 17 short true bits 7 states 7 sumSquaresStatesOnly 1614.0 sumSquares 1614.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #948750850833452896 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #948750850833452896; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #948750850833452896 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 0176252ff2a042; toggleUseWeights off; endTell; setAssignedID 7992.1606942041202.183602673273022488; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientRight; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(((((((((((1,2),3),4),5),6),7),8),10),(15,(13,14))),(9,(11,12))),(16,17));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3020547323572522831 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 182; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont Gadget; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 30; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Hippotragini_Geraads_et_al_2008.nex"'; ID 0176252ff2a042; LINK Taxa = Taxa; TRANSLATE [0] 1 Addax, [1] 2 Oryx_gazella, [2] 3 'Oryx <sp. Tighenif>', [3] 4 'Oryx <sp. Olduvai>', [4] 5 'Oryx <sp. Omo>', [5] 6 Oryx_sivalensis, [6] 7 Praedamalis_howelli, [7] 8 Praedamalis_deturi, [8] 9 Sivatragus_bohlini, [9] 10 Hippotragus_cookei, [10] 11 'Hippotragus gigas <Elandsfontein>', [11] 12 'Hippotragus gigas <other sites>', [12] 13 Hippotragus_equinus, [13] 14 Hippotragus_niger, [14] 15 Hippotragus_leucophaeus, [15] 16 Tchadotragus_sudrei, [16] 17 Saheloryx_solidus; TREE 'UNTITLED+' = (((((((((((1,2),3),4),5),6),7),8),10),(15,(13,14))),(9,(11,12))),(16,17)); 
+ENDBLOCK;

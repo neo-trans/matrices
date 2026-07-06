@@ -1,0 +1,422 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.07.32 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=29;
+	TAXLABELS
+		'M. sinensis'
+		'D. anatolicus'
+		'D. lindsayi'
+		'D. tongi'
+		'C. sansaniensis'
+		'B. pikermiensis'
+		'G. flynni'
+		'T. irtyschensis'
+		'P. leei'
+		'K. vosendrof'
+		'K. shalaensis'
+		'K. ambarrensis'
+		'K. moldavica'
+		'K. fahlbuschi'
+		'K. skofleki'
+		'K. occidentalis'
+		'K. weni'
+		'K. hanae'
+		'K. nestori'
+		'K. browni'
+		'K. similis'
+		'K. neimengensis'
+		'K. polonica'
+		'K. magna'
+		'K. zhengi'
+		'K. yinanensis'
+		'K. intermedia'
+		'K. lii'
+		'K. sp.'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Crown height of molars'
+		[2] 'Crest between main cusps'
+		[3] 'M1 occlusal outline'
+		[4] 'M1 anterocone'
+		[5] 'If two cusps'
+		[6] 'If two cusps - 2'
+		[7] 'M1 Protosinus angle'
+		[8] 'M1 Anterostyle'
+		[9] 'M1 Anterocone'
+		[10] 'M1 protostyle'
+		[11] 'M1 anterolophule'
+		[12] 'M1 buccal spur of anterolophule'
+		[13] 'M1 sinus direction'
+		[14] 'M1 sinus'
+		[15] 'M1 anterocone-protocone connection'
+		[16] 'M1 protocone-endoloph connection'
+		[17] 'M1 mesoloph'
+		[18] 'M1 mesocone'
+		[19] 'M1 mesial protoloph'
+		[20] 'M1 distal protoloph'
+		[21] 'M1 anterior ectoloph'
+		[22] 'M1 ectoloph between paracone and metacone'
+		[23] 'M1 paracone-hypocone connection'
+		[24] 'M1 mesial metalophule'
+		[25] 'M1 distal metalophule'
+		[26] 'M1 posterosinus'
+		[27] 'M1 number of roots'
+		[28] 'M2 occlusal outline'
+		[29] 'M2 lingual anteroloph'
+		[30] 'M2 ectoloph'
+		[31] 'M2 mesial protolophule'
+		[32] 'M2 distal protolophule'
+		[33] 'M2 sinus'
+		[34] 'M2 mesocone'
+		[35] 'M2 mesoloph'
+		[36] 'M2 mesial metalophule'
+		[37] 'M2 distal metalophule'
+		[38] 'M2 posterosinus'
+		[39] 'M3 lingual anteroloph'
+		[40] 'M3 mesoloph'
+		[41] 'ml anteroconid'
+		[42] 'If double'
+		[43] 'm1 anteroconid size'
+		[44] 'ml anteroconid position'
+		[45] 'ml anterolophid'
+		[46] 'If present'
+		[47] 'm1 anterolophid direction'
+		[48] 'ml mesial metalophulid'
+		[49] 'ml distal metalophulid'
+		[50] 'm1 mesoconid'
+		[51] 'ml mesolophid'
+		[52] 'ml ectomesolophid'
+		[53] 'ml sinusid'
+		[54] 'ml hypolophulid'
+		[55] 'ml posterolophid'
+		[56] 'm2 lingual anterolophid'
+		[57] 'm2 protosinusid'
+		[58] 'm2 protosinusid - 2'
+		[59] 'm2 mesoconid'
+		[60] 'm2 mesolophid'
+		[61] 'm2 ectomesolophid'
+		[62] 'm3 length'
+		[63] 'm3 mesolophid'
+		[64] 'm3 posterosinusid'
+		[65] 'm3 ectomesolophid'
+	;
+	STATELABELS
+		1
+			'Brachydont'
+			'semi-hypsodont'
+			,
+		2
+			'Thin'
+			'Thick'
+			,
+		3
+			'rather robust'
+			'elongated'
+			,
+		4
+			'Simple'
+			'two cusps'
+			,
+		5
+			'Anteriorly divided'
+			'Posteriorly divided'
+			'Completely'
+			,
+		6
+			'equal'
+			'Lingual smaller than buccal'
+			,
+		7
+			'smooth'
+			'sharp angle'
+			,
+		8
+			'present'
+			'absent'
+			,
+		9
+			'Narrow'
+			'wide'
+			,
+		10
+			'present'
+			'absent'
+			,
+		11
+			'single'
+			'forked'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'transverse'
+			'anteriorly curved'
+			'posteriorly directed'
+			,
+		14
+			'wide'
+			'narrow'
+			,
+		15
+			'rader central'
+			'rather lingual'
+			,
+		16
+			'weak or asent'
+			'strong'
+			,
+		17
+			'almost halfway to the buccal border'
+			'less than half to buccal border'
+			'reaches the buccal border'
+			'absent'
+			,
+		18
+			'present'
+			'absent'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent'
+			'present as spur'
+			'present as ridge'
+			,
+		22
+			'absent'
+			'present as spur'
+			'present as ridge'
+			,
+		23
+			'not stright'
+			'stright'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'3'
+			'4'
+			,
+		28
+			'squared'
+			'elengated and posterior part reduced'
+			,
+		29
+			'strong'
+			'reduced or absent'
+			,
+		30
+			'absent'
+			'present as spur'
+			'present as ridge'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'rather transverse'
+			'curved anteriorly'
+			'directed posteriorly'
+			,
+		34
+			'present'
+			'absent'
+			,
+		35
+			'reaches the buccal border'
+			'almost halfway to the buccal border'
+			'less than half to buccal border'
+			'absent'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'deep and open'
+			'reduced or absent'
+			'enamel island'
+			,
+		39
+			'reduced or absent'
+			'distinct'
+			,
+		40
+			'present'
+			'reduced or absent'
+			,
+		41
+			'simple'
+			'dobule'
+			,
+		42
+			'posteriorly divided'
+			'anterorly divided'
+			,
+		43
+			'narrow'
+			'wide'
+			,
+		44
+			'central'
+			'buccal'
+			,
+		45
+			'present'
+			'absent'
+			,
+		46
+			'single'
+			'double or more'
+			,
+		47
+			'middle line'
+			'buccally'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'present'
+			'absent'
+			,
+		51
+			'reaches the buccal border'
+			'almost halfway to the buccal border'
+			'less than half to buccal border'
+			'absent'
+			,
+		52
+			'present'
+			'absent'
+			,
+		53
+			'transverrse'
+			'anteriorly curved'
+			'postriorly curved'
+			,
+		54
+			'thin crest'
+			'strong loph'
+			,
+		55
+			'simple loph'
+			'cusp shaped'
+			,
+		56
+			'present'
+			'low cingulum'
+			'absent'
+			,
+		57
+			'open'
+			'enamel island'
+			,
+		58
+			'deep'
+			'reduced'
+			,
+		59
+			'present'
+			'absent'
+			,
+		60
+			'reaches the buccal border'
+			'almost halfway to the buccal borderr'
+			'less than half to buccal border'
+			'absent'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'eleongated'
+			'equal to m2'
+			'shorter than m2'
+			,
+		63
+			'reaches the lingual border'
+			'almost halfway to the buccal borderr'
+			'less than half to buccal border'
+			,
+		64
+			'open'
+			'close'
+			,
+		65
+			'absent'
+			'presesnt'
+			,
+	;
+	MATRIX
+	'M. sinensis'          0100--00110000113010?20100?10201003101000-00001011310112001302000
+	'D. anatolicus'        010?--?????????????????????11200003100010-00000011310112001302000
+	'D. lindsayi'          0100--01010000103000?20100011200003100010-00000011310112001302000
+	'D. tongi'             0100--00010000103000?20100?11200003101010-0000001131111???????000
+	'C. sansaniensis'      0100--00010101103000020101111011203100010-00000011311102001302200
+	'B. pikermiensis'      1111??1001??21103001021100111001203011110-00000011312112011302200
+	'G. flynni'            (0 1)100--01010101103000111101011010103101110-00000011311112001302200
+	'T. irtyschensis'      1101??0101??10103001110101???????????????????????????????????????
+	'P. leei'              1100--01010101103001001111101011113101110-00000011310112011302210
+	'K. vosendrof'         010110000100001110000001010????????????????????????????1000001000
+	'K. shalaensis'        01011001010001010101000101000000010000101000001011012111001002010
+	'K. ambarrensis'       01011001000101011111000100?00100011000111000001011012111001000010
+	'K. moldavica'         01011100010001012101000100000000010000101001000011112111001102000
+	'K. fahlbuschi'        01011001010001011111000100000000010000111000001011012111001000010
+	'K. skofleki'          01011001111000011111000101?10000010000100-00010011010111001002000
+	'K. occidentalis'      01010101110001011101000011100000012000111000000011012111001302010
+	'K. weni'              01010001110000010111000101000000010100101010010011002111001010011
+	'K. hanae'             01010001110000010111000101000000010000101010000011012111001000010
+	'K. nestori'           01012000100000011111000100100200011011001010011011012112001000000
+	'K. browni'            01010001110001011111000101000100011100101010001011012112001001010
+	'K. similis'           01010000100001011111000100010100010100101000001011012111001002010
+	'K. neimengensis'      01010001111101010111000101110101012010100-00001011012110001002010
+	'K. polonica'          01010101110000110111000101110000011111111010000011010111001000000
+	'K. magna'             01002111010000010011000111100001012011001000011011010111001000000
+	'K. zhengi'            01010101110000010111000010110100011010111010001011012111001002010
+	'K. yinanensis'        01010101110100011111000101110000010000011010010011012111001001000
+	'K. intermedia'        01010010100001011111000101110200010011100-10011011012112001002000
+	'K. lii'               010101011110000101110001001000001000?1100-1001001101011100100????
+	'K. sp.'               01010000110000010111000111110000011111??0-10001011012112001000110
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-3 7-8 10 13-16 21-26 28-30 33 35-38 44 48-49 51-58 60-61 63-65, ord: 4-6 9 11-12 17-20 27 31-32 34 39-43 45-47 50 59 62;
+ENDBLOCK;

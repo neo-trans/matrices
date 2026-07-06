@@ -1,0 +1,640 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.18.38 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=37;
+	TAXLABELS
+		'Outgroup'
+		'Gypsonictops'
+		'Macrocranion'
+		'Litocherus'
+		'Adunator'
+		'Adapisorex'
+		'Prodiacodon'
+		'Walbeckodon krumbiegeli'
+		'Walbeckodon girardi'
+		'Berrulestes phelizoni'
+		'Berrulestes pellouini'
+		'Berrulestes poirieri'
+		'Paschatherium dolloi'
+		'Paschatherium yvettae'
+		'Paschatherium marianae'
+		'Paschatherium plaziati'
+		'Paschatherium russelli'
+		'Paschatherium levei'
+		'Dipavali'
+		'Gigarton meyeri'
+		'Gigarton sigogneauae'
+		'Gigarton louisi'
+		'Thryptodon brailloni'
+		'Prolouisina atavella'
+		'Louisina mirabilis'
+		'Louisina marci'
+		'Teilhardimys brisswalteri'
+		'Teilhardimys reisi'
+		'Teilhardimys musculus'
+		'Chambius'
+		'Haplaletes'
+		'Litomylus'
+		'Apheliscus'
+		'Phenacodaptes'
+		'Haplomylus'
+		'Gingerichia'
+		'Monshyus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=89;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		[1] 'Cusp shape'
+		[2] 'P3 metacone'
+		[3] 'P3 protocone lobe'
+		[4] 'P3 parastyle'
+		[5] 'P4 metacone'
+		[6] 'P4 preparacrista'
+		[7] 'P4 parastyle'
+		[8] 'P4 mesial slope'
+		[9] 'P4 preprotocrista–paracingulum complex'
+		[10] 'P4: postprotocrista'
+		[11] 'P4: postcingulum and hypocone'
+		[12] 'P4 postflexus'
+		[13] 'P4 buccal cusps'
+		[14] 'Lower canine'
+		[15] 'P1'
+		[16] 'Lower premolars mesial of P4'
+		[17] 'P3: main cusp'
+		[18] 'P3 distal cusp'
+		[19] 'P3 cusp morphology'
+		[20] 'P4 paraconid'
+		[21] 'P4 paracristid'
+		[22] 'P4 metaconid'
+		[23] 'P4 talonid'
+		[24] 'P4 talonid length'
+		[25] 'P4 cusp'
+		[26] 'Molar basin'
+		[27] 'Molar exodaenodonty'
+		[28] 'M1 transverse axis'
+		[29] 'M1 metacone'
+		[30] 'M1 preparacrista'
+		[31] 'M1 parastyle'
+		[32] 'Upper molar parastyle'
+		[33] 'M1–2 centrocrista'
+		[34] 'M1 postmetacrista'
+		[35] 'M1 paraconule situated on mesiodistal axis'
+		[36] 'M1 mesial crest complex'
+		[37] 'M1 distal crest complex'
+		[38] 'M1: hypocone and postcingulum'
+		[39] 'M1 with'
+		[40] 'M1 metaconule with'
+		[41] 'M1 protostyle'
+		[42] 'M1 longitudinal valley floor'
+		[43] 'M1 distobuccal corner'
+		[44] 'M1-2 postflexus'
+		[45] 'M1-2 distal cingulum (postcingulum + metacingulum)'
+		[46] 'M2 metacone'
+		[47] 'M3 metacone positioned'
+		[48] 'M1 paraconid'
+		[49] 'M1 paraconid position'
+		[50] 'M1 lingual paraconid crest'
+		[51] 'M1 paracristid notch'
+		[52] 'M1 trigonid'
+		[53] 'M1 metaconid'
+		[54] 'M1 metaconid mesial wall'
+		[55] 'M1 with protocristid'
+		[56] 'M1 hypoconid'
+		[57] 'M1 entoconid'
+		[58] 'M1 hypoconulid'
+		[59] 'M1 hypoconulid position'
+		[60] 'M1 postentocristid'
+		[61] 'M1 pre-entocristid'
+		[62] 'M1–2 entoconulid'
+		[63] 'M1–2 cristid obliqua extent'
+		[64] 'M1–2 cristid obliqua mesial end'
+		[65] 'M1–2 precingulid position'
+		[66] 'M1–2 precingulid strength'
+		[67] 'M1–2 ectostylid'
+		[68] 'M1 buccal crown base'
+		[69] 'M1–2 postcingulid'
+		[70] 'M1–3 crown'
+		[71] 'M1 size relative to M2'
+		[72] 'M2 talonid size relative to trigonid'
+		[73] 'M3 size relative to M2'
+		[74] 'M3 talonid cusps'
+		[75] 'Posterior mental foramen of dentary mean position'
+		[76] 'Dentary angle tip position'
+		[77] 'Dentary angle height'
+		[78] 'Dentary condyle position'
+		[79] 'Dentary horizontal ramus'
+		[80] 'Calcaneal tuber'
+		[81] 'Long axis of ectal facet of calcaneum'
+		[82] 'Proximodistal dimension of peroneal process of calcaneum'
+		[83] 'Trochlear groove of astragalus'
+		[84] 'Radius of curvature of lateral trochlear ridge of astragalus'
+		[85] 'Astragalar trochlea extends onto proximal surface'
+		[86] 'Cotylar fossa of astragalus'
+		[87] 'Sustentacular and navicular facets of astragalus'
+		[88] 'Navicular facet of astragalus'
+		[89] 'Navicular and cuboid facets of astragalus'
+	;
+	STATELABELS
+		1
+			'conical'
+			'semibulbous'
+			'bulbous'
+			,
+		2
+			'absent'
+			'small, close to paracone'
+			'large, distant from paracone'
+			,
+		3
+			'essentially absent'
+			'small, short with small protocone'
+			'relatively long with small protocone'
+			'relatively long with large protocone'
+			,
+		4
+			'mesially projecting'
+			'poorly developed'
+			,
+		5
+			'small to missing'
+			'prominent but smaller than paracone'
+			'as large as paracone'
+			,
+		6
+			'strong'
+			'weak'
+			'absent'
+			,
+		7
+			'large, mesially projecting'
+			'medium'
+			'small'
+			,
+		8
+			'short, steep'
+			'long, gentle'
+			,
+		9
+			'without paraconule'
+			'paraconule present on preprotocrista–paracingulum complex'
+			'paraconule present with pre- and postparaconule cristae'
+			'paraconule large, isolated from preprotocrista–paracingulum complex'
+			'preprotocrista with paraconule lacking cristae'
+			'preprotocrista without paraconule or cristae'
+			,
+		10
+			'distobuccally orientated but without metacingulum or metaconule'
+			'postprotocrista–metacingulum without metaconule'
+			'postprotocrista–metacingulum with metaconule'
+			'distobuccally orientated, with metaconule, but no postmetaconule crista'
+			'short, distally orientated, not joining distal margin'
+			'short distally orientated, without metaconule, joining distal margin'
+			'distobuccally orientated, with no metaconule or postmetaconule crista, weak, shifted distally'
+			'as (6) but with neoformed postprotocrista and metaconule'
+			'as (7), but original postprotocrista orientated distolingually, joining distal margin'
+			,
+		11
+			'no postcingulum or hypocone'
+			'postcingulum present, no hypocone'
+			'small hypocone on postcingulum'
+			'crest joining hypocone to trigon'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'normally cuspate'
+			'forming ectoloph'
+			,
+		14
+			'caniniform'
+			'incisiform'
+			,
+		15
+			'two-rooted'
+			'single-rooted to absent'
+			,
+		16
+			'erect'
+			'procumbent'
+			,
+		17
+			'with single main cusp (protoconid)'
+			'crestiform or cuspate metaconid present'
+			,
+		18
+			'with small distal cusp'
+			'with large distal cusp'
+			'with unbasined talonid with two cusps'
+			'basined talonid with hypoconid, hypoconulid, and entoconid'
+			,
+		19
+			'normal cuspate'
+			'a blade'
+			,
+		20
+			'large'
+			'medium'
+			'small, low, transversely crested, joined to paracristid'
+			'small, low, transversely crested, separated from paracristid by notch'
+			'very weak, low'
+			'very weak, high'
+			,
+		21
+			'absent'
+			'present with deep notch and groove separating paraconid from protoconid'
+			'paraconid confluent via a complete unnotched paracristid'
+			,
+		22
+			'absent'
+			'protoconid with oblique protocristid but no metaconid'
+			'present, small'
+			'subequal with protoconid, but restricted mesially'
+			'subequal with protoconid, extending mesially'
+			,
+		23
+			'unbasined but with distinct hypoconid'
+			'scarcely basined, small hypoconid'
+			'basined with distinct hypoconid'
+			'basined with two cusps (hypoconid and hypoconulid/entoconid)'
+			'basined with hypoconid, hypoconulid, and entoconid'
+			,
+		24
+			'short'
+			'long'
+			,
+		25
+			'normal cuspate'
+			'a blade'
+			,
+		26
+			'deep'
+			'shallow'
+			,
+		27
+			'absent'
+			'present on lowers only'
+			'present on uppers and lowers'
+			,
+		28
+			'buccolingual'
+			'slightly distobuccal–mesiolingual'
+			,
+		29
+			'smaller than paracone'
+			'equal to paracone'
+			'larger than paracone'
+			,
+		30
+			'distinct, nearly transverse joining stylocone'
+			'distinct, directed mesiobuccally, joining parastyle'
+			'distinct, directed mesially'
+			'indistinct, directed mesially'
+			'indistinct, directed mesiobuccally'
+			,
+		31
+			'small'
+			'large mesially rounded PRIMITIVE'
+			'large mesially pointed'
+			,
+		32
+			'low'
+			'high on M1'
+			'high on M1–3'
+			,
+		33
+			'straight'
+			'lingually deflected'
+			,
+		34
+			'distinct, long, curved, directed first distobuccally, then buccally'
+			'distinct, short, distobuccal'
+			'distinct, short, distal'
+			'indistinct, short, distal'
+			,
+		35
+			'lingual of metaconule'
+			'at same level as metaconule'
+			,
+		36
+			'complete preparaconule crista–paracingulum with paraconule and postparaconule crista, but no precingulum'
+			'complete preparaconule crista–paracingulum with paraconule and postparaconule crista and precingulum'
+			'complete preparaconule crista–paracingulum with paraconule and precingulum, but no postparaconule crista'
+			'precingulum confluent with paracingulum, paraconule with preparaconule crista not joining paracingulum, no postparaconule crista'
+			'precingulum confluent with paracingulum, paraconule with preparaconule crista not joining paracingulum, postparaconule crista present'
+			'precingulum confluent with paracingulum, paraconule with postparaconule crista but no preparaconule crista'
+			'precingulum confluent with paracingulum, paraconule with neither postparaconule crista nor preparaconule crista'
+			'precingulum confluent with paracingulum, preparaconule crista present, but postparaconule crista and paraconule absent'
+			,
+		37
+			'postmetaconule crista confluent with metacingulum independent of postcingulum if present'
+			'postcingulum joins confluent postmetaconule crista and metacingulum'
+			'postcingulum confluent with metacingulum independent of postmetaconule crista if present'
+			,
+		38
+			'hypocone and postcingulum absent'
+			'postcingulum present, hypocone absent'
+			'postcingulum with hypocone less than half height of protocone'
+			'postcingulum with hypocone about half height of protocone'
+			'postcingulum with hypocone more than half height of protocone'
+			'postcingulum with hypocone subequal to protocone'
+			'hypocone projecting from lingual margin'
+			,
+		39
+			'trigon'
+			'short crest joining postprotocrista to hypocone'
+			'metaloph, postprotocrista broken'
+			,
+		40
+			'pre- and postmetaconule cristae'
+			'only postmetaconule crista'
+			'neither pre- nor postmetaconule cristae'
+			'only premetaconule crista'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'rounded'
+			'angular'
+			,
+		43
+			'angular'
+			'rounded'
+			,
+		44
+			'distinct'
+			'indistinct'
+			,
+		45
+			'straight'
+			'dipping basally in middle'
+			,
+		46
+			'erect'
+			'tilted lingually'
+			,
+		47
+			'buccal of midline'
+			'about at midline'
+			,
+		48
+			'large, cuspate'
+			'small, low, cuspate'
+			'small, low, crestiform'
+			'small, high, crestiform'
+			'represented by faint, low, mesial cingulid'
+			'small, high, cuspate'
+			'indistinct, high'
+			,
+		49
+			'lingual'
+			'sublingual'
+			'median'
+			,
+		50
+			'absent'
+			,
+		51
+			'present'
+			'absent'
+			,
+		52
+			'short'
+			'long'
+			,
+		53
+			'subequal to protoconid'
+			'smaller than protoconid'
+			,
+		54
+			'straight'
+			'convex'
+			,
+		55
+			'slightly distally bowed joining backs of protoconid and metaconid'
+			'transverse protolophid, leaving protoconid and metaconid bulging distally'
+			,
+		56
+			'about half height of protoconid'
+			'more than half height of protoconid'
+			'subequal to protoconid'
+			,
+		57
+			'less than half height of metaconid'
+			'about half height of metaconid'
+			'more than half height of metaconid'
+			'subequal to metaconid'
+			,
+		58
+			'large'
+			'small'
+			,
+		59
+			'buccal of midline'
+			'at midline'
+			'lingual of midline'
+			,
+		60
+			'straight'
+			'distally concave'
+			'absent'
+			,
+		61
+			'evenly sloping'
+			'with concave edge'
+			,
+		62
+			'absent'
+			'absent on M2, weak on M1'
+			'strong on M1, weak to absent on M2'
+			'strong on M1–2'
+			,
+		63
+			'rising well up back of trigonid'
+			'rising short distance up back of trigonid, shallow main slope'
+			'stops short of back of trigonid'
+			'rising short distance up back of trigonid, steep main slope'
+			,
+		64
+			'at midline'
+			'buccal of midline'
+			,
+		65
+			'low'
+			'high, independent of paracristid'
+			'high, joins paracristid to form mesiobuccal stylid in some'
+			'high, joins paracristid to form mesiobuccal stylid in all'
+			,
+		66
+			'strong, extensive, shelf-like, bulging mesially'
+			'strong, extensive ridge'
+			'strong, short ridge'
+			'weak, short'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'dipping distally'
+			'horizontal'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'tilted to lingual side'
+			'symmetrical'
+			,
+		71
+			'M1 smaller than M2'
+			'M1 larger than M2'
+			,
+		72
+			'Equal to trigonid'
+			'Slightly smaller'
+			'Much smaller'
+			,
+		73
+			'Larger than M2'
+			'Approximately equal'
+			'Slightly smaller'
+			'Much smaller'
+			,
+		74
+			'Hypoconid, hypoconulid and entoconid equally spaced, joined by weak crests'
+			'Hypoconid, hypoconulid, and entoconid equally spaced, almost subsumed by strong crests'
+			'Hypoconulid closer to entoconid than to hypoconid, almost subsumed by strong crests'
+			'Hypoconulid and entoconid fused to form one cusp, almost subsumed by strong crests'
+			'Hypoconulid closer to entoconid than to hypoconid, joined by weak crests'
+			,
+		75
+			'Below mesial part of P4'
+			'Below distal part of P4'
+			'Below mesial part of M1'
+			,
+		76
+			'Anterior of condyle'
+			'At level of condyle'
+			'Posterior of condyle'
+			,
+		77
+			'Below level of tooth row'
+			'At level of tooth row'
+			,
+		78
+			'At or slightly above level of tooth row'
+			'Far above level of tooth row'
+			,
+		79
+			'Not deepening posteriorly'
+			'Deepening posteriorly'
+			,
+		80
+			'Short relative to body'
+			'Relatively elongate'
+			,
+		81
+			'subparallel to long axis'
+			'c. 45° to long axis'
+			'state not mentioned in publication'
+			,
+		82
+			'long'
+			'short'
+			,
+		83
+			'shallow'
+			'deep'
+			,
+		84
+			'less than that of medial ridge'
+			'subequal'
+			'greater'
+			,
+		85
+			'only medially'
+			'across width of trochlea'
+			,
+		86
+			'weak to absent'
+			'present, primarily dorsally orientated'
+			'prominent, medially orientated'
+			,
+		87
+			'fused'
+			'separate'
+			,
+		88
+			'restricted to head'
+			'ascends medial side of neck'
+			,
+		89
+			'not clearly demarcated'
+			'clearly demarcated'
+			,
+	;
+	MATRIX
+	'Outgroup'                       00000000000000000001101000000010000000000000000010000000001000000000000000000000000000000
+	'Gypsonictops'                   0120100021100000130114410000011000110100000000002000000000100020000000001001000??????????
+	'Macrocranion'                   00200210041001110101223000111110001104100000000200000001311100110201000020121101100211010
+	'Litocherus'                     0020021005110?1000011130001111100011030010000000000100012020100001011010200?0?00??12?0110
+	'Adunator'                       021110100110011101012241000111100001020000000002100001011110100001000000201?0?0??????????
+	'Adapisorex'                     1221112004200010020112310000021000111400000000000011100120110021010000102201000??????????
+	'Prodiacodon'                    02202200021000100100134100010110001101000000000120000000001013210000010000021001111200110
+	'Walbeckodon krumbiegeli'        0220111023200010010013410000011001010600000001001010000120100021000000102021110??????????
+	'Walbeckodon girardi'            021012101220001????1134100000410010216000000010010100001201010210001001020211?0??????????
+	'Berrulestes phelizoni'          1???12101110001001031441000014200202040100100001201001011111103100010001202?0?1??????????
+	'Berrulestes pellouini'          0???1??????????????3144100001420020213000000000120100101101110310001001120???????????????
+	'Berrulestes poirieri'           11111??????????????313410000142002020302001000?120100100111110310101000122???????????????
+	'Paschatherium dolloi'           11111110131000000102144100001210010224020000000210100001211010110001000020210?01111111110
+	'Paschatherium yvettae'          1111111013100??01202144100001210010224020000000210100001211010110001000020???????????????
+	'Paschatherium marianae'         0220111012100??001021441000002100102240210000002001000012110001101010000202??????????????
+	'Paschatherium plaziati'         0221111011100??01202144100001210020214010000000200100001211001110101000020???????????????
+	'Paschatherium russelli'         1??????????????0010214?10000121001022402000000?2101000012110011101010000222???0??????????
+	'Paschatherium levei'            0???111012100??????21441000012100202240200000002001000012120011102010000202??????????????
+	'Dipavali'                       2101122004110?0002040230000013201203252301111002201000013101023101010001321?0?0??????????
+	'Gigarton meyeri'                2130221004200??0030402410100232013072402011010?42010100121100031010100???????????????????
+	'Gigarton sigogneauae'           2??????????????????4024100002320130724030110100420101001??????31010100???0???????????????
+	'Gigarton louisi'                1????????????????????????000222012072303011010???????????????????????????????????????????
+	'Thryptodon brailloni'           2??????????????0010??????020031002042402111100?120100000111001?112110001?????????????????
+	'Prolouisina atavella'           2???122003200?0011041230002003000215240310110005101001012100000112010002312?0?1??????????
+	'Louisina mirabilis'             2030022006300????1?41000112003010215251210110016201011013101031123010002312???1??????????
+	'Louisina marci'                 2???122006300??01105122000200301021525121011001620101101310002012301000231???????????????
+	'Teilhardimys brisswalteri'      2???102017310??011051220002003020215251210110015201001013100020123010002212???0??????????
+	'Teilhardimys reisi'             2031102038311?0001151111100012120216252200110015201000123102101031110001232?0?11111111110
+	'Teilhardimys musculus'          2131102038111??00115100110001302021625221011001520100012310201113211000123???????????????
+	'Chambius'                       1???100043110?1????111410011021002132513001100102?1010013112020002011001231????1211102101
+	'Haplaletes'                     1020000054100??010011230001112100114240300100002000000012121010101011000240?1?0??????????
+	'Litomylus'                      1???020105110???00021100000112000111130000000001100000012020100001011100201??????????????
+	'Apheliscus'                     0001020105110?????04112100011200021321020011001300100002312000010011110010000101111111110
+	'Phenacodaptes'                  2???02010511001001040100000112100213230200110013001000013020000101011101200??????????????
+	'Haplomylus'                     1???010054110??111001240000012111214240310110000001000022021010101011100241???11211112101
+	'Gingerichia'                    2???022005110??0010401300001011000010310000000?1100101001120100102010000240?0?0??????????
+	'Monshyus'                       1????????????????????????00003000213252210110??010110101211000?002010000?????????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-89;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -848758395; FileSettings treewindow '1' '1' '90' '1'; Singles 010; Editor 00011011111111100100010010 '0' '72' Gadget '12' '202' '1' all; EditorPosition '46' '6' '733' '1043'; TreeWindowPosition '47' '153' '740' '1212'; ListWindow Characters open Gadget '12' '50' '10' '270' '517' 000; ListWindow Taxa closed Gadget '12' '50' '10' '236' '364' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols open Gadget '12' '20' '205' '1077' '373' '250'; WindowOrder Tree States List Characters; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '625' '1264' '143' '85'; TreeLegendPosition '680' '1166' '88' '93'; EditorToolsPosition '508' '918' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' ( normal ) Gadget '10' ( normal ) Gadget '9' ( normal ) Gadget '9' ( normal ) Gadget '9' ( bold ) Gadget '9' ( normal ) Gadget '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1727671628088; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7599807922618845578; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7822105390406242975; mqVersion 381; checksumv 0 3 1306582661 null getNumChars 89 numChars 89 getNumTaxa 37 numTaxa 37 short true bits 511 states 511 sumSquaresStatesOnly 290120.0 sumSquares 290120.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7822105390406242975 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 89; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_louisinidae_hooker_russell_2012_pdf_mb.nex"'; ID 0192413f224b9; LINK Taxa = Taxa; TRANSLATE [0] 1 Outgroup, [1] 2 Gypsonictops, [2] 3 Macrocranion, [3] 4 Litocherus, [4] 5 Adunator, [5] 6 Adapisorex, [6] 7 Prodiacodon, [7] 8 Walbeckodon_krumbiegeli, [8] 9 Walbeckodon_girardi, [9] 10 Berrulestes_phelizoni, [10] 11 Berrulestes_pellouini, [11] 12 Berrulestes_poirieri, [12] 13 Paschatherium_dolloi, [13] 14 Paschatherium_yvettae, [14] 15 Paschatherium_marianae, [15] 16 Paschatherium_plaziati, [16] 17 Paschatherium_russelli, [17] 18 Paschatherium_levei, [18] 19 Dipavali, [19] 20 Gigarton_meyeri, [20] 21 Gigarton_sigogneauae, [21] 22 Gigarton_louisi, [22] 23 Thryptodon_brailloni, [23] 24 Prolouisina_atavella, [24] 25 Louisina_mirabilis, [25] 26 Louisina_marci, [26] 27 Teilhardimys_brisswalteri, [27] 28 Teilhardimys_reisi, [28] 29 Teilhardimys_musculus, [29] 30 Chambius, [30] 31 Haplaletes, [31] 32 Litomylus, [32] 33 Apheliscus, [33] 34 Phenacodaptes, [34] 35 Haplomylus, [35] 36 Gingerichia, [36] 37 Monshyus; TREE UNTITLED = (1,((2,7),(6,(5,((((33,3),(36,(32,4))),(34,(35,(31,30)))),((8,9),(15,((18,16),(17,((14,13),((10,(12,11)),((19,(22,(21,20))),(37,(23,(24,((26,25),(27,(29,28)))))))))))))))))); 
+ENDBLOCK;

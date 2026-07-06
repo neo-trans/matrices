@@ -1,0 +1,132 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.53.57 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=10;
+	TAXLABELS
+		'Stromatocystites pentagularis'
+		'Lepidocystis wanneri'
+		'Kinzercystis durhami'
+		'Vyscystis ubaghsi'
+		'Felbabkacystis luckae'
+		'Akadocrinus jani'
+		'Gogia prolifica'
+		'Lichenoides priscus'
+		'Ascocystites drabowiensis'
+		'Macrocystella bohemica'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=15;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Ambulacral ray branching'
+		[2] 'Ambulacral extension'
+		[3] 'Ambulacra'
+		[4] 'Brachiolar cover plates'
+		[5] 'PER Extension'
+		[6] 'PER plating'
+		[7] 'Oral surface plating'
+		[8] 'Peristomial border system'
+		[9] 'Peristome cover'
+		[10] 'Periproct cover plates'
+		[11] 'Plate size distribution'
+		[12] 'Epispire shape'
+		[13] 'IER Extension'
+		[14] 'IER Plating'
+		[15] 'IER Organization'
+	;
+	STATELABELS
+		1
+			'absent'
+			'on both lateral sides of the ray'
+			'unilateral to the ray'
+			'grouped at the end of the ray'
+			,
+		2
+			'extended to the edge of the oral surface'
+			'developed over the summit, before the edge of the oral surface'
+			'extended over the edge of the oral surface'
+			,
+		3
+			'straight'
+			'straight with a curved tip'
+			'curved since the adoral extremity'
+			,
+		4
+			'triangular and tessellate'
+			'rectangular and overlapping'
+			,
+		5
+			'restricted to a plateau-like oral surface, above the body capsule edge'
+			'Extended over the body capsule edge and forming part of the lateral vertical body capsule'
+			'Forming the entire body capsule enclosing viscera'
+			,
+		6
+			'irregular'
+			'in circlets or in columns'
+			,
+		7
+			'composed of the peristome, the ambulacral system and additional plates'
+			'composed only by the peristome and the ambulacral system'
+			,
+		8
+			'PBS A1'
+			'PBS B2'
+			'PBS A2 (sensu Kammer et al., 2013)'
+			,
+		9
+			'differentiated plates'
+			'non-differentiated plates'
+			,
+		10
+			'needle-like'
+			'wedge-shaped'
+			'polygonal'
+			,
+		11
+			'randomly distributed'
+			'plates larger in the medium part of the lateral wall'
+			'plates larger in the lower part of the lateral wall'
+			,
+		12
+			'circular (L/W<2)'
+			'elliptical (L/W>2)'
+			,
+		13
+			'extensive and forming lateral walls of the test'
+			'elongate and contributing to lower part of body capsule'
+			'elongate and not contributing to body capsule'
+			'atrophied and reduced to few plates'
+			,
+		14
+			'tessellate'
+			'imbricate'
+			,
+		15
+			'homeomorphic elements'
+			'polymorphic elements'
+			'holomeric elements'
+			,
+	;
+	MATRIX
+	'Stromatocystites pentagularis'      000-00000000000
+	'Lepidocystis wanneri'               100100011100010
+	'Kinzercystis durhami'               100100011100010
+	'Vyscystis ubaghsi'                  211100020000010
+	'Felbabkacystis luckae'              3000111???01110
+	'Akadocrinus jani'                   300020???220202
+	'Gogia prolifica'                    300020?11211201
+	'Lichenoides priscus'                1200211???21301
+	'Ascocystites drabowiensis'          10202112000-202
+	'Macrocystella bohemica'             12002112021-202
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-15;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1606630342578; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 840348212048124079; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4831977193509372334; mqVersion 361; checksumv 0 3 2630074171 null getNumChars 15 numChars 15 getNumTaxa 10 numTaxa 10 short true bits 15 states 15 sumSquaresStatesOnly 866.0 sumSquares 866.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 890 448; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4831977193509372334 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 212; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 790 376; setLocation 8 23; setFont Gadget; setFontSize 14; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 15; 
+ENDBLOCK;

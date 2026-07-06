@@ -1,0 +1,558 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.19.07 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=28;
+	TAXLABELS
+		'Hesperosuchus'
+		'Terristrisuchus'
+		'Protosuchus'
+		'Atoposauridae'
+		'Goniopholis'
+		'Crocodylus niloticus'
+		'Alligator mississippiensis'
+		'Steneosaurus leedsi'
+		'Pelagosaurus typus'
+		'Teleidosaurus calvadosii'
+		'Metriorhynchus laeve'
+		'Metriorhynchus leedsi'
+		'Metriorhynchus acutus'
+		'Metriorhynchus superciliosus'
+		'Metriorhynchus moreli'
+		'Metriorhynchus palpebrosus'
+		'Metriorhynchus hastifer'
+		'Metriorhynchus durobrivensis'
+		'Metriorhynchus cultridens'
+		'Metriorhynchus brachyrhynchus'
+		'Metriorhynchus casamiquelai'
+		'Dakosaurus carpenteri'
+		'Geosaurus suevicus'
+		'Geosaurus gracilis'
+		'Geosaurus araucanensis'
+		'Dakosaurus maximus'
+		'Dakosaurus andiniensis'
+		'Enaliosuchus macrospondylus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=82;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Frontal'
+		[2] 'Frontal-parietal between supratemporal fossa in dorsal view'
+		[3] 'Frontal-postorbital suture in dorsal view'
+		[4] 'Parasphenoid'
+		[5] 'Basisphenoid'
+		[6] 'Maxilla-palatine suture'
+		[7] 'Orientation of paraocciptial process in occipital view'
+		[8] 'Palatal secondary palate'
+		[9] 'Internal nares'
+		[10] 'Position of foramen for cranial XII nerve'
+		[11] 'Foramen for the internal carotid artery'
+		[12] 'Prefrontal lateral development'
+		[13] 'Prefrontals'
+		[14] 'Prefrontal shape'
+		[15] 'Prefrontal length-width'
+		[16] 'Prefrontals anterior to the orbits'
+		[17] 'Palpebrals'
+		[18] 'Orbit position'
+		[19] 'Sclerotic ossicles'
+		[20] 'Ventrally opened notch on palatal surface of the rostrum near premaxilla-maxilla contact'
+		[21] 'Premaxilla length posterior to external nares'
+		[22] 'Nasal-premaxilla contact'
+		[23] 'External nares shape'
+		[24] 'External nares'
+		[25] 'Rostral proportions'
+		[26] 'Angle between medial and lateral processes of the frontal'
+		[27] 'Lateral process of the frontal forming the beginning of the supratemporal arch'
+		[28] 'Supratemporal fossa in dorsal view'
+		[29] 'Supratemporal roof dorsal surface'
+		[30] 'Supratemporal fenestra in dorsal view 1'
+		[31] 'Supratemporal fenestra in dorsal view 2'
+		[32] 'Infratemporal fenestra in lateral view'
+		[33] 'Lacrimal position'
+		[34] 'Lacrimal size'
+		[35] 'Postorbital-jugal contact'
+		[36] 'Postorbital bar'
+		[37] 'Relative length between squamosal and postorbital'
+		[38] 'External nares position'
+		[39] 'Jugal'
+		[40] 'Nasal participation in antorbital fenestra'
+		[41] 'Shape of antorbital fossa'
+		[42] 'Parietal shape between parietal-squamosal sutures on either side in dorsal view'
+		[43] 'Symphysis length'
+		[44] 'Symphysis depth'
+		[45] 'External mandibular fenestra'
+		[46] 'Pronounced groove on lateral surface of the dentary and surangular'
+		[47] 'Angular and surangular in lateral view'
+		[48] 'Surangular in dorsal view'
+		[49] 'Splenial involvement in symphysis'
+		[50] 'Retroarticular process'
+		[51] 'Coronoid'
+		[52] 'Premaxilla tooth count'
+		[53] 'Maxilla tooth count'
+		[54] 'Dentary tooth count'
+		[55] 'Tooth margins'
+		[56] 'Maxillary teeth crown size'
+		[57] 'Maxillary teeth'
+		[58] 'Tooth curvature'
+		[59] 'Maxillary teeth - 2'
+		[60] 'Dentary teeth posterior to tooth opposite premaxilla-maxilla contact'
+		[61] 'Caudal vertebrae downwards deflection'
+		[62] 'Cervical vertebrae relative centra length'
+		[63] 'Post-axial cervical vertebrae number'
+		[64] 'Caudal vertebrae number'
+		[65] 'Radius'
+		[66] 'Humerus deltopectoral crest'
+		[67] 'Humerus shape'
+		[68] 'Scapula / humerus size'
+		[69] 'Coracoid shape'
+		[70] 'Metacarpal I'
+		[71] 'Ilium size'
+		[72] 'Ischium anterior process'
+		[73] 'Tibia'
+		[74] 'Calcaneum tuber'
+		[75] 'Metatarsal length'
+		[76] 'Metatarsal I'
+		[77] 'Digit lengths'
+		[78] 'Tail osteoderms'
+		[79] 'Ventral trunk osteoderms'
+		[80] 'Dorsal osteoderms'
+		[81] 'Articulation surface for ilium on sacral rib'
+		[82] 'Sacral rib curvature'
+	;
+	STATELABELS
+		1
+			'ornamented'
+			'smooth'
+			,
+		2
+			'frontal and parietal subequal in width'
+			'parietal width is narrower than that of frontal'
+			,
+		3
+			'irregular and straight or gently curved'
+			'frontal splitting the postorbital in a V-shape directed posteriorly'
+			,
+		4
+			'not visible in palatal view'
+			'visible in palatal view forming a ridge along the pterygoids meeting the basisphenoid posteriorly'
+			,
+		5
+			'in palatal view it never projects to a more anterior position than the quadrates'
+			'projects further than the quadrates by more than 10% of its total length'
+			,
+		6
+			'forms a V-shaped pointing anteriorly'
+			'M-shaped orientated posteriorly'
+			'a broad U-shape pointing anteriorly'
+			'no contact along the midline, lateral contact only'
+			,
+		7
+			'horizontal'
+			'dorsal-laterally directed at a 45 degree angle'
+			'medial edge horizontal, then terminal third sharply inclined dorsal-laterally at a 45 degree angle'
+			'curve downwards strongly, so that they terminate ventral to the occipital condyle'
+			,
+		8
+			'palatines of primary palate exposed and do not contact one another secondarily on midline'
+			'palatines meet on midline forming a secondary palate'
+			,
+		9
+			'open directly onto the palatal roof'
+			'open out into the buccal cavity in a posterior direction with the palatines creating a V-shape with its apex directed anteriorly'
+			'same but with palatines creating a broad U-shape on the anterior edge of the nares'
+			'with palatines creating an M-shape on the anterior margin'
+			,
+		10
+			'above the occipital condyle, in line with the foramen magnum'
+			'below the foramen magnum'
+			,
+		11
+			'similar in size to the openings for cranial nerves IX–XI'
+			'extremely enlarged'
+			,
+		12
+			'reduced, flush with the rim of the orbit'
+			'incipient enlargement, extending laterally over the orbit by approximately 5% of its width'
+			'enlarged, extending laterally over the orbit by >15% of its width'
+			,
+		13
+			'not wider than posteriorly directed V of the squamosal created by the posterior margin of the supratemporal fossa'
+			'are wider'
+			,
+		14
+			'quadrilateral with irregular outline'
+			'teardrop-shaped with a convex outer margin'
+			'teardrop-shaped, with dorsal margin forming a 90 degree angle having a distinct triangular shape'
+			'teardrop-shaped with a smooth convex outer margin not exceeding the jugal bar in dorsal view'
+			'teardrop-shaped with the inﬂexion point directed posteriorly at approximately 70 degree angle from the antero-posterior axis of the skull'
+			'teardrop-shaped with medial and lateral edges parallel with the inﬂexion point directed posteriorly at approximately a 50 degree angle from the antero-posterior axis of the skull'
+			,
+		15
+			'longer than wide in dorsal view'
+			'subequal in dorsal view'
+			,
+		16
+			'elongate, oriented parallel to antero-posterior axis of the skull'
+			'short and broad, oriented posteromedially-anterolaterally'
+			,
+		17
+			'two large palpebrals in orbit'
+			'one large palpebral'
+			'absent'
+			,
+		18
+			'dorsal'
+			'fully lateral and clearly visible in dorsal view'
+			'fully lateral but the orbit shape is only clear in lateral view'
+			'Orbit fully lateral but the orbit shape is only clear in lateral view'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present as a notch'
+			'present as a large fenestra'
+			,
+		21
+			'>67% of premaxilla total length is posterior to the external nares'
+			'between 50–65% of total length'
+			'36–45% of total length'
+			'£28%'
+			,
+		22
+			'present'
+			'absent'
+			,
+		23
+			'circular or division by nasals create two semi-circles'
+			'transverse ellipsoid'
+			'in dorsal view posterior edge straight'
+			'spoon-shaped elongate ellipse (dorsal width <40% of antero-posterior length)'
+			,
+		24
+			'either undivided or dived by nasal intrusion'
+			'almost completely separated in two by a premaxillary septum'
+			'completely separated by a premaxillary septum'
+			,
+		25
+			'nearly tubular (lateromedial and dorsoventral diameters subequal ±5%)'
+			'broad, dorsoventral diameter ‡1.2 · lateromedial one'
+			'oreinirostral, snout depth >33% of snout length, with a convex upper margin'
+			,
+		26
+			'approximately 90 degree angle'
+			'approximately 45 degree angle, or more acute'
+			'approximately 70–60 degree angle'
+			,
+		27
+			'level with the medial process of the frontal starting the intertemporal bar'
+			'lower than the intertemporal bar, or not involved with the supratemporal arch'
+			,
+		28
+			'anterior margin posterior to the postorbital'
+			'anterior margin reaches between the anterior and posterior points of the frontal-postorbital suture'
+			'reaches at least as anteriorly as the postorbital'
+			'projects more anteriorly than the postorbital and reaches the intraorbital minimum distance'
+			,
+		29
+			'complex'
+			'dorsally ﬂat ‘skull table’ developed, with postorbital and squamosal with ﬂat shelves extending laterally beyond quadrate contact'
+			,
+		30
+			'longer in length than the orbit'
+			'subequal in length as the orbit'
+			'smaller than the orbits'
+			,
+		31
+			'does not exceed the parietal posteriorly or reach the supraoccipital'
+			'does not exceed the parietal, but does reach supraoccipital'
+			'more posterior than the parietal'
+			,
+		32
+			'considerably longer in length than the orbit'
+			'equal/subequal in length than the orbit'
+			'shorter in length than the orbit'
+			,
+		33
+			'dorsal and lateral'
+			'only lateral and not visible in dorsal view'
+			,
+		34
+			'large, in lateral view at least 45% of orbit height'
+			'smaller, <40% of orbit height'
+			,
+		35
+			'postorbital medial to jugal'
+			'postorbital lateral to jugal'
+			,
+		36
+			'transversely flattened'
+			'cylindrical'
+			,
+		37
+			'squamosal is longer'
+			'postorbital is longer'
+			,
+		38
+			'at the tip of the snout, not exceeding the first premaxillary alveolus'
+			'at the tip of the snout, stretching between premaxillary alveoli'
+			'stretches to beginning of the first maxillary alevolus'
+			'starts just after the first premaxillary alevolus and does not exceed the 1st maxillary alevous'
+			'stretches to approximately the end of the second maxillary alveolus'
+			'Not mentioned in the article'
+			,
+		39
+			'separated from margin of antorbital fossa'
+			'participates in the margin of antorbital fossa'
+			'Not mentioned in the article'
+			,
+		40
+			'no'
+			'yes'
+			'Not mentioned in the article'
+			,
+		41
+			'subcircular or subtriangular'
+			'elongated, narrow and oriented obliquely'
+			'Not mentioned in the article'
+			,
+		42
+			'forms a anteriorly directed curve'
+			'forms a straight line with an enclave for the supraoccipital'
+			,
+		43
+			'short, less than or equal to 29% of mandible length'
+			'moderate, 32–38% of mandible length'
+			'long, greater than or equal to 40% of mandible length'
+			,
+		44
+			'deep, 10% or more of mandible length'
+			'moderate, 7–8% of mandible length'
+			'narrow, 4.5–6% of mandible length'
+			'very narrow, greater than or equal to 4% of mandible length'
+			,
+		45
+			'present'
+			'absent'
+			,
+		46
+			'absent'
+			'shallow and poorly developed'
+			'deep and strongly developed with a large foramen at both ends'
+			,
+		47
+			'angular extends beyond the orbits, but surangular does not'
+			'neither bones extend beyond the orbits'
+			'surangular extends beyond the orbits, but angular does not'
+			'both bones extended rostrally beyond the orbits'
+			,
+		48
+			'does not extend beyond the orbit along the dorsal surface of the mandible'
+			'does'
+			,
+		49
+			'slight <10% of symphysis length'
+			'extensive >20% of symphysis length'
+			'not involved'
+			,
+		50
+			'very short, broad, and robust'
+			'posteriorly elongated, triangular-shaped and facing dorsally'
+			'posteroventrally projecting and paddle-shaped'
+			'posteriorly elongated, dorsally facing and concave, with the posterior tip of the process elevated above the rest of the mandible'
+			,
+		51
+			'does not projecting as far as the dentary tooth row'
+			'projects further anteriorly than the caudalmost alveoli'
+			,
+		52
+			'five'
+			'four'
+			'three'
+			,
+		53
+			'with no more than 11 teeth'
+			'12–17 teeth'
+			'18–20'
+			'20–28 teeth'
+			'>28 teeth per side'
+			,
+		54
+			'20 or more teeth per rami'
+			'18 or less teeth per rami'
+			,
+		55
+			'without carinae'
+			'smooth carinae'
+			'denticulate carinae'
+			'Not mentioned in the article'
+			,
+		56
+			'crowns not enlarged, <3.0 cm long'
+			'moderately enlarged, 3.0–3.8 cm long'
+			'enlarged, >6 cm long'
+			,
+		57
+			'not lateromedailly compressed'
+			'weakly lateromedially compressed, crown midpoint labiolingual width 60–90% distal-medial width'
+			'strongly lateromedially compressed, crown midpoint labiolingual width >60% distal-medial width'
+			,
+		58
+			'none, crown apical/subapical, 89–91 degrees'
+			'weakly recurved, 82–88 degrees'
+			'strongly recurved, >80 degrees'
+			,
+		59
+			'no ‘constriction’ (pale band) at base of crown'
+			'has a ‘constriction’'
+			,
+		60
+			'equal in size'
+			'enlarged dentary teeth opposite to smaller teeth in maxillary tooth row'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'long'
+			'moderate, length-width subequal ±5%'
+			'short, length <0.95 the centrum width'
+			,
+		63
+			'seven'
+			'five'
+			,
+		64
+			'between 30–40'
+			'>48'
+			,
+		65
+			'elongate'
+			'greatly reduced'
+			,
+		66
+			'present'
+			'absent'
+			,
+		67
+			'proximal wider or subequal to distal head in width, distal head articulation surface almost straight shaft contributing >50% of total length'
+			'same as before except shaft contributes between 35–38% of total length'
+			'distal head wider than proximal head (>7%), distal end articulation surface convex, with shaft making <25% of total length'
+			,
+		68
+			'humerus longer than scapula'
+			'humerus and scapula subequal in length'
+			'humerus shorter than scapula'
+			,
+		69
+			'neither ends are fan-shaped, having angular margins'
+			'ventral end convex forming a gentle fan-shape, and scapula-articular end triangular in shape with blunt ends'
+			'ventral and scapula-articular ends convex both being a gentle fan-shape'
+			,
+		70
+			'elongate'
+			'broadly expanded'
+			,
+		71
+			'length of dorsal border at least 30% of femur length'
+			'length of dorsal border <21% of femur length'
+			,
+		72
+			'developed, with clearly defined articulation facets for pubis and ilium, ‡50% as wide as acetabulum width'
+			'reduced, lacking either articulation facet and is 30–50% as wide as acetabulum width'
+			'highly reduced, lacking either articulation facet and is <25% as wide as acetabulum width'
+			,
+		73
+			'long, >45% of femur length'
+			'medium, 40–45% of femur length'
+			'short, 31–39% of femur length'
+			'very short, <30% of femur length'
+			,
+		74
+			'well developed, with long neck (subequal in length to main body of calcaneum ±5%), distal end wider than main body of calcaneum and projects inwards the body at >80 degrees'
+			'poorly developed, short neck (<half length of calcaneum main body), distal end <half the width of calcaneum main body width and projects out straight from calcaneum'
+			'absent / vestigial'
+			,
+		75
+			'metatarsals 1–4 longer than digits'
+			'metatarsals 2–4 shorter than digits'
+			,
+		76
+			'proximal end not enlarged, no more than 10% wider than any other metatarsal'
+			'enlarged, 20–30% wider'
+			'moderately enlarged, 46–51%'
+			'greatly enlarged, >5% wider'
+			,
+		77
+			'digit lengths in descending order III, IV, II, I'
+			'IV, III, II, I'
+			,
+		78
+			'completely surrounded by osteoderms'
+			'dorsal surface only has osteoderms'
+			'lacks any osteoderms'
+			,
+		79
+			'present'
+			'absent'
+			,
+		80
+			'present'
+			'absent'
+			,
+		81
+			'wide'
+			'narrow'
+			,
+		82
+			'little / none'
+			'strong'
+			,
+	;
+	MATRIX
+	'Hesperosuchus'                      100????????00000110?00002010011200???000200?0010???01?20210??0??0000?0???????110??
+	'Terristrisuchus'                    100??3000??00000?102?0002010011200??0??0200?0010???010202100000??00000000000011000
+	'Protosuchus'                        00000300000000000102000020001102000000000000000000?11?1022000?000000000000000000??
+	'Atoposauridae'                      000000010?0000001001200010001200000101000002011102?0(1 2)010(0 1)(0 1)010?00000000000000001000
+	'Goniopholis'                        00000?0100?00000100100?010001102000101???002011?02?01010100???????????????????00??
+	'Crocodylus niloticus'               00000001000000001001200010001202000101???00300102300111011010000000000000000000000
+	'Alligator mississippiensis'         000002010000100010002?0010001202000101???00000102300111011000000000000000000000000
+	'Steneosaurus leedsi'                00001?01?000000020001110000000000010110000230131111140000100000?0000100000000100??
+	'Pelagosaurus typus'                 000010011000000021000110000(0 1)0000001011000023013111?13000010000000000100000?00100??
+	'Teleidosaurus calvadosii'           000??001?11000012100112000000000001011???022010011?22010?1????????????????????????
+	'Metriorhynchus laeve'               11110101?112010122?011300001001111101221102311011112401011001?10?0122???2111121111
+	'Metriorhynchus leedsi'              11110101?11201012210?1?00001001111101????0??110????240101100??????????????????11??
+	'Metriorhynchus acutus'              11??0??12??2010122?0013000??00??1????2???0?????????240????????????????????????????
+	'Metriorhynchus superciliosus'       0111010111120101221011300001001111101221102211011112301011001210101121112?11121111
+	'Metriorhynchus moreli'              011101011112010122?01130000100111110121110221101111230101100??1??0112?112????21111
+	'Metriorhynchus palpebrosus'         01????0111?2110122?011300001001?1110122110?211011112301??1???????021???12??????1??
+	'Metriorhynchus hastifer'            01?????????2110122?0113002?2001?1??012???0?????????23?????????????????????????????
+	'Metriorhynchus durobrivensis'       0111020??112120122?01(0 1)301001001110101221101?11?0110211101100??????????1?1?????1111
+	'Metriorhynchus cultridens'          01110201?112120122?011301001001110101221102111001102111022101110???????1?????21111
+	'Metriorhynchus brachyrhynchus'      011102013112120122?01(0 1)301001001110101221102111001102111022101110?0112?11?????21111
+	'Metriorhynchus casamiquelai'        11110?213112010122?02130100200111010122110131120??02(1 2)00?1100???????????????????1??
+	'Dakosaurus carpenteri'              111????????2040122?021301102002????012???0???1?????21?11110??11??02????1???????111
+	'Geosaurus suevicus'                 111???1????20301221031320112011211101421112311311112301001001211112221123213121111
+	'Geosaurus gracilis'                 11110?11211203012210313100120112111013211123113111?2(2 3)?1001001211112??11?31121211?1
+	'Geosaurus araucanensis'             111101112112030122?03132011201121110152211????31?11230?0???0??????????????????????
+	'Dakosaurus maximus'                 111???21?112051122?0213011?3002110??13?110111200110211221100?11??02121?1?????21111
+	'Dakosaurus andiniensis'             1?1???21?11205112210213021030021101013211010120????201221100???????????????????1??
+	'Enaliosuchus macrospondylus'        1?1????????2030123?030320112????11???5221???113??1?22031110???1????????????????1??
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-82;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -908735536; FileSettings editor '1' '1' '85' '1'; Singles 100; Editor 00011011111111100100010010 '0' '72' Gadget '12' '206' '1' all; EditorPosition '59' '139' '563' '687'; TreeWindowPosition '46' '6' '871' '1390'; ListWindow Characters open Gadget '12' '69' '1223' '355' '374' 000; ListWindow Taxa closed Gadget '12' '50' '10' '202' '369' 100000000; ListWindow Trees closed Gadget '12' '54' '641' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '134' '235' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; TextWindow AboutFile '50' '25' '280' '445' Gadget '14' (normal) 1 ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '594' '48' '203' '281'; WindowOrder Data States Text AboutFile List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '134' '1302' '115' '165'; TreeToolsPosition '695' '74' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '1954' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Hesperosuchus, 2 Terristrisuchus, 3 Protosuchus, 4 Atoposauridae, 5 Goniopholis, 6 Crocodylus_niloticus, 7 Alligator_mississippiensis, 8 Steneosaurus_leedsi, 9 Pelagosaurus_typus, 10 Teleidosaurus_calvadosii, 11 Metriorhynchus_laeve, 12 Metriorhynchus_leedsi, 13 Metriorhynchus_acutus, 14 Metriorhynchus_superciliosus, 15 Metriorhynchus_moreli, 16 Metriorhynchus_palpebrosus, 17 Metriorhynchus_hastifer, 18 Metriorhynchus_durobrivensis, 19 Metriorhynchus_cultridens, 20 Metriorhynchus_brachyrhynchus, 21 Metriorhynchus_casamiquelai, 22 Dakosaurus_carpenteri, 23 Geosaurus_suevicus, 24 Geosaurus_gracilis, 25 Geosaurus_araucanensis, 26 Dakosaurus_maximus, 27 Dakosaurus_andiniensis, 28 Enaliosuchus_macrospondylus ; TREE Parsimony = [&R] (1,(2,(3,((5,(4,(7,6))),((9,8),(10,(((18,(20,19)),(21,(22,(27,26)))),((14,(15,(16,17))),((11,(12,13)),((24,23),(25,28))))))))))); TREE * Ingroup = [&R] (((18,(20,19)),(21,(22,(27,26)))),((14,(15,(16,17))),((11,(12,13)),((24,23),(25,28))))); 
+ENDBLOCK;

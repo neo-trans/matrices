@@ -1,0 +1,212 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.18.46 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=22;
+	TAXLABELS
+		'Leiopteria accranus'
+		'Leiopteria actuilaris'
+		'Leiopteria auriculata'
+		'Leiopteria ausabelensis'
+		'Leiopteria bigsbyi'
+		'Leiopteria conradi'
+		'Leiopteria cornelli'
+		'Leiopteria dekayi'
+		'Leiopteria gabbi'
+		'Leiopteria greeni'
+		'Leiopteria laevis'
+		'Leiopteria leai'
+		'Leiopteria linguiformis'
+		'Leiopteria mitchelli'
+		'Leiopteria nitida'
+		'Leiopteria oweni'
+		'Leiopteria peninsularis'
+		'Leiopteria rafinesquii'
+		'Leiopteria sayi'
+		'Leiopteria torrey'
+		'Leiopteria troosti'
+		'Leptodesma spinerigum'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Angle between hingeline and line of demarcation separating posterior wing from body'
+		[2] 'Angle between edge of posterior wing and axis of greatest length (obliquity)'
+		[3] 'Overall shape'
+		[4] 'Size of individual (height perpendicular to hingeline)'
+		[5] 'Relative size of hingeline (length of hingeline/greatest oblique length, measured from beak to posteroventral margin of shell)'
+		[6] 'Location of maximum valve width'
+		[7] 'Convexity of left valve (umbonal height/umbonal width)'
+		[8] 'Relative height of umbo'
+		[9] 'Shape of auricle'
+		[10] 'Form of auricle'
+		[11] 'Relative size of anterior auricle (anterior auricle width/width of entire hingeline)'
+		[12] 'Septum separating auricle from rest of shell'
+		[13] 'Development of byssal sinus'
+		[14] 'Curve of anterior margin'
+		[15] 'Relative size of posterior wing (posterior wing width/width of entire hingeline)'
+		[16] 'Embayment of posterior wing'
+		[17] 'Position of inflection on posterior margin (distance to inflection/valve height)'
+		[18] 'Angle of posterior wing extension, measured from hingeline to lateral margin of posterior wing at the extremity'
+		[19] 'Separation of posterior wing from body'
+		[20] 'Development of concentric growth lamellae'
+		[21] 'Width of growth lamellae'
+		[22] 'Relief of growth lamellae'
+		[23] 'Sharpness of growth lamellae'
+		[24] 'Growth lamellae'
+		[25] 'Spacing of growth lamellae'
+		[26] 'Distribution of growth lamellae'
+		[27] 'Radial ornament'
+	;
+	STATELABELS
+		1
+			'small (< 26°)'
+			'large (> 29°)'
+			,
+		2
+			'small (< 16°)'
+			'large (> 18°)'
+			,
+		3
+			'rectangular, length much longer than width'
+			'square, length and width subequal'
+			,
+		4
+			'small (< 23 mm)'
+			'medium (25 to 38 mm)'
+			'large (> 42 mm)'
+			,
+		5
+			'long (> 0.78)'
+			'short (< 0.72)'
+			,
+		6
+			'hingeline'
+			'lateral to hingeline'
+			,
+		7
+			'high (> 0.25)'
+			'low (< 0.20)'
+			,
+		8
+			'greatly extended above main shell'
+			'moderately extended above main shell'
+			,
+		9
+			'acuminate'
+			'rounded'
+			,
+		10
+			'extended into point'
+			'truncated'
+			,
+		11
+			'small (< 0.19)'
+			'large (> 0.21)'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'weakly impressed'
+			'deeply impressed'
+			,
+		14
+			'smooth'
+			'undulating'
+			,
+		15
+			'large (> 0.63)'
+			'small (< 0.60)'
+			,
+		16
+			'pronounced'
+			'weak'
+			,
+		17
+			'proximal (< 0.20)'
+			'distal (> 0.23)'
+			,
+		18
+			'small (< 45°)'
+			'large (> 50°)'
+			,
+		19
+			'demarcated by distinct narrow groove'
+			'weakly defined'
+			,
+		20
+			'constant over shell'
+			'more strongly developed on posterior portion of shell'
+			,
+		21
+			'all of equal width'
+			'width increases posteriorly'
+			,
+		22
+			'low'
+			'prominent'
+			,
+		23
+			'dull'
+			'sharp'
+			,
+		24
+			'single, distinct rows'
+			'lamellose bands'
+			'crenulated'
+			,
+		25
+			'irregular'
+			'regular'
+			,
+		26
+			'ungrouped'
+			'grouped'
+			,
+		27
+			'absent'
+			'weakly developed on right valve'
+			'weakly developed on both valves'
+			'weakly developed on left valve'
+			,
+	;
+	MATRIX
+	'Leiopteria accranus'          111000?11111011101100110110
+	'Leiopteria actuilaris'        110011001111111?1?000112100
+	'Leiopteria auriculata'        110000001111011111111000000
+	'Leiopteria ausabelensis'      010000001101010000110000002
+	'Leiopteria bigsbyi'           11(0 1)10(0 1)00110(0 1)(0 1)(0 1)0101(0 1)00100100
+	'Leiopteria conradi'           11110(0 1)1(0 1)1101110(0 1)10(0 1)01(0 1)11110
+	'Leiopteria cornelli'          010001001100010111100110100
+	'Leiopteria dekayi'            1001010011010000?0001110100
+	'Leiopteria gabbi'             11000000110100111?000001110
+	'Leiopteria greeni'            111000101101000011(0 1)01(0 1)11110
+	'Leiopteria laevis'            1111001(0 1)1111111001000010(0 1)(0 1)(1 2)
+	'Leiopteria leai'              11(0 1)100001111010000000100100
+	'Leiopteria linguiformis'      110211011111000011010001100
+	'Leiopteria mitchelli'         1112001011011?0(0 1)01001011110
+	'Leiopteria nitida'            11(0 1)100001101(0 1)(0 1)0001000010100
+	'Leiopteria oweni'             010211?111000?000?100001112
+	'Leiopteria peninsularis'      111100101101111000001011110
+	'Leiopteria rafinesquii'       10(0 1)100101101(0 1)(0 1)00000010(0 1)1(0 1)10
+	'Leiopteria sayi'              111100111101000010100001110
+	'Leiopteria torrey'            110010011101000111000000100
+	'Leiopteria troosti'           1001110011?100010001011210(2 3)
+	'Leptodesma spinerigum'        000000000000000000000000003
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-27;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845451636; FileSettings editor '1' '1' '28' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '46' '6' '648' '1459'; TreeWindowPosition '46' '6' '875' '1322'; ListWindow Characters open Gadget '12' '50' '10' '270' '374' 000; ListWindow Taxa open Gadget '12' '50' '25' '440' '327' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Gadget '12' '9' '50' '30' '186' '220'; WindowOrder Data List Taxa List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' (normal) Gadget '10' (normal) Gadget '9' (normal) Gadget '9' (normal) Gadget '9' (bold ) Gadget '9' (normal) Gadget '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '15' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Leiopteria_accranus, 2 Leiopteria_actuilaris, 3 Leiopteria_auriculata, 4 Leiopteria_ausabelensis, 5 Leiopteria_bigsbyi, 6 Leiopteria_conradi, 7 Leiopteria_cornelli, 8 Leiopteria_dekayi, 9 Leiopteria_gabbi, 10 Leiopteria_greeni, 11 Leiopteria_laevis, 12 Leiopteria_leai, 13 Leiopteria_linguiformis, 14 Leiopteria_mitchelli, 15 Leiopteria_nitida, 16 Leiopteria_oweni, 17 Leiopteria_peninsularis, 18 Leiopteria_rafinesquii, 19 Leiopteria_sayi, 20 Leiopteria_torrey, 21 Leiopteria_troosti, 22 Leptodesma_spinerigum ; TREE * UNTITLED = [&R] (4,((15,(5,((20,(13,16)),(9,(3,(1,(7,2))))))),((12,(21,8)),(19,(10,(6,((18,17),(14,11)))))))); 
+ENDBLOCK;

@@ -1,0 +1,387 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.55.45 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=25;
+	TAXLABELS
+		'Tetragraptus'
+		'Pendeograptus'
+		'Didymograptellus'
+		'Expansograptus'
+		'Holmograptus'
+		'Isograptus'
+		'Arienigraptus'
+		'Pseudisograptus'
+		'Maeandrograptus'
+		'Perissograptus'
+		'Cardiograptus'
+		'Bergstroemograptus'
+		'Exigraptus'
+		'U. sinodentatus'
+		'U. austrodentatus'
+		'U. formosus'
+		'U. sinicus'
+		'Oelandograptus'
+		'Hustedograptus'
+		'Eoglyptograptus'
+		'Pseudoclimacograptus'
+		'Archiclimacograptus'
+		'Phyllograptus'
+		'Glossograptus'
+		'Cryptograptus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Number of stipes'
+		[2] 'Stipe attitude'
+		[3] 'Arrangement of the stipes'
+		[4] 'Rhabdosome length'
+		[5] 'Maximum rhabdosome width'
+		[6] 'Median septum'
+		[7] 'Arienigraptid suture'
+		[8] 'Sicular length'
+		[9] 'Facing direction of sicular aperture'
+		[10] 'Metasicula projects well beyond th11 and th12'
+		[11] 'Morphology of rutellum or virgella'
+		[12] 'Prosicula represented by rod or rods'
+		[13] 'Sicular length / width'
+		[14] 'Prosicular length / sicular length'
+		[15] 'Nema attitude'
+		[16] 'Symmetry of proximal end'
+		[17] 'Origination of th11'
+		[18] 'Antivirgellar (antirutellar) origin of th11'
+		[19] 'Distal part of th11'
+		[20] 'Distance between the budding point of th11 and the sicular aperture'
+		[21] 'Origination of th12'
+		[22] 'Distance between the highest point of th12 and sicular aperture'
+		[23] 'The level of the outward-turning point of th11 and th12'
+		[24] 'Origination of th21'
+		[25] 'Dicalycal theca'
+		[26] 'Number of thecae with downwards extending proximal part'
+		[27] 'Manubrium length'
+		[28] 'Degree of exposure of proximal part of rhabdosome (according to the position where median septum starts)'
+		[29] 'Number of primordial thecae (sensu Mitchell 1987)'
+		[30] 'Number of crossing canals (sensu Mitchell 1987)'
+		[31] 'Thecal form'
+		[32] 'Thecal shape in section'
+		[33] 'Prothecal folds'
+		[34] 'Thecal aperture'
+		[35] 'Expansion of thecal apertures'
+		[36] 'Thecal apertural excavation'
+		[37] 'Development of thecal spines'
+		[38] 'Mesial or subapertural spines'
+		[39] 'The position of longest thecae in the stipes'
+		[40] 'Length of first pair of thecae'
+		[41] 'The number of thecae that overlap one another on the reverse and obverse side, applying to forms in which the initial thecal growth direction is initially towards the sicula'
+		[42] 'Thecal overlap'
+		[43] 'Genicular ﬂanges on thecae'
+		[44] 'Thecal apertural processes'
+		[45] 'Presence of second rutellum, or antivirgellar rutellum or spine'
+		[46] 'Last pair of thecae which contribute to manubrium'
+	;
+	STATELABELS
+		1
+			'4'
+			'2'
+			,
+		2
+			'proximal part horizontal'
+			'proximal part declined'
+			'reclined'
+			'scandent'
+			'state not mentioned in publication'
+			,
+		3
+			'non-scandent'
+			'monopleural, two scandent stipes laterally overlap'
+			'dipleural, a situation seen in some groups like Cardiograptus where the nema is enclosed by the two back-to-back scandent stipes but no true virgula is formed'
+			'biserial, two back-to-back scandent stipes share the same dorsal wall and virgula is formed, a common state in most biserials'
+			'quadriserial'
+			'mono-dipleural, an intermediate situation between monopleural and dipleural, characterised by the partial lateral overlapping of the two stipes, seen in some forms like Bergstroemograptus'
+			,
+		4
+			'> 30 mm'
+			'10-30 mm'
+			'< 10 mm'
+			,
+		5
+			'> 3 mm'
+			'2-3 mm'
+			'1-2 mm'
+			'< 1 mm'
+			,
+		6
+			'absent'
+			'present and straight'
+			'present and zigzag'
+			'gently undulating'
+			,
+		7
+			'absent'
+			'short'
+			'moderately long; approximately half the descending thecal length'
+			'long suture; > half descending thecal length'
+			'plaited pseudisograptid suture'
+			,
+		8
+			'> 4.5 mm'
+			'4.5-3.6 mm'
+			'3.5-2.6 mm'
+			'2.5-1.5 mm'
+			'< 1.5 mm'
+			,
+		9
+			'downwards'
+			'outwards'
+			,
+		10
+			'no'
+			'yes'
+			,
+		11
+			'spoon-shaped rutellum and no virgella'
+			'lamelliform virgella'
+			'lanceolate virgella'
+			'spinous virgella or true virgella'
+			,
+		12
+			'no'
+			'yes'
+			,
+		13
+			'> 15'
+			'15'
+			'10.1'
+			'10-5'
+			'< 5'
+			,
+		14
+			'< 1 / 10'
+			'1 / 10–1 / 5'
+			'> 1 / 5'
+			,
+		15
+			'long and free'
+			'surrounded by scandent stipes'
+			'embedded in rhabdosome'
+			,
+		16
+			'sicula and th11'
+			'th11 and th12'
+			'asymmetry'
+			,
+		17
+			'prosicular'
+			'metasicular'
+			,
+		18
+			'no'
+			'yes'
+			,
+		19
+			'downwards'
+			'declined'
+			'horizontal'
+			'reclined'
+			'upwards'
+			,
+		20
+			'> 5 mm'
+			'5-4.1 mm'
+			'4-3.1 mm'
+			'3-2.1 mm'
+			'2-1 mm'
+			'< 1 mm'
+			,
+		21
+			'right-handed (th12 originates from the right side of th11)'
+			'streptoblastic (th12 with an upwards-growing initial portion, the whole theca is S-shaped)'
+			'prosoblastic (th12 without an upwards-growing initial portion, the whole theca is J-shaped)'
+			,
+		22
+			'> 5 mm'
+			'5-4.1 mm'
+			'4-3.1 mm'
+			'3-2.1 mm'
+			'2-1 mm'
+			'< 1 mm'
+			,
+		23
+			'approximately the same'
+			'different'
+			,
+		24
+			'left-handed'
+			'right-handed'
+			,
+		25
+			'th12'
+			'th21'
+			'th22'
+			,
+		26
+			'> 7'
+			'6-7'
+			'4-5'
+			'<= 3'
+			'<= 2'
+			,
+		27
+			'absent'
+			'< 1.5 mm'
+			'1.5–2.5 mm'
+			'> 2.5 mm'
+			,
+		28
+			'completely exposed'
+			'median septum above the aperture of th22'
+			'median septum below the aperture of th22'
+			'completely embedded'
+			,
+		29
+			'> 5'
+			'5'
+			'4'
+			'3'
+			,
+		30
+			'5'
+			'4'
+			'3'
+			'2'
+			,
+		31
+			'simple tube or gently curved ventrally'
+			'slightly undulating'
+			'sigmoid'
+			'geniculate'
+			,
+		32
+			'circle'
+			'elliptical'
+			'rectangular'
+			,
+		33
+			'absent'
+			'present and gentle'
+			'strong'
+			,
+		34
+			'even'
+			'waving'
+			'gently convex'
+			'gently concave'
+			'cuspate and commonly notched'
+			'high ventral lips with lateral lobes'
+			,
+		35
+			'yes'
+			'no'
+			,
+		36
+			'absent'
+			'gently concave'
+			'prominent'
+			,
+		37
+			'absent'
+			'first theca'
+			'first pair of thecae'
+			'all thecae'
+			,
+		38
+			'absent'
+			'partially present'
+			'developed throughout'
+			,
+		39
+			'distal part'
+			'middle part'
+			'proximal part'
+			,
+		40
+			'> 4–5 mm'
+			'4.5-3.1 mm'
+			'3.1-5 mm'
+			'< 1.5 mm'
+			,
+		41
+			'no'
+			'1-2 pairs'
+			'3-4 pairs'
+			'more than 4 pairs'
+			,
+		42
+			'> 3 / 4'
+			'3 / 4'
+			'2 / 3'
+			'3 / 5'
+			'1 / 2'
+			'< 1 / 2'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'present'
+			'absent'
+			,
+		45
+			'absent'
+			'second rutellum or antivirgellar rutellum'
+			'antirutellar or antivirgellar spine'
+			,
+		46
+			'first pair (th 12 and the21) or manubrium absent'
+			'second pair (thi22 and th21'
+			'third pair (th22 and th 31)'
+			'fourth pair (th32 and the31)'
+			'fifth pair (th32 and the41) or later'
+			,
+	;
+	MATRIX
+	'Tetragraptus'              0000000300002101001304000300330103000002000000
+	'Pendeograptus'             0401300300000101000305000000330003100002040000
+	'Didymograptellus'          1400100400003201001505000000330003100013000000
+	'Expansograptus'            1000200300002?01001405000400330000100003040100
+	'Holmograptus'              1101300401002201001405000400333015020203051010
+	'Isograptus'                1201101000002100000001100000330003000021000000
+	'Arienigraptus'             1102103200002?00000303100010330203000022100004
+	'Pseudisograptus'           1101004000200000101010001010220221100020200004
+	'Maeandrograptus'           1201102201002101003304000200332111110002110000
+	'Perissograptus'            0202300401002101002404000400330003100003040010
+	'Cardiograptus'             1320002200002110000303100211330203100002100002
+	'Bergstroemograptus'        1352000200102?10?00303110013220003000022300013
+	'Exigraptus'                1331034010201?21102112012121000222103021200003
+	'U. sinodentatus'           1331134100201?21102?14012111012021110002220003
+	'U. austrodentatus'         1331224100200?21103414012212112211012001130102
+	'U. formosus'               1331220300201?21104415011212222010010002140101
+	'U. sinicus'                1332324400202221104515012212113125020203121102
+	'Oelandograptus'            1331230300302221103515001302221004010003130100
+	'Hustedograptus'            1331110300303222103525101302221004000103150120
+	'Eoglyptograptus'           1331110400303222103525102402331004011003150100
+	'Pseudoclimacograptus'      1330220400313222104525002402233000020103151100
+	'Archiclimacograptus'       1331220400302221103515011312223025020103151100
+	'Phyllograptus'             0340020401203?21013405000402330203100013100010
+	'Glossograptus'             1311102300102110000404000013220124103003300004
+	'Cryptograptus'             13112023001031101004040002?322011010000?300013
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-17 19 21-25 30-37 39-46, ord: 18 20 26-29 38;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -1049985170; FileSettings editor '1' '1' '47' '1'; Singles 010; Editor 0001101111111110010001001 '0' '72' Gadget '12' '152' '1' all; EditorPosition '44' '6' '495' '777'; TreeWindowPosition '46' '6' '677' '752'; ListWindow Characters closed Gadget '12' '50' '25' '321' '374' 000; ListWindow Taxa closed Gadget '12' '70' '45' '253' '318' 100000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '10' '559' '1407' '203' '235'; WindowOrder Data States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '578' '1268' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '12' ( normal ) Gadget '10' ( normal ) Gadget '12' ( normal ) Gadget '12' ( normal ) Gadget '12' ( bold ) Gadget '12' ( normal ) Gadget '12' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722291473028; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8122327801019062447; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8119977348063333712; mqVersion 381; checksumv 0 3 2868794791 null getNumChars 46 numChars 46 getNumTaxa 25 numTaxa 25 short true bits 63 states 63 sumSquaresStatesOnly 54505.0 sumSquares 54505.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #8122327801019062447 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 0190ff920e841; toggleUseWeights off; endTell; setAssignedID 1415.1390623525152.8828888653298558795; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareTree.SquareTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 6; orientUp; setCornerMode Right_Angle 50; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.ColorTaxonByPartition.ColorTaxonByPartition; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; newAssistant #mesquite.ancstates.TraceCharOverTrees.TraceCharOverTrees; tell It; suppress ; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #8119977348063333712; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 1; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 0190ff920e841; toggleUseWeights off; endTell; setNumTrees 100; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; toggleShowLegend on; toggleShowNodeAbsent on; toggleShowEquivocal on; setMode Count_Trees_with_Uniquely_Best_States; setInitialOffsetX 4; setInitialOffsetY -120; setLegendWidth 142; setLegendHeight 120; desuppress ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred on; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8119977348063333712 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 46; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Graptoloida_Fortey_et_al_2005.nex"'; ID 0190ff920e841; LINK Taxa = Taxa; TRANSLATE [0] 1 Tetragraptus, [1] 2 Pendeograptus, [2] 3 Didymograptellus, [3] 4 Expansograptus, [4] 5 Holmograptus, [5] 6 Isograptus, [6] 7 Arienigraptus, [7] 8 Pseudisograptus, [8] 9 Maeandrograptus, [9] 10 Perissograptus, [10] 11 Cardiograptus, [11] 12 Bergstroemograptus, [12] 13 Exigraptus, [13] 14 U._sinodentatus, [14] 15 U._austrodentatus, [15] 16 U._formosus, [16] 17 U._sinicus, [17] 18 Oelandograptus, [18] 19 Hustedograptus, [19] 20 Eoglyptograptus, [20] 21 Pseudoclimacograptus, [21] 22 Archiclimacograptus, [22] 23 Phyllograptus, [23] 24 Glossograptus, [24] 25 Cryptograptus; TREE UNTITLED = (1,(2,(((((23,3),5),10),4),((6,(7,((((8,(13,(14,((15,16),(17,(((18,(19,20)),21),22)))))),(24,25)),12),11))),9)))); 
+ENDBLOCK;

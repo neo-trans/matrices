@@ -1,0 +1,231 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.15.39 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=19;
+	TAXLABELS
+		'Thigriffides roundyi'
+		'Paladin morrowensis'
+		'Paladin girtyianus'
+		'Paladin helmsensis'
+		'Paladin rarus'
+		'Paladin moorei'
+		'Paladin imoensis'
+		'Paladin moorefieldensis'
+		'Paladin mangeri'
+		'Paladin wapanukaensis'
+		'Paladin pleisiomorphus'
+		'Kaskia chesterensis'
+		'Kaskia wilsoni'
+		'Kaskia genevievensis'
+		'Kaskia rosei'
+		'Kaskia longispina'
+		'Kaskia osagensis'
+		'Kaskia gersnai'
+		'Kaskia rollinsi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Anterior border'
+		[2] 'Anterior furrow'
+		[3] 'Base of glabella'
+		[4] 'Palpebral position'
+		[5] 'Palpebral shape'
+		[6] 'S1 profile'
+		[7] 'Lateral border'
+		[8] 'Occipital furrow'
+		[9] 'L2-3 present'
+		[10] 'Posterior facial sutures'
+		[11] 'Pygidium border slope'
+		[12] 'L1 inflation'
+		[13] 'Pygidium axial profile'
+		[14] 'Relative delta, beta widths'
+		[15] 'Shape of beta'
+		[16] 'Glabellar width at beta'
+		[17] 'Pygidium axial prosopon'
+		[18] 'Glabella outline'
+		[19] 'Genal spine length'
+		[20] 'Interplural furrow ornament'
+		[21] 'L1 shape'
+		[22] 'L1 position'
+		[23] 'S1 trace (outline)'
+		[24] 'Pygidium axial ratio'
+		[25] 'Pleural furrow'
+		[26] 'Interpleural furrows'
+		[27] 'Axial terminus'
+		[28] 'Pygidium outline'
+		[29] 'Pygidium border'
+		[30] 'Pleural field convexity'
+	;
+	STATELABELS
+		1
+			'distinct'
+			'narrow indistinct'
+			'state not mentioned in publication'
+			,
+		2
+			'present'
+			'absent'
+			,
+		3
+			'rectangular'
+			'subrounded'
+			'rounded'
+			,
+		4
+			'posterior (<0.35 length)'
+			'medial (>0.35 length)'
+			,
+		5
+			'semicircular'
+			'crescentic'
+			'narrow'
+			,
+		6
+			'wide-shallow'
+			'narrow-deep'
+			,
+		7
+			'subquadrate profile'
+			'rounded at margin'
+			,
+		8
+			'narrow'
+			'V-shaped'
+			,
+		9
+			'no'
+			'yes'
+			,
+		10
+			'short curved'
+			'short straight'
+			'long straight section'
+			,
+		11
+			'< pleural field slope'
+			'= pleural fields'
+			'flanged'
+			,
+		12
+			'depressed'
+			'distinct'
+			'inflated'
+			,
+		13
+			'rounded'
+			'subtrapezoidal'
+			,
+		14
+			'delta > beta'
+			'delta = beta or delta < beta'
+			,
+		15
+			'broadly rounded'
+			'acutely rounded'
+			,
+		16
+			'> gamma'
+			'= gamma or < gamma'
+			,
+		17
+			'none'
+			'granules'
+			,
+		18
+			'pyriform'
+			'subcylindrical'
+			,
+		19
+			'to 3rd or 4th segment'
+			'>5th segment'
+			'<3rd segment'
+			,
+		20
+			'none'
+			'granules'
+			,
+		21
+			'suboval'
+			'subtriangular'
+			,
+		22
+			'sub-even w/glabella base'
+			'behind glabella base'
+			'state not assigned by author'
+			,
+		23
+			'straight'
+			'recurved'
+			,
+		24
+			'<0.33'
+			'>0.33'
+			,
+		25
+			'well incised'
+			'shallow-narrow'
+			,
+		26
+			'distinct on most ribs'
+			'distinct only on anteriormost ribs'
+			,
+		27
+			'broadly rounded'
+			'sharply rounded w/tapered extension'
+			,
+		28
+			'parabolic'
+			'semielliptical'
+			'subtriangular'
+			,
+		29
+			'even'
+			'widening posterior'
+			'posteriorly extended'
+			,
+		30
+			'mildly arched'
+			'strongly arched'
+			'flattened'
+			,
+	;
+	MATRIX
+	'Thigriffides roundyi'         000000000000000000000000000000
+	'Paladin morrowensis'          001000010101010100201100111011
+	'Paladin girtyianus'           002010010100011111111100001111
+	'Paladin helmsensis'           001010010100000011011000001011
+	'Paladin rarus'                011010010101011110011100001010
+	'Paladin moorei'               0010100101010111110?1100001111
+	'Paladin imoensis'             112010010100000010011000000010
+	'Paladin moorefieldensis'      000010000101011110101000000111
+	'Paladin mangeri'              001010011101011101200010110001
+	'Paladin wapanukaensis'        111120000110010100?01100111011
+	'Paladin pleisiomorphus'       001010?00100000011?100000000?0
+	'Kaskia chesterensis'          210121101212011010100011110100
+	'Kaskia wilsoni'               210111101212011011?00011100000
+	'Kaskia genevievensis'         110111101212011100100011110000
+	'Kaskia rosei'                 210111101212011010100011110100
+	'Kaskia longispina'            210111001202?110101000100001?1
+	'Kaskia osagensis'             11011100110211001010101000???0
+	'Kaskia gersnai'               210121101212011011100011110101
+	'Kaskia rollinsi'              210121101212011011?00011010101
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-30;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -888936747; FileSettings editor '1' '1' '33' '1'; Singles 110; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '409' '1148' '393' '499'; TreeWindowPosition '89' '483' '667' '904'; ListWindow Characters open Gadget '12' '343' '1006' '491' '420' 000; ListWindow Taxa closed Geneva '9' '50' '10' '276' '490' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '178' '1189' '203' '220'; WindowOrder List Characters Data States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '684' '978' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1724013067576; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 365332292558995113; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4268841584133456403; mqVersion 381; checksumv 0 3 1581354295 null getNumChars 30 numChars 30 getNumTaxa 19 numTaxa 19 short true bits 7 states 7 sumSquaresStatesOnly 1728.0 sumSquares 1728.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4268841584133456403 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 30; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_20144218_mb.nex"'; ID 019167224b0e1; LINK Taxa = Taxa; TRANSLATE [0] 1 Thigriffides_roundyi, [1] 2 Paladin_morrowensis, [2] 3 Paladin_girtyianus, [3] 4 Paladin_helmsensis, [4] 5 Paladin_rarus, [5] 6 Paladin_moorei, [6] 7 Paladin_imoensis, [7] 8 Paladin_moorefieldensis, [8] 9 Paladin_mangeri, [9] 10 Paladin_wapanukaensis, [10] 11 Paladin_pleisiomorphus, [11] 12 Kaskia_chesterensis, [12] 13 Kaskia_wilsoni, [13] 14 Kaskia_genevievensis, [14] 15 Kaskia_rosei, [15] 16 Kaskia_longispina, [16] 17 Kaskia_osagensis, [17] 18 Kaskia_gersnai, [18] 19 Kaskia_rollinsi; TREE UNTITLED = (1,((11,(7,(4,((8,(9,(2,10))),(5,(3,6)))))),(17,(16,(13,(14,(15,(12,(18,19))))))))); 
+ENDBLOCK;

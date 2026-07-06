@@ -1,0 +1,221 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.39.05 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=18;
+	TAXLABELS
+		'Pleurostylodon modicus'
+		'Pampahippus arenalesi'
+		'Plexotemnus complicatissimus'
+		'Puelia coarctatus'
+		'Eomorphippus obscurus'
+		'Pascualihippus boliviensis'
+		'Rhynchippus equinus'
+		'Rhynchippus pumilus'
+		'Rhynchippus brasiliensis'
+		'Eurygenium pacegnum'
+		'Eurygenium latirostris'
+		'Argyrohippus praecox'
+		'Argyrohippus fraterculus'
+		'Nesodon imbricatus'
+		'Proadinotherium leptognathum'
+		'Adinotherium ovinum'
+		'Leontinia guadryi'
+		'Scarrittia canquelensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'I1'
+		[2] 'Anterior dentition'
+		[3] 'I1-2'
+		[4] 'I2'
+		[5] 'Upper incisors'
+		[6] 'Premaxillary dental arcade'
+		[7] 'Internal cingulum of upper incisors'
+		[8] 'Caninie'
+		[9] 'Closed tooth row'
+		[10] 'Molars'
+		[11] 'Cheek teeth'
+		[12] 'Palate'
+		[13] 'Cement'
+		[14] 'Protoloph'
+		[15] 'Cingulum'
+		[16] 'Anterolingual cingulum in upper molars'
+		[17] 'M2 anterolingual cingulum'
+		[18] 'M1 anterolingual cingulum'
+		[19] 'Accessory trignoid cusp on molars'
+		[20] 'Extension of Talonids'
+		[21] 'Entolophid'
+		[22] 'Manus'
+		[23] 'Crochet origination'
+		[24] 'Coronal pattern'
+		[25] 'Origination of ectoloph of the upper molars'
+		[26] 'Posterior cingulum'
+		[27] 'I1 width'
+		[28] 'I2 width'
+		[29] 'Anteroposterior length'
+	;
+	STATELABELS
+		1
+			'incisiform or caniniform'
+			'chisel-like'
+			,
+		2
+			'rooted'
+			'hypselodont'
+			,
+		3
+			'incisiform'
+			'I1 or I2 rounded in cross section, caniniform'
+			,
+		4
+			'incisiform'
+			'triangular in cross section'
+			,
+		5
+			'oriented dorsoventrally'
+			'incisors procumbent'
+			,
+		6
+			'U-shaped'
+			'transverse'
+			,
+		7
+			'does not form fossette'
+			'internal cingulum of upper incidsor does form fossettes'
+			,
+		8
+			'caniniform'
+			'incisiform'
+			,
+		9
+			'no diastema'
+			'diastema between upper canine and incisors'
+			'diastema between upper canine and incisors, and upper canine and premolars'
+			,
+		10
+			'not strongly curved'
+			'strongly curved, toxodont molars'
+			,
+		11
+			'brachyodont (HI of M1 <1)'
+			'mesodont (HI M1 approx 1)'
+			'hypsodont (1<HI M1<2)'
+			'euthypsodont (HI M1>2)'
+			,
+		12
+			'not conspicuously broade'
+			'palate broad'
+			,
+		13
+			'no thick layer of cement on cheek teeth'
+			'cement on cheek teeth pronounced'
+			,
+		14
+			'on unworn upper premolards complete'
+			'protocone of upper premolars not attached to ectoloph by a protoloph until significant wear'
+			,
+		15
+			'single posterior cingulum on upper premolars'
+			'second posterior, cup-shaped cingulum on upper premolars'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'present'
+			'absent'
+			,
+		18
+			'present'
+			'absent'
+			,
+		19
+			'present'
+			'absent'
+			,
+		20
+			'talonid of molars extending a short distance past the antolophid'
+			'talonid extending well past the entolophid'
+			,
+		21
+			'lower molars lacking an early formed fosettid at the entolophid'
+			'fosettid forming early along the lateral portion of the entolophid'
+			,
+		22
+			'pentadactyl'
+			'tetradactyl'
+			'tridactyl'
+			,
+		23
+			'chrochet originating near the midpoint of the metaloph'
+			'crochet originating lingually, at anterior edge of hypocone'
+			,
+		24
+			'coronal pattern superficial, obscured with wear'
+			'coronal pattern deep, persisting into advanced wear'
+			,
+		25
+			'no more than two-developed cristae originating from the ectoloph of the upper molars'
+			'supernumerary cristae present'
+			,
+		26
+			'posterior cingulum of upper premolars or molars not projecting posterolingually'
+			'posterior cingulum of upper premolars and (to a lesser degree) molars projecting posterolingually, forming a distinct lobe'
+			,
+		27
+			'narrow'
+			'broad, having greater width than I3'
+			,
+		28
+			'narrow'
+			'broad, having greater width than I3'
+			'I2>I1>I3'
+			,
+		29
+			'anteroposterior length of P4 subequal to M1 (P4/M1>1/3)'
+			'anteroposterior length of P4 diminished relative to M1 (P4/M1<1/3)'
+			,
+	;
+	MATRIX
+	'Pleurostylodon modicus'            000000?00000000000000?0000000
+	'Pampahippus arenalesi'             000000?10000010000000?0000000
+	'Plexotemnus complicatissimus'      ??????????00010000000?0011??1
+	'Puelia coarctatus'                 ??????????00010000000?0011???
+	'Eomorphippus obscurus'             000011110010010001110?0000110
+	'Pascualihippus boliviensis'        000001110120010010111?0000121
+	'Rhynchippus equinus'               00000011012001001111120000110
+	'Rhynchippus pumilus'               000000110120010011111?0000110
+	'Rhynchippus brasiliensis'          000000110120010011111?0000110
+	'Eurygenium pacegnum'               00000011012001011111010000111
+	'Eurygenium latirostris'            000000?10121010111110?0000111
+	'Argyrohippus praecox'              000000111120111111111?0100??0
+	'Argyrohippus fraterculus'          000000112130111111111?0100??0
+	'Nesodon imbricatus'                110101?1?12000001111121000110
+	'Proadinotherium leptognathum'      110101?1?120000011111?100011?
+	'Adinotherium ovinum'               110101?1?12000001111121000110
+	'Leontinia guadryi'                 0010000100000100?0111?0000001
+	'Scarrittia canquelensis'           0010000100000100?011110000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-29;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -992192985; FileSettings editor '1' '1' '30' '1'; Singles 010; Editor 0001100111111110010001001 '0' '24' Gadget '12' '206' '1' all; EditorPosition '102' '231' '376' '375'; TreeWindowPosition '91' '843' '620' '715'; ListWindow Characters open Gadget '12' '50' '25' '593' '374' 000; ListWindow Taxa closed Gadget '12' '50' '10' '270' '370' 100000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '17' '733' '61' '322' '323'; WindowOrder List Characters Data States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '676' '21' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '15' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1733127975607; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8512846072248833927; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1613430134456362829; mqVersion 381; checksumv 0 3 1728081739 null getNumChars 29 numChars 29 getNumTaxa 18 numTaxa 18 short true bits 15 states 15 sumSquaresStatesOnly 1272.0 sumSquares 1272.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 938 392; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1613430134456362829 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 838 320; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 838 320; setLocation -7 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 29; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_notohippidae_shockey_1997_mb.nex"'; ID 0193866263dc1; LINK Taxa = Taxa; TRANSLATE [0] 1 Pleurostylodon_modicus, [1] 2 Pampahippus_arenalesi, [2] 3 Plexotemnus_complicatissimus, [3] 4 Puelia_coarctatus, [4] 5 Eomorphippus_obscurus, [5] 6 Pascualihippus_boliviensis, [6] 7 Rhynchippus_equinus, [7] 8 Rhynchippus_pumilus, [8] 9 Rhynchippus_brasiliensis, [9] 10 Eurygenium_pacegnum, [10] 11 Eurygenium_latirostris, [11] 12 Argyrohippus_praecox, [12] 13 Argyrohippus_fraterculus, [13] 14 Nesodon_imbricatus, [14] 15 Proadinotherium_leptognathum, [15] 16 Adinotherium_ovinum, [16] 17 Leontinia_guadryi, [17] 18 Scarrittia_canquelensis; TREE UNTITLED = (1,(2,((3,4),((17,18),(5,((7,(6,(14,(15,16)))),(8,(9,((10,11),(12,13)))))))))); 
+ENDBLOCK;

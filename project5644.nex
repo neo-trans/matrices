@@ -1,0 +1,695 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.39.26 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=71;
+	TAXLABELS
+		'Fortiforceps foliosa'
+		'Acanthomeridion anacanthus'
+		'Acanthomeridion serratum'
+		'Aglaspella granulifera'
+		'Aglaspis spinifer'
+		'Alalcomenaeus cambricus'
+		'Arthropaspis bergstroemi'
+		'Australaglaspis stonyensis'
+		'Australimicola spriggi'
+		'Beckwithia typa'
+		'Brachyaglaspis singularis'
+		'Buenaspis forteyi'
+		'Burgessia bella'
+		'Campanamuta mantonae'
+		'Cheloniellon calmani'
+		'Chlupacaris dubia'
+		'Chraspedops fragilis'
+		'Cindarella eucalla'
+		'Cyclopites vulgaris'
+		'Duslia insignis'
+		'Emeraldella brocki'
+		'Eoredlichia intermediata'
+		'Eozetetes gemelli'
+		'Flobertia kochi'
+		'Glypharthrus magnoculus'
+		'Glypharthrus simplex'
+		'Glypharthrus thomasi'
+		'Glypharthrus trispinicaudatus'
+		'Gogglops ensifer'
+		'Haifengella corona'
+		'Haikoucaris ercaiensis'
+		'Helmetia expansa'
+		'Kiisortoqia soperi'
+		'Kodymirus vagans'
+		'Kuamaia lata'
+		'Kuamaia muricata'
+		'Kwanyinaspis maotiashanensis'
+		'Leanchoilia superlata'
+		'Liwia convexa'
+		'Luohuilinella deletres'
+		'Luohuilinella rarus'
+		'Marella splendens'
+		'Martinssonia elongata'
+		'Mimetaster hexagonalis'
+		'Misszhouia longicaudata'
+		'Naraoia compacta'
+		'Naraoia spinosa'
+		'Nebalia bipes'
+		'Neostrabops martini'
+		'Olenoides serratus'
+		'Phytophilaspis pergamena'
+		'Pygmaclypeatus daziensis'
+		'Quasimodaspis bentsae'
+		'Rebachiella kinnekullensis'
+		'Retifacies abnormalis'
+		'Rhombicalvaria acantha'
+		'Saperion glumaceum'
+		'Sidneyia inexpectans'
+		'Sinoburius lunaris'
+		'Skioldia aldna'
+		'Soomaspis splendida'
+		'Squamacula buckorum'
+		'Squamacula clypeata'
+		'Tariccoia arrusensis'
+		'Tegopelte gigas'
+		'Tremaglaspis unite'
+		'Tremaglaspis vanroyi'
+		'Triopus draboviensis'
+		'Uarthrus instabilis'
+		'Xandarella spectacullum'
+		'Zhiwenia coronata'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=98;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'cuticle sculpture'
+		[2] 'nature of cuticle'
+		[3] 'raised axial region'
+		[4] 'reduced carapace'
+		[5] 'number of post-ocular head segments'
+		[6] 'free head shield'
+		[7] 'bivalved carapace'
+		[8] 'cephalic doublure'
+		[9] 'width of cephalic doublure'
+		[10] 'nature of hypostome'
+		[11] 'anterior cephalic outline'
+		[12] 'anterior sclerite'
+		[13] 'anterior sclerite shape'
+		[14] 'ecdysial sutures'
+		[15] 'elevated marginal rim'
+		[16] 'marginal rim ornamentation'
+		[17] 'differentiated glabellar region'
+		[18] 'posterior cephalic outline'
+		[19] 'posterior cephalic band'
+		[20] 'cephalic pleural furrows'
+		[21] 'fused cephalic-thoracic articulation'
+		[22] 'head shield extends over anterior tergites'
+		[23] 'head shield with lateral notches'
+		[24] 'expanded lateral pleurae'
+		[25] 'complete tergite boundaries'
+		[26] 'nature of tergite articulations'
+		[27] 'articulating half rings'
+		[28] 'dorsal trunk pleural furrow effacement'
+		[29] 'articulation with reduced tergite'
+		[30] 'axial furrows on trunk'
+		[31] 'trunk narrowed anteriorly'
+		[32] 'anterior trunk tergites reflexed anteriorly'
+		[33] 'functional articulations between posterior tergites, anterior tergites variably fused'
+		[34] 'radial pleurae'
+		[35] 'anterior tergal processes'
+		[36] 'tuberculation of posterior tergite margin'
+		[37] 'series of axial spines or nodes'
+		[38] 'axial spine only on posteriormost tergite of thorax'
+		[39] 'pleural tips shape'
+		[40] 'pleural tip spines progressively longer posteriorly'
+		[41] 'postabdomen'
+		[42] 'postabdomen without walking legs'
+		[43] 'postabdomen as differentiated tergites'
+		[44] 'posterior tergites strongly posteriorly curved'
+		[45] 'pygidium'
+		[46] 'pygidium with median keel'
+		[47] 'pygidium with broad median spine'
+		[48] 'pygidium with lateral spines'
+		[49] 'length of lateral spines relative to thoracic spines'
+		[50] 'length or thorax relative to pygdium'
+		[51] 'tailspine'
+		[52] 'tailspine shape'
+		[53] 'length of tailspine'
+		[54] 'marginal spines on tailspine'
+		[55] 'tailspine with median cleft or keel'
+		[56] 'tailspine with multiple articulations'
+		[57] 'ventral sclerite covering anal region'
+		[58] 'nature of anal sclerite'
+		[59] 'postventral plate medial attachment'
+		[60] 'nature of differentiated preterminal tergite'
+		[61] 'nature of first appendage'
+		[62] 'number of podomeres on raptorial limb'
+		[63] 'raptorial appendage with flagellum'
+		[64] 'length of distal spines on podomere of first appendage'
+		[65] 'antennal scale'
+		[66] 'nature of second appendage pair'
+		[67] 'nature of third appendage pair'
+		[68] '4th post antennal appendage pair under cephalo-thoracic articulation'
+		[69] 'modified preteriminal paired appendages'
+		[70] 'nature of modified preterminal appendages'
+		[71] 'gnathobases on protopodite'
+		[72] 'proximal exites'
+		[73] 'decoupling of tergites and limb pairs'
+		[74] 'nature of head and trunk exopodites'
+		[75] 'trunk exopodite structure'
+		[76] 'nature of proximal exopodite lobe'
+		[77] 'nature of distal exopodite lobe'
+		[78] 'shape of undivided exopodite lobe with lamellae'
+		[79] 'exopodite with articulations'
+		[80] 'imbricate exopodite lamellae'
+		[81] 'lamellae structure'
+		[82] 'non-overlapping marginal setae on distal lobe'
+		[83] 'lateral eyes'
+		[84] 'nature of lateral eyes'
+		[85] 'ventral eyes in front of cephalon'
+		[86] 'calcified lateral eyes'
+		[87] 'dorsal exoskeleton lateral eye bulge'
+		[88] 'nature of lateral eye bulge'
+		[89] 'lateral eye slits'
+		[90] 'dorsal lateral eyes confined to anterior half of cephalon'
+		[91] 'dorsal lateral eye abutting glabella anteriorly'
+		[92] 'dorsal lateral eyes merge anteriorly into cephalon'
+		[93] 'dorsal median eye or protocerebral frontal organ'
+		[94] 'position of anus'
+		[95] 'midgut glands or diverticulae'
+		[96] 'position of midgut glands or diverticulae along body'
+		[97] 'position of midgut glands or diverticulae relative to gut tract'
+		[98] 'nature of digestive system'
+	;
+	STATELABELS
+		1
+			'absent'
+			'bresent'
+			,
+		2
+			'unmineralized'
+			'phosphate'
+			'calcite'
+			,
+		3
+			'absent'
+			'weakly defined'
+			'well defined'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'none'
+			'one'
+			'two'
+			'three'
+			'four'
+			'five'
+			'seven'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'narrow to moderately wide less than 30% of length of cephalic shield'
+			'wide (maximum width 30-35% length of cephalic shield)'
+			'covers entire ventral side of cephalon'
+			,
+		10
+			'median extension of the doublure, with no suture'
+			'natant'
+			'with narrow overlap with anterior sclerite'
+			'narrow attachment to doublure at hypostomal suture'
+			'absent'
+			,
+		11
+			'unnotched'
+			'notched axially'
+			'entire anterior margin notched'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'ovoid'
+			'ovoid with flattened posterior edge'
+			'trapezoid'
+			'boomerang'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'genal spines'
+			'acute genal angles'
+			'rounded genal angles'
+			'lateral spine-like extensions of the carapace'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent - unfused'
+			'present - fused'
+			,
+		22
+			'overlap absent or identical to overlap between thoracic segments'
+			'head shield covers first thoracic tergite only'
+			'head shield covers multiple anterior trunk tergites'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'tergites non-overlapping'
+			'overlap of tergites'
+			'edge to edge pleural articulations'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'trunk with defined (separate or fused) tergite boundaries'
+			'trunk tergite boundaries effaced laterally'
+			'trunk tergite boundaries completely effaced'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent, boundaries transverse or posteriorly curved'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'hook at posterior edge'
+			'lateral spine'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'one segment'
+			'two segments'
+			'three segments'
+			'five segments'
+			,
+		42
+			'absent - postabdomen with walking legs'
+			'present - no walking legs on postabdomen segment(s)'
+			,
+		43
+			'absent'
+			'present - tergite free (e.g. some aglaspids, cheloniellids, Emeraldella, Sidneyia)'
+			'present - preterimanl tergite fused with telson (most aglaspidids)'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present - one pair'
+			'present - two pairs'
+			'present - three pairs'
+			'present - six pairs'
+			'present - eleven pairs'
+			,
+		49
+			'similar or shorter than thoracic spines'
+			'longer than thoracic spines'
+			,
+		50
+			'longer than pygidium'
+			'shorter than pygidium'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'spinose'
+			'paddle shaped'
+			'cap-like'
+			,
+		53
+			'shorter than half the length of the trunk'
+			'longer than half the length of the trunk'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'absent'
+			'present (e.g. aglaspidids, Sidneyia)'
+			,
+		58
+			'anal plate (e.g. Sidneyia)'
+			'postventral plate (e.g. Aglaspidida)'
+			,
+		59
+			'narrow attachment by central portion'
+			'wide longitudinal attachment'
+			,
+		60
+			'tergite with reduced pleurae (e.g. Weinbergina)'
+			'cylindrical tergite without pleurae (e.g. Aglaspidida, Cheloniellida, Emeraldella)'
+			,
+		61
+			'raptorial appendage'
+			'antennae'
+			,
+		62
+			'four'
+			'three'
+			'two'
+			'fourteen'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'absent or shorter than podomere'
+			'subequal to length of podomere'
+			'longer than entire podomere series'
+			'longer than podomere'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'biramous'
+			'antenna'
+			,
+		67
+			'biramous'
+			'uniramous'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'uropods'
+			'cerci'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'homonomous, exopodites with same morphology in head and trunk'
+			'heteronomous, exopodites with different morphology in head and trunk'
+			,
+		75
+			'simple oval flap'
+			'exopod differentiated into proximal and distal lobes, the proximal lobe bearing lamellar setae, the distal lobe bearing short setae'
+			'numerous podomeres, each bearing a single seta'
+			'undivided lobe with lamellae'
+			'book gills'
+			,
+		76
+			'flattened lobe'
+			'slender shaft'
+			,
+		77
+			'small to moderate sized flap'
+			'large, teardrop shaped lobe with long attachment'
+			,
+		78
+			'broad lobe (e.g. Retifacies, Pygmaclypeatus)'
+			'slender shaft (e.g. Naraoia compacta)'
+			,
+		79
+			'absent'
+			'present'
+			,
+		80
+			'absent'
+			'present'
+			,
+		81
+			'thick, flat lamellae'
+			'delicate comb-like lamellae'
+			'paddle-shaped lamellae with marginal setae'
+			,
+		82
+			'absent'
+			'small setae'
+			'long spines or filaments'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'stalked'
+			'sessile'
+			,
+		85
+			'absent  – eyes beneath cephalon'
+			'present – eyes in front of cephalon'
+			,
+		86
+			'absent'
+			'present'
+			,
+		87
+			'absent'
+			'present'
+			,
+		88
+			'faint'
+			'prominent'
+			,
+		89
+			'absent'
+			'present'
+			,
+		90
+			'absent (e.g. Trilobita)'
+			'present (e.g. Aglaspidida)'
+			,
+		91
+			'absent (e.g. Trilobita)'
+			'present (e.g. Aglaspidida)'
+			,
+		92
+			'absent (e.g. Trilobita)'
+			'present and eyes are separate (e.g. Glypharthrus)'
+			'present and eyes are medially fused (e.g. Cyclopites)'
+			,
+		93
+			'absent'
+			'present'
+			,
+		94
+			'terminal within telson'
+			'ventral to telson'
+			,
+		95
+			'absent'
+			'present'
+			,
+		96
+			'on every segment'
+			'only in cephalon'
+			'restricted to anterior half of body'
+			'only in trunk'
+			,
+		97
+			'dorsal'
+			'lateral'
+			,
+		98
+			'reniform glands'
+			'anterior pair of diverticulae large, expanding across genal region of cephalic shield, with complicated ramification followed by triangular glands'
+			'triangular diverticulae with sagitally long insertion'
+			'lamellar glands'
+			,
+	;
+	MATRIX
+	'Fortiforceps foliosa'               000040-0?400-00-02000001110000000000000--0000-----1000000---020100000-00000----0-110100-0---010---
+	'Acanthomeridion anacanthus'         0010?0-10?00-10-01000001110000000000000--0-10-----100000?---????????0-????????????1-----0---0?????
+	'Acanthomeridion serratum'           0010?0-10?00-10-01000001110000000000001?-0-10-----100000?---????????0-????????????1-----0---0?????
+	'Aglaspella granulifera'             1100?0-10?00-010110?0001110000000010000-11210-----1010001101????????0-????????????11-0--01110?????
+	'Aglaspis spinifer'                  110040-10000-01110110001110000000011001?11210-----1010001101???????10-??0?????????11-0--01110?????
+	'Alalcomenaeus cambricus'            000040-0-400-00-01000001110000000000000--0000-----1101000---011200000-10000----0-210100-0---11????
+	'Arthropaspis bergstroemi'           001040-0-100-00-11100001121000011000000----01005100-----0---1--00000??1??0101-1101???00-0---?11013
+	'Australaglaspis stonyensis'         0100?0-??000-010110?00011100000000?0?00-11?10-----101010111?????????0-????????????11-0--011?0?????
+	'Australimicola spriggi'             0010?0-10221200-010?0001110000010000000--0-10-----100100?---1--00???0-?????????????-----0---?11310
+	'Beckwithia typa'                    1100?0-10?00-011100000011?00000000001?1-???10-----101100????????????0-????????????11-0--01110?????
+	'Brachyaglaspis singularis'          ?110?0-???00-01002000?0111?0?00000?0000-?1?10-----100010111???????????????????????0---------0?????
+	'Buenaspis forteyi'                  0000?0-10?00-00-02000001111000100000000--0-01?00-00-----0---????????0-????????????????0-0---?1????
+	'Burgessia bella'                    000040-1?400-00-02000-000-0-0000000000---0000-----1010000---1--000000-00000----0-00---------01????
+	'Campanamuta mantonae'               001050-10400-00-02000001121000000000000-0---1000-00---------1--000000-???0????????10000-0---?11012
+	'Cheloniellon calmani'               101150-10100-00-0?000001110001010100000-01110-----1200000--11--0011011100-1?1-1??111-0--00--0?????
+	'Chlupacaris dubia'                  ?100?0-10100-01??2?00?011?0??00000?000???1??0-----100000111?????????0-????????????11-?--00??0?????
+	'Chraspedops fragilis'               1100?0-0-?00-010110100011100000000?0000-???10-----101010????????????0-????????????11-0--0111??????
+	'Cindarella eucalla'                 000050-10100-00-01000211110010000000010--0011000-00-----0---1--000000-0010100-111110100-0---?1????
+	'Cyclopites vulgaris'                0100?0-???00-01012000001110000000010000-11210-----10?00011?1????????0-????????????11-0--01120?????
+	'Duslia insignis'                    0010?0-???00-00-120000011100010?0100000-01110-----1200000--11--?????11????????????????0-0---??????
+	'Emeraldella brocki'                 000040-10000-00-01000001110000000000000-01110-----1010000--11--00100101000101-11210---------?11002
+	'Eoredlichia intermediata'           022040-10300-11110000001121001000000010--0-11000?00-----0---1--000010-1000100-010111-1--0000011212
+	'Eozetetes gemelli'                  0010?0-10000-01111000001110000000000100-???10-----1010100--?1--???????????????????1?0??-01????????
+	'Flobertia kochi'                    1100?0-10000-011?20000011100000?0010000-????0???????????????????????0?????????????11-0--01??0?????
+	'Glypharthrus magnoculus'            1110?0-0-?00-01?11?100011100000000??000-??1?0-----101000???1??????????????????????11-0--01110?????
+	'Glypharthrus simplex'               1100?0-0-?00-010101100011100000000?1000-21210-----1010001111????????0-????????????11-0--01110?????
+	'Glypharthrus thomasi'               ?110?0-0-?00-01011?100011100000000?0000-??210-----101000???1??????????????????????11-0--00110?????
+	'Glypharthrus trispinicaudatus'      1110?0-???00-01?11??00011100000000??000-01110-----10?000???1????????10????????????11-0--01110?????
+	'Gogglops ensifer'                   1210?0-10?00-01010010?011210?0?00010??0-???10-----100000????????????0-????????????11-00-01110?????
+	'Haifengella corona'                 0010?0-??211000-00?000011200000100000021-0-01011100-----?---????????0-????????????1000110---??????
+	'Haikoucaris ercaiensis'             000040-00400-00-0?000001110000000000000--0000-----1001000---010100000-00000----0-210100-0---01????
+	'Helmetia expansa'                   001040-10211000-0100000112000001100000210--01012000-----0---1--000010-??003--0?10-1000100---111013
+	'Kiisortoqia soperi'                 0020400??400-00-0200000111000000000000100--01000-00-----0---030300000-1?000---00-2???00-0---??1?10
+	'Kodymirus vagans'                   100040-10000-00-11000001110000000000100--?210-----1010000--11--001??0-1??-(0 1)??-???111-0--01100?????
+	'Kuamaia lata'                       0010?0-10211100-0100000112000001100000100--01012100-----0---1--0000?0-1000101-11201000110---??????
+	'Kuamaia muricata'                   0010?0010211000-01000001120000011000001-0--01013100-----0---1--0000??????0?????1??1000??0---??????
+	'Kwanyinaspis maotiashanensis'       0000?0-10000?0101100000112?000010000000-??010-----100000???-?????00?0-1000101-01011000110---0?????
+	'Leanchoilia superlata'              000040-0-?00?00-0??00001110000000000000--0010-----1001000---011200000-11000----0-210?00-0---011000
+	'Liwia convexa'                      0000?0-???00?00-01000101110000100000000--?-01101?10-----0---1--0?00?0-??001??-?1???????-?---01????
+	'Luohuilinella deletres'             001040-10100?00-010002111100100000?0000--0-11010-00-----?---1--000000-?0?01?0-?11110000-0---0?1012
+	'Luohuilinella rarus'                0010?0-???00?00-01000211110010?00000000--?-1?????0???????---??????????????????????1??00-0---0?????
+	'Marella splendens'                  000020-0-?00?00-03000200100000000-0000---0?00-----1200000---1--001-00-000-2----0--0---------000---
+	'Martinssonia elongata'              000050-0-400?00-01000200100?0000000000--31000-----0-----0---1--000000-10002----0--0---------00????
+	'Mimetaster hexagonalis'             000030-0-100?00-03000200100000000-0000---0000-----1200000---1--001100-100-2----0--10000-0---??????
+	'Misszhouia longicaudata'            000050-10101300-020000010-020010000000---0--1000-?0-----0---1--010010-1000110-111110000-0---111011
+	'Naraoia compacta'                   0000(4 5)0-10100-00-020000010-020010000000---0--1000-?0-----0---1--000010-10003101112110000-0---?11011
+	'Naraoia spinosa'                    000050-10100-00-000000010-020010000000---0--1001-?0-----0---1--000010-1100101-011110000-0---?11011
+	'Nebalia bipes'                      00005110-400-00-0100020010000000000000--21000-----0-----0---1--000000?10002----0--10100-0---100---
+	'Neostrabops martini'                0001?0-???00-00-?2000001110000010000000-?0?10????-????????????????????????????????11-0--00-0??????
+	'Olenoides serratus'                 122040-10300-11010000001121001000000100--0-01001000-----0---1--10001111000100-110111-1-?000001????
+	'Phytophilaspis pergamena'           111050-0-100-00-11?00?010?011100000000---0-01000-10-----??--????????0-????????????10001110000?????
+	'Pygmaclypeatus daziensis'           000040-10000-00-0100000111000000000000---0-11000-01000010---1--000000-10013--0-12-0---0-0---0?????
+	'Quasimodaspis bentsae'              0110?0-10?00-0101100000111?0000000?0000-???10-----100000????????????0-????????????11-0--0111??????
+	'Rebachiella kinnekullensis'         00005110-400-00-0100020010000000000000--21000-----0-----0---1--000000-10002----0--10100-0---100---
+	'Retifacies abnormalis'              000040-10000-00-00?00001110000000000000--0-11001001010010---1--001100-010-3--0-12-0---0-----01????
+	'Rhombicalvaria acantha'             0010?0-???11000-0000000112000001100000210--01012100-----0--???????????????????????10001100--??????
+	'Saperion glumaceum'                 0000?0-10211100-01001-010-01-000100000---0--1000-?0-----0---1--0?0??0-0?00101-11001000100---?1????
+	'Sidneyia inexpectans'               000010-12000-00-01?00011110000000000000-21110-----11000010-11--001-010100-101--10110000?0---011112
+	'Sinoburius lunaris'                 001050-10100-00-00000201110010000000000--0-01011100-----0---1--010000-1011110-111110001100-00?????
+	'Skioldia aldna'                     0010?0-10211100-0?001-010201-00010000010-0--1004-?0-----0---1--0?00?0-???01??-?10?1000110---?1????
+	'Soomaspis splendida'                0000?0-11?00-00-02000101111000100000000--0-01100-10-----0---????????0-?????????????????-0---01????
+	'Squamacula buckorum'                0000?0-12000-00-01000001120000000000001-0--11000-00-----0---?????00????????????0-1?---------?11010
+	'Squamacula clypeata'                000010-12000-00-01000001110000000000000--0-11000-00-----0---1--000-00-1?000----0-1?---------?11010
+	'Tariccoia arrusensis'               0000?0-11?00-00-02000101110000100000000--0-01100-10-----0---????????0-?????????????????-0---?1????
+	'Tegopelte gigas'                    0000?0-10211-00-01001-010-01-000?00000---0--1000-?0-----0---1--0?00?0-?0003--0?10-100??-0---?11010
+	'Tremaglaspis unite'                 0110?0-0-100-00-020000011100000000?0000-21?00-----100000111?????????0-????????????0---------?0????
+	'Tremaglaspis vanroyi'               1110?0-0-?00-010020001011100101000?0000-???10-----100010??????????????????????????0---------?1????
+	'Triopus draboviensis'               0011?0-???00-00-12000001110001010100000-01110-----1200000--1?????????????????????????00-0---0?????
+	'Uarthrus instabilis'                1100?0-10?00-0???10000011100000000?0000-11?10-----101000110?????????0-????????????11-00-01?10?????
+	'Xandarella spectacullum'            000060-10100-00-01000201110010000000000--0-11011?00-----0---1--000000-1010100-111110001110-001????
+	'Zhiwenia coronata'                  001040-10000-00-02000011110010010000000--0-10-----100100?---1--00???0-?????????1??10100-0---0?????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = ord: 1-98;
+ENDBLOCK;

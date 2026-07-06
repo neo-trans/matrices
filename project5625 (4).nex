@@ -1,0 +1,393 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.37.54 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=18;
+	TAXLABELS
+		'ancestor'
+		'palatodonta'
+		'paraplacodus'
+		'Placodus gigas'
+		'Placodus inexpectatus'
+		'Cyamous rostratus'
+		'Cyamous hildegardis'
+		'Cyamous kuhnschnyderi'
+		'macroplacus'
+		'placochelys'
+		'protenodontosaurus'
+		'psephoderma'
+		'psephochelys'
+		'glyphoderma'
+		'sinocyamodus'
+		'parahenodus'
+		'henodus'
+		'mla9182'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Osteoderms'
+		[2] 'Ratio of the  total length of the skullto the  the total height of the skull'
+		[3] 'Rostrum shape'
+		[4] 'Position of the ventral surface of the premaxilla'
+		[5] 'The posterior extend of the premaxilla'
+		[6] 'Nasals'
+		[7] 'Extension of anterior end of the maxilla'
+		[8] 'Extension of anterior tip of the jugal'
+		[9] 'The posterior extension of the jugal'
+		[10] 'Placement of the pineal foramen'
+		[11] 'Anterolateral processes of frontals'
+		[12] 'Ananterolateral processes in parietal embraced by postfrontal and frontal'
+		[13] 'Frontals posterior extensions in relation to the upper temporal fossa.'
+		[14] 'Constriction of posterior part of the parietal.'
+		[15] 'Shape ofthe  posterolateral margin of postfrontal'
+		[16] 'Extension of Postfrontal'
+		[17] 'Posterior estension of the postorbital'
+		[18] 'Location of the vertical part of the suture separating the maxilla from the jugal'
+		[19] 'Dorsal process of the epipterygoid'
+		[20] 'Predominant suture of the base of the epipterygoid'
+		[21] 'Postorbital forming a medioventral process which abuts against the lateral surface of the epipterygoid at the posterodorsal margin of the foramen interorbitale.'
+		[22] 'Ratio of the the basicranial length (tip of snout to occipital condyle) to the transverse diameter of the upper temporal fossa'
+		[23] 'Ratio of the longitudinal diameter of the upper temporal fossa to the longitudinal diameter of the orbit'
+		[24] 'Presence of a posterior dorsal process fromed by the epipterygoid, that contacts the squamosal at the anterodorsal comer of posttemporal fossa.'
+		[25] 'Ossification of the epipterygoid'
+		[26] 'An otic process of the squamosal'
+		[27] 'A palatoquadrate cartilage recess'
+		[28] 'A basiorbital furrow'
+		[29] 'The palatine contact with the quadrate along the lateral margin of the palatoquadrate cartilage recess.'
+		[30] 'The pteroccipital foramen'
+		[31] 'Exposure of the prootic in occipital view of the skull'
+		[32] 'Premaxillary teeth'
+		[33] 'Anterior premaxillary and dentary teeth'
+		[34] 'A diastema separating premaxillary and maxillary teeth'
+		[35] 'Number of maxillary teeth'
+		[36] 'Number of palatine teeth.'
+		[37] 'Anterior palatal tooth plate(s)'
+		[38] 'Ratio of the longitudinal to the transverse diameter of the posterior palatine tooth plate'
+		[39] 'Maxilla anterior process extending into rostrum in ventral view'
+		[40] 'Ventral surface of rostrum'
+		[41] 'Distinct grooves leading up to internal nares in ventral surface of rostrum'
+		[42] 'Internal nares'
+		[43] 'Ectopterygoid present'
+		[44] 'The ratio of the length of palatal exposure of pterygoid relative to length of palatine'
+		[45] 'Number of the ventral pterygoid flange ventral projection(s)'
+		[46] 'The posttemporal fossae'
+		[47] 'The squamosal buttress against which abuts the distal tip of the paroccipital process'
+		[48] 'The posteroventral tubercle at the distal tip of the paroccipital process'
+		[49] 'The exoccipitals contact above occipital condyle (above the basioccipital).'
+		[50] 'The basioccipital tuber and the ventral opisthotic flang'
+		[51] 'Anterior tip of dentary'
+		[52] 'Spatial relation of coronoid to mandible'
+		[53] 'The retroarticular process'
+		[54] 'Tubercular osteoderms, secondarily fused to the underlying bone'
+		[55] 'Quadratojugal'
+		[56] 'Jugal-squamosal contact'
+		[57] 'Coronoid process'
+		[58] 'Crushing tooth plates'
+		[59] 'Diastema between symphyseal and posterior dentary teeth'
+		[60] 'Spatial relation between palatines'
+		[61] 'Lenght of pterygoids compared to palatines'
+		[62] 'External naris'
+		[63] 'Chevron morphology'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			'carapace present'
+			,
+		2
+			'ratio smaller than 3'
+			'ratio larger than 3'
+			,
+		3
+			'relatively short and broad'
+			'narrow and distinctly elongated'
+			'spatulate'
+			,
+		4
+			'The ventral surface of the premaxilla is level with the ventral surface of the maxilla'
+			'Rostrum is distinctly downturned'
+			,
+		5
+			'more  than half of the length of the ventral margin of the external naris'
+			'less than half of the length of the ventral margin of the external naris'
+			,
+		6
+			'in contact along midline of skull'
+			'separated from one another by large posterior (nasal) processes of the premaxilla and/or anterior processes of the fronta.'
+			,
+		7
+			'does not  expand medially to form most of the dermal floor of the external naris.'
+			'expand medially to form most of the dermal floor of the external naris'
+			,
+		8
+			'extend anteriorly along the ventral margin of the orbit beyond the midpoint of the longitudinal diam'
+			'does not extend anteriorly along the ventral margin of the orbit beyond the midpoint of the longitudinal diameter of the orbit'
+			,
+		9
+			'extend backward along the anteromedial margin of the subtemporal fossa'
+			'does not extend backward along the margin of the subtemporal fossa'
+			,
+		10
+			'placed in centre of parietal skull table'
+			'displaced anteriorly on parietal skull table'
+			'displaced anteriorly with frontal entering its anterior margin'
+			,
+		11
+			'well developed'
+			'reduced'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'do not  reach posteriorly beyond the level of the anterior margin of the upper temporal fossa'
+			'reach posteriorly beyond the level of the anterior margin of the upper temporal fossa'
+			,
+		14
+			'constricted in its posterior part'
+			'skull table square (i.e., with straight lateral margins in its posterior part) in its posterior part'
+			,
+		15
+			'weakly concave and evenly curved'
+			'deeply concave and angulated'
+			,
+		16
+			'Postfrontal enters upper temporal fossa'
+			'Postfrontal  is excluded from upper temporal fossa by a narrow contact of the postorbital with the parietal.'
+			'Postfrontal  is excluded from upper temporal fossa by a broad contact of the postorbital with the parietal.'
+			,
+		17
+			'extends along lateral margin of temporal fossa to a level in front of or at the midpoint of the longitudinal diameter of the upper temporal fossa'
+			'extends further back'
+			,
+		18
+			'behind the level of the posterior margin of the orbit'
+			'behind the level of the midpoint of the longitudinal diameter of the orbit but in front of the posterior margin of the latter'
+			'at the level of the midpoint of the longitudinal diameter of the orbit'
+			,
+		19
+			'narrow'
+			'broad'
+			,
+		20
+			'to pterygoid'
+			'to palatine'
+			,
+		21
+			'Absent'
+			'Present'
+			,
+		22
+			'larger than 3'
+			'smaller than 3'
+			,
+		23
+			'smaller than 2  (in the adult)'
+			'equal or larger than 2 (in the adult)'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'always fully ossified in the adul'
+			'may be incompletely ossified in the adult'
+			,
+		26
+			'absent'
+			'extends to the midpoint of the ventral margin of the posttemporal fossa'
+			'extends beyond the level of the medial margin of the posttemporal fossa (2) (in lateral view of the skull'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'present'
+			'absent'
+			,
+		33
+			'pointed'
+			'chisel-shaped'
+			'bulbous with anterior transverse ridge'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'Four or more'
+			'three'
+			'two'
+			'absent'
+			'Substituted by longitudinal furrow'
+			'one'
+			,
+		36
+			'More than three'
+			'three'
+			'two'
+			'one'
+			,
+		37
+			'small and rounded'
+			'transversely enlarged'
+			,
+		38
+			'less than 1.4'
+			'equal or more than 1.4'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'flat'
+			'concave'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'separated'
+			'confluent'
+			,
+		43
+			'present'
+			'absent; if absent, palatine extends laterally at the anterior margin of the subtemporal fossa to meet the jugal'
+			'absent, jugal extends backwards'
+			,
+		44
+			'less than 0.3'
+			'more than 0.3'
+			,
+		45
+			'single'
+			'double'
+			,
+		46
+			'relatively large'
+			'reduced because of expansion of occipital exposure of parietal, squamosal, and opisthotic'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'separate'
+			'meet each other ventral to passage of internal carotid'
+			,
+		51
+			'with teeth'
+			'edentulous'
+			,
+		52
+			'remains well separated from lower margin of the mandible'
+			'closely approaches the lower margin of mandible'
+			,
+		53
+			'long and slender'
+			'short with a sloping surface'
+			,
+		54
+			'absent'
+			'present along the posterior margin of the upper temporal fossa only'
+			'present on lateral surface of posterior part of temporal arch also'
+			,
+		55
+			'present'
+			'absent'
+			,
+		56
+			'abesnt'
+			'present'
+			,
+		57
+			'absent'
+			'distinct but low'
+			'very high'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'separated by pterygoids'
+			'meeting in medial suture'
+			,
+		61
+			'longer'
+			'shorter'
+			,
+		62
+			'not distinctly higher than long'
+			'distinctly higher than long'
+			,
+		63
+			'simple, y-shaped'
+			'complex as described by Rieppel (2000) for Paraplacodus('
+			,
+	;
+	MATRIX
+	'ancestor'                   000000000000000000000000000000000000000000000000000000000000000
+	'palatodonta'                ?00?00?010?000000????????0?????01000??0???????????00?011100??1?
+	'paraplacodus'               000000?0????0??00?0?0?00?0?0??00010010??01??0?????000010111??01
+	'Placodus gigas'             100000000(0 1)010000110000000000000011(0 1)1100001000000000000112111110
+	'Placodus inexpectatus'      1000?0?0?1000?0112????0????????0110110????????????0?0011211??11
+	'Cyamous rostratus'          ?000001111011012?0110111011001(0 1)02021000000201(0 1)0110011?0?211110?
+	'Cyamous hildegardis'        2?00?????1???1???????01????????02(0 1)(0 1)(1 2)0(0 1)???0?0??????011200211110?
+	'Cyamous kuhnschnyderi'      2000001111111011?111?11?111101002(0 1)2200000020110110011200?11110?
+	'macroplacus'                20??110101000(0 1)0112111?0?0110010??12201110010?1???????201?1?110?
+	'placochelys'                2111001001(0 1)001111111100102101111??120011101100100111120121?110?
+	'protenodontosaurus'         20011000010001020211?00?(0 1)21011101152001100(1 2)00000110???01?1?110?
+	'psephoderma'                211011100(1 2)0000021111?00?011011?1??22011110(1 2)100100011110121?1100
+	'psephochelys'               20101111011000011211?000001001?1??22001110?10?10??11110021?110?
+	'glyphoderma'                2?1000100110011111????0????0???1??????????????1???1??100?1???00
+	'sinocyamodus'               2?00?01001?1001201???00???10???0201201100??10?????0?12002111100
+	'parahenodus'                ???????1?1??01120????00???1???????43?1????2?01?1?????201?1?0???
+	'henodus'                    20211101?10100????11000?01?1?1????43?11100?101011010120111?0100
+	'mla9182'                    ??2???????????????????????????????4???1??0?????????????????0???
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-63;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1733764955676; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8583781301625264319; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 178694878015006359; mqVersion 381; checksumv 0 3 503116431 null getNumChars 63 numChars 63 getNumTaxa 18 numTaxa 18 short true bits 31 states 31 sumSquaresStatesOnly 3725.0 sumSquares 3725.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 990; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #178694878015006359 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 109; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 918; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 918; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #178694878015006359 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 918; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 63; 
+ENDBLOCK;

@@ -1,0 +1,751 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.19.30 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=31;
+	TAXLABELS
+		'Simocormus seyboldi'
+		'Pteronisculus spp'
+		'Amia calva'
+		'Caturus spp.'
+		'Discoserra pectinodon'
+		'Elops hawaiensis'
+		'Hiodon alosoides'
+		'Lepidotes spp'
+		'Lepisosteus platostomus'
+		'Macrepistius arenatus'
+		'Macrosemius rostratus'
+		'Dorsetichthys bechei'
+		'Semionotus elegans'
+		'Watsonulus eugnathoides'
+		'Dentilepisosteus laevis'
+		'Asthenocormus titanius'
+		'Australopachycormus hurleyi'
+		'Bonnerichthys gladius'
+		'Euthynotus spp'
+		'Hypsocormus insignis'
+		'Orthocormus tenuirostris'
+		'Leedsichthys problematicus'
+		'Martillichthys renwickae'
+		'Orthocormus spp'
+		'Pachycormus spp'
+		'Protosphyraena spp'
+		'Rhinconichthys spp'
+		'Saurostomus esocinus'
+		'Ohmdenia multidentata'
+		'Simocormus macrolepidotus'
+		'Germanostomus pectoperi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=130;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Ethmoid ossifications'
+		[2] 'Anterior myodome'
+		[3] 'Basipterygoid process'
+		[4] 'Posterior myodome'
+		[5] 'Endoskeletal floor of posterior myodome'
+		[6] 'Lateral commissure breadth'
+		[7] 'Spiracular canal'
+		[8] 'Dermal component of sphenotic'
+		[9] 'Opisthotic'
+		[10] 'Pterotic'
+		[11] 'Pterotic fused with dpt'
+		[12] 'Epioccipital'
+		[13] 'Intercalar'
+		[14] 'Membranous outgrowths of intercalar'
+		[15] 'Position of membranous outgrowths of ic'
+		[16] 'Lateral cranial canal'
+		[17] 'Subtemporal fossa'
+		[18] 'Posttemporal fossae'
+		[19] 'Communication between posttemporal fossa and f. Bridgei'
+		[20] 'Cranial fissures'
+		[21] 'Foramen for vagus nerve completely within exoccipital'
+		[22] 'Doral aorta in basicranial region'
+		[23] 'Vertebrae fused into adult occipital condyle'
+		[24] 'Vomers'
+		[25] 'Parasphenoid corpus in sphenethmoid region'
+		[26] 'Parasphenoid dentition'
+		[27] 'ICF through parasphenoid'
+		[28] 'Efferent pseudobranchial foramen through parasphenoid'
+		[29] 'Ornament on dermal bones of skull'
+		[30] 'Rostral bone'
+		[31] 'Contrubution of rostral to oral margin'
+		[32] 'Rostrodermethmoid'
+		[33] 'Marginal teeth on rdme'
+		[34] 'Paramedial fangs on rdme'
+		[35] 'Parietals'
+		[36] 'Skull roof'
+		[37] 'Posterior boss on skull roof'
+		[38] 'Posterior margin of skull roof'
+		[39] 'Free, elongated posterior processes of dpt'
+		[40] 'Independent extrascapulars'
+		[41] 'Number of extrascapulars'
+		[42] 'Dermosphenotic'
+		[43] 'Dermosphenotic forming dorsal margin of orbit'
+		[44] 'Supraorbitals'
+		[45] 'Contact between anterior supraorbitals and bones carrying io canal'
+		[46] 'Anterior supraorbitals contact'
+		[47] 'Suborbitals'
+		[48] 'Suborbital size'
+		[49] 'Suborbital number'
+		[50] 'Broad overlap of pop by suborbitals'
+		[51] 'Antorbital shape'
+		[52] 'Infraorbitals behind orbit'
+		[53] 'Infraorbitals anterior to circumorbital ring'
+		[54] 'Posteriorly extensive infraorbital'
+		[55] 'Preopercle'
+		[56] 'Dorsal limb of pop'
+		[57] 'Marginal dentition'
+		[58] 'Carinae extending length of teeth'
+		[59] 'Supraorbital canal in premaxilla'
+		[60] 'Premaxilla forms much of skull roof in snout region'
+		[61] 'Premaxillary dentition'
+		[62] 'Mobile pmx'
+		[63] 'Grooved, notched, or perforated premaxillary ascending process'
+		[64] 'Maxilla'
+		[65] 'Maxilla length'
+		[66] 'Position of orbit relative to maxilla'
+		[67] 'Posterior margin of mx'
+		[68] 'Thickened ridge on external surface of mx'
+		[69] 'Supramaxilla: presence'
+		[70] 'Supramaxilla: position'
+		[71] 'Hyomandibula'
+		[72] 'Opercular process of hyomandibula'
+		[73] 'Quadratojugal'
+		[74] 'Jaw joint'
+		[75] 'Symplectic'
+		[76] 'Symplectic position relative to quadrate'
+		[77] 'Coossification of symplectic and pop'
+		[78] 'Position of jaw joint'
+		[79] 'Quadrate with elongate posteroventral process'
+		[80] 'Close association between quadrate and mpt'
+		[81] 'Ectopterygoid participation in palate'
+		[82] 'Entopterygoid-dermopalatie contact'
+		[83] 'Lower jaw'
+		[84] 'Dentary shape'
+		[85] 'Dentary tooth rows'
+		[86] 'Form of anterior dentary dentition'
+		[87] 'Surangular'
+		[88] 'Coronoid process'
+		[89] 'Coronoid bones'
+		[90] 'Anterior coronoid plate'
+		[91] 'Prearticular'
+		[92] 'Prearticular dentition'
+		[93] 'Hypohyal'
+		[94] 'Exposed dorsal projection of subopercle between preopercle and opercle'
+		[95] 'Gulars'
+		[96] 'Number of hypobranchials'
+		[97] 'Uncinate processes on epibranchials'
+		[98] 'Relative position of dorsal and anal fins'
+		[99] 'Caudal fin segmentation'
+		[100] 'Ossification of vertebral centra'
+		[101] 'Opisthocoelous vertebral centra'
+		[102] 'Long epineural intermuscular bones'
+		[103] 'Caudal diplospondyly'
+		[104] 'Uroneurals'
+		[105] 'Hypural plate'
+		[106] 'Geometry of hypural plate'
+		[107] 'Main hypural plate'
+		[108] 'Clavicle'
+		[109] 'Medial wing of cleithrum'
+		[110] 'Supracleithrum'
+		[111] 'Supracleithrum, long axis'
+		[112] 'Accessory postcleithra'
+		[113] 'Pectoral girdle endoskeleton reduced to mesocoracoid arch'
+		[114] 'Pectoral propterygium'
+		[115] 'Pectoral fin radial morphology'
+		[116] 'Pectoral fin shape'
+		[117] 'Fusion of rays along leading edge of pectoral fin'
+		[118] 'Bifurcations in pectoral fin rays'
+		[119] 'Bifurcations in pectoral lepidotrichia independent of joints'
+		[120] 'Pelvic fins: presence'
+		[121] 'Pelvic fins: position'
+		[122] 'Scales'
+		[123] 'Ridge scales'
+		[124] 'Scale morphology'
+		[125] 'Scale rows per axial segment in abdominal region'
+		[126] 'Ganoine on flank scales'
+		[127] 'Large preanal scales'
+		[128] 'Pre-caudal scaly keel'
+		[129] 'Differentiated pre-caudal scute'
+		[130] 'Scaly caudal apparatus'
+	;
+	STATELABELS
+		1
+			'Present'
+			'Absent'
+			,
+		2
+			'Present'
+			'Absent'
+			,
+		3
+			'Well developed'
+			'Absent'
+			,
+		4
+			'Present'
+			'Absent'
+			,
+		5
+			'Complete'
+			'Fenestrate'
+			,
+		6
+			'Anteroposteriorly broad'
+			'Slender'
+			,
+		7
+			'Present'
+			'Absent'
+			,
+		8
+			'Absent'
+			'Present'
+			,
+		9
+			'Present'
+			'Absent'
+			,
+		10
+			'Present'
+			'Absent'
+			,
+		11
+			'Absent'
+			'Present'
+			,
+		12
+			'Bordered anteriorly by cranial fissure'
+			'Contacts otic region'
+			,
+		13
+			'Present'
+			'Absent'
+			,
+		14
+			'Minor'
+			'Extensive'
+			,
+		15
+			'Medial to jugular'
+			'lateral to jugular'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'Absent'
+			'Present'
+			,
+		20
+			'Ventral otic and otico-occipital fissure confluent with vestibular fontanelle'
+			'Fissures closed or pattern obscured'
+			,
+		21
+			'Absent'
+			'Present'
+			,
+		22
+			'Accommodated in a pronounced aortic groove'
+			'Accommodated in a shallow depression'
+			,
+		23
+			'Absent'
+			'Present'
+			,
+		24
+			'Paired'
+			'Median'
+			,
+		25
+			'Narrow'
+			'Broad'
+			,
+		26
+			'Present'
+			'Absent'
+			,
+		27
+			'Absent'
+			'Present'
+			,
+		28
+			'Absent'
+			'Present'
+			,
+		29
+			'Absent'
+			'Present'
+			,
+		30
+			'Cap on snout apex separating the nasals'
+			'Reduced to narrow tube'
+			,
+		31
+			'Absent'
+			'Present'
+			,
+		32
+			'Terminates at or posterior to tip of mandibular symphysis'
+			'Forms a produced rostrum extending anterior to symphysis'
+			,
+		33
+			'Present'
+			'Absent'
+			,
+		34
+			'Absent'
+			'Present'
+			,
+		35
+			'Paired'
+			'Single midline ossification'
+			,
+		36
+			'Tightly sutured'
+			'Unsutured'
+			,
+		37
+			'Absent'
+			'Present'
+			,
+		38
+			'Straight or concave'
+			'W-shaped'
+			,
+		39
+			'Absent'
+			'Present'
+			,
+		40
+			'Present'
+			'Absent'
+			,
+		41
+			'Single'
+			'Multiple'
+			,
+		42
+			'Hinged to skull roof'
+			'Bound to anterior margin of sphenotic'
+			,
+		43
+			'Absent'
+			'Present'
+			,
+		44
+			'Absent'
+			'Present'
+			,
+		45
+			'Absent'
+			'Present'
+			,
+		46
+			'Antorbital'
+			'Infraorbitals only'
+			,
+		47
+			'Present'
+			'Absent'
+			,
+		48
+			'Equal in size or smaller than infraorbitals'
+			'Much larger than infraorbitals'
+			,
+		49
+			'1'
+			'2'
+			'>2'
+			,
+		50
+			'Absent'
+			'Present'
+			,
+		51
+			'Platelike, with minimal anterior process'
+			'Tapering towards slender anterior process'
+			,
+		52
+			'1-6'
+			'>6'
+			'0'
+			,
+		53
+			'Absent'
+			'Present'
+			,
+		54
+			'Present'
+			'Absent'
+			,
+		55
+			'With broad dorsal margin'
+			'With narrow ascending limb'
+			,
+		56
+			'Platelike'
+			'Narrow splint with no posterior lamina'
+			,
+		57
+			'Present'
+			'Absent'
+			,
+		58
+			'Absent'
+			'Present'
+			,
+		59
+			'Absent'
+			'Present'
+			,
+		60
+			'Absent'
+			'Present'
+			,
+		61
+			'Similar to maxillary teeth'
+			'Enlarged'
+			,
+		62
+			'Absent'
+			'Present'
+			,
+		63
+			'Absent'
+			'Present'
+			,
+		64
+			'Fixed'
+			'Free'
+			,
+		65
+			'Long, extends beneath mid-orbit'
+			'Short'
+			,
+		66
+			'Centered'
+			'Restricted to posterior half'
+			,
+		67
+			'Straight or convex'
+			'Indented'
+			,
+		68
+			'Absent'
+			'Present'
+			,
+		69
+			'Absent'
+			'Present'
+			,
+		70
+			'Dorsal to mx'
+			'Posterodorsal to mx'
+			,
+		71
+			'Strongly waisted with concave margins'
+			'Straight anterior and posterior margins'
+			,
+		72
+			'Absent'
+			'Present'
+			,
+		73
+			'Present'
+			'Absent'
+			,
+		74
+			'Single'
+			'Double'
+			,
+		75
+			'Slender and splint-shaped'
+			'Broad and hatchet-shaped'
+			,
+		76
+			'Medial'
+			'Posterior'
+			,
+		77
+			'Absent'
+			'Present'
+			,
+		78
+			'Well behind orbit'
+			'Below or anterior to orbit'
+			,
+		79
+			'Absent'
+			'Present'
+			,
+		80
+			'Present'
+			'Absent'
+			,
+		81
+			'Less than half'
+			'Makes up majority'
+			,
+		82
+			'Present'
+			'Absent'
+			,
+		83
+			'Terminating opposite or posterior to upper jaw'
+			'Extending anteriorly beyond upper jaw'
+			,
+		84
+			'Relatively straight'
+			'Strongly bowed laterally'
+			,
+		85
+			'Labial row + lingual row'
+			'Single row'
+			,
+		86
+			'Similar to posterior teeth'
+			'Enlarged, procumbent fangs'
+			,
+		87
+			'Present'
+			'Absent'
+			,
+		88
+			'Absent'
+			'Present'
+			,
+		89
+			'Present'
+			'Absent'
+			,
+		90
+			'Not inflated'
+			'Inflated'
+			,
+		91
+			'Present'
+			'Absent'
+			,
+		92
+			'Present'
+			'Absent'
+			,
+		93
+			'Single ossification'
+			'Separate dorsal and ventral ossifications'
+			,
+		94
+			'Absent'
+			'Present'
+			,
+		95
+			'Present'
+			'Absent'
+			,
+		96
+			'3'
+			'4'
+			,
+		97
+			'Absent'
+			'Present'
+			,
+		98
+			'Df base overlapping anterior 1/3 of af base'
+			'Df base lies anterior to af base'
+			'DF base posterior to anterior 1/3 of af base'
+			,
+		99
+			'Segmented'
+			'Unsegmented'
+			,
+		100
+			'Absent'
+			'Present'
+			,
+		101
+			'Absent'
+			'Present'
+			,
+		102
+			'Absent'
+			'Present'
+			,
+		103
+			'Absent'
+			'Present'
+			,
+		104
+			'Absent'
+			'Present'
+			,
+		105
+			'Absent'
+			'Present'
+			,
+		106
+			'Horizontal axis equivalent to or longer than vertical axis'
+			'Vertical axis longer than horizontal'
+			,
+		107
+			'Notched posterodorsally'
+			'Entire'
+			,
+		108
+			'Present'
+			'Absent'
+			,
+		109
+			'Absent'
+			'Present'
+			,
+		110
+			'Broad and plate like'
+			'Splint-like'
+			,
+		111
+			'Straight'
+			'With prominent elbow or kink'
+			,
+		112
+			'Absent'
+			'Present'
+			,
+		113
+			'Absent'
+			'Present'
+			,
+		114
+			'Free'
+			'Fused to first pectoral fin ray'
+			,
+		115
+			'Cylindrical'
+			'Paddle-shaped'
+			,
+		116
+			'Bluntly rounded'
+			'Triangular, leading edge not tapering in distal third'
+			'Notably tapering anterior edge, ''gladiform'''
+			,
+		117
+			'Absent'
+			'Present'
+			,
+		118
+			'Present'
+			'Absent'
+			,
+		119
+			'Absent'
+			'Present'
+			,
+		120
+			'Present'
+			'Absent'
+			,
+		121
+			'At or posterior to midpoint between pf and af'
+			'Anterior to midpoint between pf and af'
+			,
+		122
+			'Present'
+			'Absent'
+			,
+		123
+			'Absent'
+			'Present'
+			,
+		124
+			'Rhombic'
+			'Round'
+			,
+		125
+			'One'
+			'Two or more'
+			,
+		126
+			'Absent'
+			'Present'
+			,
+		127
+			'Absent'
+			'Present'
+			,
+		128
+			'Absent'
+			'Present'
+			,
+		129
+			'Absent or narrow'
+			'Short and wide'
+			,
+		130
+			'Absent'
+			'Present'
+			,
+	;
+	MATRIX
+	'Simocormus seyboldi'              ????????????????????????????101000?0?????01???011???????1000100100?011???????0????00???00????????200-0??10???00????100100000?10?01
+	'Pteronisculus spp'                00000000??00---000-0???00000100---0000001000--0010000000000000000-000-0?00?-?00000-00000000000010000-0?00--00000000000000000?1???0
+	'Amia calva'                       0010100111-10101010101100000100---0000000100--1---10001000000011001010011111100000-0100100000101100100100--00000000000000001000000
+	'Caturus spp.'                     001011?111-10100110101?00000010---000010010110011110011000000011001010011111100?00-0100100000101100100100--0000100000000000000(0 1)000
+	'Discoserra pectinodon'            0?100100---1---??1?1??????0?100---000?0010010-0020?00110000000001-000-0?10010-0???0010?1?????-0??000-0?00--1?000???00?000010?1?0?0
+	'Elops hawaiensis'                 00101110101101111111110???10000---0000000001101---000010000001010000100?100001100000?0111-1-1000110101010--101010??00?000001?000?0
+	'Hiodon alosoides'                 0010111010110111111110010011000---0000000000--1----000100000010100000-0?10000110000010111-1-1010100101010--10000010000000001?000?0
+	'Lepidotes spp'                    1?0011??11-11--011?110100100110---0000000001110121101110000000111-00100?00?10-000?0010?10000?11?100100?00--01001?0000000001001?0?0
+	'Lepisosteus platostomus'          1101-00111-11--000-111100000110---0000001001110021101110001100101-000-0?00010-011100000100000111020110000--0100110?000000000011000
+	'Macrepistius arenatus'            001011?10011010?11010???01001?0---0000000101100121?0011000?000?1011010???1??11????00?0?1??00?10??0010010??-????1??0??????000?1?0?0
+	'Macrosemius rostratus'            0?001??01001???0???111?00101110---0000000000--1---101111000000111-000-1?000?0-00000010010000011?100100?00--01001?0000000000001?0?0
+	'Dorsetichthys bechei'             000011000010---01100?0?10011100---00-00000010-0100000010000001010000100?100001100?0010011?0?000??10101110--10000?1?000000000?10000
+	'Semionotus elegans'               1?001??111-11?????0?11?00000010---0000000001110101101110000000111-00100000010-000?0110010000011?1000-0?00--010011??000000010?1?0?0
+	'Watsonulus eugnathoides'          00001101--?0---0?1?0-1?00000110---0000000101100020100100000000110010100?11110000000010010000010??000-0?00--000010??00?000000?1?0?0
+	'Dentilepisosteus laevis'          1101-1?111-11--????110?000001??---0000?0110111002??01010001100?11-00100?00???101110010010?0?011??00110000--01001???000000000?1?0?0
+	'Asthenocormus titanius'           ????????????????????????????0010--000101-??0--1---?2?1??1-?0-??1010?0-10????01????00--?0?????00??110-0??111????????20011-10---?010
+	'Australopachycormus hurleyi'      0???????00??0???????????????1011111000??????????????????01?0100???0???????????????0011??01????????10???????????????2?1-????????0??
+	'Bonnerichthys gladius'            0?1??1?0000?00-??1???0?011100010--?1??11-010--????0?????1-?0-0-10?010-1110???00???01--????01?00????0-???11110???0?12101??1?-?-????
+	'Euthynotus spp'                   ???????0????????????????0???101000?010?00010--01100?011000?00--10000110?1??0?0????0010?0?????0???20100?110010001???10010100000000?
+	'Hypsocormus insignis'             ???????????????????????0????101001?01?000??0?-011??1?11001?000?1000?1101?????0????0000?001???00??000-0?1100?000???11001010001?0001
+	'Orthocormus tenuirostris'         0?1??????????????????0?00010101101?0100???????011??1?11000?010010000110??????0??0000010001000?????00-0??10110????1??0????000??00??
+	'Leedsichthys problematicus'       ?????????????????????1??11??0???--?1??????????????????111-??-??1??????01?0??????????--??????0?0???10-?????????????12001??1?-?????0
+	'Martillichthys renwickae'         ???????0????????????????11??001010000111-010--1---????1?1--0---101010-111000010???11--0000010?0??110-0?????????????21011?10---?010
+	'Orthocormus spp'                  0????1??0???00-?????0??00???101111101????010?-011?0?011?00?01001000011?1?????0????0001?0?????????000-0?1???1?00101?100101000100001
+	'Pachycormus spp'                  00101100000-00-0111000?00010101000001001-010--01100101100000000100001?01101000000000100000000001110(0 1)00?11001001101110?11-000101000
+	'Protosphyraena spp'               0?1??1?0000-00-?11??00?0001010111110101??010--01??0?0???01?01001000?0-0?10?0?00?0?00010001000?0???00-??110(0 1)10???011211-0110-???0?0
+	'Rhinconichthys spp'               0?1011???????????1???1?01???1010--000111-010--????????1?1--0---100010-10?0??00?00?11--00??010?0????0-?????????????1?10???1--?????0
+	'Saurostomus esocinus'             ??1????0???????????????01110101000001001-010--1---?2?111000000010000110110100000000000000001000??000-0?1110101010?111011-010101110
+	'Ohmdenia multidentata'            ????????????????????????????1?????????????????????????1100??0-010?0???10?0????0????00000??????????00-0?????1011???121011-1--??1?10
+	'Simocormus macrolepidotus'        0???????????????????????????101001001001-010--011101?1?100000001000011???0???00???000100??0???0??200-0??10???0?1011100100000010001
+	'Germanostomus pectoperi'          ??1????0????????????????????1010?00?????-??0--1---0201110000000100011110?0???000??000000????000???00-0?111?101??01111011-000-0?110
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-130;
+ENDBLOCK;
+BEGIN LABELS;
+ CHARGROUPLABEL Character_Matrix; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1737397322154; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1589542890613626822; tell It; setDefaultOrder 0 1 5 6 7 9 13 14 15 16 20 23 24 27 2 3 4 8 10 11 12 17 18 19 21 22 25 26 28 29 30; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2433568675280567266; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 125 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 126 70 71 72 73 74 75 76 77 78 79 82 122 80 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 131 149 135 129 127 126; attachments ; endTell; mqVersion 370; checksumv 0 3 3799285802 null getNumChars 130 numChars 130 getNumTaxa 31 numTaxa 31 short true bits 7 states 7 sumSquaresStatesOnly 5412.0 sumSquares 5412.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 960; setLocation -8 1; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2433568675280567266 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 110; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 888; setLocation -8 1; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 334; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 888; setLocation -8 1; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 130; 
+ENDBLOCK;
+BEGIN MRBAYES;
+ charset Character_Matrix = 1 -129; partition matrices = 1 : Character_Matrix; set partition = matrices; unlink statefreq = ( all ) revmat = ( all ) shape = ( all ) pinvar = ( all ); prset applyto = ( all ) ratepr = variable; mcmcp ngen = 10000000 relburnin = yes burninfrac = 0.5 printfreq = 1000 samplefreq = 1000 nchains = 4 savebrlens = yes; mcmc; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARSET Character_Matrix = 1- 82 84- 124 128- 130; CHARPARTITION * UNTITLED = Character_Matrix : 1- 82 84- 124 128- 130; CHARPARTITION matrices = Character_Matrix : 1- 82 84- 124 128- 130; 
+ENDBLOCK;

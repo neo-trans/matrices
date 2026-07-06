@@ -1,0 +1,319 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.14.55 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=33;
+	TAXLABELS
+		'''Plesiechinus'' hawkinsi'
+		'Plesiechinus ornatus'
+		'Pygaster gresslyi'
+		'Pileus hemisphaericus'
+		'Holectypus depressus'
+		'Loriolella ludovicii'
+		'Eogaleropygus microstoma'
+		'Galeropygus agariciformis'
+		'Hyboclypus caudatus'
+		'Centropygus petitclerci'
+		'Clypeus plotii'
+		'Pygurus depressus'
+		'Nucleolites clunicularis'
+		'Pseudosorella orbignyana'
+		'Menopygus nodoti'
+		'Pyrinodia guerangeri'
+		'Infraclypeus thalebensis'
+		'Desorella elata'
+		'Pachyclypus semiglobus'
+		'Orbigniana ebrayi'
+		'Pygorhytis ringens'
+		'Cyclolampas kiliani'
+		'Pygomalus ovalis'
+		'Collyrites elliptica'
+		'Disaster moeschi'
+		'Metaporinus sarthacensis'
+		'Tithonia praeconvexa'
+		'Caenocidaris cucumifera'
+		'Acrosalenia hemicidaroides'
+		'Farquharsonia crenulata'
+		'Diademopsis bowerbankii'
+		'Eodiadema minutum'
+		'Atlasaster jeanneti'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=39;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Development of the genital plate 2'
+		[2] 'Elongation of posterior ocular plates'
+		[3] 'Contact between posterior ocular plates'
+		[4] 'Development of genital plate 5'
+		[5] 'Perforation of genital plate 5'
+		[6] 'Supplementary plates between the bivium and the trivium'
+		[7] 'Supplementary plates between the posterior ocular plates and the periproct'
+		[8] 'Supplementary plates between the anterior ocular plates'
+		[9] 'Supplementary plates between the posterior ocular plates'
+		[10] 'Endo- and exocyclism'
+		[11] 'Contact between the posterior ocular plates and the periproct'
+		[12] 'Structure of the apical system'
+		[13] 'Disjunction of the apical system'
+		[14] 'Size of the periproct'
+		[15] 'Position of the periproct'
+		[16] 'Attitude of the periproct'
+		[17] 'Depression of ambulacra'
+		[18] 'Compounded plates (ambulacral units composed of several elemental plates bound together by a single large primary tubercle)'
+		[19] 'Structure of the adoral part of the ambulacra'
+		[20] 'Petals'
+		[21] 'Phyllodes'
+		[22] 'Differentiation of oral interambulacral plates'
+		[23] 'Bourrelets (doming of the interambulacra near the peristome)'
+		[24] 'Buccal notches'
+		[25] 'Perignathic girdle (internal processes for attachment of muscles supporting the lantern)'
+		[26] 'Position of the peristome'
+		[27] 'Depression of the peristome'
+		[28] 'Density of primary tubercles on ambulacral plates'
+		[29] 'Density of primary tubercles on interambulacral plates'
+		[30] 'Ordering of primary tubercles'
+		[31] 'Crenulation of primary tubercles (tubercles with ribbed periphery)'
+		[32] 'Symmetry of areoles (depression for attachment of muscles supporting and controlling movement of spines)'
+		[33] 'Size of spines'
+		[34] 'Internal structure of spines'
+		[35] 'Presence of the lantern'
+		[36] 'Type of teeth'
+		[37] 'Type of pyramids'
+		[38] 'Marginal outline of the test'
+		[39] 'Profile of the test'
+	;
+	STATELABELS
+		1
+			'all genital plates of nearly the same size'
+			'genital 2 enlarged'
+			,
+		2
+			'posterior ocular plates short'
+			'posterior ocular plates elongated (much longer than wide)'
+			,
+		3
+			'ocular plates completely separated by the periproct or by supplementary plates'
+			'ocular plates in contact (or separated by genital plate 2 in ethmolytic apical structures)'
+			,
+		4
+			'genital plate 5 well developed and not deformed'
+			'genital plate 5 crescent-shaped, lying at the lower side of the periproct'
+			'genital plate 5 lacking or reduced'
+			,
+		5
+			'genital plate 5 bearing a gonopore'
+			'genital plate 5 not bearing a gonopore'
+			,
+		6
+			'no supplementary plates between the bivium and the trivium'
+			'supplementary plates in continuous row of catenal plates between the bivium and the trivium'
+			'supplementary plates in irregular plating between the bivium and the trivium'
+			,
+		7
+			'no supplementary plates between the posterior ocular plates and the periproct'
+			'supplementary plates forming a catenal row between the posterior ocular plates and the periproct'
+			'supplementary plates in irregular plating between the posterior ocular plates and the periproct'
+			,
+		8
+			'no supplementary plates between the anterior ocular plates'
+			'supplementary plates present between the anterior ocular plates'
+			,
+		9
+			'no supplementary plates between the posterior ocular plates'
+			'supplementary plates present between the posterior ocular plates'
+			,
+		10
+			'periproct not in contact with interambulacrum 5 (endocyclic state)'
+			'periproct in contact with the interambulacrum 5 (exocyclic state)'
+			,
+		11
+			'periproct in contact with the posterior ocular plates (or with the posterior genital plates when the ocular plates are exsert)'
+			'periproct not in contact with the posterior ocular plates'
+			,
+		12
+			'apical system dicyclic, genital and ocular plates forming two concentric circles around the periproct, no ocular joining the periproctal rim'
+			'apical system monocyclic or hemicyclic, at least some ocular plates participate in the inner circle around the periproctal rim'
+			'apical system intercalary, genital plates 1 and 4 not in contact with the periproct, and genital plate 2 not in contact with genital plate 4'
+			'apical system compact, genital plate 2 in contact with genital plate 4'
+			,
+		13
+			'posterior ocular plates and genital plates 1 and 4 in contact'
+			'posterior ocular plates and genital plates 1 and 4 disjunct'
+			,
+		14
+			'surface of the periproct smaller than or of nearly the same size as the apical disc'
+			'surface of the periproct much larger than the apical disc'
+			,
+		15
+			'periproct supramarginal'
+			'periproct marginal'
+			'periproct inframarginal'
+			,
+		16
+			'periproct flush with the test'
+			'periproct in a slight anal groove'
+			'periproct vertical and in a steep anal groove'
+			,
+		17
+			'ambulacra not depressed on the oral side'
+			'ambulacra depressed on the oral side'
+			,
+		18
+			'simple ambulacral plating, ambulacra composed throughout of simple plates'
+			'compound plating of diadematoid type, unit of three plates bound together'
+			'compound plating of acrosaleniid type, a simple plate alternates with two plates bound together'
+			'compound plating of plesiechinid type, each plate overlained by two tubercles that bind it to two different units'
+			,
+		19
+			'ambulacra composed only of primary plates adorally, that is plates with an adradial (contact with the interambulacral column) and a perradial suture (contact with the neighbouring ambulacral column)'
+			'ambulacra composed adorally of reduced plates intercalated between primary plates, and pore pairs arranged in triads'
+			'ambulacra composed adorally of reduced plates intercalated between primary plates, and pore pairs not arranged in triads'
+			,
+		20
+			'petals not differentiated, partitioned isopores aborally'
+			'petals slightly developed, enlarged and specialized pore pairs aborally'
+			'petals well developed, enlarged and elongated anisopores, outer pores in a narrow slit'
+			,
+		21
+			'phyllodes not differentiated, ambulacral pores not specialized near the peristome'
+			'phyllodes with specialized ambulacral pore pairs near the peristome'
+			,
+		22
+			'basicoronal interambulacral plates not differentiated'
+			'enlarged basicoronal interambulacral plates'
+			,
+		23
+			'bourrelets absent'
+			'bourrelets present'
+			,
+		24
+			'buccal notches well developed'
+			'small residual buccal notches'
+			'buccal notches absent'
+			,
+		25
+			'perignathic girdle complete'
+			'perignathic girdle atrophied, no longer functional'
+			'perignathic girdle absent'
+			,
+		26
+			'peristome close to a central position'
+			'peristome anterior'
+			,
+		27
+			'peristome depressed'
+			'peristome flush with the test'
+			,
+		28
+			'one single large primary tubercle on each ambulacral plate (or compound plate)'
+			'two or three ''primary'' tubercles on each ambulacral plate near the ambitus'
+			'numerous ''primary'' tubercles on each ambulacral plate near the ambitus'
+			,
+		29
+			'one single large primary tubercle on each interambulacral plate'
+			'two or three ''primary'' tubercles on each interambulacral plate near the ambitus'
+			'numerous ''primary'' tubercles on each interambulacral plate near the ambitus'
+			,
+		30
+			'primary tubercles ordered in concentric rows all over the test'
+			'primary tubercles not ordered in concentric rows'
+			,
+		31
+			'primary tubercles crenulate'
+			'primary tubercles smooth'
+			,
+		32
+			'areoles with a radial symmetry on the oral side'
+			'areoles with bilateral symmetry, the long axis arranged radially on the oral side'
+			'areoles with bilateral symmetry, the long axis arranged anterior to posterior on the oral side'
+			,
+		33
+			'large primary spines'
+			'short and slender primary spines'
+			,
+		34
+			'hollow primary spines'
+			'solid primary spines'
+			,
+		35
+			'Aristotle’s lantern present in adults'
+			'Aristotle’s lantern absent in adults'
+			,
+		36
+			'teeth of cidaroid type'
+			'grooved teeth'
+			'keeled teeth'
+			'teeth diamond-shaped in cross-section'
+			,
+		37
+			'narrow pyramids'
+			'wide pyramids'
+			,
+		38
+			'circular outline, length and width of the test more or less equal'
+			'widened outline, test wider than long'
+			'elongated outline, test longer than wide'
+			,
+		39
+			'high, rounded test'
+			'low, rounded test'
+			'low, flattened test'
+			,
+	;
+	MATRIX
+	'''Plesiechinus'' hawkinsi'       1101000?0001010001010000000120001?03101
+	'Plesiechinus ornatus'            110210001101010103000000000120011103101
+	'Pygaster gresslyi'               110210001103010103010000000120011103102
+	'Pileus hemisphaericus'           100210001113010103010000000220111?03100
+	'Holectypus depressus'            100210001113012003010000000120011003101
+	'Loriolella ludovicii'            ?10??00??00101011000100110110000001??01
+	'Eogaleropygus microstoma'        ?101?00??001000100111002?00221??1?13111
+	'Galeropygus agariciformis'       010110011001000210111011?10221021013112
+	'Hyboclypus caudatus'             010110011001000210111002210221021013121
+	'Centropygus petitclerci'         111110011102000210121012?10221021013101
+	'Clypeus plotii'                  111110000103000210121012?10221021013102
+	'Pygurus depressus'               101210000113002110121012210221021013102
+	'Nucleolites clunicularis'        111110201113000210221012?10221021013121
+	'Pseudosorella orbignyana'        111210000113000210221012?00221021013111
+	'Menopygus nodoti'                010110011001000200000001200221021?1??01
+	'Pyrinodia guerangeri'            000?100111130000?000000??002210?1?1??21
+	'Infraclypeus thalebensis'        000?10111112002110010012100221021?1??01
+	'Desorella elata'                 000?101111120011100000111002210?1?1??21
+	'Pachyclypus semiglobus'          000?100011130010?00?00???00221021?1??21
+	'Orbigniana ebrayi'               010111011002100210101002?1022102101??21
+	'Pygorhytis ringens'              01111001000210111011100211022102101??21
+	'Cyclolampas kiliani'             011112010002101010101002?1122102101??22
+	'Pygomalus ovalis'                11111200100210010020100221022102101??20
+	'Collyrites elliptica'            11111210111210101021110221022102101??21
+	'Disaster moeschi'                111110000003101000001102?1122102101??21
+	'Metaporinus sarthacensis'        101110000112101000211102?1022102101??20
+	'Tithonia praeconvexa'            01111000000210100020110211022102101??20
+	'Caenocidaris cucumifera'         000000000000000000000002001000000100000
+	'Acrosalenia hemicidaroides'      000100010001000002100000000000000102000
+	'Farquharsonia crenulata'         000100000001000002000000000000000?01000
+	'Diademopsis bowerbankii'         ??0?000?000?000001000000000010100001000
+	'Eodiadema minutum'               ??0?000?0000000001000000000000000003100
+	'Atlasaster jeanneti'             000100000001000001100000000010100?0??00
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-39;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845277871; FileSettings '1' '1' '42' '1'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '192' '1' all; EditorPosition '46' '6' '665' '601'; TreeWindowPosition '46' '6' '873' '1455'; ListWindow Characters open Gadget '12' '90' '65' '729' '321' 000; ListWindow Taxa closed Gadget '12' '50' '10' '270' '347' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '134' '414'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '134' '185'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols closed Gadget '12' '10' '55' '3' '203' '272'; WindowOrder List Characters; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '813' '42' '115' '165'; TreeToolsPosition '576' '6' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '12' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1724011620150; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 781718109898995253; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6283738341268888019; mqVersion 381; checksumv 0 3 1101621499 null getNumChars 39 numChars 39 getNumTaxa 33 numTaxa 33 short true bits 15 states 15 sumSquaresStatesOnly 6452.0 sumSquares 6452.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6283738341268888019 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 212; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont Gadget; setFontSize 14; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 39; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXSET Outgroup = 28 - 33; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Jurassic_Irregularia_Saucede_et_al_2007.nex"'; ID 017612891dbe2; LINK Taxa = Taxa; TRANSLATE [0] 1 Plesiechinus_hawkinsi, [1] 2 Plesiechinus_ornatus, [2] 3 Pygaster_gresslyi, [3] 4 Pileus_hemisphaericus, [4] 5 Holectypus_depressus, [5] 6 Loriolella_ludovicii, [6] 7 Eogaleropygus_microstoma, [7] 8 Galeropygus_agariciformis, [8] 9 Hyboclypus_caudatus, [9] 10 Centropygus_petitclerci, [10] 11 Clypeus_plotii, [11] 12 Pygurus_depressus, [12] 13 Nucleolites_clunicularis, [13] 14 Pseudosorella_orbignyana, [14] 15 Menopygus_nodoti, [15] 16 Pyrinodia_guerangeri, [16] 17 Infraclypeus_thalebensis, [17] 18 Desorella_elata, [18] 19 Pachyclypus_semiglobus, [19] 20 Orbignyana_ebrayi, [20] 21 Pygorhytis_ringens, [21] 22 Cyclolampas_kiliani, [22] 23 Pygomalus_ovalis, [23] 24 Collyrites_elliptica, [24] 25 Disaster_moeschi, [25] 26 Metaporinus_sarthacensis, [26] 27 Tithonia_praeconvexa, [27] 28 Caenocidaris_cucumifera, [28] 29 Acrosalenia_hemicidaroides, [29] 30 Farquharsonia_crenulata, [30] 31 Diademopsis_bowerbankii, [31] 32 Eodiadema_minutum, [32] 33 Atlasaster_jeanneti; TREE Figure_6 = (28,(29,(30,((31,33),(32,(1,((2,(3,(4,5))),(6,(15,((16,(19,(18,17))),((9,(7,(8,(10,((11,12),(13,14)))))),(20,(21,(22,(27,(25,(23,(24,26)))))))))))))))))); TREE Rerooted = (31,(33,((30,(28,29)),((1,((2,(3,(4,5))),(6,(15,((16,(19,(18,17))),((9,(7,(8,(10,(11,(12,(13,14))))))),(20,(21,(22,(27,(25,(23,(24,26))))))))))))),32)))); TREE Strat_Rooted_Ingroup = (1,((2,(3,(4,5))),(6,(15,((16,(19,(18,17))),((9,(7,(8,(10,((11,12),(13,14)))))),(20,(21,(22,(27,(25,(23,(24,26))))))))))))); 
+ENDBLOCK;

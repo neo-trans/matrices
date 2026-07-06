@@ -1,0 +1,517 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 07.09.37 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=23;
+	TAXLABELS
+		'Psittacosaurus mongoliensis'
+		'Yinlong downsi'
+		'Tylocephale gilmorei'
+		'Foraminacephale brevis'
+		'Colepiocephale lambei'
+		'Pachycephalosaurus wyomingensis'
+		'Alaskacephale gangloffi'
+		'Sphaerotholus goodwini'
+		'Sphaerotholus buchholtzae'
+		'Sphaerotholus edmontonensis'
+		'Acrotholus audeti'
+		'Amtocephale gobiensis'
+		'Sinocephale bexelli'
+		'Wannanosaurus yansiensis'
+		'Homalocephale calathocercos'
+		'Goyocephale lattimorei'
+		'Stegoceras validum'
+		'Prenocephale prenes'
+		'Zavacephale rinpoche'
+		'Platytholus clemensi'
+		'Sphaerotholus triregnum'
+		'Sphaerotholus lyonsi'
+		'CMNFV 22039'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=85;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Preorbital skull length relative to basal skull length'
+		[2] 'Ventral border of external nares'
+		[3] 'Antorbital fossa (external antorbital fenestra)'
+		[4] 'Overall orbit shape'
+		[5] 'Infratemporal fenestra size'
+		[6] 'Posterolateral edge of skull formed by squamosal and postorbital in doral view'
+		[7] 'Supratemporal fenestra'
+		[8] 'Occiput, ratio of maximum width to maximum height'
+		[9] 'Arched premaxilla-maxilla diastema'
+		[10] 'Maxilla, ratio of the width across the rostral end to that across the caudal end of the tooth row'
+		[11] 'Arrangement of rostral nodes'
+		[12] 'Jugal quadrate flange ornamentation'
+		[13] 'Jugal anterior process wedges in between the lacrimal and maxilla'
+		[14] 'Jugal anterior process'
+		[15] 'Jugal, ventral margin beneath the postorbital process'
+		[16] 'Quadratojugal fossa'
+		[17] 'Premaxilla, premaxillary foramen'
+		[18] 'Quadrate mandibular articulation'
+		[19] 'Quadrate (paraquadratic) foramen'
+		[20] 'Pterygoquadrate rami, posterior projection of ventral margin'
+		[21] 'Posterior edge of squamosal'
+		[22] 'Squamosal exposure on occiput'
+		[23] 'Postorbital-squamosal bar, form'
+		[24] 'Mediolateral orientation of the ventral margin of the squam'
+		[25] 'Parietosquamosal bar beneath the primary node row'
+		[26] 'Primary (enlarged) nodes (node row) along posterodorsal margin of squamosals'
+		[27] 'Ornamentation consisting of minute tubercles ventral to the primary node row'
+		[28] 'Size of medialmost nodes in primary parietosquamosal node row relative to successive lateral nodes'
+		[29] 'Enlarged corner node on squamosal ventrolateral to primary node row of parietosquamosal bar'
+		[30] 'Number of enlarged ventrolateral corner nodes'
+		[31] 'Number of nodes in primary parietosquamosal node row'
+		[32] 'Posterior accessory node on squamosal ventral to nodes 3 and 4 in the primary parietosquamosal node row'
+		[33] 'Number of posterior node rows on the squamosal'
+		[34] 'Number of lateral node rows on the squamosal'
+		[35] 'Squamosal, several nodes drawn out into long spikes'
+		[36] 'Squamosal, dorsal ornamentations'
+		[37] 'Contact of anterior supraorbital with frontal'
+		[38] 'Posterior supraorbital'
+		[39] 'Supraorbital ridge'
+		[40] 'Frontal and parietal thickness'
+		[41] 'Doming of frontoparietal'
+		[42] 'Grooves separating frontonasal boss from supraorbital lobes on frontal'
+		[43] 'Frontal participation in supratemporal fenestra'
+		[44] 'Parietal portion of cranial dome'
+		[45] 'Roof of temporal chamber as manifest on parietal in lateral view'
+		[46] 'Parietals, distinctive indentation on midline of caudal edge'
+		[47] 'Parietal between supratemporal fenestrae'
+		[48] 'Exposure of posteromedian (intersquamosal) process of the parietal between squamosals'
+		[49] 'Parietal, parietosquamosal nodes'
+		[50] 'Postorbital-parietal contact'
+		[51] 'Postorbital-jugal bar, position of descending process of postorbital'
+		[52] 'Postorbital-jugal contact'
+		[53] 'Dorsal margins of postorbital and posterior supraorbital sutural surfaces on dome'
+		[54] 'Diastema between posterior supraorbital and postorbital on dorsolateral ridge (dorsal view)'
+		[55] 'Postorbital-jugal node row'
+		[56] 'Prootic-basisphenoid plate'
+		[57] 'Supraoccipital, contribution to dorsal margin of foramen magnum'
+		[58] 'Position of the major bilateral depressed insertion area for the atlanto-occipital capsular membrane/ligament'
+		[59] 'Basioccipital plate, recesses'
+		[60] 'Basioccipital contribution to the basal tubera'
+		[61] 'Basioccipital, longitudinal ridge below condyle'
+		[62] 'Node-like ornamentation of the dentary'
+		[63] 'Middle premaxillary teeth, size'
+		[64] 'Number of maxillary teeth'
+		[65] 'Dentary tooth row (and edentulous anterior portion) in lateral view'
+		[66] 'Dentary teeth, number of alveoli'
+		[67] 'Zygapophyseal articulations, form'
+		[68] 'Posterior sacral rib length'
+		[69] 'Caudal myorhabdoi ossifications'
+		[70] 'Sternal shape'
+		[71] 'Humeral length'
+		[72] 'Humeral shaft form'
+		[73] 'Deltopectoral crest development'
+		[74] 'Preacetabular process, shape of distal end'
+		[75] 'Iliac blade, lateral deflection of preacetabular process'
+		[76] 'Iliac blade, position of medial tab'
+		[77] 'Medial overhang of ilium forming a tab/shelf'
+		[78] 'Ilium, depth of blade above acetabulum'
+		[79] 'Ratio between the depth and length of postacetabulum'
+		[80] 'Postacetabular process of ilium'
+		[81] 'Pubic body'
+		[82] 'Ischial pubic peduncle, shape'
+		[83] 'Jugal process of the postorbital'
+		[84] 'Projection angle of medial flange of ilium'
+		[85] 'Shape of femoral fourth trochanter'
+	;
+	STATELABELS
+		1
+			'more than 50%'
+			'between 40-45%'
+			'less than 35%'
+			,
+		2
+			'significantly below infratemporal fenestra'
+			'at about the level of infratemporal fenestra'
+			'significantly above infratemporal fenestra'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'uniformly circular to subcircular'
+			'elliptical, caudodorsal margin of orbit distinctly narrower'
+			,
+		5
+			'larger than orbit, lower temporal bar long'
+			'smaller than orbit, lower temporal bar greatly shortened, jugal and quadrate in close proximity or have a small contact'
+			,
+		6
+			'straight'
+			'convex'
+			,
+		7
+			'remain open throughout ontogeny'
+			'closed'
+			,
+		8
+			'>1.1'
+			'0.9~1.1'
+			'<0.9'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'more than 45%'
+			'below 40%'
+			,
+		11
+			'nodes absent'
+			'weakly developed nodes present'
+			'well-developed nodular nodes present'
+			'nodes hypertrophied and forming "half rings"'
+			,
+		12
+			'nodes absent'
+			'ornamentation present but posteroventral region of the flange is devoid of ornamentation'
+			'many nodes of similar size covers the whole lateral surface'
+			'large conical node projects laterally from the jugal'
+			,
+		13
+			'present'
+			'absent'
+			,
+		14
+			'dorsoventrally narrow and strap-like'
+			'dorsoventrally tall'
+			,
+		15
+			'straight or only slightly concave'
+			'strongly concave, in association with the dorsoventral expansion of the posterior process'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'Absent'
+			'Present'
+			,
+		18
+			'quadrate condyles sube'
+			'medial condyle is larger than lateral condyle'
+			'lateral condyle is larger than medial'
+			,
+		19
+			'present'
+			'absent'
+			,
+		20
+			'weak, jaw joint at the approximate level of occlusal surface'
+			'pronounced, jaw joint below occlusal surface'
+			,
+		21
+			'angled anteromedially'
+			'nearly along one line or angled posteromedially'
+			,
+		22
+			'restricted'
+			'broad'
+			,
+		23
+			'strap-shaped with a narrow dorsal margin'
+			'broad, flattened'
+			,
+		24
+			'Horizontal or slopes linearly at a shallow ventrolateral angle'
+			'slopes linearly at a steep ventrolateral angle'
+			'markedly curving along the ventral margin'
+			,
+		25
+			'absent'
+			'maintains approximately the same depth or slightly shallows'
+			'shallows laterally'
+			,
+		26
+			'absent'
+			'only at the corner'
+			'makes a row'
+			,
+		27
+			'absent'
+			'adjacent to primary node row, with an unornamented ventral region'
+			'extensive over the posterior wall'
+			,
+		28
+			'subequal'
+			'enlarged'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'single corner node'
+			'at least two corner nodes'
+			,
+		31
+			'5 or less'
+			'6 or more'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'none'
+			'1 or 2'
+			'3 or more'
+			,
+		34
+			'none'
+			'1 or 2'
+			'3 or more'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'minute tubercles and/or pits are present'
+			'dorsal posterior node row is developed'
+			,
+		37
+			'absent'
+			'restricted'
+			'extensive'
+			,
+		38
+			'absent'
+			'present, participates with palpebral in excluding the frontal from the orbital rim'
+			,
+		39
+			'absent'
+			'both anterior and posterior supraorbital have a ridge'
+			'posterior supraorbital has a row of nodes instead of a ridge'
+			,
+		40
+			'thin'
+			'thick'
+			,
+		41
+			'absent'
+			'does not include supraorbital lobes'
+			'includes supraorbital lobes'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'extends to posterior margin of the parietal, forming a "down-turned" parietal'
+			'does not extend to posterior margin, but forms a posterior parietal shelf'
+			,
+		45
+			'absent'
+			'sub-horizontal'
+			'posterodorsally inclined'
+			,
+		46
+			'present'
+			'absent'
+			,
+		47
+			'forms a sagittal keel'
+			'formed by a dorsally flattened ornate surface'
+			,
+		48
+			'caudolateral wings well developed'
+			'broad'
+			'restricted or absent'
+			,
+		49
+			'absent'
+			'medial most nodes of the primary node row occur largely or completely on the parietal'
+			,
+		50
+			'absent or very narrow'
+			'broad'
+			,
+		51
+			'extends to the ventral margin of the orbit'
+			'terminates above the ventral margin of the orbit'
+			,
+		52
+			'the postorbital and jugal have long contact surface, forming a scarf-joint'
+			'the contact surface is reduced and block-like distal end of the postorbital forms a robust joint with a jugal'
+			,
+		53
+			'dorsally arched such that there is a distinct diastema between the two'
+			'both are straight and continuous, diastema absent'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'forms entire dorsal margin of foramen magnum'
+			'exoccipital with medial process that restricts the contribution of the supraoccipital'
+			,
+		58
+			'lateral to the foramen magnum'
+			'dorsal to the foramen magnum'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'large, the posterior surface of the basal tubera is completely occupied by basioccipital'
+			'reduced, basisphenoid occupies the lateroventral basal tubera'
+			,
+		61
+			'absent'
+			'sharp'
+			'broad'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'equivalent to maxillary teeth'
+			'much larger than maxillary teeth'
+			,
+		64
+			'15 or fewer'
+			'17 or greater'
+			,
+		65
+			'straight'
+			'anterior end downturned'
+			'anterior end strongly upturned'
+			,
+		66
+			'less than 15'
+			'15-20'
+			'more than 20'
+			,
+		67
+			'flat'
+			'grooved'
+			,
+		68
+			'short and subrectangular'
+			'strap-shaped and elongate'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'plate-shaped'
+			'shafted'
+			,
+		71
+			'more than 50% of femoral length'
+			'less than 50% of femoral length'
+			,
+		72
+			'straight'
+			'bowed'
+			,
+		73
+			'strong and markedly protruding from the shaft'
+			'weakly developed'
+			'faint'
+			,
+		74
+			'tapered and subveritcally oriented'
+			'dorsoventrally flattened and expanded distally'
+			,
+		75
+			'weak'
+			'marked'
+			,
+		76
+			'dorsal to acetabulum'
+			'on post acetabular process'
+			,
+		77
+			'absent'
+			'present'
+			,
+		78
+			'dorsoventrally deep, depth more than 60% the width between rostral margin of the pubic peduncle and the caudal margin of ischial peduncle at the base'
+			'shallow, depth less than 50% the peduncle-peduncle length'
+			,
+		79
+			'less than 1.5'
+			'more than 2.0'
+			,
+		80
+			'elongate and subrectangular'
+			'deep and downturned distally, with an arcuate dorsal margin'
+			,
+		81
+			'substantial'
+			'reduced, nearly excluded from acetabulum'
+			,
+		82
+			'dorsoventrally flattened'
+			'transversely flattened'
+			,
+		83
+			'long and slender'
+			'anteroposteriorly widened and massive'
+			,
+		84
+			'flange absent'
+			'directly horizontal from the dorsal margin of the ilium'
+			'projects dorsomedially'
+			,
+		85
+			'strongly pendant'
+			'weakly pendant'
+			'not pendant'
+			,
+	;
+	MATRIX
+	'Psittacosaurus mongoliensis'          220000000000000002100000000???0000?00000001?00000000??00?10000?020000000000?011000000
+	'Yinlong downsi'                       211000010002000?02000000000?0?0000000000001?00000010??001000101020000?0?000?0110?00??
+	'Tylocephale gilmorei'                 ???1101????2??111?01111012101000110??1112????11???11001??1????????????????????????1??
+	'Foraminacephale brevis'               ??????1?????????????111012200010110121?12100111111??0????????????????????????????????
+	'Colepiocephale lambei'                ??????0?????????????????????????????21?1110121???1??0????????????????????????????????
+	'Pachycephalosaurus wyomingensis'      000(0 1)10111133??1011111111?2?(0 1)100000(0 1)?11212000211(1 2)?111101??1112??1????1?????????????1??
+	'Alaskacephale gangloffi'              ??????1????????0????11101211??0?1102???1???0?????????????????????????????????????????
+	'Sphaerotholus goodwini'               ?????01?????????????11112210100?110121?120002112011?10?1?1???1???1???????????????????
+	'Sphaerotholus buchholtzae'            ?????01?????????????1111221(0 1)1001110111?12000211111??10???????????????????????????????
+	'Sphaerotholus edmontonensis'          ??????1??????????????1??????????????2??1200021?111??1????????????????????????????????
+	'Acrotholus audeti'                    ??????1??????????????11?????????????(1 2)1?12000?11201??0????????????????????????????????
+	'Amtocephale gobiensis'                ??????1?????????????????????????????21?12?00?111?1??0????????????????????????????????
+	'Sinocephale bexelli'                  ??????1???????????????1????????????????1???0?011?1???????????????????????????????????
+	'Wannanosaurus yansiensis'             ????10???????00???????10000?0?000001?101??1?0??0?010?00??????0???0????110?????????0??
+	'Homalocephale calathocercos'          ????11?1?1?2111010110110022111001101?1?1??0??1111111?01100112??1??1111???111100111112
+	'Goyocephale lattimorei'               ?????1??1?2?????????11100221111?1?021111??0??111011??1?1?0???10?0111111111101?10?????
+	'Stegoceras validum'                   10011001101111101001111212110?10100121112100111(1 2)(0 1)111001100112100011?11112111101010122
+	'Prenocephale prenes'                  0011111110221110101111121210100011011121200021120111011101111?00??111????1111?(0 1)111111
+	'Zavacephale rinpoche'                 010?10021111000112010110010?0?000101211120110010001000111101101011111?11111?11101?112
+	'Platytholus clemensi'                 ??????1???????????????1??????????????1?1200???1101??1????????????????????????????????
+	'Sphaerotholus triregnum'              ????????????????????1111222110?12202???????????1?????????????????????????????????????
+	'Sphaerotholus lyonsi'                 ????????????????????11112221????1?01???????????1?????????????????????????????????????
+	'CMNFV 22039'                          ???????????????????????????????????????????????????????????????????1?????111101011?21
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-85;
+ENDBLOCK;

@@ -1,0 +1,258 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.36.23 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=11;
+	TAXLABELS
+		'Adocus sp.'
+		'Zangerlia testudinimorpha'
+		'Zangerlia neimongolensis'
+		'Zangerlia ukhaachelys'
+		'Basilemys variolosa'
+		'Basilemys nobilis'
+		'Basilemys sinuosa'
+		'Basilemys praeclara'
+		'Basilemys orientalis'
+		'Anomalochelys angulata'
+		'Nanhsiungchelys wuchingensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Numerous deep cranial scute sulci on dermal roofing elements'
+		[2] 'Extensive postorbital squamosal contact due to the great anterior extent of the squamosal and the great posterior extent of the postorbital'
+		[3] 'Extent of upper temporal emargination'
+		[4] 'Extent of lower temporal emargination'
+		[5] 'Lingual ridges of maxilla'
+		[6] 'Antorbital groove on the surface of the maxilla along the anteroventral rim of the orbit'
+		[7] 'Medial contact of palatines'
+		[8] 'Incisura columella auris'
+		[9] 'Size and contacts of the basisphenoid'
+		[10] 'Central morphology of the eighth cervical'
+		[11] 'Coracoid'
+		[12] 'Size and medial contact of thyroid fenestrae'
+		[13] 'Thelial process of ilium'
+		[14] 'Length of manual and pedal digits'
+		[15] 'Limb osteoderms'
+		[16] 'Steep deﬂection of the postneural part of the carapace'
+		[17] 'Knobby protrusion of the carapace at the position of the ﬁrst suprapygal'
+		[18] 'Nuchal notch'
+		[19] 'Shape and size of nuchal'
+		[20] 'Costiform process of nuchal'
+		[21] 'Neurals'
+		[22] 'Contacts of suprapygals with peripherals'
+		[23] 'Shape of pygal'
+		[24] 'Anterior contacts of vertebral I'
+		[25] 'Contacts of vertebral V with marginals X and XI'
+		[26] 'Position of vertebral V relative to suprapygals'
+		[27] 'Position of vertebral V relative to peripheral X'
+		[28] 'Sulcus between pleural I and marginals II and III'
+		[29] 'Sulcus between pleural III and marginals VII–IX'
+		[30] 'Extent of anterior plastral lobe'
+		[31] 'Extragulars'
+		[32] 'Fusion of gulars'
+		[33] 'Size and medial contact of extragulars'
+		[34] 'Broad dorsal extension of gulars onto thickened anterior plastral lip'
+		[35] 'Position of gulars and extragulars relative to entoplastron'
+		[36] 'Humero-pectoral sulcus'
+		[37] 'Inframarginals'
+		[38] 'Expansion of the ventromedial edge of marginal VI'
+		[39] 'Participation of pectoral to rim of axillary notch'
+		[40] 'Geographical distribution:'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'foramen stapedio-temporale fully exposed in dorsal view'
+			'foramen stapedio-temporale concealed in dorsal view'
+			,
+		4
+			'moderately developed, processus pterygoideus externus barely visible in lateral view'
+			'absent or shallow, processus pterygoideus externus concealed in lateral view'
+			,
+		5
+			'double'
+			'single or absent'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'open posteriorly'
+			'closed posteriorly'
+			,
+		9
+			'basisphenoid short, anteriorly only in contact with pterygoid'
+			'basisphenoid elongate, anteriorly in contact with vomer or palatine'
+			,
+		10
+			'opistocoelous'
+			'biconvex'
+			,
+		11
+			'at and elongate'
+			'ﬂat, fan-shaped'
+			,
+		12
+			'fenestrae large and conﬂuent'
+			'fenestrae small, medial contact absent'
+			,
+		13
+			'present'
+			'absent'
+			,
+		14
+			'digits elongate, typically three phalanges per digit'
+			'digits shortened, less than three phalanges per digit'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'absent, posterior peripherals great ﬂared'
+			'present, posterior peripherals shortened'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent or shallow'
+			'present, formed by the nuchal and peripheral I'
+			'present, formed by nuchal only'
+			,
+		19
+			'small and trapezoid'
+			'large and V-shaped'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'neurals VII and VIII reduced or lost'
+			'full set of eight neurals present'
+			,
+		22
+			'contact with peripherals X and XI'
+			'contact with peripheral XI only'
+			,
+		23
+			'longer than wide'
+			'wider than long'
+			,
+		24
+			'anterior side very wide, in contact with marginal II'
+			'anterior side moderately wide, in contact with marginal I'
+			'anterior side constricted, primarily in contact with cervical only'
+			,
+		25
+			'vertebral V only in contact with half the length of marginal XI'
+			'vertebral V contacts full length of marginal XI and may even contact marginal X'
+			,
+		26
+			'vertebral V only partially covers suprapygals'
+			'vertebral V fully, or almost fully, covers the suprapygals'
+			,
+		27
+			'vertebral V does not reach peripheral X'
+			'vertebral V clearly covers part of peripheral X'
+			,
+		28
+			'clearly situated on peripherals'
+			'situated on or near suture of peripherals and costals or clearly situated on costals'
+			,
+		29
+			'clearly situated on costals'
+			'situated near suture of peripherals and costals'
+			'clearly situated on peripherals'
+			,
+		30
+			'anterior lobe covered by carapace in dorsal view'
+			'anterior lobe protrudes farther anterior than carapace'
+			,
+		31
+			'present'
+			'absent'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'extragulars small or absent, and, if present, do not meet medially'
+			'extragulars elongate, in medial contact with another, thus hindering a contact between gulars and humerals'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'scutes do not overlap entoplastron'
+			'scutes overlap onto entoplastron'
+			,
+		36
+			'does not intersect entoplastron'
+			'intersects entoplastron'
+			,
+		37
+			'four or three pairs'
+			'two pairs'
+			'absent'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'present'
+			'absent'
+			,
+		40
+			'North America'
+			'Asia'
+			,
+	;
+	MATRIX
+	'Adocus sp.'                        00000000000000000000000000000000000(0 1)000?
+	'Zangerlia testudinimorpha'         ?????????????1?11?0?111111011??????000(0 1)?
+	'Zangerlia neimongolensis'          000011?101?011111???101?100?11001111011?
+	'Zangerlia ukhaachelys'             000011?????????1?10???1???0111???1?1001?
+	'Basilemys variolosa'               000001?1??11111000001011101021000111111?
+	'Basilemys nobilis'                 ?????????????110000?0011101021010111111?
+	'Basilemys sinuosa'                 ???????????????0000?101(0 1)101021001111111?
+	'Basilemys praeclara'               ???????????????0??0???1?10102?001111????
+	'Basilemys orientalis'              ??????????1111?001011011000111010101011?
+	'Anomalochelys angulata'            ????????????????01101??2????1?01011???1?
+	'Nanhsiungchelys wuchingensis'      1111??111???111?021?1??21??1111101112???
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-40;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -985680542; FileSettings treewindow '1' '1' '41' '1'; Singles 010; Editor 00011001111111100100010010 '0' '125' Gadget '12' '202' '1' all; EditorPosition '44' '6' '444' '501'; TreeWindowPosition '46' '6' '843' '1390'; ListWindow Characters closed Gadget '12' '50' '10' '559' '422' 000; ListWindow Taxa closed Geneva '9' '50' '10' '209' '337' 100000000; ListWindow Trees closed Gadget '12' '54' '641' '134' '415'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '134' '235'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '584' '1222' '203' '281'; WindowOrder Tree States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '749' '1295' '99' '155'; TreeLegendPosition '782' '1197' '64' '93'; EditorToolsPosition '171' '1259' '115' '165'; TreeToolsPosition '695' '74' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '1954' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1730749866295; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8453320585642030192; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1585853223675125370; mqVersion 381; checksumv 0 3 1734881241 null getNumChars 39 numChars 39 getNumTaxa 11 numTaxa 11 short true bits 7 states 7 sumSquaresStatesOnly 836.0 sumSquares 836.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1585853223675125370 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 39; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_0003_0082_2005_481_0001_zunsan_2_0_co_2_mb.nex"'; ID 0192f8bafc428; LINK Taxa = Taxa; TRANSLATE [0] 1 Adocus_sp., [1] 2 Zangerlia_testudinimorpha, [2] 3 Zangerlia_neimongolensis, [3] 4 Zangerlia_ukhaachelys, [4] 5 Basilemys_variolosa, [5] 6 Basilemys_nobilis, [6] 7 Basilemys_sinuosa, [7] 8 Basilemys_praeclara, [8] 9 Basilemys_orientalis, [9] 10 Anomalochelys_angulata, [10] 11 Nanhsiungchelys_wuchingensis; TREE UNTITLED = (1,((5,(6,(8,7))),((9,(10,11)),(3,(2,4))))); 
+ENDBLOCK;

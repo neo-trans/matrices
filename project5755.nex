@@ -1,0 +1,313 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.06.33 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=24;
+	TAXLABELS
+		'Alphadon'
+		'Pucadelphys'
+		'Derorhynchus'
+		'Dracolestes'
+		'Riolestes'
+		'Stilotherium'
+		'Rhyncholestes'
+		'Caenolestes'
+		'Pliolestes'
+		'Pichipilus'
+		'Phonocdromus'
+		'Palaeothentes'
+		'Acdestis'
+		'Abderites'
+		'Parabderites'
+		'Microbiotherium'
+		'Glasbius'
+		'Prepidolops'
+		'Bonapartherium'
+		'Proargyrolagus'
+		'Klohnia'
+		'Roberthoffstetteria'
+		'Polydolops'
+		'Epidolops'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Antorbital vacuities'
+		[2] 'Relative height of the dentary'
+		[3] 'Number of incisors'
+		[4] 'Size and orientation of the first incisor'
+		[5] 'Size of p3'
+		[6] 'Size of P3'
+		[7] 'Length-width ratio of P3'
+		[8] 'Size of the canine'
+		[9] 'Presence/absence of transverse lophs'
+		[10] 'Relative length of trigonid and talonid of m1'
+		[11] 'Form of the paracristid in m1'
+		[12] 'Presence of ribs in the trigonid of m1'
+		[13] 'Notch in the metacristid of m1'
+		[14] 'Orientation of the cristid obliqua in m1'
+		[15] 'Development of the hypoconid in m1-2'
+		[16] 'Hypoconulid shape in m1-3'
+		[17] 'Distal height of the entocristid in m1-3'
+		[18] 'Shape of the entoconids of m1-3'
+		[19] 'Orientation of the entocristid in m1-3'
+		[20] 'Position of the entoconid'
+		[21] 'Crest-like expansion posterior to the metaconid in m1-3'
+		[22] 'Height of the protoconid in m2-3'
+		[23] 'Position of the metaconid in m3'
+		[24] 'Development of the anterobasal cingulum in m2-4'
+		[25] 'Size and roots of m4'
+		[26] 'Size and location of the paraconid of m2-3'
+		[27] 'p3-m1 contact'
+		[28] 'Enamel thickness in the molars'
+		[29] 'Depth of the metacristid in m2-3'
+		[30] 'Crest posterior to the protoconid in m1-3'
+		[31] 'Posterior entoconid crest'
+		[32] 'Size and shape of the protocone'
+		[33] 'Shape of the centrocrista'
+		[34] 'Relative sizes of the paracone and metacone with respect to stylar cusps B and D'
+		[35] 'Relative size of paracone and metacone'
+		[36] 'Metaconule shape'
+		[37] 'Relative size of the metaconule'
+		[38] 'Width of the stylar shelf'
+		[39] 'Degree of labiolingual compression of StB and StC+StD'
+		[40] 'Anterobasal and posterior cinguli of M1-3'
+		[41] 'Supernumerary cuspules on the stylar shelf'
+		[42] 'Stylar cusp C'
+		[43] 'Lingual flex in the upper molars'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'moderate to low'
+			'high'
+			,
+		3
+			'4'
+			'3'
+			'2'
+			'1'
+			,
+		4
+			'small and subvertical'
+			'hypertrophied and procumbent'
+			'large but not hypertrophied and procumbent'
+			,
+		5
+			'p3 sub-equal in size or moderately larger than p2 and m1'
+			'hypertrophied'
+			'reduced'
+			,
+		6
+			'moderately developed'
+			'reduced'
+			'enormous'
+			,
+		7
+			'higher than 1.5'
+			'less than 1.5'
+			,
+		8
+			'well-developed'
+			'reduced or absent'
+			,
+		9
+			'upper and molars without transverse lophs'
+			'with incipient transverse lophs'
+			'with well-developed transverse lophs'
+			,
+		10
+			'subequal'
+			'long trigonid'
+			'short trigonid'
+			,
+		11
+			'notched'
+			'not notched, forming a continuous blade between proto- and paraconid'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'metacristid with a deep or moderate notch'
+			'metacristid notch poorly or not developed'
+			,
+		14
+			'toward the protoconid or slightly labial respect to the metacristid notch'
+			'toward the notch or midpoint between the protoconid and metaconid'
+			'in contact with the metaconid'
+			,
+		15
+			'poorly developed'
+			'quite developed and labially salient'
+			,
+		16
+			'well developed'
+			'reduced, with anteroposterior compression'
+			'disc-shaped, very broad, occupying most of the posthypocristid edge'
+			'forming a cingulum posterior to the talonid'
+			,
+		17
+			'low'
+			'high'
+			,
+		18
+			'conical'
+			'laterally compressed'
+			,
+		19
+			'straight'
+			'curved'
+			,
+		20
+			'place opposed to the hypoconid at the lingual edge of the talonid'
+			'more posteriorly located, at least in the m1'
+			'more anteriorly located'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'protoconid higher than the para- and metaconid'
+			'protoconid subequal in height to the paraconid and metaconid'
+			'protoconid lower than the paraconid and metaconid'
+			,
+		23
+			'at the same level than the protoconid'
+			'anteriorly placed and frequently twinned or fused to the paraconid'
+			,
+		24
+			'developed'
+			'vestigial or absent'
+			,
+		25
+			'm4 double-rooted and subequal in size to m3 (or, if smaller, representing the extreme size of a gradient from m1 to m4)'
+			'm4 single-rooted and greatly reduced in relation to m3'
+			'Only in the Cenolestidae taxa the m4 is single-rooted and very reduced in relation to m3'
+			,
+		26
+			'well developed and placed anteriorly to the metaconid'
+			'reduced and placed labially to the metaconid'
+			,
+		27
+			'mostly contiguous'
+			'p3 talonid supports most or all of the m1 trigonid'
+			,
+		28
+			'uniform throughout the entire surface of the tooth'
+			'markedly different thickness between the lateral and occlusal faces'
+			,
+		29
+			'deep'
+			'little or not deep'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'moderately sized'
+			'large and bulky'
+			,
+		33
+			'straight'
+			'slightly "V"-shaped'
+			'deeply "V"-shaped'
+			'open, with the premetacrista and postparacrista basally fused to the lingual slopes of StC+StD and StB respectively'
+			'open, with the premetacrista and postparacrista connected to the anterior edge of StC+StD and posterior edge of StB, respectively'
+			'The centrocrista is straight in Alphadon, as well as all other peradectoids (e.g., Pediomys, Peradectes, Caroloameghinia) and microbiotherians. In early didelphimorphians such as Pucadelphys, the "V"-shaped centrocrista is only incipiently developed'
+			,
+		34
+			'para- and metacone larger'
+			'approximately subequal'
+			'StB, or StB and StC+StD, much larger'
+			,
+		35
+			'subequal'
+			'metacone larger'
+			,
+		36
+			'"winged" (with pre- and postmetaconular cristae)'
+			'not "winged" (without such cristae)'
+			,
+		37
+			'subequal to the paraconule'
+			'larger than the paraconule'
+			'very large, "hypocone"-like, but without reaching lingually to the level of the protocone'
+			'very large, "hypocone"-like, lingually reaching the protocone'
+			'The paraconule and the metaconule are more or less subequal in peradectians and most didelphimorphians (though in the latter the metaconule is slightly larger)'
+			,
+		38
+			'not reduced labio-lingually'
+			'labio-lingually reduced'
+			,
+		39
+			'not compressed'
+			'compressed'
+			,
+		40
+			'not elevated and expanded'
+			'expanded and at a level with the trigon basin'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'present'
+			'absent'
+			,
+		43
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Alphadon'                 ?00000000000000000000000000000000000000000?
+	'Pucadelphys'              000000000000010000000000000000001010100000?
+	'Derorhynchus'             ?10200?00?????0000000000000000002010100000?
+	'Dracolestes'              ????????0?????1?11000??????0?000221010000??
+	'Riolestes'                ????????0100101001000??????0?00????????????
+	'Stilotherium'             ?011000100101111111001001010000032102010010
+	'Rhyncholestes'            1011000102101111111101001010100032102010010
+	'Caenolestes'              1011000102101111111101001010100032102010010
+	'Pliolestes'               ?1112??102101111111101101010000????????????
+	'Pichipilus'               ?011000102100111010011100011011032102010010
+	'Phonocdromus'             ?0110??102100111010011100011011032102010010
+	'Palaeothentes'            012100011110020201001211001100?0?2102010010
+	'Acdestis'                 01212011111002020100121100110000?2102010010
+	'Abderites'                ?121220121?1??020100121100111000?2102010010
+	'Parabderites'             ?0210??121?1?0020100121100111000?2102010010
+	'Microbiotherium'          01000000000001000000000100000001000111?00??
+	'Glasbius'                 ?0??00100000010000000110000000010101110000?
+	'Prepidolops'              ?1??12100010010000000100010010014101110001?
+	'Bonapartherium'           01??121001?0?100000001010100100141013100011
+	'Proargyrolagus'           01?1011100?0?101000202?1??001000???131?0011
+	'Klohnia'                  ?131011100?0?10??0?202?12?00100140003100011
+	'Roberthoffstetteria'      ????00??00001100000001010100100150114101100
+	'Polydolops'               ?131101102?0??03000002012101100151114101100
+	'Epidolops'                0122121011100003000002111100100141013100011
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-43;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -907848909; FileSettings editor '1' '1' '44' '1'; Singles 100; Editor 0001101111111110010001001 '0' '72' Gadget '12' '168' '1' all; EditorPosition '44' '6' '614' '1153'; TreeWindowPosition '46' '6' '981' '1630'; ListWindow Characters open Gadget '12' '50' '25' '610' '376' 000; ListWindow Taxa open Gadget '12' '331' '68' '474' '301' 100000; ListWindow Trees closed Gadget '9' '589' '167' '134' '387' ; ListWindow TypeSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '9' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '9' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490' ; TextWindow AboutFile '70' '45' '280' '445' Gadget '12' (normal) 1 ; ChartWindowPosition '52' '30' '968' '1620'; StateNamesSymbols open Gadget '12' '16' '435' '1291' '305' '324'; WindowOrder Data States List Taxa Text AboutFile List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '866' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Gadget '9' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' (normal) Gadget '10' (normal) Gadget '9' (normal) Gadget '9' (normal) Gadget '9' (bold ) Gadget '9' (normal) Gadget '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '2' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Alphadon, 2 Pucadelphys, 3 Derorhynchus, 4 Dracolestes, 5 Riolestes, 6 Stilotherium, 7 Rhyncholestes, 8 Caenolestes, 9 Pliolestes, 10 Pichipilus, 11 Phonocdromus, 12 Palaeothentes, 13 Acdestis, 14 Abderites, 15 Parabderites, 16 Microbiotherium, 17 Glasbius, 18 Prepidolops, 19 Bonapartherium, 20 Proargyrolagus, 21 Klohnia, 22 Roberthoffstetteria, 23 Polydolops, 24 Epidolops ; TREE * Fig._7 = [&R] (1,((2,(3,(16,(17,((22,23),((20,21),(18,(19,24)))))))),(5,(4,((6,(9,(7,8))),((10,11),((12,13),(14,15)))))))); 
+ENDBLOCK;

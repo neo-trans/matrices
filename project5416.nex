@@ -1,0 +1,232 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.55.01 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=26;
+	TAXLABELS
+		'Allosminthus ernos'
+		'Parasminthus parvulus'
+		'Parasminthus tangingoli'
+		'Parasminthus asiae-centralis'
+		'Parasminthus quartus'
+		'Parasminthus cubitalus'
+		'Parasminthus debruijni'
+		'Parasminthus lajeensis'
+		'"Parasminthus" huangshuiensis'
+		'Parasminthus xiningensis'
+		'Heterosminthus orientalis'
+		'Heterosminthus mongoliensis'
+		'Heterosminthus erbajevae'
+		'Heterosminthus firmus'
+		'Heterosminthus honestus'
+		'Heterosminthus nanus'
+		'Heterosminthus jucundus'
+		'Heterosminthus mugodzharicus'
+		'Heterosminthus lanzhouensis'
+		'Heterosminthus intermedius'
+		'Arabosminthus quadratus'
+		'"Heterosminthus" gansus'
+		'Arabosminthus isabellae'
+		'"Gobiosminthus" qiui'
+		'"Shamosminthus" sodovis'
+		'"Shamosminthus" tongi'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Mesoloph on M1'
+		[2] 'Posterior concavity between hypocone and posteroloph'
+		[3] 'Number of roots'
+		[4] 'Protoloph I on M1'
+		[5] 'Protoloph II on M2'
+		[6] 'Protoloph I on M2'
+		[7] 'Metaloph on M1'
+		[8] 'Metaloph on M2'
+		[9] 'M1 valley behind metacone'
+		[10] 'Arms of posteroloph'
+		[11] 'Mesostyle on M1'
+		[12] 'Protostyle on M1'
+		[13] 'Anterostyle on M1'
+		[14] 'Main cusps on molars'
+		[15] 'Anteroconid on m1'
+		[16] 'Anteroconid on m2'
+		[17] 'Anterior sinusid on m2'
+		[18] 'Mesolophid on m1'
+		[19] 'Mesolophid on m2'
+		[20] 'Pseudomesolophid on m2'
+		[21] 'Ectolophid on m1'
+		[22] 'Ectostylid on m1'
+		[23] 'Mesostylid on m1'
+		[24] 'Ectostylid on m2'
+		[25] 'Mesostylid on m2'
+		[26] 'Metalophulid I on M1'
+		[27] 'Ectomesolophid on m1'
+		[28] 'Ectomesolophid on m2'
+	;
+	STATELABELS
+		1
+			'absent or short'
+			'well developed'
+			,
+		2
+			'absent or weak'
+			'well developed'
+			,
+		3
+			'three'
+			'three or four'
+			'four'
+			,
+		4
+			'present'
+			'absent'
+			,
+		5
+			'absent or short'
+			'present'
+			,
+		6
+			'present'
+			'absent'
+			,
+		7
+			'metaloph or metaloph I'
+			'metaloph II'
+			,
+		8
+			'metaloph or metaloph I'
+			'metaloph II'
+			,
+		9
+			'big'
+			'small'
+			,
+		10
+			'labial arm developed'
+			'labial and lingual arms developed'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'not alternate'
+			'alternate'
+			,
+		15
+			'isolated'
+			'absent'
+			'joining protoconid'
+			'joining metaconid'
+			'joining metaconid and protoconid'
+			'merged in anterolophid'
+			,
+		16
+			'isolated'
+			'absent'
+			'joining protoconid'
+			'joining metaconid'
+			'joining metaconid-protoconid'
+			'merged in anterolophid'
+			,
+		17
+			'interrupted'
+			'continuous'
+			,
+		18
+			'absent or weak'
+			'short'
+			'long'
+			,
+		19
+			'absent or weak'
+			'short'
+			'long'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'absent or weak'
+			'present'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Allosminthus ernos'                 0000000000000000000000000000
+	'Parasminthus parvulus'              10211100001000?5022100100000
+	'Parasminthus tangingoli'            1121101010100045022000101000
+	'Parasminthus asiae-centralis'       1121101010100005022000101000
+	'Parasminthus quartus'               ?????????????005012000101000
+	'Parasminthus cubitalus'             1011110000100005022100101000
+	'Parasminthus debruijni'             1011101000100015022101101100
+	'Parasminthus lajeensis'             10??11?0?0100???????????????
+	'"Parasminthus" huangshuiensis'      1021111110100???????????????
+	'Parasminthus xiningensis'           1021110000100???????????????
+	'Heterosminthus orientalis'          1121111011111105020011000010
+	'Heterosminthus mongoliensis'        1121111?11111104020111100010
+	'Heterosminthus erbajevae'           112111101111113?00??110??11?
+	'Heterosminthus firmus'              1121101011101135021001100110
+	'Heterosminthus honestus'            1121101001101135021001110111
+	'Heterosminthus nanus'               1121101011101135021001110111
+	'Heterosminthus jucundus'            1120111011111135010001000111
+	'Heterosminthus mugodzharicus'       0121??1?1111112??1??110??11?
+	'Heterosminthus lanzhouensis'        1121111010110144022001100010
+	'Heterosminthus intermedius'         1121111011110155022001100010
+	'Arabosminthus quadratus'            102111111010011?10001110?000
+	'"Heterosminthus" gansus'            0121111010011103100001000010
+	'Arabosminthus isabellae'            0121??1?10000113100011100000
+	'"Gobiosminthus" qiui'               1001111110000???????????????
+	'"Shamosminthus" sodovis'            0110001011000004001011101000
+	'"Shamosminthus" tongi'              0121111010000???????????????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-28;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -1000021892; FileSettings editor '1' '1' '29' '1'; Singles 010; Editor 0001101111111110010001001 '0' '72' Gadget '12' '226' '1' all; EditorPosition '50' '-7' '512' '419'; TreeWindowPosition '46' '6' '536' '613'; ListWindow Characters open Gadget '12' '50' '10' '270' '374' 000; ListWindow Taxa closed Gadget '12' '50' '10' '270' '380' 100000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '10' '44' '1007' '203' '229'; WindowOrder States Data List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '716' '185' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' (normal) Gadget '10' (normal) Gadget '9' (normal) Gadget '9' (normal) Gadget '9' (bold ) Gadget '9' (normal) Gadget '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Allosminthus_ernos, 2 Parasminthus_parvulus, 3 Parasminthus_tangingoli, 4 Parasminthus_asiaecentralis, 5 Parasminthus_quartus, 6 Parasminthus_cubitalus, 7 Parasminthus_debruijni, 8 Parasminthus_lajeensis, 9 Parasminthus_huangshuiensis, 10 Parasminthus_xiningensis, 11 Heterosminthus_orientalis, 12 Heterosminthus_mongoliensis, 13 Heterosminthus_erbajevae, 14 Heterosminthus_firmus, 15 Heterosminthus_honestus, 16 Heterosminthus_nanus, 17 Heterosminthus_jucundus, 18 Heterosminthus_mugodzharicus, 19 Heterosminthus_lanzhouensis, 20 Heterosminthus_intermedius, 21 Arabosminthus_quadratus, 22 Heterosminthus_gansus, 23 Arabosminthus_isabellae, 24 Gobiosminthus_qiui, 25 Shamosminthus_sodovis, 26 Shamosminthus_tongi ; TREE * UNTITLED = [&R] (1,(25,((22,(23,21)),(((((((2,6),7),(3,4)),10),5),8),(((9,24),26),(19,(20,(((14,(15,16)),((18,13),17)),(12,11))))))))); 
+ENDBLOCK;

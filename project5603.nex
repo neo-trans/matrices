@@ -1,0 +1,107 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.34.55 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		'Paradoxopteris huertasii'
+		'Paradoxopteris stromeri'
+		'Paradoxopteris stromeri var boureaui'
+		'Paradoxopteris stromeri var hirmeri'
+		'Paradoxopteris sanctiluigii'
+		'Alstaettia andersonii'
+		'Alstaettia andersonii Koeniguer'
+		'Palmoidopteris lapparenti'
+		'Weichselia reticulata'
+		'Weichselia reticulata erratica'
+		'Matonia'
+		'Danaea'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=11;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Type of stele architecture'
+		[2] 'Presence of polycyclic stele'
+		[3] 'Number of rings'
+		[4] 'Metaxylem depth'
+		[5] 'Auxiliary strands'
+		[6] 'Location of auxiliary strands'
+		[7] 'Stem vascular architecture'
+		[8] 'Secretory canals'
+		[9] 'Location of secretory canals'
+		[10] 'Number of cells in the sclerenchyma sheet'
+		[11] 'Crystal phytoliths in ground tissue'
+	;
+	STATELABELS
+		1
+			'Solenostele'
+			'Dictyostele'
+			'Atactostele'
+			,
+		2
+			'Present'
+			'Absent'
+			,
+		3
+			'Fewer or equal to six rings'
+			'Between six to twelve'
+			'More than twelve rings'
+			,
+		4
+			'One, hardly divided into two'
+			'One to three'
+			'More than three'
+			,
+		5
+			'Absent'
+			'Present common'
+			'Present scattered'
+			,
+		6
+			'Near the core'
+			'Near the periphery'
+			'Distributed throughout the stem'
+			,
+		7
+			'Fishbone'
+			'Parallel'
+			,
+		8
+			'Present Common'
+			'Present Scattered'
+			'Absent'
+			,
+		9
+			'Near the core'
+			'Near the periphery'
+			'Distributed throughout the stem'
+			,
+		10
+			'Fewer than six cells'
+			'Six to ten cells'
+			'More than ten cells'
+			,
+		11
+			'Absent'
+			'Present'
+			,
+	;
+	MATRIX
+	'Paradoxopteris huertasii'                  10201112-10
+	'Paradoxopteris stromeri'                   10111201111
+	'Paradoxopteris stromeri var boureaui'      10111201100
+	'Paradoxopteris stromeri var hirmeri'       10121201110
+	'Paradoxopteris sanctiluigii'               1012120120?
+	'Alstaettia andersonii'                     00100--0220
+	'Alstaettia andersonii Koeniguer'           00200--0220
+	'Palmoidopteris lapparenti'                 21-00--100?
+	'Weichselia reticulata'                     10200--0210
+	'Weichselia reticulata erratica'            10?12??1?01
+	'Matonia'                                   00020--2-20
+	'Danaea'                                    10010--02-0
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-11;
+ENDBLOCK;

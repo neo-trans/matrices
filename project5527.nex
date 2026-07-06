@@ -1,0 +1,315 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.17.12 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=12;
+	TAXLABELS
+		'Millerettidae'
+		'Lanthanosuchoidea'
+		'Scutosaurus'
+		'Macroleter'
+		'Owenetta kitchingorum'
+		'Sauropareion'
+		'Procolophon'
+		'Tichvinskia'
+		'Sclerosaurus'
+		'Scoloparia'
+		'Hypsognathus'
+		'Leptopleuron'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Premaxillary teeth'
+		[2] 'Premaxillary tooth count'
+		[3] 'Lacrimal-narial contact'
+		[4] 'Maxilla lateral depression'
+		[5] 'Maxillary tooth row'
+		[6] 'Maxillary teeth'
+		[7] 'Caniniform region'
+		[8] 'Maxilla-quadratojugal contact'
+		[9] 'Prefrontal anterior extent'
+		[10] 'Prefrontal dorsomedial process'
+		[11] 'Postfrontal'
+		[12] 'Jugal anterior extent'
+		[13] 'Jugal embayment'
+		[14] 'Quadratojugal dorsal extent'
+		[15] 'Quadratojugal, ornamentation of lateral surface'
+		[16] 'Pineal foramen position'
+		[17] 'Supratemporal posterolateral process'
+		[18] 'Postparietal'
+		[19] 'Posterior margin of skull'
+		[20] 'Orbit posterior extent'
+		[21] 'Lateral temporal fenestra'
+		[22] 'Choana orientation'
+		[23] 'Interpterygoid vacuity'
+		[24] 'Cranioquadrate space'
+		[25] 'Pterygoid anterior limit'
+		[26] 'Pterygoid transverse flange'
+		[27] 'Pterygoid transverse flange dentition'
+		[28] 'Pterygoid transverse flange and marginal dentition'
+		[29] 'Splenial anterior extent'
+		[30] 'Coronoid process'
+		[31] 'Surangular anterior extent'
+		[32] 'Retroarticular process configuration'
+		[33] 'Lower jaw position'
+		[34] 'Jaw joint'
+		[35] 'Dental configuration'
+		[36] 'Tooth count in lower jaw'
+		[37] '(Dorsal) dermal armor'
+		[38] 'Presacral vertebral count'
+		[39] 'Sacral vertebral count'
+		[40] 'Interclavicle configuration'
+		[41] 'Cleithrum'
+		[42] 'Scapula'
+		[43] 'Ectepicondylar foramen'
+		[44] 'Entepicondylar foramen'
+		[45] 'Olecranon configuration'
+		[46] 'Acetabular buttress of ilium'
+		[47] 'Femoral proximal articulation'
+		[48] 'Femoral intercondylar fossa'
+		[49] 'Astragalus and calcaneum'
+		[50] 'Astragalus relationship to distal tarsal 4'
+		[51] 'Ungual to penultimate phalangeal length ratio'
+	;
+	STATELABELS
+		1
+			'equal in size'
+			'first two teeth enlarged'
+			,
+		2
+			'four or more'
+			'two or three'
+			,
+		3
+			'lacrimal reaching posterior margin of external naris'
+			'lacrimal excluded from posterior border of external naris'
+			,
+		4
+			'maxilla behind posterior margin of external naris without any significant changes to surface'
+			'anterolateral depression present'
+			,
+		5
+			'extending well posterior to level of anterior margin of orbit'
+			'terminating at about level of anterior margin of orbit'
+			,
+		6
+			'flush with labial surface of maxilla'
+			'inset'
+			,
+		7
+			'distinct'
+			'absent'
+			,
+		8
+			'present'
+			'absent'
+			,
+		9
+			'not extending past anterior limit of frontal'
+			'extending past anterior limit of frontal'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'present'
+			'absent'
+			,
+		12
+			'extending beyond anterior orbital margin'
+			'terminating prior to reaching anterior orbital margin'
+			,
+		13
+			'absent'
+			'V-shaped ventral embayment formed between jugal and quadratojugal'
+			'jugal with smooth concave ventral margin'
+			,
+		14
+			'restricted to ventral margin of posterior cheek region'
+			'dorsally expanded'
+			,
+		15
+			'spine absent'
+			'single posterodistally directed spine'
+			'two or more diverging spines'
+			,
+		16
+			'located at about mid-point of interparietal suture'
+			'located close to frontoparietal suture'
+			,
+		17
+			'forming smooth border along posterolateral corner of skull'
+			'developing sharp, posterolaterally directed, spine-like process'
+			,
+		18
+			'present'
+			'absent'
+			,
+		19
+			'smoothly contoured posterior edge of skull roof'
+			'with occipital shelf'
+			,
+		20
+			'orbit generally circular in outline'
+			'elongated posteriorly to reach level of anterior margin of pineal foramen'
+			'reaching posterior margin of pineal foramen or extending beyond'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'parallel to lateral margin of skull'
+			'deflected posteromedially and bordered by the palatine posteriorly'
+			,
+		23
+			'elongate, anterior margin tapering to point'
+			'shorter, anterior margin rounded'
+			,
+		24
+			'small'
+			'quadrate ramus of pterygoidnand paroccipital process parallel'
+			,
+		25
+			'reaching posterior end of choana'
+			'not reaching posterior limit of choana'
+			'State 2 not defined by author in publication'
+			,
+		26
+			'directed posterolaterally'
+			'directed anterolaterally'
+			,
+		27
+			'single row of teeth present'
+			'teeth absent'
+			,
+		28
+			'dentition at same level as flange'
+			'flange extending well below marginal dentition'
+			,
+		29
+			'extending to mandibular symphysis'
+			'excluded from mandibular symphysis'
+			,
+		30
+			'short'
+			'rising above mandibular ramus, composed only of coronoid'
+			,
+		31
+			'elongate, extending anterior to coronoid eminence'
+			'short, terminating behind coronoid eminence'
+			,
+		32
+			'absent or narrow'
+			'transversely broad and dorsally concave'
+			,
+		33
+			'no overbite'
+			'distinctive overbite'
+			,
+		34
+			'more or less aligned with dentary tooth row'
+			'situated well below dentary tooth row'
+			,
+		35
+			'maxillary and posterior dentary teeth transversely narrow'
+			'transversely broad, molariform'
+			,
+		36
+			'15 or more teeth'
+			'nine or fewer teeth'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'more than 20'
+			'no more than 20'
+			,
+		39
+			'two'
+			'three or more'
+			,
+		40
+			'rhomboidal'
+			'T-shaped'
+			,
+		41
+			'present'
+			'absent'
+			,
+		42
+			'short, broad blade'
+			'tall, more gracile blade'
+			,
+		43
+			'present'
+			'absent'
+			,
+		44
+			'present'
+			'absent'
+			,
+		45
+			'large'
+			'small or absent'
+			,
+		46
+			'very weak'
+			'heavy, triangular'
+			,
+		47
+			'width less than half length of articular surface'
+			'width exceeding length'
+			,
+		48
+			'large'
+			'flange and foramen present'
+			,
+		49
+			'separate elements'
+			'fused'
+			,
+		50
+			'astragalus extending distally to same level as calcaneum'
+			'astragalus shortened distally to accommodate fourth distal tarsal'
+			,
+		51
+			'unguals no longer than penultimate phalanges'
+			'terminal unguals nearly 50% longer than penultimate phalanges'
+			,
+	;
+	MATRIX
+	'Millerettidae'              010000?1000000000000?00000000000000000000000?0000?0
+	'Lanthanosuchoidea'          00100000?001000?00001000?000??100000?0?1?0?0???????
+	'Scutosaurus'                01001000100?0000000?01001000000011001111110001011?1
+	'Macroleter'                 00100000100100000001010110001??1000?0011?110000?100
+	'Owenetta kitchingorum'      001000011101110100010001111011010000001101??10?0???
+	'Sauropareion'               ??1?00?11?011101001111011111??11?00?0???0?10???????
+	'Procolophon'                001101111101211111120011211011111011001111101110111
+	'Tichvinskia'                011100111111210111120011211011111011?0111?101??0??1
+	'Sclerosaurus'               01?0011?????2?211?1200?????111??1?111011?11011?11?1
+	'Scoloparia'                 111001111011212111120???????111111111??????01?10???
+	'Hypsognathus'               111011111011212111120011??111111111100???11?1??????
+	'Leptopleuron'               11101111?00121211112001121111111111100???1?????01??
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-51;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -978516282; FileSettings editor '1' '1' '52' '1'; Singles 110; Editor 00011011111111100100010010 '0' '72' Gadget '12' '174' '1' all; EditorPosition '47' '9' '342' '727'; TreeWindowPosition '76' '5' '559' '693'; ListWindow Characters closed Gadget '12' '50' '10' '253' '374' 000; ListWindow Taxa closed Gadget '9' '50' '10' '276' '490' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '788' '1092'; StateNamesSymbols open Gadget '12' '10' '44' '467' '203' '220'; WindowOrder Data States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '357' '13' '115' '165'; TreeToolsPosition '709' '5' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 0; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1724026912876; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 5409046543145083074; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3006939967774737832; mqVersion 381; checksumv 0 3 1554566859 null getNumChars 51 numChars 51 getNumTaxa 12 numTaxa 12 short true bits 7 states 7 sumSquaresStatesOnly 1525.0 sumSquares 1525.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3006939967774737832 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 51; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_anatomy_and_phylogenetic_relationships_of_sclerosaurus_armatus_amniota_parareptilia_from_the_buntsandstein_triassic_of_europe_mb.nex"'; ID 01916801a2d911; LINK Taxa = Taxa; TRANSLATE [0] 1 Millerettidae, [1] 2 Lanthanosuchoidea, [2] 3 Scutosaurus, [3] 4 Macroleter, [4] 5 Owenetta_kitchingorum, [5] 6 Sauropareion, [6] 7 Procolophon, [7] 8 Tichvinskia, [8] 9 Sclerosaurus, [9] 10 Scoloparia, [10] 11 Hypsognathus, [11] 12 Leptopleuron; TREE UNTITLED = (1,(3,(2,(4,(5,(6,(7,(8,((9,10),(11,12)))))))))); 
+ENDBLOCK;

@@ -1,0 +1,317 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.00.09 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=13;
+	TAXLABELS
+		'Bimuropora dubia'
+		'Bimuropora pollaphragmata'
+		'Bimuropora conferta'
+		'Bimuropora winchelli'
+		'Champlainopora chazyensis'
+		'Champlainopora ramusculus'
+		'Champlainopora pachymura'
+		'Champlainopora arbucklensis'
+		'Eridotrypa sp.'
+		'Eridotrypa mutabilis'
+		'Diplotrypa schindeli'
+		'Tarphophragma karklinsi'
+		'Tarphophragma macrostoma'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		[1] 'Growth habit'
+		[2] 'Occurrence of intracolony overgrowths'
+		[3] 'Branch cross-sectional shape'
+		[4] 'Surface angle'
+		[5] 'Type of interzooidal budding'
+		[6] 'Zooidal arrangement'
+		[7] 'Occurrence of large, long, axial zooecia'
+		[8] 'Number of diaphragms per mm in early zooidal ontogeny'
+		[9] 'Length of mesozooidal stage in early zooidal ontogeny'
+		[10] 'Occurrence of remnant growing tips in endozone'
+		[11] 'Occurrence of a line of distally concaved diaphragms probably formed after an environmental perturbation and before normal growth resumed'
+		[12] 'Diaphragms present in zooids at nearly the same level over a moderately large area of endozone and then pass into exozone'
+		[13] 'Macular topography'
+		[14] 'Macular shape'
+		[15] 'Living chamber cross-sectional shape in endozone'
+		[16] 'Living chamber cross-sectional shape in outer exozone'
+		[17] 'Zooidal boundary cross-sectional shape in outer exozone'
+		[18] 'Wall shape in endozone where autozooecia and mesozooecia adjacent'
+		[19] 'Wall structure in exozone'
+		[20] 'Shape of wall boundary in exozone'
+		[21] 'Wall laminae configuration in exozone'
+		[22] 'Occurrence of planar-shaped diaphragms in exozone'
+		[23] 'Occurrence of distally concave-shaped diaphragms in exozone'
+		[24] 'Occurrence of distally convex-shaped diaphragms in exozone'
+		[25] 'Occurrence of S-shaped diaphragms in exozone'
+		[26] 'Occurrence of cystoidal diaphragms in exozone'
+		[27] 'Angle at which exozonal diaphragms intersect walls'
+		[28] 'More distal side of basal diaphragms in exozonal autozooids'
+		[29] 'Occurrence of autozooidal wall thickening by diaphragms (diaphragm-wall unit of Boardman, 1960) in exozone'
+		[30] 'Occurrence in exozone'
+		[31] 'Location of origination'
+		[32] 'Occurrence in relation to autozooids in outer exozone'
+		[33] 'Shape of diaphragms in exozone'
+		[34] 'Occurrence in outer exozone'
+		[35] 'Microstructure'
+	;
+	STATELABELS
+		1
+			'Not indicated by author'
+			'Variable'
+			'Encrusting'
+			'Massive/ramose'
+			'Massive'
+			'Ramose'
+			,
+		2
+			'Not indicated by author'
+			'Absent'
+			'Present'
+			,
+		3
+			'Not indicated by author'
+			'Not applicable because growth habit is not ramose'
+			'Subcircular to oval'
+			'Circular'
+			,
+		4
+			'Not indicated by author'
+			'0-70°'
+			'71-78°'
+			'79-90°'
+			,
+		5
+			'Not indicated by author'
+			'Intrazooidal pattern (intrazooecial of McKinney, 1977)'
+			'Interzooidal pattern (interzooecial of McKinney, I 977)'
+			,
+		6
+			'Not indicated by author'
+			'Ordered'
+			'Disordered'
+			,
+		7
+			'Not indicated by author'
+			'Present'
+			'Absent'
+			,
+		8
+			'Not indicated by author'
+			'0.0'
+			'0.1-9.0'
+			'>9.0'
+			,
+		9
+			'Not indicated by author'
+			'Not applicable because no mesozooidal stage in early zooidal ontogeny'
+			'<0.1 mm'
+			'>0.1 mm'
+			,
+		10
+			'Not indicated by author'
+			'Present'
+			'Absent'
+			,
+		11
+			'Not indicated by author'
+			'Absent'
+			'Present'
+			,
+		12
+			'Not indicated by author'
+			'No'
+			'Yes'
+			,
+		13
+			'Not indicated by author'
+			'Not applicable because maculae absent'
+			'Flat'
+			'Depressed'
+			'Elevated'
+			,
+		14
+			'Not indicated by author'
+			'Not applicable because maculae absent'
+			'Irregular'
+			'Circular'
+			'Elongate'
+			'Stellar'
+			,
+		15
+			'Not indicated by author'
+			'Ontogenetically changes from polygonal to subpolygonal as each zooid comes into contact with more adjacent zooids'
+			'Ontogenetically changes from polygonal to subpolygonal to subcircular to circular as each zooid comes into contact with more adjacent zooids'
+			,
+		16
+			'Not indicated by author'
+			'Petaloid (inflected by acanthostyles)'
+			'Oval'
+			'Circular'
+			'Subcircular'
+			'Circular to subpolygonal'
+			'Subpolygonal'
+			'Polygonal'
+			'Not applicable because megazooids absent'
+			,
+		17
+			'Not indicated by author'
+			'Oval'
+			'Circular'
+			'Subcircular'
+			'Subpolygonal'
+			'Polygonal'
+			,
+		18
+			'Not indicated by author'
+			'Regular'
+			'Wavy'
+			'Crenulated'
+			'Fluted'
+			,
+		19
+			'Not indicated by author'
+			'Microcrystalline'
+			'Sharp, distinct, integrate'
+			'Merged, indistinct, amalgamate'
+			,
+		20
+			'Not indicated by author'
+			'Microcrystalline'
+			'Irregular'
+			'Straight'
+			'Not applicable because wall boundary is not integrate'
+			,
+		21
+			'Not indicated by author'
+			'Unknown because laminae indistinct'
+			'Sharply convex (V-shaped) distally'
+			'Broadly convex (U-shaped) distally'
+			,
+		22
+			'Not indicated by author'
+			'Absent (0%)'
+			'Rare (1-25%)'
+			'Common (26-75%)'
+			'Abundant (>75%)'
+			,
+		23
+			'Not indicated by author'
+			'Absent (0%)'
+			'Rare (1-25%)'
+			'Common (26-75%)'
+			'Abundant (>75%)'
+			,
+		24
+			'Not indicated by author'
+			'Absent (0%)'
+			'Rare (1-25%)'
+			'Common (26-75%)'
+			'Abundant (>75%)'
+			,
+		25
+			'Not indicated by author'
+			'Absent (0%)'
+			'Rare (1-25%)'
+			'Common (26-75%)'
+			'Abundant (>75%)'
+			,
+		26
+			'Not indicated by author'
+			'Absent (0%)'
+			'Rare (1-25%)'
+			'Common (26-75%)'
+			'Abundant (>75%)'
+			,
+		27
+			'Not indicated by author'
+			'Roughly 90°'
+			'Less than or greater than 90°'
+			'Variable'
+			'Less than and greater than 90°'
+			,
+		28
+			'Not indicated by author'
+			'Usually on proximal side of zooid (75-100%)'
+			'On distal or proximal side of zooid (26-74%/26-74%)'
+			'Usually on distal side of zooid (75-100%)'
+			,
+		29
+			'Not indicated by author'
+			'Neither (no noticeable thickening)'
+			'Usually proximal (75-100%)'
+			'Distal and proximal (26-74%/26-74%)'
+			'Usually distal (75-100%)'
+			,
+		30
+			'Not indicated by author'
+			'Absent'
+			'Present'
+			,
+		31
+			'Not indicated by author'
+			'Not applicable because megazooids absent'
+			'Not applicable because no distinction between endozone and exozone'
+			'In outer endozone'
+			'At endozone/exozone boundary'
+			'In exozone'
+			'Not applicable because acanthostyles absent'
+			'Endozone'
+			'Endozone/exozone boundary'
+			'Exozone'
+			,
+		32
+			'Not indicated by author'
+			'Absent'
+			'Only in comers of adjacent autozooids'
+			'In and between comers of adjacent autozooids'
+			'In and between comers and nearly or completely isolate autozooids'
+			,
+		33
+			'Not indicated by author'
+			'Slightly curved and distally concave'
+			'Planar'
+			'Slightly curved and distally convex'
+			,
+		34
+			'Not indicated by author'
+			'Absent'
+			'Only in comers of adjacent zooids'
+			'Surround zooids but do not inflect walls'
+			'Surround zooids and inflect walls'
+			,
+		35
+			'Not indicated by author'
+			'Not applicable because acanthostyles absent'
+			'Sharply convex (V-shaped) distally laminae with core of clear calcite'
+			'Broadly convex (U-shaped) distally laminae with core of clear calcite'
+			,
+	;
+	MATRIX
+	'Bimuropora dubia'                 523222222122421(6 7)(5 5)422232323(1 3)332(8 8 8)2222
+	'Bimuropora pollaphragmata'        523122232122421(6 7)(5 5)122232313(1 3)332(8 8 8)2232
+	'Bimuropora conferta'              523322222122421(6 7)(5 5)122232323(1 3)332(8 8 8)2242
+	'Bimuropora winchelli'             523322222122421(6 7)(5 5)122232313(1 3)332(8 8 8)2222
+	'Champlainopora chazyensis'        523121122122111(7 8)(5 5)222232313(1 3)331(6 6 8)2211
+	'Champlainopora ramusculus'        523121122122111(2 8)(5 5)122232323(1 3)331(6 6 8)2211
+	'Champlainopora pachymura'         523121122122421(6 7)(5 5)123232323(1 3)342(6 8 8)2211
+	'Champlainopora arbucklensis'      523321122122421(6 7)(5 5)122232323(1 3)332(8 8 8)2232
+	'Eridotrypa sp.'                   522111111122111(2 8)(4 5)222242222(1 3)331(6 8 9)2222
+	'Eridotrypa mutabilis'             522111111122221(2 6)(4 5)222242222(1 3)332(8 8 9)2222
+	'Diplotrypa schindeli'             321322223222222(4 6)(3 5)411132322(3 4)312(6 6 7)4311
+	'Tarphophragma karklinsi'          523222233222422(4 6)(5 5)422232332(1 3)332(6 7 8)3211
+	'Tarphophragma macrostoma'         523222233222422(4 6)(5 5)422242222(1 3)332(6 7 8)3211
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-35;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722308371630; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 58204930253972772; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5750485242851406145; mqVersion 381; checksumv 0 3 1469725036 null getNumChars 40 numChars 40 getNumTaxa 13 numTaxa 13 short true bits 126 states 126 sumSquaresStatesOnly 92656.0 sumSquares 92656.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 202; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 833; setLocation -8 -8; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5750485242851406145 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 272; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1238 761; setLocation -8 -8; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 150; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1238 761; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 40; 
+ENDBLOCK;

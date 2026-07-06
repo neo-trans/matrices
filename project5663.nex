@@ -1,0 +1,450 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.40.39 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=18;
+	TAXLABELS
+		'Ancestor'
+		'Marginocephalia'
+		'Heterodontosauridae'
+		'Agilisaurus multidens'
+		'Thescelosaurus neglectus'
+		'Parksosaurus warreni'
+		'Hypsilophodon foxii'
+		'Gasparinisaura cincosaltensis'
+		'Tenontosaurus tilletti'
+		'Tenontosaurus dossi'
+		'Dryosaurus altus'
+		'Dryosaurus lettowvorbeckii'
+		'Camptosaurus dispar'
+		'Iguanodon atherfieldensis'
+		'Iguanodon bernissartensis'
+		'Rhabdodon priscus'
+		'Zalmoxes robustus'
+		'Zalmoxes shqiperorum'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=75;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Preorbital skull length'
+		[2] 'External naris'
+		[3] 'External antorbital fenestra'
+		[4] 'Orbit shape'
+		[5] 'Exclusion of the jugal from the antorbital fossa'
+		[6] 'Oral margin of the premaxilla'
+		[7] 'Oral margin of the premaxilla - 2'
+		[8] 'Premaxilla-lacrimal contact'
+		[9] 'Second maxillary process'
+		[10] 'Jugal-quadratojugal joint'
+		[11] 'Posterior process of the jugal'
+		[12] 'Paired frontals'
+		[13] 'Paroccipital process'
+		[14] 'Supraoccipital'
+		[15] 'Quadratojugal-quadrate contact'
+		[16] 'Separation of quadratojugal from jaw articulation'
+		[17] 'Quadratojugal foramen'
+		[18] 'Predentary shape'
+		[19] 'Oral margin of the predentary'
+		[20] 'Ventral process of the predentary'
+		[21] 'Dorsal and ventral margins of the dentary'
+		[22] 'Coronoid process shape'
+		[23] 'Shrouding of the distal dentition by the coronoid process'
+		[24] 'Number of premaxillary teeth'
+		[25] 'Number of maxillary teeth'
+		[26] 'Maxillary tooth shape'
+		[27] 'Ridges confluent with marginal denticles of maxillary teeth'
+		[28] 'Primary ridge on maxillary teeth'
+		[29] 'Enamel on maxillary teeth'
+		[30] 'Number of dentary tooth positions'
+		[31] 'Dentary crown shape'
+		[32] 'Number of ridges on dentary crowns'
+		[33] 'Ridges confluent with marginal denticles of dentary teeth'
+		[34] 'Primary ridge on dentary teeth'
+		[35] 'Enamel on dentary teeth'
+		[36] 'Number of cervical vertebrae'
+		[37] 'Number of dorsal vertebrae'
+		[38] 'Number of sacral vertebrae, including dorsosacrals and sacrocaudals'
+		[39] 'Neural spines of the proximal caudal series'
+		[40] 'Sternal segments of the anterior dorsal ribs'
+		[41] 'Hypaxial tendons'
+		[42] 'Ossified epaxial tendons'
+		[43] 'Scapular neck'
+		[44] 'Development of the sternal process of the coracoid'
+		[45] 'Proportions of the humerus and scapula'
+		[46] 'Deltopectoral crest of the humerus'
+		[47] 'Robust radius'
+		[48] 'Manual digit I'
+		[49] 'Carpal fusion'
+		[50] 'Metacarpal I'
+		[51] 'Ungual of manual digit I'
+		[52] 'Long first phalanx of manual digits II—IV'
+		[53] 'Manual digit III'
+		[54] 'Hoof-shaped ungual of manual digits n and III'
+		[55] 'Dorsal margin of the ilium'
+		[56] 'Preacetabular process of the ilium'
+		[57] 'Acetabulum and supra-acetabular rim'
+		[58] 'Obturator process'
+		[59] 'Position of the obturator process'
+		[60] 'Ischial shaft'
+		[61] 'Cross-section of the ischial shaft'
+		[62] 'Distal ischium'
+		[63] 'Prepubic process shape'
+		[64] 'Femoral proportions'
+		[65] 'Bowed femur in anterior view'
+		[66] 'Femur length'
+		[67] 'Intertrochanteric notch of the femur'
+		[68] 'Shape of the fourth trochanter'
+		[69] 'Position of the fourth trochanter'
+		[70] 'Extensor intercondylar groove on the femur'
+		[71] 'Flexor intercondylar groove of the femur'
+		[72] 'Phalanges of pedal digit I'
+		[73] 'Length of metatarsal V'
+		[74] 'Absence of metatarsal V'
+		[75] 'Hoof-shaped unguals in pedal digits II—IV'
+	;
+	STATELABELS
+		1
+			'approximately 50% of the total skull length'
+			'more than 50% of the skull length is made up of the region in front of the orbit'
+			,
+		2
+			'confined to the area immediately above the oral margin of the premaxilla'
+			'extending posteriorly so as to lie above the maxilla'
+			,
+		3
+			'large (at least 15-25% basal skull length) and triangular'
+			'relatively small and subcircular (10% basal skull length or less)'
+			,
+		4
+			'circular'
+			'subrectangular at least in its lower margin'
+			,
+		5
+			'jugal forms a small portion of the posterior margin of the antorbital fossa'
+			'jugal is excluded from the antorbital fossa by the lacrimal-maxilla contact'
+			,
+		6
+			'narial portion of the body of the premaxilla slopes steeply from the external naris to the oral margin'
+			'ventral aspect of the body of the premaxilla flares laterally (i.e. is everted), so as to form a partial floor of the narial fossa'
+			,
+		7
+			'smooth'
+			'denticulate'
+			,
+		8
+			'posterolateral premaxillary process terminates above the antorbital fossa some distance from the lacrimal'
+			'posterolateral premaxillary process reaches and laterally overlaps the lacrimal'
+			,
+		9
+			'anterior end of the maxilla bears a single process that is lodged under or along the medial aspect of the body of the premaxilla'
+			'a second, anterolateral maxillary process'
+			,
+		10
+			'relatively simple contact, consisting of a butt or high-angle scarf joint'
+			'tongue-and-groove contact whereby the jugal lies external to the quadratojugal dorsally while ventrally the jugal lies mostly medial to the quadratojugal'
+			,
+		11
+			'forms only the anterior part of the ventral margin of the infratemporal fenestra'
+			'expanded to form the ventral margin of the infratemporal fenestra'
+			,
+		12
+			'wider than long (width greater than or equal to anteroposterior length)'
+			'longer than wide (width less than anteroposterior length)'
+			,
+		13
+			'horizontal and slightly widened distally'
+			'distal end distinctly pendant'
+			,
+		14
+			'forms the dorsal margin of the foramen magnum'
+			'excluded from the dorsal margin of the foramen magnum by the paired exoccipitals'
+			,
+		15
+			'posterior margin of quadratojugal high, making extensive contact with the anterior margin of the quadrate'
+			'posterior margin of quadratojugal abbreviated, quadrate contributes distinctly to the posterior rim of the infratemporal fenestra'
+			,
+		16
+			'quadratojugal approaches the mandibular condyle of the quadrate'
+			'ventral edge of the quadratojugal well removed from the mandibular condyle'
+			,
+		17
+			'quadratojugal a completely solid element'
+			'large foramen in the centre of the quadratojugal'
+			,
+		18
+			'anterior tip pointed in dorsal view'
+			'anterior tip broadly rounded in dorsal view'
+			,
+		19
+			'relatively smooth'
+			'denticulate'
+			,
+		20
+			'single'
+			'bilobate, underlying each dentary'
+			,
+		21
+			'the dorsal and ventral margins of the dentary converge anteriorly'
+			'A dentary with parallel dorsal and ventral margins'
+			,
+		22
+			'A posterodorsally oblique, short coronoid process on the dentary'
+			'a distinctly elevated process'
+			,
+		23
+			'the dentary dentition ends immediately prior to the elevation of the coronoid process'
+			'the distal extent of the dentary dentition is laterally shrouded by the anterior region of the coronoid process'
+			,
+		24
+			'Three or more premaxillary teeth'
+			'one premaxillary tooth'
+			'none'
+			,
+		25
+			'the maxilla houses 12 or fewer tooth positions'
+			'between 13 and 15 positions'
+			'more than 15 positions'
+			,
+		26
+			'maxillary tooth crowns are triangular, relatively low (i.e. never more than 50% higher than mesiodistally wide), and set on a narrower root'
+			'maxillary crowns, with a height that is 50% or greater than the mesiodistal width and with no appreciable difference in diameter of the root'
+			,
+		27
+			'the buccal side of the maxillary crown has a smooth central face and simple denticles are present along the mesial and distal margins'
+			'abundant ridges on the buccal surface are confluent with the bases of the marginal denticles ridges and extend to the base of the crown in Rhabdodon, Zal- moxes, Agilisaurus, Dryosaurus, Gasparinisaura, Thescelosaurus, Hypsilophodon and Parksosaurus'
+			,
+		28
+			'the buccal surface of maxillary teeth are either smooth or exhibit an undifferentiated pattern of ridges'
+			'The development of a distinct primary ridge of the buccal surface of maxillary teeth'
+			,
+		29
+			'the crowns of maxillary teeth are symmetrically enameled such that thickness is approximately the same on both buccal and lingual faces'
+			'enamel asymmetrically coats the buccal surface of the crown, thicker on the buccal side than on the lingual sides'
+			,
+		30
+			'the dentary houses 13 or fewer tooth positions'
+			'between 14 and 17 positions'
+			'18 or more positions'
+			,
+		31
+			'triangular, relatively low (i.e. never more than 50% higher than mesiodistally wide, and set on a narrower root'
+			'asymmetrical, with a height that is 50% or greater than the mesiodistal width and with no appreciable difference in diameter of the root'
+			,
+		32
+			'fewer than 10 secondary ridges across the lingual surface of the dentary crowns'
+			'more than 10 and often upwards of 17 ridges and in all three taxa these ridges have sharp edges'
+			,
+		33
+			'lingual side of the dentary crown has a smooth central face and denticles along the mesial and distal margins'
+			'abundant ridges on the lingual surface are confluent with the bases of the marginal denticles'' ridges and extend to the base of the crown'
+			,
+		34
+			'crowns of dentary teeth have a number of ridges that adorn their lingual surfaces, but none of these ridges is strikingly more prominent than another'
+			'strongly-developed primary ridge'
+			,
+		35
+			'enamel on the crowns of dentary teeth is symmetrically thick on both buccal and lingual surfaces'
+			'enamel more thickly coats the lingual surface than the buccal surface'
+			,
+		36
+			'nine or fewer cervical vertebrae'
+			'10 or more cervicals'
+			,
+		37
+			'15 or fewer dorsal vertebrae'
+			'16 or more dorsals'
+			,
+		38
+			'five or fewer sacral vertebrae'
+			'as few as six (and as many as nine) sacral vertebrae'
+			,
+		39
+			'Relatively short neural spines on the proximal caudal vertebrae (height of the neural spine the same as or 50% higher than the vertebral centrum), producing a square profile'
+			'height of the neural spine is 50% higher than the height of the centrum, yielding a rectangular profile'
+			,
+		40
+			'no ossification of the sternal segments of the anterior dorsal ribs'
+			'partial ossification of sternal rib segments'
+			,
+		41
+			'no ossification of the hypaxial tendons within the tail'
+			'ossify the hypaxial tendons in the caudal skeleton'
+			,
+		42
+			'longitudinally arranged along the epaxial region of the dorsal, sacral and caudal vertebrae'
+			'arranged in a double-layered lattice'
+			,
+		43
+			'relatively narrow (minimal neck width less than 20% scapula length)'
+			'wide (minimal width greater than 20% scapular length)'
+			,
+		44
+			'short and broad (ratio of its length to the base of the coracoid notch with the width of its base at this same point 0.33-0.70)'
+			'unusually large and narrow (ratio greater than 0.80)'
+			,
+		45
+			'length of the humerus is greater than or equal to the length of the scapula'
+			'proximal portion of the forelimb becomes abbreviated relative to scapular length'
+			,
+		46
+			'rounded in lateral view'
+			'ventral margin emerges much more abruptly from the humeral shaft and terminates to give a distinctly angular profile'
+			,
+		47
+			'relatively gracile (minimal radial width less than 10% radial length)'
+			'minimal radial width is equal to or greater than 10% radial length'
+			,
+		48
+			'nearly parallel orientation relative to the long axis of the antebrachium'
+			'diverges approximately 45• from the antebrachial axis'
+			,
+		49
+			'unfused with each other'
+			'fused into two blocks'
+			,
+		50
+			'only slightly shorter than metacarpal II'
+			'less than 50% the length of metacarpal II'
+			,
+		51
+			'claw-like in basal Dinosauria'
+			'enlarged and subconical'
+			,
+		52
+			'relatively short compared to the second phalanx of each respective digit'
+			'more than twice the length of the second phalanx'
+			,
+		53
+			'four phalanges'
+			'three phalanges'
+			,
+		54
+			'claw-like, narrower than long'
+			'hoof-shaped, as wide and long'
+			,
+		55
+			'straight to slightly convex in lateral view'
+			'sinuous'
+			,
+		56
+			'faces approximately laterally, roughly in the same plane as the iliac body'
+			'distinctly twisted about its long axis'
+			,
+		57
+			'relatively large and concave with a dorsal supracetabular rim'
+			'very narrow and reduced and there is no supra-acetabular rim'
+			,
+		58
+			'absent on the ischium'
+			'present'
+			,
+		59
+			'positioned beyond the proximal 25% of the length of the ischium (measured from the acetabular rim to the middle of the obturator process)'
+			'positioned within this 25% demarcation'
+			,
+		60
+			'relatively straight'
+			'distinctly curved downwardly'
+			,
+		61
+			'laterally flattened in cross-section'
+			'ovoid to subcylindrical'
+			,
+		62
+			'terminates without a significant increase in size'
+			'terminus bears an expansion that is 50% larger than the adjacent ischial shaft'
+			,
+		63
+			'primitively have little more than a short, peg-like prepublic process'
+			'An elongate, flattened prepubic process is found in Tenontosaurus, Rhabdodon, Dryosaurus, Camptosaurus and Iguanodon'
+			'State rod-shaped pre- pubic process that is wider transversely than dorsovent- rally, is seen in Zalmoxes, Agilisaurus, Thescelosaurus, Gasparinisaura, Parksosaurus and Hypsilophodon'
+			,
+		64
+			'slender (minimal diameter less than 15% femoral length)'
+			'robust (minimal diameter equal to or greater than 15% length)'
+			,
+		65
+			'straight'
+			'distinctly bowed'
+			,
+		66
+			'shorter than or equal in length to the tibia'
+			'longer than the tibia'
+			,
+		67
+			'open, deep cleft between the anterior and greater trochanters'
+			'closed intertrochanteric cleft'
+			,
+		68
+			'pendant'
+			'tab-shaped'
+			,
+		69
+			'located entirely on the proximal half of the femur'
+			'at midshaft or on the distal half of the femur'
+			,
+		70
+			'absent'
+			'modest to deep'
+			,
+		71
+			'fully open posteriorly'
+			'medial condyle is inflated such that it partially covers the opening of the groove'
+			,
+		72
+			'two phalanges'
+			'reduced solely to metatarsal I'
+			,
+		73
+			'more than 50% the length of metatarsal III'
+			'less than 50% metatarsal III length'
+			,
+		74
+			'present'
+			'lost'
+			,
+		75
+			'claw-shaped; narrower than long'
+			'hoof-shaped (approximately as wide as long)'
+			,
+	;
+	MATRIX
+	'Ancestor'                           000000000000000000000000000000000000000000000000000000000000000000000000000
+	'Marginocephalia'                    000000000000000000000000000000000000000000000000000000100000000000000000000
+	'Heterodontosauridae'                000000010000100000000010000010000000000000000100000000000000000000000100000
+	'Agilisaurus multidens'              0?0010?0001100000???010?2010020010000000???0000000?000000100002000000000000
+	'Thescelosaurus neglectus'           1??0???????111??????010??01002001(0 1)101011101000100000001001000021010010?0000
+	'Parksosaurus warreni'               1?101??0???1????0???0???2110?2001???10111010000???????10?1000021101000?0000
+	'Hypsilophodon foxii'                0000(0 1)0000001000010000000001011101110000110101000000000000100002000000000100
+	'Gasparinisaura cincosaltensis'      0?101????00?0001????01??00111000??1??1??100001????????1001????200010000??0?
+	'Tenontosaurus tilletti'             11111100110(0 1)1001111011120100101001111110100011000001101001000011010011100(0 1)0
+	'Tenontosaurus dossi'                1111?100110010?1??101?1101001010011?011010000?0?0?01?0100100001101001110000
+	'Dryosaurus altus'                   011001011010100????1011221111110011?0110000?010000?1?0100111111011000111100
+	'Dryosaurus lettowvorbeckii'         011001011010100??011011211111010011?01100000010????1?0100111111011000111100
+	'Camptosaurus dispar'                111001111010101101111112210111100010111001000111111110000111111101001110110
+	'Iguanodon atherfieldensis'          111011111010111101111112210112100011111001100111111111100111111101111111111
+	'Iguanodon bernissartensis'          111011111010111101111112210112100011111001100111111111100111111101111111111
+	'Rhabdodon priscus'                  ????????????????????1????1101?11111??11???101?????????0??100?0111100011??1?
+	'Zalmoxes robustus'                  1011?000011010010101111201101011111??11???0?1?????????01100110?11100111??1?
+	'Zalmoxes shqiperorum'               ???????????1????????111??????011111??1??1001??????????0110011121110?111????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-75;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -908639265; FileSettings treewindow '1' '1' '76' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '46' '6' '597' '859'; TreeWindowPosition '46' '6' '851' '1389'; ListWindow Characters open Gadget '12' '640' '154' '270' '517' 000; ListWindow Taxa open Gadget '12' '50' '10' '253' '381' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; TextWindow AboutFile '130' '105' '280' '445' Gadget '12' ( normal ) 1; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '13' '51' '1167' '254' '273'; WindowOrder List Taxa Tree List Characters Text AboutFile States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '741' '1295' '132' '85'; TreeLegendPosition '774' '1197' '88' '94'; EditorToolsPosition '437' '1246' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '256' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1733737272439; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7212874205831989983; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2438575959606662406; mqVersion 381; checksumv 0 3 3890250317 null getNumChars 75 numChars 75 getNumTaxa 18 numTaxa 18 short true bits 7 states 7 sumSquaresStatesOnly 2891.0 sumSquares 2891.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 881; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2438575959606662406 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 809; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #2438575959606662406 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 809; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 75; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Ornithopoda_Weishampel_et_al_2003.nex"'; ID 0193aacad8bd3; LINK Taxa = Taxa; TRANSLATE [0] 1 Ancestor, [1] 2 Marginocephalia, [2] 3 Heterodontosauridae, [3] 4 Agilisaurus_multidens, [4] 5 Thescelosaurus_neglectus, [5] 6 Parksosaurus_warreni, [6] 7 Hypsilophodon_foxii, [7] 8 Gasparinisaura_cincosaltensis, [8] 9 Tenontosaurus_tilletti, [9] 10 Tenontosaurus_dossi, [10] 11 Dryosaurus_altus, [11] 12 Dryosaurus_lettowvorbeckii, [12] 13 Camptosaurus_dispar, [13] 14 Iguanodon_atherfieldensis, [14] 15 Iguanodon_bernissartensis, [15] 16 Rhabdodon_priscus, [16] 17 Zalmoxes_robustus, [17] 18 Zalmoxes_shqiperorum; TREE Published = (4,(7,(8,(6,(5,((16,(17,18)),((9,10),((12,11),(13,(14,15)))))))))); TREE Ingroup = (7,(8,(6,(5,((16,(17,18)),((9,10),((12,11),(13,(14,15))))))))); TREE UNTITLED = (13,((14,15),((12,11),((9,10),((16,(17,18)),(5,(6,(7,8)))))))); 
+ENDBLOCK;

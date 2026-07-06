@@ -1,0 +1,1289 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.47.28 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=132;
+	TAXLABELS
+		'Zygiella atrica'
+		'Argiope argentata'
+		'Actinosoma pentacanthum'
+		'Araneus venatrix'
+		'Cyclosa fililineata'
+		'Enacrosoma anomalum'
+		'Wagneriana dimastophora'
+		'Aspidolasius branicki'
+		'Gasteracantha cancriformis'
+		'Hypognatha belem'
+		'Xylethrus superbus'
+		'Verrucosa arenata'
+		'Pronous tuberculifer'
+		'Micrathena aureola'
+		'Micrathena bandeirante'
+		'Micrathena cucharas'
+		'Micrathena cornuta'
+		'Micrathena necopinata'
+		'Micrathena picta'
+		'Micrathena pungens'
+		'Micrathena woytkowskii'
+		'Micrathena funebris'
+		'Micrathena gracilis'
+		'Micrathena forcipata'
+		'Micrathena horrida'
+		'Micrathena margerita'
+		'Micrathena spinulata'
+		'Micrathena crassispina'
+		'Micrathena lucasi'
+		'Micrathena pupa'
+		'Micrathena zilchi'
+		'Micrathena phmsp01'
+		'Micrathena stuebeli'
+		'Micrathena ifmsp01'
+		'Micrathena bifida'
+		'Micrathena crassa'
+		'Micrathena fidelis'
+		'Micrathena fissispina'
+		'Micrathena gaujoni'
+		'Micrathena guerini'
+		'Micrathena lindenbergi'
+		'Micrathena nigrichelis'
+		'Micrathena pilaton'
+		'Micrathena reali'
+		'Micrathena sanctispiritus'
+		'Micrathena shealsi'
+		'Micrathena kirbyi'
+		'Micrathena macfarlanei'
+		'Micrathena miles'
+		'Micrathena bimucronata'
+		'Micrathena cubana'
+		'Micrathena digitata'
+		'Micrathena furcula'
+		'Micrathena furva'
+		'Micrathena patruelis'
+		'Micrathena mitrata'
+		'Micrathena saccata'
+		'Micrathena similis'
+		'Micrathena duodecimspinosa'
+		'Micrathena excavata'
+		'Micrathena exlinae'
+		'Micrathena molesta'
+		'Micrathena plana'
+		'Micrathena quadriserrata'
+		'Micrathena ruschii'
+		'Micrathena triangularis'
+		'Micrathena triserrata'
+		'Micrathena balzapamba'
+		'Micrathena clypeata'
+		'Micrathena embira'
+		'Micrathena schreibersi'
+		'Micrathena spitzi'
+		'Micrathena vigorsi'
+		'Micrathena decorata'
+		'Micrathena lepidoptera'
+		'Micrathena anchicaya'
+		'Micrathena banksi'
+		'Micrathena brevipes'
+		'Micrathena coca'
+		'Micrathena cyanospina'
+		'Micrathena donaldi'
+		'Micrathena furcata'
+		'Micrathena lata'
+		'Micrathena militaris'
+		'Micrathena pichincha'
+		'Micrathena reimoseri'
+		'Micrathena sagittata'
+		'Micrathena sexspinosa'
+		'Micrathena spinosa'
+		'Micrathena beta'
+		'Micrathena perfida'
+		'Micrathena swainsoni'
+		'Micrathena acuta'
+		'Micrathena evansi'
+		'Micrathena flaveola'
+		'Micrathena annulata'
+		'Micrathena peregrinatorum'
+		'Micrathena schenkeli'
+		'Micrathena triangularispinosa'
+		'Micrathena phmsp08'
+		'Micrathena yanomami'
+		'Micrathena abrahami'
+		'Micrathena bicolor'
+		'Micrathena ucayali'
+		'Micrathena agriliformis'
+		'Micrathena alvarengai'
+		'Micrathena armigera'
+		'Micrathena atuncela'
+		'Micrathena bananal'
+		'Micrathena bogota'
+		'Micrathena brevispina'
+		'Micrathena carimagua'
+		'Micrathena coroico'
+		'Micrathena elongata'
+		'Micrathena glyptogonoides'
+		'Micrathena guayas'
+		'Micrathena gurupi'
+		'Micrathena hamifera'
+		'Micrathena huanuco'
+		'Micrathena kochalkai'
+		'Micrathena lenca'
+		'Micrathena marta'
+		'Micrathena osa'
+		'Micrathena petrunkevitchi'
+		'Micrathena parallela'
+		'Micrathena raimondi'
+		'Micrathena rubicundula'
+		'Micrathena rufopunctata'
+		'Micrathena soaresi'
+		'Micrathena striata'
+		'Micrathena teresopolis'
+		'Micrathena tziscao'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=192;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Size sexual dimorphism'
+		[2] 'Carapace, coloration'
+		[3] 'Carapace, light markings'
+		[4] 'Carapace, longitudinal median pigmented stripe'
+		[5] 'Carapace, longitudinal lateral pigmented bands'
+		[6] 'Female, carapace, lateral thoracic rim'
+		[7] 'Carapace, cephalic region, curved macrosetae behind posterior eyes'
+		[8] 'Carapace, cephalic region, tubercles'
+		[9] 'Carapace, tubercles, shape'
+		[10] 'Carapace, cephalic region, lateral eyes, position in relation to each other'
+		[11] 'Carapace, cephalic region, posterior median eyes, tapetum'
+		[12] 'Female, carapace, posterior eye row, orientation'
+		[13] 'Female, carapace, transversal distance between anterior lateral eye and posterior median eye'
+		[14] 'Female, carapace, clypeus, height'
+		[15] 'Carapace, cephalic region, height'
+		[16] 'Carapace, shape in lateral view'
+		[17] 'Carapace, thoracic region, texture'
+		[18] 'Carapace, setae, length'
+		[19] 'Carapace, setae, colour'
+		[20] 'Carapace, thoracic region, lateral edges, setae rows'
+		[21] 'Carapace, thoracic region, fovea'
+		[22] 'Carapace, thoracic region, fovea, shape'
+		[23] 'Carapace, thoracic region, lateral dimples'
+		[24] 'Carapace, thoracic region, lateral dimples, number'
+		[25] 'Carapace, thoracic region, second and third lateral dimples, shape'
+		[26] 'Cephalothorax, pleura, texture'
+		[27] 'Sternum, coloration'
+		[28] 'Sternum, shape'
+		[29] 'Sternum, ventral surface, shape'
+		[30] 'Sternum, posterior end, shape'
+		[31] 'Chelicerae, prolateral teeth row, teeth number'
+		[32] 'Chelicerae, retrolateral teeth row, teeth number'
+		[33] 'Legs, femora, setal bases, shape'
+		[34] 'Leg IV, coxa, texture'
+		[35] 'Female, abdomen, width'
+		[36] 'Abdomen, frontal condyles'
+		[37] 'Abdomen, genital tubercle'
+		[38] 'Abdomen, anterior projection that fits on sternum notch'
+		[39] 'Abdomen, dorsal sclerites'
+		[40] 'Abdomen, sclerotization'
+		[41] 'Abdomen, dorsum, texture'
+		[42] 'Abdomen, sides, shape'
+		[43] 'Abdomen, dorsum, coloration'
+		[44] 'Abdomen, dorsum, median dark longitudinal band'
+		[45] 'Abdomen, dorsal ladder-like coloration pattern'
+		[46] 'Abdomen, dorsum, lateral dark longitudinal bands'
+		[47] 'Abdomen, dorsum, lateral dark longitudinal bands, extension'
+		[48] 'Abdomen, guanine visible through cuticle'
+		[49] 'Abdomen, guanine, arrangement'
+		[50] 'Abdomen, median dorsal guanine spots'
+		[51] 'Abdomen, dark band extending between two posterior spines'
+		[52] 'Abdomen, posterior pair of spines I, red ring around base'
+		[53] 'Abdomen, dorsum, apodemes, shape'
+		[54] 'Abdomen, dorsum, secondary apodemes, arrangement'
+		[55] 'Abdomen, anterior pair of spines'
+		[56] 'Abdomen, Micrathena  ruschii first pair of lateral spines'
+		[57] 'Abdomen, lateral pair of spines I'
+		[58] 'Abdomen, lateral pair of spines I, position'
+		[59] 'Abdomen, lateral pair of spines II'
+		[60] 'Abdomen, lateral pair of spines III'
+		[61] 'Abdomen, lateral pair of spines IV'
+		[62] 'Abdomen, fourth pair of lateral spines, coloration'
+		[63] 'Abdomen, lateral spines, shape'
+		[64] 'Female, abdomen, first posterior spine'
+		[65] 'Abdomen, first pair of posterior spines, shape and texture'
+		[66] 'Abdomen, first pair of posterior spines, length'
+		[67] 'Female, abdomen, second posterior spine'
+		[68] 'Abdomen, second pair of posterior spines, length'
+		[69] 'Second pair of posterior spines, position in relation to first pair'
+		[70] 'Abdomen, posterior spine lobe'
+		[71] 'Abdomen, posterior pair of spines III'
+		[72] 'Abdomen, posterior spines, arrangement'
+		[73] 'Abdomen, median posterior spine'
+		[74] 'Abdomen, setal bases, shape'
+		[75] 'Female, abdomen, spinnerets cone'
+		[76] 'Abdomen, venter, tubercle anterior to spinnerets'
+		[77] 'Abdomen, venter, blunt spines'
+		[78] 'Abdomen, sclerotized ring around spinnerets'
+		[79] 'Abdomen, spinnerets ring, anterior protuberance'
+		[80] 'Abdomen, spinnerets, posterior median spinnerets, anterior brush of aciniform gland spigots'
+		[81] 'Abdomen, sclerotized ring around spinnerets, shape'
+		[82] 'Abdomen, median ventral row of apodemes, small apodeme'
+		[83] 'Abdomen, median ventral row of apodemes, large apodeme'
+		[84] 'Abdomen, median ventral row of apodemes, spinnerets apodeme'
+		[85] 'Abdomen, booklung cover surface, texture'
+		[86] 'Abdomen, booklung cover wrinkles, shape'
+		[87] 'Abdomen, booklung cover wrinkles, spacing between wrinkles'
+		[88] 'Abdomen, sclerotized plate anterior to epigyne'
+		[89] 'Epigyne, bulge, anterior face, shape'
+		[90] 'Epigyne, bulge, shape'
+		[91] 'Epigyne, anterior pair of apodemes'
+		[92] 'Epigyne, lobe'
+		[93] 'Epigyne, lobe, orientation'
+		[94] 'Epigyne, lobe, shape'
+		[95] 'Epigyne, lobe, shape - 2'
+		[96] 'Epigyne, lobe, shape - 3'
+		[97] 'Epigyne, dorsal depressions flanking the lobe'
+		[98] 'Epigyne, transverse bar'
+		[99] 'Epigyne, transverse bar, anterior margin, shape'
+		[100] 'Epigyne, transverse bar, shape'
+		[101] 'Epigyne, transverse bar, lateral edges, shape'
+		[102] 'Epigyne, median plate, width'
+		[103] 'Epigyne, lateral plates, keels'
+		[104] 'Epyginum, median plate, shape'
+		[105] 'Epigyne, copulatory openings, size'
+		[106] 'Spermathecae, conical projections'
+		[107] 'Carapace, coloration - 2'
+		[108] 'Carapace, pars cephalica, coloration'
+		[109] 'Carapace, shape'
+		[110] 'Carapace, median clypeal projection'
+		[111] 'Carapace, lateral eyes, position'
+		[112] 'Palp, endite, tooth'
+		[113] 'Coxa I, hook and femur II, groove'
+		[114] 'Trochanter IV, stout macrosetae'
+		[115] 'Femur I and II, dorsal and lateral macrosetae'
+		[116] 'Femur I dorsal and lateral macrosetae, shape'
+		[117] 'Femur II, median ventral macrosetae row'
+		[118] 'Tibia I, shape'
+		[119] 'Tibia I, dorsal and lateral macrosetae'
+		[120] 'Tibia II, dorsal and lateral macrosetae'
+		[121] 'Tibia II, paired ventral macrosetae rows'
+		[122] 'Tibia II, branch'
+		[123] 'Abdomen, dorsal coloration pattern'
+		[124] 'Abdomen, shape'
+		[125] 'Abdomen, shape - 2'
+		[126] 'Abdomen, median nipples'
+		[127] 'Abdomen, posterior tubercles'
+		[128] 'Abdomen, posterior tubercles, shape'
+		[129] 'Abdomen, posterior end, shape'
+		[130] 'Palpal bulb, tegulum, margin, shape'
+		[131] 'Palpal bulb, tegulum, margin, projection'
+		[132] 'Palpal bulb, tegulum, margin, projection, length'
+		[133] 'Palpal bulb, tegular projection, sclerotization'
+		[134] 'Palpal bulb, tegulum, distal margin, size'
+		[135] 'Palpal bulb, extra tegular projection'
+		[136] 'Palpal bulb, stipes'
+		[137] 'Palpal bulb, subterminal apophysis'
+		[138] 'Palpal bulb, terminal apophysis'
+		[139] 'Palpal bulb, terminal apophysis, position in relation to embolus'
+		[140] 'Palpal bulb, terminal apophysis, shape'
+		[141] 'Palpal bulb, terminal apophysis, connectivity to embolus'
+		[142] 'Palpal bulb, terminal apophysis and embolus, degree of connectivity to embolus'
+		[143] 'Palpal bulb, terminal apophysis, membranous projection'
+		[144] 'Palpal bulb, terminal apophysis, size'
+		[145] 'Palpal bulb, embolus base, shape'
+		[146] 'Palpal bulb, left embolus, orientation'
+		[147] 'Palpal bulb, embolus, apex, shape'
+		[148] 'Palpal bulb, embolus, size and shape'
+		[149] 'Palpal bulb, embolus, membrane'
+		[150] 'Palpal bulb, embolus, hook'
+		[151] 'Palpal bulb, conductor, attachment'
+		[152] 'Palpal bulb, conductor, position'
+		[153] 'Palpal bulb, conductor, apex, shape'
+		[154] 'Palpal bulb, conductor, fold'
+		[155] 'Palpal bulb, conductor, gutter'
+		[156] 'Palpal bulb, conductor, sclerotization'
+		[157] 'Palpal bulb, conductor, retrolateral membrane'
+		[158] 'Palpal bulb, conductor, lobe'
+		[159] 'Palpal bulb, conductor, apex, notch'
+		[160] 'Palpal bulb, conductor, lobe, shape'
+		[161] 'Palpal bulb, conductor, base shape'
+		[162] 'Palpal bulb, conductor, shape'
+		[163] 'Palpal bulb, conductor, frontal lobe'
+		[164] 'Palpal bulb, paramedian apophysis'
+		[165] 'Palpal bulb, paramedian apophysis, shape'
+		[166] 'Palpal bulb, paramedian apophysis, size'
+		[167] 'Palpal bulb, median apophysis, rim'
+		[168] 'Palpal bulb, median apophysis, rim, sclerotization'
+		[169] 'Palpal bulb, median apophysis, rim, tooth'
+		[170] 'Palpal bulb, median apophysis, rim, shape'
+		[171] 'Palpal bulb, median apophysis, rim, shape - 2'
+		[172] 'Palpal bulb, median apophysis, rim, bifid prong'
+		[173] 'Palpal bulb, median apophysis, base, shape'
+		[174] 'Palpal bulb, median apophysis, basal projection'
+		[175] 'Palpal bulb, median apophysis, basal projection, shape'
+		[176] 'Palpal bulb, median apophysis, lobe'
+		[177] 'Palpal bulb, median apophysis, digitiform projection'
+		[178] 'Palpal bulb, median apophysis, digitiform projection, shape'
+		[179] 'Palpal cymbium, paracymbium, size'
+		[180] 'Palpal cymbium, paracymbium, position'
+		[181] 'Palpal cymbium, paracymbium, retrolateral lobe, shape'
+		[182] 'Palpal cymbium, paracymbium, hump'
+		[183] 'Palpal cymbium, paracymbium, dorsal lobe'
+		[184] 'Palpal cymbium, paracymbium base, sclerotization'
+		[185] 'Palpal cymbium, dorsal projection'
+		[186] 'Palpal bulb, subtegulum, size'
+		[187] 'Palp, tibia, dorsal hump'
+		[188] 'Palpal tibia, digitiform projection'
+		[189] 'Palpal tibia, digitiform projection, shape'
+		[190] 'Palpal patella, large macroseta'
+		[191] 'Palpal articles, length'
+		[192] 'Female, abdomen, shape'
+	;
+	STATELABELS
+		1
+			'absent to mild'
+			'female carapace at least twice as long than male carapace'
+			,
+		2
+			'light brown'
+			'dark brown to black'
+			'orange'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'a swelling with projected setal bases'
+			'spiniform'
+			,
+		10
+			'juxtaposed'
+			'apart by at least one diameter'
+			,
+		11
+			'present'
+			'absent'
+			,
+		12
+			'recurved'
+			'procurved'
+			,
+		13
+			'less than 30% of the length of the carapace'
+			'more than 40% of the length of the carapace'
+			,
+		14
+			'less than 25% of carapace length'
+			'more than 35% of carapace length'
+			,
+		15
+			'low'
+			'high'
+			,
+		16
+			'not domed'
+			'domed'
+			,
+		17
+			'hirsute'
+			'with reduced setae'
+			'glabrous'
+			,
+		18
+			'short and sparse'
+			'long and very numerous'
+			,
+		19
+			'opaque, brown'
+			'silvery'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'slit-like'
+			'circular'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'three pairs of dimples'
+			'two pairs of dimples'
+			'one pair of dimples'
+			,
+		25
+			'circular'
+			'slit-like'
+			,
+		26
+			'hirsute'
+			'glabrous'
+			,
+		27
+			'light brown'
+			'dark brown'
+			'white'
+			'orange'
+			,
+		28
+			'shield-shaped'
+			'constricted'
+			,
+		29
+			'flat'
+			'sculptured'
+			'domed'
+			,
+		30
+			'pointed'
+			'truncate'
+			,
+		31
+			'four'
+			'five'
+			'six'
+			'three'
+			'two'
+			,
+		32
+			'two'
+			'three'
+			'four'
+			'five'
+			,
+		33
+			'flat'
+			'projected'
+			,
+		34
+			'smooth'
+			'tuberculate or spiny'
+			,
+		35
+			'carapace length more than 20% of abdomen width'
+			'carapace length less than 15% of abdomen width'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'lightly sclerotized'
+			'heavily sclerotized'
+			,
+		41
+			'hirsute'
+			'glabrous'
+			,
+		42
+			'straight to slightly curved'
+			'undulating'
+			,
+		43
+			'white'
+			'yellow'
+			'orange'
+			'black'
+			'brown'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'continuous'
+			'medially interrupted'
+			,
+		48
+			'visible, coloration opaque'
+			'not visible, coloration translucid'
+			,
+		49
+			'solid and continuous fill'
+			'reticulate, guanine concentrated in small spots'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent'
+			'present'
+			,
+		53
+			'circular'
+			'oval and with a median scar'
+			,
+		54
+			'in a single row'
+			'scattered'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'in a straight line with apodemes'
+			'anteriorly displaced'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'absent'
+			'present'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'dark red to black'
+			'yellow'
+			,
+		63
+			'simple'
+			'trifid'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'conical and glabrous'
+			'distally incrassated and hirsute'
+			,
+		66
+			'shorter than carapace'
+			'longer than carapace'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'shorter than carapace'
+			'longer than carapace'
+			,
+		69
+			'posterior/ventral'
+			'anteriorly displaced'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'dorsoventral'
+			'lateral'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'tight and circular'
+			'wide and hooded'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'absent'
+			'present'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'absent'
+			'present'
+			,
+		80
+			'present'
+			'absent'
+			,
+		81
+			'regular'
+			'with a posterior lip'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'absent'
+			'present'
+			,
+		85
+			'wrinkled'
+			'smooth'
+			,
+		86
+			'few irregular wrinkles'
+			'modified into stridulatory surface'
+			,
+		87
+			'wide'
+			'narrow'
+			,
+		88
+			'absent'
+			'present'
+			,
+		89
+			'entire'
+			'with two lateral excavations'
+			,
+		90
+			'domed'
+			'conical and ventrally projected'
+			'flat'
+			,
+		91
+			'absent'
+			'present'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'posterior'
+			'ventral'
+			,
+		94
+			'dorsoventrally flattened'
+			'laterally flattened'
+			,
+		95
+			'rounded, sclerotized'
+			'pointed, unsclerotized'
+			,
+		96
+			'lobe-like'
+			'scape-like, long and annulated'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'concave to plain'
+			'convex'
+			,
+		100
+			'entirely attached to the epigynal bulge'
+			'with a constriction near the base'
+			,
+		101
+			'smooth'
+			'pointed'
+			,
+		102
+			'about as wide as high'
+			'much wider than high'
+			,
+		103
+			'absent'
+			'present'
+			,
+		104
+			'flat'
+			'projected'
+			,
+		105
+			'large'
+			'small and concealed beneath lateral plates'
+			'concealed beneath hood'
+			,
+		106
+			'absent'
+			'present'
+			,
+		107
+			'light brown'
+			'dark brown'
+			,
+		108
+			'same color as rest of the carapace'
+			'with darker coloration around median eyes'
+			,
+		109
+			'rounded'
+			'elongated to oval'
+			,
+		110
+			'absent'
+			'present'
+			,
+		111
+			'sitting on the carapace'
+			'on the tips of lateral projections'
+			,
+		112
+			'absent'
+			'present'
+			,
+		113
+			'absent'
+			'present'
+			,
+		114
+			'absent'
+			'present'
+			,
+		115
+			'present'
+			'absent'
+			,
+		116
+			'same as femur II spines'
+			'stronger than femur II spines'
+			,
+		117
+			'absent'
+			'present'
+			,
+		118
+			'straight'
+			'curved'
+			,
+		119
+			'present'
+			'absent'
+			,
+		120
+			'present'
+			'absent'
+			,
+		121
+			'absent'
+			'present'
+			,
+		122
+			'absent'
+			'present'
+			,
+		123
+			'plain'
+			'dark with a large, single guanine spot'
+			'with dark median stripe and light sides'
+			'with two posterior paired guanine spots'
+			'with many paired, large guanine spots'
+			'plain, with two lateral dark bands'
+			,
+		124
+			'rounded'
+			'rectangular'
+			'inverted U-shaped'
+			,
+		125
+			'entire'
+			'with a median constriction'
+			,
+		126
+			'absent'
+			'present'
+			,
+		127
+			'absent'
+			'present'
+			,
+		128
+			'short and blunt'
+			'long and pointed'
+			,
+		129
+			'entire'
+			'pseudosegmented'
+			,
+		130
+			'rounded'
+			'subsquarish'
+			,
+		131
+			'absent'
+			'present'
+			,
+		132
+			'short'
+			'very long'
+			,
+		133
+			'as sclerotized as rest of the tegulum'
+			'unsclerotized'
+			,
+		134
+			'not enlarged'
+			'very enlarged, bulging'
+			,
+		135
+			'absent'
+			'present'
+			,
+		136
+			'present'
+			'absent'
+			,
+		137
+			'absent'
+			'present'
+			,
+		138
+			'present'
+			'absent'
+			,
+		139
+			'runs along with it'
+			'covers it'
+			,
+		140
+			'lamellar'
+			'large and sculptured'
+			,
+		141
+			'free'
+			'fused'
+			,
+		142
+			'partially fused'
+			'entirely fused'
+			,
+		143
+			'absent'
+			'present'
+			,
+		144
+			'at least as long as embolus'
+			'shorter than half the length of the embolus'
+			,
+		145
+			'tubular'
+			'flat, wide and enlarged'
+			,
+		146
+			'clockwise'
+			'counter-clockwise'
+			,
+		147
+			'simple'
+			'bifid'
+			'coiled'
+			,
+		148
+			'straight to slightly curved'
+			'very long and coiled'
+			'wide and scythe-like'
+			'large and S-shaped'
+			'wider at the base, tapering'
+			,
+		149
+			'absent'
+			'present'
+			,
+		150
+			'absent'
+			'present'
+			,
+		151
+			'in the edge of the tegulum'
+			'in the middle of the tegulum'
+			,
+		152
+			'not projected'
+			'projected over the tegulum'
+			,
+		153
+			'rounded'
+			'pointed'
+			,
+		154
+			'absent'
+			'present'
+			,
+		155
+			'absent'
+			'present'
+			,
+		156
+			'not sclerotized'
+			'with a sclerotized apex'
+			,
+		157
+			'absent'
+			'present'
+			,
+		158
+			'absent'
+			'present'
+			,
+		159
+			'absent'
+			'present'
+			,
+		160
+			'digitiform'
+			'sclerotized, pointed and notched'
+			'subsquarish and pointing dorsally'
+			'large and covering the conductor apex'
+			'cup-shaped'
+			,
+		161
+			'small, not extending beyond tegulum'
+			'enlarged, extending beyond tegulum'
+			,
+		162
+			'lamellar'
+			'twisted'
+			,
+		163
+			'absent'
+			'present'
+			,
+		164
+			'absent'
+			'present'
+			,
+		165
+			'digitiform'
+			'large and oval'
+			'bent'
+			'sclerotized and drop-shaped'
+			,
+		166
+			'short'
+			'very long'
+			,
+		167
+			'present'
+			'absent'
+			,
+		168
+			'heavily sclerotized'
+			'lightly sclerotized'
+			,
+		169
+			'absent'
+			'present'
+			,
+		170
+			'not bent'
+			'bent'
+			,
+		171
+			'simple'
+			'bifid'
+			,
+		172
+			'absent'
+			'present'
+			,
+		173
+			'attached side by side to radix'
+			'extended beneath radix'
+			,
+		174
+			'absent'
+			'present'
+			,
+		175
+			'squarish'
+			'curved and covering the rim'
+			'semicircular and distally detached'
+			'tooth-shaped'
+			'pointed towards embolus'
+			'large and semi-circular'
+			,
+		176
+			'absent'
+			'present'
+			,
+		177
+			'absent'
+			'present'
+			,
+		178
+			'small, thin'
+			'large, lobulate, conductor-like'
+			'spiniform'
+			'laminar'
+			,
+		179
+			'small'
+			'well developed'
+			,
+		180
+			'runs along with cymbium'
+			'laterally projected'
+			,
+		181
+			'rounded'
+			'flattened'
+			'elongated'
+			'folded'
+			,
+		182
+			'absent'
+			'present'
+			,
+		183
+			'absent'
+			'present'
+			,
+		184
+			'as sclerotized as rest of the cymbium'
+			'much more sclerotized than the rest of the cymbium'
+			,
+		185
+			'absent'
+			'present'
+			,
+		186
+			'small, occupying half of the palpal bulb in retrolateral view'
+			'very large, occupying most of the palpal bulb in retrolateral view'
+			,
+		187
+			'absent'
+			'present'
+			,
+		188
+			'absent'
+			'present'
+			,
+		189
+			'simple'
+			'bifid'
+			,
+		190
+			'present'
+			'absent'
+			,
+		191
+			'long (palp longer than carapace)'
+			'short'
+			,
+		192
+			'oval to squarish'
+			'inverted-pear shaped, narrowing posteriorly'
+			'inverted triangle'
+			,
+	;
+	MATRIX
+	'Zygiella atrica'                    00100000-000000000001-0--10000410000000000000100010---000-000--0--0---0-000000-0-000???00000----00---00020001000000000000050000-000--00101------010000100010000-0000--00000000-00-1030000000-000
+	'Argiope argentata'                  10000000-00100000010000--000000100000000011000-0010---000-000--0--0---0-000000-0-00000000000----00---00000000000000000000000000-000--00001------000001000000000-0100--00000000-00-0000000000-010
+	'Actinosoma pentacanthum'            00000100-00000001000000--100000100000000003000-00001--0011000-01000---0-100000-0-00000000001000000---000000000011000000000000011000--00100000-00000000100010000-00012000000010-00-0000000000-010
+	'Araneus venatrix'                   00011000-00000000000000--010000100000000001010-0000---000-000--0--0---0-000000-0-00000000001000100---00000000001100010001000000-000--00010100-00000000000000000-0000--01000100-00-0000000000-010
+	'Cyclosa fililineata'                00000000-00000001000000--10000000000000000000110000---000-000--0--0---0-000000-0-0001--00001000010---00010000001100000000000000-0010000100000-00000000101001010000112000000000-00-0000000000-010
+	'Enacrosoma anomalum'                00001010-00000000000000--000010010000000000000-00000--0010010-0100100010000000-?-0001--00001000000---000000000011000000000020010000--00100100-00000000101001000-00010000000000-00-0000000000-010
+	'Wagneriana dimastophora'            00001000-00000001000000--000000100000000003000-00000--0010010-01000---0-100000-0-0001--00001000000---0000000000111001000100000110010001100001-00000000100010000-00012000010010-00-0000000000-010
+	'Aspidolasius branicki'              11000010-10011102---1-0--000001100000001000101000000--000-000--1000---0-000000-?-0001--00200----00---00000100000000000000000000-000--00101------000100------00--0000--01000000-00-0000000100-010
+	'Gasteracantha cancriformis'         11000010-00010102---1-0--01010130011100100(0 1 2)000-00000000010000-010010000-01000100000000010001000000---0000010000000000001000200100010?00101------000000100000000-00010000000000-00-0000000000-110
+	'Hypognatha belem'                   00000000-00001002---1-0--100012200000111103000-0010-00000-000--0--0---0-010000-?-0001--00000----00---00000000110100000010000000-000--00100000-00110000100000000-0000--01000000-00-0000000000-010
+	'Xylethrus superbus'                 12000010-00000102---1-0--030010110100001002000-1-0000010-------1000---101100010?000000010001000000---00000100000001-001100020010000--00100001100000000101001010000010101000000-00-0000000000-010
+	'Verrucosa arenata'                  00000000-000000010001-0--1000001(0 1)000000101000100010---000-000--0--0---0-000000-0-0001--00001000100---000100000011001100001000110000--0010000100000000010100101000011010000101100101000000000-012
+	'Pronous tuberculifer'               000000?0-0?0000010001-0--120000110000000002000-1-000--0010000-0100100000000000-1-0001--00200----00---000000000011000000000010010000--01100------000(0 1)1010100101000000--00010000-10-0000000000-010
+	'Micrathena aureola'                 0100011100000000100001101110000111000001100001100000011010110-01001000100111010?011101100110----00---0101000100000000101000100100011000101------00000011100101000000--01000001300-1000100000-010
+	'Micrathena bandeirante'             0100011110000000100001101110000111000001100001100000011010110-010010001001110101011101100100----00---0101000100000000001000100110011000101------00000011100111100000--01000001300-1020100000-010
+	'Micrathena cucharas'                01000?1100?0000010000111111000011100000100000????000011010010-01001000100111010?011101100110----00---0101000100000000101000100110011000101------00000011100111100000--01000001300-1020100000-010
+	'Micrathena cornuta'                 010001111000000010000110111000011100000110000(0 1)100000011010010-01001000100111010?011101100010----00---0101000100000000000000100110011000101------00000011100111000000--01000001300-1020100000-010
+	'Micrathena necopinata'              0100011110000000100001101110000011000001100001000000011010110-01001000100111010?011101100110----00---01010?0100??????0?????100110011000?01------00000011?001??0?0000--01000001300-1000100000??10
+	'Micrathena picta'                   0100011100100000100001101110000111000001100001100100011010010-01001000100111010?011101100110----00---0101000100000010101000100100011000101------00000011100101000000--01000001300-1000100000-010
+	'Micrathena pungens'                 01000100-0000000100001100110000111000001103------0-0011010111-01010--00-01110101011101100010----00---01010001000001-0001000100100011000101------000000111001011000010001000001000-1020100000-010
+	'Micrathena woytkowskii'             0000011110?00000100001101110000111000001100001100000011010010-01001000100111010?011101100010----00---0101000100000000001000100110011000101------00000011100111100000--01000001300-1020100000-010
+	'Micrathena funebris'                00000000-01000001000010--100000110000001103----001-0011010000-01000--00000100101001101100010----00---00010001000000100000001000-001000010010100000000010100101000000--1------100101000100000-010
+	'Micrathena gracilis'                10001110-00000001000010--12000011000000110(0 1 3)000-00100010011010-010010001001100100011001000011110000---00010101000001-001100010010100--0010000100000000010000101020000--1------100101000000000-010
+	'Micrathena forcipata'               00000100-0?0000010000112?100000110000001003----00100011010000-01111000000110010?011001100011110000---0001010100?0??????????100??000--0010000??0000000010????01?21000--1------100101000000000-?10
+	'Micrathena horrida'                 10001100-00000001000010--120000110000001100000-00100010011110-010010011001100101011001000011110000---00010001000001-001100010010100--0010000100000000010000101020000--1------100101000000000-010
+	'Micrathena margerita'               ?0000100-0000000100001100100003110000001100100-00100010010000-01111000000110010?011001000011110000---00010??????????????????????????????????????????0??????????????????????????????????????????1
+	'Micrathena spinulata'               00000100-00000002---010--110000110000001100000-00000010010000--10010000001100101011001100011110000---000100010000000001100210010000--0010000100000000010000101021000--1-----0100101000000000-010
+	'Micrathena crassispina'             00000100-00000002---01100100003110000001101000-00001011010010-01011000000011010?1111011000110000010010001000100010010000002100000010000100101010000000100001010000010000010001010-1000000000-010
+	'Micrathena lucasi'                  00000100-0?000001000010--11000011000000110(0 1)000-0000001100-010-01001000000111010?111101100011000001000000100010001001?0001021000-0010000100100-10000000100001110000010000010001010-1000000000-010
+	'Micrathena pupa'                    00001100-0?000001000010--110000110000001000101000000010010010-01001000100111010?1?110110021100000100000100(0 1)0100110011000102101100010000100100-00000?00100000110000010000010001010-1000000000-011
+	'Micrathena zilchi'                  ?0000100-00000001000010--110000110000001101000-00001010010010-01011000000111010?11111--0001100000100000110??????????????????????????????????????????0??????????????????????????????????????????0
+	'Micrathena phmsp01'                 01100100-00000002---010--11000??1?0???01103----000-0010010010-01011000000111010?0111011000110000010100001?1010001001000010210010000--001001011100000-0100001010000010000010001010-1000000000-010
+	'Micrathena stuebeli'                01000100-00000002---010--11000011010000110(1 3)000-00010011010010-01001001100111(0 1)10?11111--000110000010000011000100010011000101100000110000100101010000000100000010000010000010001000-1001000000-010
+	'Micrathena ifmsp01'                 00000100-00000002---010--100000110000001101001000001010010000-01001000000011010?011101100011000001000001100010001100000000210010000--00100100-10000000100100110000010000010001010-1001000000-010
+	'Micrathena bifida'                  00001100-00000002---01110100000110000001101001000000010010000-01001000000011010101111--00010----01000001100010001101100010210010001010010010101000000010010011000001000001100101101001000000-010
+	'Micrathena crassa'                  00000100-00000002---010--110000110000001101000-00000010010000-01001000000111010?11111--00011000001000000100010001001000010210010000--00100100-10000000100100010000010000000001010-1000000000-010
+	'Micrathena fidelis'                 00000100-00000001000010--11000011000000100(0 3)001000000010010010-01001000000111010?11111--000110000010000001000100011011000102100100010000100100-10000000100100010000010000010001010-1000000000-010
+	'Micrathena fissispina'              00001100-00000001000010--110000110000001101001000001010010000-0100100010011101001111011000110000010000001000100010000000104100100010000100-01100000000100000010000010000010001010-1000000000-010
+	'Micrathena gaujoni'                 00001100-00000002---010--100000110000001101001000000010010000-01001000100011010?0111011000110000010000011000100110011000102100100010000100100-11000000100100110000010000010001010-1000000000-010
+	'Micrathena guerini'                 00001100-00000002---01110100000110000001101000-00000010010010-01011000000011010101111--00011000001000001100010011001100010210010000--00100101010000000100100110000010000011001010-1001000000-010
+	'Micrathena lindenbergi'             ?1100100-000000010000110010000011000000110?00????000011010000-01001000100110010?01110110001100000100000010?????????????????????????????????????????????????????????????????????????????????????1
+	'Micrathena nigrichelis'             00001100-0000000100001100110000110000001100000-00001010010000-0100100010011101010111011000110000010100001000100010011000002100100010000100-01100000000100000010000010000010001000-1000000000-010
+	'Micrathena pilaton'                 ?0001100-00000002---01110100000110000001103----00000010010010-01011000000011010?01111--0001110000100000110?????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena reali'                   00011100-00000001000010--110000110000001100001000001010010000-01011000100111010?11110110001100010101000010001000100100000021000-0010000100-011?0000000100001010000010000010001000-1000000000-010
+	'Micrathena sanctispiritus'          01101100-0000000100001100100000110000001100001000001011010000-01011000100110010?011101100011000001000000100010001001000010510010000--00100101010000000100000110000010000010001410-1000000000-010
+	'Micrathena shealsi'                 00011100-00000002---01100100000110000001100101000000010010000-01001000000111010111111--00010----0100100110001000110110001021000-0010100100100-10000000100101110000012000010001010-1000000000-010
+	'Micrathena kirbyi'                  01001100-00000001000010--110000110000001101011000000011010010-01011000000111010011110111001100000100000010010000100000001051000-0010?00100101000000000100000110000010000010001410-1000000000-010
+	'Micrathena macfarlanei'             00011100-00000002---010--110001110000001100000-00001011010010-01011000000111010?11111--1001100000100000010010000100000001051000-0010?00100101000000000101000110000010000010001410-1000000000-010
+	'Micrathena miles'                   00000100-00000002---010--110001210000001101001000000010010000-01011000000111010?11110110001100000100000010011000100000001021000-0010?00100101000000000101001110000010000010001410-1000000000-010
+	'Micrathena bimucronata'             00000100-0000000000001110110001110000001100100-0000101100-000--1000--00-0111010?11110110001100000100000000000000100000001041000-0010000100101000000000100000010000010000010001010-1000000000-110
+	'Micrathena cubana'                  01000100-0000000000001100110000110000001100100-0000001100-000--1011000000111010?11110110001100000100000000000000100100001041000-0010000100101000001000100000010000010000010001010-1000000000-110
+	'Micrathena digitata'                00001100-00000002---0110011000011000000110(0 1)001000000010010010-01001001100111010?11110110001100000100000010000000100100001041000-0010?00100101010000000100000010000010000010001010-1000000000-010
+	'Micrathena furcula'                 01000100-00000000101010--11000010000000100(1 2)100-0000001000-000--1000--00-0011010111110110001100000100000000000000100000001041000-0010?00100101000000000100000010000010000010001010-1000000000-111
+	'Micrathena furva'                   00000100-00000001-010110011000011000000110(0 1)001000000010010010-010010011001110101111101100011000001000000100010001000000010(2 4)1000-0010000100101100000000100000010000010000010001010-1000000000-010
+	'Micrathena patruelis'               01000100-0000000000101100110000110000001100100-0000001000-000--1001000000111010111110110001100000100000000100000100100001041000-0010?00100101000000000100000010000010000010001010-1000000000-110
+	'Micrathena mitrata'                 01000100-0000000000001100110000110000001100100-0000001100-000--1000-00000111010?11110110001100000100000000000000100100001041000-0010000100101000000000100000000-00010000010001010-1000000000-110
+	'Micrathena saccata'                 01000100-00000000001010--110000100000001100100-0000001000-000--1011000000111010?1111011000110000010000000000000010010000104100000010000100101000000000100000010000010000010001010-1000000000-110
+	'Micrathena similis'                 ?0000100-0?0000000010111011000??10000001100100-0000001100-000--1001000000111010?1111???0001100000100000000?????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena duodecimspinosa'         00001100-0000000000101110100000110000001001001000000011010011001001000000111010?11111--0001100000100000010000000100100000051000-0010000100100-10000000100101010000010000010000-10-1000000000-010
+	'Micrathena excavata'                00001100-00000000001010--10000011000000100(1 2)000-1--00011010111101001000100111110011111--0001100000100000010000000000100001051000-000--00100100-10000000100100010000010000010001010-1000000000-010
+	'Micrathena exlinae'                 00000100-00000000001010--100000110000001002000-1--00011010111101001000000111010?11111--0001100000100000010000000100100000051000-0010000100101000000000100000010000010000010001010-1000000000-010
+	'Micrathena molesta'                 00001100-0000000000101100130000110000001002000-1--00011010111101001000110111010?11111--00010-----100000010000000100100001051000-000--00100100-0000000010101101000000--00000001000-1100000000-010
+	'Micrathena plana'                   00001100-0000000000101120110000110000001000001000000011010011001001000100111010111111--0001100000110000010000000100100001051000-0010000100100-1000000010010001000000--00010001010-1000000000-010
+	'Micrathena quadriserrata'           00001100-0?00000000101120110000110000001000001000000011010011001001000110111010?11111--0001110000100000010000000100100000051000-000--00100100-00000000101100010000010000010001000-1000000000-010
+	'Micrathena ruschii'                 02001100-00000000001010--130000110100001002000-1--00111110111001001000110111110?10111--0001100000100000110000000100100011051000-001000010010??10000000100101000-00010000010001010-1000000000-010
+	'Micrathena triangularis'            01000100-0000000000101120110000110000001003----00000011110111001001000000111010?11111--0001100000100000010010000100100001001000-0010000100100-10000000101101010000010000010001010-1000000000-010
+	'Micrathena triserrata'              01001100-0000000000101100110000110000001003----00000011010111001001000110111010111111--00011000001000000100000001001000010510010000--00100100-01000000100000010000010000010001010-1000000000-010
+	'Micrathena balzapamba'              01000100-00000002--0010--101000110000001100001000001011011010-010110000000100100001101100011????0100001010101000000000000001010-010--00101-----0000000100000010000011000111001010-1010000000-010
+	'Micrathena clypeata'                02000010-00000002--001100130000110100001102000-1--0011100-010-01001000110111011100110110001100000100001010000000100000000001000-010--00101-----0000000100000010000010000010001010-1010000000-010
+	'Micrathena embira'                  01000100-00000002--0010--111000110000001103----0?000011011110-01011000100111010?011101100011100001000010101010001000100000010010000--00101-----0000000100000010000010000010001010-1010000000-010
+	'Micrathena schreibersi'             11000100-00000002--0010--11100011000000110(0 1)00100000(0 1)011011010-01011000000010010000110110001100000100001010001000000000000001100-0110000101-----000000010000001000001000001000101101010000000-010
+	'Micrathena spitzi'                  01000000-01000002--0010--111000110000001103-------00010010010-01001001100110010000011--01000----00---01010101000000000000001110-010--00101-----000000010000001000000-000100001010-1010000000-010
+	'Micrathena vigorsi'                 11000100-00000002--0010--111000110000001101001000000011011000-01001000100010010?00110110001100000100001010101000000000000001100-000--00101-----0001000100000010000010000010001010-1010000000-010
+	'Micrathena decorata'                11000100-0000000000101100110000110000001101101000000011010010-11001001110011110011111--00011001000---000101010000000000000010010000--0010010??0000?0?0101000010000010000000001100-1100000000-010
+	'Micrathena lepidoptera'             11000100-00000001001010--11000011010000110(1 2)001000100011010010-11001001110111110011111--00011001000---000101010000001000000010010000--00100100-00000000101000000-00010001000001100-1100000000-010
+	'Micrathena anchicaya'               01000100-11000002---010--10010011000000110?00??00100010011010-01001100000010010?01101--10001010000---00000101000001-00110031010-000--00100010-?000000011100101030000--1------1201011200000011110
+	'Micrathena banksi'                  00000100-11000002---010--100101110000001100010-00000010011010-01011000000010010?11101--10001010000---10000101000001-001100310010000--00100000-00000000111000000-0000--1------1201111200000011110
+	'Micrathena brevipes'                01000100-11000002---010--110101110000001104000-00101010011010-01001100000010010001101--10001010000---00001101000001-00110031010-000--00100010-0000000001100101030000--1------1201011000000011110
+	'Micrathena coca'                    01000100-11000002---010--010101110000001104000-00101010011010-01001100000010010?01101--10001010000---00001101000001-00110031000-000-000100010-0000000001100101030000--1------1201011201000011110
+	'Micrathena cyanospina'              11000100-11000002---010--110101110000001100011000000010011010-01011000000010010?01101--10001010000---00000101000001-00110001000-0010000100000-00000000100000000-0000--1------1000-11000000011110
+	'Micrathena donaldi'                 01000100-11000002---010--110101110000001101000-00100010011010-01001100000010010?01101--10001010000---00001101000001-001100310111000--00100010-0000000011100101030000--1------1201011000000010110
+	'Micrathena furcata'                 00011100-01000002---010--100100110000001100000-01001000011010-01001000000010010010101--10001010000---00000101000001-00110051000-000--00100000-0000031010100101000000--1------1000-11000000010110
+	'Micrathena lata'                    10011100-01000002---010--100100110100001100000-01001000011010-01001000000010010?10101--10001010000---00000001000001-00110051000-000--00100000-0000031010100101000000--1------1000-11000?00011110
+	'Micrathena militaris'               00000100-11000002---010--100101110000001100000-00000010011010-01011000000010010?01101--10001010000---00000001000001-00110031010-000--00100000-00000000110000000-0001001------1201111000000011110
+	'Micrathena pichincha'               01000100-11000002---010--0101011100000011030---00100010011010-01001100000010010?01101--10001010000---00000101000001-00110031010-000--00100010-0000000000100101030000--1------1201011000000011110
+	'Micrathena reimoseri'               10011100-01000002---010--100100110100001100000-01001000011010-01011000000010010?10101--10001010000---00000001000001-00110051000-0010001100000-0000031010100101040000--1------1001011000000011110
+	'Micrathena sagittata'               00000100-11000002---010--100101110000001101000-00000010011010-01010--0000010010001101--10001010000---00000001000001-00110001010-000--00100000-00000000110000000-0000--1------1201111000000011110
+	'Micrathena sexspinosa'              11000100-11000002---1-0--010101110000001104000-00100010011010-01001100000010010?01101--10001010000---00101001000001-00110031010-000--00100010-0000000001100101030000--1------1201011200000011110
+	'Micrathena spinosa'                 11000100-11000002---000--010101110000001104000-00101010011010-01001100000010010001101--10001010000---00001101000001-00110031010-000--00100010-0000000000100101030000--1------1201011201000011110
+	'Micrathena beta'                    00011000-01000012---010--100000110000001100000-01001010011010-01011010000010010?01101--10001000000---00010101000001-00100011000-000--00100000-0000020010100101000000--1------1201211000000110010
+	'Micrathena perfida'                 00011000-01000012---010--100000110000001100000-01001010011000-01011010000010010?0?101--10001000000---00010101000001-00110011000-000--00100000-0000020010100101000000--1------1201211000000110010
+	'Micrathena swainsoni'               00000000-01000001000010--101000110000001004000-00000010011010-01001000000110010001101--10000----00---0000000100000000000000100110010?00100000-0000000010100101000000--00000001(0 1)00-11000000010011
+	'Micrathena acuta'                   00011000-01000012---010--100200110000001000000-00100010011010-010110000-0010010?00101--10001000000---00010101000000100000011000-000--10100000-0000000010????01010001001------0-00-1100010000-110
+	'Micrathena evansi'                  00011000-01000012---010--120000110000001104000-00100010011010-01010--00-0010010?01101--10001000000---00010101000000000000011000-0010?00100000-00000000100000010100013000000001100-1100000000-010
+	'Micrathena flaveola'                00000000-01000012---010--110200110000001001000-00000010011010-01001000000010010000101--10000----00---00010101000000100000011000-0010010100000-0000000010000001010001001------0-00-1101010000-110
+	'Micrathena annulata'                00011000-01000012---010--120000110000001100000-00101010011010-01010--00-0010010?01101--10001010000---00010101000000000000011000-0010?00100000-0000000010????010100013000000001100-1100000000-010
+	'Micrathena peregrinatorum'          00011000-01000012---010--120000110000001100000-00101010011000-01010--00-0010010?01101--10001000000---000101?1000???????????100???010?00100000-0000000010?????1?1?0????0?000001100-11000?000???10
+	'Micrathena schenkeli'               00011000-01000002---010--100000110000001104000-00101010011000-01001000000010010101101--10001000000---00010101000001-00000011000-0010?00100000-0000000010????010100011000000001100-1100001000-010
+	'Micrathena triangularispinosa'      00011000-01000012---010--120000110000001101001000100010011010-01011000000010010?01101--10001000000---00010101000000000000011000-0010000100000-0000000010????010100013000000001100-1100000000-010
+	'Micrathena phmsp08'                 01011000-01000012---010--120000110000001100000-00101010011010-01010--0000010010?01101--10001000000---00010101000001-00100011000-000--00100000-00000000100000010100011000000001100-1100000000-010
+	'Micrathena yanomami'                00000010-01000011000010--120000110000001101000-01010010011010-01001000000110010?01101--10001000000---0?010101000000-0011001101100010000100000-0000000010????010100011000000001100-1100000000-010
+	'Micrathena abrahami'                ?10001?100?00000????01101?1???????0???01?000011???00011010110-01001000100?11?10?0???????02?0----00---01010?????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena bicolor'                 010000?0-01000012--0010--?0000??10000001100000-000000?0011010-01011000000?10010?0010???100?1(0 1)10000---0001?10100?000-00000011000-0010000?0000???00000??100000?10100011000000001100-1100001000-010
+	'Micrathena ucayali'                 000110?0-01000012--0010--?2000????0???01?01000-00101010011010-01011000000?10?10?0?10????00?1010000---0001?00100?0?????????11000-0010000??0000-00000000100000010100013000000001100-1100000000-?10
+	'Micrathena agriliformis'            000011?0-0?00000????010--?1???????0???01?00100-000??010010010-0100100?100?11?10?0???????00?10000010000001?10000?1?0???00??210?100010000?0010???000?00?1001???10000?10000010001010-10000000?0-??1
+	'Micrathena alvarengai'              ?0001??0-0?00000????01120?1???????0???01?00001000???011110111?01001000100?11?10?1???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena armigera'                ?20011?0-0?00000????010--?3???????0???01?00000-00???011010010-01011000000?11?10?1???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena atuncela'                000011?0-0?00000????010--?1???????0???01?00001000001010010000-01001000000?11?10?0???????00?10000010000011?00100?1?0???0???2100100010000?0010??0100200010010??10000010000010001510-10010000?0-?10
+	'Micrathena bananal'                 ?0001??0-0?00000????01120?1???????0???01?00001000???011010011?01001000100?11?10?1???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena bogota'                  ?00011?0-0?00000????010--?????????0???01?00101000???010010000-01001000100?11?10?0???????02???????????0011??????????????????????????????????????????????????????????????????????????????????????1
+	'Micrathena brevispina'              0??????0-0?00000???101120?1???????0???01?03?????????011010111?01001000110?11?10?1???????00?10000010000001?10000?1?0???00??01000-0010000?0010???0?0????10?????1?00??10000010001010?????????????10
+	'Micrathena carimagua'               ?10001?100?00000????0110??1???????0???01?040011001??011010010-01001000100?11?10?0???????02?0----00---0?01??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena coroico'                 ?00111?0-0?00000????01100?1???????0???01?00000-00???01100-000--1011000000?11?10?0???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena elongata'                ?00011?0-0?00000????010--?0???????0???01?00100-00???010010000-01001000100?11?10?0???????02?10000010100011??????????????????????????????????????????????????????????????????????????????????????1
+	'Micrathena glyptogonoides'          ?20000?0-0?00000??????0--?3???????0???01?02010-00100010010000-01000---0-0?10?10?0???????00?1110000---0001?00100?000000000000000-001000010000100000?0??10000101021000--1-----0100101000000000-010
+	'Micrathena guayas'                  ?10001?0-1?00000????010--?1???????0???01?0?00????1??010011010-01001000000?10?10?0???????00?1010000---0000?10100?0?????????31000-000--00??001???0000000011001?1030000--1-----01001011201000011?10
+	'Micrathena gurupi'                  010001?0-0?000002--0010--?1000?21?0???01?00000-000?0010010000-01011000000111010?11111--?00110000010100001?00100?1000000010(2 4)1000-001000010010??100000?0100101110000010000010001010-1000000000-010
+	'Micrathena hamifera'                ?10001?0-1?00000???0010--?1010??1?0???01?01010-000??010011010-01001000000?10?10?0???????00?1010000---0000?101000001-001100010110000--00100000-00001010100000000--000--1------1001311000000011110
+	'Micrathena huanuco'                 ?00000?0-0?00000????010--?1???????0???01?02000-?????011010111?01001000?00?11?10?1???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena kochalkai'               ?00011?0-0?00000????01100?0000??1?0???01?010010000??01000-000--1011000000?11?10?0?11????00?10000010000011??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena lenca'                   ?20011?0-0?00000????01100?3???????0???0100200101--???1100-000--1001000110?11?10?1???????00?0----00---0001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena marta'                   ?20001?0-0?00000????01120?3???????0???01?03----000??011010111?01001000100?11?10?1???????00?10000010000001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena osa'                     ?10001?100?00000????01101?1???????0???01?0?0011000??011010010-01001000100?11?10?1???????01?0----00---0101??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena petrunkevitchi'          ?10001?0-1?00000????010--?1???????0???01?04000-001??010011000-01001100000?10?10?0???????00?0----00---0000??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena parallela'               00001??0-0?00000????01100?0???????0???01?010010000???11010010001001000100?11?10?1???????00?10000010000001?00000?1?????????51000-0010000??010??10??????100??????????1000001000??10-?????????0-?10
+	'Micrathena raimondi'                010001?0-0?00000????010--?1000??1?0???01?010010000??010010000-01011000000?11?10?0111????00?10000010000001?00100?1?????????01000-001000???010???0??????100????1?000?10000011001010-?????????0-?10
+	'Micrathena rubicundula'             ?00011?0-0?00000???0010--?0000??1?0???01?0100100000?010010000-01001000000?11?10?0?11???000?10000010100011??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena rufopunctata'            ?1000??0-0?00000????01(0 1)2??1???????0???01?01100-0000001100-000--1010---0-0?11?10?1???????00?10000010000000??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena soaresi'                 ?00001?0-1?00000????010-??1???????0???01?0?00????1??010011010-01001100000?10?10?0???????00?1010000---0001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena striata'                 ?10001?0-0?00000????010-??1???????0???01?01000-000??010010000-01011000000?10?10?0???????00?1110000---0001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena teresopolis'             ?00001?0-0?00000???0010-??0???????0???01?0000100000?010010000-01011000000?11?10?1???????00?10001010100001??????????????????????????????????????????????????????????????????????????????????????0
+	'Micrathena tziscao'                 020011?0-0?00000????01100?3???????0???01?000010000??011010111?01001000100?11?10?1???????00?0-----0---0001?00000?1?????????51000-000--00??010??????????100????1?000?1000001000??10-112???0?????10
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-192;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1727386793453; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3810686187442219910; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 9013660618666115978; mqVersion 360; checksumv 0 3 3241212531 null getNumChars 192 numChars 192 getNumTaxa 132 numTaxa 132 short true bits 63 states 63 sumSquaresStatesOnly 67394.0 sumSquares 67394.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 197; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1792 779; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #9013660618666115978 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1595 707; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 192; 
+ENDBLOCK;

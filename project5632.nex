@@ -1,0 +1,351 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.38.27 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=26;
+	TAXLABELS
+		'Archegonaster'
+		'Palaeura'
+		'Aulechinus'
+		'Gillocystis'
+		'Rotasaccus'
+		'Palaeocucumaria'
+		'Laetmogone'
+		'Chiridota'
+		'Myriotrochus'
+		'Porosothyone'
+		'Holothuria'
+		'Molpadia'
+		'Cucumaria'
+		'Ypsilothuria'
+		'Sollasina'
+		'Bromidechinus'
+		'Eothuria'
+		'Bothriocidaris'
+		'Neobothriocidaris'
+		'Unibothriocidaris'
+		'Strongylocentrotus'
+		'Eucidaris'
+		'Asthenosoma'
+		'Diadema'
+		'Echinocardium'
+		'Encope'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Body form'
+		[2] 'Growth'
+		[3] 'Body vermiform'
+		[4] 'Body with differentiated ventral sole'
+		[5] 'Position of mouth'
+		[6] 'Position of anus (where present)'
+		[7] 'Posterior region greatly narrowed and elongated as a tail'
+		[8] 'Body wall'
+		[9] 'Presence of wheel-shaped ossicles'
+		[10] 'Presence of spired plates or tables (elements with distinct outgrowth perpendicular to plate surface)'
+		[11] 'Presence of bilaterally symmetrical columns of ambulacral ossicles associated with water vascular system'
+		[12] 'Location of radial water vessel relative to ambulacral plates'
+		[13] 'Interambulacral plating present'
+		[14] 'Number of columns of plates in interambulacral areas'
+		[15] 'Perradial series of ambulacral plates present'
+		[16] 'Differentiated, calcified genital plates present above growth zones'
+		[17] 'Imbrication of test plates'
+		[18] 'Tube feet associated with'
+		[19] 'Ambulacral pores located'
+		[20] 'Number of columns of plates in ambulacral areas'
+		[21] 'Ambulacra arranged into petals'
+		[22] 'Body wall thickness'
+		[23] 'Presence of articulated spines'
+		[24] 'Enlarged bottom feeding tentacles'
+		[25] 'Radial water vessels'
+		[26] 'Radial vessels and tube-feet'
+		[27] 'Tentacles (primary tube-feet)'
+		[28] 'Tentacle branching style'
+		[29] 'Calcified tube feet present'
+		[30] 'Tentacle ampullae'
+		[31] 'Pharyngeal introvert'
+		[32] 'Calcareous ring present encircling the pharynx'
+		[33] 'Ambulacral jaw apparatus present'
+		[34] 'Teeth arranged into battery'
+		[35] 'Radial calcareous ring elements with posterior projection'
+		[36] 'Radial calcareous ring elements with notch or perforation'
+		[37] 'Internal lantern with hemipyramids'
+		[38] 'Teeth composed of stacked biseries present'
+		[39] 'Teeth composed of single stack of elements'
+		[40] 'Radial elements in calcareous ring much longer than wide'
+		[41] 'Perignathic girdle present'
+		[42] 'Calcified madreporite'
+		[43] 'Madreporite opening'
+		[44] 'Madreporite consisting of'
+		[45] 'Stone canal calcified'
+		[46] 'Position of madreporic plate'
+		[47] 'Rete mirabile'
+		[48] 'Respiratory trees outpouching from cloaca'
+		[49] 'Longitudinal muscles in the body wall'
+		[50] 'Ciliated funnels'
+		[51] 'Statocysts'
+	;
+	STATELABELS
+		1
+			'axial area much greater than extraxial area'
+			'axial area much smaller than extraxial area'
+			,
+		2
+			'meridional'
+			'radial'
+			,
+		3
+			'no'
+			'yes'
+			,
+		4
+			'no'
+			'yes'
+			,
+		5
+			'terminal'
+			'subterminal, displaced downwards in dorsoventral differentiation'
+			'subterminal, displaced to upper surface body, often U-shaped'
+			,
+		6
+			'terminal in extraxial component'
+			'placed laterally in axial region between ambulacra'
+			'absent'
+			,
+		7
+			'no'
+			'yes'
+			,
+		8
+			'with large multilayered embedded plates'
+			'membranous, skeleton reduced primarily to small spicules'
+			,
+		9
+			'no'
+			'yes. May be homologous to spine rudiments as developing spines are initiated as a wheel-like deposit'
+			,
+		10
+			'no'
+			'yes'
+			,
+		11
+			'no'
+			'yes'
+			,
+		12
+			'external to ambulacral ossicles'
+			'enclosed within ambulacral plates'
+			'on the interior of the test relative to ambulacral plates but not enclosed within them. Scored as NA where character #11 is 0'
+			,
+		13
+			'yes'
+			'no. Scored as NA where character #8 is 1'
+			,
+		14
+			'multiple'
+			'one or two. Scored as NA where character #13 is 1'
+			,
+		15
+			'yes'
+			'no. Scored as NA where character #11 is 0, except for Rotasaccus'
+			,
+		16
+			'no'
+			'yes. Scored as NA where character #8 is 1 (or 0 for Chirodota and Myriotrochus)'
+			,
+		17
+			'plates imbricating flexibly over one another'
+			'plates tessellate and abutting. Scored as NA where character #8 is 1 (or 0 for Chirodota and Myriotrochus)'
+			,
+		18
+			'single pore'
+			'double pore'
+			'multiple small perforations. Scored as NA where character #11 or #12 is 0'
+			,
+		19
+			'between plates'
+			'spanning across plates'
+			'within a single plate. Scored as NA where character #11 or #12 is 0'
+			,
+		20
+			'two'
+			'more than two. Scored as NA where character #11 is 0'
+			,
+		21
+			'no'
+			'yes'
+			,
+		22
+			'standard mesoderm with ossicles'
+			'thin without calcification'
+			'thick and gelatinous'
+			,
+		23
+			'no'
+			'yes'
+			,
+		24
+			'no'
+			'yes'
+			,
+		25
+			'absent, tentacles arise directly from aquapharyngeal ring'
+			'present, but very short'
+			'present and extensive'
+			,
+		26
+			'uniform along length'
+			'differentiated into a large-bore proximal part with tentacles and narrow-bore extraxial part (the auxillary vessel) with tube-feet'
+			,
+		27
+			'simple, unbranched'
+			'branched, peltate or digitate'
+			,
+		28
+			'digitate'
+			'shield shaped with distal papillae'
+			'long and branching (dendritic)'
+			,
+		29
+			'no'
+			'yes'
+			,
+		30
+			'absent or minimal'
+			'long and hanging into the body coelom'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'no'
+			'yes'
+			,
+		33
+			'no'
+			'yes'
+			,
+		34
+			'no'
+			'yes'
+			,
+		35
+			'no'
+			'yes'
+			,
+		36
+			'no'
+			'yes'
+			,
+		37
+			'no'
+			'yes'
+			,
+		38
+			'no'
+			'yes'
+			,
+		39
+			'no'
+			'yes'
+			,
+		40
+			'no'
+			'yes'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present, loosely coalesced spicules'
+			'present as a solid, well-formed button-like plate'
+			,
+		43
+			'external'
+			'internal'
+			,
+		44
+			'furrowed opening'
+			'series of small, circular perforations'
+			,
+		45
+			'no or with spicules only'
+			'yes, encased by a uniserial or biserial column of plates'
+			,
+		46
+			'adoral, opening close to the mouth in axial region'
+			'directed away from the mouth and connected by long stone canal'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'undivided'
+			'divided'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Archegonaster'           01000200001000100??00010200?0?000???0????20010?????
+	'Palaeura'                010002000011001000200010200?0?0010??000?020010?????
+	'Aulechinus'              00000000001100100?2000?0200?0?0011??110?020101?????
+	'Gillocystis'             000001000012000000010001200?1?0011??101?0200?0?????
+	'Rotasaccus'              ?0000?01100???0??????001200?1?0011??101?0200?0?????
+	'Palaeocucumaria'         10100001010??????????001200?1?010?000??0?20010?????
+	'Laetmogone'              10101001100??????????201111000010?000??0?10?0100000
+	'Chiridota'               10100000100??????????101001000010?010??0?11?0100011
+	'Myriotrochus'            10100000100??????????101001000010?010??0?01?0100011
+	'Porosothyone'            10100001000??????????00100??0??10?010??0?0??0??????
+	'Holothuria'              10110001010??????????001111101010?000??0?01?0111100
+	'Molpadia'                10100011010??????????001111001010?100??1?11?0111101
+	'Cucumaria'               10100001010??????????001111200110?000??1?01?0101000
+	'Ypsilothuria'            10102011010??????????001111000110?000??1?01?0101000
+	'Sollasina'               000001000012010000010001200?1?0011??101?0200?0?????
+	'Bromidechinus'           000000000012010000210010200???001???????0??????????
+	'Eothuria'                00000000001100100220001?200?0?0011??110?020??1?????
+	'Bothriocidaris'          000000000012011011200010200?1?0011??110?020001?????
+	'Neobothriocidaris'       00000?0000121?0?1111001020????00????????0???0??????
+	'Unibothriocidaris'       0000000000121?0?1021001020????00????????0???0??????
+	'Strongylocentrotus'      000000000012011111200010200?0?0011??110?12010100?00
+	'Eucidaris'               000000000012011111200010200?0?0011??110?12010100?00
+	'Asthenosoma'             000000000012011101200010200?0?0011??110?12010100000
+	'Diadema'                 000000000012011111200010200?0?0011??110?12010100?00
+	'Echinocardium'           000001000012011111201010200?0?000???0???02010100?00
+	'Encope'                  000001000012011111201010200?0?0011??110?12010100?00
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-51;
+ENDBLOCK;
+BEGIN LABELS;
+ TAXAGROUPLABEL Outgroup COLOR = (RGB 1 1 1) ; TAXAGROUPLABEL Ingroup COLOR = (RGB 1 1 1) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1606951496866; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7851751628158730826; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8191251940818206284; mqVersion 360; checksumv 0 3 3189757788 null getNumChars 51 numChars 51 getNumTaxa 26 numTaxa 26 short true bits 7 states 7 sumSquaresStatesOnly 2764.0 sumSquares 2764.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 202; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1287 872; setLocation 8 23; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #7851751628158730826 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #7851751628158730826; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1085 800; setLocation 8 23; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #7851751628158730826 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSourceEditMode #mesquite.trees.StoredTrees.StoredTrees; tell It; laxMode; setTreeBlock -2147483647; toggleUseWeights off; endTell; setAssignedID 1409.1606951436137.8106388663263347457; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1085 800; setLocation 8 23; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.trees.SearchTreeToolAssistant.SearchTreeToolExtra.randomlyRotate; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(2,((18,((3,17),(23,(24,(21,(22,(25,26))))))),((16,(19,20)),((4,15),(5,(6,(7,((10,(8,9)),((11,12),(13,14)))))))))))<> <> < setBetweenBits = selected >;'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; setEditMode 'Edited, based on Default Symmetrical Tree+'; desuppressEPCResponseNORESET; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.trees.SearchTreeToolAssistant.SearchTreeToolAssistant; tell It; getEmployee #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #8191251940818206284; endTell; endTell; endTell; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow bootstrapFrequency; toggleShow posteriorProbability; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8191251940818206284 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1085 800; setLocation 8 23; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 51; 
+ENDBLOCK;
+BEGIN MRBAYES;
+ lset rates = gamma coding = variable; ctype unordered : 1 -51; prset symdirihyperpr = fixed ( infinity ) brlenspr = unconstrained : GammaDir ( 1.0 , 0.100 , 1.0 , 1.0 ) shapepr = exponential ( 1.0 ); mcmcp ngen = 12000000 samplefreq = 1000 printfreq = 10000 nchains = 4 nruns = 2 diagnfreq = 1000 mcmcdiagn = yes relburnin = yes burninfrac = .25; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Outgroup : 1, Ingroup : 2- 26; 
+ENDBLOCK;

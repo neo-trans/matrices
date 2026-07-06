@@ -1,0 +1,488 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.55.19 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=19;
+	TAXLABELS
+		'Zaragocyon daamsi'
+		'Ballusia elmensis'
+		'Ursavus brevirhinus'
+		'Ursavus primaevus'
+		'Indarctos vireti'
+		'Indarctos arctoides'
+		'Indarctos punjabiensis'
+		'Kretzoiarctos beatrix'
+		'Agriarctos spp.'
+		'Ailurarctos lufengensis'
+		'Ailuropoda melanoleuca'
+		'Tremarctos ornatus'
+		'Ursus arctos'
+		'Ursus americanus'
+		'Ursus thibetanus'
+		'Helarctos malayanus'
+		'Ursus maritimus'
+		'Melursus ursinus'
+		'Canis lupus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=82;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Development in height of the lower canines'
+		[2] 'Relative premolar development, compared to the remaining teeth'
+		[3] 'Height of the coronoid process'
+		[4] 'Articular process position'
+		[5] 'Articular process mediolateral width'
+		[6] 'Angular process'
+		[7] 'Development of the insertion of the masseteris superficialis muscle in the mandible'
+		[8] 'Development of the insertion of the pterygoideus (internus and externus) muscles'
+		[9] 'Development of the insertion of the digastricus muscle'
+		[10] 'Development of the insertion of the zygomaticomandibularis muscle'
+		[11] 'Shape of the ventral outline of the jaw in lateral view'
+		[12] 'Shape of the ventral outline of the jaw in lateral view, proximal to the insertion of the digastricus muscle'
+		[13] 'Postcanine groove in the jaw, found in the surface of the mandible, caudal to the canine'
+		[14] 'Apical morphology of the coronoid process. Even though the apex of the coronoid is somehow curved in most carnivores, its angle can be used as a character that is linked to the projection of the uppermost fibres of the temporalis muscle.'
+		[15] 'Lateral morphology of the tooth row. This character is somehow linked to the biomechanics of the feeding complex, as it affects bite strength throughout the mouth.'
+		[16] 'Jaw bone height at the level of the m1. Although this character can vary throughout the ontogeny of the animals, it can also give very important information about differences in the feeding complex and bite strength between several taxa.'
+		[17] 'Mandibular symphysis ventral morphology. This character reflects the strength of the union between the two hemimandibles.'
+		[18] 'Premasseteric fossa. This character is only observed in some Ursoidea, such as the Hemicyonidae and the Tremarctinae although two main types of morphologies can be detected, we code them as the same structure. In the Hemicyionidae it is located below the m1, while in the Tremarctinae it is located in a more caudal position and it is separated from the masseteric fossa by a well-developed insertion of the zygomaticomandibularis muscle.'
+		[19] 'Position of m3. The rearrangements of the masticatory apparatus of some bears tend to modify the morphology of the ascending ramus as well as the relative position of the last lower molar in lateral view.'
+		[20] 'Development of the distal cuspid of the i3. This character reflects its relative size compared to the incisor’s main cuspid.'
+		[21] 'p1'
+		[22] 'p1-p4 diastema'
+		[23] 'p2'
+		[24] 'p3'
+		[25] 'Distal accessory cuspid of the p4, running from the main cuspid towards the lingual wall'
+		[26] 'Lingual ridge of the p4'
+		[27] 'Morphology of the paraconid of the m1 (discernible when not completely worn)'
+		[28] 'Position of the paraconid of the m1 relative to the protoconid'
+		[29] 'Height of the m1 protoconid relative to the paraconid'
+		[30] 'Morphology of the m1 protoconid'
+		[31] 'Size of the m1 metaconid relative to the remaining trigonid cuspids'
+		[32] 'm1 Pre-metaconid'
+		[33] 'Morphology of the labial part of the m1 talonid'
+		[34] 'Mesial angle of the m1 paraconid'
+		[35] 'Lingual ridge of the m1 protoconid'
+		[36] 'Trigonid valley of the m1'
+		[37] 'Morphology of the distal wall of the m1 trigonid'
+		[38] 'Relative length of the m1 talonid relative to the trigonid'
+		[39] 'm1 pre-hypoconid'
+		[40] 'Morphology of the m1 crown base'
+		[41] 'Morphology of the mesial ridge of the m1 paraconid in occlusal view'
+		[42] 'Morphology of the m1 talonid valley'
+		[43] 'Morphology of the m1 talonid valley - 2'
+		[44] 'Position of the m1 hypoconid in occlusal view'
+		[45] 'm1 distal ridge'
+		[46] 'Relative size of the m2 compared to the size of the lower carnassial'
+		[47] 'Size of the m2 paraconid in relation to the rest of the cuspids of the trigonid'
+		[48] 'm2 pre-metaconid'
+		[49] 'Relative size of the m2 talonid compared to the trigonid'
+		[50] 'Most developed cusp in the m2'
+		[51] 'Development of the m2 trigonid valley compared to the total length of the talonid valley'
+		[52] 'm2 pre-entoconid'
+		[53] 'Relative development of the m2 labial cingulum relative to the development of the remaining cingulids'
+		[54] 'm3 development compared to the m2'
+		[55] 'm3 morphology in mesial view'
+		[56] 'P2'
+		[57] 'P3'
+		[58] 'P4 development relative to the M1'
+		[59] 'P4 parastyle'
+		[60] 'P4 protocone relative size in occlusal view'
+		[61] 'Morphology in terms of relative morphology of the P4 protocone'
+		[62] 'Position of the P4 protocone relative to the paracone'
+		[63] 'Labial expansion of the P4 at the level of the paracone-metastyle notch'
+		[64] 'Relative size of the M1 paracone and metacone'
+		[65] 'M1 hypocone'
+		[66] 'M1 occlusal outline'
+		[67] 'M1 distal valley'
+		[68] 'Development in depth of the M1 central valley, which corresponds to the trigon valley'
+		[69] 'Relative development of the M1 lingual cingulum compared to the size of this tooth'
+		[70] 'M2 relative size compared to the M1'
+		[71] 'Size and development of the M2 talon'
+		[72] 'Reduction of the incisors'
+		[73] 'Enamel structure in the molars'
+		[74] 'Origin of the zygomatic arch in lateral view'
+		[75] 'Rostral maximum width of the skull'
+		[76] 'Morphology of the sagittal crest in lateral view'
+		[77] 'Development of the mastoid process'
+		[78] 'Development of the paraoccipital process'
+		[79] 'Position of the end of the hard palate in ventral view'
+		[80] 'Alisphenoid canal'
+		[81] 'Morphology of the zygomatic arch in lateral view'
+		[82] 'Morphology of the zygomatic arch in lateral view - 2'
+	;
+	STATELABELS
+		1
+			'Canine at least twice as high as the remaining maxillary and mandibular teeth'
+			'Canine less than twice as high as the remaining maxillary and mandibular teeth'
+			,
+		2
+			'All premolars relatively large, with developed accessory cusps'
+			'Morphology of the premolars less complicated, without developed accessory cusps in some of them'
+			'Both reduced morphology of the premolars and loss of at least one premolar'
+			,
+		3
+			'Coronoid process does not reach twice the height of the mandibular ramus and it is relatively wide'
+			'Coronoid process doubles the height of the mandibular ramus and it is verticalized and relatively slender'
+			,
+		4
+			'Same height as the tooth row'
+			'Higher than the tooth row'
+			,
+		5
+			'Short (poorly developed)'
+			'Long (well-developed)'
+			,
+		6
+			'Short, not projected caudally and with a small insertion for the digastricus muscle'
+			'Long, caudally projected and with a large insertion for the digastricus muscle'
+			,
+		7
+			'Large, ventrally closing the masseteric fossa'
+			'Small, not ventrally closing the masseteric fossa'
+			,
+		8
+			'Small, not covering wide areas of the mandible'
+			'Large, occupying large areas of the mandible, both in the articular process and in the ventrocaudal region'
+			,
+		9
+			'Lined-up with the dentary bone'
+			'Lingually projected, forming a curve towards the inner part of the mandible'
+			,
+		10
+			'Short, not covering all the rostral part of the ascending ramus'
+			'Long and developed. closing the whole masseteric fossa in the rostral edge'
+			,
+		11
+			'Curved; most of the ventral outline of the dentary bone is convex in shape'
+			'Straight'
+			,
+		12
+			'Straight'
+			'Forming a step between the ventral edge and the beginning of the angular process'
+			,
+		13
+			'Absent'
+			'Present'
+			,
+		14
+			'Slightly curved'
+			'Apex angle close to 45º'
+			,
+		15
+			'Curved, forming a sigmoidal shape'
+			'Straight'
+			,
+		16
+			'Low, not reaching thrice the height of the m1'
+			'High, exceeding more than thrice the height of the m1'
+			,
+		17
+			'Curved'
+			'Marked chin'
+			,
+		18
+			'Absent'
+			'Present'
+			,
+		19
+			'In front of the coronoid process, well-separated from the ascending ramus'
+			'Included in the coronoid process, touching the ascending ramus'
+			'Behind the coronoid process, partly or completely covered by the coronoid process'
+			,
+		20
+			'Small, less than half the size of the main cuspid'
+			'Large, at least half the size of the main cuspid'
+			,
+		21
+			'Present'
+			'Absent'
+			,
+		22
+			'Absent'
+			'Present'
+			,
+		23
+			'Present'
+			'Absent'
+			,
+		24
+			'Present'
+			'Absent'
+			,
+		25
+			'Present'
+			'Absent'
+			,
+		26
+			'Absent'
+			'Present'
+			,
+		27
+			'Sharp, i.e. meaning cutting edges as found in hypercarnivores'
+			'Bunodont, i.e. meaning blunt cusps'
+			,
+		28
+			'Mesiolingual'
+			'Labial'
+			,
+		29
+			'Protoconid clearly higher than the paraconid'
+			'Protoconid equal or subequal in height compared to the paraconid'
+			,
+		30
+			'Sharp, if a clear blade is observed in the cuspid'
+			'Bunodont, if no clear blade is observed'
+			,
+		31
+			'Reduced, i.e., not individualized from the protoconid and relatively small in size'
+			'Large, i.e., individualized from the proconid and relatively well-developed in size'
+			,
+		32
+			'Absent'
+			'Present'
+			,
+		33
+			'Narrow, without expansion'
+			'Widened, creating an expansion'
+			,
+		34
+			'High, close to 90º'
+			'Low, clearly lower than 90º'
+			,
+		35
+			'Absent'
+			'Present'
+			,
+		36
+			'Present'
+			'Absent'
+			,
+		37
+			'Vertical'
+			'Inclined'
+			,
+		38
+			'Short'
+			'Long'
+			,
+		39
+			'Absent'
+			'Present'
+			,
+		40
+			'Straight'
+			'Swollen, with a rounded base'
+			,
+		41
+			'Straight, directed towards the mesial part of the m1'
+			'Curved, directed towards the lingual wall of the m1'
+			,
+		42
+			'Open, not completely surrounded by cuspids and/or ridges'
+			'Closed, completely surrounded by cuspids and/or ridges'
+			,
+		43
+			'Relatively deep and forming a V-shape valley'
+			'Shallow, not forming a V-shape valley'
+			,
+		44
+			'Isolated, not forming part of the lingual cristid'
+			'Forming part of the lingual cristid'
+			,
+		45
+			'Absent or poorly-developed, not closing the talonid valley distally'
+			'Marked, closing the talonid valley between the entoconid complex and the hypoconid'
+			,
+		46
+			'Relatively small, less than half the size of the m1'
+			'Relatively large, at least half the size of the m1'
+			,
+		47
+			'Small or absent'
+			'Large, sub-equal in size'
+			,
+		48
+			'Absent'
+			'Present'
+			,
+		49
+			'Shorter than the trigonid'
+			'Longer than the trigonid'
+			,
+		50
+			'Protoconid'
+			'Metaconid'
+			,
+		51
+			'Small, less than half the size of the m2 talonid valley'
+			'Large, at least half the size of the m2 talonid valley'
+			,
+		52
+			'Absent'
+			'Present'
+			,
+		53
+			'Small, not surrounding the whole labial wall of the m2'
+			'Large, running the whole labial wall (from the mesial to the distal sides) of the m2'
+			,
+		54
+			'Reduced, less than ¼ the size of the m2'
+			'Large, at least ¼ the size of the m2'
+			,
+		55
+			'Rounded or ovoid'
+			'Subtriangular, with one clear tip (usually on its distal side)'
+			,
+		56
+			'Present'
+			'Absent'
+			,
+		57
+			'Present'
+			'Absent'
+			,
+		58
+			'Large, subequal in size'
+			'Reduced, clearly smaller than the M1'
+			,
+		59
+			'Absent'
+			'Present, but small'
+			'Present but well-developed and individualized from the paracone'
+			,
+		60
+			'Small, much smaller than the remaining cusps of the trigon'
+			'Large, similar in size with the paracone and metastyle'
+			,
+		61
+			'Simple, only one cusp'
+			'Complex, with more than one cusp and/or surrounded by a cingulum'
+			,
+		62
+			'Mesial, close to the level of the paracone'
+			'Distally projected, situated close to the paracone-metastyle notch level'
+			,
+		63
+			'Absent'
+			'Present'
+			,
+		64
+			'Paracone higher than the metacone'
+			'Both cusps sub-equal in size'
+			,
+		65
+			'Absent'
+			'Present'
+			,
+		66
+			'Square (sub-equal length and breadth)'
+			'Rectangular (longer than broad)'
+			,
+		67
+			'Absent'
+			'Present'
+			,
+		68
+			'Deep, forming a V-shaped valley'
+			'Shallow, not forming a V-shaped valley'
+			,
+		69
+			'Well-developed,covering all the lingual wall'
+			'Poorly developed, not covering all the lingual wall, or absent'
+			,
+		70
+			'Reduced, similar in size or smaller than the M1'
+			'Developed, longer than the M1'
+			,
+		71
+			'Absent or small'
+			'Present but moderately-developed, not being longer than the trigonid'
+			'Present and well-developed, being longer than the trigonid'
+			,
+		72
+			'Absent (all incisors present)'
+			'Present (I1 lacking and I2 reduced)'
+			,
+		73
+			'Smooth'
+			'Rough'
+			,
+		74
+			'At the level of the M1'
+			'At the level of the M2'
+			,
+		75
+			'Attained at the level of the P4'
+			'Attained at the level of the upper canines'
+			,
+		76
+			'Caudally projected towards the cervical vertebra'
+			'Obliquely-inclined and moderately-developed, but not surpassing the level of the nuchal crest'
+			'Dorsally-projected, with its highest level not situated in the dorsal-most part of the crest'
+			,
+		77
+			'Reduced, i.e., non-protruding, flattened, not surpassing the lower level of the zygomatic arch'
+			'Well-developed, i.e., protruding and being laterally and ventrally projected'
+			,
+		78
+			'Reduced, not surpassing the ventral level of the mastoid process'
+			'Large and ventrally projected, longer or subequal in size compared to the mastoid process'
+			,
+		79
+			'At about the level of the last molar'
+			'Caudally-situated relative to the last molar (separated from it at least by the length of the M2)'
+			,
+		80
+			'Present'
+			'Absent'
+			,
+		81
+			'Narrow, with it central portion never being wider than its rostral or caudal parts, and with a small insertion for the zygomaticomandibularis muscle'
+			'Wide, with its central portion sometimes being wider than its rostral and/or caudal parts, and with an enlarged insertion for the zygomaticomandibularis muscle'
+			,
+		82
+			'Curved, displaying a dorsally convex and ventrally concave profile, and with an increased insertion for the zygomaticomandibularis muscle'
+			'Straight, with its dorsal and ventral profiles being approximately aligned with the skull?s main (rostrocaudal) long axis, and without a developed insertion for the zygomaticomandibularis muscle'
+			,
+	;
+	MATRIX
+	'Zaragocyon daamsi'            01????????????0?????000001010010010101010111110111100????0010100100000001?????????
+	'Ballusia elmensis'            ?0????????01??00000100000?01001000?10101001001?1111?0????00001011011110?1?????????
+	'Ursavus brevirhinus'          10?????????????????100001?01011010111101011011011111?10??00001011011111?1?????????
+	'Ursavus primaevus'            ??????????????????????????01011000111101011011??111??10??00001011011111?1?????????
+	'Indarctos vireti'             11?111111101110100110000101111100011111101111101111111000001010110110110110?11001?
+	'Indarctos arctoides'          1111111111011101001100001011111010111111011111011111110000111111101101101101110010
+	'Indarctos punjabiensis'       121111111101110100110000101111101011111101111101111111000021110110110110110?100010
+	'Kretzoiarctos beatrix'        11????????01??01001?00000011111001?111?101111101111111000021110110111???1?????????
+	'Agriarctos spp.'              ?0?????????????????????00011111001?111?1011111011111110??021110?????????1?????????
+	'Ailurarctos lufengensis'      ?0??????????????????????0011111011?111??0????1011111111?002111011011012?1?????????
+	'Ailuropoda melanoleuca'       1011111111011101002100000011111010111101010101011111110000211101100101101002100010
+	'Tremarctos ornatus'           1100010111101110011100001011111010011111010111111111011011010101111111201011101110
+	'Ursus arctos'                 0200010111101010100101111010111100001111100001011111011111010110111011201110101101
+	'Ursus americanus'             0200010111101010000101101010111100001101100001011111010111000100111011201110101101
+	'Ursus thibetanus'             0200110111111010001100101010111100001101101111011111011111000100111011201010111110
+	'Helarctos malayanus'          0200010111101011001100101010111000011101100111011111010111000100101101101010101101
+	'Ursus maritimus'              0200010111101010100101110010111000011101100111011111011110000110111011101110101101
+	'Melursus ursinus'             0200110111101010100100001010111110011101011101111110010001010100111111211111111101
+	'Canis lupus'                  000000000000000000000000000100000001000000000000000000-000000000000000000000000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-82;
+ENDBLOCK;
+BEGIN LABELS;
+ TAXAGROUPLABEL Ingroup COLOR = (RGB 1.0 1.0 1.0) ; TAXAGROUPLABEL Outgroup COLOR = (RGB 1.0 1.0 1.0) ; 
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 88; LastModified -866230861; FileSettings editor '0' '0' '1' '1'; Singles 100; Editor 00011001111111100100010010 '0' '24' Gadget '9' '100' '1' all; EditorPosition '44' '6' '723' '1227'; TreeWindowPosition '46' '6' '731' '1230'; ListWindow Characters closed Gadget '9' '353' '864' '273' '352' 000; ListWindow Taxa closed Gadget '9' '50' '10' '273' '278' 100000000; ListWindow Trees closed Gadget '9' '50' '10' '129' '379'; ListWindow TypeSets closed Gadget '9' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '9' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '9' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '9' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '9' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '9' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '9' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '718' '1220'; StateNamesSymbols closed Gadget '9' '10' '50' '30' '148' '220'; WindowOrder; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '609' '46' '115' '165'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Gadget '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '9' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' ( normal ) Gadget '10' ( normal ) Gadget '9' ( normal ) Gadget '9' ( normal ) Gadget '9' ( bold ) Gadget '9' ( normal ) Gadget '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '4' '2' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '1' 100010101110011; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722309733670; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 9170460085832514780; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3167564548107076986; mqVersion 381; checksumv 0 3 815630799 null getNumChars 82 numChars 82 getNumTaxa 19 numTaxa 19 short true bits 7 states 7 sumSquaresStatesOnly 3825.0 sumSquares 3825.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 202; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1444 743; setLocation 4 77; setFont Gadget; setFontSize 16; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #9170460085832514780 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #9170460085832514780; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1242 671; setLocation 4 77; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #9170460085832514780 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSourceEditMode #mesquite.trees.StoredTrees.StoredTrees; tell It; laxMode; setTreeBlock -2147483647; toggleUseWeights off; endTell; setAssignedID 1137.1598903777716.2228618817960281792; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1242 671; setLocation 4 77; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(19,(1,(2,(4,(3,(((7,(5,6)),(11,(10,(8,9)))),(12,(18,(16,(15,(14,(13,17))))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; setEditMode 'Edited, based on Default Symmetrical Tree+ [Stored Trees] [Stored Trees]'; desuppressEPCResponseNORESET; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3167564548107076986 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 237; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1242 671; setLocation 4 77; setFont Gadget; setFontSize 16; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1242 671; setLocation 4 77; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 82; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Ingroup : 1- 18, Outgroup : 19; 
+ENDBLOCK;

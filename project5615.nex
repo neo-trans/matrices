@@ -1,0 +1,266 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.36.15 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		'Ocinebrina aciculata'
+		'Ocenebra erinaceus'
+		'Urosalpinx cinerea'
+		'Nucella lapillus'
+		'Trophon geversianus'
+		'Muricopsis cristata'
+		'Trunculariopsis trunculus'
+		'Orania fusulus'
+		'Ergalatax obscura'
+		'Drupina glossularia'
+		'Drupa morum'
+		'Stramonita haemastoma'
+		'Jsowerbya sexdentata'
+		'Jsowerbya depauperata'
+		'Jsowerbya auversiensis'
+		'Nucellopsis plicatilis'
+		'Nucellopsis ponsi'
+		'Nucellopsis dudariensis'
+		'Paziella cretacea'
+		'Paziella dyscrita'
+		'Typhis tubifer'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=36;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Shell shape'
+		[2] 'Shape of the spiral whorls'
+		[3] 'Canal siphonal'
+		[4] 'Columellar ornamentation (angle)'
+		[5] 'Columellar ornamentation (centre)'
+		[6] 'Basal columellar fold'
+		[7] 'Shoulder sinus'
+		[8] 'Anal sulcus'
+		[9] 'SP cord'
+		[10] 'IP (on two first whorls)'
+		[11] 'IP cord (adult)'
+		[12] 'P2 spine'
+		[13] 'P3 (on two first whorls)'
+		[14] 'P3 spine'
+		[15] 'Ontogeny of the cord P4 on the two early whorls'
+		[16] 'Ontogeny of the cord P5 on the two early whorls'
+		[17] 'Position of P5 cord'
+		[18] 'P6 (two first whorls)'
+		[19] 'P6 cord (adult)'
+		[20] 'ADP cord'
+		[21] 'MP cord'
+		[22] 'ABP cord'
+		[23] 'Aspect of the secondary cords on convex part of the last whorl'
+		[24] 'Secondary cords of the siphonal canal'
+		[25] 'Internal denticles'
+		[26] 'ID'
+		[27] 'D1'
+		[28] 'D2'
+		[29] 'D5'
+		[30] 'D6'
+		[31] 'Type of axial sculpture (young)'
+		[32] 'Type of axial sculpture (adult)'
+		[33] 'Intervarices'
+		[34] 'Growth lamellae on the outer lip'
+		[35] 'Calcite layer'
+		[36] 'Junction calcite/aragonite'
+	;
+	STATELABELS
+		1
+			'biconic'
+			'buccinoid'
+			,
+		2
+			'angular'
+			'subangular'
+			'rounded'
+			,
+		3
+			'open'
+			'close (type Typhis)'
+			'close (type Ocenebra)'
+			,
+		4
+			'superficial fold'
+			'absent'
+			'tubercles'
+			,
+		5
+			'superficial fold'
+			'absent'
+			'tubercle'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'deep'
+			'rounded'
+			'close'
+			,
+		8
+			'absent'
+			'type Orania'
+			'type Jsowerbya'
+			'type Hexaplex'
+			,
+		9
+			'absent'
+			'fine'
+			'strong'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'fine'
+			'strong'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'on convex part of the whorl'
+			'on the siphonal canal'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'present'
+			'absent'
+			'atrophied'
+			,
+		20
+			'absent'
+			'present, poorly developed'
+			'present, strongly developed'
+			,
+		21
+			'absent'
+			'present, poorly developed'
+			'present, strongly developed'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'distinct from primary cords in the adult'
+			'not distinct from primary cords in the adult'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'present'
+			'absent'
+			,
+		26
+			'present'
+			'absent'
+			,
+		27
+			'D1 & D2 of the same size'
+			'D1 reduced'
+			'D1 dominant'
+			,
+		28
+			'no dominant'
+			'dominant'
+			,
+		29
+			'present'
+			'absent'
+			,
+		30
+			'present'
+			'absent'
+			,
+		31
+			'true varices'
+			'no varices'
+			'varical nodules'
+			,
+		32
+			'true varices'
+			'varical nodules'
+			'short axial lamellae'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'simple accretion (type Paziella)'
+			'oriented in the growing direction (type Muricopsis)'
+			'imbricate (type Favartia)'
+			'no growth lamellae'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'no calcite layer'
+			'straight junction'
+			'very undulated junction'
+			,
+	;
+	MATRIX
+	'Ocinebrina aciculata'           021110100010101101011111000000100300
+	'Ocenebra erinaceus'             001110100010101101011101000001001211
+	'Urosalpinx cinerea'             020110100110101101011111000000100311
+	'Nucella lapillus'               120110100110101101011111010000120311
+	'Trophon geversianus'            1201111001101011010111011-----020011
+	'Muricopsis cristata'            000220200121111101222101001101200100
+	'Trunculariopsis trunculus'      000000230121111101022101000000201100
+	'Orania fusulus'                 010220111111111010000000000011200300
+	'Ergalatax obscura'              010220111111111010000000000011200300
+	'Drupina glossularia'            110101112111111010100000002011210300
+	'Drupa morum'                    110101112111111010100000002011210300
+	'Stramonita haemastoma'          110101111110101010100000000011210312
+	'Jsowerbya sexdentata'           010220120010101100011101010000000000
+	'Jsowerbya depauperata'          010220120010101100011101010000000000
+	'Jsowerbya auversiensis'         010220120010101100011101010000000000
+	'Nucellopsis plicatilis'         120120120010000000011010010000020000
+	'Nucellopsis ponsi'              120120120000000000010000010000020000
+	'Nucellopsis dudariensis'        120120100000100000011010010000020000
+	'Paziella cretacea'              000000000010000000000000000000000000
+	'Paziella dyscrita'              000110000000100000000000010000000000
+	'Typhis tubifer'                 0021100000011100001000001-----000000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-36;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845448220; FileSettings treewindow '1' '1' '37' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '44' '6' '325' '1099'; TreeWindowPosition '46' '6' '985' '1630'; ListWindow Characters open Gadget '12' '50' '10' '457' '517' 000; ListWindow Taxa open Gadget '12' '50' '10' '185' '355' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols closed Gadget '12' '10' '44' '927' '203' '220'; WindowOrder Tree List Taxa List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '891' '1533' '154' '85'; TreeLegendPosition '924' '1437' '88' '93'; EditorToolsPosition '681' '1034' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '12' (normal) Geneva '10' (normal) Gadget '12' (normal) Gadget '12' (normal) Gadget '12' (bold ) Gadget '12' (normal) Gadget '12' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '28075' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Ocinebrina_aciculata, 2 Ocenebra_erinaceus, 3 Urosalpinx_cinerea, 4 Nucella_lapillus, 5 Trophon_geversianus, 6 Muricopsis_cristata, 7 Trunculariopsis_trunculus, 8 Orania_fusulus, 9 Ergalatax_obscura, 10 Drupina_glossularia, 11 Drupa_morum, 12 Stramonita_haemastoma, 13 Jsowerbya_sexdentata, 14 Jsowerbya_depauperata, 15 Jsowerbya_auversiensis, 16 Nucellopsis_plicatilis, 17 Nucellopsis_ponsi, 18 Nucellopsis_dudariensis, 19 Paziella_cretacea, 20 Paziella_dyscrita, 21 Typhis_tubifer ; TREE * UNTITLED = [&R] (6,(7,((8,(9,(12,(10,11)))),(2,((1,(3,(4,5))),((18,(16,17)),(13,(14,15)))))))); 
+ENDBLOCK;

@@ -1,0 +1,258 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.59.42 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		'procynosuchus'
+		'thrinaxodon'
+		'cynognathus'
+		'diademodon'
+		'trirachodon'
+		'pascualgnathus'
+		'Scalenodontoides angustifrons'
+		'Scalenodontoides hirschsoni'
+		'luangwa'
+		'boreogomphodon'
+		'massetognathus'
+		'gomphodontosuchus'
+		'exaeretodon'
+		'traversodon'
+		'arctotraversodon'
+		'nanogomphodon'
+		'andescynodon'
+		'menadon'
+		'dadadon'
+		'santacruzodon'
+		'scalenodontoides'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=36;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Position of paracanine fossa relative to upper canine'
+		[2] 'Length of secondary bony palate relative to anterior border of orbit'
+		[3] 'Suborbital process of jugal'
+		[4] 'Greatest transverse width of zygomatic arches'
+		[5] 'Upper incisor number'
+		[6] 'Cutting edges of incisor crowns'
+		[7] 'Size of incisors'
+		[8] 'Size of upper canine'
+		[9] 'Size of lower canine'
+		[10] 'Serrations on mesial and distal carinae of canines'
+		[11] 'Buccal cingulum on upper postcanines'
+		[12] 'Number of upper cusps in transverse row'
+		[13] 'Position of upper transverse cusp row on crown'
+		[14] 'Central cusp of upper transverse row'
+		[15] 'Longitudinal shear surface of main upper cusp'
+		[16] 'Anterobuccal accessory cusp(s) on upper postcanines'
+		[17] 'Posterobuccal accessory cusp on upper postcanines'
+		[18] 'Anterolingual accessory cusp on upper postcanines'
+		[19] 'Anterior transverse (cingulum) ridge on upper postcanines'
+		[20] 'Anterolingual ridge on upper postcanines'
+		[21] 'Transverse axis of crown strongly oblique to midline axis'
+		[22] 'Number of lower postcanine cusps in transverse row'
+		[23] 'Anterior cingulum or cusp on lower postcanines'
+		[24] 'Posterior occlusal basin on lower postcanines'
+		[25] 'Widest lower postcanine cusp in transverse row'
+		[26] 'Posterior portion of maxillary tooth row inset from lateral margin of maxilla (development of buccal recess)'
+		[27] 'Axis of posterior part of maxillary tooth row'
+		[28] 'Form of posterior-most postcanines'
+		[29] 'Elongated mental foramen below postcanine tooth row and above coronoid ridge'
+		[30] 'Coronoid ridge anterior to masseteric fossa'
+		[31] 'Anterior profile of principal buccal cusp'
+		[32] 'Dentary angle'
+		[33] 'Depth of maxilla below anterior root of zygomatic arch'
+		[34] 'Dentary with sigmoid ventral curvature'
+		[35] 'Diameter of suborbital bar below center of orbit (anterior to suborbital process, where present)'
+		[36] 'Upper postcanine with posterobuccal lobe overlapping anterobuccal margin of next postcanine'
+	;
+	STATELABELS
+		1
+			'anterolingual'
+			'lingual'
+			'posterolingual'
+			,
+		2
+			'shorter'
+			'subequal'
+			'longer'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'near middle of arch'
+			'at posterior end of arch'
+			,
+		5
+			'5 or more'
+			'4'
+			'3'
+			,
+		6
+			'smoothly ridged'
+			'serrated'
+			'denticulated'
+			,
+		7
+			'all small'
+			'some or all enlarged'
+			,
+		8
+			'large'
+			'reduced in size'
+			,
+		9
+			'large'
+			'reduced in size'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'1'
+			'2'
+			'3 or more'
+			,
+		13
+			'about mid-crown'
+			'posterior to mid-crown but anterior to posterior margin'
+			'at posterior margin (no posterior cingulum)'
+			,
+		14
+			'about midway between buccal and lingual cusps'
+			'adjacent to lingual cusp'
+			'absent'
+			,
+		15
+			'anterior and posterior (to transverse ridge)'
+			'mainly posterior'
+			'mainly or entirely anterior'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'present'
+			'absent'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'low'
+			'high'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'1'
+			'2'
+			'3 or more'
+			,
+		23
+			'present'
+			'absent'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'lingual'
+			'buccal'
+			,
+		26
+			'absent'
+			'present'
+			,
+		27
+			'directed lateral to temporal fossa'
+			'directed toward center of fossa'
+			'directed toward medial rim of fossa'
+			,
+		28
+			'sectorial or semisectorial'
+			'molariform (gomphodont)'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent to low'
+			'very strong, outturned'
+			,
+		31
+			'convex'
+			'concave'
+			,
+		32
+			'not projected posteriorly'
+			'projected posteriorly as distinct process'
+			,
+		33
+			'low'
+			'deep'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'greater than 1/2 diameter of bar below posterior part of orbit (posterior to suborbital process)'
+			'less than 1/2 diameter of bar below posterior part of orbit'
+			,
+		36
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'procynosuchus'                      000000000000?????????000?00000000000
+	'thrinaxodon'                        000010000000?????????000?00000000000
+	'cynognathus'                        001111000100?????????000?00000000000
+	'diademodon'                         001111000102000101010100?00000000000
+	'trirachodon'                        011111000102000001010200?11000000000
+	'pascualgnathus'                     0111200000010211000001?1012000000000
+	'Scalenodontoides angustifrons'      001111000112112110010101012?001?1100
+	'Scalenodontoides hirschsoni'        01??2011?0021120110101010121001?0000
+	'luangwa'                            011111000112112010010101012100111110
+	'boreogomphodon'                     0200?0000002(1 2)120(0 1)0000201012011110000
+	'massetognathus'                     120112011002212000010111012100100001
+	'gomphodontosuchus'                  10??10011001222?111111111121001?11?0
+	'exaeretodon'                        211120101001222001111111112100111111
+	'traversodon'                        111?10000012112011011111012100111110
+	'arctotraversodon'                   ?????21?00022121100002110??1111??0?0
+	'nanogomphodon'                      ?????????????????????2011???????????
+	'andescynodon'                       00?110000001021100000101012000000000
+	'menadon'                            1?1?10111101222011111????12100111111
+	'dadadon'                            1?1?1000?012212011010????121??1???01
+	'santacruzodon'                      0?1?12011?0221201101011101210011?1?1
+	'scalenodontoides'                   22?0?010000?2?201??111111121001?1?11
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-36;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -849791787; FileSettings editor '1' '1' '37' '0'; Singles 110; Editor 00011011111111100100010010 '0' '100' Gadget '12' '172' '1' all; EditorPosition '46' '6' '461' '1021'; TreeWindowPosition '71' '206' '670' '844'; ListWindow Characters open Gadget '12' '56' '952' '372' '374' 000; ListWindow Taxa closed Gadget '12' '50' '10' '270' '368' 100000000; ListWindow Trees closed Gadget '12' '90' '65' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; TextWindow AboutFile '50' '25' '280' '445' Gadget '12' (normal) 1 ; ChartWindowPosition '52' '30' '968' '1620'; StateNamesSymbols open Gadget '12' '9' '368' '1319' '186' '220'; WindowOrder Data Text AboutFile List Characters States; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '866' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '2' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Procynosuchus, 2 Thrinaxodon, 3 Cynognathus, 4 Diademodon, 5 Trirachodon, 6 Pascualgnathus, 7 Scalenodontoides_angustifrons, 8 Scalenodontoides_hirschsoni, 9 Luangwa, 10 Boreogomphodon, 11 Massetognathus, 12 Gomphodontosuchus, 13 Exaeretodon, 14 Traversodon, 15 Arctotraversodon, 16 Nanogomphodon, 17 Andescynodon, 18 Menadon, 19 Dadadon, 20 Santacruzodon, 21 Scalenodontoides ; TREE A_Parsimony_Tree = [&R] (1,(2,(3,(4,(5,(((17,6),(16,(10,(15,11)))),(8,((9,7),(19,(14,(20,(12,(18,(13,21)))))))))))))); TREE * UNTITLED = [&R] (((17,6),(16,(10,(15,11)))),(8,((9,7),(19,(14,(20,(12,(18,(13,21))))))))); 
+ENDBLOCK;

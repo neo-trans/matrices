@@ -1,0 +1,374 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.55.28 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=11;
+	TAXLABELS
+		'Astropecten irregularis'
+		'Asterina gibbosa'
+		'Tremaster mirabilis'
+		'Protremaster uniserialis'
+		'Korethraster hispidus'
+		'Remaster gourdoni'
+		'Savignaster wardi'
+		'Hansaster trimbachensis'
+		'Peribolaster biserialis'
+		'Pteraster corynetes'
+		'Hymenaster perissonotus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Body'
+		[2] 'Arms'
+		[3] 'Canopy'
+		[4] 'Interradial skeletal structures'
+		[5] 'Internal ducts'
+		[6] 'Actinal opening to interradial ducts'
+		[7] 'Chevron plates'
+		[8] 'Chevron plates - 2'
+		[9] 'Chevron plates - 3'
+		[10] 'Abactinals'
+		[11] 'Abactinal ossicles'
+		[12] 'Abactinal plates'
+		[13] 'Abactinal ossicles - 2'
+		[14] 'Papulae'
+		[15] 'Papulae - 2'
+		[16] 'Primary circlet'
+		[17] 'Centrale'
+		[18] 'Primary interradials'
+		[19] 'Primary interradials - 2'
+		[20] 'Primary interradials - 3'
+		[21] 'Primary interradials shape'
+		[22] 'Primary radials shape'
+		[23] 'Primary radials surface'
+		[24] 'Pedicel of primary radial muscle insertion site'
+		[25] 'Number of abactinal rows'
+		[26] 'Articulations between adambs and abactinals'
+		[27] 'Pedicel shape'
+		[28] 'Abactinal spines location'
+		[29] 'Abactinal spines shape'
+		[30] 'Abactinal spines attachment'
+		[31] 'Spiraculae'
+		[32] 'Osculum'
+		[33] 'Tubefeet'
+		[34] 'Adambs'
+		[35] 'Adambulacral extension muscle'
+		[36] 'Adambulacral extension articulation'
+		[37] 'First 1-3 adambulacrals'
+		[38] 'Lateral adambulacral margin'
+		[39] 'Adambulacrals'
+		[40] 'Adambulacrals - 2'
+		[41] 'Discrete ada2,3 articulations'
+		[42] 'Large actinolateral adamb spine'
+		[43] 'Apertures between adambs'
+		[44] 'Apertural spines'
+		[45] 'Actinolateral adamb spines'
+		[46] 'Ambulacrals'
+		[47] 'Ambulacral heads'
+		[48] 'Ambulacral heads - 2'
+		[49] 'Ambulacral base'
+		[50] 'Ambulacral base - 2'
+		[51] 'External surface of oral ossicles'
+		[52] 'Oral ossicle body'
+		[53] 'Oral ossicles'
+		[54] 'Apophyse'
+		[55] 'Ring canal groove'
+		[56] 'Circumoral ossicle'
+		[57] 'Oral spines'
+		[58] 'Odontophore'
+		[59] 'Odontopore actinal face'
+		[60] 'Marginals'
+		[61] 'Marginals - 2'
+		[62] 'Actinals'
+		[63] 'Actinals - 2'
+	;
+	STATELABELS
+		1
+			'flat'
+			'convex-abactinally, flat actinally'
+			,
+		2
+			'very short (R = r)'
+			'arms produced (R [ r)'
+			,
+		3
+			'absent'
+			'covering body present'
+			,
+		4
+			'absent'
+			'low pillar of ossicles adjacent to odontophore'
+			'internal calcified ducts leading from actinal to abactinal surface'
+			'externally open grooves floored by chevron plates'
+			,
+		5
+			'single structure'
+			'with separate vertical chimney and chevron region'
+			,
+		6
+			'narrow'
+			'broad interradial opening displays chevron plates'
+			,
+		7
+			'elongated'
+			'short, broad'
+			,
+		8
+			'simple flat bar form'
+			'with bifid lateral extension'
+			,
+		9
+			'numerous (8-12) present'
+			'few'
+			,
+		10
+			'in irregular rows'
+			'diagonal radial-convergence pattern'
+			,
+		11
+			'imbricate, tile-like with tiny notches for papulae'
+			'large notches for papulae'
+			'form open trellis-like reticulum'
+			,
+		12
+			'with nonspecialised contacts'
+			'each flange on the base of abactinal possesses articular surfaces and attachment site for interabactinal muscles'
+			,
+		13
+			'form diagonally arranged tessellation'
+			'set in transverse rows'
+			,
+		14
+			'Small'
+			'Large, elongated'
+			,
+		15
+			'Loose'
+			'Attached to pedicel'
+			,
+		16
+			'inconspicuous with small interstitial ossicles'
+			'comprises 5 large radials, 5 interradials, 1 centrale all in contact'
+			'central membrane surrounded by primary radials and interradials'
+			,
+		17
+			'Large'
+			'Small'
+			'replaced by small ossicles in membrane'
+			,
+		18
+			'flush with primary radials'
+			'inset beneath radials'
+			,
+		19
+			'carry spines'
+			'naked'
+			,
+		20
+			'Flat'
+			'concave abactinally, convex actinally'
+			,
+		21
+			'oval'
+			'with 5 elongate processes for articulation'
+			,
+		22
+			'oval'
+			'irregularly lobed'
+			'with Y-shaped processes which articulate with adjacent abactinals'
+			,
+		23
+			'smooth, flat'
+			'with stubby central spine base'
+			'with low conical pedicel'
+			'with tall flattened pedicel'
+			,
+		24
+			'lacks muscle insertion site on interior face'
+			'large muscle insertion site present'
+			,
+		25
+			'large number (8–12)'
+			'fewer (4–5)'
+			'very few'
+			,
+		26
+			'no specialised articulations'
+			'tall articular flanges from adambs contact abactinal'
+			,
+		27
+			'with parallel sides'
+			'vase-shaped, expanded abactinally'
+			,
+		28
+			'scattered'
+			'restricted to small central boss'
+			'attached to elongated pedicel'
+			,
+		29
+			'short, granular/thorny'
+			'elongated, hyaline'
+			,
+		30
+			'separate'
+			'united by a membrane'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'biserial'
+			'quadriserial'
+			,
+		34
+			'broad, rectangular'
+			'with adamb extension'
+			'with no amb extension'
+			,
+		35
+			'absent'
+			'present'
+			'State 2 with no amb extension'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'as broad as distal ones'
+			'narrow'
+			,
+		38
+			'inset on actinal surface'
+			'defines ambitus'
+			,
+		39
+			'weakly imbricate'
+			'strongly imbricate'
+			,
+		40
+			'not flattened'
+			'strongly flattened'
+			,
+		41
+			'Discrete ada2,3 articulations'
+			'ada2/3 confluent, positioned on transverse ridge'
+			,
+		42
+			'Absent'
+			'Present'
+			,
+		43
+			'Absent'
+			'Present'
+			,
+		44
+			'Absent'
+			'Present'
+			,
+		45
+			'Unwebbed'
+			'Webbed'
+			,
+		46
+			'Without flattened heads'
+			'Flattened'
+			,
+		47
+			'Do not imbricate'
+			'Imbricate strongly proximally'
+			,
+		48
+			'Without distal flange'
+			'Present, short'
+			'Elongated as much as proximal one'
+			,
+		49
+			'With discrete articular surfaces ada1a,b, ada2,ada3'
+			'ada1a/2, ada1b/3 confluent'
+			,
+		50
+			'Parallel sided'
+			'Strongly flared abradially'
+			,
+		51
+			'evenly curved'
+			'with separate rounded rim and raised central area'
+			,
+		52
+			'elongated'
+			'square'
+			'State 2 State not specified'
+			,
+		53
+			'with short apophyse'
+			'with elongated hypophysis'
+			'State 2 state not specified'
+			,
+		54
+			'angled to body'
+			'vertical, at right angles to actinal margin'
+			,
+		55
+			'short'
+			'elongated, runs along length of proximal circumoral bar'
+			,
+		56
+			'with long proximal circumoral process'
+			'with short process'
+			,
+		57
+			'Uniform'
+			'discrete oral and suboral spines'
+			,
+		58
+			'T-shaped in outline'
+			'semicircular'
+			,
+		59
+			'smooth'
+			'with structures for articulation of chevron plates'
+			,
+		60
+			'large, block-like'
+			'tiny, form narrow flange'
+			'absent'
+			,
+		61
+			'large, block-like'
+			'tiny, form narrow flange'
+			'absent'
+			,
+		62
+			'present'
+			'absent'
+			,
+		63
+			'tile-like'
+			'elongated'
+			,
+	;
+	MATRIX
+	'Astropecten irregularis'       0100-----0-01000--------00-00--000-000000000-000000000000000000
+	'Asterina gibbosa'              1001-----1000000--------00-00--000-000000000-110001111111001000
+	'Tremaster mirabilis'           1002100001000001000?00-000-00--0100100001000-110001111111111011
+	'Protremaster uniserialis'      10020100010?0???00?0001000-1??-0010?11101100011???1111111??21--
+	'Korethraster hispidus'         10030111010000010111001010-110-001011110110001111111111111121--
+	'Remaster gourdoni'             10030111011000011111111010-111-001011110110001111111111111121--
+	'Savignaster wardi'             1003011101210????111122110121??00111?11011???1111111111111121--
+	'Hansaster trimbachensis'       1013011101210????11112311002???10121?11011???1111111111111121--
+	'Peribolaster biserialis'       10130111012000021111111010-1110001011110110001111111111111121--
+	'Pteraster corynetes'           1013011101210112111112311002111102210111111111111111111111121--
+	'Hymenaster perissonotus'       1013011111210112111112312102111102??0111111111121112211111121--
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-63;
+ENDBLOCK;

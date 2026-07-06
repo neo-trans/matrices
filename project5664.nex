@@ -1,0 +1,908 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.40.49 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=60;
+	TAXLABELS
+		'Sinoconodon rigneyi'
+		'Morganucodon sp.'
+		'Thomasia sp.'
+		'Haramiyavia clemmenseni'
+		'Rugosodon eurasiaticus'
+		'Paulchoffatia delgadoi'
+		'Meketichoffatia krausei'
+		'Henkelodon naias'
+		'Meketibolodon robustus'
+		'Guimarotodon leiriensis'
+		'Kuehneodon sp.'
+		'Pseudobolodon sp.'
+		'Ctenacodon sp.'
+		'Glirodon grandis'
+		'Bolodon sp.'
+		'Plagiaulax becklesii'
+		'Zofiabaatar pulcher'
+		'Sinobaatar sp.'
+		'Eobaatar magnus'
+		'Jeholbaatar kielanae'
+		'Heishanobaatar triangulus'
+		'Liaobaatar changi'
+		'Hakusanobaatar kusuhashi'
+		'Arginbaatar dmitrievae'
+		'Bryceomys sp.'
+		'Boffius splendidus'
+		'Meniscoessus sp.'
+		'Buginbaatar clarki'
+		'Cimolodon sp.'
+		'Ectypodus sp.'
+		'Mesodma sp.'
+		'Ptilodus sp.'
+		'Neoliotomus sp.'
+		'Filikomys primaevus'
+		'Pentacosmodon pronus'
+		'Microcosmodon sp.'
+		'Catopsbaatar catopsaloides'
+		'Kamptobaatar kuczynskii'
+		'Chulsanbaatar vulgaris'
+		'Kryptobaatar sp.'
+		'Nemegtbaatar gobiensis'
+		'Eucosmodon sp.'
+		'Stygimys sp.'
+		'Taeniolabis taoensis'
+		'Lambdopsalis bulla'
+		'Sphenopsalis nobilis'
+		'Prionessus lucifer'
+		'Catopsalis sp.'
+		'Yubaatar sp.'
+		'Kogaionon ungureanui'
+		'Barbatodon transylvanicus'
+		'Barbatodon oardaensis'
+		'Kogaionon radulescui'
+		'Hainina belgica'
+		'Hainina pyrenaica'
+		'Kielanodon hopsoni'
+		'Iberodon quadrituberculatus'
+		'Pinheirodon pygmaeus'
+		'Bernardodon atlanticus'
+		'Cambelodon torreensis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=137;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		[1] 'Postdentary trough.'
+		[2] 'Meckel?s sulcus presence'
+		[3] 'Anteroventral extension of masseteric fossa to mandibular body below m1'
+		[4] 'Coronoid or coronoid scar on mandible'
+		[5] 'Angle of the coronoid anterior margin to the molar alveolar line on the mandibular body'
+		[6] 'Coronoid process orientation in parasagittal plane'
+		[7] 'Angle between the lower margin of the dentary and alveolar line of the lower p4 and molars'
+		[8] 'Gracile and elongate dentary peduncle'
+		[9] 'Mandibular condyle height to the m1-m2 alveolar line'
+		[10] 'Mandibular angle'
+		[11] 'Number of lower incisors'
+		[12] 'Procumbency and enlargement of the lower anterior-most incisors'
+		[13] 'Lower incisor 1 root posterior extension'
+		[14] 'Enlargement diastema in lower incisor-canine region'
+		[15] 'Lower incisor robustness'
+		[16] 'Enamel covering of lower incisor'
+		[17] 'Number of upper incisors (Ordered)'
+		[18] 'Diastema between Upper Incisor 2 and Incisor 3'
+		[19] 'Upper Incisor 2 (or penultimate incisor) morphology'
+		[20] 'Upper Incisor 3 (or ultimate upper incisor) morphology'
+		[21] 'Placement of posterior upper incisor (I3)'
+		[22] 'Upper canine ? presence vs. absence, and size'
+		[23] 'Upper canine ? number of cusps'
+		[24] 'Lower canine ? presence vs. absence'
+		[25] 'Ratio between I3 and first maxillary tooth vs. length of the upper premolars and molars (Ordered)'
+		[26] 'Number of upper premolars (only applicable to taxa with premolar vs. molar differentiation)'
+		[27] 'Root(s) of posterior upper premolar(s)'
+		[28] 'Cingular labial cuspules on posterior upper premolars'
+		[29] 'Upper premolars/upper molars length ratio (Ordered)'
+		[30] 'Last upper premolar ? number and length of cusp rows'
+		[31] 'P4 (or penultimate upper premolar) ? cusp number of the main cusp row (excluding the cingular'
+		[32] 'Width ratio of the ultimate upper premolar vs. M1 (Ordered)'
+		[33] 'Lower p1'
+		[34] 'Lower p2'
+		[35] 'Lower p3 (or penultimate premolar) presence vs. absence'
+		[36] 'p3 (or penultimate lower premolar) laterally compressed to be blade-like'
+		[37] 'Lower p3 (or penultimate premolar) cusp/serration count'
+		[38] 'Shape of p3'
+		[39] 'Labial basal cuspules on p3 (applicable to bladed lower premolars)'
+		[40] 'Contact of penultimate and ultimate lower premolars'
+		[41] 'Lower p4 (or ultimate lower premolar) laterally compressed to be blade-like'
+		[42] 'Lower p4 (or ultimate premolar) profile in lateral view'
+		[43] 'Blade-like p4 serration count (Ordered)'
+		[44] 'Lower p4 anterior root ? Exoedaenodont at crown-root junction'
+		[45] 'Dorsal margin of p4 to m1'
+		[46] 'p3/p4 maximum length ratio (Ordered)'
+		[47] 'Buccal basal cuspules on p4 (Ordered)'
+		[48] 'Ratio of p4:m1 length'
+		[49] 'Number of lower molars or molariform postcanines (Ordered)'
+		[50] 'Number of upper molars or molariform postcanines'
+		[51] 'Total number of upper postcanine loci (Ordered)'
+		[52] 'Number of lower postcanine loci (Ordered)'
+		[53] 'U-shaped transverse ridge(s) between b1-l1, or b2-l2 cusps in lower molars'
+		[54] 'Lower molar cusp height'
+		[55] 'M1 cusp formula'
+		[56] 'Penultimate upper molar 1 (M1) of multi-rowed upper molar (or postcanines) ? cusp height ratio'
+		[57] 'M1 posterolingual wing (applicable to molars with multiple rows of multiple cusps)'
+		[58] 'M1 posterolingual wing M1 length (applicable to M1 with multiple rows) (Ordered)'
+		[59] 'M1 posterolingual wing morphology (applicable only to M1s with posterolingual wing) (Ordered)'
+		[60] 'Off-set alignment of main cusp row(s) of the first and second upper molars'
+		[61] 'Upper M2 (or ultimate upper molar) middle row cusp count (Ordered)'
+		[62] 'Anterior end of middle valley of upper M2 (or ultimate upper molar)'
+		[63] 'Middle valley of upper M1 (or penultimate molar)'
+		[64] 'Curvature of lingual cusp row (applicable to multi-rowed M2)'
+		[65] 'M2 middle valley posterior end (applicable to multi-rowed M2)'
+		[66] 'M2 mesiobuccal ridge'
+		[67] 'm1 main lingual cusp count'
+		[68] 'Lower m1 middle valley'
+		[69] 'm2 middle longitudinal valley'
+		[70] 'Coalescence of m2 buccal row cusps (applicable only to teeth with multi-rows of multiple cusps)'
+		[71] 'Complete rim of m2 basin (applicable only to teeth with multi-rows of multiple cusps)'
+		[72] 'm2 lingual row cusp count (Ordered)'
+		[73] 'Ultimate lower molar (or m2) with multi-rows ?ratio of row length'
+		[74] 'Cusp shape on lower molars'
+		[75] 'Enlarged trenchant second cusp of lingual row enclosed into the basin on lower m1 (applicable'
+		[76] 'Molar enamel surface'
+		[77] 'Enamel microstructure'
+		[78] 'Differentiation of premolars vs. molars'
+		[79] 'Diphyodont dental replacement'
+		[80] 'Infraorbital foramen'
+		[81] 'Palatal vacuities'
+		[82] 'Sharp ridge between the palate and lateral walls of premaxilla'
+		[83] 'Curvature of anterior zygomatic root (best viewed in dorsal view)'
+		[84] 'Number of pairs of vascular foramina on nasal'
+		[85] 'Posterior-most infraorbital foramen positions (Ordered)'
+		[86] 'Base of zygomatic arch as marked by posterior edge'
+		[87] 'Bony roof over anterior orbital space'
+		[88] 'Postorbital process'
+		[89] 'Snout length'
+		[90] 'Frontal/nasal suture pattern'
+		[91] 'Frontal-parietal suture'
+		[92] 'Contacts between nasals and parietals'
+		[93] 'Facial exposure of lacrimal'
+		[94] 'Thickening in palatal process of premaxilla'
+		[95] 'Incisive foramen positioned'
+		[96] 'Foramen ovale inferium placement'
+		[97] 'Jugular fossa'
+		[98] 'Anterior part of promontorium'
+		[99] 'Glenoid fossa length-width ratio (length as measured as maximum dimension from anterolateral to'
+		[100] 'Post-temporal fossa'
+		[101] 'Width of the snout: skull length ratio'
+		[102] 'Skull width: length ratio'
+		[103] 'Length ratio (R) of ultimate vs. penultimate upper premolar'
+		[104] 'Length ratio (R) of M1 to penultimate premolar (we use the term ?penultimate premolar?'
+		[105] 'Length ratio (R) of ultimate upper premolar vs. M1'
+		[106] 'Ratio (R) of width to length in M1'
+		[107] 'Length ratio (R) of M2 vs. M1'
+		[108] 'Masseteric ridge'
+		[109] 'Masseteric fovea in front of masseteric fossa'
+		[110] 'Coronoid process form'
+		[111] 'Dorsal margin of the posterior part of mandible ? neck'
+		[112] 'Mandibular condyle, size, relative to mandible size'
+		[113] 'Mandibular condyle ? orientation'
+		[114] 'Lower incisor ? tooth crown (rodent-like)'
+		[115] 'Two-cusped I2, the posterior cusp: position'
+		[116] 'Upper incisor 3 ? form'
+		[117] 'Second upper premolar, size, relative to the first upper premolar (for taxa that have four or five'
+		[118] 'M1/m1 multiple accessory roots'
+		[119] 'Posterobuccal cingulid on m1'
+		[120] 'Post-trigeminal canal (canal for the ramus inferior)'
+		[121] 'Stapedial groove'
+		[122] 'Stapes ? form'
+		[123] 'The enamel of p4'
+		[124] 'Tooth crown of the ultimate upper premolar in lateral view, outline'
+		[125] 'Penultimate upper premolar, outline'
+		[126] 'Ultimate upper premolar: the length to width ratio'
+		[127] 'Ultimate upper premolar: main cusp row count'
+		[128] 'The reduced upper premolar for taxa that have four upper premolars'
+		[129] 'Upper premolar enamel surface'
+		[130] 'm2, lingual cusp row, facing medially'
+		[131] 'Tooth replacement pattern'
+		[132] 'Outline of the alveolar line of the jaw'
+		[133] 'Subtriangular lobe on p2'
+		[134] 'Subtriangular lobe on p3'
+		[135] 'Lobe over the distal root of p2'
+		[136] 'Lobe over the distal root of p3'
+		[137] 'Angle between the premolar row and the dentary axis of the jaw'
+	;
+	STATELABELS
+		1
+			'Present'
+			'Absent'
+			,
+		2
+			'Present'
+			'Vestigial or absent'
+			,
+		3
+			'Absent'
+			'Present and extending to below m1'
+			'Present and extending more anteriorly than the p4-m1 junction'
+			,
+		4
+			'Present'
+			'Absent'
+			,
+		5
+			'> 45 degrees'
+			'Low < 45 degrees'
+			,
+		6
+			'Parallel to the rest of the outer wall of the dentary'
+			'Flared laterally'
+			,
+		7
+			'11?17 degrees'
+			'18 degrees or above'
+			,
+		8
+			'Present'
+			'Absent'
+			,
+		9
+			'Opposite or below the level of the molar alveoli'
+			'Above the level of the molars'
+			,
+		10
+			'Present'
+			'Absent'
+			,
+		11
+			'Four or more'
+			'One'
+			,
+		12
+			'Absent'
+			'Present (at least 50% longer than the adjacent incisor)'
+			,
+		13
+			'Not extending below p3'
+			'State 1Extending posteriorly beyond p3-p4 junction'
+			,
+		14
+			'Present and behind the canine'
+			'Present and behind the posterior incisor'
+			,
+		15
+			'Robust'
+			'Gracile'
+			,
+		16
+			'Of uniform thickness'
+			'Thicker on labial surface than on lingual surface'
+			'Completely restricted to the antero-labial surface of the tooth'
+			,
+		17
+			'Four or more'
+			'Three'
+			'Two'
+			,
+		18
+			'No large diastema between the second incisor and third upper incisors'
+			'I2-I3 diastema'
+			,
+		19
+			'Peg-like or single cusp'
+			'Two-cusped, or more'
+			,
+		20
+			'Single cusped or peg-like'
+			'2-cusped'
+			'3?4 cusped'
+			,
+		21
+			'On the margin of premaxilla'
+			'Medial to the margin-crest of the faciopalatal faces of premaxilla'
+			'More internal on the palatal part (close to the first premolar)'
+			,
+		22
+			'Present and enlarged'
+			'Present and small'
+			'Absent'
+			,
+		23
+			'Peg-like with single cusp'
+			'Two or more cusps'
+			,
+		24
+			'Present'
+			'Absent'
+			,
+		25
+			'Below 0.09'
+			'Between 0.1?0.19'
+			'0.2 or above'
+			,
+		26
+			'Five'
+			'Four'
+			'Three'
+			'Two or one'
+			,
+		27
+			'Double-rooted'
+			'Single-rooted'
+			'Triple-rooted'
+			,
+		28
+			'Absent'
+			'Present'
+			,
+		29
+			'1.5 or more'
+			'1.5?0.8'
+			'0.8 or less'
+			,
+		30
+			'Two main and equal rows of cusps'
+			'Two equal rows of cusps and a continuous row of labial cingular cuspules or cingulum'
+			'One main row and a shorter buccal row (anterior or posterior)'
+			'One main row only'
+			'One oblique main row and one shorter, posteriorly placed lingual row'
+			,
+		31
+			'1?4'
+			'5?8'
+			'9?10'
+			,
+		32
+			'More than 0.9'
+			'0.9?0.7'
+			'0.69?0.4'
+			'0.39?0.2'
+			,
+		33
+			'Present'
+			'Absent'
+			,
+		34
+			'Present'
+			'Absent'
+			,
+		35
+			'Present'
+			'Absent'
+			,
+		36
+			'No (including taxa with a peg-like p3)'
+			'Yes'
+			,
+		37
+			'Present, with 3?5 cusps'
+			'Present, with 1?2 cusps'
+			,
+		38
+			'Single row of cusps'
+			'Blade-like rectangular'
+			'Blade-like triangular'
+			'Peg-like'
+			,
+		39
+			'Present'
+			'Absent'
+			,
+		40
+			'Juxtaposition'
+			'Staged: p4 overhangs p3'
+			,
+		41
+			'No'
+			'Yes'
+			,
+		42
+			'Tricuspate'
+			'Rectangular'
+			'Arcuate'
+			'Triangular'
+			,
+		43
+			'7 or less'
+			'8?10'
+			'More than 10'
+			,
+		44
+			'Absent'
+			'Present'
+			,
+		45
+			'On the level of molars'
+			'Protruding dorsally over molars'
+			,
+		46
+			'Above 0.7'
+			'0.7?0.4'
+			'0.39?0.11'
+			'0.10 or less'
+			,
+		47
+			'Absent'
+			'Single cusp or simple cingulid'
+			'Several?single row'
+			'Several?double rows'
+			,
+		48
+			'Less than 0.99'
+			'1?1.49'
+			'1.5?1.99'
+			'2 or greater'
+			,
+		49
+			'Three or more'
+			'Two'
+			,
+		50
+			'Three or more'
+			'Two'
+			,
+		51
+			'More than 8 (including the loci plus the alveoli of shed anterior postcanines)'
+			'Seven loci'
+			'Six'
+			'Five or fewer'
+			,
+		52
+			'Eight or more'
+			'Six'
+			'Five or less'
+			,
+		53
+			'Absent'
+			'Present'
+			'Sharp crest closes the narrow central valley'
+			,
+		54
+			'Uneven'
+			'Even'
+			,
+		55
+			'2?3:2?4:0'
+			'4?5:4?5:0?1'
+			'5?7:5?8:2?5'
+			'5?11:7?10:6?11'
+			'3- 5:2-4:2-7'
+			,
+		56
+			'Distal cusp or second distal cusp highest, with a gradient of anteriorly decreasing height'
+			'Cusps in same row of equal height'
+			,
+		57
+			'Absent'
+			'Present'
+			,
+		58
+			'Present and below 0.2'
+			'Present and between 0.2 and 0.5'
+			'Present and more than 0.5'
+			,
+		59
+			'Wing smooth'
+			'Wing is crested'
+			'Wing cuspate with 3?4 cuspules'
+			'Wing cuspate with 5 or more cuspules'
+			,
+		60
+			'Absent'
+			'Present'
+			,
+		61
+			'Two cusps'
+			'Three cusps'
+			'Four cusps or more'
+			,
+		62
+			'Middle valley absent'
+			'Present as a uniform groove along most length but anterior end closed by a crescentic rim'
+			'Uniform valley anteriorly open'
+			,
+		63
+			'Middle valley absent'
+			'Valley present along the tooth length but its posterior end closed by a rim or rim with tiny cuspules'
+			'Valley present along most of the tooth length but posterior end closed by a single enlarged cusp in mid position'
+			'Uniform valley posteriorly open'
+			'Valley indistinctive owing to inflation of tooth cusps'
+			,
+		64
+			'Straight'
+			'Curved posterolabially'
+			,
+		65
+			'Valley posteriorly open'
+			'Valley closed by a posterior cusp'
+			'Valley absent due to inflation of tooth cusps'
+			,
+		66
+			'Absent'
+			'Present'
+			'Present and expanded to mesial margin labial cusp row'
+			,
+		67
+			'4 or fewer'
+			'5'
+			'6 or higher'
+			,
+		68
+			'Middle valley absent'
+			'Present and posteriorly open and completely separating distal cusps of lingual vs. labial rows'
+			'Middle valley present, but rimmed posteriorly'
+			,
+		69
+			'Middle valley absent'
+			'Present and completely separating two rows of cusps'
+			'Middle valley present and closed distally by a ridge'
+			,
+		70
+			'Absent'
+			'Present'
+			,
+		71
+			'Absent'
+			'Present'
+			,
+		72
+			'One trenchant anterior cusp'
+			'2?3'
+			'4?5'
+			,
+		73
+			'Labial cusp row about equal as lingual cusp row'
+			'Labial row is longer (by at least half cusp length) than lingual row'
+			,
+		74
+			'Conical'
+			'Crescentic'
+			'Inflated'
+			,
+		75
+			'Absent'
+			'b2 cusp enlarged'
+			'b2 cusp enlarged and encircled into the basin'
+			,
+		76
+			'Not ornamented'
+			'Covered with grooves, pits, and ridges'
+			,
+		77
+			'Prismless'
+			'Gigantoprismatic'
+			'Small prismatic'
+			,
+		78
+			'Absent'
+			'Present'
+			,
+		79
+			'Absent'
+			'Present'
+			,
+		80
+			'Double'
+			'Single'
+			,
+		81
+			'Absent'
+			'Present and single'
+			'Present and double'
+			,
+		82
+			'Absent'
+			'Present'
+			,
+		83
+			'Zygomatic root aligned with (or lightly incurved into) facial part of rostrum'
+			'ygomatic root is more transverse and deeply incurved with facial part of rostrumygomatic root is more transverse and deeply incurved with facial part of rostrum'
+			,
+		84
+			'Absent'
+			'One'
+			'Two'
+			'Three or more'
+			,
+		85
+			'Dorsal to P3 or P4, or more posterior'
+			'Dorsal to P2'
+			'Dorsal to P1'
+			,
+		86
+			'Dorsal to P4 or more anterior'
+			'Dorsal or posterior to P5/M1 or P4/M1 embrasure, or farther posterior'
+			,
+		87
+			'Absent'
+			'Present'
+			,
+		88
+			'Absent'
+			'Present and short'
+			,
+		89
+			'< 49 percent of total skull length'
+			'> 50 percent of skull length'
+			,
+		90
+			'With subtransverse anterior margins or zigzag line'
+			'Pointed anteriorly and not deeply inserted between the nasals'
+			'Frontal deeply inserted between the nasals'
+			,
+		91
+			'Roughly V-shaped parietal lappet into frontal'
+			'U-shaped'
+			,
+		92
+			'Absent'
+			'Present'
+			,
+		93
+			'Very small and arcuate'
+			'Large, roughly rectangular'
+			,
+		94
+			'Absent'
+			'Present'
+			,
+		95
+			'Within premaxilla'
+			'Limited posteriorly by maxilla'
+			,
+		96
+			'Medial to foramen masticatorium'
+			'Posterior to foramen masticatorium'
+			,
+		97
+			'Small and shallow'
+			'Large and deep'
+			,
+		98
+			'1.5 or more'
+			'Below 1.49'
+			,
+		99
+			'Oval'
+			'Irregular within curvatures on both sides'
+			,
+		100
+			'Large (as seen in Ptilodus)'
+			'Reduced to a small foramen'
+			,
+		101
+			'Above 0.4'
+			'Below 0.39'
+			,
+		102
+			'0.79 and below'
+			'Above 0.8'
+			,
+		103
+			'subequal (R = 1-1.25)'
+			'penultimate premolar lengthened, R < 1'
+			'penultimate premolar shortened, 3 > R> 1.25'
+			'penultimate premolar strongly shortened, R > 3'
+			'penultimate premolar lost, only one premolar present'
+			,
+		104
+			'roughly subequal, 1.5 > R > 1'
+			'penultimate premolar elongated, R < 1'
+			'penultimate premolar shortened, 3.5 > R > 1.5'
+			'penultimate premolar strongly shortened, R > 3.5'
+			'State 4penultimate premolar lost, only one premolar present'
+			,
+		105
+			'premolar and molar subequal, R < 1.5'
+			'ultimate premolar shortened, 3 > R > 1.5'
+			'ultimate premolar vestigial, R > 3'
+			,
+		106
+			'M1 wide, R > 0.55'
+			'M1 elongated, R ?0.55'
+			,
+		107
+			'R > 0.7'
+			'M1 elongated, 0.7 > R > 0.5'
+			'M1 strongly elongated, R < 0.5'
+			,
+		108
+			'Weak'
+			'Prominent'
+			,
+		109
+			'Absent'
+			'Present'
+			,
+		110
+			'Relatively Massive'
+			'Low and short'
+			'High and short'
+			,
+		111
+			'Shallow'
+			'Deep'
+			,
+		112
+			'Large'
+			'Small'
+			,
+		113
+			'Facing posteriorly'
+			'Facing dorsoposteriorly'
+			,
+		114
+			'Rounded'
+			'Strongly laterally compressed'
+			,
+		115
+			'Small cuspule, close to the tip of tooth crown'
+			'Small cuspule, more posterodorsal to the tip of tooth crown'
+			,
+		116
+			'Conical'
+			'Triangular or trapezoidal'
+			'Transversely wide and anteroposteriorly compressed'
+			,
+		117
+			'Smaller'
+			'Larger'
+			,
+		118
+			'Absent'
+			'Present'
+			,
+		119
+			'Absent'
+			'Present'
+			,
+		120
+			'Present'
+			'Absent'
+			,
+		121
+			'Absent'
+			'Present, running posterolaterally on the promontorium to the oval window'
+			'Present, runs wholly posterior to the oval window'
+			,
+		122
+			'Columelliform?macroperforate'
+			'Columelliform-microperforate (or imperforate)'
+			'Bicrurateperforate'
+			,
+		123
+			'Complete'
+			'Limited to a part of tooth crown'
+			,
+		124
+			'Relatively flat or conical'
+			'Triangular'
+			,
+		125
+			'Triangular or square'
+			'Rectangular with length greater than width'
+			,
+		126
+			'< 1.4'
+			'1.4?1.7'
+			'> 1.7'
+			,
+		127
+			'1?4'
+			'5?8'
+			'> 8'
+			,
+		128
+			'P4'
+			'P1'
+			'P2'
+			,
+		129
+			'Not ornamented'
+			'Ornamented with ridges'
+			,
+		130
+			'Absent'
+			'Present'
+			,
+		131
+			'Anteroposterior'
+			'Alternate posteroanterior replacement pattern'
+			,
+		132
+			'Flat outline'
+			'Arched outline'
+			'Ladder-shaped outline'
+			,
+		133
+			'Absent'
+			'Present'
+			,
+		134
+			'Absent'
+			'Present'
+			,
+		135
+			'Absent'
+			'Present'
+			,
+		136
+			'Absent'
+			'Present'
+			,
+		137
+			'angle smaller than 12º'
+			'angle between 12º and 17º'
+			'angle between 18º and 22º'
+			,
+	;
+	MATRIX
+	'Sinoconodon rigneyi'              00000000000000000000000000002?00000000?000?00100??0000?0???0100??0000??????00000000100001000000?000000?????00000???0100?000????????0?????
+	'Morganucodon sp.'                 00000000000000000000000000002?00000000?000?00100000000?0???0100??0000??????00110000000001000000?000000?????00000???0100?000???????00????0
+	'Thomasia sp.'                     ??????????01??000?00?????3002001??0000?001?0010000??10?00??01130000?20020000?1???????????????????????????00???0???????????0??????????????
+	'Haramiyavia clemmenseni'          000?10000001000001000100????????000000?000?00?00000010?00??0113001012002000011????????0??????????????????000000??0???00???0?????????????0
+	'Rugosodon eurasiaticus'           111?1?010111110010110111000?00??0001?1?011001??1111110{0 1}10??101111202211000111110????0???0?????????????20000000000001000???00000?0011?????
+	'Paulchoffatia delgadoi'           111?100101110100???????1????????00010100110010211??1100???????????022110002111?????????????????????????????0000000???00???0??????0?000000
+	'Meketichoffatia krausei'          ?????????????????????11?00010000?????????????????11???000??1?11????????????1?1?0000??00?00????11000?1000000?????????00??10?0000?0????????
+	'Henkelodon naias'                 ????????????????101202??00010000?????????????????11???010??1?12????????????1?110??????????????????????0000????????0100?????0000?0?0??????
+	'Meketibolodon robustus'           1111100101110100???????1????????000101001100103???????0????????????2???0??21?1?????????????????????????????0000000???00???0??????0?100001
+	'Guimarotodon leiriensis'          1111100101110100???????1????????00010100110010311??110????????????022110002111?????????????????????????????00?0000???00???0?0????0?000001
+	'Kuehneodon sp.'                   11101001011111001012011101010000{0 1}001010011001021112110010??101211202211100{1 2}11110??????0???????????????0000000000001?000???000001000000002
+	'Pseudobolodon sp.'                ????????????????1000?01??000?10???????????????????????????????????????????????????????????????????????0?????????????0???12?000??0????????
+	'Ctenacodon sp.'                   11110?1111111100101101?1000101000001011011001121111101111001023001011001100001?0??0??0????????????????000000000000??0?0???01010?00?{0 1}11000
+	'Glirodon grandis'                 11110011111111021011010100010100000?011011001121111101010??1023001011001100001?00001100??0?0??1???????00000????????000????00010?00?1?1?10
+	'Bolodon sp.'                      11111?11??111?00?????1?1?0010100000102101100112?1111010110010230010?1??1100101?00???1?????????????????0000000000?0??000???01010?0??01111?
+	'Plagiaulax becklesii'             1111001111111100???????1????????100102101110?12?1??101???????????10110011?0001?????????????????????????????1000000???00???0??????0?11111?
+	'Zofiabaatar pulcher'              111100111111?10?????????????????00010110110011231??101???????????10?1001100001?????????????????????????????0000000???00??????????0?101002
+	'Sinobaatar sp.'                   1111001101111100110102?120000{2 3}0{1 2}1001121012111{1 2}121112011111011230010111011001011000?1010?01?0??????????200000000000?2000??101020?1101?1?01
+	'Eobaatar magnus'                  11?1???1?1111102???????1?0000001100102101211?21?111201011101123001011101100111????????????????????????00000??????0??000???01020?11?0?1?1?
+	'Jeholbaatar kielanae'             1111001101111100111002?10000020110011210121112121112011111011230010111011001?1?1??0??1?0???0????1??1?020000000000002000?2101020?11?1?101?
+	'Heishanobaatar triangulus'        1111001101111100???????1????????10010210121111121??201????????????0111011001?1?????????????????????????????0000000???00???0??????1?101011
+	'Liaobaatar changi'                1111001101111100????????????0??110011211122112131??201????????????0111011001?1?0???????????????????????????0000000???00???0?120??1?101011
+	'Hakusanobaatar kusuhashi'         ???????????1?100??1002?1?0000211100112101211121?1??20111110???3??????????001?1????????????????????????0?????0?????0200????00011?1????1?1?
+	'Arginbaatar dmitrievae'           ?1210??1??111100???????1?00000011000121112211203111201011001023001011001100011?0??????????????????????1????000???0??00????10010?10?1?1?1?
+	'Bryceomys sp.'                    ??????????????????????????00?211????????12{1 2}1??1211??0141112?0230020110011001?1??????????????????????????000??????????00???01?21?00???????
+	'Boffius splendidus'               ??????????????0????????????0??11????????????????1?????3?1231?23??1??????1?0011????????????????????????2200??????????????????101??????????
+	'Meniscoessus sp.'                 11211?01?1111100211112?1210022021100131112110300112201{2 3}112312230011?1002110111?0200?01???????01????????3100??????0???10?1?01?10000?2????2
+	'Buginbaatar clarki'               11111001??11?100???????????0?213111?????12000?0011?2013111312230012?10011000?1??????????????????????????111??????????0????0??21??????????
+	'Cimolodon sp.'                    11210?01?11111?0?????2?1?1001211110013111221120{1 2}112201211221223001{0 1}110021001111???????????????????????220100?000?0???0????000110000??????
+	'Ectypodus sp.'                    11210?0111111110210112?1010012211100131112211303112201{2 3}11131123101211002100121111?0?010?0??0??11001?102201{1 2}0100000??0?0?1?0001100002?????
+	'Mesodma sp.'                      11210?01?11111102???12?1?100?2111100131112{1 2}1130{1 2}1122012112{2 3}1123001{0 1}1100{1 2}10012111????????????????????????01?01?00?0???000??00?210000?????0
+	'Ptilodus sp.'                     1121000101111110210002?1010002211100131112211302112201{2 3}11131123101211002100121111002000?00000010001010220120000010??00011?0001100002????2
+	'Neoliotomus sp.'                  11211?01?1111102??0????1?10012211100131112211303112201311231123001211002110121????????????????????????22012???0???????????00011000???????
+	'Filikomys primaevus'              1121010111111110210012?12100121211001311111113021122012112211230010110011001?11111020000010000100?1010330110100010?20000??00021000???????
+	'Pentacosmodon pronus'             1121001111111102???????1??00?202111????112010?1011?201211121023000011001100011????????????????????????????20010001???10???00?{1 2}0?00?1?????
+	'Microcosmodon sp.'                112?0?1111111102201112?1010012121100121112010?10112201211131123001{0 1}110011000?111001?000???????1???1?????00?????001?2?10???00?21?00?1?????
+	'Catopsbaatar catopsaloides'       1121001111111102210122?102002213110013111100030{0 1}113201211231023001011001100011?1010201111110110?110001221010121110?0000???00021200?2????2
+	'Kamptobaatar kuczynskii'          1121110111111101210122?1010012121100131112110301112201111011123001011001100011?10103201001101110100010330010110110?0000?1?00021000?2????2
+	'Chulsanbaatar vulgaris'           1121101101111102210122?101001212110013111211030111220111101112300101100110001111010220100110111110001022{0 1}{0 1}21110100?0000?110002100002?????
+	'Kryptobaatar sp.'                 1121100101111102210122?1010012121100131112110301112201111121223001011001100011110102101111101111110001220{0 1}20110000?00000120002100001?????
+	'Nemegtbaatar gobiensis'           1121100101111102210122?1110012121100131112110301112201{1 2}11221223001011001100011112103101001101110100010231120110?10?000001?0002100002????2
+	'Eucosmodon sp.'                   11211?11011111022?11?2?1?200?2??111?????12210?01112201211??1?23??1111002100011?1???????????????????????????00????1??00????00?11?00?1?????
+	'Stygimys sp.'                     1111100101111102211122?111001221111?????12210?111122012111{2 3}1123001211001100011?12?0?20???????11???????2201111110010?000???00012?00?2?????
+	'Taeniolabis taoensis'             11210001111111022{0 1}1002?123102{2 3}03111?????03?00?10113201311231{1 2}240212110020200111100130?0?020100?????11144111?111100?0?01????0?{1 2}0?0002????2
+	'Lambdopsalis bulla'               1121011111111102200012?123102303111?????03?00?0011322131123101300102200111001111001301010201001?111111442110111100?0?0002100?00?0002?????
+	'Sphenopsalis nobilis'             11?1???1?1111102200002?123102303111?????03?00?00113221311231013001022001110011??00???1?1?20???1??1????442{0 1}0??????????00???00??0?00???????
+	'Prionessus lucifer'               1121???1?11111022????2?1?3{1 2}02303111?????03?00?001132013112310{1 2}3001011001000011??0????1????????????????44?1100????0?0?00???00??0?00??????2
+	'Catopsalis sp.'                   11210001{0 1}11111022{0 1}1002?123102{2 3}12111?????03?00?101132013112311240{1 2}1{0 1}11001{0 1}20011????????????????????????4410100???00?0?01???000{1 2}0?00?2????1
+	'Yubaatar sp.'                     1111000111111102?????2?1?1001{2 3}0{2 3}111?????02100?101122012112311230012110020000?111{1 2}?130101?20010??1111??032100010000??000???0002?00001?????
+	'Kogaionon ungureanui'             ????????????????20?002??11000402?????????????????12???411221023001?????????011?1001300000000??1?1?1?10110000???????2?0?????0120?0????????
+	'Barbatodon transylvanicus'        1121011101111102201002?111000401111?????12101?131122014112210230010110011001?1?1?013000000000011?111101100000?1000?21000??0012001001????2
+	'Barbatodon oardaensis'            ??????????11??022?10?????1000402111?????12{1 2}01?12112?01411221023001011001000{0 1}?1????????????????????????10000??????0?2100???001{1 2}00{0 1}0???????
+	'Kogaionon radulescui'             ??????????11110220?002?111000402111?????1200??1??12???411221023001?????????{0 1}?1?1?0?30?0????0?01???????10000??????0?21?0???001{1 2}00{0 1}0?1?????
+	'Hainina belgica'                  ?????????????????????????100?402111?????12001?131???01411231??3???011001000011????????????????????????1{0 1}00??????????100???001200{0 1}0???????
+	'Hainina pyrenaica'                ??????????????????????????00?402????????????????1???01411231??3???011001000{0 1}?1????????????????????????1000???????????00????0110?00???????
+	'Kielanodon hopsoni'               ?????????????????????????001?102??????????????????????1????0??1??????????????11???1??0????????????????0210??????????1??????0000???1??????
+	'Iberodon quadrituberculatus'      ??????????11??1????????1?001?1?1?001?21?1101?12111??00410??1022000022011102{0 1}?1??????????????????????????000??????????00???00?00?10??1111?
+	'Pinheirodon pygmaeus'             ??????????11??1????????1?001?1?0?00101??110??1?111??00410??1022000022?11102{0 1}?1??????????????????????????000??????????00???00?00?10??1100?
+	'Bernardodon atlanticus'           ??????????11??0????????1?001?1?1?001010?1101?12111??00410??1022000??201110?{0 1}?1??????????????????????????000??????0???00???00?00?10??1100?
+	'Cambelodon torreensis'            ?12???0???11010????????1????????000102001101?12??????????????????????????????01?????????????????????????????0????0????????0???????1011111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-137;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1735243210236; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 5228415062467808818; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1758854736297144664; tell It; setSelected 88; attachments ; endTell; mqVersion 381; checksumv 0 3 1071695238 null getNumChars 137 numChars 137 getNumTaxa 60 numTaxa 60 short true bits 2305843009213693983 states 31 sumSquaresStatesOnly 36896.0 sumSquares -3.135946492530624E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 197; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 961; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1758854736297144664 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1723 889; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 137; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "teste2.nex"'; ID 01940458fd731; LINK Taxa = Taxa; TRANSLATE [0] 1 Sinoconodon, [1] 2 Morganucodon, [2] 3 Thomasia, [3] 4 Haramiyavia, [4] 5 Rugosodon, [5] 6 Paulchoffatia, [6] 7 Meketichoffatia, [7] 8 Henkelodon, [8] 9 Meketibolodon, [9] 10 Guimarotodon, [10] 11 Kuehneodon, [11] 12 Pseudobolodon, [12] 13 Ctenacodon, [13] 14 Glirodon, [14] 15 Bolodon, [15] 16 Plagiaulax, [16] 17 Zofiabaatar, [17] 18 Sinobaatar, [18] 19 Eobaatar, [19] 20 Jeholbaatar, [20] 21 Heishanobaatar, [21] 22 Liaobaatar, [22] 23 Hakusanobaatar, [23] 24 Arginbaatar, [24] 25 Bryceomys, [25] 26 Boffius, [26] 27 Meniscoessus, [27] 28 Buginbaatar, [28] 29 Cimolodon, [29] 30 Ectypodus, [30] 31 Mesodma, [31] 32 Ptilodus, [32] 33 Neoliotomus, [33] 34 Filikomys, [34] 35 Pentacosmodon, [35] 36 Microcosmodon, [36] 37 Catopsbaatar, [37] 38 Kamptobaatar, [38] 39 Chulsanbaatar, [39] 40 Kryptobaatar, [40] 41 Nemegtbaatar, [41] 42 Eucosmodon, [42] 43 Stygimys, [43] 44 Taeniolabis, [44] 45 Lambdopsalis, [45] 46 Sphenopsalis, [46] 47 Prionessus, [47] 48 Catopsalis, [48] 49 Yubaatar, [49] 50 K.ungureanui, [50] 51 B.transylvanicus, [51] 52 B.oardaensis, [52] 53 K.radulescui, [53] 54 H.belgica, [54] 55 H.pyrenaica, [55] 56 Kielanodon, [56] 57 Iberodon, [57] 58 Pinheirodon, [58] 59 Bernardodon, [59] 60 Cambelodon; TREE tnt_1 = (1,(2,(4,(3,(12,((((7,(56,(6,(10,(5,9))))),(8,11)),(58,(59,(57,60)))),(14,(13,(17,(15,(16,((25,(21,(19,(22,(23,(18,20)))))),(24,((((27,((38,(41,(39,(40,(26,(37,(28,(42,43)))))))),(34,(29,(31,(33,(30,32))))))),(35,36)),(49,((44,48),(47,(45,46))))),((50,51),(52,(53,(54,55)))))))))))))))))); TREE tnt_2 = (1,(2,(56,(12,((3,4),((((6,(10,(9,(5,7)))),(8,11)),(58,(59,(57,60)))),(14,(13,(17,(15,(16,((25,(22,((23,(18,20)),(19,21)))),(24,((((27,((41,(38,(39,(40,((26,37),(28,(42,43))))))),(34,(31,(29,(33,(30,32))))))),(35,36)),(49,((44,48),(47,(45,46))))),((50,51),(52,(53,(54,55)))))))))))))))))); TREE tnt_3 = (1,(56,(2,(12,(4,(3,(((((10,(5,9)),(6,7)),(8,11)),(58,(59,(57,60)))),(14,(13,(17,(15,(16,((25,(22,((23,(18,20)),(19,21)))),(24,((((27,((41,(38,(39,(40,((26,37),(28,(42,43))))))),(34,(31,(29,(33,(30,32))))))),(35,36)),(49,((44,48),(47,(45,46))))),((50,51),(52,(53,(54,55))))))))))))))))))); TREE tnt_4 = (1,(2,(4,(3,(12,((((7,(56,(6,(10,(5,9))))),(8,11)),(58,(59,(57,60)))),(14,(13,(17,(15,(16,((25,(22,((23,(18,20)),(19,21)))),(24,((((27,(26,((((40,(28,37)),(39,(38,41))),(42,43)),(33,(30,(32,(29,(31,34)))))))),(35,36)),(49,((44,48),(47,(45,46))))),((50,51),(52,(53,(54,55)))))))))))))))))); TREE tnt_5 = (1,(2,(4,(3,(12,((((7,(56,(6,(10,(5,9))))),(8,11)),(58,(59,(57,60)))),(14,(13,(17,(15,(16,((25,(21,(19,(22,(23,(18,20)))))),(24,((((27,(26,((((40,(28,37)),(39,(38,41))),(42,43)),(33,(30,(32,(29,(31,34)))))))),(35,36)),(49,((44,48),(47,(45,46))))),((50,51),(52,(53,(54,55)))))))))))))))))); 
+ENDBLOCK;

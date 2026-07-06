@@ -1,0 +1,169 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.53.24 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=17;
+	TAXLABELS
+		'Pseudorthograptus obuti'
+		'Pseudorthograptus inoptinatus'
+		'Hercograptus introversus'
+		'Pseudoretiolites ? sp.'
+		'Pseudoretiolites perlatus'
+		'Pseudoretiolites hyrichos'
+		'Pseudopelgmatograptus obesus'
+		'Stomatograptus canadensis'
+		'Retiolites geinitzianus'
+		'Aeroretiolites cancellatus'
+		'Aeroretiolites ? sp.'
+		'Rotaretiolites cf. exutus'
+		'Rotaretiolites exutus'
+		'Eorograptus spirifer'
+		'Paraplectograptus ? sp.'
+		'Paraplectograptus eiseli'
+		'Sokolovograptus textor'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'ancora umbrella development'
+		[2] 'ancora umbrella depth'
+		[3] 'thecal wall preservation'
+		[4] 'prosicula preservation'
+		[5] 'metasicula preservation'
+		[6] 'nema attachment to connecting rods'
+		[7] 'thecal profile'
+		[8] 'basal connection of mid-ventral list of th1'
+		[9] 'distal mid-ventral thecal lists'
+		[10] 'zig-zag increments at distal part of thecal floor'
+		[11] 'ancora sleeve'
+		[12] 'sicula length'
+		[13] 'list ornamentation'
+		[14] 'stomata'
+		[15] 'ancora sleeve list density'
+		[16] 'apertural lip processes'
+		[17] 'lateral aperture rod'
+		[18] 'pleural lists'
+		[19] 'tubarium shape'
+		[20] 'tubarium width'
+	;
+	STATELABELS
+		1
+			'radial and spiral lists'
+			'radial but no spiral lists'
+			'hexagonal/pentagonal mesh'
+			,
+		2
+			'deep (ancora umbrella rim encloses the rim/aperture of the prosicula)'
+			'shallow (ancora umbrella rim occurs below the rim/aperture of the prosicula)'
+			,
+		3
+			'complete thecal walls in all growth stages'
+			'thecal framework of lists, but ventral thecal walls preserved in some mature specimens'
+			'thecal frame work of lists only'
+			,
+		4
+			'complete'
+			'completely preserved in some specimens'
+			'prosicular rim preserved as a ring'
+			'virga only'
+			,
+		5
+			'complete'
+			'partial'
+			'not preserved'
+			,
+		6
+			'not attached'
+			'attached'
+			,
+		7
+			'straight, inclined ventral thecal walls'
+			'inclined, convex ventral thecal walls'
+			'geniculate ventral thecal walls'
+			,
+		8
+			'at virgella'
+			'at rim of ancora umbrella'
+			'within inside surface of ancora umbrella'
+			'no mid-ventral list at th1'
+			,
+		9
+			'absent'
+			'present. (This character is coded independently of character 8 because Pseudoplegmatograptus obesus possesses mid-ventral lists on the distal thecae, but not the ­first thecal pair)'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'short, < 1.5 mm'
+			'long, 2 mm or more'
+			,
+		13
+			'finely striated/smooth'
+			'parallel ridges'
+			'pustules'
+			,
+		14
+			'absent'
+			'present (coded as “–” where there is no ancora sleeve)'
+			,
+		15
+			'few lists'
+			'many lists (coded as “–” where there is no ancora sleeve)'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'widening rapidly'
+			'sub-parallel'
+			,
+		20
+			'wide'
+			'narrow (2 mm or less)'
+			,
+	;
+	MATRIX
+	'Pseudorthograptus obuti'            0000000-001100?10000
+	'Pseudorthograptus inoptinatus'      0100000-000100-10011
+	'Hercograptus introversus'           00000000111100101?00
+	'Pseudoretiolites ? sp.'             0010010011100?101??0
+	'Pseudoretiolites perlatus'          00111102111001101100
+	'Pseudoretiolites hyrichos'          00201102111001101111
+	'Pseudopelgmatograptus obesus'       21202103101001111100
+	'Stomatograptus canadensis'          21112103001001101100
+	'Retiolites geinitzianus'            21112103001000101100
+	'Aeroretiolites cancellatus'         01212111101000001111
+	'Aeroretiolites ? sp.'               112?211110000--01111
+	'Rotaretiolites cf. exutus'          1122211110001--10011
+	'Rotaretiolites exutus'              1122211110001--00011
+	'Eorograptus spirifer'               012021?300000--01111
+	'Paraplectograptus ? sp.'            112021?3?010000011??
+	'Paraplectograptus eiseli'           112321?3001020001111
+	'Sokolovograptus textor'             11232023001120(0 1)01111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-20;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1721896468051; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1973907887972136550; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 613529205766845628; mqVersion 381; checksumv 0 3 2809607351 null getNumChars 20 numChars 20 getNumTaxa 17 numTaxa 17 short true bits 15 states 15 sumSquaresStatesOnly 1768.0 sumSquares 1768.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #613529205766845628 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 20; 
+ENDBLOCK;

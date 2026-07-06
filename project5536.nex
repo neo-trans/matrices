@@ -1,0 +1,568 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.17.59 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=46;
+	TAXLABELS
+		'Tubiluchus troglodytes'
+		'Cricocosmia jinningensis'
+		'Aysheaia pendunculata'
+		'Onychodictyon ferox'
+		'Onychodictyon gracilis'
+		'Diania cactiformis'
+		'Xenusion auerswaldae'
+		'Paucipodia inermis'
+		'Microdictyon sinicum'
+		'Cardiodictyon catenulum'
+		'Hallucigenia sparsa'
+		'Hallucigenia fortis'
+		'Hallucigenia hongmeia'
+		'Luolishania longicruris'
+		'Collinsium ciliosum'
+		'Collinsovermis monstruosus'
+		'Collinsovermis monstruosus'
+		'Acinocricus stichus'
+		'Orstenotubulus evamuellerae'
+		'Antennacanthopodia gracilis'
+		'Ilyodes inopinata'
+		'Tertiapatus dominicanus'
+		'Euperipatoides'
+		'Plicatoperipatus'
+		'Ooperipatellus'
+		'Actinarctus doryphorus'
+		'Halobiotus crispae'
+		'Tardigrada  Orsten>'
+		'Megadictyon haikouensis'
+		'Jianshanopodia decora'
+		'Hadranax augustus'
+		'Kerygmachela kierkegaardi'
+		'Pambdelurion whittingtoni'
+		'Opabinia regalis'
+		'Anomalocaris canadensis'
+		'Peytoia nathorsti'
+		'Hurdia victoria'
+		'Aegirocassis benmoulae'
+		'Lyrarapax unguispinus'
+		'Schinderhannes bartlesi'
+		'Fuxianhuia xiaoshibaensis'
+		'Chengjiangocaris kunmingensis'
+		'Leanchoilia superlata'
+		'Alalcomenaeus sp.'
+		'Misszhouia longicaudata'
+		'Kuamaia lata'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=86;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Paired appendages'
+		[2] 'Anterior region covered by sclerites'
+		[3] 'Head shield formed by fused cephalic segments'
+		[4] 'Isolated dorsal sclerite associated with eye-stalks'
+		[5] 'Shape of dorsal isolated sclerite'
+		[6] 'Extent of coverage of dorsal isolated sclerite on head'
+		[7] 'Isolated lateral sclerites, forming tri-partite carapace'
+		[8] 'Nature of post-ocular (post-protocerebral) body appendages'
+		[9] 'Sclerotization of pre-ocular (protocerebral) limb pair'
+		[10] 'Pre-ocular (protocerebral) limb pair with arthrodial membranes'
+		[11] 'Nature of post-ocular lobopodous inner branch'
+		[12] 'Nature of first post-ocular (deutocerebral) appendage'
+		[13] 'Inner blade of deutocerebral jaw with diastema'
+		[14] 'Deutocerebral limb pair structurally differentiated from rest of trunk appendages'
+		[15] 'Nature of second post-ocular (tritocerebral) appendage'
+		[16] 'Position of pre-ocular (protocerebral) appendage pair'
+		[17] 'Pre-ocular (protocerebral) appendage pair fused'
+		[18] 'Nature of pre-ocular (protocerebral) appendage fusion'
+		[19] 'Spines/spinules on pre-ocular (protocerebral) appendage'
+		[20] 'Number of spine/spinule series on pre-ocular (protocerebral) frontal appendage'
+		[21] 'Coplanar spine/spinule series in pre-ocular (protocerebral) frontal appendages'
+		[22] 'Multifurcate distal termination of protocerebral appendage'
+		[23] 'Mouth opening orientation'
+		[24] 'One or more pairs of appendages located anteriorly relative to the mouth opening'
+		[25] 'Radially symmetrical circumoral structures'
+		[26] 'Nature of radial circumoral structures'
+		[27] 'Structure of mouth apparatus'
+		[28] 'Inner rows of teeth within mouthpart'
+		[29] 'Eyes'
+		[30] 'Eye attachment'
+		[31] 'Type of eyes'
+		[32] 'Epidermal segmentation'
+		[33] 'Dorsal integument sclerotized and connected by arthrodial membranes'
+		[34] 'Sternites connected by arthrodial membranes'
+		[35] 'Neck-like constriction on lobopodous trunk'
+		[36] 'Annulations'
+		[37] 'Annulation distribution'
+		[38] 'Organization of trunk annulation'
+		[39] 'Metamerically arranged dorsolateral epidermal specializations'
+		[40] 'Nature of paired epidermal specializations'
+		[41] 'Proportions of epidermal trunk evaginations'
+		[42] 'Trunk epidermal evaginations with acute distal termination'
+		[43] 'Acute distal termination in epidermal evagination is curved'
+		[44] 'Sclerotization of epidermal evaginations'
+		[45] 'Dorsal trunk sclerite ornament'
+		[46] 'Sclerites consist of a stack of constituent elements'
+		[47] 'Maximum number of primary dorsal epidermal specializations above each leg pair'
+		[48] '‘Secondary’ sclerotized dorsolateral spines'
+		[49] 'Dorsal sclerotized spine-like evaginations of variable length along the body'
+		[50] 'Spacing between dorsolateral epidermal specializations along longitudinal body axis'
+		[51] 'Papillae on trunk annulations'
+		[52] 'Serially repeated mid-gut glands'
+		[53] 'Trunk exites'
+		[54] 'Exite organization'
+		[55] 'Exites/lanceolate dorsal blades associated with dorsolateral flaps'
+		[56] 'Exite/setal blade distribution'
+		[57] 'Dorsal flaps/exites fused with endopod into biramous appendage'
+		[58] 'Antero-posteriorly compressed protopodite with gnathobasic endites in post-deutocerebral appendage pair'
+		[59] 'Secondary structures on lobopodous limbs'
+		[60] 'Nature of secondary structures'
+		[61] 'Length of spines on lobopodous limbs'
+		[62] 'Papillae on lobopodous limbs'
+		[63] 'Finger-like elements in distal tip of limbs'
+		[64] 'Terminal claws on trunk limbs'
+		[65] 'Terminal claws with multiple branches'
+		[66] 'Number of claws on trunk limbs'
+		[67] 'Differentiated distal foot in lobopodous trunk limbs'
+		[68] 'Hypertrophied set of anterior body flaps'
+		[69] 'Strengthening rays in lateral flaps'
+		[70] 'Posterior tapering of lateral flaps'
+		[71] 'Anterior sets of reduced lateral flaps'
+		[72] 'Lobopodous limbs differentiated into two batches of multiple anterior/long and posterior/short limbs'
+		[73] 'Number of anterior morphologically differentiated elongated limbs'
+		[74] 'Appendages comprise 15 or more podomeres'
+		[75] 'Limbless posterior extension of the lobopodous trunk beyond last appendage pair'
+		[76] 'Posterior tagma composed of three paired lateral flaps'
+		[77] 'Posteriormost trunk appendage pair structurally differentiated'
+		[78] 'Nature of differentiated posterior appendages'
+		[79] 'Nature of appendicular tail'
+		[80] 'Claws on posterior appendages directed anteriad'
+		[81] 'Ventral nerve cord with paired ganglia'
+		[82] 'Dorsal condensed brain'
+		[83] 'Number of neuromeres integrated into the dorsal condensed brain'
+		[84] 'Mouth innervation relative to brain neuromeres'
+		[85] 'Nerve cord lateralized'
+		[86] 'Dorsal heart'
+	;
+	STATELABELS
+		1
+			'absent'
+			'present'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'semicircular/rounded'
+			'well-developed and elongate'
+			,
+		6
+			'broad attachment to cephalic region'
+			'narrow attachment with anterior edge of cephalic region'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'lobopodous'
+			'arthropodized (sclerotized; arthrodial membranes present)'
+			,
+		9
+			'not sclerotized'
+			'sclerotized'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'cylindrical/subconical appendage'
+			'laterally expanded swimming flap'
+			,
+		12
+			'lobopodous ambulatory limb'
+			'lobopodous sensorial limb'
+			'loboodous limb with sclerotized jaw'
+			'arthropodized antenniform with distinct podomeres'
+			'arthropodized short great-appendage'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'undifferentiated, or reduced in size only'
+			'structurally differentiated'
+			,
+		15
+			'undifferentiated lobopodous limb'
+			'specialized papillae'
+			'arthropodized ambulatory limb with distinct podomeres'
+			'arthropodized specialized post-antennal appendage'
+			,
+		16
+			'lateral'
+			'ventral'
+			'terminal'
+			,
+		17
+			'not fused'
+			'fused'
+			,
+		18
+			'basal only, with separate distal elements'
+			'fused into a reduced labrum'
+			,
+		19
+			'absent'
+			'present (radiodontans, gilled lobopodians, certain lobopodians)'
+			,
+		20
+			'one series (e.g. Aysheaia, Kerygmachela, Opabinia)'
+			'two series (e.g. Anomalocaris canadensis, Onychodictyon ferox, Schinderhannes bartelsi)'
+			,
+		21
+			'no'
+			'yes'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'anterior'
+			'ventral'
+			'posterior'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'scalids'
+			'oral papillae or lamellae'
+			'radial plates organized as a mouth apparatus'
+			,
+		27
+			'variable number of undifferentiated plates'
+			'plates with differentiation of three or four enlarged plates'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'eye sessile'
+			'eye stalked'
+			,
+		31
+			'single lens eye or pigment spots'
+			'multiple visual units (including compound eyes)'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'limbs only'
+			'trunk and limbs'
+			,
+		38
+			'homonomous'
+			'heteronomous'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'epidermal depressions'
+			'epidermal evaginations'
+			,
+		41
+			'wider than tall (e.g. nodes or plates)'
+			'taller than wide (e.g. spines)'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'net-like'
+			'scaly'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'one'
+			'two'
+			'three'
+			'four'
+			'five'
+			'seven'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'similar length along body'
+			'variable length along the body'
+			,
+		50
+			'epidermal specializations regularly spaced'
+			'epidermal specializations irregularly spaced'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent'
+			'reniform, submillimetric lamellar'
+			,
+		53
+			'absent'
+			'present'
+			,
+		54
+			'lanceolate dorsal blades'
+			'simple oval paddle with marginal spines'
+			'bipartite shaft with lamellar setae'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'confined laterally'
+			'present dorsally'
+			,
+		57
+			'not fused'
+			'fused'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'spines/setae'
+			'appendicules'
+			,
+		61
+			'short'
+			'long'
+			,
+		62
+			'absent'
+			'present'
+			,
+		63
+			'absent'
+			'present'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'one'
+			'two'
+			'three'
+			'four'
+			'seven'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'five'
+			'six'
+			,
+		74
+			'Fewer than 15 podomeres'
+			'15 or more podomeres'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'undifferentiated'
+			'differentiated'
+			,
+		78
+			'appendicular tail'
+			'partially fused/reduced walking legs'
+			,
+		79
+			'tail rami'
+			'tail flaps'
+			,
+		80
+			'normal orientation (claws pointing posteriad)'
+			'rotated anteriad'
+			,
+		81
+			'absent'
+			'present'
+			,
+		82
+			'absent'
+			'present'
+			,
+		83
+			'one'
+			'two'
+			'three'
+			'inapplicable: dorsal condensed brain (Character 82) absent'
+			,
+		84
+			'protocerebral innervation'
+			'deutocerebral innervation'
+			'innervation from multiple neuromeres'
+			'inapplicable: condensed dorsal brain (Character 82) absent'
+			,
+		85
+			'absent (Alalcomenaeus, Fuxianhuia, Tardigrada)'
+			'present (Onychophora)'
+			,
+		86
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Tubiluchus troglodytes'             00--------------------0-10--0--00-01-00-----------10----------------------------00--00
+	'Cricocosmia jinningensis'           00--------------------0-10--0--00-01-01100-00010-010----------------------------??????
+	'Aysheaia pendunculata'              10-----00-00-0000-10-10011--0--00-01100------0----100-----100001040----0--0-11-1??????
+	'Onychodictyon ferox'                10-----00-00-0000-1110000---10000-01111101010010-0100-----11-001010----0--0-11-1??????
+	'Onychodictyon gracilis'             10-----00-00-0000-0---000---???00-0111110??1??10-0100-----???001010----0--1-0--0??????
+	'Diania cactiformis'                 10-----00-00-0000-0---000---0--00-01111100-0??00-0100-----10000???0----0--1-0--???????
+	'Xenusion auerswaldae'               10-----00-00-0000-?????00---0--00-01111100-0??10-01?0-----1????????----0--1-0--???????
+	'Paucipodia inermis'                 10-----00-00-0000-0---000---0--00-01100------?----000-----0--001010----0--1-0--0??????
+	'Microdictyon sinicum'               10-----00-00-0000-0---100---0--00-01111100-10010-0000-----0--001010----0--1-0--0??????
+	'Cardiodictyon catenulum'            10-----00-00-0000-0---?0????10?00-01111100-10?10-0000-----0--001010----0--1-0--0??????
+	'Hallucigenia sparsa'                10-----00-01-1000-0---100---???00-00--111101111000-00-----0--001010----0--?-0--???????
+	'Hallucigenia fortis'                10-----00-01-1000-0---100---10?00-0111111111??1000000-----0--001010----0--1-0--0??????
+	'Hallucigenia hongmeia'              1??????0??0????????????????????00-?1111111110?1010000-----0--001000----?--1-0--???????
+	'Luolishania longicruris'            1100---00-00-0000-0---100---10?00-0111111111??2011100-----101101000----10-1-0--0??????
+	'Collinsium ciliosum'                1100---00-00-0000-0---100---0--00-0111111111014011100-----101001000----11-1-0--0??????
+	'Collinsovermis monstruosus'         1??????0??00-00????????????????00-0111111111????????0-----101??????----11-1-0--???????
+	'Collinsovermis monstruosus'         110????0??00-00????????????????00-0111111111??201???0-----101001000----10-?-??????????
+	'Acinocricus stichus'                1??????0??00-00????????????????00-0111111111??511??00-----101??????----10-?-??????????
+	'Orstenotubulus evamuellerae'        1??????0??0????????????????????00-?111111?????10????0-----0--1?????----??-?-??????????
+	'Antennacanthopodia gracilis'        10-----00-01-1000-0---?0????10000-01??0------?----0?0-----0--1????0----0--1-0--???????
+	'Ilyodes inopinata'                  10-----00-0???100-0---?1???????00-0???0------?----?00-----0--10101?----0--?-0--???????
+	'Tertiapatus dominicanus'            10-----00-0???100-0---11????10000-01100------?----1?0-----0--10???0----0--1-0--???????
+	'Euperipatoides'                     10-----00-0201100-0---110---10000-01100------1----100-----0--101011----0--1-0--0011211
+	'Plicatoperipatus'                   10-----00-0211100-0---110---10000-01100------1----100-----0--101011----0--1-0--0011211
+	'Ooperipatellus'                     10-----00-0211100-0---110---10000-01100------1----100-----0--101011----0--1-0--0011211
+	'Actinarctus doryphorus'             1100---01000-0010-0---1011--10000-00--1100-100?--0-00-----0--011030----0--0-11-1110000
+	'Halobiotus crispae'                 10-----01000-0020-0---0011--10000-00--10-----01--0-00-----0--011110----0--0-11-1110000
+	'Tardigrada  Orsten>'                10-----0??00-00???????0011--???00-00--????????????-?0-----0--001110----0--0-11-???????
+	'Megadictyon haikouensis'            10-----00-00-0000-10-1001???0--00-01100------?----010-----11-00???0----0--?-??????????
+	'Jianshanopodia decora'              10-----00-00-000??10-?001???0--00-01100------?----010-----11-00???0----0--0-101-??????
+	'Hadranax augustus'                  1??????0??00-??????????????????00-?1111100-0-?30-01?0-----0--1????0----0--?-??????????
+	'Kerygmachela kierkegaardi'          10-----00-00-0001010-10011--???00-01111100-0--30-01110100-0--000--000000--00100-??????
+	'Pambdelurion whittingtoni'          10-----00-00-0011010-?1012000--00-01?????????-?????110100-0--000--000000--?????-??????
+	'Opabinia regalis'                   10-----00-00-0011010-12111--11110-00--0------------110110-0--000--000000--?1101-??????
+	'Anomalocaris canadensis'            110100001110-00110110111121011100-10--0------------110010-0--000---01110--01101-??????
+	'Peytoia nathorsti'                  110110001110-0011010-111121011100-00--0------------110110-0--000---01110--000---??????
+	'Hurdia victoria'                    110110101110-001??10-1111211111?0-00--0------------?10110-0--000---01010--00101-??????
+	'Aegirocassis benmoulae'             110110101110-001??10-1?1???????00-00--0------------?10110-0--000---011?0--000---??????
+	'Lyrarapax unguispinus'              110100001110-0011010-111121?11100-10--0------------010010-0--000---1?110--01101-?100??
+	'Schinderhannes bartlesi'            1??????011?0-?0110110?11121?111???0??????????????????????-?????????1???0--00101-??????
+	'Fuxianhuia xiaoshibaensis'          110101-110-3-13111----210---111110-0---------------011-010----00---------1--101-?121?1
+	'Chengjiangocaris kunmingensis'      110101-110-3-13111----210---111110-0---------------011-010----00---------1--101-1???0?
+	'Leanchoilia superlata'              1110---110-4-12111----210---11111?-0---------0-----111-011----010{0 2}-------0--0---??????
+	'Alalcomenaeus sp.'                  1110---1??-4-12111----210---11111?-0---------0-----111-011----0100-------0--0---11210?
+	'Misszhouia longicaudata'            111101-110-3-12111----210---111111-0---------0-----112-011----0100-------0--0---??????
+	'Kuamaia lata'                       111101-110-3-12111----210---111111-0---------0-----112-011----0102-------0--0---??????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-86;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1606868949526; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6582962794053300791; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1185678756339733721; mqVersion 361; checksumv 0 3 3723476624 null getNumChars 86 numChars 86 getNumTaxa 46 numTaxa 46 short true bits 2305843009213694015 states 63 sumSquaresStatesOnly 7057.0 sumSquares 4.611686018427394E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1225 932; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #6582962794053300791 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSourceEditMode #mesquite.trees.StoredTrees.StoredTrees; tell It; laxMode; setTreeBlock -2147483647; toggleUseWeights off; endTell; setAssignedID 1692.1606866449973.1140945697418557851; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1125 860; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.SearchTreeToolAssistant.SearchTreeToolExtra.randomlyRotate; endTell; setActive; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientRight; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setFont Gadget; setFontSize 12; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(2,((34,(((40,(35,39)),(36,(37,38))),((41,42),((43,44),(45,46))))),(33,((31,32),((29,30),(3,(4,((26,(27,28)),((5,(6,7)),(8,(9,(10,((13,(15,(16,(14,(17,18))))),(11,(12,(19,(20,(22,(21,(23,(24,25))))))))))))))))))))))<> <> < setBetweenBits = selected >;'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; setEditMode 'Edited, based on Default Symmetrical Tree+'; desuppressEPCResponseNORESET; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.trees.SearchTreeToolAssistant.SearchTreeToolAssistant; tell It; getEmployee #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #1185678756339733721; endTell; endTell; endTell; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow bootstrapFrequency; toggleShow posteriorProbability; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1185678756339733721 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 208; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1125 860; setLocation 8 23; setFont Gadget; setFontSize 12; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 86; 
+ENDBLOCK;

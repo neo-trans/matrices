@@ -1,0 +1,680 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.59.22 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=47;
+	TAXLABELS
+		'Perleidus altolepis'
+		'Watsonulus eugnathoides'
+		'Amia calva'
+		'Lepisosteus osseus'
+		'Atractosteus spatula'
+		'Masillosteus janeae'
+		'Obaichthys decoratus'
+		'Dentilepisosteus laevis'
+		'Pliodetes nigerienesis'
+		'Araripelepidotes temnurus'
+		'Thaiichthys buddhabutrensis'
+		'Scheenstia maximus'
+		'Scheenstia laevis'
+		'Scheenstia mantelli'
+		'Scheenstia bernissartensis'
+		'Scheenstia zappi'
+		'Lepidotes semiserratus'
+		'Lepidotes gigas'
+		'Callipurbeckia minor'
+		'Occitanichthys canjuersensis'
+		'Tlayuamichin itztli'
+		'Macrosemimimus fegerti'
+		'Macrosemimimus lennieri'
+		'Paralepidotus ornatus'
+		'Semiolepis brembanus'
+		'Semionotus bergeri'
+		'Semionotus elegans'
+		'Semionotus capensis'
+		'Lophionotus sanjuanensis'
+		'Lophionotus kanabensis'
+		'Lophionotus chinleana'
+		'Macrosemius rostratus'
+		'Notagogus denticulatus'
+		'Propterus elongatus'
+		'Neosemionotus puntanus'
+		'Robustichthys luopingensis'
+		'Sangiorgioichthys aldae'
+		'Sangiorgioichthys sui'
+		'Kyphosichthys grandei'
+		'Luoxiongichthys hyperdorsalis'
+		'Isanichthys palustris'
+		'Isanichthys lertboosi'
+		'Isanichthys latifrons'
+		'Lanxangichthys alticephalus'
+		'Lepidhoyas microrhis'
+		'Oniichthys falipoui'
+		'Camerichthys lunae'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=103;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Relative position of the dorsal fin'
+		[2] 'Posttemporal fossa'
+		[3] 'Forward extension of exoccipital around the vagus nerve'
+		[4] 'Intercalar'
+		[5] 'Basisphenoid'
+		[6] 'Sphenotic with small dermal component'
+		[7] 'Posterior myodome'
+		[8] 'Elongation of the rostral region anterior to the lower jaw symphysis'
+		[9] 'Vomer in adults'
+		[10] 'Autopalatine'
+		[11] 'Ectopterygoid shape'
+		[12] 'Ectopterygoid participation in palatal surface area'
+		[13] 'Part of dorsal surface of ectopterygoid ornamented and forming part of skull roof'
+		[14] 'Relative position of the lower jaw articulation'
+		[15] 'Quadratojugal'
+		[16] 'Symplectic involvement in jaw joint'
+		[17] 'Ornamentation of the dermal bones of the skull'
+		[18] 'Number of extrascapular bones'
+		[19] 'Posterior extension of parietals median to the single pair of laterally placed extrascapular bones'
+		[20] 'Relative length of parietals and frontals'
+		[21] 'Length to width ratio of frontals in adult sized individuals'
+		[22] 'Antorbital portion of frontal'
+		[23] 'Frontal ethmoidal sagittal lamina'
+		[24] 'Triangular lateral expansion of antorbital portion of frontal'
+		[25] 'Shape of nasal bones'
+		[26] 'Circumborbital ring'
+		[27] 'Ventral border of infraorbital series flexes abruptly dorsally at the anterior margin of the orbit'
+		[28] 'Size of supraorbital bones relative to orbit'
+		[29] 'Shape of most anterior supraorbital bone'
+		[30] 'A series of toothed infraorbitals bordering the snout'
+		[31] 'Minimal number of anterior infraorbitals'
+		[32] 'Most anterior infraorbital'
+		[33] 'Relative size of the infraorbital bone at the posteroventral corner of the orbit'
+		[34] 'Shape of the infraorbital bones at the posterior border of the orbit'
+		[35] 'Dermosphenotic participation in orbital margin'
+		[36] 'Dermosphenotic/sphenotic association'
+		[37] 'Quadrate laterally covered by infraorbital bones'
+		[38] 'Suborbital bones'
+		[39] 'Number of suborbital bones'
+		[40] 'Arrangement of suborbital bones'
+		[41] 'Independent of the total number, there is a large suborbital covering almost the whole area between the infraorbital bones and the preoperculum'
+		[42] 'First and last suborbitals are larger than the other suborbitals'
+		[43] 'Suborbital series separating preoperculum from dermopterotic'
+		[44] 'Triangular suborbital lateral to quadrate'
+		[45] 'Premaxilla with nasal process'
+		[46] 'Premaxillary nasal process forming an external dermal component of the skull roof'
+		[47] 'Supraorbital canal in premaxillary nasal process'
+		[48] 'Length of maxilla'
+		[49] 'Depth of maxilla'
+		[50] 'Supramaxilla'
+		[51] 'Maxillary teeth'
+		[52] 'Plicidentine'
+		[53] 'Morphology of dentary teeth crown'
+		[54] 'Well-developed posteroventral process of the dentary'
+		[55] 'Tooth organization of dentary'
+		[56] 'Extent of teeth on dentary'
+		[57] 'Shape of preopercle'
+		[58] 'Exposure of dorsal limb of preopercle'
+		[59] 'Posterior border of preopercle notched ventrally'
+		[60] 'Shape of the opercle depth/width'
+		[61] 'Subopercle with well-developed ascending process'
+		[62] 'Shape of ascending process of the subopercle'
+		[63] 'High ascending process of the subopercle'
+		[64] 'Subopercle maximal depth'
+		[65] 'Interopercle'
+		[66] 'Size of interopercle'
+		[67] 'Median gular'
+		[68] 'Opistocoelus vertebrae'
+		[69] 'Knob-like anteroventral process of posttemporal'
+		[70] 'Supracleithrum with a concave articular facet for articulation with the posttemporal'
+		[71] 'Series of denticles along the ridge between the branchial and lateral surfaces of the cleithrum'
+		[72] 'Fringing fulcra on pectoral fin'
+		[73] 'Fringing fulcra on pelvic fin'
+		[74] 'Number of dorsal fin rays'
+		[75] 'Basal fulcra in the dorsal and anal fins'
+		[76] 'Number of principal caudal fin rays in the lower, non-axial lobe of the tail in adults'
+		[77] 'Body lobe scale row'
+		[78] 'Dorsal ridge of scales'
+		[79] 'Scale of the body with a strong posteriorly directed spine'
+		[80] 'Vertical peg-and-socket articulation'
+		[81] 'Longitudinal articulation of the scales of the body'
+		[82] 'Posttemporal penetration by lateral line canal'
+		[83] 'Supraorbital sensory canal in parietal'
+		[84] 'Deep groove housing the middle pit line in dermopterotic and parietal'
+		[85] 'Dermopterotic length to parietal length'
+		[86] 'Predorsal length'
+		[87] 'Posterodorsal margin of the supracleithrum peculiarly ornamented'
+		[88] 'Dentary teeth'
+		[89] 'Shape of infraorbital bones forming the ventral border of the orbit'
+		[90] 'Contribution of surangular to lateral surface of lower jaw'
+		[91] 'Relative height of the posttemporal'
+		[92] 'Supramaxillary notch on maxilla'
+		[93] 'Molariform teeth on coronoids, pterygoids or vomers'
+		[94] 'Supraorbital bone'
+		[95] 'Number of supraorbital bones'
+		[96] 'Shape of rostral bone'
+		[97] 'Dermosphenotic bone attachment to skull roof in adult-sized individuals'
+		[98] 'Posterior margin of maxilla'
+		[99] 'Anterior infraorbital bone'
+		[100] 'Tube-like canal bearing anterior arm on the antorbital bone'
+		[101] 'Symplectic/quadrate articulation'
+		[102] 'nasal process of the premaxilla pierced by a large foramen for the olfactory nerve'
+		[103] 'an apparent dorsal hump between head and dorsal fin'
+	;
+	STATELABELS
+		1
+			'Contained between pelvic and anal fins'
+			'Opposite to anal fin'
+			'Opposite to pelvic fins'
+			'Originates anterior to pelvic fins and extends opposite to anal fin'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'absent'
+			'Present'
+			,
+		4
+			'present'
+			'absent'
+			,
+		5
+			'present'
+			'absent'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'Extends anterior to the dentary symphysis by less than 20% of mandibular length'
+			'Extends well anterior to the dentary symphysis by more than 50% of mandibular length'
+			,
+		9
+			'Paired'
+			'Co ossified'
+			,
+		10
+			'present'
+			'absent'
+			,
+		11
+			'Subrectangular to triangular, straight ventral border'
+			'Elongate, triangular, straight ventral border, deepest mid length'
+			'Elongate, with bar-like anterior portion and deeply expanded posterior portion'
+			'Crescent shape, concave ventral border'
+			,
+		12
+			'Ectopterygoid form half or less of the palatal region'
+			'Ectopterygoid forms the majority of the palatal region'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'At the centre of the orbit'
+			'At the anterior border of the orbit'
+			'In front of the orbit'
+			'At the posterior border of the orbit'
+			'Posterior to the orbit'
+			,
+		15
+			'Plate like'
+			'Splint like and independent'
+			'Splint like and partially fused to the quadrate'
+			'absent'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'Ornamented with tubercles or ridges'
+			'Smooth or very slightly ornamented'
+			'Ornamented with firmly anchored large conical teeth'
+			,
+		18
+			'One pair'
+			'Two pairs'
+			'Three or more pairs'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'Length of parietals less than one half but more than one third the length of frontals'
+			'Length of parietals about half the length of frontals'
+			'Length of parietals less than one third the length of frontals'
+			,
+		21
+			'Lower than 3'
+			'Equal or larger than 3'
+			,
+		22
+			'Broad'
+			'Tapering gradually'
+			'Tubular'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'Broad, subrectangular, contacting at midline'
+			'Irregularly shaped, separated medially'
+			'Anteriorly broad, narrowing posteriorly, approximately crescentic shape'
+			'Very narrow, separated medially'
+			'Plate like, separated medially by parietals'
+			,
+		26
+			'Supraorbitals do not contact infraorbital series (including the antorbital) at the anterior rim of the orbit'
+			'Supraorbitals contact infraorbitals, closing the orbit'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'Small'
+			'Large'
+			,
+		29
+			'Subrectangular, contacting none or only one infraorbital bone'
+			'Trapezoidal, longest ventrally, contacting more than one infraorbital bone'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'One'
+			'Two'
+			'Three'
+			'Four'
+			'Five'
+			'Six'
+			'Seven'
+			,
+		32
+			'Lower than or equalling the posterior elements'
+			'Higher than posterior elements'
+			,
+		33
+			'Not enlarged'
+			'Enlarged, but do not reach the preoperculum'
+			'Enlarged and reach the preoperculum'
+			,
+		34
+			'Deeper than long, sometimes almost tubular'
+			'Approximately quadrangular'
+			'Large, expanded posteriorly, about half the length of the orbital diameter'
+			,
+		35
+			'Dermosphenotic reaches orbital margin'
+			'Dermosphenotic does not reach orbital margin'
+			,
+		36
+			'Closely associated with each other (i.e. contacting or fused to each other)'
+			'Not in contact with each other'
+			,
+		37
+			'absent'
+			'present'
+			,
+		38
+			'present'
+			'absent'
+			,
+		39
+			'One'
+			'Two'
+			'Three or four'
+			'More than four, usually numerous suborbitals'
+			,
+		40
+			'One row, which does not extend anteriorly below the orbit'
+			'One row, which extends anteriorly below the orbit'
+			'Two rows'
+			'Mosaic of numerous suborbitals'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'absent'
+			'present'
+			,
+		46
+			'absent'
+			'present'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'Long, extends backwards lateral to the coronoid process of the lower jaw'
+			'Short, does not reach the coronoid process'
+			'Atrophied or absent'
+			,
+		49
+			'Shallow, less 0.5 of its length'
+			'Deep, more 0.5 of its length'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'present'
+			'absent'
+			,
+		52
+			'absent'
+			'present'
+			,
+		53
+			'Conical'
+			'Pencil like, graceful'
+			'High, with globular to cylindrical crowns'
+			'Molariform, broader than high'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'Teeth in a single row and all of similar size'
+			'In addition to a lateral single row of similar sized teeth, there is a medial row of much larger fangs'
+			,
+		56
+			'Tooth row extends over a third the length of dentary'
+			'Tooth row is present on only the anterior one third or less of dentary'
+			,
+		57
+			'Dorsoventrally elongated without anteroventral arm'
+			'Crescent shaped'
+			'L shaped'
+			,
+		58
+			'Mostly exposed forming a significant part of the ornamented lateral surface of the skull anterior to the opercle'
+			'Entirely covered or nearly entirely covered by other dermal bones in adults'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'Deeper than long'
+			'Approximately as deep as long'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'Broad'
+			'Slender and tapering dorsally'
+			,
+		63
+			'Less than or equal to half of the length of the opercle'
+			'More than half of the length of the dorsal border of the bone'
+			,
+		64
+			'More than half the depth of the operculum'
+			'Less than half the depth of the operculum'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'Large, approximately as long as the ventral arm of the proeperculum'
+			'Small, remote from mandible'
+			,
+		67
+			'absent'
+			'present'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'absent'
+			'present'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'absent'
+			'present'
+			,
+		72
+			'present'
+			'absent'
+			,
+		73
+			'present'
+			'absent'
+			,
+		74
+			'Less than 20'
+			'More than 20'
+			,
+		75
+			'Small'
+			'Large'
+			,
+		76
+			'More than eight'
+			'Eight'
+			'Six'
+			,
+		77
+			'absent'
+			'Incomplete'
+			'Complete'
+			,
+		78
+			'Inconspicuous'
+			'Conspicuous, with a low spine'
+			'Conspicuous, with a high spine'
+			,
+		79
+			'absent'
+			'present'
+			,
+		80
+			'present'
+			'Reduced or absent'
+			,
+		81
+			'absent'
+			'Single'
+			'Double'
+			,
+		82
+			'present'
+			'absent'
+			,
+		83
+			'Supraorbital canal penetrates parietals at the central portion of these bones'
+			'Supraorbital canal running almost on the lateral rim of the parietals'
+			'Supraorbital canal does not penetrate the parietals'
+			,
+		84
+			'absent'
+			'present'
+			,
+		85
+			'Dermopterotic significantly longer'
+			'Lengths about equivalent'
+			'Shorter than parietal'
+			,
+		86
+			'70% or less of SL'
+			'75% or more of SL'
+			,
+		87
+			'absent'
+			'present'
+			,
+		88
+			'present'
+			'absent'
+			,
+		89
+			'Subrectangular, only slightly deeper than long'
+			'Subrectangular, more than 1.5 times deeper than long'
+			'Subtriangular, broader ventrally, ca. 2 times deeper than long'
+			'Longer than deep'
+			,
+		90
+			'Elongated, posterior and dorsal to quadrate, dorsal to angular'
+			'Subtriangular, posterodorsal to dentary, anterodorsal to angular'
+			'No distinct surangular in lateral view'
+			'Large, dorsal to dentary, no suture with angular'
+			,
+		91
+			'Heigh, reaching or almost reaching the dorsal midline'
+			'Low, approximately as heigh as the dermopterotic'
+			'Reduced'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'absent'
+			'present'
+			,
+		94
+			'absent'
+			'present'
+			,
+		95
+			'Usually two'
+			'Three or four'
+			'More than 4'
+			,
+		96
+			'Plate like'
+			'Much reduced, short tube-like, without lateral horns'
+			'Roughly V shaped with lateral horns'
+			'No autogenous median rostral bone'
+			,
+		97
+			'Loosely attached on the skull roof or hinged to the side of skull roof'
+			'Firmly sutured into skull roof, forming part of it'
+			,
+		98
+			'Rounded or straight'
+			'Notched or concave'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'absent'
+			'present'
+			,
+		101
+			'present'
+			'Symplectic separated from quadrate by a quadratojugal'
+			,
+		102
+			'No'
+			'Yes'
+			,
+		103
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Perleidus altolepis'                01000?00?????40-0000000010-000--0000000-0-000--00000100000010--00-10000000000000000000003-0-01100000--0
+	'Watsonulus eugnathoides'            0100-000000004310002000011-000--100001------10000100010000010??0111000000000000000000000310001000101010
+	'Amia calva'                         3100000000100431000100000----0--120001------100001000000100110011110000111????0??0200000300100-21101010
+	'Lepisosteus osseus'                 101110100121121001001110411111202201103200101112?0?10010210110000?0101000002000111211100132-01010-11110
+	'Atractosteus spatula'               10{0 1}1101001211210020011104111113022{0 1}1103200101112?0?10010210110100?0101000002000111211100132-01010011110
+	'Masillosteus janeae'                1??1?0?0??0101?0010000?04111104022{0 1}11032001011?2?0?10001210110000?0101000002000121211100032001010011110
+	'Obaichthys decoratus'               101?11110?010230210001104110?05021??1032000011110?0000012001110111010000000??0101?202100132-011100111?0
+	'Dentilepisosteus laevis'            1010111101010210210011104110104?22??1032000011110100010120011000110100?000020011102121000?2-01110011110
+	'Pliodetes nigerienesis'             2????0?00??0001?210100?0111110?0120?103200001111?010-001200111000?0001?0000??01010202001121-01010?11?10
+	'Araripelepidotes temnurus'          21110000???000??11010000???1?010220?10200000?0?1001?000-20011101110001000000001020202001121-010?0?111?0
+	'Thaiichthys buddhabutrensis'        00?010?00??00{0 3}10120100?011011020220110101-00100100001?01200010011?000??00000?10?202110000?1-01010011110
+	'Scheenstia maximus'                 0????0?010??03??020000?0?1111030020000310100100????0210010001001100?11?00000000?20??10001???11010011010
+	'Scheenstia laevis'                  ?????0?0????03??020010?0?1111030020000310100?0?11?10210?1000100110??11?00????00??01110000?1011010011010
+	'Scheenstia mantelli'                011000?01?0000??020010?0?111102002000031010010?11110?10?10001101100011100000000020111000111011010011010
+	'Scheenstia bernissartensis'         0????0?0?130031?1?001100?10110??010?00{2 3}1010{0 1}1???????210?1000110?100?1010001??00020110?000?1?110?0?1???0
+	'Scheenstia zappi'                   0????0?0?0?00010020000?02111?030010000310100100????0110010001101100?111?0000000??0111000011011010011010
+	'Lepidotes semiserratus'             0?1?00001??003100000000021?1102101000031100010?00100110?100011011000??100????001201110000??0?10?0011??0
+	'Lepidotes gigas'                    0????0?0?000031010000000210110110100003110001000010011001000110110000110?0000001201110001110010?00111?0
+	'Callipurbeckia minor'               0?1?00?0??3001?00002110031000020000000101-0010001110110010001111100001100011110020001010{1 2}01001?10011010
+	'Occitanichthys canjuersensis'       0???01?0?03001200000110030000040000000200-0010000110110010001101??0?0?100?11?000200010?02010111?00110?0
+	'Tlayuamichin itztli'                0????1?00?3001?0010211003000006000000020001010001110110010001111100001100011110?200010002110012?00110?0
+	'Macrosemimimus fegerti'             0???00?01?3001101?10121030000030000000101-0010000110110010001111100?011000111000?0001010001011210011?10
+	'Macrosemimimus lennieri'            0111000010?001100000121030010020000000101-0010000110110010001111100?0110001??00?200010101??01121001???0
+	'Paralepidotus ornatus'              3????0?00?30011?000211?0300000001000000-1-00?0????1?1?00100011111000??100100100010?01000????01210?11011
+	'Semiolepis brembanus'               0??????0???0011?020211?0?00000202000000-1-0010000100110010001111110001100000110010??10002?1001210011??1
+	'Semionotus bergeri'                 0????1?0???000?0000011?1?10000201000000-1-00100???000?0010001101100?0?100011?200100000000??001110?11??0
+	'Semionotus elegans'                 0?11?1000030001010001101310000100000000-1-00100001000100100011011000001000111200?0000000001001010011110
+	'Semionotus capensis'                0????1?0?0300010110011?1300000?01000000-1-00100001??010010001101100?01?000111200100000000?0?01110011??0
+	'Lophionotus sanjuanensis'           0????0?0???0001?00000001?1100020200?100-1-0010000?0?110020001101110?1100001?1200100000001?00010?0011?11
+	'Lophionotus kanabensis'             0????0?0?0?0001?10000101????00??2?0?000-1-001000011?110110001101100??????01??200??000000????010?0011?10
+	'Lophionotus chinleana'              0????0?0???0001010000001?1100020200?100-1-0010000?0?110010001101110?00?00011?200?00010001?00010?0011??0
+	'Macrosemius rostratus'              3?1110000?1001201?121200300?0020000001----??100000001000101011011100001111-1?-000020?0000?0000-10011000
+	'Notagogus denticulatus'             3??????0???001201?121200?00000?000?001----??100000000000101011011100001{0 1}1101?0000020-0000?10011?0011??0
+	'Propterus elongatus'                3???10?00??001101?12120030000020000001----??1000000000001010110111000011010110000020-0000?1001110011??0
+	'Neosemionotus puntanus'             0????0?00????3?0120000003101000001000020000010000100010010001101110?01??0010010??0000100300001010?11010
+	'Robustichthys luopingensis'         3????1?0?????41?0100110031-000-110000033100010?00100010010001100101?00100100100??0?000003101?10?0001??0
+	'Sangiorgioichthys aldae'            0????0?0???000??000010?0300000002000003300111000011?010010001101100?0??0?00?210000001000210?01000011??0
+	'Sangiorgioichthys sui'              0????0?00030031001{0 1}0100030000000{1 2}0000021100110000100110010001101100?00100000210000011000110101000011?00
+	'Kyphosichthys grandei'              0????0?0????03100110000030000010200010101?101000010?000010001101101?01100000210000101000210101?00011??1
+	'Luoxiongichthys hyperdorsalis'      0??????0??30031?0000100131000010100?0031000110001100010010001100100??100010010000???10002?0101100011?01
+	'Isanichthys palustris'              0????1?0?????3??010000?0?1111011020?00310100???0010001001000110110000?????0??00??0101?001?1-?10?001???0
+	'Isanichthys lertboosi'              011101?0????03??11000000011110110200003101001000011001001000110110000{0 1}100000010??011{0 1}000{0 1}110110?0011??0
+	'Isanichthys latifrons'              ?1?????0?????1??01010000?1?1?0??0?0??0330?????000?00010010001001100??110?????00?2??11??0????11??001???0
+	'Lanxangichthys alticephalus'        ???????0????011?0??000000101003?0?0010330?00?00??????1??20001100100???1????????????10??1?????1??0?1????
+	'Lepidhoyas microrhis'               0????0?01???01??101010001100101020000010101010001110010010001101100?01?00011200??0211000100001010011??0
+	'Oniichthys falipoui'                10?????0????1210010011?0?11111502201103300101112-0-100102101??00110101?0?????0011?2111?0332-010?0-1?1?0
+	'Camerichthys lunae'                 ???????0???003?00???11?0?10110200200003101001000110?11001000110?100??????????00????????01??00101001???0
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-103;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722386631195; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7556693972171953782; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7367932440511856017; mqVersion 381; checksumv 0 3 1407651988 null getNumChars 103 numChars 103 getNumTaxa 47 numTaxa 47 short true bits 2305843009213694079 states 127 sumSquaresStatesOnly 25638.0 sumSquares -5.534023222112865E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 833; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7367932440511856017 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 761; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 103; 
+ENDBLOCK;

@@ -1,0 +1,270 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.00.45 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=20;
+	TAXLABELS
+		'Morum harpaeformis'
+		'Morum oniscus'
+		'Eocithara (eocithara) elegans'
+		'Eocithara (eocithara) submutica'
+		'Eocithara (eocithara) jacksonensis'
+		'Eocithara (eocithara) mutica'
+		'Eocithara (eocithara) helenae'
+		'Eocithara (refluharpa) lamellifera'
+		'Eocithara (marwickara) waihaoensis'
+		'Austroharpa sulcosa'
+		'Austroharpa spirata'
+		'Austroharpa tenuis'
+		'Austroharpa punctata'
+		'Harpa articulata'
+		'Harpa davidis'
+		'Harpa major'
+		'Harpa broconi'
+		'Harpa doris'
+		'Athleta spinosa'
+		'Cryptochorda stromboides'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		[1] 'Spiral sculpture on the spire'
+		[2] 'Distribution of the primary cords on the last whorl'
+		[3] 'Internal denticles of the outer lip'
+		[4] 'Morphology of the primary cord P1 on the first teleoconch whorl'
+		[5] 'Development of the cord spine P1'
+		[6] 'Morphology of the cord spine P1'
+		[7] 'Development of the subsutural cord'
+		[8] 'Morphology of the adapical primary cords P2 and P3 on the first whorl'
+		[9] 'Varical expression of the abapical primary cords on the last whorls (centre of the last whorl)'
+		[10] 'Morphology of the adapical primary cords (centre of the last whorl)'
+		[11] 'Abapical secondary cords on the spire'
+		[12] 'Spines on P2'
+		[13] 'Type of axial sculpture (first whorl)'
+		[14] 'Type of axial sculpture (adult stage)'
+		[15] 'Overlapping of the preceding whorl by the axial sculpture'
+		[16] 'Number of major varices on the first whorl'
+		[17] 'Number of major varices on the last whorl'
+		[18] 'Secondary varices'
+		[19] 'Morphology of the secondary varices'
+		[20] 'Parietal expansion'
+		[21] 'Columellar folds'
+		[22] 'Expression of the siphonal fascioles on the columella'
+		[23] 'Direction of umbilical ridge on the ventral face'
+		[24] 'Direction of the siphonal canal'
+		[25] 'Number of teleoconch whorls'
+		[26] 'Morphology and carina on the first teleoconch whorl'
+		[27] 'Umbilical ridge'
+		[28] 'Axial microsculpture'
+		[29] 'Spiral microsculpture'
+		[30] 'Columellar tubercles'
+		[31] 'Labral thickening'
+	;
+	STATELABELS
+		1
+			'present'
+			'absent'
+			,
+		2
+			'present on the whole whorl, with a decrease in the centre of the whorl'
+			'only on the base of the whorl'
+			'equally distributed on the whole whorl until the siphonal canal'
+			'absence of cords'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'fine, clearly distinct, without delineating the sutural ramp'
+			'fine, clearly distinct, delineating the sutural ramp'
+			'indistinct, delineating the sutural ramp'
+			'obvious, delineating the sutural ramp'
+			'absence of cords'
+			,
+		5
+			'well developed and abaxially placed'
+			'poorly developed and adaxially placed'
+			'developed and adaxially placed'
+			'absence of spine'
+			'absence of the cord P1'
+			,
+		6
+			'full and non-lamellar spine throughout ontogeny'
+			'lamellar spine without lamellar fold in the adult stages'
+			'lamellar spine with lamellar fold throughout ontogeny'
+			'lamellar in the young stage and very thick following an adapertural relief in the adult stage'
+			'absence of the spine P1'
+			,
+		7
+			'developed'
+			'absent in the spiral sculpture'
+			'absence of cord on the spire'
+			,
+		8
+			'spiral alignment of small nodules'
+			'clearly distinct cords'
+			'indistinct cords'
+			'absence of cord on the spire'
+			,
+		9
+			'no varical expression'
+			'varical undulations'
+			'no spiral cords'
+			,
+		10
+			'cords pinched'
+			'cords narrow'
+			'cords well developed and convex'
+			'cords poorly expressed and convex'
+			'cords only expressed near the abapertural face of the varices'
+			'no spiral cords'
+			,
+		11
+			'absent'
+			'present'
+			'no primary cords'
+			,
+		12
+			'absent'
+			'present'
+			'no cords'
+			,
+		13
+			'axial folds'
+			'orthocline lamellae'
+			'sigmoid lamellae'
+			'axial growing ridges'
+			,
+		14
+			'axial folds'
+			'axial growing ridges'
+			'thin, abaxially projected lamellae'
+			'thick projected lamellae'
+			,
+		15
+			'no overlapping'
+			'preceding whorl poorly covered (1 to 5%)'
+			'preceding whorl moderately covered (6 to 10%)'
+			'preceding whorl strongly covered (11 to 20%)'
+			,
+		16
+			'20 to 30 varices'
+			'15 to 19 varices'
+			'more than 30 varices'
+			'fewer than 15 varices'
+			'no varices'
+			,
+		17
+			'10 to 20 varices'
+			'more than 20 varices'
+			'fewer than 10'
+			'no varices'
+			,
+		18
+			'absent'
+			'present'
+			'no major varices'
+			,
+		19
+			'rare and irregular ridges'
+			'fine lamellae'
+			'numerous (more than 25) ridges'
+			'equally (less than 25) spaced ridges'
+			'no secondary varices'
+			,
+		20
+			'overlapping the beginning of the last whorl'
+			'restricted to the edge of the inner lip'
+			,
+		21
+			'present'
+			'absent'
+			,
+		22
+			'fascioles not making an umbilical ridge'
+			'fascioles making an umbilical ridge without forming columellar relief'
+			'fascioles making an umbilical ridge and forming columellar relief'
+			,
+		23
+			'straight'
+			'dorsally oriented'
+			'ventrally recurved'
+			,
+		24
+			'straight'
+			'dorsally oriented'
+			,
+		25
+			'more than four whorls'
+			'fewer than four whorls'
+			,
+		26
+			'slightly convex whorl with a small angularity'
+			'whorl with an obvious angularity'
+			'distinctly convex whorl with a small angularity'
+			,
+		27
+			'umbilical fascioles not delineating a ridge'
+			'umbilical fascioles delineating the ridge'
+			'umbilical fascioles delineating the ridge, but covered by a callus expansion'
+			,
+		28
+			'absent'
+			'fine axial striae'
+			,
+		29
+			'absent'
+			'fine spiral striae between the secondary varices'
+			,
+		30
+			'absent'
+			'present'
+			,
+		31
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Morum harpaeformis'                      0213000102?01003000012110110011
+	'Morum oniscus'                           0213000112?01003000012110110011
+	'Eocithara (eocithara) elegans'           0201111101102321011112110211000
+	'Eocithara (eocithara) submutica'         0201111101102321011112110211000
+	'Eocithara (eocithara) jacksonensis'      0201111101101220011112110211000
+	'Eocithara (eocithara) mutica'            0201111101102221011112110211000
+	'Eocithara (eocithara) helenae'           02013-1101101220011112110211000
+	'Eocithara (refluharpa) lamellifera'      02013-1101101212111112111211000
+	'Eocithara (marwickara) waihaoensis'      02013-110110221?01?11211121?000
+	'Austroharpa sulcosa'                     0201221213001212100111111110000
+	'Austroharpa spirata'                     0203221112001210100111111110000
+	'Austroharpa tenuis'                      0201121113001211100111111110000
+	'Austroharpa punctata'                    0302--------121?200111111220000
+	'Harpa articulata'                        0201231104111330012012211220100
+	'Harpa davidis'                           0201231104101330012012211220000
+	'Harpa major'                             0201231104101331012012211220000
+	'Harpa broconi'                           020123110410133?013012211220000
+	'Harpa doris'                             0201231104101331013012211220000
+	'Athleta spinosa'                         0000000000000000000000000000000
+	'Cryptochorda stromboides'                110---------310----012010200000
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-31;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845448676; FileSettings '1' '1' '32' '0'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '150' '772' '444' '619'; TreeWindowPosition '44' '719' '671' '825'; ListWindow Characters closed Gadget '12' '50' '25' '219' '321' 000; ListWindow Taxa closed Gadget '12' '70' '45' '236' '398' 100000000; ListWindow Trees closed Gadget '12' '589' '167' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '968' '1620'; StateNamesSymbols open Gadget '12' '14' '588' '1210' '271' '230'; WindowOrder States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '866' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Gadget '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '9' ( normal ) Gadget '10' ( normal ) Gadget '9' ( normal ) Gadget '9' ( normal ) Gadget '9' ( bold ) Gadget '9' ( normal ) Gadget '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '2' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1722374565664; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4374478039510572281; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7476595296365079638; mqVersion 381; checksumv 0 3 2160322004 null getNumChars 31 numChars 31 getNumTaxa 20 numTaxa 20 short true bits 31 states 31 sumSquaresStatesOnly 5965.0 sumSquares 5965.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7476595296365079638 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 31; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_new_species_of_eocithara_fischer_1883_mollusca_gas_mb.nex"'; ID 01910585949e18; LINK Taxa = Taxa; TRANSLATE [0] 1 Morum_harpaeformis, [1] 2 Morum_oniscus, [2] 3 'Eocithara (Eocithara) elegans', [3] 4 'Eocithara (Eocithara) submutica', [4] 5 'Eocithara (Eocithara) jacksonensis', [5] 6 'Eocithara (Eocithara) mutica', [6] 7 'Eocithara (Eocithara) helenae', [7] 8 'Eocithara (Refluharpa) lamellifera', [8] 9 'Eocithara (Marwickara) waihaoensis', [9] 10 Austroharpa_sulcosa, [10] 11 Austroharpa_spirata, [11] 12 Austroharpa_tenuis, [12] 13 Austroharpa_punctata, [13] 14 Harpa_articulata, [14] 15 Harpa_davidis, [15] 16 Harpa_major, [16] 17 Harpa_broconi, [17] 18 Harpa_doris, [18] 19 Athleta_spinosa, [19] 20 Cryptochorda_stromboides; TREE Fig._9 = (20,(19,((1,2),((13,(11,(10,12))),((14,(15,(16,(17,18)))),((8,9),(7,(5,(6,(3,4)))))))))); TREE Parsimony_Strat_Rooted = (6,((3,4),(5,(7,((8,9),((14,(15,(16,(17,18)))),((1,2),(13,(11,(10,12)))))))))); 
+ENDBLOCK;

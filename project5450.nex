@@ -1,0 +1,296 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.00.52 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=10;
+	TAXLABELS
+		'Mayulestes'
+		'Sallacyon'
+		'Notogale'
+		'Cladosictis'
+		'Sipalocyon'
+		'Lycopsis'
+		'Prothylacynus'
+		'Borhyaena'
+		'Arctodictis'
+		'Acyon'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=47;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		[1] 'Length of skull'
+		[2] 'Length of braincase (Muizon, 1999; character 26)'
+		[3] 'Lateral margin of paracanine fossa formed by'
+		[4] 'Precanine notch'
+		[5] 'Palatal portion of premaxilla lateral to incisive foramen'
+		[6] 'Suture between nasal and frontal'
+		[7] 'Location of infraorbital foramen'
+		[8] 'Palate and basicranium'
+		[9] 'Palatal extension'
+		[10] 'Major palatine foramen'
+		[11] 'Posterior end of palatal process at palatines'
+		[12] 'Postpalatine torus'
+		[13] 'Hamular process of pterygoid'
+		[14] 'Fronto-squamosal contact'
+		[15] 'Pneumatization of the squamosal'
+		[16] 'Postglenoid process'
+		[17] 'Alisphenoid glenoid process'
+		[18] 'Transverse width of glenoid fossa'
+		[19] 'Tympanic process of alisphenoid'
+		[20] 'Post-tympanic process of squamosal and paracondylar process of exoccipital'
+		[21] 'Orientation of post-tympanic and paracondylar processes (paraoccipital process of Muizon, 1999; character 10)'
+		[22] 'Ectotympanic (modified from Muizon, 1999; character 4)'
+		[23] 'External acoustic meatus (Muizon, 1999; character 16)'
+		[24] 'Transverse canal (Muizon, 1999; character 8)'
+		[25] 'Foramen ovale position (Muizon, 1999; character 7)'
+		[26] 'Carotid foramen located near basisphenoid-basioccipital suture'
+		[27] 'Hypoglossal foramina'
+		[28] 'Sulcus between hypoglossal foramina and foramen for inferior petrosal sinus'
+		[29] 'Orientation of petrosal (Muizon, 1999; character 20)'
+		[30] 'Mastoid exposure of petrosal (Muizon, 1999; character 6)'
+		[31] 'Crest between epitympanic recess and alisphenoid hypotympanic sinus (petrosal crest of Muizon, 1999, character 15)'
+		[32] 'Subarcuate fossa (Muizon, 1999; character 12)'
+		[33] 'Dentary dorsoventral depth'
+		[34] 'Mandibular symphysis (modified from Muizon, 1999; character 35)'
+		[35] 'Incisor row (Muizon, 1999; character 36)'
+		[36] 'Incisor number (Muizon, 1999; character 37)'
+		[37] 'P/p1 position (modified from Muizon, 1999; character 24)'
+		[38] 'Shape of P3'
+		[39] 'Size of stylar cusp B on M2'
+		[40] 'Paraconule and metaconule on molars'
+		[41] 'Protocone on M3'
+		[42] 'Metacone on M4'
+		[43] 'Height of lower premolars'
+		[44] 'Metaconid on lower molars'
+		[45] 'Number of cusps on m1–m3 talonid'
+		[46] 'Atlas ventral arch (intercentrum)'
+		[47] 'Atlantal foramen'
+	;
+	STATELABELS
+		1
+			'anteroposterior length of skull shorter than twice width of skull'
+			'anteroposterior length of skull longer or as long as twice width of skull'
+			,
+		2
+			'braincase slightly wider than long (0.7 < L/W < 0.9)'
+			'braincase much longer than wide (L/W < 0.6)'
+			,
+		3
+			'anterolateral process of maxilla'
+			'premaxilla'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'extends to level of anterior border of canine'
+			'extends posterior to anterior border of canine'
+			,
+		6
+			'acutely'
+			'W''-shaped'''
+			'very open'
+			'W'''
+			'or'
+			'almost'
+			'convex'
+			'posteriorly'''
+			,
+		7
+			'dorsal to anterior border of P3'
+			'dorsal to posterior border of P3'
+			'dorsal to M1'
+			,
+		8
+			'palate lower than basicranium'
+			'both at same level'
+			,
+		9
+			'extends behind last molar level'
+			'extends to last molar level'
+			,
+		10
+			'present'
+			'absent'
+			,
+		11
+			'straight or slightly arched posteriorly'
+			'conspicuously double-arched'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'present and long'
+			'reduced to absent'
+			,
+		14
+			'absent'
+			'present'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'narrow and high, width/length ratio < 3.5'
+			'wide and low, width/length ratio > 3.5'
+			,
+		17
+			'present'
+			'absent'
+			,
+		18
+			'less than twice anteroposterior length'
+			'more than twice anteroposterior length'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'small'
+			'large and of same length'
+			,
+		21
+			'ventrally projected'
+			'anteroventrally projected'
+			,
+		22
+			'not enclosed by squamosal (i.e., in life should be connected to skull only by ligaments)'
+			'enclosed by squamosal'
+			,
+		23
+			'mediolateral width shorter than anteroposterior length'
+			'mediolateral width longer than anteroposterior length'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'between petrosal and alisphenoid'
+			'in alisphenoid'
+			,
+		26
+			'present'
+			'absent'
+			,
+		27
+			'two'
+			'one'
+			,
+		28
+			'absent or shallow'
+			'deep, with prominent lateral edges'
+			,
+		29
+			'slightly oblique to sagittal plane'
+			'subvertical to vertical'
+			,
+		30
+			'not reduced and external; i.e., contributes to occipital shield'
+			'reduced and internal; i.e., excluded from occipital shield'
+			,
+		31
+			'present'
+			'absent'
+			,
+		32
+			'deep'
+			'shallow'
+			,
+		33
+			'low, depth/length ratio of dentary 0.15 or smaller'
+			'intermediate, 0.16 to 0.19'
+			'high, 0.20 or larger'
+			,
+		34
+			'dentaries weakly attached at symphysis'
+			'dentaries strongly attached or fused at symphysis'
+			,
+		35
+			'parabolic'
+			'transverse'
+			,
+		36
+			'5/4'
+			'4/3'
+			'3/3'
+			,
+		37
+			'P/p1 nearly parallel to dentary row'
+			'oblique or transversal to dentary row'
+			,
+		38
+			'laterally compressed'
+			'bulbous and ovate'
+			,
+		39
+			'large'
+			'reduced and flat (i.e., forming ectocingulum labial to paracone)'
+			'vestigial or absent'
+			,
+		40
+			'present'
+			'absent'
+			,
+		41
+			'present'
+			'extremely reduced to absent'
+			,
+		42
+			'present and distinct from metastylar corner of tooth'
+			'extremely reduced, forming small prominence posterior to paracone'
+			'absent'
+			,
+		43
+			'height increases gradually'
+			'gaps in size between p1 and p2–p3 (i.e., even though p3 is taller than p2, they are more similar in height than p2 and p1)'
+			,
+		44
+			'present'
+			'absent'
+			,
+		45
+			'three cusps'
+			'two cusps'
+			'one cusp'
+			,
+		46
+			'not fused to rest of vertebra'
+			'fused to rest of vertebra'
+			,
+		47
+			'absent'
+			'present'
+			,
+	;
+	MATRIX
+	'Mayulestes'         000000(0 1)00000000000000000000?0000?000000000?0000
+	'Sallacyon'          ?0???1??0?11?01010???1001???1100??????100??10??
+	'Notogale'           ?1???????????01???11110111??1100??????1?0??10??
+	'Cladosictis'        111111(0 1)1011110101011110(0 1)11111100(0 1)01100210201011
+	'Sipalocyon'         011011(0 1)1011110101011110111111100000100100201001
+	'Lycopsis'           111???0101111??01001100111101111001100(1 2)001010?1
+	'Prothylacynus'      00101111(0 1)11111001101000111101111111110010111(1 2)11
+	'Borhyaena'          00111111111111011101001000001111111211111201200
+	'Arctodictis'        001111210111?1?1110100100000?111211211111211200
+	'Acyon'              111111110111???0101111001?11???0001100200101111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-47;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 84; LastModified -999848559; FileSettings treewindow '1' '1' '45' '1'; Singles 000; Editor 0001101111111110010001001 '0' '72' Gadget '12' '100' '1' all; EditorPosition '46' '6' '342' '365'; TreeWindowPosition '67' '676' '454' '713'; ListWindow Characters open Gadget '12' '50' '25' '236' '517' 000; ListWindow Taxa closed Gadget '12' '50' '25' '134' '305' 100000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '70' '45' '129' '177' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols open Gadget '12' '13' '50' '30' '254' '220'; WindowOrder Tree List Characters States; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '259' '595' '99' '96'; TreeLegendPosition '363' '503' '88' '93'; EditorToolsPosition '403' '46' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Mayulestes, 2 Sallacyon, 3 Notogale, 4 Cladosictis, 5 Sipalocyon, 6 Lycopsis, 7 Prothylacynus, 8 Borhyaena, 9 Arctodictis, 10 Acyon ; TREE * Figure_10 = [&R] (1,((6,(7,(8,9))),(2,((3,5),(4,10))))); 
+ENDBLOCK;

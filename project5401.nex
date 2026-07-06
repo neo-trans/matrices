@@ -1,0 +1,530 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.52.59 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=81;
+	TAXLABELS
+		'Thrichomys laurentius'
+		'Octomys sp.'
+		'Octodontomys sp.'
+		'Eucelophorus'
+		'Actenomys'
+		'Ctenomys uquiensis'
+		'Ctenomys chapalmalensis'
+		'Ctenomys rusconii'
+		'Ctenomys thomasi'
+		'Ctenomys avitus sp. nov.'
+		'Ctenomys kraglievichi'
+		'Ctenomys dasseni'
+		'Ctenomys subassentiens'
+		'Ctenomys frater'
+		'Ctenomys lewisi'
+		'Ctenomys conoveri'
+		'Ctenomys lessai'
+		'Ctenomys opimus tc'
+		'Ctenomys opimus or'
+		'Ctenomys fulvus'
+		'Ctenomys sp. as'
+		'Ctenomys saltarius'
+		'Ctenomys scagliai'
+		'Ctenomys heniacamiare'
+		'Ctenomys steinbachi'
+		'Ctenomys boliviensis'
+		'Ctenomys dorsalis'
+		'Ctenomys erikacuellarae'
+		'Ctenomys goodfellowi'
+		'Ctenomys bicolor'
+		'Ctenomys nattereri'
+		'Ctenomys andersoni'
+		'Ctenomys yatesi'
+		'Ctenomys osvaldoreigi'
+		'Ctenomys viarapaensis'
+		'Ctenomys pontifex'
+		'Ctenomys magellanicus lb'
+		'Ctenomys magellancius'
+		'Ctenomys haigi'
+		'Ctenomys sericeus'
+		'Ctenomys sericeus ch'
+		'Ctenomys contrerasi contrerasi'
+		'Ctenomys contrerasi navoneae'
+		'Ctenomys thalesi'
+		'Ctenomys bidaui'
+		'Ctenomys pulcer'
+		'Ctenomys tucumanus'
+		'Ctenomys juris'
+		'Ctenomys latro'
+		'Ctenomys pilarensis'
+		'Ctenomys occultus'
+		'Ctenomys argentinus'
+		'Ctenomys torquatus'
+		'Ctenomys minutus'
+		'Ctenomys lami'
+		'Ctenomys pearsoni'
+		'Ctenomys perrensi'
+		'Ctenomys roigi'
+		'Ctenomys dorbignyi'
+		'Ctenomys talarum'
+		'Ctenomys pundti'
+		'Ctenomys mendocinus'
+		'Ctenomys flamarioni'
+		'Ctenomys mendocinus ga'
+		'Ctenomys mendocinus bo'
+		'Ctenomys australis'
+		'Ctenomys coludo fa'
+		'Ctenomys rionegrensis'
+		'Ctenomys yolandae'
+		'Ctenomys bonettoi'
+		'Ctenomys bergi'
+		'Ctenomys bergi pg'
+		'Ctenomys ibicuiensis'
+		'Ctenomys emilianus'
+		'Ctenomys coludo as'
+		'Ctenomys sociabilis nh'
+		'Ctenomys sociabilis cs'
+		'Ctenomys plebiscitum'
+		'Ctenomys leucodon'
+		'Ctenomys tuconax'
+		'Ctenomys maulinus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=62;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		[1] 'Empty placeholder'
+		[2] 'Rostral masseteric fossa'
+		[3] 'Lateral flange of canal for infraorbital nerve'
+		[4] 'Bottom of alveolar sheath of upper incisor'
+		[5] 'Incisive foramina'
+		[6] 'Premaxillary-maxillary suture at medial margin of incisive foramen'
+		[7] 'Ventral margin of rostrum'
+		[8] 'Incisive foramina - 2'
+		[9] 'Anterior extension of maxillary into posterior margin of incisive foramen'
+		[10] 'Premaxillary septum'
+		[11] 'Sphenopalatine fissure'
+		[12] 'External auditory meatus (EAM)'
+		[13] 'Zygomatic portion of squamosal'
+		[14] 'Maxillary and alisphenoid in basitemporal region'
+		[15] 'Auditory bulla'
+		[16] 'Alveolar margin of the mandibular molar series'
+		[17] 'Origin of masseteric crest of the mandible'
+		[18] 'Masseteric area of the mandible'
+		[19] 'Postcondyloid process'
+		[20] 'Chin process'
+		[21] 'Bottom of m1 alveolus'
+		[22] 'Molars'
+		[23] 'DP4-M2'
+		[24] 'M3'
+		[25] 'Occlusal design of Dp4-m2'
+		[26] 'Posterolingual margin of anterior lobe of DP4'
+		[27] 'm3'
+		[28] 'Medial margins of the nasal bones'
+		[29] 'Premaxillary margins at level of the root of premaxillary septum'
+		[30] 'Antero-posterior length of the incisive foramina with respect to rostrum length (from the premaxillary-maxillary suture to the antero-lateral limit of the rostrum)'
+		[31] 'Distance between premaxillary septum and margins of premaxillary'
+		[32] 'Frontal participating in dorsal root of antorbital zygomatic bar'
+		[33] 'Facial portion of lacrimal'
+		[34] 'Facial process of lacrimal and frontal on antorbital zygomatic bar'
+		[35] 'Orbital portion of lacrimal that posteriorly includes and delimitates first part of lacrimal canal'
+		[36] 'Dorsal part (“first part” sensu Hill 1935: 123) of nasolacrimal canal'
+		[37] 'Dorsal part of nasolacrimal canal'
+		[38] 'Dorsal part of nasolacrimal canal - 2'
+		[39] 'Lateromedial wall of nasolacrimal canal'
+		[40] 'Posteromedial wall of nasolacrimal canal'
+		[41] 'Suture on maxilla'
+		[42] 'Maxillary suture on nasolacrimal canal'
+		[43] 'Position of major palatine foramina'
+		[44] 'Anterior end of mesopterygoid fossa'
+		[45] 'Maxilla-palatine suture'
+		[46] 'Posterior margin of alisphenoid, posterolateral to foramen ovale'
+		[47] 'Contact between posterolateral margin of alisphenoid and auditory bulla'
+		[48] 'Contact between pterygoid or palatine and auditory bulla'
+		[49] 'Contact between medial anterior tip of auditory bulla and basisphenoid bone'
+		[50] 'Ventral tip of mastoid apophysis'
+		[51] 'Concavity on cranial roof'
+		[52] 'Transition between the anterior horizontal portion of diastema and the alveolar margin of dp4'
+		[53] 'Morphology of mandibular notch for tendon of M. masseter medialis pars infraorbitalis'
+		[54] 'Origin of masseteric crest of mandible'
+		[55] 'Posterior part of masseteric crest'
+		[56] 'Ventrolateral apophysis of the postcondyloid process'
+		[57] 'Grooves on enameled surface of incisors'
+		[58] 'Upper incisors'
+		[59] 'Lingual concavity of m1'
+		[60] 'Sperm morphology'
+		[61] 'Ventral spine of the styliform process in the auditory bulla'
+		[62] 'Epitympanic recess'
+	;
+	STATELABELS
+		1
+			'placeholder 0'
+			'placeholder 1'
+			,
+		2
+			'dorsal to alveolar sheath of I1, progressively narrower anteriorly, shallow, and ending with a pointed outline level with anterior end of incisive foramina'
+			'dorsal to alveolar sheath of the I1, deep and ending in a curved crest slightly anterior to or level with premaxillary-maxillary suture'
+			'with portions dorsal and ventral to alveolar sheath of I1 present and shallow; anterior end occupying almost entire height of rostrum and limited by a more straight crest located ventrally level with the anterior end of incisive foramina or anterior to them'
+			'with portions dorsal and ventral to alveolar sheath of I1 present and very deep; portion ventral to I1 extending greatly anterior to incisive foramina'
+			,
+		3
+			'present, and with free dorsal margin'
+			'present and with dorsal margin in contact with bottom of alveolar sheath of upper incisor'
+			'very wide and covering bottom of alveolar sheath of upper incisor laterally and posteriorly'
+			'very reduced or absent'
+			,
+		4
+			'free in diastema, or in orbital region'
+			'lodged in a cavity of the maxillary, anterior to alveolar sheath of M1'
+			'lodged in a cavity of the maxillary, lateral to alveolar sheath of M1'
+			,
+		5
+			'with lateral walls concave and approximately symmetric anterior and posterior to premaxillary-maxillary suture; suture located near middle of lateral wall of foramen or more anteriorly'
+			'foramina extended and progressively narrower anterior to premaxillary-maxillary suture; suture nearer to posterior part of foramen'
+			,
+		6
+			'level with its portion lateral to the foramen'
+			'displaced forward'
+			,
+		7
+			'not widened or only slightly widened but without protuberance at premaxillary-maxillary suture'
+			'widened forming a marked protuberance level with premaxillary-maxillary suture'
+			,
+		8
+			'wide, at least ¼ of rostrum width (both measured at premaxillary-maxillary suture)'
+			'narrow, less than ¼ of rostrum width'
+			,
+		9
+			'scarcely developed or absent'
+			'maxillary extended anteriad, on the same horizontal plane as premaxillary septum, constraining incisive foramen posteriorly'
+			'maxillary extended anterodorsally with respect to premaxillary septum, constraining incisive foramen posteriad'
+			,
+		10
+			'with posterior ends of premaxillaries joined medially forming a pointed projection'
+			'with posterodorsal ends of premaxillaries divergent, each one forming a lateral apophysis'
+			,
+		11
+			'oblique and extended posteriorly over alveolar sheath of M1 or M1-2'
+			'divided by M1 alveolar sheath into a vertical portion anterior to M1 alveolar sheath, and a well-developed posterior portion dorsal to M1 alveolar sheath'
+			'divided by M1 alveolar sheath into a vertical portion anterior to M1 alveolar sheath, and a reduced posterior portion dorsal to M1 alveolar sheath'
+			'vertical in front of M1 alveolar sheath, with or without independent relict posterior to M1'
+			,
+		12
+			'short, moderately protruding with respect to auditory bulla and epitympanic recess (petrosal bulla) (ER)'
+			'protruding, with anterodorsal and anterior margin oriented anteriad, forming a smooth anterior concavity'
+			'forming a protruding tube with its anterior wall moderately to very concave; ER forming a horizontal flat surface'
+			'forming a protruding tube very narrow anteroposteriorly and kidney-shaped in cross section due to marked concavity of its anterior wall; ER dorsal to the EAM, very narrow'
+			,
+		13
+			'subhorizontal and forming at least the posterior half of paraorbitary process'
+			'never reaching end of paraorbitary process; this process formed mostly or exclusively by jugal'
+			,
+		14
+			'contacting each other or separated by dorsal portion of lateral palatine plate'
+			'separated by dorsal portion of lateral palatine plate, which is expanded over both alveolar sheath of M3 and alisphenoid'
+			'strongly joined through a maxillary apophysis posterolateral to M3 alveolar sheath'
+			,
+		15
+			'ovoid'
+			'pyriform, with anterior portion narrow and strongly oblique major axis'
+			'pyriform, very narrow, with a pit ventrolateral to the EAM'
+			,
+		16
+			'descending ventromedially anterior to dp4'
+			'not descending anterior to dp4'
+			,
+		17
+			'incorporating the notch for tendon of M. masseter medialis'
+			'posterior to the notch. Although this character is uninformative in the present analysis'
+			,
+		18
+			'without protuberances corresponding to bottom portion of alveoli of molars'
+			'with a rounded protuberance near origin of masseteric crest, corresponding to bottom of alveolus of m2'
+			'with a protuberance that lacks distinct margins, corresponding to bottom of alveolus of m2, placed between dorsal and ventral divisions of masseteric fossa'
+			'with a marked ovoid protrusion corresponding to bottom of alveolus of m3, between dorsal and ventral divisions of masseteric fossa'
+			'with a scarcely visible protrusion corresponding to bottom of alveolus of m3 in dorsal division of masseteric fossa'
+			,
+		19
+			'developed, with weak protuberance on its ventral margin or without it'
+			'very reduced or absent'
+			'with a strong lateral apophysis on its ventral margin. The ventrolateral apophysis of Ctenomys adjusts to the EAM when the mandible is articulated in the postglenoid region'
+			,
+		20
+			'level with dp4 in lateral view, or slightly anterior'
+			'behind the level of dp4'
+			,
+		21
+			'slightly protruding in the mandible, and anterior to origin of masseteric crest'
+			'forming a marked protrusion at origin of masseteric crest'
+			,
+		22
+			'with flexi and flexids persistent in adults'
+			'only with mesoflexus/id and hypoflexus/id persistent'
+			'with flexi vestigial or absent, and reduced flexids'
+			'with flexi/ids vestigial or absent'
+			,
+		23
+			'with transverse lophs'
+			'eight shaped, with two transverse lobes separated by hypoflexus and mesoflexus'
+			'with posterior lobe not labially extended and without flexi'
+			,
+		24
+			'not reduced to moderately reduced, with morphology similar to remaining molars'
+			'reduced, with occlusal outline subcircular and posterior lobe narrow'
+			'reduced, with posterior or posterolingual face flat and anterior lobe protruding'
+			,
+		25
+			'transverse lophids'
+			'figure eight-shaped, with two transverse lobes separated by hypoflexid and mesoflexid'
+			'slightly oblique rounded lobes, with reduced hypoflexid and mesoflexid'
+			'subrhombic to crescent-shaped and with a lingual concavity limited by an anterior protrusion'
+			'subrhombic with a weak labial fold (trace of hypoflexid?)'
+			'semilunar with a weak labial fold'
+			'subrhombic with weak labial and lingual folds (traces of flexids?) to semilunar and with only a wide lingual concavity'
+			,
+		26
+			'not protruding or with a slightly rounded edge'
+			'with a sharp edge'
+			,
+		27
+			'implanted dorsolaterally to incisor'
+			'with posterolateral or posterior implantation, dorsal to i1'
+			,
+		28
+			'non-divergent'
+			'divergent, delimiting a space consistent with the dorsal opening of the interpremaxillary foramen'
+			,
+		29
+			'converging medially and abutting roots of premaxillary septum'
+			'non-convergent, lateroventral to roots of premaxillary septum'
+			'converging dorsomedially, contacting roots of premaxillary septum'
+			,
+		30
+			'long'
+			'short'
+			,
+		31
+			'long, due to good development of roots of premaxillary septum'
+			'short, due to reduction of roots of premaxillary septum'
+			,
+		32
+			'no'
+			'yes'
+			,
+		33
+			'developed'
+			'scarcely developed'
+			,
+		34
+			'facial process protruding respect to frontal'
+			'not protruding'
+			,
+		35
+			'continuous'
+			'interrupted by the frontal bone'
+			,
+		36
+			'long'
+			'very short because lacrimal foramen is closer to facial portion of lacrimal bone'
+			,
+		37
+			'anteroventrally oriented'
+			'rather anteriorly oriented'
+			,
+		38
+			'with distinct posterior margin'
+			'posterior margin scarcely differentiated or absent'
+			,
+		39
+			'not in contact with alveolar sheath of M1'
+			'in contact with alveolar sheath of M1'
+			,
+		40
+			'not hiding laterodorsal portion of alveolar sheath of M1'
+			'hiding the laterodorsal portion of alveolar sheath of M1'
+			,
+		41
+			'posterior to nasolacrimal canal'
+			'on nasolacrimal canal'
+			,
+		42
+			'medial in its proximal part, and then posterolateral; not in contact with alveolar sheath of M1'
+			'medial in contact with alveolar sheath of M1'
+			'lateral, not in contact with alveolar sheath of M1'
+			,
+		43
+			'at level of DP4-M1 boundary'
+			'at level of M1'
+			,
+		44
+			'at level of M1-M2'
+			'at level of M2 or M2-M3'
+			'at level of M3'
+			,
+		45
+			'near or even in contact with major palatine foramina'
+			'markedly posterior to major palatine foramina'
+			,
+		46
+			'transverse, sub-parallel to anterior margin of bulla'
+			'oblique, posterolaterally oriented'
+			,
+		47
+			'wide'
+			'narrow or'
+			,
+		48
+			'only the pterygoid contacting anterior end of auditory bulla'
+			'both pterygoid and palatine contacting anterior end of auditory bulla'
+			,
+		49
+			'wide'
+			'narrow or without contact'
+			,
+		50
+			'dorsal to ventral border of EAM'
+			'at level of, or more ventral than, EAM'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'gradual, describing a curve'
+			'gradual, the alveolar margin becoming vertical'
+			'abrupt, forming an angle of about 90°'
+			,
+		53
+			'shallow, with slightly marked ventral margin'
+			'deep, with marked ventral margin'
+			,
+		54
+			'ventrally oriented'
+			'laterally oriented'
+			,
+		55
+			'descending'
+			'subhorizontal'
+			'ascending'
+			,
+		56
+			'posterolaterally oriented'
+			'laterally oriented'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'subparallel'
+			'converging'
+			,
+		59
+			'poorly marked'
+			'very marked'
+			,
+		60
+			'symmetric'
+			'asymmetric'
+			'asymmetric complex'
+			,
+		61
+			'absent'
+			'moderately developed'
+			'strongly developed, ventrally bordering the pterygoid apophysis'
+			,
+		62
+			'expansive in the cranial vault'
+			'reduced'
+			,
+	;
+	MATRIX
+	'Thrichomys laurentius'               00000000000000000000?0000?000??00?00000?0??2?000?0?00???00??0?
+	'Octomys sp.'                         0000000011000000110001101?000??00?00000?10?0?00000?00???00?000
+	'Octodontomys sp.'                    0000000001000000110002212?100??00?00000?10?0?00000?00???00?001
+	'Eucelophorus'                        03220000203312201410032060000??00?0000111200000001?20???011??1
+	'Actenomys'                           021011102001000013000320300010010000000?110000001000000?00???0
+	'Ctenomys uquiensis'                  0?31???????????11220132?511????????????????????????000000?0???
+	'Ctenomys chapalmalensis'             01311100201201111220132251101001000100101100010000001100001?00
+	'Ctenomys rusconii'                   01311100202????112201322511010011111001011000?????011111001???
+	'Ctenomys thomasi'                    0131110020221111122113225110100100010011120101????020111011???
+	'Ctenomys avitus sp. nov.'            013111012022011?12211322511?1111000100101200011000020111011?10
+	'Ctenomys kraglievichi'               01311101203211111221132251101111000?00101211011011020111111?01
+	'Ctenomys dasseni'                    01311101203211111221132251101111000?00111?11011001020111111??1
+	'Ctenomys subassentiens'              0131110120321111122113225110111100000?111?1101?011120121011???
+	'Ctenomys frater'                     01311101203211111221132251101111000000111211011011120121011001
+	'Ctenomys lewisi'                     0131110120321111122113225110?111000000111211011011120121011001
+	'Ctenomys conoveri'                   01311101203211111221132251101111000100111211011011020111111101
+	'Ctenomys lessai'                     0131110120?2111112211322511001110?????1?1?11011011120121011?01
+	'Ctenomys opimus tc'                  01311101203211111221132251101111000100101211010010020121011001
+	'Ctenomys opimus or'                  01311101203211111221132251101111000100101211011101020121011001
+	'Ctenomys fulvus'                     01311101203211111221132251100111000100101211011101020121011011
+	'Ctenomys sp. as'                     013111012032111112211322511011110001001012110110000201210110?1
+	'Ctenomys saltarius'                  01311101203211111221132251100111000100101211011100020121011?01
+	'Ctenomys scagliai'                   013111012032111112211322511001110001001?1211011100020121011001
+	'Ctenomys heniacamiare'               0131110120?2111112211322511011111?????1?1?11011111020121011?01
+	'Ctenomys steinbachi'                 01311101203211111221132251101111000100111211011011?20121011001
+	'Ctenomys boliviensis'                01311101203211111221132251101111000???1?1?11011010020121?110?1
+	'Ctenomys dorsalis'                   013111012032111112211322511011111101??111?11011100020121?11?11
+	'Ctenomys erikacuellarae'             01311101203211111221132251101111110???1?1?11011111020121?11?01
+	'Ctenomys goodfellowi'                0?????????????????????????????????????????????????????????????
+	'Ctenomys bicolor'                    013111012032111112211322511001110001001?1211111111020121011?01
+	'Ctenomys nattereri'                  0?????????????????????????????????????????????????????????????
+	'Ctenomys andersoni'                  0131110120?21111122113225111011111????1?1?11011111020121011?11
+	'Ctenomys yatesi'                     0131110120?2111112211322511011110?0???1?1?11011010120121011?01
+	'Ctenomys osvaldoreigi'               01311101203211111221132251111111000000101211110111020111011101
+	'Ctenomys viarapaensis'               01311101203211111221132251111111000000101211111?11020111111?01
+	'Ctenomys pontifex'                   0?????????????????????????????????????????????????????????????
+	'Ctenomys magellanicus lb'            01311101203211111221132251101111000000111211011100020121011111
+	'Ctenomys magellancius'               01311101203211111221132251101111000000101211011100020121011111
+	'Ctenomys haigi'                      01311101203211111221132251100111000000101211011100020121011101
+	'Ctenomys sericeus'                   0131110120321111122113225110?1110000001012110111000201210111?1
+	'Ctenomys sericeus ch'                013111012032111112211322511011110000??1?1?110111000??1???111?1
+	'Ctenomys contrerasi contrerasi'      013111012032111112211322511021110?0??01?1?11011100020121011111
+	'Ctenomys contrerasi navoneae'        013111012032111112211322511011110?0?001?1?11011100020121011111
+	'Ctenomys thalesi'                    013111012032111112211322511021110?0?001?1?11011100020121011111
+	'Ctenomys bidaui'                     013111012032111112211322511011110?0100101211011100020121011111
+	'Ctenomys pulcer'                     01311101203211111221132251102111111111111211011100020121011121
+	'Ctenomys tucumanus'                  0131110120321111122113225110111100010011121101111?020121011001
+	'Ctenomys juris'                      013111012032111112211322511011110001??111?1101?111020121?11101
+	'Ctenomys latro'                      01311101203211111221132251101111000100111211011110020121011?01
+	'Ctenomys pilarensis'                 01311101203211111221132251101111000???1?1?11011111020121?11101
+	'Ctenomys occultus'                   013111012032111112211322511011110101??1?1?11011110020121?11101
+	'Ctenomys argentinus'                 013111012032111112211322511011110101??1?1?11011110020121?11001
+	'Ctenomys torquatus'                  01311101203211111221132251100111000100111211011101020121011001
+	'Ctenomys minutus'                    01311101203211111221132251100111000000101212011101020121011011
+	'Ctenomys lami'                       0131110120321111122113225110?111?001??1?1?1101?1?0020121?11?11
+	'Ctenomys pearsoni'                   01311101203211111221132251100111000100111211011100020121011001
+	'Ctenomys perrensi'                   01311101203211111221132251100111000100111111011101020121011001
+	'Ctenomys roigi'                      013111012032111112211322511001110000??1?1?11?11100020121?11001
+	'Ctenomys dorbignyi'                  013111012032111112211322511001110001??1?1?11111100020121?110?1
+	'Ctenomys talarum'                    01311101203211111221132251101111000100111211011000020121011001
+	'Ctenomys pundti'                     01311101203211111221132251100111000100111211011100020121011001
+	'Ctenomys mendocinus'                 01311101203211111221132251101111000100111211011100020121011111
+	'Ctenomys flamarioni'                 013111012032111112211322511011110001101?1?11011100020121011111
+	'Ctenomys mendocinus ga'              01311101203211111221132251101111000100111211011100020121011101
+	'Ctenomys mendocinus bo'              013111012032111112211322511011110001001112110111000201210111?1
+	'Ctenomys australis'                  01311101203211111221132251101111110111111211011100020121011101
+	'Ctenomys coludo fa'                  013111012032111112211322511001110?01001?1?11011100020121011?11
+	'Ctenomys rionegrensis'               01311101203211111221132251100111000100111111?11100020121011111
+	'Ctenomys yolandae'                   013111012032111112211322511001110001??1?1?11?11100020121?11211
+	'Ctenomys bonettoi'                   013111012032111112211322511001110001??1?1?11?11100020121?11111
+	'Ctenomys bergi'                      013111012032111112211322511001110001??1?1?11011100020121?11111
+	'Ctenomys bergi pg'                   013111012032111112211322511001110001??1?1?11011100020121?11111
+	'Ctenomys ibicuiensis'                0131110120321111122113225110?11100????1?1?110111?002?121?11?11
+	'Ctenomys emilianus'                  0?????????????????????????????????????????????????????????????
+	'Ctenomys coludo as'                  0?????????????????????????????????????????????????????????????
+	'Ctenomys sociabilis nh'              013111012032111112211322511011110?0?00101?1101?001020121011101
+	'Ctenomys sociabilis cs'              0131110?20?2111112211322511????10?0??01?1????1?001020121?1?1?1
+	'Ctenomys plebiscitum'                01311101203211111221132251100111010?001?1?1101?111020121011111
+	'Ctenomys leucodon'                   01311101203211111221132251100111000000101211010011020121011?01
+	'Ctenomys tuconax'                    01311101203211111221132251100111000000101211011111020121011101
+	'Ctenomys maulinus'                   013111012032111112211322511001110?01001?1210011111020121011111
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-62;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1745625459699; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4016688563796660197; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1150210387004254092; mqVersion 381; checksumv 0 3 2989100255 null getNumChars 62 numChars 62 getNumTaxa 81 numTaxa 81 short true bits 127 states 127 sumSquaresStatesOnly 110505.0 sumSquares 110505.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1150210387004254092 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 62; 
+ENDBLOCK;

@@ -1,0 +1,655 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.07.53 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=32;
+	TAXLABELS
+		'Petrolacosaurus'
+		'Utatsusaurus'
+		'Grippia'
+		'Parvinatator'
+		'Chaohusaurus'
+		'Cymbospondylus'
+		'Mixosaurus'
+		'Phalarodon'
+		'Xinminosaurus'
+		'Besanosaurus'
+		'Shastasaurus'
+		'Shonisaurus'
+		'Callawayia'
+		'Guizhouichthyosaurus'
+		'Californosaurus'
+		'Toretocnemus'
+		'Qianichthyosaurus'
+		'Hudsonelpidia'
+		'Macgowania'
+		'Suevoleviathan'
+		'Temnodontosaurus'
+		'Leptonectes'
+		'Excalibosaurus'
+		'Eurhinosaurus'
+		'Ichthyosaurus'
+		'Stenopterygius'
+		'Brachypterygius'
+		'Ophthalmosaurus'
+		'Aegirosaurus'
+		'Caypullisaurus'
+		'Platypterygius'
+		'Maiaspondylus'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=105;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Premaxilla posterior end'
+		[2] 'Maxilla dorsal lamina'
+		[3] 'Maxilla/external naris contact'
+		[4] 'External naris orientation'
+		[5] 'Nasal/external naris contact'
+		[6] 'Wide contact between nasal/postfrontal'
+		[7] 'Nasal/parietal contact lateral to frontal'
+		[8] 'Prefrontal/postfrontal contact'
+		[9] 'Postfrontal postero-lateral process'
+		[10] 'Postfrontal participation in upper temporal fenestra'
+		[11] 'Postorbital shape'
+		[12] 'Postorbital participation in upper temporal fenestra'
+		[13] 'Squamosal participation in upper temporal fenestra'
+		[14] 'Anterior terrace of upper temporal fenestra'
+		[15] 'Frontal widest position'
+		[16] 'Sagittal eminence'
+		[17] 'Parietal ridge'
+		[18] 'Parietal supratemporal process'
+		[19] 'Right and left parietals? anterior processes'
+		[20] 'Supratemporal posterior slope'
+		[21] 'Supratemporal posterior ridge'
+		[22] 'Supratemporal ventral process'
+		[23] 'Jugal/quadratojugal dorsal contact'
+		[24] 'Jugal shape'
+		[25] 'Cheek orientation'
+		[26] 'Pterygoid, transverse flange'
+		[27] 'Interpterygoidal vacuity'
+		[28] 'Ectopterygoid'
+		[29] 'Basioccipital peg'
+		[30] 'Basioccipital extracondylar area'
+		[31] 'Basioccipital condyle'
+		[32] 'Angular lateral exposure'
+		[33] 'Overbite'
+		[34] 'Snout extremely slender'
+		[35] 'Replacement teeth'
+		[36] 'Plicidentine'
+		[37] 'Tooth horizontal section'
+		[38] 'Posterior tooth crown'
+		[39] 'Tooth size relative to the skull width'
+		[40] 'Maxillary tooth row'
+		[41] 'Upper dental groove'
+		[42] 'Lower dental groove'
+		[43] 'Bony fixation of teeth'
+		[44] 'Pterygoidal teeth'
+		[45] 'Interclavicle shape'
+		[46] 'Scapula antero-dorsal margin'
+		[47] 'Scapular blade shaft'
+		[48] 'Scapular axis and glenoid facet orientations'
+		[49] 'Coracoid facet on scapula'
+		[50] 'Ossified sternum'
+		[51] 'Ossified cleithrum'
+		[52] 'Humerus distal articular facets'
+		[53] 'Humerus anterior flange'
+		[54] 'Humerus relative width exclusive of anterior flange'
+		[55] 'Humerus, distal and proximal ends, exclusive of anterior flange'
+		[56] 'Ridge on humerus plate-like'
+		[57] 'Humerus antero-distal facet for sesamoid'
+		[58] 'Propodial + epipodial versus manus length'
+		[59] 'Radius peripheral ?shaft?'
+		[60] 'Radius contiguous ?shaft?'
+		[61] 'Radius L/W ratio'
+		[62] 'Ulna peripheral ?shaft?'
+		[63] 'Ulna contiguous ?shaft?'
+		[64] 'Radius/ulna relative size'
+		[65] 'Radiale, anterior notch'
+		[66] 'Ulnare/intermedium relative size'
+		[67] 'Manual pisiform'
+		[68] 'Mc I peripheral ?shaft?'
+		[69] 'Mc III ?shaft?'
+		[70] 'Mc V peripheral ?shaft?'
+		[71] 'Manual digit 2 distal elements peripheral ?shaft?'
+		[72] 'Manual accessory digit VI'
+		[73] 'Manual digit S4-5'
+		[74] 'Manual centralia'
+		[75] 'Manual anterior sesamoid e, and the digit distal to it'
+		[76] 'More than one extra anterior digit'
+		[77] 'Maximum phalangeal count'
+		[78] 'Interdigital separation'
+		[79] 'Forelimb/hindlimb ratio'
+		[80] 'Iliac blade shape'
+		[81] 'Iliac antero-medial prominence'
+		[82] 'Thyroid fenestra'
+		[83] 'Ischium-pubis fusion in adults'
+		[84] 'Pubis, obturator foramen'
+		[85] 'Pubis, styloidal or plate-like'
+		[86] 'Pubis/ischium relative length'
+		[87] 'Ischium, styloidal or plate-like'
+		[88] 'Tibia and fibula'
+		[89] 'Pes digit 1'
+		[90] 'Tibia L/W ratio'
+		[91] 'Tibia contiguous ?shaft?'
+		[92] 'Tibia peripheral ?shaft?'
+		[93] 'Fibula posterior extent'
+		[94] 'Atlantal pleuro centrum'
+		[95] 'Presacral count'
+		[96] 'Caudal peak'
+		[97] 'Posterior dorsal centra shape'
+		[98] 'Mid-caudal centra height change'
+		[99] 'Cervical bicipital rib facet'
+		[100] 'Posterior-dorsal bicipital rib facet'
+		[101] 'Antero-dorsal rib facets'
+		[102] 'Anterior dorsal neural spine'
+		[103] 'Neural spine anticlination in tail'
+		[104] 'Sacral ribs'
+		[105] 'Posterior gastralia'
+	;
+	STATELABELS
+		1
+			'concave and the dorsal process is longer than the ventral'
+			'pointed, scarcely entering the external naris'
+			'concave and the ventral process is longer than the dorsal'
+			,
+		2
+			'absent'
+			'present'
+			,
+		3
+			'present'
+			'absent'
+			,
+		4
+			'dorso-lateral'
+			'lateral, scarcely visible in dorsal view'
+			,
+		5
+			'present'
+			'absent'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent, the dorsal margin of the orbit being formed by the frontal'
+			'present, eliminating the frontal from the dorsal margin of the orbit'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'triradiate'
+			'lunate, without posterior process'
+			,
+		12
+			'present'
+			'absent'
+			,
+		13
+			'present'
+			'absent'
+			'squamosal absent'
+			,
+		14
+			'absent'
+			'present, but small, reaching the posterior part of the frontal anteriorly'
+			'present, and large, reaching the nasal anteriorly'
+			,
+		15
+			'located posteriorly'
+			'at nasal suture'
+			,
+		16
+			'absent'
+			'present but small, involving only the parietal'
+			'present and large, involving the parietal, frontal, and nasal'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'short'
+			'long'
+			'parietal and supratemporal separated by an additional skull bone'
+			,
+		19
+			'contacting each other anteriorly, eliminating frontal from pineal foramen'
+			'narrowly separated anteriorly, forming parietal fork, and frontal dorsally visible along the pineal foramen'
+			'widely open, resulting in absence of clear fork'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'triradiate'
+			'lunate, or J-shaped'
+			,
+		25
+			'mostly lateral'
+			'largely posterior'
+			,
+		26
+			'antero-lateral'
+			'postero-lateral'
+			'not well defined'
+			,
+		27
+			'present'
+			'absent, or extremely reduced'
+			,
+		28
+			'present'
+			'absent'
+			,
+		29
+			'clearly present'
+			'absent or extremely reduced'
+			,
+		30
+			'wide'
+			'reduced to a narrow band of concavity'
+			,
+		31
+			'flat or slightly concave'
+			'hemispherical'
+			,
+		32
+			'extensive, at least as high and anteriorly as surangular exposure'
+			'much smaller than surangular exposure'
+			,
+		33
+			'absent or slight'
+			'clearly present'
+			,
+		34
+			'no'
+			'yes'
+			,
+		35
+			'appear outside the pulp cavity of the predecessor'
+			'inside'
+			,
+		36
+			'absent'
+			'present'
+			,
+		37
+			'circular'
+			'disto-medially compressed'
+			'laterally compressed'
+			,
+		38
+			'conical'
+			'rounded'
+			'flat'
+			,
+		39
+			'normal (over 0.1)'
+			'small (below 0.05)'
+			,
+		40
+			'single'
+			'multiple'
+			,
+		41
+			'present throughout jaw margin'
+			'only present anteriorly'
+			'absent'
+			,
+		42
+			'present throughout jaw margin'
+			'only present anteriorly'
+			'absent'
+			,
+		43
+			'present'
+			'absent'
+			,
+		44
+			'present'
+			'absent'
+			,
+		45
+			'cruciform'
+			'triangular'
+			'T-shaped'
+			,
+		46
+			'fan-shaped'
+			'emarginated'
+			'straight'
+			,
+		47
+			'absent'
+			'present at least proximally'
+			,
+		48
+			'nearly parallel'
+			'at 60 degrees or more'
+			,
+		49
+			'scapula and coracoid fused'
+			'absent'
+			'equal or smaller than glenoid facet of scapula'
+			'twice as large as glenoid facet'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'present'
+			'absent'
+			,
+		52
+			'not terminal'
+			'terminal, radial facet being larger than ulnar facet'
+			'terminal, two facets being nearly equal'
+			,
+		53
+			'absent'
+			'present and complete'
+			'present but reduced proximally'
+			,
+		54
+			'much longer than wide'
+			'nearly squarish'
+			,
+		55
+			'nearly equal'
+			'distal end wider than proximal end'
+			,
+		56
+			'no'
+			'yes'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'propodial + epipodial longer'
+			'manus longer'
+			,
+		59
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			,
+		60
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			,
+		61
+			'longer than wide'
+			'wider than long'
+			,
+		62
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			,
+		63
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			,
+		64
+			'nearly equal'
+			'radius much larger than ulna'
+			,
+		65
+			'absent'
+			'preaxially present'
+			,
+		66
+			'ulnare larger than intermedium'
+			'intermedium larger than ulnare'
+			'intermedium lost'
+			,
+		67
+			'present'
+			'absent'
+			,
+		68
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			'mc I not ossified'
+			,
+		69
+			'present'
+			'absent'
+			,
+		70
+			'complete or nearly complete'
+			'absent'
+			'mc V not ossified'
+			,
+		71
+			'complete'
+			'largely reduced or notch'
+			'absent'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'present'
+			'absent'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'absent'
+			'present'
+			,
+		77
+			'five or less'
+			'seven or more'
+			,
+		78
+			'present'
+			'absent'
+			,
+		79
+			'nearly equal or hind longer'
+			'forelimb longer but less than twice as hindlimb'
+			'forelimb longer twice as much as hindlimb'
+			,
+		80
+			'with thick shaft'
+			'plate-like'
+			'narrow and styloidal'
+			,
+		81
+			'present'
+			'absent'
+			,
+		82
+			'absent'
+			'one median opening'
+			'two openings, being medially separated'
+			,
+		83
+			'complete'
+			'absent'
+			'present only medially'
+			'present medially and laterally'
+			,
+		84
+			'completely enclosed in pubis'
+			'mostly in pubis but open on one side'
+			'part of obturator fossa'
+			'no foramen between the ischium and pubis'
+			,
+		85
+			'plate-like'
+			'styloidal'
+			,
+		86
+			'nearly equal or ischium slightly larger than pubis'
+			'pubis twice as large as ischium'
+			,
+		87
+			'plate-like'
+			'styloidal'
+			,
+		88
+			'in contact or closely placed with each other'
+			'widely separated from each other'
+			,
+		89
+			'present'
+			'absent'
+			,
+		90
+			'longer than wide'
+			'wider than long'
+			,
+		91
+			'complete or nearly complete'
+			'absent'
+			,
+		92
+			'complete or nearly complete'
+			'notch or largely reduced'
+			'absent'
+			,
+		93
+			'not fixed, fibula being mobile relative to femur'
+			'much posterior to femur'
+			'about the same level as femur'
+			,
+		94
+			'separate from axis'
+			'fused with axis'
+			,
+		95
+			'30 or less'
+			'between 40 and 50'
+			'55 or more'
+			,
+		96
+			'absent'
+			'present'
+			,
+		97
+			'cylindrical'
+			'discoidal'
+			,
+		98
+			'gradual decrease'
+			'increase'
+			'sudden decrease'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'absent'
+			'present, at least near pelvic girdle'
+			,
+		101
+			'confluent with anterior facet in at least some centra'
+			'not confluent in any of the centra'
+			,
+		102
+			'normal'
+			'narrow, high, and straight'
+			,
+		103
+			'absent'
+			'present'
+			,
+		104
+			'two, distinguishable'
+			'not distinguishable'
+			,
+		105
+			'present'
+			'absent'
+			,
+	;
+	MATRIX
+	'Petrolacosaurus'           0000000000000000000000000000?00000?000000000000000000000000000000000000000000000000000000000000000000000?
+	'Utatsusaurus'              0100000011100100010110010011???10001101000000000101110000000000001010100010001000110000000001011000000100
+	'Grippia'                   0100000011101100010???0100?????10?0111110001?0001?1110100100000001020100010001????100???????????0?11?0??0
+	'Parvinatator'              ?10?0??0??1????????????1???????????11000????????1?????0?000000000?010?00010011???????????????????????????
+	'Chaohusaurus'              ?????00??1????????0???11?21????101?1(0 1)1?1???100001011101?0100000001020100?100?11????0000000001?1100???01?0
+	'Cymbospondylus'            010101011(0 1)1(0 1)1(1 2)0(0 1)02(0 1)1?0(0 1)102(0 1)1??0100010000?(0 1 2)01?10010111(0 1)(0 1)00?000(1 2)000???01????00?1?111100000?00010211010001?0
+	'Mixosaurus'                11010001111112021011??(0 1)1??1???1101?(0 1)(0 2)1(0 1)00001(1 2)0001011101001(0 1)002000102010001001111?110010000001?11111101110
+	'Phalarodon'                110(0 1)000111111202101111110211???1??01(0 2)(0 2)00?1011000?????????????????????????????????1100100000010??1101?11??
+	'Xinminosaurus'             ??????????????????????????????????0?21?1?????0???????0???100010000100100010001?????????0?0001?21??????1??
+	'Besanosaurus'              ?00???????1????????????????????1???100???????0002??1110??1110220????1????????1?11??10000??001?2?101?0???1
+	'Shastasaurus'              ?????001111?1111??1??1?10211?01????1?0?????1?0112??111000?111211???????????????????10???????????1?1??0???
+	'Shonisaurus'               0???(0 1)????????????????????????01???0100??220?20112??111000?2002010??3????0100??111?110000?1001?2?1010?????
+	'Callawayia'                ?1(0 1)?010111101211102??????????011000?000?0?1??2112??1?(0 1)(0 1)?01(1 2)112(1 2)11(1 2)(0 1)31?10010011?1111200001000202?1010000??
+	'Guizhouichthyosaurus'      01000101111011111?1?1?01?20????1?0?10?????1??0?????????????????????????????0???1??????????????2110???01??
+	'Californosaurus'           ????????????????????????????????????0????????0003??2210???1001001113?????1???1?101?2000??0001?1112??10?1?
+	'Toretocnemus'              ???????????????????????1???????1???100000?1?????2??210??0?10020011131210010011?2?110000010002??????1?????
+	'Qianichthyosaurus'         110?0001111?11?11??1???1??1??011010?00?????????????2200?01100100(0 1)1131?10010011?21?10000010012?1?1?11?0???
+	'Hudsonelpidia'             ????????????????????????0????????0?????????????????2201?012(1 2)12(1 2)001?31121010011?20?12100?00011???1????1???
+	'Macgowania'                20?1???11?11???????????10??????100?1000000???2103?12200?011(1 2)12(1 2)011131111010011???????????????????????0???
+	'Suevoleviathan'            (0 2)0(0 1)101?1111110111011??110????01100?1000??0???210301220100122122011131121110011110212101011112?11121110?11
+	'Temnodontosaurus'          2011011111111(0 1)111(0 1)1111110201001100110000001122103012201001(1 2)21220011312(1 2)0010011121222101(0 1)11112111121?10?1?
+	'Leptonectes'               20(0 1)100(0 1)11111100110211111120??01101?100(0 1)0001122103012201001(1 2)(1 2)(0 1)2(1 2)0(0 1)11311200100112212(2 3)2101111112111121110?1?
+	'Excalibosaurus'            ?0?10??11?11?0?????????11??????111?100100011?210301220100112122011131220010011?????2??????????111??1?????
+	'Eurhinosaurus'             20110?011111?0?010?1??111????01111?10010001122103012201001221220110311200100111212(1 2)2101111112111121110?1?
+	'Ichthyosaurus'             20110(0 1)011111101110211111020100110011000000112210301220000122122000(0 1)311210100112212(1 2)210101112211112111(0 1)(0 1)11
+	'Stenopterygius'            20(0 1)10(0 1)(0 1)111111011102111110201?01100?1000000112210301220100112122011031121110011221232101011112111121110(0 1)11
+	'Brachypterygius'           20110??11?11?0????????1?0???111000?100000011221????220010122122001031121011(0 1)11???????????????1??1?110????
+	'Ophthalmosaurus'           20010101111110101021111102011110001100?000112210301220011122122001031121011011221232101011122111121110?1?
+	'Aegirosaurus'              201?010111111?01??21??110????1?000??????????2??????22001012212200103112101101122?033101011122?111????0???
+	'Caypullisaurus'            20110?????111?????2???110?0??1?000??????????22103??220011122122001031121011111??????1??0?012211?1??1?0???
+	'Platypterygius'            2(0 1)(0 1)101(0 1)1111120111021111102011110000100000011??10(2 3)??22001(0 1)12212200(0 1)031121011111???????????????1111211?0???
+	'Maiaspondylus'             2???????????????????????????????????00?????????????220010????22???0?11?1?1???1??????????????????10???????
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-105;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -881080109; FileSettings treewindow '1' '1' '106' '1'; Singles 010; Editor 00011011111111100100010010 '0' '72' Gadget '12' '162' '1' all; EditorPosition '46' '6' '665' '1003'; TreeWindowPosition '46' '6' '1131' '1870'; ListWindow Characters open Gadget '12' '50' '25' '270' '565' 000; ListWindow Taxa closed Geneva '9' '50' '25' '209' '303' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '1118' '1860'; StateNamesSymbols open Gadget '12' '22' '99' '1054' '407' '466'; WindowOrder Tree List Characters States; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '905' '1775' '253' '85'; TreeLegendPosition '1058' '1677' '100' '93'; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '1016' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000111; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Petrolacosaurus, 2 Utatsusaurus, 3 Grippia, 4 Parvinatator, 5 Chaohusaurus, 6 Cymbospondylus, 7 Mixosaurus, 8 Phalarodon, 9 Xinminosaurus, 10 Besanosaurus, 11 Shastasaurus, 12 Shonisaurus, 13 Callawayia, 14 Guizhouichthyosaurus, 15 Californosaurus, 16 Toretocnemus, 17 Qianichthyosaurus, 18 Hudsonelpidia, 19 Macgowania, 20 Suevoleviathan, 21 Temnodontosaurus, 22 Leptonectes, 23 Excalibosaurus, 24 Eurhinosaurus, 25 Ichthyosaurus, 26 Stenopterygius, 27 Brachypterygius, 28 Ophthalmosaurus, 29 Aegirosaurus, 30 Caypullisaurus, 31 Platypterygius, 32 Maiaspondylus ; TREE * UNTITLED = [&R] (2,(4,((9,(3,5)),(6,((7,8),((10,(12,(11,(13,14)))),(16,(17,(15,(19,(18,(20,(21,((22,(23,24)),(26,(25,(27,(28,(29,(30,(31,32))))))))))))))))))))); 
+ENDBLOCK;

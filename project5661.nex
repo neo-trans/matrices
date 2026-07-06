@@ -1,0 +1,355 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.40.32 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=21;
+	TAXLABELS
+		'Psittacosaurus mongoliensis'
+		'Stenopelix valdensis'
+		'Wannanosaurus yansiensis'
+		'Goyocephale lattimorei'
+		'Homalocephale calathocercos'
+		'Tylocephale gilmorei'
+		'Prenocephale prenes'
+		'Yaverlandia bitholus'
+		'Ornatotholus browni'
+		'Pachycephalosauridae indet.'
+		'Stegoceras edmontonense'
+		'Stegoceras breve'
+		'Stegoceras sternbergi'
+		'Stegoceras lambei'
+		'Stegoceras validum'
+		'Gravitholus albertae'
+		'Stegoceras ucmp 130051'
+		'Stygimoloch spinifer'
+		'Pachycephalosaurus wyomingensis'
+		'Sphaerotholus goodwini'
+		'Sphaerotholus buchholtzae'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Sacral rib length'
+		[2] 'Scapular blade, distal width'
+		[3] 'Preacetabular process, shape of distal end'
+		[4] 'Frontal and parietal thickness'
+		[5] 'Arched premaxilla-maxilla diastema, dentary canine'
+		[6] 'Postorbital-squamosal bar, form'
+		[7] 'Squamosal exposure on occiput'
+		[8] 'Supraorbital bones 1 and 2'
+		[9] 'Humeral length'
+		[10] 'Humeral shaft form'
+		[11] 'Deltopectoral crest development'
+		[12] 'Fibular mid-shaft diameter'
+		[13] 'Postorbital-parietal contact'
+		[14] 'Postorbital-jugal bar, shape'
+		[15] 'Angular tubercle row'
+		[16] 'Basal tubera, shape'
+		[17] 'Zygapophyseal articulations, form'
+		[18] 'Ossified interwoven tendons'
+		[19] 'Sternal shape'
+		[20] 'Iliac blade, lateral deflection of preacetabular process'
+		[21] 'Iliac blade, medial tab'
+		[22] 'Parietal septum, form'
+		[23] 'Quadratojugal ventral margin, length'
+		[24] 'Pterygoquadrate rami, posterior projection of ventral margin'
+		[25] 'Prootic-basisphenoid plate'
+		[26] 'Iliac blade, position of medial tab'
+		[27] 'Iliac blade, medial flange on postacetabular process'
+		[28] 'Ischial pubic peduncle, shape'
+		[29] 'Pubic body'
+		[30] 'Parietal-squamosal position relative to occiput'
+		[31] 'Jugal-quadrate contact'
+		[32] 'Quadratojugal fossa'
+		[33] 'Grooves in frontal'
+		[34] 'Dome shape'
+		[35] 'Parietosquamosal shelf nodes'
+		[36] 'Parietosquamosal shelf nodes - 2'
+		[37] 'Parietosquamosal shelf in caudal view (viewed perpendicular to shelf)'
+		[38] 'Corner node of parietosquamosal shelf'
+		[39] 'Nodes on caudal margin of parietosquamosal shelf'
+		[40] 'Roof of temporal chamber (in adult)'
+		[41] 'Roof of temporal chamber'
+		[42] 'Nasofrontal boss'
+		[43] 'Postorbital dorsal margin relative to supraorbital 2'
+		[44] 'Parietals'
+		[45] 'Occipital plate medial depression'
+		[46] 'Epaxial muscle attachment scars on ventrocaudal margin of paroccipital process, caudal view'
+		[47] 'Epaxial muscle attachment scars on ventrocaudal margin of paroccipital process'
+		[48] 'Parietosquamosal bar'
+		[49] 'Parietosquamosal bar - 2'
+		[50] 'Skull'
+		[51] 'Dome'
+		[52] 'Rostral nodes'
+		[53] 'Rostral nodes - 2'
+		[54] 'Location'
+	;
+	STATELABELS
+		1
+			'subrectangular'
+			'strap-shaped'
+			,
+		2
+			'broad'
+			'narrow'
+			,
+		3
+			'tapered'
+			'expanded'
+			,
+		4
+			'thin'
+			'thick'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'bar-shaped'
+			'broad, flattened'
+			,
+		7
+			'restricted'
+			'broad'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'more than 50% of femoral length'
+			'less than 50% of femoral length'
+			,
+		10
+			'straight'
+			'bowed'
+			,
+		11
+			'strong'
+			'rudimentary'
+			,
+		12
+			'1/4 or more, mid-shaft diameter of tibia'
+			'1/5 or less, mid-shaft diameter of tibia'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'narrow'
+			'broad'
+			,
+		15
+			'absent'
+			'present'
+			,
+		16
+			'knob-shaped'
+			'plate-shaped'
+			,
+		17
+			'flat'
+			'grooved'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'plate-shaped'
+			'shafted'
+			,
+		20
+			'weak'
+			'marked'
+			,
+		21
+			'absent'
+			'present'
+			,
+		22
+			'narrow and smooth'
+			'broad and rugose'
+			,
+		23
+			'moderate'
+			'very short'
+			,
+		24
+			'weak'
+			'pronounced'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'absent'
+			'above acetabulum'
+			'on postacetabular process'
+			,
+		27
+			'absent'
+			'present'
+			,
+		28
+			'transversely flattened'
+			'dorsoventrally flattened'
+			,
+		29
+			'substantial'
+			'reduced'
+			,
+		30
+			'dorsal'
+			'caudodorsal'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'present'
+			,
+		33
+			'absent'
+			'present'
+			,
+		34
+			'dome absent'
+			'distinctly pear-shaped in dorsal view'
+			'ovoid in dorsal view'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'in more than two rows'
+			'in a single row, sometimes accompanied by ventrolateral corner nodes'
+			,
+		37
+			'horizontal or slopes at a shallow ventrolateral angle'
+			'slopes at a steep ventrolateral angle'
+			,
+		38
+			'absent'
+			'at ventral margin'
+			'above ventral margin'
+			,
+		39
+			'absent'
+			'small'
+			'large'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'horizontal'
+			'inclined dorsocaudally'
+			,
+		42
+			'absent'
+			'low'
+			'high and strongly convex'
+			,
+		43
+			'supraorbital 2 absent'
+			'at same level'
+			'extends dorsal to supraorbital 2'
+			,
+		44
+			'widely exposed between squamosals in caudal view, sometimes capturing parietosquamosal nodes'
+			'restricted to narrow band or not exposed'
+			,
+		45
+			'shallow'
+			'deep'
+			,
+		46
+			'absent or indistinct'
+			'distinct'
+			,
+		47
+			'absent or indistinct'
+			'broad extending from ventrocaudal margin of paroccipital process and including region above foramen magnum'
+			'restricted to area dorsolateral to foramen magnum'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'maintains approximately the same depth laterally'
+			'deepens laterally'
+			'shallows laterally'
+			,
+		50
+			'relatively short, rostrum has a convex profile and occiput has a short overhang'
+			'relatively long, rostrum has a concave dorsal profile and occiput has a long overhang'
+			,
+		51
+			'absent'
+			'present, caudal margin blends with parietosquamosal shelf along a curve'
+			'caudal margin perpendicular to shelf'
+			,
+		52
+			'absent'
+			'present'
+			'hypertrophied'
+			,
+		53
+			'absent'
+			'continue from the supraorbital shelf onto the dorsolateral margin of the rostrum'
+			'cover the dorsal surface of rostrum'
+			,
+		54
+			'Europe/Asia'
+			'western North America'
+			,
+	;
+	MATRIX
+	'Psittacosaurus mongoliensis'          000000000000000000000000000000000000000000000000000000
+	'Stenopelix valdensis'                 111?????00?0?????0?00????0000????????????????????????0
+	'Wannanosaurus yansiensis'             ???11111111100?00????0???????0???00000?00??0???1??0??0
+	'Goyocephale lattimorei'               1?111111111?1111011110??100??0??0011001000100111100110
+	'Homalocephale calathocercos'          1?11?111???1111?11111111111110000011001000110111100??0
+	'Tylocephale gilmorei'                 ???1?111????1111?????11??????1110212011121111??1101??0
+	'Prenocephale prenes'                  1?111111????11?111?11111111111110212021121111021201110
+	'Yaverlandia bitholus'                 ???1?1?0????1???????????????????00???????00???????0??0
+	'Ornatotholus browni'                  ???1???1????1????????1???????1??00?????11010?????00??1
+	'Pachycephalosauridae indet.'          ???1?111????1????????1???????1???2?????12????????01??1
+	'Stegoceras edmontonense'              ???1???1????1????????1???????1??021???112110???1?01??1
+	'Stegoceras breve'                     ???1???1????1????????1???????1??121?1?111110???1?01??1
+	'Stegoceras sternbergi'                ???1???1????1????????1???????1??11?????11220???1?02??1
+	'Stegoceras lambei'                    ???1???1????1????????1???????1??11?????11220???1?02??1
+	'Stegoceras validum'                   ?11111111111111111111111111111001112001112200111202001
+	'Gravitholus albertae'                 ???1???1????1????????1???????1??11?????112?0???1?02??1
+	'Stegoceras ucmp 130051'               ???1?111????1????????1???????1??1100000112200??1102??1
+	'Stygimoloch spinifer'                 ???1??11????1????????1???????1??0211??2121111????11221
+	'Pachycephalosaurus wyomingensis'      ???1?111????11???????11??????11002111?2121101001111221
+	'Sphaerotholus goodwini'               ???1?111????11?1?????1??1????1??0212111121111021301??1
+	'Sphaerotholus buchholtzae'            ???1?111????1????????1???????1??0212111121101??1301??1
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-54;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -967187616; FileSettings '1' '1' '55' '0'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '46' '6' '614' '715'; TreeWindowPosition '99' '655' '723' '974'; ListWindow Characters open Gadget '12' '56' '692' '253' '321' 000; ListWindow Taxa closed Geneva '9' '50' '10' '273' '335' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols closed Gadget '12' '9' '273' '1144' '186' '220'; WindowOrder List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '660' '556' '115' '165'; TreeToolsPosition '576' '6' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Psittacosaurus_mongoliensis, 2 Stenopelix_valdensis, 3 Wannanosaurus_yansiensis, 4 Goyocephale_lattimorei, 5 Homalocephale_calathocercos, 6 Tylocephale_gilmorei, 7 Prenocephale_prenes, 8 Yaverlandia_bitholus, 9 Ornatotholus_browni, 10 Pachycephalosauridae_indet., 11 Stegoceras_edmontonense, 12 Stegoceras_breve, 13 Stegoceras_sternbergi, 14 Stegoceras_lambei, 15 Stegoceras_validum, 16 Gravitholus_albertae, 17 'Stegoceras <UCMP_130051>', 18 Stygimoloch_spinifer, 19 Pachycephalosaurus_wyomingensis, 20 Sphaerotholus_goodwini, 21 Sphaerotholus_buchholtzae ; TREE * Published = [&R] (1,(2,(8,(3,(4,(5,(9,((12,(17,(13,(14,(15,16))))),(((6,7),(10,11)),((18,19),(20,21))))))))))); 
+ENDBLOCK;

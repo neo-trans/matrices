@@ -1,0 +1,420 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.06.57 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=43;
+	TAXLABELS
+		'Carinatacaris scaphoptera'
+		'Dithryocaris oceani'
+		'Dithryocaris oculeus'
+		'Echinocaris auricula'
+		'Echinocaris beecheri'
+		'Echinocaris castorensis'
+		'Echinocaris clarkii'
+		'Echinocaris condylepis'
+		'Echinocaris consanguina'
+		'Echinocaris crosbyensis'
+		'Echinocaris hunanensis'
+		'Echinocaris multinodosa'
+		'Echinocaris multispinosis'
+		'Echinocaris ohioensis'
+		'Echinocaris randallii'
+		'Echinocaris socialis'
+		'Echinocaris sublaevis'
+		'Echinocaris turgida'
+		'Echinocaris whidbornei'
+		'Eleutherocaris whitfieldi'
+		'Elymocaris capsella'
+		'Elymocaris siliqua'
+		'Herbertocaris wideneri'
+		'Kerfornecaris roscanvelensis'
+		'Montecaris lehmannii'
+		'Montecaris strunensis'
+		'Nahecaris bipennis'
+		'Nahecaris stuertzi'
+		'Ohiocaris wycoffi'
+		'Paraechinocaris punctata'
+		'Pephricaris horriplata'
+		'Ptychocaris novaki'
+		'Rhinocaris columbina'
+		'Rhinocaris ehlersi'
+		'Rhinocaris veneris'
+		'Tropidocaris alternata'
+		'Tropidocaris bicarinata'
+		'Tropidocaris britannica'
+		'Tropidocaris interrupta'
+		'Tropidocaris salsiusculus'
+		'Aristozoe memoranda'
+		'Ceratiocaris praecedens'
+		'Ceratiocaris solenoides'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Anterior horn of carapace'
+		[2] 'Surface ornamentation of the carapace'
+		[3] 'Placement of striae'
+		[4] 'Striations of carapace'
+		[5] 'Rim of carapace margin'
+		[6] 'Overall shape of the carapace'
+		[7] 'Length to depth ratio of carapace'
+		[8] 'Tuberculation of posterior portion of carapace'
+		[9] 'Posterior margin of the carapace'
+		[10] 'Posteroventral spine'
+		[11] 'Posterodorsal spine'
+		[12] 'Nodes along the dorsal hinge'
+		[13] 'Anteriodorsal region'
+		[14] 'Boundary of the anteriodorsal region'
+		[15] 'Separation of nodes in the anteriodorsal region'
+		[16] 'Anterior tubercle (optic node)'
+		[17] 'Number of well-defined anterior nodes'
+		[18] 'Tubercles of anterior nodes'
+		[19] 'Centroventral lobe'
+		[20] 'Tubercles of centroventral lobe'
+		[21] 'Number of tubercles on dorsal lobe'
+		[22] 'Tuberculation of carapace margin'
+		[23] 'Cephalic carina'
+		[24] 'Nuchal carina'
+		[25] 'Lateral ridge located centrally on carapace (central ridge)'
+		[26] 'Appearance of central ridge'
+		[27] 'Shape of central ridge'
+		[28] 'Length of central ridge'
+		[29] 'Extent of central ridge'
+		[30] 'Central ridge extending anterior to centroventral region'
+		[31] 'Lateral ridge located 2/3 between ventral and dorsal edges of the carapace (dorsocentral ridge)'
+		[32] 'Appearance of dorsocentral ridge'
+		[33] 'Extent of dorsocentral ridge'
+		[34] 'Dorsocentral ridge extending to posterodorsal lobe'
+		[35] 'Dorsal ridge (present near the hinge line)'
+		[36] 'Appearance of dorsal ridge'
+		[37] 'Extent of dorsal ridge'
+		[38] 'Dorsal ridge extending to posterodorsal lobe'
+		[39] 'Ventral ridge (located between central ridge and ventral edge of carapace)'
+		[40] 'Shape of rostrum'
+		[41] 'Carina of rostrum'
+		[42] 'Length of hinge line'
+		[43] 'Median dorsal plate'
+		[44] 'Width of the median dorsal plate'
+		[45] 'Median carina of median dorsal plate'
+		[46] 'Ornamentation of median dorsal plate other than median carina'
+		[47] 'Surface of the abdominal segments'
+		[48] 'Tubercles in defined rows on abdominal segments'
+		[49] 'Lateral spines of the abdominal segments'
+		[50] 'Striations of the abdominal segments'
+		[51] 'Relative lengths of telson and furcal rami'
+		[52] 'Furcal rami'
+		[53] 'Lateral spines of the telson'
+		[54] 'Surface ornamentation of the telson'
+	;
+	STATELABELS
+		1
+			'acuminate'
+			'rounded'
+			'absent'
+			,
+		2
+			'fine striae parallel to carapace margin'
+			'fine striae oblique to carapace margin'
+			'striae absent'
+			,
+		3
+			'ventral and dorsal portions of carapace'
+			'ventral portion of carapace only'
+			'striae absent'
+			,
+		4
+			'parallel'
+			'anastomosing'
+			'absent'
+			,
+		5
+			'plain'
+			'keel'
+			'true doublure'
+			,
+		6
+			'subovate, elliptical'
+			'subquadrate'
+			'ovate'
+			,
+		7
+			'narrow (>2.0)'
+			'intermediate (1.5-1.8)'
+			'deep (1.2-1.4)'
+			,
+		8
+			'not tuberculate'
+			'sparsely or weakly tuberculate'
+			'densely tuberculate'
+			,
+		9
+			'sinuous'
+			'linear'
+			'convex'
+			,
+		10
+			'absent'
+			'present'
+			,
+		11
+			'absent'
+			'present'
+			,
+		12
+			'3, small and evenly spaced along the length of the carapace'
+			'absent'
+			'3, clustered in the anterior region of the carapace'
+			,
+		13
+			'no marked difference in convexity'
+			'markedly increased convexity'
+			,
+		14
+			'broadly defined'
+			'defined by distinct grooves'
+			,
+		15
+			'not well differentiated'
+			'defined by distinct grooves'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'none'
+			'one to three'
+			'five'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'none'
+			'one to four'
+			'many'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'absent'
+			'present'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			'reduced'
+			,
+		26
+			'absent'
+			'smooth or punctate'
+			'tuberculate'
+			,
+		27
+			'absent'
+			'linear'
+			'sigmoid'
+			'sinuous (with pronounced v in center)'
+			,
+		28
+			'short (0-30 percent of carapace)'
+			'intermediate (40-70 percent of carapace)'
+			'long (75-100 percent or more of carapace)'
+			,
+		29
+			'absent'
+			'present only in the posterior region of the carapace'
+			'present only in anterior region of the carapace'
+			'present in both the anterior and posterior region of the carapace'
+			,
+		30
+			'no'
+			'yes'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'absent'
+			'smooth or punctate'
+			'tuberculate'
+			,
+		33
+			'absent'
+			'present only in the posterior region of the carapace'
+			'present only in anterior region of the carapace'
+			'present in both the anterior and posterior region of the carapace'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'absent'
+			'present'
+			,
+		36
+			'absent'
+			'smooth or punctate'
+			'tuberculate'
+			,
+		37
+			'absent'
+			'present only in the posterior region of the carapace'
+			'present in both the anterior and posterior region of the carapace'
+			,
+		38
+			'absent'
+			'present'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'ovate'
+			'lanceolate'
+			'absent'
+			,
+		41
+			'absent'
+			'one, median'
+			'two, lateral'
+			,
+		42
+			'long (90-100 percent carapace length)'
+			'short (60-80 percent carapace length)'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'narrow (10-20 percent length)'
+			'broad (30-40 percent length)'
+			,
+		45
+			'absent'
+			'present but smooth or punctate'
+			'present with a row of spines or tubercles'
+			,
+		46
+			'absent'
+			'chevron shaped lineations'
+			,
+		47
+			'smooth'
+			'tuberculate'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'present'
+			'absent'
+			,
+		51
+			'telson longer'
+			'equal length'
+			'furcal rami longer'
+			,
+		52
+			'thin and rod-like'
+			'broad and spatulate'
+			'absent'
+			,
+		53
+			'absent'
+			'present'
+			'State not mentioned in the article'
+			,
+		54
+			'none'
+			'tubercles'
+			'lineations in a chevron pattern'
+			,
+	;
+	MATRIX
+	'Carinatacaris scaphoptera'         0101210011?10001000000101112310000000001?0111?????????
+	'Dithryocaris oceani'               022221001111000100000000111231000000000??011??????212?
+	'Dithryocaris oculeus'              010121001111000100000000111231000000000010111100002102
+	'Echinocaris auricula'              222210102002011021111100112131121011100201000000012000
+	'Echinocaris beecheri'              22221002200201102111210012213112101210020100001111????
+	'Echinocaris castorensis'           222210102002011021101100113131(0 1)110111002010000????2000
+	'Echinocaris clarkii'               2222101(1 2)2002011021111100122110121?121002010000100120??
+	'Echinocaris condylepis'            2222101020020110211010001121310000121002010000????????
+	'Echinocaris consanguina'           22221011200201102110100012(2 3)1310000110002010000????????
+	'Echinocaris crosbyensis'           2222102220020110211121001221310000121002010000????????
+	'Echinocaris hunanensis'            2222101020020110211010001121310000121002010000????????
+	'Echinocaris multinodosa'           22221012200201102111210012211000001210020100001001????
+	'Echinocaris multispinosis'         222210?220020110211121001221??0000121102010000????????
+	'Echinocaris ohioensis'             2222100220020110211121001(1 2)21100001121102010000????????
+	'Echinocaris randallii'             2222101020020110211121001231311211121102010000????????
+	'Echinocaris socialis'              222210112002011021112100122110121012110201000011012000
+	'Echinocaris sublaevis'             222210122002011021111100112110121012110201000011112000
+	'Echinocaris turgida'               2222102120020110211121001231310000111002010000????????
+	'Echinocaris whidbornei'            222210112002011021111100122110121012110201000010012000
+	'Eleutherocaris whitfieldi'         2222(1 2)11001020010211110001120210000000002000000????2111
+	'Elymocaris capsella'               100(0 1)20001001100100000000?00000000000000??0111?????????
+	'Elymocaris siliqua'                1(0 2)(1 2)(0 2)1100000110011010000000000000000000012111110001?100
+	'Herbertocaris wideneri'            010121001??100010000000011123100000000011011210000?102
+	'Kerfornecaris roscanvelensis'      ?00011000011101010100?001121100000000002000000????????
+	'Montecaris lehmannii'              222221101102011021102000111131000000000200000000112111
+	'Montecaris strunensis'             222221111102011021101000111131000000000200000000??2111
+	'Nahecaris bipennis'                0(0 1)0(0 1)21001?01000100000000?12231000000000??0????00002102
+	'Nahecaris stuertzi'                0(0 1)0(0 1)2(0 1)(0 1)01001000000000000112231000000000010111100002102
+	'Ohiocaris wycoffi'                 1???222?2001000000000000000000000000000?01121?0001????
+	'Paraechinocaris punctata'          2222101?20020110211(0 1)1100112231000000000201000010111000
+	'Pephricaris horriplata'            1???222?2001000010000000000000000000000201000000112100
+	'Ptychocaris novaki'                2000101000011010101000001121100000000002000000????????
+	'Rhinocaris columbina'              101020000(0 1)01000000000000200001000000000??0111?00002102
+	'Rhinocaris ehlersi'                101020000101000000000000211231000000000100111100002102
+	'Rhinocaris veneris'                0(0 1)002?001111000?00000000?00000000000000??0111?????????
+	'Tropidocaris alternata'            0???210?1101100100100011111231113011201??01???????????
+	'Tropidocaris bicarinata'           000(0 1)210010011001101000111112310000112001201111?0000102
+	'Tropidocaris britannica'           000021001101100110100000111231000000000??011??0000????
+	'Tropidocaris interrupta'           02222100???1100110100011111231113011?01??01???????????
+	'Tropidocaris salsiusculus'         000021001001100110100000111231000000000??01???00000102
+	'Aristozoe memoranda'               122210102002011020000000001000000000000??0000000010210
+	'Ceratiocaris praecedens'           00000(0 1)000000000000000000000000000000000??0000000000000
+	'Ceratiocaris solenoides'           00000(0 1)000000000100000000000000000000000000000000000010
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-54;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845295793; FileSettings '1' '1' '55' '1'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '52' '597' '733' '595'; TreeWindowPosition '71' '480' '843' '1390'; ListWindow Characters closed Gadget '12' '70' '45' '372' '321' 000; ListWindow Taxa closed Gadget '12' '50' '10' '661' '355' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '134' '185' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '9' '44' '759' '186' '325'; WindowOrder States; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '643' '813' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1100111; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 0; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXSET Outgroup = 41-43; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Carinatacaris_scaphoptera, 2 Dithryocaris_oceani, 3 Dithryocaris_oculeus, 4 Echinocaris_auricula, 5 Echinocaris_beecheri, 6 Echinocaris_castorensis, 7 Echinocaris_clarkii, 8 Echinocaris_condylepis, 9 Echinocaris_consanguina, 10 Echinocaris_crosbyensis, 11 Echinocaris_hunanensis, 12 Echinocaris_multinodosa, 13 Echinocaris_multispinosis, 14 Echinocaris_ohioensis, 15 Echinocaris_randallii, 16 Echinocaris_socialis, 17 Echinocaris_sublaevis, 18 Echinocaris_turgida, 19 Echinocaris_whidbornei, 20 Eleutherocaris_whitfieldi, 21 Elymocaris_capsella, 22 Elymocaris_siliqua, 23 Herbertocaris_wideneri, 24 Kerfornecaris_roscanvelensis, 25 Montecaris_lehmannii, 26 Montecaris_strunensis, 27 Nahecaris_bipennis, 28 Nahecaris_stuertzi, 29 Ohiocaris_wycoffi, 30 Paraechinocaris_punctata, 31 Pephricaris_horriplata, 32 Ptychocaris_novaki, 33 Rhinocaris_columbina, 34 Rhinocaris_ehlersi, 35 Rhinocaris_veneris, 36 Tropidocaris_alternata, 37 Tropidocaris_bicarinata, 38 Tropidocaris_britannica, 39 Tropidocaris_interrupta, 40 Tropidocaris_salsiusculus, 41 Aristozoe_memoranda, 42 Ceratiocaris_praecedens, 43 Ceratiocaris_solenoides ; TREE Figure_1 = [&R] (42,(43,((29,31),((21,22),(((35,(33,(34,(37,(40,(38,(36,39))))))),(((27,28),(2,3)),(1,23))),(41,((24,32),(((20,(25,26)),30),(9,((11,8),(6,(4,((7,(19,(16,17))),(15,(5,((10,18),(12,(13,14)))))))))))))))))); TREE Better_than_1... = [&R] (42,(43,(((29,31),((21,22),(35,(33,(34,((38,40,(37,(36,39))),(1,23,((27,28),(2,3))))))))),((24,32),(41,((30,(20,(25,26))),(9,((11,8),(6,(4,((7,(19,(16,17))),(15,(5,((10,18),(12,(13,14)))))))))))))))); TREE Strat_Rooted_1 = [&R] ((((((42,43),(29,31)),(21,22)),((35,(33,(34,(37,(40,(38,(36,39))))))),(((27,28),(2,3)),(1,23)))),((24,32),(((20,(25,26)),30),(9,((11,8),(6,(4,((7,(19,(16,17))),(15,(5,((10,18),(12,(13,14))))))))))))),41); TREE Strat_Roote_2 = [&R] (42,(43,(((29,31),((21,22),(35,(33,(34,(((38,40),(37,(36,39))),((1,23),((27,28),(2,3))))))))),((24,32),((30,(20,(25,26))),(9,((11,8),(6,(4,((7,(19,(16,17))),(15,(5,((10,18),(12,(13,14))))))))))))))); TREE * Ingroup_Strat_Rooted = [&R] ((27,28),((2,3),((1,23),(((38,40),(37,(36,39))),(34,(33,(35,((21,22),(29,(31,((24,32),((20,(25,26)),(30,(9,((11,8),(6,(4,((7,(19,(16,17))),(15,(5,((10,18),(12,(13,14))))))))))))))))))))))); 
+ENDBLOCK;

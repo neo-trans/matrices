@@ -1,0 +1,1367 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.07.07 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=93;
+	TAXLABELS
+		'Doliodus'
+		'Pucapampella'
+		'Cobelodus'
+		'Chimaera'
+		'Hydrolagus'
+		'Chondrenchelys'
+		'Cladoselache'
+		'Debeerius'
+		'Gutturensis'
+		'Helodus'
+		'Iniopera'
+		'Kawichthys'
+		'Diplodoselache'
+		'Orthacanthus'
+		'Triodus'
+		'Tamiobatis'
+		'Dracopristis'
+		'Cladodoides'
+		'Tristychius'
+		'Acronemus'
+		'Thrinacoselache'
+		'Phoebodus'
+		'Hamiltonichthys'
+		'H.hauff'
+		'Egertonodus'
+		'Asteracanthus'
+		'Onychoselache'
+		'SMNS96844-7'
+		'SMNS80142-44'
+		'Chlamydoselachus'
+		'Heptranchias'
+		'Hexanchus'
+		'Notorhynchus'
+		'Notidanoides'
+		'Pseudorhina'
+		'Squatina'
+		'Pliotrema'
+		'Pristiophorus'
+		'Protospinax'
+		'Dalatias'
+		'Deania'
+		'Etmopterus'
+		'Oxynotus'
+		'Squalus'
+		'Zameus'
+		'Paracestracion'
+		'Heterodontus'
+		'Parascyllium'
+		'Ginglymostoma'
+		'Hemiscyllium'
+		'Brachaelurus'
+		'Orectolobus'
+		'Scyliorhinus'
+		'Mustelus'
+		'Rhizoprionodon'
+		'Carcharhinus'
+		'Sphyrna'
+		'Hemipristis'
+		'Pseudocarcharias'
+		'Odontaspis'
+		'Isurus'
+		'Carcharodon'
+		'Ptychodus'
+		'Squalicorax'
+		'Cretoxyrhina'
+		'Raja'
+		'Bathyraja'
+		'Cyclobatis'
+		'Narcine'
+		'Torpedo'
+		'Hypnos'
+		'Narke'
+		'Tingitanius'
+		'Platyrhina'
+		'Platyrhinoidis'
+		'Glaucostegus'
+		'Pristis'
+		'Rhynchobatus'
+		'Rhina'
+		'Rhinobatos'
+		'Hexatrygon'
+		'Gymnura'
+		'Potamotrygon'
+		'Heliobatis'
+		'Asterotrygon'
+		'Aptychotrema'
+		'Trygonorrhina'
+		'Zapteryx'
+		'Rhinoptera'
+		'Mobula'
+		'Spathobatis'
+		'Belemnobatis'
+		'Kimmerobatis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=211;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		[1] 'Sup Rostral cartilage'
+		[2] 'Sub Rostral cartilage'
+		[3] 'Sub Rostral cartilage - 2'
+		[4] 'Internasal plate'
+		[5] 'Sup Rostral processes'
+		[6] 'Sub Rostral processes'
+		[7] 'Rostral appendix'
+		[8] 'Elongate tooth bearing pre nasal ethmo rostral region'
+		[9] 'Ethmoidal region of neurocranium down curved'
+		[10] 'Rostral passage of superficial ophthalmic nerve'
+		[11] 'Trigeminofacial complex'
+		[12] 'Precerebral fontanelle'
+		[13] 'Sup precerebral fossa'
+		[14] 'Sub precerebral fossa'
+		[15] 'Nasal capsules'
+		[16] 'Nasal capsule margin anterior process'
+		[17] 'Nasal caps separated from orbital'
+		[18] 'Anterior preorbital foramen'
+		[19] 'Preorbital process nasal capsules'
+		[20] 'Sclerotic ring'
+		[21] 'Interorbital space'
+		[22] 'Optic pedicel'
+		[23] 'Antorbital process'
+		[24] 'Subnasal fenestra'
+		[25] 'Sup Epiphyseal foramen'
+		[26] 'Sub Epiphyseal foramen'
+		[27] 'Supraotic shelf'
+		[28] 'Sup Supraorbital crest'
+		[29] 'Sub supraorbital crest Preorbital process'
+		[30] 'Occipital crest'
+		[31] 'Sup Basicranial processes'
+		[32] 'Sub Basicranial processes position'
+		[33] 'Postorbital process'
+		[34] 'Triangular process'
+		[35] 'Lateral commissure'
+		[36] 'Jugular canal diameter'
+		[37] 'Hyomandibular fossa'
+		[38] 'Hyomandibular fossa - 2'
+		[39] 'Concavity ventral to hyomandibular fossa'
+		[40] 'Dorsal otic ridge'
+		[41] 'Lateral otic process'
+		[42] 'Postotic process'
+		[43] 'Jugal arch'
+		[44] 'Stapedial arch'
+		[45] 'Entrance of internal carotids'
+		[46] 'Canal for dorsal aorta and or lateral dorsal aorta'
+		[47] 'Dorsal aorta divides into lateral dorsal aortae'
+		[48] 'Basal angle of the neurocranium'
+		[49] 'Metotic otic occipital fissure'
+		[50] 'Space for forebrain and at least proximal portion of olfactory tracts narrow and elongate extending between orbits'
+		[51] 'Orbitonasal lamina expanded'
+		[52] 'Ophthalmic foramen in anterodorsal extremity of orbit communicates with enclosed cranial space'
+		[53] 'Orbit vs otic capsule'
+		[54] 'Orbital artery foramen'
+		[55] 'Canal likely for trigeminal nerve V mandibular ramus passes through the postorbital process from proximal dorsal entry to distal and ventral exit'
+		[56] 'Trigemino facial recess'
+		[57] 'Periotic process'
+		[58] 'Sub otic occipital fossa'
+		[59] 'Otic capsule extends posterolaterally relative to occipital arch'
+		[60] 'Endocranial roof anterior to otic capsules domelike smoothly convex dorsally and anteriorly'
+		[61] 'Roof of skeletal cavity for cerebellum and mesencephalon significantly higher than dorsal most level of semicircular canals'
+		[62] 'Labyrinth cavity separated from the main neurocranial cavity by'
+		[63] 'Sinus superior'
+		[64] 'External opening for endolymphatic ducts'
+		[65] 'Sup Endolymphatic fossa'
+		[66] 'Sub Endolymphatic fossa elongate slot shaped dividing dorsal otic ridge along midline'
+		[67] 'Perilymphatic fossa'
+		[68] 'Hypotic lamina'
+		[69] 'Glossopharyngeal nerve path'
+		[70] 'Glossopharyngeal and vagus nerves share common exit from neurocranium'
+		[71] 'Basicranial morphology'
+		[72] 'Ventral portion of occipital arch wedged between rear of otic capsules'
+		[73] 'Dorsal portion of occipital arch wedged between otic capsules'
+		[74] 'Antimeres of upper and lower jaws'
+		[75] 'Sup Craniopalatine articulation'
+		[76] 'Sub Craniopalatine articulation articulation type'
+		[77] 'Sub Craniopalatine articulation'
+		[78] 'Jaw articulation located on rearmost extremity of mandible'
+		[79] 'Postorbital articulation'
+		[80] 'Oblique ridge or groove along medial face of palatoquadrate'
+		[81] 'Large otic process of the palatoquadrate'
+		[82] 'Meckels cartilage'
+		[83] 'Winglike process on Meckels cartilage'
+		[84] 'Sustentaculum'
+		[85] 'Quadratomandibularis process'
+		[86] 'Dental trough adjacent to oral rim on Meckel s cartilage and palatoquadrate'
+		[87] 'Dental trough divided  scalloped tooth bearing margin on Meckel s cartilage and palatoquadrate'
+		[88] 'Gill skeleton position'
+		[89] 'Spiracularis'
+		[90] 'Coracohyomandibularis'
+		[91] 'Hyoid arch'
+		[92] 'Sup Ceratohyal'
+		[93] 'Sub Ceratohyal spatulate or bladed anteriorly'
+		[94] 'Sub Ceratohyal with broad posteroventral flange or shelf projecting laterally into recess'
+		[95] 'Small cartilages associated with hyomandibular Meckelian ligament'
+		[96] 'Medial section of hyomandibula'
+		[97] 'Hypohyals'
+		[98] 'Pseudohyal'
+		[99] 'Sup Basihyal'
+		[100] 'Sub Basihyal'
+		[101] 'Sup Segemented basibranchial'
+		[102] 'Sub Segemented basibranchial Series'
+		[103] 'Second to last Hypobranchials direction'
+		[104] 'Hypobranchials basibranchial relation'
+		[105] 'First hypobranchial basihyal'
+		[106] 'Hypobranchial bar'
+		[107] 'Pharyngobranchial blade'
+		[108] 'Bifurcate ceratobranchials'
+		[109] 'Last ceratobranchial'
+		[110] 'Posteriormost elements of dorsal gill arches'
+		[111] 'Branchial electric organs'
+		[112] 'Sup Coracohyoideus'
+		[113] 'Sub Coracohyoideus'
+		[114] 'Labial cartilages'
+		[115] 'Fin base articulation on scapulocoracoid'
+		[116] 'Biserial pectoral fin endoskeleton'
+		[117] 'Ventral antimers of scapulocoracoid'
+		[118] 'Paired fin rays'
+		[119] 'Radial calcification'
+		[120] 'Scapular process scapula'
+		[121] 'Scapular process'
+		[122] 'Scapular process - 2'
+		[123] 'Scapular posteror process'
+		[124] 'Sup Suprascapulae'
+		[125] 'Suprascapular cartilages'
+		[126] 'Sub Suprascapulae Articulation'
+		[127] 'Sub Fused medially Sup Interacts with axials skeleton'
+		[128] 'Sub Interacts with axials skeleton'
+		[129] 'Pectoral basal elements'
+		[130] 'Metapterigium'
+		[131] 'Mesopterigyum'
+		[132] 'Sup Propterygium'
+		[133] 'Sub Propterygium extending anteriorly'
+		[134] 'Sub Propterygium radials'
+		[135] 'Pectoral articulation'
+		[136] 'Independet metacondyle'
+		[137] 'Pectoral fin radials'
+		[138] 'Pectoral fin with interradial connections cross braces'
+		[139] 'Pelvic girdle'
+		[140] 'Lateral prepelvic process'
+		[141] 'Pelvic basals'
+		[142] 'Postpelvic processes'
+		[143] 'Posterior margin of puboischiadic bar'
+		[144] 'Posterior process of the coracoid'
+		[145] 'Metapterygial whip'
+		[146] 'Sup Reduced number of cartilages between pelvic basipterygium and clasper'
+		[147] 'Sub Reduced number of cartilages between pelvic basipterygium and clasper T3'
+		[148] 'Extended dorso and Ventral terminal cartilages'
+		[149] 'Sup Chordacentra'
+		[150] 'Sub Chordacentra polyspondylous and consist of narrow closely packed rings'
+		[151] 'Sup Calcified vertebral centra'
+		[152] 'Sub Calcified vertebral centra Primary calcification'
+		[153] 'Sub Calcified vertebral centra Secondary calcification'
+		[154] 'Cervical vertebra'
+		[155] 'Second synarcual'
+		[156] 'Occipital Hemicentrum'
+		[157] 'Caudal vertebrae'
+		[158] 'Lateral stays'
+		[159] 'Hemal arch'
+		[160] 'Sup Supraneurals'
+		[161] 'Sub Supraneurals Platelike supraneurals'
+		[162] 'Vertebral ribs'
+		[163] 'Pleural ribs'
+		[164] 'Arcualia dorsalis'
+		[165] 'Number of dorsal'
+		[166] 'Dorsal fin'
+		[167] 'Dorsal fin endoskeleton basal'
+		[168] 'Caudal fin'
+		[169] 'Caudal lower lobe'
+		[170] 'Procoracoid mineralisation'
+		[171] 'Posterior dorsal fin with delta shaped cartilage'
+		[172] 'Cephalic lobes'
+		[173] 'Upper eyelid'
+		[174] 'Nictitating eyelid'
+		[175] 'Nostrils'
+		[176] 'Anterior nasal lobe'
+		[177] 'Anterior nasal lobe - 2'
+		[178] 'Nasal curtain fringes'
+		[179] 'Infraorbital loop of suborbital and infraorbital canals'
+		[180] 'Subpleural loop of the hyomandibular canal'
+		[181] 'Sup Abdominal canal on coracoid bar'
+		[182] 'Sub Abdominal canal on coracoid bar'
+		[183] 'Scapular loops of scapular canals'
+		[184] 'Cephalic lateral line canals on ventral surface'
+		[185] 'Sup Cephalic spines'
+		[186] 'Sub Cephalic spines Trilobed cephalic spine base'
+		[187] 'Sub Cephalic spines Number of pairs'
+		[188] 'Sub Cephalic spines Multicuspid'
+		[189] 'Placoid scales'
+		[190] 'Malar and alar thornes'
+		[191] 'Lateral rostral dermal denticles'
+		[192] 'Sup Dorsal fin spines'
+		[193] 'Dorsal Cephalic spines'
+		[194] 'Sub Dorsal fin spines Vascularization'
+		[195] 'Sub Dorsal fin spines posterior denticles'
+		[196] 'Sub Dorsal fin spines Fin spines ornamentation'
+		[197] 'Dorsal fin spine apex curved posteriorly'
+		[198] 'Serrated tail sting'
+		[199] 'Enameloid structure'
+		[200] 'Ligual torus'
+		[201] 'Differentiated lateral uvulae on teeth'
+		[202] 'Crown dentine'
+		[203] 'Sup Basal furrows on root'
+		[204] 'Sub Basal furrows on root Compression'
+		[205] 'Teeth with distal heel'
+		[206] 'Labial root depression'
+		[207] 'Root dentine'
+		[208] 'Teeth with three slim main cusps almost equal to each other strongly recurved'
+		[209] 'Toothplates'
+		[210] 'Tubular dentine'
+		[211] 'Scapular process - 3'
+	;
+	STATELABELS
+		1
+			'arise from the medial area of the trabecula only'
+			'medial area of the trabecula and lamina orbitonasalis'
+			,
+		2
+			'well developed rostral plate with various degrees of contribution from the lamina orbitonasalis'
+			'reaches the tip of the snout carried by the growth of the pectoral fin'
+			'reaches the tip of the snout growth of lamina orbitonasalis to support the cephalic fins'
+			,
+		3
+			'trough like rostrum'
+			'tripodal rostral cartilage no rostral node'
+			'tripodal rostral cartilage with a rostral node'
+			'greatly reduced to medial bar'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'absent'
+			'present'
+			,
+		6
+			'articulated with nasal capsule'
+			'continuous with chondrocranium'
+			'articulates with ventral aspect of rostral cartilage'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'absent'
+			'present'
+			,
+		10
+			'covered'
+			'open'
+			,
+		11
+			'exits neurocranium through prootic foramen'
+			'separate foramen for superficial ophthalmic nerve'
+			'separate foramen for superficial ophthalmic nerve with prootic foramen and foramen for the hyomandibular branch of facialis hmVII in anteromedial position'
+			'separate foramen for superficial ophthalmic nerve with prootic foramen and foramen for hmVII going through the subocular shelf'
+			'separate foramen for superficial ophthalmic nerve with prootic foramen and foramen for hmVII in posteromedial position'
+			'three separate foramina foramen for hmVII in anteromedial position'
+			'single foramina for the whole complex'
+			'three separate foramina foramen for hmVII in posteromedial position'
+			,
+		12
+			'absent'
+			'present'
+			,
+		13
+			'absent'
+			'present'
+			,
+		14
+			'circular or ovoid concavity'
+			'extending anteriorly roofed to form a tube'
+			'triangular'
+			,
+		15
+			'laterally expanded'
+			'ventro laterally expanded'
+			'anteriorly expanded'
+			'trumpet like'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'dorsally located'
+			'anterior located'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'absent'
+			'present'
+			,
+		21
+			'broad'
+			'narrow'
+			,
+		22
+			'absent'
+			'present'
+			,
+		23
+			'membranous'
+			'mineralization of the antorbital process in the presence of the ectethmoid process'
+			'mineralized in absence of an ectethmoid process antorbital cartilages triangular shaped with regular outline lateral articulation'
+			'antorbital cartilages variously shaped and with an irregular outline lateral articulation'
+			'antorbital cartilages variously shaped and with an irregular outline anterolateral articulation'
+			'antorbital cartilages triangular shaped with regular outline anterolateral articulation'
+			'antorbital cartilages triangular shaped with regular outline postero lateral articulation'
+			'antorbital cartilages triangular shaped with regular outline postero lateral articulation anterior process'
+			,
+		24
+			'absent'
+			'present'
+			,
+		25
+			'absent'
+			'present'
+			,
+		26
+			'narrow'
+			'expanded'
+			,
+		27
+			'narrow'
+			'broad'
+			,
+		28
+			'absent'
+			'present'
+			,
+		29
+			'absent'
+			'present'
+			,
+		30
+			'absent'
+			'present separated from the brain cavity by the otico occipital fissure'
+			'present but with otico occipital fissure absent'
+			,
+		31
+			'absent'
+			'present'
+			,
+		32
+			'Suborbital shelf'
+			'Basitrabecular process'
+			,
+		33
+			'foming part of the arcade'
+			'archade united C bout notch separates postorbital process from supraotic shelf'
+			'separated from arcade'
+			'separated from archade C bout notch separates postorbital process from supraotic shelf'
+			'narrow filamentous'
+			'reduced'
+			'shelflike laterally expanded'
+			'shelflike antero ventrally expanded'
+			,
+		34
+			'absent'
+			'present'
+			,
+		35
+			'Forms part of the postorbital arcade'
+			'absent lack of spiracular cartilages and hyoid arch with not supporting connection with the mandibular arch'
+			'lateral commissure is not fully chondrified not enclosing the foramen prooticum'
+			'reduced'
+			'continuous and strong enclosing the foramen prooticum'
+			'narrow and situated behind the foramen prooticum in close relation to the hyomandibular fossa'
+			,
+		36
+			'small'
+			'large'
+			'canal absent'
+			,
+		37
+			'posterior part of the otic region'
+			'anteriorily situated in the otic region'
+			,
+		38
+			'not composed of two horizontally divided cavities'
+			'fossa with cavities as such'
+			'lateral commissure is not fully chondrified not enclosing the foramen prooticum'
+			'reduced'
+			'continuous and strong enclosing the foramen prooticum'
+			'narrow and situated behind the foramen prooticum in close relation to the hyomandibular fossa'
+			,
+		39
+			'absent'
+			'present'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'absent'
+			'present'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'absent'
+			'present'
+			,
+		45
+			'through a common opening at the central midline of the basicranium'
+			'through separate openings flanking the hypophyseal opening or recess'
+			,
+		46
+			'runs inside the neurocranium'
+			'runs external no groove and enters brain'
+			'runs externally and does not enter the brain directly'
+			'runs external has a groove and enters brain'
+			,
+		47
+			'posterior to occipital level'
+			'anterior to  level of the occiput'
+			,
+		48
+			'absent'
+			'present'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'absent'
+			'present'
+			,
+		52
+			'absent'
+			'present'
+			,
+		53
+			'orbit smaller than otic capsule'
+			'obit larger than otic capsule'
+			,
+		54
+			'absent'
+			'present'
+			,
+		55
+			'absent'
+			'present'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'absent'
+			'present'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'absent'
+			'present'
+			,
+		61
+			'absent'
+			'present'
+			,
+		62
+			'cartilaginous or ossified capsular wall'
+			'skeletal medial capsular wall absent'
+			,
+		63
+			'absent or indistinguishable from union of anterior and posterior canals'
+			'present elongate and nearly vertical'
+			,
+		64
+			'posterior to crus commune'
+			'anterior to crus commune'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'absent'
+			'present'
+			,
+		67
+			'un calcified'
+			'separate opening form the endolypmphatic fenestra'
+			'common opening with the endolypmphatic fenestra'
+			'posterior to the anterior pair of small rounded endolymphatic foramina'
+			,
+		68
+			'absent'
+			'present'
+			,
+		69
+			'directed posteriorly and exits through metotic fissure or foramen in posteroventral wall of otic capsule'
+			'exits laterally through a canal contained ventrally floored by the hypotic lamina'
+			'exits through a foramen anterior to the posterior ampulla'
+			,
+		70
+			'absent'
+			'present'
+			,
+		71
+			'platybasic'
+			'tropibasic'
+			,
+		72
+			'absent'
+			'present'
+			,
+		73
+			'absent'
+			'present'
+			,
+		74
+			'separated'
+			'fused'
+			,
+		75
+			'absent'
+			'present'
+			,
+		76
+			'fused'
+			'articulated'
+			,
+		77
+			'ethmoidal'
+			'orbitostylic'
+			'both'
+			'grooved in ethmoidal region'
+			,
+		78
+			'absent'
+			'present'
+			,
+		79
+			'absent'
+			'lateral'
+			'dorsal'
+			,
+		80
+			'absent'
+			'present'
+			,
+		81
+			'absent'
+			'present'
+			'forming a quadrate flange'
+			,
+		82
+			'not expanded medially'
+			'expanded medially'
+			,
+		83
+			'absent'
+			'present'
+			,
+		84
+			'absent'
+			'present'
+			,
+		85
+			'absent'
+			'present'
+			,
+		86
+			'absent'
+			'present'
+			,
+		87
+			'absent'
+			'present'
+			,
+		88
+			'posterior to the occipital region'
+			'partly beneath otico occipital regions'
+			,
+		89
+			'undivided'
+			'divided'
+			,
+		90
+			'single orgin'
+			'separate origins'
+			,
+		91
+			'reduced'
+			'massive, holding the mandibular arch from behind'
+			'composed of reduced ventral parts (ceratohyal missing) and developed hyomandibula, the latter suspending the lower jaw directly'
+			'similar to second state, but the articulation between the hyomandibula and mandible is interrupted by a ligament'
+			'postorbital articulations non suspensory'
+			'postorbital articulations suspensory'
+			,
+		92
+			'absent'
+			'present'
+			,
+		93
+			'absent'
+			'present'
+			,
+		94
+			'contacts Meckel s cartilage only anteriorly'
+			'with broad posteroventral flange or shelf projecting laterally into recess behind Meckel s cartilage'
+			'expanded posteriorly with a flange projecting laterally and posteriorly fitting the posterior edge of the Meckel s cartilage'
+			,
+		95
+			'absent'
+			'present'
+			,
+		96
+			'narrow'
+			'expanded'
+			,
+		97
+			'absent'
+			'present'
+			,
+		98
+			'absent'
+			'present'
+			,
+		99
+			'absent'
+			'present'
+			,
+		100
+			'as long as broad'
+			'elongated'
+			'basihyal very thin connected to ceratohyal'
+			'basihyal very thin no ceratohyal'
+			'reduced'
+			,
+		101
+			'absent'
+			'present'
+			,
+		102
+			'anterior'
+			'posterior'
+			'both'
+			,
+		103
+			'not directed towards midline'
+			'midline directed'
+			,
+		104
+			'articulated'
+			'fused'
+			,
+		105
+			'separated'
+			'fused'
+			'segmented'
+			,
+		106
+			'absent'
+			'present'
+			,
+		107
+			'absent'
+			'present'
+			,
+		108
+			'absent'
+			'present'
+			,
+		109
+			'free of scapulocoracoid'
+			'articulates with scapulocoracoid'
+			,
+		110
+			'not completely fused'
+			'completely fused gill pickaxe'
+			,
+		111
+			'absent'
+			'present'
+			,
+		112
+			'absent'
+			'present'
+			,
+		113
+			'parallel to body axis'
+			'short'
+			'diagonal'
+			'fused'
+			,
+		114
+			'absent'
+			'present'
+			,
+		115
+			'stenobasal, deeper than wide'
+			'eurybasal,  wider than deep'
+			,
+		116
+			'absent'
+			'present'
+			,
+		117
+			'separated'
+			'fused'
+			,
+		118
+			'aplesodic'
+			'plesodic'
+			,
+		119
+			'clustal'
+			'catenated (two chains)'
+			'catenated (four chains)'
+			,
+		120
+			'fused'
+			'articulated'
+			,
+		121
+			'short and dorsally directed'
+			'long U curved'
+			'short postero dorsally directed'
+			,
+		122
+			'without fossa'
+			'with fossal'
+			,
+		123
+			'absent'
+			'posterodorsal triangular process of scapula'
+			'both dorsal and ventral triangular processes present'
+			'posteroventral triangular process of scapula'
+			,
+		124
+			'absent'
+			'present'
+			,
+		125
+			'absent'
+			'present'
+			,
+		126
+			'curved'
+			'crenated'
+			'ball socket'
+			,
+		127
+			'absent'
+			'present'
+			,
+		128
+			'articulates with vertebral column'
+			'fused medially to synarcual'
+			'fused medially and laterally to synarcual'
+			,
+		129
+			'large basal element'
+			'multiple free radials articulating directly and a metapterygium'
+			'two main cartilages propterygium and metapterygium'
+			'tribasal pectoral fin'
+			'all three basal elements fused'
+			'propterygium and mesopterygium fused'
+			,
+		130
+			'pectinated'
+			'rectangular'
+			'tampering distally and articulating with multiple axis cartilages'
+			'rectangular articulated to a massive axial cartilage'
+			'elongated with a broad distal end to which the pectoral radials'
+			'proximally segmented, with a broad distal end to which the pectoral radials'
+			'elongated with multiple radials articulating across its entire outer surface'
+			'multiple segments'
+			,
+		131
+			'reduced'
+			'expanded of similar size as the propterygium'
+			'enlarged broader and larger than the propterygium'
+			'reduced (reduced, propterygium and metapterygium larger)'
+			,
+		132
+			'absent'
+			'present'
+			,
+		133
+			'rectangular and being the point of articulation for the rest of basal elements'
+			'narrow and reduced'
+			'enlarged similar size as the mesopterygium'
+			'broad and reduced'
+			'anteriorly expanded'
+			,
+		134
+			'articulating with radials'
+			'not contacting radials'
+			,
+		135
+			'facets'
+			'condyles'
+			'facets and condyles both'
+			,
+		136
+			'absent'
+			'present'
+			,
+		137
+			'articulate to pterygia'
+			'some articulate directly with scapulocoracoid'
+			,
+		138
+			'absent'
+			'present'
+			,
+		139
+			'separated'
+			'fused'
+			,
+		140
+			'absent'
+			'present'
+			,
+		141
+			'multiple radials articulated directly to the pelvic girdle the latest fussing into the baspterygium'
+			'two large basal cartilages'
+			'single large element'
+			,
+		142
+			'absent'
+			'present'
+			,
+		143
+			'straight or anteriorly directed'
+			'posteriorly directed'
+			,
+		144
+			'absent'
+			'present'
+			,
+		145
+			'absent'
+			'present'
+			,
+		146
+			'absent'
+			'present'
+			,
+		147
+			'not spinous'
+			'spinous'
+			'modified into the external mesorhipidion'
+			,
+		148
+			'absent'
+			'present'
+			,
+		149
+			'absent'
+			'present'
+			,
+		150
+			'absent'
+			'present'
+			,
+		151
+			'absent'
+			'present'
+			,
+		152
+			'restricted terminally'
+			'developed'
+			,
+		153
+			'absent'
+			'with endochordal radii radiating from the notochordal sheath'
+			'with developed solid medialia and diagonal calcified lamellae'
+			'compact mass'
+			,
+		154
+			'absent'
+			'present'
+			'fused, free vertebra in center reaching caudally to suprascapula'
+			'fused with free vetebra reaching caudal to suprascapula'
+			'fused, with free vertebra reaching rostraly from suprascapula'
+			,
+		155
+			'absent'
+			'present'
+			,
+		156
+			'absent'
+			'present'
+			'demineralize'
+			'fused'
+			,
+		157
+			'absent'
+			'diplospondylus'
+			'fused'
+			,
+		158
+			'absent'
+			'dorsally directed and free of medial crest,'
+			'laterally directed and free from medial crest'
+			'dorsally directed and fused to medial crest'
+			,
+		159
+			'not arched at anterior precaudal tail vertebrae'
+			'almost complete in the entire region of the precaudal tail'
+			,
+		160
+			'absent'
+			'present'
+			,
+		161
+			'enlarged at least in front of the second dorsal fin'
+			'also enlarged in the abdominal region'
+			,
+		162
+			'absent'
+			'present'
+			'reduced'
+			,
+		163
+			'absent'
+			'present'
+			,
+		164
+			'absent'
+			'present'
+			,
+		165
+			'one'
+			'two'
+			'reduced'
+			,
+		166
+			'aplesodic'
+			'plesodic'
+			,
+		167
+			'composed of a triangular or rectangular basal cartilage and radials separated from vertebral column'
+			'composed of a triangular or rectangular basal cartilage and radials close to vertebral column'
+			'radials only (no basal) parallel to each other'
+			'at least two large plates'
+			'small radials variously arranged no basa'
+			'elongate basal with radials'
+			,
+		168
+			'with a developed lower lobe to make a lunate form'
+			'heterocercal'
+			'reduced to the plesodic or tail folds'
+			'without any tail folds or finlet'
+			,
+		169
+			'without radials with radials'
+			'with radials with radials'
+			,
+		170
+			'absent'
+			'present'
+			,
+		171
+			'absent'
+			'present'
+			,
+		172
+			'absent'
+			'present'
+			,
+		173
+			'present'
+			'absent'
+			,
+		174
+			'absent'
+			'present'
+			,
+		175
+			'separated'
+			'close together'
+			,
+		176
+			'fails to reach mouth'
+			'reaches the mouth'
+			,
+		177
+			'fails to cover most of the medial half of the naris'
+			'well developed'
+			,
+		178
+			'absent'
+			'present'
+			,
+		179
+			'absent'
+			'present'
+			,
+		180
+			'broad rounded'
+			'loop forms a lateral hook'
+			'lateral aspects of subpleural loop are nearly parallel'
+			,
+		181
+			'absent'
+			'present'
+			,
+		182
+			'groove cephalic lateral line forms abdominal canal on coracoid bar'
+			'pores'
+			,
+		183
+			'absent'
+			'present'
+			,
+		184
+			'present'
+			'absent'
+			,
+		185
+			'absent'
+			'present'
+			,
+		186
+			'absent'
+			'present'
+			,
+		187
+			'one'
+			'two'
+			,
+		188
+			'not multiple cuspid'
+			'present and with multiple cuspids'
+			,
+		189
+			'scarce or absent'
+			'present'
+			,
+		190
+			'absent'
+			'present'
+			,
+		191
+			'absent'
+			'present'
+			,
+		192
+			'absent'
+			'present'
+			,
+		193
+			'absent'
+			'present'
+			,
+		194
+			'vascularize'
+			'unvascularize'
+			,
+		195
+			'absent'
+			'present'
+			,
+		196
+			'absent'
+			'present'
+			,
+		197
+			'absent'
+			'present'
+			,
+		198
+			'absent'
+			'present'
+			,
+		199
+			'?SCE Single Crystallite Enameloid'
+			'?RBE Radial Bundled Enameloid with PBE ?Parallel Bundled Enameloid'
+			,
+		200
+			'absent'
+			'present'
+			,
+		201
+			'absent'
+			'present'
+			,
+		202
+			'orthodentine'
+			'osteodentine'
+			'pseudoostedentine ortho osteodentine'
+			,
+		203
+			'absent'
+			'present'
+			,
+		204
+			'absent'
+			'present'
+			,
+		205
+			'absent'
+			'present'
+			,
+		206
+			'absent'
+			'present'
+			,
+		207
+			'osteodentine'
+			'orthodentine'
+			,
+		208
+			'absent'
+			'present'
+			,
+		209
+			'absent'
+			'present'
+			,
+		210
+			'absent'
+			'present'
+			,
+		211
+			'wide'
+			'narrow'
+			,
+	;
+	MATRIX
+	'Doliodus'              0--10-000??10-00??0?0?100-010010010????000?000001?0000??000?????0-?1??000011301?1000?101????????001????????0??0???10100000?00---0--0--0-00?????00???0-0--0-00-???000?????0?0????????????0---000?0????0000?0-00?00??
+	'Pucapampella'          ???1?-00????????????01????0?????0?00???00??00000100?0?11000??1?00-?100000?11?01?1000000??????????????????????????0??????????????????????????????????0-0--0-00-???000???????0???????????????????????????????????00??
+	'Cobelodus'             0--10-00?0210-00??0101??0-0100100?01???0000011101?0?1110?00???1????10?1?00113010100001?1??011?00100-??0???00?00??010110000100---10-0--0-1000000010--0-0--0-00-???0000?201110????????????0---10000----00(0 1)000-0000000
+	'Chimaera'              0??10-00??30???????010????0100??5?12???00??0021001111100000011110-?000010?10-1--00000000???100??0?1???0????0?????001000000100---21-1010-0?0020000???110--0-00-???0001???0000??1?????????0??????101?00????????0?-110
+	'Hydrolagus'            0??10-11??30???????010????0100??5?12???00??0021001111100000011110-?000010?10-1--00000000???100??0?1???0????0?????101000000100---21?1010-0?00?0000???110--0-00-???0001???0000??1?????????0??????101?00??1?????0??110
+	'Chondrenchelys'        0???0-00???0???????0?0????0100??5?12???00??0?(1 2)?0011?11?0000?????0-????0?0?10-1--000000?0??????????????0????0?????001110000100---2?-1000-0?0010000???100--0-00-???0000???0000????????????0??????0--??-??0?????0?0110
+	'Cladoselache'          0??10-00???????????1??????010?????0????10??0001?1?0?11??1?0????????1????0011301010000111???10?????????1????0??????10110000100---10-0--0-1?0000000???0-0--0-00-???0001???1000????????????0??????10??01??1?????1?0001
+	'Debeerius'             0???0-00???0???????01?????0100????12???00??0?(1 2)?00?11?0??000?????0-????1?0011-1--00000100???10???1?1?1?0????0?????011100000100---2?-?????0?0010000???0-0--0-00-???0001???1000????????????0??????10??10??0?????0?0011
+	'Gutturensis'           ?????-00??????????????????0?????1?0????10??0????1?0?11????0?????0-??????0011-?1?10000?11???10?????????0??????????010??????1?????1??????????????01???0-0--0-00-???0001??????0???????????????????10??????1?????1?0000
+	'Helodus'               0??10-00???1???????00?????010???5?1-???00??0?(1 2)10011111-0000??1??0-?1??0?0110-1???0000000???10?????1????????0?????000100000100---21-1000-0?0010000???0-0--0-00-???0001???0000????????????0??????10??00??0?????0?011?
+	'Iniopera'              0??10-00???0????????00????010???0?00???00??0?(1 2)1000001?00000101100-?0200?0110-1???0000000???????????????????0?????000100000100---0-?0-???0?00100?0???0-0--0-00-???000????10?0????????????0??????00???-??0?????0?0000
+	'Kawichthys'            ???1?-0?????????????1?????0??0??0?00???00??0101?1?0?11?000?1?1110-??201??0113?1?00000??????????????????????0?????0??????????????????????????????????0-0--0-00-???000???????0????????????0???????0??????????????????
+	'Diplodoselache'        0-?1?-00??4????????0???????101???????????????0??10??0????????????????????011?0???000010?????????100-10?????0?????011110100100---3201101000001000????0-0--0-00-???0000?221?00????????????0---1001000100010?0-00?0001
+	'Orthacanthus'          0--10-0000410-0???00000?0-0101100?000??110?000011000011101000110110100011011000110000101??01??00101-1010???0??0??001110100100---320110100000100000--0-0--0-00-???01001221100????????????0---10001----0?10?0-00?0000
+	'Triodus'               0--10-000?410-00??000?0?0-010110000?0??110?0?00?100?0???0?000???110???011011001110000101??01??00101-10?????0?????001110100100---32?110100?0??00000--0-0--0-00-???01001221100????????????0---10001----0?10?0?00?0001
+	'Tamiobatis'            0??10-00??4?????????0?????0??1??0?00???11??0000?10000111010001?01101000110110?1?10000101????????????????????????????????????????????????????????????0-0--0-00-???000???????0????????????0???????0??????1???????00??
+	'Dracopristis'          0--10-0??0?110????0?0?0-0-010?1?00??1??100?0????00?????????00??????????1?0110?1110000??1??010?00100-??1???????0??0?01?0000100---330120100000100??0--0-0--0-00-???00010001?00????????????0---10010001?0?10?0-00????0
+	'Cladodoides'           ???1?-00????????????01????0??0??1?00???10??0000?10000111000001100--100011011??1?10000???????????????????????????????????????????????????????????????0-0--0-00-???000??????00????????????????????0??????1?????1?00??
+	'Tristychius'           0--10-000??10-20??00010???110010100001?101?0010?0000011100000000111100011011001100000101??1111000010??1????0??0??110100000100---24-1200-0000100000--0-0--0-00-???010100?0000????????????0---?001001100010?0-00?0001
+	'Acronemus'             ?????-?0??????????????????1??0??1?0????????0?10?0???????????????1?1100011011?01?00000?0?????????????????????????????1???????????????????????????????0-0--0-00-???000???????0????????????0??????10??0???0?????0??00?
+	'Thrinacoselache'       0???0-?1???????????0??????010?????0?????0??0????1?0?????00?????????????11011001?10000?01????????1??????????0??????101000??1???????????????0????00???100--0-00-???0002???0?-0????????????0???????0??????1?????1?1001
+	'Phoebodus'             0???0-?1????????????0?????0??0????0????10??0?00?100?0????00?01??1??10?011011?01000000?01???111????1????????0??????101??0????????????????????????0???0-0--0-00-???0001????000????????????0??????10???0??1?????1?100?
+	'Hamiltonichthys'       0--10-0000?10-00??000?00?-01001070?????00100???0000?????00000??????1???1101100?020000??1??????00????1010?0?0??0???10100000000---34112020000010?000--0-0--0-00-???0101?010000????????????1010100100110000020-0000001
+	'H.hauff'               0--10-0000510-00??0?00001-01001070000??00100030000??110?00?000?0113101?1?0112??0200001?1??110?000?10??1?0?00??0??110100000000---3411202000001000?0--0-0--0-00-???0101???0?00??0?????????11111001001100000?0-010??00
+	'Egertonodus'           0--10-000?510-00??00000010010010700000?001000300000011010000000011310101101120?020000101??11010?0010??????000?0??110100????00---??????????0?????00--0-0--0-00-???010????0000??0?????????1101?001001100000?0-010000?
+	'Asteracanthus'         0--10-000?51??00??0?0????????01070?????00??0?3??00???????0?000?01131???1?0112??0200001?1??11??0000????1????0??0??1?0100000100---3??120?0??001000????0-0--0-00-???0101??10?00??0?????????11111001001100000?0-01???01
+	'Onychoselache'         ??-10-000??10-?????00?0?0?01001?7??????001?0????000?????000?0????????????011?0?020000101???10?0??0????1???????0???10110000000---341120200000100000--0-0--0-00-???0101?010000????????????10001001001100000?0-00?0001
+	'SMNS96844-7'           ???00-?0???110000??00?????01001?20?????00??0????00000????0100???????????1011?0?1100001?1???10100001???10???00?0??????00000000---????????????10?10???0-1111-110?0-?0000210000????????????0---10000----010011000?0001
+	'SMNS80142-44'          ???00-?0???110?????0??????010?1?20?????00???????00000????0?00???????????1011?0?1100001?1???1??????????1????00?0??????0?000000---????????????10??0???0-1111-110?0??00?????000????????????????100??????????11000?0001
+	'Chlamydoselachus'      10000-0000011000000?01100-010211204?000001001100000010010010000?1011100110111001100001?10041010000111010000000010110100100000---3421312000101000?1100-1101-11000-10000410000000000000-000---10000----010000-0101001
+	'Heptranchias'          10000-10000110000000011110010211203?001001?01101000010010010000?1011100110111021100001?10051010000111010000000010110100000000---3?21310-0010100101100-1011-21010-10000510000000000000-000---10000----01002110000001
+	'Hexanchus'             10000-10000110000000011110010211303?001001101101000010010010000?1011100110111021100001?10051010000101010000000010110100000000---3521310-0010100101100-1001-21010-10000510000000000000-000---10000----01002110000001
+	'Notorhynchus'          10000-?000011000000001100-010211303?000001001101000010010010000?1011100110111021100001?10051?1000010101?000000010110100000?00---3521310-0010100101100-1001-11010-10000510000000000000-000---10000----01002110000001
+	'Notidanoides'          10?00-?0???11??????001????01??11?0??0??001?011??00001?01??1000?????11??110111021100001?1??51?10000????1????00?0??010100000000---352??????01??00?01100-1111-110?0-1000???000?????????????0---?0000----0100?1000?0001
+	'Pseudorhina'           10000-0000?11020?0000100?-11001120??0??001?0?1??00000?0???1000?????11??1101110000000?1?1??110?000010??1000000?0??110000000000---342140110010101?01??0-1101-110?1010010310000????????????0---10000----010000-0000001
+	'Squatina'              10000-0000011020000001000-110011204?000001000100000001010010000?1011100110111000000011?10011110000101010000001010110000000001---342130110010101101??0-1101-11011010010310000000100??0-??0---10000----010020-0000000
+	'Pliotrema'             10000-000101110-000001000-010211204?010001?0010000001?010?10000?1011100110111000000011?1001101000012111000000?010?10000000000---342130110?1??00101100-1101-21011110010310000000000??0-??0---10100----010000-00?0001
+	'Pristiophorus'         10000-000101110-000001000-010211204?01000110010000001?010010000?1011100110111000000011?100110?0000120-10000001010110000000000---342130110010100101100-1101-21011110010310000000000??0-??0---1010-----010000-0010001
+	'Protospinax'           10000-0000?1100000000100?-01021120?????001?0?10?00000?0?001?00?????110?110111000000011?1??110?000010??100?000?0??110000000000---3421301?0010100?01100-1101-11011010010110000????????????0---100101000010000-0010001
+	'Dalatias'              10000-00000110000000010110010211202?000001000101000001010010000?1021100110111000000011?10011010000101010010001010110000000000---4420--100010100101100-1101-11010-100101100000000000?0-000---10000----010020-1000000
+	'Deania'                10000-1000011000000001010-010211204?000001001101000011010010000?1011100110111000000011?10011010000100-10000001010110000000000---4420--100010100101100-1101-11010-100101100000000000?0-000---100101000010020-1000000
+	'Etmopterus'            10000-1000011000000001011-010?11202?0000010001010000??010010000?10?1100110111000000011?10011010000101010000001010110000000300---342130100010100101100-1101-11010-100101100000000000?0-000---100101000010000-(0 1)000000
+	'Oxynotus'              10000-0000011000000001000-110211204?000001000101000011010010000?1011100110111000000011?10011010000101010010001010110000000300---342130100010100101100-1101-11010-100101100000000000?0-000---100101000010000-10?0000
+	'Squalus'               10000-10000110000000010110110211202200000110010100001101001000001011100110111000000011010011010000101010000001010110000100000---342130200010100101100-1101-11011010010110000000000000-000---100101000010020-1000001
+	'Zameus'                10000-00007110000000010110010211202?000001000101000000010010000?1021100110111000000001?10011010000101010010001010110000000200---542130100010100?01100-1101-11010-100101100000000000?0-000---10010100?0100?0-10?0000
+	'Paracestracion'        10300-00100110?????0010??-?11?10?0?????00100?10?0000??0??01?00?????11??110110000000?01?1??11??0000????1????00?0????0000?00?00---?4213???0010100?01100-1101-110?0-100101??000????????????0---1001010000100?0-00?000?
+	'Heterodontus'          10300-0010011030100001000-?11010303?100001000100000011010010000?1011100110110000000001?10011010000101210001000010110000000001---342130100010100001100-1101-11000-10010110000000000000-000---1001010000100(1 2)0-00(0 1)0000
+	'Parascyllium'          10300-001??10-301000010?11?0-?10203?10?001?01100000010010010000?0-21100110110000000101?1??1101000010111000?10?0??110000100000---5420--100011100001???-11?1-110?1?10010210000??0000??????0---10000----0100?0-00?0?00
+	'Ginglymostoma'         10300-0000110-301000010011110010603?100001001100000011010010000?1011100110110000000101?10011020000101110001101010110000000101---5420--110010100001100-1111-11000-100102100000000000?0-000---10000----010020-0000000
+	'Hemiscyllium'          10300-0010110-301000010011111010603?100001100100000010010010000?1021100110110000000101?10011020000100-100011010??110000000001---5420--110010110001100-1111-11000-100102100000000000?0-000---10000----0100?0-0000001
+	'Brachaelurus'          10300-0010110-301000010011111010203?100001001100000000010010000?1021100110110000000111?1??110200001???10?011010???10000??0???---34213011001?1???01??0-1121-110???100102100000001????????0---10000----0100?0-0??0000
+	'Orectolobus'           10300-0000110-301000010010111010203?1??001?0110000000(0 1)010010000?1021100110110000000111?1??11020000100-100011010??110000000100---342130110011100001100-1121-11000-1001?2100000001000?0-000---10000----010020-0000000
+	'Scyliorhinus'          10100-0000110-00000001000-111010303?100001001100000011010010000?1011100110110000000011?10011110000100-100010010??010000000200---3421300000101000010-0-1121-11000-100102100000100000?0-000---10000----010000-0000001
+	'Mustelus'              10200-0000110-00000001000-011010403?100001001100000011010010000????1100110110000000001?100110100001010100010010??110000000200---3421200000101000010-0-1121-11000-100102100000100000?0-000---10000----010000-0000001
+	'Rhizoprionodon'        10200-0000110-00001001000-00-?10403?10000101110000001?010010000?101110011011000?000001?1001101?0001010100010010??010000000?00---3421300000101000012-0-1121-11000-200102100000100000?0-000---10000----010000-0000001
+	'Carcharhinus'          10200-0000110-00001001000-00-?10403?100001011100000001010010000?1021100110110000000001?100110100001010100010010??010010000100---3631300000101000012-0-1121-11000-200112100000100000?0-000---10000----010000-0000001
+	'Sphyrna'               10200-0000110-?0001001000-00-?10403?100001011100000011010010000?(0 1)021100110110000000001?100110100001010100010010??010010000000---3631300000101000012-0-1121-11000-200112100000100000?0-000---10000----010000-0000001
+	'Hemipristis'           10200?00001110000?1001000-00--10403?10000?00?1000000??010010000?10?11001101100??000001?10?1101?00010??100010010???100?0000?00---343130000010100001100-1111-110?0-20011210000010000000-000---10000----010020-0000001
+	'Pseudocarcharias'      10200-0000110-00100001000-01121020??10000101010000001?0?0010000?1021100110110001100001?100411100001010100010010??010000000000---362130000010100001100-1111-11000-200102100000000000?0-000---10000----010010-0000001
+	'Odontaspis'            10200-000?110-001?0001???-011?1020??10000101110000000?0?1010000?10?1100110110001100001?1001111000010101?0010010??010100000000---342130000010100001??0-1111-110?0-200102100000000000?0?000---10000----010010?0000000
+	'Isurus'                10200-0000110-00100001000-011210203?10000101110000000?010010000?1021100110110001100001?1001111000010101?0010010??010010000000---342130000000100001100-1111-11000-200112000000000000?0-000---10000----010010-0000000
+	'Carcharodon'           10200-0000110-001000010011011210203?10000101110000000?010010000?1021100110110001100001?1001111000010101?0010010??010010000000---342130000010100001100-1111-11000-200112000000000000?0-000---10000----010010-0000000
+	'Ptychodus'             ???0???????1??00???001???????2???0?????001???1??0000??0???1000??10?11??110110001100001?1??11??0000????1????00?0??110?10?00?00---34213???00??????01??0-1111-11000-?0011200000????????????0---10000----010010-0000000
+	'Squalicorax'           ???0???????10-00??0001??0-?1?????0?????001???1??0000??0?????00?????11??11011?0?1100001?1??11??00001???1????00?0???10?10??????????????????0??1???01??0-1111-110?0-?00112??000????????????0---10000----0100???00?0?0?
+	'Cretoxyrhina'          10100-0????10-00??0001??0-?1?????0?????001???1??0000??0?????00?????11??11011?0?1100001?1??11??000010??1?0??00?0????0??0??????????????????0??1???01??0-1111-110?0-?00112??000????????????0---10000----0100???00?0?0?
+	'Raja'                  10000-1010011000000001201001100-313?0000011011?0000010010010000?0-111001100--000000001?10020--0001130-111000110100100110000100113631401110111000010-0-11320311?11200111200001001110010000---11000----010000-0010001
+	'Bathyraja'             10000-1010011000000001201001100-213?0000011011?0000010010010000?0-111001100--000000001?10020--0001??0-111000110100100110000100113631401110111000010-0-11320311?112001??20000100111000-000---11000----010000-0010001
+	'Cyclobatis'            10000-0?1??10-000?0001200-?0-?0-20??0??001?0?1?00000?001?010000????11??1100--000000001?1??20--0101????111??01?0???10011000010011363140110011100001??0-11330311???2001????000????????????0---11000----0100?0-00?0?01
+	'Narcine'               1000120010011000000001501000-00-5-3?01?0010011?0000010010010000?10111001100--000000011?11020--0101140-100??01110-11011001001000-3731401100111110010?0-11320312?1110010?10000100010000-010---00000----010000-00?0001
+	'Torpedo'               10-01000110110100?0001400-00-00-5-3?0?00010001?0000010010010000?10211001100--000000001?11020--01010-0-10-0001110-01011001001000-373140110011111001??0-11320312?1110010110000101110000-010---00000----010000-0010001
+	'Hypnos'                10-010001?011010000001400-00-00-5-3?0?000100?1?0000000010010000?0-?11001100--000000001?11020--01010-0-10-0001010-01011001001000-373140110011111001??0-11320312?1110011?10000101110000-010---00000----010000-0010001
+	'Narke'                 10?01(0 1)0?1??110100?00015?11?0-?0-5-3?0??0010011?0000010010010000?10211001100--000000111?11021--01010-0-10-0?01?10-11011001001000-373140110011110001??0-11320312???1001???0000?01110000-010---00000----0100?0?00?0?01
+	'Tingitanius'           10001???1??112010??0012010?10?0-215????00110?1?000001001?01000?????11??1100--000000001?1??20--0001????1????01?0??0100??000010110??????11????????0???0-11320311???100??????00????????????0---10000----0101?0-00?0?01
+	'Platyrhina'            1000120010011201000001201001000-215?0?00011011?0000010010010000?0-111001100--000000011?10020--00010-0-10100011012110(0 1)10000010110363140110010110001??0-113203121111011?1100001000100011000---10000----010100-0010001
+	'Platyrhinoidis'        1000120010011201000001301101000-215?0?00011011?0000010010010000?10111001100--000000011?10020--00010-0-10100011012110(0 1)10000010110363140110010110001??0-11330312111101101100001000100011000---10000----010100-0010001
+	'Glaucostegus'          10000-1010011000010001701001000-215????00110?1?0000010010010000?10111001100--000000001?10020--00011?0?1010001100?010010000010110363140111010110001??0-1134031111110010?10000100000??1???0---10000----010?00-0010001
+	'Pristis'               10000-1010011100010001700-01000-315?0?00011001?0000000010010000?10111001100--000000001?10020--0001130-10100011011010010000010110363140111010100001??0-113203111111001??100001000100010000---10100----010100-0010001
+	'Rhynchobatus'          10000-1010011001010001701001000-315?01000110?1?0000010010010000?10111001100--000000011?10020--0001130-10100011010110010000010110363140111010100001??0-11340311111100101100001000000010000---10000----010100-0000001
+	'Rhina'                 10000-1010011001010001700-01000-315?0000011001?0000010010010000?10211001100--000000011?10020--0001130-10100011010110010000010110363140111010100001??0-113203111111001011000010001000?-000---10000----010100-0010001
+	'Rhinobatos'            10000-1010011000010001601001000-315?0000011001?0000010010010000?10111001100--000000011?10020--0001130-10100011010110010000010110363140111010110001??0-11340311111100102100001000000010000---10000----010100-0010001
+	'Hexatrygon'            ??-00-0010010-00000001201101000-305?0?000100?1?000001001?010000?10111001100--000000001?1??20--0001130-1000001?0??01001(1 2)000010212363140110010100001??0-11331311???2001??20000100000??0-?00---00000----110000-0010001
+	'Gymnura'               11-00-0010010-10000001201101100-315?0100010011?0000010010010000?0-111001100--000000001?1?120--0001110-11200011012010010000010212363140111110100001??0-113213210112002--3-000100110110-100---00000----110000-0010001
+	'Potamotrygon'          11-00-1010010-10000001201101100-305?0??0010011??000010010010000?10211001100--000010011?11120--1001140-112??01101001001(1 2)0000102123631401100101000010-0-113213210112002--2?000100111100-100---10000----110000-00?0001
+	'Heliobatis'            11-00-1?1??10-100?00012011?11?0-??5?0??001?0?1?00000?001?01000?????11??1100--000000001?1??20--1001????1????01?0???10012000010212363140110010100001??0-1133?3210112002--2?000????????????0---10000----1100?0-00?0?01
+	'Asterotrygon'          11-00-1?1??10-100?00012010?11?0-???????001?0?1?000001001?01000?????11??1100--000000001?1??20--?001?????????01?0???10012000010212363140110010100001??0-1133?3210112002????000????????????0---10000----1100?0-00?0?01
+	'Aptychotrema'          10000-1?10?110000100012010010?0-215????0011001?000001001?010000?10211001100--000000011?10?20--0001110-101??01?0??010010000010110363140111010100001??0-113203110111011??10000?000000011000---10000----0101?0-00?0?01
+	'Trygonorrhina'         10000-1?10?110000100012010?1??0-215????0011001?0000010010010000???211001100--000000011?10020--0001110-101??01?0100100100000101103631401110101?0001??0-113403110111011??10000?001100011000---10000----0101?0-00?0?01
+	'Zapteryx'              10000-1010011000010001201001000-215?00?0011001?0000010010010000?10211001100--000000011?10020--0001110-101??011010010010000010110363140111010110001??0-11340311111101101100001000100011000---10000----010100-00?0001
+	'Rhinoptera'            12-00-0010010-10010001201101000-605?0000010011?0000010010010000?0-111001110--000011001?11130--10010-0-11-00011013010010001010212363140111110100001??0-11321313?112000?33-001100111120-100---00000----110010-0000?01
+	'Mobula'                12-00-0010010-10010001201101000-605?0000010011?0000010010010000?0-111001110--000001001?1?120--10010-0-11-00011013010010001010212363140111110100001??0-11321313?112000113-001100111120-100---00000----1100(0 1)0-00(0 1)0001
+	'Spathobatis'           10000-10?0011000010001200-01000-20??0??00100?1?000001001?01000??10?11??1100--000000001?1??20--000113??100??01?0??010010000000---341120110010110001??0-1133031001010010?10000????????????0---1001010000100?0-00?0001
+	'Belemnobatis'          10000-00?00110000?0001200-01000-20??0??001?0?1?000001001?01000?????11??1100--000000001?1??20--000113??100??01?0???10010000000---341120110010110001??0-113303100101001??10000????????????0---1001010000100?0-00?0001
+	'Kimmerobatis'          10000-?0?00110000000012?0-01000-20??0??001?0?1??00001001?01000??1-?11??1100--000000?01?1??20--000?????1????01?0???10010000000---341120110010110001??0-113303100101001??1?000????????????0--?100?0????0100?0-00?0001
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-211;
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1732270565678; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8762961911691793847; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8567817490305186441; mqVersion 381; checksumv 0 3 974011934 null getNumChars 211 numChars 211 getNumTaxa 93 numTaxa 93 short true bits 255 states 255 sumSquaresStatesOnly 460143.0 sumSquares 460143.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState true false 207; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 14; getToolPalette; tell It; endTell; desuppress; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 211; 
+ENDBLOCK;

@@ -1,0 +1,200 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 05.20.16 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=20;
+	TAXLABELS
+		'Edmondia'
+		'Scaldia'
+		'Cardionwrpha'
+		'Grammysia'
+		'Grammysioidea'
+		'Pyramus'
+		'Megadesmus'
+		'Myonia'
+		'Australomya'
+		'Vacunella'
+		'Astartila'
+		'Pleurikodonta'
+		'Plesiocyprinella'
+		'Casterella'
+		'Itatamba'
+		'Ferrazia'
+		'Jacquesia'
+		'Roxoa'
+		'Cowperesia'
+		'Runnegariella'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Total length/anterior length proportion'
+		[2] 'Palial line'
+		[3] 'Umbonal elevator'
+		[4] '"a" muscle'
+		[5] '"b" muscle'
+		[6] '"ava"muscle'
+		[7] 'Pedal gape'
+		[8] 'Siphonal gape'
+		[9] 'Cardinal margin'
+		[10] 'Position of palial line relative to the adductor muscle scar'
+		[11] 'Mantle muscle scars'
+		[12] 'Cardinal tooth'
+		[13] 'Extension of the palial line'
+		[14] 'Valve arrangement'
+		[15] 'Ornamentation'
+		[16] 'Umbonal ridge'
+		[17] 'Cardinal plicae'
+		[18] 'Pedal and visceral muscle scars'
+		[19] 'Arrangement of adductor/retractor muscles'
+		[20] 'Ventral margin'
+		[21] 'Ventral margin - 2'
+		[22] 'Burrowing'
+		[23] 'Burrowing rate'
+		[24] 'Thermic affinities'
+	;
+	STATELABELS
+		1
+			'anteriorlry elongated, 1.0-1.5'
+			'symmetrical to posteriorly elongated, 2.0-9.0'
+			'extremely elongated posteriorly, 13.0-20.0'
+			,
+		2
+			'smooth'
+			'with wigitate projections'
+			,
+		3
+			'absent'
+			'present'
+			,
+		4
+			'absent'
+			'pit-fused to the palial line'
+			'line fused to the palial line'
+			'pit not fused to the palial line'
+			,
+		5
+			'absent'
+			'line separate from the base of the posterior adductor scar'
+			'line partially fused to the base of the posterior adductor scar'
+			,
+		6
+			'absent'
+			'present'
+			,
+		7
+			'absent'
+			'present'
+			,
+		8
+			'absent'
+			'present'
+			,
+		9
+			'not thickened'
+			'thickened, forming a tooth-like structure'
+			,
+		10
+			'palial line not crossing the scar'
+			'palial line over scar'
+			,
+		11
+			'absent'
+			'pits'
+			,
+		12
+			'absent'
+			'triangular'
+			'triangular with concave ventral face'
+			,
+		13
+			'entirely continuous'
+			'anteriorly dotted and posteriorly continuous'
+			,
+		14
+			'not overlapped'
+			'overlapped'
+			,
+		15
+			'absent'
+			'concentric'
+			'radial'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'absent'
+			'present'
+			,
+		18
+			'absent'
+			'present'
+			,
+		19
+			'not fused'
+			'fused'
+			,
+		20
+			'curved'
+			'straight'
+			,
+		21
+			'smooth'
+			'crenulated'
+			,
+		22
+			'shallow'
+			'intermediate'
+			'deep-burrowing'
+			,
+		23
+			'slow'
+			'rapid'
+			,
+		24
+			'eurythermic'
+			'cold-cool water stenothermic'
+			'warm water stenothermic'
+			,
+	;
+	MATRIX
+	'Edmondia'              100000000000001001000000
+	'Scaldia'               100000000000001001000000
+	'Cardionwrpha'          100000000000000001000000
+	'Grammysia'             210000110110101100000000
+	'Grammysioidea'         1?0000?000?0?01100?00000
+	'Pyramus'               1011100(0 1)1011001100000101
+	'Megadesmus'            101320000011011100100001
+	'Myonia'                1(0 1)121000(0 1)01(0 1)00(0 1)1001(0 1)0001
+	'Australomya'           1012100(0 1)001100?000110101
+	'Vacunella'             10100111001(0 1)001000110201
+	'Astartila'             10100000(0 1)001001000000001
+	'Pleurikodonta'         101000000001001010001001
+	'Plesiocyprinella'      1000000(0 1)0002000100000002
+	'Casterella'            100000010000000000000102
+	'Itatamba'              100000010001000000000102
+	'Ferrazia'              100000000002002100000002
+	'Jacquesia'             100000000001000100010002
+	'Roxoa'                 100000110000000000?10202
+	'Cowperesia'            100000011001001100000112
+	'Runnegariella'         010000001011001000100012
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-24;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -828297219; FileSettings treewindow '1' '1' '20' '1'; Singles 010; Editor 00011011111111100100010010 '0' '72' Gadget '12' '158' '1' all; EditorPosition '78' '745' '529' '999'; TreeWindowPosition '249' '444' '859' '1390'; ListWindow Characters open Gadget '12' '494' '1253' '270' '517' 000; ListWindow Taxa closed Gadget '12' '50' '10' '253' '305' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Gadget '12' '10' '602' '1582' '203' '220'; WindowOrder Tree List Characters States; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '1016' '1743' '99' '96'; TreeLegendPosition '1003' '1441' '88' '93'; EditorToolsPosition '620' '12' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' ( normal ) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Gadget '12' ( normal ) Geneva '10' ( normal ) Gadget '12' ( normal ) Gadget '12' ( normal ) Gadget '12' ( bold ) Gadget '12' ( normal ) Gadget '12' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '2' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 10; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1728933982543; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3393534957196908616; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6027691539737711123; mqVersion 381; checksumv 0 3 737994410 null getNumChars 24 numChars 24 getNumTaxa 20 numTaxa 20 short true bits 15 states 15 sumSquaresStatesOnly 1204.0 sumSquares 1204.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 718 824; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6027691539737711123 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 618 752; setLocation 713 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 24; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "sj_phylogenetic_analysis_of_the_genera_of_t_mb.nex"'; ID 01928c67be842; LINK Taxa = Taxa; TRANSLATE [0] 1 Edmondia, [1] 2 Scaldia, [2] 3 Cardionwrpha, [3] 4 Grammysia, [4] 5 Grammysioidea, [5] 6 Pyramus, [6] 7 Megadesmus, [7] 8 Myonia, [8] 9 Australomya, [9] 10 Vacunella, [10] 11 Astartila, [11] 12 Pleurikodonta, [12] 13 Plesiocyprinella, [13] 14 Casterella, [14] 15 Itatamba, [15] 16 Ferrazia, [16] 17 Jacquesia, [17] 18 Roxoa, [18] 19 Cowperesia, [19] 20 Runnegariella; TREE UNTITLED = (6,(8,(7,(9,(10,(11,(12,((19,20),((17,(13,16)),(15,(18,14))))))))))); 
+ENDBLOCK;

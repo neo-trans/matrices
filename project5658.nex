@@ -1,0 +1,199 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-5 13.40.17 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=11;
+	TAXLABELS
+		'Stromatocystites'
+		'Bromidechinus rimaporus'
+		'Bothriocidaris vulcani'
+		'Bothriocidaris pahleni'
+		'Neobothriocidaris templetoni'
+		'Unibothriocidaris'
+		'Aulechinus grayae'
+		'Ectinechinus lamonti'
+		'Aptilechinus'
+		'Eothuria beggi'
+		'Gillocystis'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		[1] 'Test plating'
+		[2] 'Aboral plate system'
+		[3] 'Enlarged plates at adapical end of ambulacra forming contiguous circlet of apical disc plates'
+		[4] 'Hydropore opening'
+		[5] 'Position of hydropore opening'
+		[6] 'Position of hydropore opening - 2'
+		[7] 'Ambulacral zones with a central perradial series of plates'
+		[8] 'Ambulacral plates (i.e. tube-foot bearing plates)'
+		[9] 'Ambulacral plate shape'
+		[10] 'Ambulacral zone with a distinct perradial channel externally'
+		[11] 'Ambulacral pores'
+		[12] 'Ambulacral pores - 2'
+		[13] 'Ambulacral pores surrounded by a distinct periporal rim'
+		[14] 'Radial water vessel'
+		[15] 'Internal surface of ambulacral plates'
+		[16] 'Interambulacral plating'
+		[17] 'Interambulacral plating - 2'
+		[18] 'Position of periproct'
+		[19] 'Primary spines'
+		[20] 'Spine attachment'
+		[21] 'Primary spine arrangement on ambulacral plates'
+		[22] 'Spines present on interambulacral plates'
+		[23] 'Plate surface texture'
+		[24] 'Proximal ambulacral plates differentiated as hemipyramids that are sutured interradially'
+		[25] 'Hemipyramid shape'
+		[26] 'Teeth'
+		[27] 'Perradial plates bounding ambulacral pore'
+	;
+	STATELABELS
+		1
+			'basically imbricate'
+			'ambulacral and interambulacral plates uniformly block-like and tessellate'
+			,
+		2
+			'extensive and almost as well developed as oral plate system'
+			'highly reduced to small apical zone of circumperiproctal plates'
+			,
+		3
+			'no'
+			'yes'
+			,
+		4
+			'a simple sutural pore'
+			'a multiperforate madreporic plate'
+			,
+		5
+			'oral, immediately adjacent to the peristome'
+			'apical, associated with the aboral plating system'
+			,
+		6
+			'radial'
+			'interradial'
+			,
+		7
+			'absent'
+			'present, as a series of plates incorporated into the thecal wall'
+			'present, as a series of cover plates'
+			,
+		8
+			'arranged as a single column on each side of the perradius'
+			'arranged into multiple columns on each side of the perradius'
+			,
+		9
+			'basically rectangular'
+			'hexagonal, approximately as wide as tall'
+			'narrow and geniculate'
+			,
+		10
+			'no'
+			'yes'
+			,
+		11
+			'single'
+			'paired'
+			'multiple, forming sieve plate'
+			,
+		12
+			'passing partially or completely along the suture between adjacent plates'
+			'entirely within a single plate'
+			,
+		13
+			'no'
+			'yes'
+			,
+		14
+			'external to ambulacral plates'
+			'internal to ambulacral plates'
+			'enclosed within ambulacral plates'
+			,
+		15
+			'flat'
+			'raised to form a distinct channel perradially'
+			'differentiated into a haft and blade'
+			,
+		16
+			'absent'
+			'present'
+			,
+		17
+			'uniserial throughout'
+			'uniserial plating adapically and adorally but biserial or triserial at ambitus'
+			'wide irregular band of plates but uniserial close to peristome'
+			,
+		18
+			'opening within interambulacral zone in oral plating system'
+			'opening apically within aboral plating system'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'attached directly to plate via a ligament pit'
+			'attached and articulating onto a proper tubercle with mamelon'
+			,
+		21
+			'a single spine positioned immediately adapical of the ambulacral pore'
+			'a cluster of ambulacral spines on the aboral margin of the ambulacral pore'
+			'two spines, one on either side of the ambulacral pore'
+			,
+		22
+			'no'
+			'yes'
+			,
+		23
+			'smooth'
+			'covered in peg-like granules'
+			'with finer secondary tubercles and spines'
+			,
+		24
+			'no'
+			'yes'
+			,
+		25
+			'rod-like'
+			'wide and shield-shaped'
+			,
+		26
+			'undifferentiated'
+			'broad plate of bound spines'
+			'echinoid tooth'
+			'goniodont'
+			,
+		27
+			'no'
+			'yes'
+			,
+	;
+	MATRIX
+	'Stromatocystites'                  0000012001000001200??000???
+	'Bromidechinus rimaporus'           010?1?10000101111110001???0
+	'Bothriocidaris vulcani'            11111000201101011111012????
+	'Bothriocidaris pahleni'            11111000201101010111002101?
+	'Neobothriocidaris templetoni'      11????11201011010?11101???1
+	'Unibothriocidaris'                 11??1?1120011100??111?1???0
+	'Aulechinus grayae'                 0101110011?00221210??0111??
+	'Ectinechinus lamonti'              0101110010100221210??0011??
+	'Aptilechinus'                      01011100101002212110000112?
+	'Eothuria beggi'                    010?110010210111210??0111??
+	'Gillocystis'                       0001011000000111200??011131
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-27;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845276535; FileSettings treewindow '1' '1' '28' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '46' '6' '461' '1147'; TreeWindowPosition '46' '6' '897' '1312'; ListWindow Characters open Gadget '12' '50' '10' '559' '517' 000; ListWindow Taxa closed Geneva '9' '84' '565' '241' '332' 100000000; ListWindow Trees closed Gadget '12' '50' '25' '134' '387'; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490'; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490'; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490'; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490'; TextWindow AboutFile '90' '65' '280' '445' Gadget '12' ( normal ) 1; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols open Gadget '12' '10' '81' '1068' '203' '227'; WindowOrder Tree Text AboutFile States List Characters; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '803' '1217' '121' '85'; TreeLegendPosition '836' '1119' '88' '93'; EditorToolsPosition '771' '46' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Gadget '12' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1733735754577; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6365409010276244768; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7173908975236312616; mqVersion 381; checksumv 0 3 3582519818 null getNumChars 27 numChars 27 getNumTaxa 11 numTaxa 11 short true bits 15 states 15 sumSquaresStatesOnly 989.0 sumSquares 989.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7173908975236312616 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 27; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Ordovician_Echinoidea_Smith_&_Savill_2001_KEY.nex"'; ID 0193aab3f1b72; LINK Taxa = Taxa; TRANSLATE [0] 1 Stromatocystites, [1] 2 Bromidechinus_rimaporus, [2] 3 Bothriocidaris_vulcani, [3] 4 Bothriocidaris_pahleni, [4] 5 Neobothriocidaris_templetoni, [5] 6 Unibothriocidaris, [6] 7 Aulechinus_grayae, [7] 8 Ectinechinus_lamonti, [8] 9 Aptilechinus, [9] 10 Eothuria_beggi, [10] 11 Gillocystis; TREE UNTITLED = (1,(11,((10,(7,(8,9))),(2,((3,4),(5,6)))))); 
+ENDBLOCK;

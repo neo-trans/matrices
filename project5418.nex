@@ -1,0 +1,482 @@
+#NEXUS
+[ File output by Morphobank v4.0 (http://www.morphobank.org); 2026-7-6 04.55.35 ]
+BEGIN TAXA;
+	DIMENSIONS NTAX=45;
+	TAXLABELS
+		'Leptodius'
+		'Etisus'
+		'Panopeus'
+		'Euphrosynoplax'
+		'Domecia'
+		'Trapezia'
+		'Tetralia'
+		'Halimede'
+		'Pilumnus'
+		'Eriphia'
+		'Ozius'
+		'Menippe'
+		'Mathildella'
+		'Eucrate'
+		'Carcinoplax'
+		'Psopheticus'
+		'Carinocarcinoides'
+		'Chasmocarcinus'
+		'Hexapinus'
+		'Chaceon'
+		'Carcinus'
+		'Carpilius'
+		'Platyxanthus'
+		'Nectocarcinus'
+		'Pilumnoides'
+		'Eucratopsis'
+		'Homalaspis'
+		'Pseudozius'
+		'Epixanthus'
+		'Hypothalassia'
+		'Myomenippe'
+		'Dacryopilumnus'
+		'Progeryon'
+		'Heteroplax'
+		'Raymanninus'
+		'Benthochascon'
+		'Bathynectes'
+		'Necora'
+		'Liocarcinus'
+		'Trogloplax'
+		'Palaeoxanthopsidae'
+		'Tumidocarcinidae'
+		'Harpactoxanthopsis'
+		'Cancer'
+		'Romaleon'
+	;
+ENDBLOCK;
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=71;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		[1] 'Carapace proportion'
+		[2] 'Front with median notch'
+		[3] 'Frontal margin'
+		[4] 'Median tooth on frontal margin'
+		[5] 'Front protruded anteriorly'
+		[6] 'Notch between frontal margin and supraorbital angle'
+		[7] 'Upper orbital fissures'
+		[8] 'Anterolateral teeth'
+		[9] 'Junction between anterolateral and posterolateral margins'
+		[10] 'Orbital hiatus'
+		[11] 'Carapace posterior carina'
+		[12] 'Antennules folding'
+		[13] 'Basal article of antenna reaching front'
+		[14] 'Antenna situated between frontal margin and supraorbital angle'
+		[15] 'Buccal frame'
+		[16] 'Endostomial ridges'
+		[17] 'Ischium length of maxilliped 3'
+		[18] 'Merus of maxilliped 3'
+		[19] 'Mesial lobe (?portunid lobe?) of endopod of maxilliped 1'
+		[20] 'Propodus and dactylus of endopod of maxilliped 2'
+		[21] 'Telson of male abdomen'
+		[22] 'Male abdominal somites 4-6'
+		[23] 'Male abdominal somite 3'
+		[24] 'Male abdominal somite 3 - 2'
+		[25] 'Male abdominal somites 3 and 4'
+		[26] 'Male abdominal somites 4 and 5'
+		[27] 'Male abdominal somites 3 and 4 - 2'
+		[28] 'Male abdominal somites 4 and 5 - 2'
+		[29] 'Sternum width'
+		[30] 'Sulcus delimiting sternites 3 and 4 (male)'
+		[31] 'Sulcus delimiting sternites 4 and 5 (male)'
+		[32] 'Sulcus delimiting sternites 5 and 6 (male)'
+		[33] 'Sulcus delimiting sternites 4 and 5 (female)'
+		[34] 'Sulcus delimiting sternites 5 and 6 (female)'
+		[35] 'Sulcus delimiting sternites 6 and 7'
+		[36] 'Sulcus delimiting sternites 7 and 8'
+		[37] 'Median groove on male sternite 3'
+		[38] 'Male sternal sutures 4-8'
+		[39] 'Median sulcus on male sternite 4'
+		[40] 'Male thoracic sternites 5 with deep, median groove'
+		[41] 'Groove on male sternite 4 near lateral margin'
+		[42] 'Anterior end of male sterno-abdominal cavity'
+		[43] 'Male sternite 8 with supplementary plate'
+		[44] 'Male sternite 8 visible ventrally'
+		[45] 'Male sternite 8 visible posteriorly'
+		[46] 'Posterolateral prolongation of male episternite 7'
+		[47] 'Penial groove on male sternite 8'
+		[48] 'Fingers of pereiopod 1 dark in color'
+		[49] 'Occlusal surface of dactylus of major cheliped with molar basal tooth'
+		[50] 'Fingers of pereiopod 1 with spoon-shaped apex'
+		[51] 'Suture between merus and basis of pereiopods 1'
+		[52] 'Propodus length of pereiopods 2-4'
+		[53] 'Cross section of propodi of pereiopods 2-5'
+		[54] 'Dactyli of pereiopods 2-5 with corneous tip'
+		[55] 'Dactylus of pereiopod 5'
+		[56] 'Pereiopod 5 with paddle-like dactylus'
+		[57] 'Pereiopod 5 with foliaceous propodus'
+		[58] 'Pereiopod 5'
+		[59] 'Ambulatory dactylopropodal lock'
+		[60] 'Gonopod 1'
+		[61] 'Gonopod 1 - 2'
+		[62] 'Gonopod 1 - 3'
+		[63] 'Gonopod 1 base'
+		[64] 'Gonopod 1 - 4'
+		[65] 'Gonopod 1 - 5'
+		[66] 'Tip of gonopod 1'
+		[67] 'Gonopod 1 - 6'
+		[68] 'Gonopod 2'
+		[69] 'Gonopod 2 shape'
+		[70] 'Flagellum of gonopod 2'
+		[71] 'Tip of gonopod 2'
+	;
+	STATELABELS
+		1
+			'much wider than long'
+			'slightly wider than long or longer than wide (L/W <0.85)'
+			,
+		2
+			'present'
+			'absent'
+			,
+		3
+			'with lobes or teeth'
+			'nearly straight'
+			,
+		4
+			'absent'
+			'present'
+			,
+		5
+			'strong'
+			'weak'
+			,
+		6
+			'distinct'
+			'indistinct'
+			,
+		7
+			'present'
+			'absent'
+			,
+		8
+			'present'
+			'absent'
+			,
+		9
+			'well marked'
+			'not marked'
+			,
+		10
+			'open'
+			'completely closed'
+			,
+		11
+			'distinct'
+			'indistinct'
+			,
+		12
+			'vertically'
+			'obliquely or transversely'
+			,
+		13
+			'present'
+			'absent'
+			,
+		14
+			'present'
+			'absent'
+			,
+		15
+			'rectangular'
+			'tapered anteriorly'
+			,
+		16
+			'present'
+			'absent'
+			,
+		17
+			'longer than merus'
+			'shorter than merus'
+			,
+		18
+			'subquadrate'
+			'suboval'
+			,
+		19
+			'absent'
+			'present'
+			,
+		20
+			'separate'
+			'fused'
+			,
+		21
+			'about as long as wide'
+			'much longer than wide'
+			,
+		22
+			'absent'
+			'much narrower than somite 3'
+			,
+		23
+			'absent'
+			'much wider than somite 4, abdomen triangular'
+			,
+		24
+			'absent'
+			'much narrower than thoracic sternite 7'
+			,
+		25
+			'distinct'
+			'fused'
+			,
+		26
+			'distinct'
+			'fused'
+			,
+		27
+			'free'
+			'immovable'
+			,
+		28
+			'free'
+			'immovable'
+			,
+		29
+			'narrow'
+			'wide'
+			,
+		30
+			'deep, well marked'
+			'not specified'
+			'State 2 not specified'
+			,
+		31
+			'complete'
+			'interrupted medially'
+			,
+		32
+			'complete'
+			'interrupted medially'
+			,
+		33
+			'complete'
+			'interrupted medially'
+			,
+		34
+			'complete'
+			'interrupted medially'
+			,
+		35
+			'complete'
+			'interrupted medially'
+			,
+		36
+			'complete'
+			'interrupted medially'
+			,
+		37
+			'present'
+			'absent'
+			,
+		38
+			'nearly parallel'
+			'not parallel'
+			,
+		39
+			'present'
+			'absent'
+			,
+		40
+			'absent'
+			'present'
+			,
+		41
+			'absent'
+			'present'
+			,
+		42
+			'posterior on sternite 4'
+			'anterior on sternite 4'
+			,
+		43
+			'absent'
+			'present'
+			,
+		44
+			'indistinct'
+			'distinct'
+			,
+		45
+			'indistinct'
+			'distinct'
+			,
+		46
+			'not marked'
+			'well developed'
+			,
+		47
+			'absent'
+			'present'
+			,
+		48
+			'present'
+			'absent'
+			,
+		49
+			'absent'
+			'present'
+			,
+		50
+			'absent'
+			'present'
+			,
+		51
+			'distinct'
+			'indistinct'
+			,
+		52
+			'shorter or as long as merus'
+			'longer than merus'
+			,
+		53
+			'cylindrical'
+			'laterally compressed'
+			,
+		54
+			'present'
+			'absent'
+			,
+		55
+			'styliform'
+			'spatulate'
+			,
+		56
+			'absent'
+			'present'
+			,
+		57
+			'absent'
+			'present'
+			,
+		58
+			'present'
+			'absent'
+			,
+		59
+			'absent'
+			'present'
+			,
+		60
+			'stout'
+			'slender'
+			,
+		61
+			'stout'
+			'slender'
+			'State 2 not specified'
+			,
+		62
+			'straight'
+			'slightly sinuous or curved'
+			'sinuous or curved'
+			,
+		63
+			'slightly sinuous or straight'
+			'strongly curved and inflated'
+			,
+		64
+			'absent'
+			'present'
+			,
+		65
+			'absent'
+			'present'
+			,
+		66
+			'simple'
+			'with long hairs, spines or lobes'
+			,
+		67
+			'absent'
+			'present'
+			'State 2 not specified'
+			,
+		68
+			'long'
+			'short'
+			'very short'
+			,
+		69
+			'elongate or short but not sigmoid'
+			'sigmoid'
+			,
+		70
+			'long'
+			'short'
+			,
+		71
+			'simple'
+			'bifid'
+			,
+	;
+	MATRIX
+	'Leptodius'               00000000000100010000000011110111110011000000000001001000000110001010100
+	'Etisus'                  00000000000100110000000011110111110011000000000001001000001110001010100
+	'Panopeus'                000000000001000000000000111101111100110000000000(0 1)00(0 1)1000000100001110100
+	'Euphrosynoplax'          00000000000100000000000011110111110011000000100000011000000110001010100
+	'Domecia'                 00000010001110000001000000110211110011000000000000001000001100000010100
+	'Trapezia'                10000010101100000000000011110211110011000000000000011000001100000010100
+	'Tetralia'                11100111101100000000000000110211110011000000000000011000001100000010100
+	'Halimede'                00000000000100000000100000000111110011101100010000001000000100101021100
+	'Pilumnus'                00000000000100000000000000000111110011100100010000001000000120101021100
+	'Eriphia'                 00001010010110100000000000000111110011000000000010001000000000000000000
+	'Ozius'                   00001010000100100000000000000211110011000000000010001000000000000000010
+	'Menippe'                 00001010000110100000000000000211000011010000000010001000000000000000010
+	'Mathildella'             00100000000110000000001000111211111011100000000000011010000021000000000
+	'Eucrate'                 00101000000100000000111000001211111111100100010100011100000110000020100
+	'Carcinoplax'             01101110000111000000001000001211111111100100110(0 1)00011110000000010000000
+	'Psopheticus'             01101110000111000000001000001211111111100100110100011100000000010000000
+	'Carinocarcinoides'       011011100001110000??001011111211111111100101010100011100000????????????
+	'Chasmocarcinus'          00101111101111011100001111111211111111100111110100011110000000000000100
+	'Hexapinus'               00101111101111110100000111111211111111100100010100001000010000000010100
+	'Chaceon'                 (0 1)00000(0 1)000010100000000100011111111(0 1)011100100(0 1)001100111(0 1)(0 1)000021000000000
+	'Carcinus'                010100000001000(0 1)0000001011110111111011100101011100011110000021000010101
+	'Carpilius'               0(0 1)000110001101100000000010110200000010000000000010100100000010000000010
+	'Platyxanthus'            00000000000110110000000000000(1 2)111100110000000000(0 1)0001000000000000000000
+	'Nectocarcinus'           100000000001100000000010001101111100111001010111000111111000(1 2)1000000000
+	'Pilumnoides'             (0 1)0000000000110000000000000000100000000000000000000101000000000000010100
+	'Eucratopsis'             00000000000100000000000011110111110011000000100000001000000100001110100
+	'Homalaspis'              00000100000100110000000000000211110011000000000000001000000000000000000
+	'Pseudozius'              00001010000110100000000000000211110011000000000010001000000100000010100
+	'Epixanthus'              00001010000100100000000000000211110011000000000010001000000000000000010
+	'Hypothalassia'           10000000000110100000000000000211110011000000000010001000000000000000000
+	'Myomenippe'              00001010000110100000000000000211000011010000000010(0 1)01000000000000000010
+	'Dacryopilumnus'          01101011110110100000000000000211000011000000000000101000000000000000010
+	'Progeryon'               10(0 1)000(0 1)0000110000000001000001011111111000000000010011000000000000000000
+	'Heteroplax'              00101000000100000000111000001211111111100100110100011100000110000020100
+	'Raymanninus'             00000000000101000000001000111111111111100101011110011110000021000000000
+	'Benthochascon'           11010000000110000010001000110111111111100101011110011111100021000000000
+	'Bathynectes'             00000000000100000010001000111111111111100101011110011111100021000000101
+	'Necora'                  00000000000100000010001011111111111111100101011110011111100021000010101
+	'Liocarcinus'             11010000000100000010001011110111111111100101011100011111100021000010101
+	'Trogloplax'              001011111011110?100?001111111211111111100111110100011100000000000000000
+	'Palaeoxanthopsidae'      000000(0 1)00001010000??00000000001?1000(0 1)1001(0 1)00000?1000?????0?????????????
+	'Tumidocarcinidae'        (0 1)00000100011000000??000000000011??00010?110000?010010100000????????????
+	'Harpactoxanthopsis'      000000100011010000??000011110010100001001100000010000100000????????????
+	'Cancer'                  01010000000000000000000011110100000000100100000000001000000000000000100
+	'Romaleon'                01010000000000000000100011110100000000100100000000001000000000000000100
+;
+ENDBLOCK;
+BEGIN ASSUMPTIONS;
+TYPESET * UNTITLED = unord: 1-71;
+ENDBLOCK;
+BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845295206; FileSettings '1' '1' '72' '1'; Singles 000; Editor 00011001111111100100010010 '0' '24' Gadget '12' '162' '1' all; EditorPosition '126' '542' '903' '571'; TreeWindowPosition '44' '423' '874' '1024'; ListWindow Characters open Gadget '12' '402' '727' '270' '321' 000; ListWindow Taxa closed Gadget '12' '97' '927' '661' '307' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '134' '387' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '134' '185' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols closed Gadget '12' '10' '44' '678' '203' '435'; WindowOrder List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '934' '854' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 1000101; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXSET Analyses = 1-21; TAXSET Exclude = 22-45; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Leptodius, 2 Etisus, 3 Panopeus, 4 Euphrosynoplax, 5 Domecia, 6 Trapezia, 7 Tetralia, 8 Halimede, 9 Pilumnus, 10 Eriphia, 11 Ozius, 12 Menippe, 13 Mathildella, 14 Eucrate, 15 Carcinoplax, 16 Psopheticus, 17 Carinocarcinoides, 18 Chasmocarcinus, 19 Hexapinus, 20 Chaceon, 21 Carcinus, 22 Carpilius, 23 Platyxanthus, 24 Nectocarcinus, 25 Pilumnoides, 26 Eucratopsis, 27 Homalaspis, 28 Pseudozius, 29 Epixanthus, 30 Hypothalassia, 31 Myomenippe, 32 Dacryopilumnus, 33 Progeryon, 34 Heteroplax, 35 Raymanninus, 36 Benthochascon, 37 Bathynectes, 38 Necora, 39 Liocarcinus, 40 Trogloplax, 41 Palaeoxanthopsidae, 42 Tumidocarcinidae, 43 Harpactoxanthopsis, 44 Cancer, 45 Romaleon ; TREE Fig._1 = [&R] ((44,45),((22,(43,(41,42))),(25,(((8,9),((5,(7,6)),((3,26),(4,(1,2))))),(((27,23),(30,((28,10),((11,29),(32,(12,31)))))),(33,(((14,34),((15,16),(17,(19,(18,40))))),(13,(20,(35,((24,36),(37,(38,(21,39)))))))))))))); TREE * Ingroup_Strat_Rooted = [&R] (13,((20,21),((14,((15,16),(17,(19,18)))),((10,(11,12)),((8,9),((5,(7,6)),(3,(4,(1,2))))))))); 
+ENDBLOCK;
